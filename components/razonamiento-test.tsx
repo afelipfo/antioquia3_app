@@ -1503,7 +1503,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 51,
+    id: 89,
     category: "Comprensión Lectora",
     context: "El documento elaborado por Jaime Arbey Atehortúa Sánchez sintetiza conceptos y estrategias empleados en las pruebas de comprensión lectora y habilidad verbal de la CNSC. Explica el sentido de las habilidades evaluadas, describe la estructura de los ítems de selección múltiple y ofrece recomendaciones para responderlos con acierto.",
     question: "¿Cuál es el propósito central del documento según la descripción anterior?",
@@ -1518,7 +1518,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 52,
+    id: 90,
     category: "Comprensión Lectora",
     context: "La guía distingue entre habilidad y competencia: la habilidad es la capacidad demostrada ante problemas conocidos, mientras que la competencia implica enfrentar problemas desconocidos trasladando conocimientos a situaciones nuevas para resolverlas con éxito.",
     question: "¿Cuál de las siguientes situaciones ejemplifica una competencia según el documento?",
@@ -1533,7 +1533,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 53,
+    id: 91,
     category: "Comprensión Lectora",
     context: "El nivel de información local exige secuenciar datos, reconocer relaciones lógicas entre oraciones y detectar datos explícitos o implícitos dentro de fragmentos breves, atendiendo a sentidos puntuales y relaciones causales inmediatas.",
     question: "Cuando una pregunta pide relacionar causa y efecto dentro de un párrafo específico, ¿qué nivel de información está evaluando?",
@@ -1548,7 +1548,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 54,
+    id: 92,
     category: "Comprensión Lectora",
     context: "El nivel de información global demanda reconocer proposiciones implícitas, sintetizar el tema, jerarquizar información, identificar subtemas y extraer conclusiones a partir del texto completo.",
     question: "Identificar la idea principal de un texto y jerarquizar sus subtemas corresponde al nivel de información:",
@@ -1563,7 +1563,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 55,
+    id: 93,
     category: "Comprensión Lectora",
     context: "El nivel de información intertextual implica conectar información explícita e implícita y derivar nuevas ideas a partir de lo planteado en el texto o en otras situaciones comunicativas relacionadas con temas similares.",
     question: "Una pregunta que exige vincular el texto con experiencias externas para proponer nuevas conclusiones evalúa información:",
@@ -1578,7 +1578,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 56,
+    id: 94,
     category: "Comprensión Lectora",
     context: "El documento recuerda que la taxonomía de Bloom organiza los procesos cognitivos en la siguiente secuencia: recuerdo, comprensión, aplicación, análisis, síntesis y evaluación.",
     question: "¿Cuál opción presenta los niveles de la taxonomía de Bloom en el orden ascendente correcto?",
@@ -1593,7 +1593,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 57,
+    id: 95,
     category: "Comprensión Lectora",
     context: "La competencia interpretativa mide la capacidad de comprender información otorgándole sentido; exige reconocer relaciones semánticas, sintácticas y pragmáticas, vincular tópicos locales y globales, inferir sentidos y reconocer intenciones comunicativas.",
     question: "¿Cuál acción evidencia el desarrollo de la competencia interpretativa?",
@@ -1608,7 +1608,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 58,
+    id: 96,
     category: "Comprensión Lectora",
     context: "La competencia argumentativa se relaciona con fundamentar o sustentar planteamientos: explicitar las razones de una posición, articular teorías, vincular premisas y establecer relaciones de causalidad que respalden conclusiones.",
     question: "¿Qué conducta corresponde a la competencia argumentativa descrita?",
@@ -1623,7 +1623,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 59,
+    id: 97,
     category: "Comprensión Lectora",
     context: "La competencia propositiva examina la capacidad de plantear alternativas o establecer nuevas relaciones: formular soluciones, identificar regularidades, generar hipótesis y elaborar diseños que respondan al problema.",
     question: "¿Cuál enunciado ilustra la competencia propositiva?",
@@ -1638,7 +1638,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 60,
+    id: 98,
     category: "Conectores Lógicos",
     context: "Los conectores propios de la competencia interpretativa incluyen expresiones como 'se deduce que', 'se infiere que', 'significa que', 'se plantea que' y 'está relacionado con'.",
     question: "¿Cuál de los siguientes conectores anticipa una pregunta interpretativa?",
@@ -1653,7 +1653,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 61,
+    id: 99,
     category: "Conectores Lógicos",
     context: "Entre los conectores argumentativos se destacan: 'Esto se explica por…', 'Esto no es pertinente porque…', 'La razón es que…', 'Se debe a que…' y formulaciones similares que solicitan justificar una posición.",
     question: "¿Qué conector corresponde a un enfoque argumentativo?",
@@ -1668,7 +1668,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 62,
+    id: 100,
     category: "Conectores Lógicos",
     context: "Los conectores propositivos proponen alternativas o proyecciones, como 'Desde el punto de vista de…', 'Este problema podría solucionarse si…', 'De continuar esta tendencia…' o 'El cuadro podría evolucionar a…'.",
     question: "¿Cuál conector introduce una pregunta de tipo propositivo?",
@@ -1683,7 +1683,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 63,
+    id: 101,
     category: "Estrategias de Lectura",
     context: "Las opciones de respuesta incluyen distractores de varios tipos: el distractor tipo A parece sugerido por el enunciado pero no responde al conector; el tipo B podría responder al conector pero el enunciado no lo sugiere y se apoya en conocimientos generales; también hay respuestas erróneas que no atienden el conector aunque aparezcan en el texto, y respuestas contradictorias que van en contra de lo planteado.",
     question: "¿Cómo se reconoce un distractor tipo A?",
@@ -1698,7 +1698,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 64,
+    id: 102,
     category: "Estrategias de Lectura",
     context: "La clave correcta rara vez aparece literalmente en el texto, no siempre es la opción más extensa ni la de vocabulario rebuscado; se destaca por su mejor estructura y por representar cierto grado de dificultad al conectar de manera precisa con la pregunta.",
     question: "Según la guía, ¿qué caracteriza a la clave de una pregunta de selección múltiple?",
@@ -1713,7 +1713,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 65,
+    id: 103,
     category: "Estrategias de Lectura",
     context: "Primer bloque de recomendaciones: (1) Ante generalidades, elige la respuesta más abarcadora. (2) Identifica claramente el sujeto y el objetivo de la pregunta. (3) Si varias acciones parecen correctas, selecciona la primera en orden consecutivo. (4) Detecta los señuelos y descarta lo que no cumple el objetivo. (5) Inclínate por la opción mejor elaborada. (6) Descarta opciones que no atiendan el objetivo. (7) Si las opciones tienen varias partes, analiza cada segmento. (8) Verifica la lógica temporal. (9) Comprende el contexto y satisface completamente la solicitud. (10) No violes las premisas globales. (11) Conocer al autor ayuda a intuir la intención de la pregunta.",
     question: "¿Qué finalidad comparten las recomendaciones de este bloque?",
@@ -1728,7 +1728,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 66,
+    id: 104,
     category: "Estrategias de Lectura",
     context: "Segundo bloque de recomendaciones: (12) Identifica redundancias entre pregunta y opciones. (13) Detecta palabras clave y sus definiciones. (14) Asegura concordancia de número entre pregunta y respuesta. (15) Verifica cantidades, evitando aludir a varias situaciones cuando el caso habla de una sola. (16) Reconoce patrones en la redacción de las opciones. (17) Alinea el verbo de la respuesta con el del caso. (18) Sustituye términos de referencia por cada opción para comprobar cuál encaja.",
     question: "¿Cuál estrategia aplica mejor este conjunto de recomendaciones?",
@@ -1743,7 +1743,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 67,
+    id: 105,
     category: "Estrategias de Lectura",
     context: "Tercer bloque de recomendaciones: (19) Evita palabras negativas en preguntas sobre conceptos; las opciones deben relacionarse con el concepto citado. (20) Atiende la condición del caso cuando todas las opciones parecen plausibles. (21) Sintetiza patrones buscando una palabra que aglutine características. (22) Elige la respuesta más completa cuando el caso ya está resuelto. (23) Sigue la secuencia lógica del caso reflejada en las opciones. (24) Identifica la acción sugerida y evita trampas. (25) Busca sinónimos compartidos entre texto y opciones. (26) Focaliza el objetivo y descarta lo que no lo cumple. (27) Considera simultáneamente el objetivo y la condición establecida. (28) Mantén la coherencia temporal entre pregunta y respuesta. (29) Identifica palabras clave que dan sentido al caso. (30) Reconoce las condiciones descritas para tomar la decisión correcta.",
     question: "¿Cuál opción refleja la aplicación adecuada de estas recomendaciones finales?",

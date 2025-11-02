@@ -1,0 +1,86 @@
+[
+  {
+    "id": 7,
+    "question": "Además de capacitar, implementar el Código exige:",
+    "options": [
+      "Evitar el seguimiento",
+      "Evaluar, hacer seguimiento y generar indicadores",
+      "Centralizar la información en un único funcionario",
+      "Delegar su cumplimiento a proveedores privados"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Se plantea evaluar el cumplimiento, hacer seguimiento y generar indicadores que midan la aplicación del código.",
+    "topic": "Implementación"
+  },
+  {
+    "id": 8,
+    "question": "El valor Respeto implica como conducta positiva que el servidor público:",
+    "options": [
+      "Priorice a quienes tienen mayor influencia",
+      "Atiendan con amabilidad y equidad, abiertos al diálogo aun ante opiniones diferentes",
+      "Evite comunicarse con los usuarios",
+      "Resuelva trámites de forma discrecional"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "El Respeto se traduce en atender con dignidad y apertura al diálogo, reconociendo a todas las personas sin discriminación.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 9,
+    "question": "Lo que NO debe hacerse según el valor Respeto es:",
+    "options": [
+      "Considerar opiniones distintas",
+      "Actuar de forma discriminatoria, grosera o basar decisiones en prejuicios",
+      "Escuchar las necesidades ciudadanas",
+      "Promover el diálogo"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "El código señala que no se debe discriminar, actuar con grosería ni decidir con base en estereotipos.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 10,
+    "question": "El valor Honestidad exige entre otras conductas que el servidor público:",
+    "options": [
+      "Oculte errores",
+      "Diga la verdad incluso ante errores, busque orientación, facilite información pública y denuncie faltas",
+      "Priorice beneficios personales",
+      "Reserve información para evitar críticas"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Honestidad supone actuar con verdad, transparencia y denunciar irregularidades.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 11,
+    "question": "Dentro de lo que NO se hace bajo el valor Honestidad está:",
+    "options": [
+      "Dar trato preferencial, aceptar incentivos indebidos o usar recursos públicos para fines personales",
+      "Documentar procesos",
+      "Solicitar orientación",
+      "Publicar información de interés"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Se prohíbe otorgar privilegios, recibir beneficios indebidos o emplear recursos públicos para asuntos personales.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 12,
+    "question": "El valor Compromiso promueve conductas como:",
+    "options": [
+      "Tratar el servicio como un favor personal",
+      "Ponerse en los zapatos de los usuarios, escuchar, orientar y prestar un servicio ágil y de calidad",
+      "Ignorar las necesidades ciudadanas",
+      "Trabajar con actitud negativa"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Compromiso significa asumir responsabilidades, empatizar con la ciudadanía y ofrecer servicios oportunos y de calidad.",
+    "topic": "Valores del código"
+  }
+]

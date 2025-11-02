@@ -1,0 +1,86 @@
+[
+  {
+    "id": 19,
+    "question": "¿Qué valor fue el más votado durante la construcción participativa del código?",
+    "options": [
+      "Justicia",
+      "Honestidad",
+      "Respeto",
+      "Diligencia"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Honestidad recibió 13.879 votos, convirtiéndose en el valor más respaldado por los participantes.",
+    "topic": "Construcción participativa"
+  },
+  {
+    "id": 20,
+    "question": "La inclusión del Código de Integridad en los manuales de funciones busca principalmente:",
+    "options": [
+      "Generar trámites adicionales",
+      "Fortalecer la integridad en el servicio público incorporando los valores al desempeño diario",
+      "Eliminar la evaluación del desempeño",
+      "Reducir los programas de formación"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Incorporar el código en los manuales refuerza la integridad y los comportamientos esperados de los servidores públicos.",
+    "topic": "Implementación"
+  },
+  {
+    "id": 21,
+    "question": "De acuerdo con el Código de Integridad, firmar listas de asistencia en nombre de un compañero ausente es:",
+    "options": [
+      "Una ayuda válida si se conoce al compañero",
+      "Una práctica que vulnera la honestidad y constituye falsificación documental",
+      "Aceptable cuando se cuenta con autorización verbal",
+      "Irrelevante mientras no existan sanciones formales"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Firmar por otra persona viola la autenticidad de los registros y atenta contra el valor de la honestidad contemplado en el código.",
+    "topic": "Código de Integridad - Honestidad"
+  },
+  {
+    "id": 22,
+    "question": "Decir la verdad aunque perjudique la imagen o los intereses personales refleja:",
+    "options": [
+      "Un comportamiento ingenuo que debe evitarse",
+      "La conducta esperada de honestidad y transparencia en el servicio público",
+      "Una práctica exclusiva de auditorías",
+      "Una obligación solo cuando existe supervisión"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La honestidad implica priorizar la verdad y la transparencia por encima de beneficios personales inmediatos.",
+    "topic": "Valores del código - Honestidad"
+  },
+  {
+    "id": 23,
+    "question": "Reportar irregularidades éticas o financieras que se presencian es considerado:",
+    "options": [
+      "Una actitud opcional que puede omitirse",
+      "Un deber ético que protege los recursos públicos y combate la corrupción",
+      "Una tarea exclusiva de los organismos de control",
+      "Una acción innecesaria si no hay evidencias documentales"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Denunciar faltas y delitos es un deber contemplado en el Código de Integridad y en la normatividad disciplinaria.",
+    "topic": "Código de Integridad - Lucha contra la corrupción"
+  },
+  {
+    "id": 24,
+    "question": "Adaptar la comunicación para que personas con discapacidad comprendan los mensajes es:",
+    "options": [
+      "Un esfuerzo opcional",
+      "Una obligación de accesibilidad y trato digno coherente con el valor Respeto",
+      "Una práctica exclusiva de servicios especializados",
+      "Un ajuste innecesario cuando hay prisa"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Garantizar accesibilidad comunicativa asegura igualdad de oportunidades y materializa el valor de respeto.",
+    "topic": "Valores del código - Respeto"
+  }
+]

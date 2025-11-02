@@ -1,0 +1,758 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuál norma creó el Código de Integridad como instrumento técnico de la política de integridad?",
+    "options": [
+      "Decreto 1499 de 2017",
+      "Ley 2016 de 2020",
+      "Decreto 815 de 2018",
+      "Ley 1474 de 2011"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El Decreto 1499 de 2017, expedido con la entrada en vigencia del MIPG, estableció el Código de Integridad como instrumento técnico de la política de integridad.",
+    "topic": "Fundamento normativo"
+  },
+  {
+    "id": 2,
+    "question": "La adopción e implementación del Código de Integridad en todo el servicio público colombiano fue formalizada por:",
+    "options": [
+      "Ley 2016 de 2020",
+      "Ley 1712 de 2014",
+      "Ley 2195 de 2022",
+      "Ley 87 de 1993"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "La Ley 2016 de 2020 dispuso la adopción e implementación del código de integridad en el servicio público colombiano.",
+    "topic": "Fundamento normativo"
+  },
+  {
+    "id": 3,
+    "question": "Según la presentación, adoptar el Código de Integridad implica que las entidades deben:",
+    "options": [
+      "Diseñar controles exclusivamente financieros",
+      "Adoptar el código, gestionar conflictos de interés y fortalecer la declaración de bienes y rentas",
+      "Suspender los manuales de funciones",
+      "Eliminar los programas de inducción"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Se menciona que las entidades deben adoptar el código, manejar los conflictos de interés y robustecer la declaración de bienes y rentas.",
+    "topic": "Implementación"
+  },
+  {
+    "id": 4,
+    "question": "¿Cuántos participantes intervinieron en la construcción participativa del Código de Integridad?",
+    "options": [
+      "Cerca de 2.500",
+      "Cerca de 25.000",
+      "Más de 100.000",
+      "Menos de 500"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La presentación señala que cerca de 25.000 ciudadanos y servidores públicos participaron en la construcción del código tras un diagnóstico de la OCDE.",
+    "topic": "Construcción participativa"
+  },
+  {
+    "id": 5,
+    "question": "¿Cuántos valores adicionales puede incorporar cada entidad, además de los cinco centrales del Código?",
+    "options": [
+      "Ninguno",
+      "Uno",
+      "Hasta dos",
+      "Hasta cinco"
+    ],
+    "correctAnswer": 2,
+    "points": 5,
+    "explanation": "Cada entidad puede añadir hasta dos valores adicionales acordes con su misión, además de los cinco valores centrales.",
+    "topic": "Implementación"
+  },
+  {
+    "id": 6,
+    "question": "La implementación del Código incluye, entre otros elementos:",
+    "options": [
+      "Capacitación obligatoria de inducción para cualquier cargo",
+      "Eliminación de la evaluación del desempeño",
+      "Suspensión de indicadores de integridad",
+      "Exclusión del código de los manuales de funciones"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "La guía menciona capacitación obligatoria de inducción, indicadores y la inclusión del código en los manuales de funciones.",
+    "topic": "Implementación"
+  },
+  {
+    "id": 7,
+    "question": "Además de capacitar, implementar el Código exige:",
+    "options": [
+      "Evitar el seguimiento",
+      "Evaluar, hacer seguimiento y generar indicadores",
+      "Centralizar la información en un único funcionario",
+      "Delegar su cumplimiento a proveedores privados"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Se plantea evaluar el cumplimiento, hacer seguimiento y generar indicadores que midan la aplicación del código.",
+    "topic": "Implementación"
+  },
+  {
+    "id": 8,
+    "question": "El valor Respeto implica como conducta positiva que el servidor público:",
+    "options": [
+      "Priorice a quienes tienen mayor influencia",
+      "Atiendan con amabilidad y equidad, abiertos al diálogo aun ante opiniones diferentes",
+      "Evite comunicarse con los usuarios",
+      "Resuelva trámites de forma discrecional"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "El Respeto se traduce en atender con dignidad y apertura al diálogo, reconociendo a todas las personas sin discriminación.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 9,
+    "question": "Lo que NO debe hacerse según el valor Respeto es:",
+    "options": [
+      "Considerar opiniones distintas",
+      "Actuar de forma discriminatoria, grosera o basar decisiones en prejuicios",
+      "Escuchar las necesidades ciudadanas",
+      "Promover el diálogo"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "El código señala que no se debe discriminar, actuar con grosería ni decidir con base en estereotipos.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 10,
+    "question": "El valor Honestidad exige entre otras conductas que el servidor público:",
+    "options": [
+      "Oculte errores",
+      "Diga la verdad incluso ante errores, busque orientación, facilite información pública y denuncie faltas",
+      "Priorice beneficios personales",
+      "Reserve información para evitar críticas"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Honestidad supone actuar con verdad, transparencia y denunciar irregularidades.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 11,
+    "question": "Dentro de lo que NO se hace bajo el valor Honestidad está:",
+    "options": [
+      "Dar trato preferencial, aceptar incentivos indebidos o usar recursos públicos para fines personales",
+      "Documentar procesos",
+      "Solicitar orientación",
+      "Publicar información de interés"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Se prohíbe otorgar privilegios, recibir beneficios indebidos o emplear recursos públicos para asuntos personales.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 12,
+    "question": "El valor Compromiso promueve conductas como:",
+    "options": [
+      "Tratar el servicio como un favor personal",
+      "Ponerse en los zapatos de los usuarios, escuchar, orientar y prestar un servicio ágil y de calidad",
+      "Ignorar las necesidades ciudadanas",
+      "Trabajar con actitud negativa"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Compromiso significa asumir responsabilidades, empatizar con la ciudadanía y ofrecer servicios oportunos y de calidad.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 13,
+    "question": "Lo que NO corresponde al valor Compromiso es:",
+    "options": [
+      "Ignorar a los ciudadanos o minimizar el impacto del rol",
+      "Atender con disposición",
+      "Escuchar activamente",
+      "Orientar procesos"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Se advierte contra la actitud negativa, el desinterés y tratar el trabajo como un favor.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 14,
+    "question": "El valor Justicia implica como conducta positiva:",
+    "options": [
+      "Tomar decisiones basadas en simpatías personales",
+      "Tomar decisiones informadas y basadas en evidencias, protegiendo derechos y estableciendo mecanismos de diálogo",
+      "Favorecer a un grupo específico",
+      "Ignorar los datos disponibles"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Justicia demanda decisiones objetivas, protección de derechos y diálogo con todas las partes.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 15,
+    "question": "De acuerdo con el valor Justicia, NO debe hacerse:",
+    "options": [
+      "Promover políticas que afecten la igualdad o permitir presiones personales",
+      "Evaluar evidencias",
+      "Dialogar con los usuarios",
+      "Aplicar criterios objetivos"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Se rechaza el favoritismo y la interferencia de intereses particulares.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 16,
+    "question": "El valor Diligencia motiva a que el servidor público:",
+    "options": [
+      "Use responsablemente los recursos del Estado, cumpla tiempos y asegure calidad",
+      "Posponga decisiones",
+      "Evite proponer mejoras",
+      "Se desentienda de la gestión"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Diligencia significa actuar con prontitud, destreza y eficiencia optimizando los recursos públicos.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 17,
+    "question": "Lo que NO corresponde a Diligencia es:",
+    "options": [
+      "Malgastar recursos o demostrar desinterés en las actuaciones",
+      "Cumplir plazos",
+      "Mejorar procesos",
+      "Asegurar calidad"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Se prohíbe malgastar recursos, aplazar decisiones o desentenderse de las actividades.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 18,
+    "question": "¿Qué comportamiento concreto se asocia al valor Respeto según la guía?",
+    "options": [
+      "Tratar dignamente y escuchar incluso opiniones distintas",
+      "Evitar responder preguntas del ciudadano",
+      "Priorizar la jerarquía sobre la igualdad",
+      "Limitar el diálogo a los superiores"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Respeto significa reconocer y tratar dignamente a todas las personas, propiciando diálogo y comprensión.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 19,
+    "question": "¿Qué valor fue el más votado durante la construcción participativa del código?",
+    "options": [
+      "Justicia",
+      "Honestidad",
+      "Respeto",
+      "Diligencia"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Honestidad recibió 13.879 votos, convirtiéndose en el valor más respaldado por los participantes.",
+    "topic": "Construcción participativa"
+  },
+  {
+    "id": 20,
+    "question": "La inclusión del Código de Integridad en los manuales de funciones busca principalmente:",
+    "options": [
+      "Generar trámites adicionales",
+      "Fortalecer la integridad en el servicio público incorporando los valores al desempeño diario",
+      "Eliminar la evaluación del desempeño",
+      "Reducir los programas de formación"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Incorporar el código en los manuales refuerza la integridad y los comportamientos esperados de los servidores públicos.",
+    "topic": "Implementación"
+  },
+  {
+    "id": 21,
+    "question": "De acuerdo con el Código de Integridad, firmar listas de asistencia en nombre de un compañero ausente es:",
+    "options": [
+      "Una ayuda válida si se conoce al compañero",
+      "Una práctica que vulnera la honestidad y constituye falsificación documental",
+      "Aceptable cuando se cuenta con autorización verbal",
+      "Irrelevante mientras no existan sanciones formales"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Firmar por otra persona viola la autenticidad de los registros y atenta contra el valor de la honestidad contemplado en el código.",
+    "topic": "Código de Integridad - Honestidad"
+  },
+  {
+    "id": 22,
+    "question": "Decir la verdad aunque perjudique la imagen o los intereses personales refleja:",
+    "options": [
+      "Un comportamiento ingenuo que debe evitarse",
+      "La conducta esperada de honestidad y transparencia en el servicio público",
+      "Una práctica exclusiva de auditorías",
+      "Una obligación solo cuando existe supervisión"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La honestidad implica priorizar la verdad y la transparencia por encima de beneficios personales inmediatos.",
+    "topic": "Valores del código - Honestidad"
+  },
+  {
+    "id": 23,
+    "question": "Reportar irregularidades éticas o financieras que se presencian es considerado:",
+    "options": [
+      "Una actitud opcional que puede omitirse",
+      "Un deber ético que protege los recursos públicos y combate la corrupción",
+      "Una tarea exclusiva de los organismos de control",
+      "Una acción innecesaria si no hay evidencias documentales"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Denunciar faltas y delitos es un deber contemplado en el Código de Integridad y en la normatividad disciplinaria.",
+    "topic": "Código de Integridad - Lucha contra la corrupción"
+  },
+  {
+    "id": 24,
+    "question": "Adaptar la comunicación para que personas con discapacidad comprendan los mensajes es:",
+    "options": [
+      "Un esfuerzo opcional",
+      "Una obligación de accesibilidad y trato digno coherente con el valor Respeto",
+      "Una práctica exclusiva de servicios especializados",
+      "Un ajuste innecesario cuando hay prisa"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Garantizar accesibilidad comunicativa asegura igualdad de oportunidades y materializa el valor de respeto.",
+    "topic": "Valores del código - Respeto"
+  },
+  {
+    "id": 25,
+    "question": "Hacer comentarios sexistas o discriminatorios, aunque sea en privado, según el código:",
+    "options": [
+      "Es aceptable porque no se hace en público",
+      "Normaliza la discriminación y contradice el valor Respeto",
+      "Es válido si no se identifica a la persona",
+      "Es admisible siempre que exista confianza"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Cualquier manifestación discriminatoria vulnera la dignidad humana y se opone al valor Respeto del código.",
+    "topic": "Valores del código - Respeto"
+  },
+  {
+    "id": 26,
+    "question": "Aceptar críticas sobre el trabajo sin tomarlas como ataques personales demuestra:",
+    "options": [
+      "Debilidad profesional",
+      "Apertura al diálogo, madurez emocional y compromiso con la mejora",
+      "Desinterés frente a la tarea asignada",
+      "Una postura contraproducente para el liderazgo"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Escuchar críticas con apertura es coherente con el valor Respeto y fortalece el trabajo en equipo.",
+    "topic": "Valores del código - Trabajo en equipo"
+  },
+  {
+    "id": 27,
+    "question": "Limitarse a realizar únicamente las tareas mínimas para no exceder la jornada evidencia:",
+    "options": [
+      "Un compromiso sólido con la organización",
+      "Una falta de compromiso y desapego con la misión institucional",
+      "Una estrategia válida para equilibrar responsabilidades",
+      "Una forma de evitar conflictos con los superiores"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "El valor Compromiso implica ir más allá del mínimo requerido y priorizar los resultados para la ciudadanía.",
+    "topic": "Valores del código - Compromiso"
+  },
+  {
+    "id": 1,
+    "question": "¿Cómo define la presentación las competencias laborales en términos generales?",
+    "options": [
+      "Como conocimientos aislados",
+      "Como características intrínsecas demostradas mediante conductas ligadas a un desempeño superior",
+      "Como requisitos administrativos sin efectos en el trabajo",
+      "Como inventarios de funciones"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Se afirma que las competencias son características intrínsecas que se evidencian en conductas relacionadas con un desempeño destacado.",
+    "topic": "Definición de competencia"
+  },
+  {
+    "id": 2,
+    "question": "La definición de Spenser rescatada en la presentación indica que una competencia es:",
+    "options": [
+      "Una característica opcional",
+      "Una característica fundamental causalmente relacionada con un desempeño efectivo o superior",
+      "Un requisito de antigüedad",
+      "Un documento administrativo"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Spenser conceptualiza la competencia como una característica fundamental causalmente ligada al desempeño superior.",
+    "topic": "Definición académica"
+  },
+  {
+    "id": 3,
+    "question": "De acuerdo con el Decreto 815 de 2018, una competencia en el sector público es la capacidad de:",
+    "options": [
+      "Desempeñarse en diferentes contextos cumpliendo estándares de calidad y resultados, sustentada en conocimientos, destrezas, habilidades, valores, actitudes y aptitudes",
+      "Cumplir únicamente metas financieras",
+      "Ejecutar tareas sin evaluar resultados",
+      "Restringir los procesos a un único contexto"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El decreto establece que la competencia integra conocimientos, destrezas, habilidades, valores, actitudes y aptitudes para alcanzar los resultados esperados.",
+    "topic": "Definición normativa"
+  },
+  {
+    "id": 4,
+    "question": "El Decreto 815 diferencia entre competencias funcionales y comportamentales para:",
+    "options": [
+      "Eliminar la gestión por competencias",
+      "Separar responsabilidades técnicas de conductuales",
+      "Limitar las responsabilidades del servidor",
+      "Sustituir el Código de Integridad"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "El decreto distingue competencias funcionales (relacionadas con las tareas técnicas) y comportamentales (conductas esperadas).",
+    "topic": "Clasificación de competencias"
+  },
+  {
+    "id": 5,
+    "question": "Las competencias comunes que todo servidor debe acreditar incluyen:",
+    "options": [
+      "Aprendizaje continuo, orientación a resultados, orientación al usuario y al ciudadano, compromiso con la organización, trabajo en equipo y adaptación al cambio",
+      "Solo competencias directivas",
+      "Exclusivamente conocimientos disciplinarios",
+      "Únicamente competencias técnicas"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El decreto identifica seis competencias comunes que aplican a todos los niveles jerárquicos.",
+    "topic": "Competencias comunes"
+  },
+  {
+    "id": 6,
+    "question": "Aprendizaje continuo implica conductas como:",
+    "options": [
+      "Resistirse a los cambios",
+      "Mantener competencias actualizadas, gestionar fuentes de información confiables y compartir conocimientos",
+      "Reservar el conocimiento",
+      "Depender de información sin verificar"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La competencia demanda actualización permanente, uso de fuentes confiables y socialización del conocimiento.",
+    "topic": "Competencias comunes"
+  },
+  {
+    "id": 7,
+    "question": "Orientación a resultados conlleva:",
+    "options": [
+      "Fijar objetivos claros, diseñar indicadores, minimizar riesgos y asumir responsabilidad por los resultados",
+      "Trabajar sin métricas",
+      "Delegar siempre la responsabilidad",
+      "Ignorar los estándares institucionales"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Esta competencia busca el cumplimiento de objetivos con indicadores, gestión de riesgos y responsabilidad individual.",
+    "topic": "Competencias comunes"
+  },
+  {
+    "id": 8,
+    "question": "Orientación al usuario y al ciudadano implica:",
+    "options": [
+      "Centrar las decisiones en la satisfacción de usuarios y ciudadanía, valorar sus necesidades y establecer mecanismos para conocerlas",
+      "Evitar la interacción con el ciudadano",
+      "Restringir el servicio a canales internos",
+      "Discriminar según el tipo de usuario"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "La competencia orienta decisiones y acciones hacia la satisfacción y no discriminación de usuarios y ciudadanos.",
+    "topic": "Competencias comunes"
+  },
+  {
+    "id": 9,
+    "question": "Compromiso con la organización se manifiesta cuando el servidor:",
+    "options": [
+      "Alinea su comportamiento con las metas institucionales, antepone los intereses de la organización y demuestra sentido de pertenencia",
+      "Prioriza el beneficio personal",
+      "Ignora los objetivos institucionales",
+      "Limita su aporte a lo mínimo"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "La competencia exige comportamiento alineado con metas y sentido de pertenencia.",
+    "topic": "Competencias comunes"
+  },
+  {
+    "id": 10,
+    "question": "Trabajo en equipo, según la presentación, incluye:",
+    "options": [
+      "Colaborar con compañeros, respetar criterios diversos y contribuir a un clima laboral armónico",
+      "Competir con el equipo",
+      "Evitar el intercambio de ideas",
+      "Delegar todo en un líder"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "La competencia enfatiza la colaboración, el respeto por la diversidad y el apoyo mutuo.",
+    "topic": "Competencias comunes"
+  },
+  {
+    "id": 11,
+    "question": "Adaptación al cambio requiere:",
+    "options": [
+      "Rechazar nuevas metas",
+      "Aceptar y apoyar nuevas situaciones, procesos y objetivos institucionales",
+      "Limitarse a procedimientos antiguos",
+      "Detener la transformación organizacional"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La competencia se enfoca en aceptar, apoyar y gestionar positivamente los cambios institucionales.",
+    "topic": "Competencias comunes"
+  },
+  {
+    "id": 12,
+    "question": "El nivel Directivo se destaca por:",
+    "options": [
+      "Formular políticas institucionales y adoptar planes, programas y proyectos",
+      "Ejecutar tareas de apoyo complementario",
+      "Registrar información básica",
+      "Cotizar bienes y servicios"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El nivel directivo es responsable de formular políticas y adoptar planes y proyectos institucionales.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 13,
+    "question": "Una competencia clave del nivel Directivo es:",
+    "options": [
+      "Visión estratégica",
+      "Manejo de archivos",
+      "Colaboración logística",
+      "Gestión de correspondencia"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Entre las competencias del nivel directivo se encuentran visión estratégica, liderazgo efectivo y pensamiento sistémico.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 14,
+    "question": "El nivel Asesor tiene la responsabilidad de:",
+    "options": [
+      "Asistir y aconsejar a empleados de la alta dirección",
+      "Dirigir el servicio al ciudadano",
+      "Ejecutar procesos misionales",
+      "Registrar datos operativos"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El nivel asesor presta apoyo experto y consejo a la alta dirección.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 15,
+    "question": "Una competencia del nivel Asesor es:",
+    "options": [
+      "Confiabilidad técnica",
+      "Manejo de archivo",
+      "Atención telefónica",
+      "Soporte logístico"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Para el nivel asesor se incluyen competencias como confiabilidad técnica, creatividad e innovación e iniciativa.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 16,
+    "question": "El nivel Profesional se caracteriza por:",
+    "options": [
+      "Ejecutar procesos y procedimientos técnicos aplicando ciencia y tecnología",
+      "Administrar trámites básicos",
+      "Apoyar tareas logísticas",
+      "Coordinar exclusivamente la agenda de directivos"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Los profesionales ejecutan procesos técnicos y aplican conocimientos científicos y tecnológicos.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 17,
+    "question": "Una competencia del nivel Profesional es:",
+    "options": [
+      "Instrumentación de decisiones",
+      "Registro de correspondencia",
+      "Transporte de documentos",
+      "Turnos de vigilancia"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Entre las competencias profesionales se encuentran aporte técnico-profesional, comunicación efectiva, instrumentación de decisiones y gestión de procedimientos.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 18,
+    "question": "El nivel Técnico se orienta a:",
+    "options": [
+      "Desarrollar actividades técnicas misionales y de apoyo",
+      "Formular políticas públicas",
+      "Evaluar proyectos estratégicos",
+      "Coordinar comisiones internacionales"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El nivel técnico desarrolla actividades técnicas misionales y de apoyo dentro de la entidad.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 19,
+    "question": "Las competencias del nivel Técnico incluyen:",
+    "options": [
+      "Confiabilidad técnica, disciplina y responsabilidad",
+      "Visión estratégica",
+      "Gestión de la innovación",
+      "Resolución de conflictos complejos"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El decreto asigna al nivel técnico competencias como confiabilidad técnica, disciplina y responsabilidad.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 20,
+    "question": "El nivel Asistencial se encarga de:",
+    "options": [
+      "Realizar tareas de apoyo complementario y, según la complejidad, coordinar o supervisar áreas internas",
+      "Dirigir la planeación institucional",
+      "Diseñar políticas públicas",
+      "Representar a la entidad ante organismos internacionales"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El nivel asistencial desarrolla tareas de apoyo y, de acuerdo con la complejidad, coordina o supervisa actividades internas.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 21,
+    "question": "Invertir tiempo extra en capacitarse para servir mejor a la ciudadanía es un ejemplo de:",
+    "options": [
+      "Falta de priorización",
+      "Aprendizaje continuo y compromiso con la excelencia",
+      "Uso indebido del tiempo",
+      "Conducta innecesaria"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La autoformación constante fortalece el valor Aprendizaje continuo y la vocación de servicio.",
+    "topic": "Competencias comunes - Aprendizaje continuo"
+  },
+  {
+    "id": 22,
+    "question": "Renunciar a un proyecto prioritario porque requiere esfuerzo adicional no remunerado revela:",
+    "options": [
+      "Vocación de servicio",
+      "Un compromiso condicionado y falta de perseverancia",
+      "Gestión eficiente del tiempo",
+      "Una medida justificada por el bienestar personal"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "El compromiso con la organización implica asumir esfuerzos adicionales cuando es necesario para cumplir la misión.",
+    "topic": "Valores del código - Compromiso"
+  },
+  {
+    "id": 23,
+    "question": "Buscar formas de hacer procesos más eficientes y ahorrar recursos demuestra:",
+    "options": [
+      "Resistencia al cambio",
+      "Diligencia proactiva orientada a la mejora continua",
+      "Incumplimiento de funciones",
+      "Desinterés por los resultados"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La diligencia implica optimizar recursos, proponer mejoras y aportar a la eficiencia institucional.",
+    "topic": "Valores del código - Diligencia"
+  },
+  {
+    "id": 24,
+    "question": "Omitir pasos 'innecesarios' en protocolos para cumplir metas más rápido implica:",
+    "options": [
+      "Compromiso con la eficiencia",
+      "Riesgos para la calidad, la trazabilidad y el cumplimiento normativo",
+      "Innovación positiva",
+      "Una práctica avalada por el Código de Integridad"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Tomar atajos compromete la diligencia, la calidad y la seguridad de los procesos.",
+    "topic": "Valores del código - Diligencia"
+  },
+  {
+    "id": 25,
+    "question": "Abandonar tareas ante dificultades no previstas refleja:",
+    "options": [
+      "Resiliencia",
+      "Falta de perseverancia y adaptación al cambio",
+      "Capacidad de priorización",
+      "Gestión estratégica"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La adaptación al cambio requiere mantener el esfuerzo, buscar soluciones y gestionar los obstáculos.",
+    "topic": "Competencias comunes - Adaptación al cambio"
+  },
+  {
+    "id": 26,
+    "question": "Escuchar a todas las partes involucradas antes de decidir en un conflicto garantiza:",
+    "options": [
+      "Retrasos injustificados",
+      "Decisiones equitativas, informadas y legítimas",
+      "Ventaja personal",
+      "Evitar responsabilidades"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La justicia exige oír a todas las partes para asegurar decisiones imparciales y fundamentadas.",
+    "topic": "Valores del código - Justicia"
+  },
+  {
+    "id": 27,
+    "question": "Manipular evaluaciones de desempeño para perjudicar a alguien es:",
+    "options": [
+      "Una acción válida cuando hay conflictos personales",
+      "Contraria a la justicia, la transparencia y la ética pública",
+      "Una herramienta de gestión",
+      "Una práctica aceptada si no hay supervisión"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Manipular evaluaciones es un abuso de autoridad que viola los principios de justicia y transparencia.",
+    "topic": "Valores del código - Justicia"
+  }
+]

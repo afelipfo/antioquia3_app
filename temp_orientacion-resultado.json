@@ -1,0 +1,72 @@
+[
+  {
+    "id": 13,
+    "question": "Una competencia clave del nivel Directivo es:",
+    "options": [
+      "Visión estratégica",
+      "Manejo de archivos",
+      "Colaboración logística",
+      "Gestión de correspondencia"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Entre las competencias del nivel directivo se encuentran visión estratégica, liderazgo efectivo y pensamiento sistémico.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 14,
+    "question": "El nivel Asesor tiene la responsabilidad de:",
+    "options": [
+      "Asistir y aconsejar a empleados de la alta dirección",
+      "Dirigir el servicio al ciudadano",
+      "Ejecutar procesos misionales",
+      "Registrar datos operativos"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El nivel asesor presta apoyo experto y consejo a la alta dirección.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 15,
+    "question": "Una competencia del nivel Asesor es:",
+    "options": [
+      "Confiabilidad técnica",
+      "Manejo de archivo",
+      "Atención telefónica",
+      "Soporte logístico"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Para el nivel asesor se incluyen competencias como confiabilidad técnica, creatividad e innovación e iniciativa.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 16,
+    "question": "El nivel Profesional se caracteriza por:",
+    "options": [
+      "Ejecutar procesos y procedimientos técnicos aplicando ciencia y tecnología",
+      "Administrar trámites básicos",
+      "Apoyar tareas logísticas",
+      "Coordinar exclusivamente la agenda de directivos"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Los profesionales ejecutan procesos técnicos y aplican conocimientos científicos y tecnológicos.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 17,
+    "question": "Una competencia del nivel Profesional es:",
+    "options": [
+      "Instrumentación de decisiones",
+      "Registro de correspondencia",
+      "Transporte de documentos",
+      "Turnos de vigilancia"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Entre las competencias profesionales se encuentran aporte técnico-profesional, comunicación efectiva, instrumentación de decisiones y gestión de procedimientos.",
+    "topic": "Competencias por nivel"
+  }
+]

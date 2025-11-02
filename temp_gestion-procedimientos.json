@@ -1,0 +1,72 @@
+[
+  {
+    "id": 3,
+    "question": "De acuerdo con el Decreto 815 de 2018, una competencia en el sector público es la capacidad de:",
+    "options": [
+      "Desempeñarse en diferentes contextos cumpliendo estándares de calidad y resultados, sustentada en conocimientos, destrezas, habilidades, valores, actitudes y aptitudes",
+      "Cumplir únicamente metas financieras",
+      "Ejecutar tareas sin evaluar resultados",
+      "Restringir los procesos a un único contexto"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El decreto establece que la competencia integra conocimientos, destrezas, habilidades, valores, actitudes y aptitudes para alcanzar los resultados esperados.",
+    "topic": "Definición normativa"
+  },
+  {
+    "id": 4,
+    "question": "El Decreto 815 diferencia entre competencias funcionales y comportamentales para:",
+    "options": [
+      "Eliminar la gestión por competencias",
+      "Separar responsabilidades técnicas de conductuales",
+      "Limitar las responsabilidades del servidor",
+      "Sustituir el Código de Integridad"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "El decreto distingue competencias funcionales (relacionadas con las tareas técnicas) y comportamentales (conductas esperadas).",
+    "topic": "Clasificación de competencias"
+  },
+  {
+    "id": 5,
+    "question": "Las competencias comunes que todo servidor debe acreditar incluyen:",
+    "options": [
+      "Aprendizaje continuo, orientación a resultados, orientación al usuario y al ciudadano, compromiso con la organización, trabajo en equipo y adaptación al cambio",
+      "Solo competencias directivas",
+      "Exclusivamente conocimientos disciplinarios",
+      "Únicamente competencias técnicas"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El decreto identifica seis competencias comunes que aplican a todos los niveles jerárquicos.",
+    "topic": "Competencias comunes"
+  },
+  {
+    "id": 6,
+    "question": "Aprendizaje continuo implica conductas como:",
+    "options": [
+      "Resistirse a los cambios",
+      "Mantener competencias actualizadas, gestionar fuentes de información confiables y compartir conocimientos",
+      "Reservar el conocimiento",
+      "Depender de información sin verificar"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La competencia demanda actualización permanente, uso de fuentes confiables y socialización del conocimiento.",
+    "topic": "Competencias comunes"
+  },
+  {
+    "id": 7,
+    "question": "Orientación a resultados conlleva:",
+    "options": [
+      "Fijar objetivos claros, diseñar indicadores, minimizar riesgos y asumir responsabilidad por los resultados",
+      "Trabajar sin métricas",
+      "Delegar siempre la responsabilidad",
+      "Ignorar los estándares institucionales"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Esta competencia busca el cumplimiento de objetivos con indicadores, gestión de riesgos y responsabilidad individual.",
+    "topic": "Competencias comunes"
+  }
+]

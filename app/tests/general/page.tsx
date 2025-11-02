@@ -8,20 +8,26 @@ const subjects = [
   {
     id: "gestion-publica",
     title: "Gestión Pública Territorial",
-    description: "Principios y prácticas de la gestión pública en entidades territoriales",
-    questionsCount: 0,
+    description: "Normativa disciplinaria y responsabilidades de los servidores públicos en el territorio",
+    questionsCount: 20,
   },
   {
     id: "normatividad",
     title: "Normatividad de las Entidades Territoriales",
     description: "Marco legal y normativo que rige las entidades territoriales",
-    questionsCount: 0,
+    questionsCount: 20,
+  },
+  {
+    id: "mipg",
+    title: "Modelo Integrado de Planeación y Gestión",
+    description: "Dimensiones, políticas y medición del MIPG en la gestión pública colombiana",
+    questionsCount: 20,
   },
   {
     id: "razonamiento",
     title: "Razonamiento Analítico",
     description: "Capacidad de análisis lógico y resolución de problemas",
-    questionsCount: 0,
+    questionsCount: 58,
   },
 ]
 

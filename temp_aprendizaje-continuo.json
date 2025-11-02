@@ -1,0 +1,86 @@
+[
+  {
+    "id": 13,
+    "question": "Lo que NO corresponde al valor Compromiso es:",
+    "options": [
+      "Ignorar a los ciudadanos o minimizar el impacto del rol",
+      "Atender con disposición",
+      "Escuchar activamente",
+      "Orientar procesos"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Se advierte contra la actitud negativa, el desinterés y tratar el trabajo como un favor.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 14,
+    "question": "El valor Justicia implica como conducta positiva:",
+    "options": [
+      "Tomar decisiones basadas en simpatías personales",
+      "Tomar decisiones informadas y basadas en evidencias, protegiendo derechos y estableciendo mecanismos de diálogo",
+      "Favorecer a un grupo específico",
+      "Ignorar los datos disponibles"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Justicia demanda decisiones objetivas, protección de derechos y diálogo con todas las partes.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 15,
+    "question": "De acuerdo con el valor Justicia, NO debe hacerse:",
+    "options": [
+      "Promover políticas que afecten la igualdad o permitir presiones personales",
+      "Evaluar evidencias",
+      "Dialogar con los usuarios",
+      "Aplicar criterios objetivos"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Se rechaza el favoritismo y la interferencia de intereses particulares.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 16,
+    "question": "El valor Diligencia motiva a que el servidor público:",
+    "options": [
+      "Use responsablemente los recursos del Estado, cumpla tiempos y asegure calidad",
+      "Posponga decisiones",
+      "Evite proponer mejoras",
+      "Se desentienda de la gestión"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Diligencia significa actuar con prontitud, destreza y eficiencia optimizando los recursos públicos.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 17,
+    "question": "Lo que NO corresponde a Diligencia es:",
+    "options": [
+      "Malgastar recursos o demostrar desinterés en las actuaciones",
+      "Cumplir plazos",
+      "Mejorar procesos",
+      "Asegurar calidad"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Se prohíbe malgastar recursos, aplazar decisiones o desentenderse de las actividades.",
+    "topic": "Valores del código"
+  },
+  {
+    "id": 18,
+    "question": "¿Qué comportamiento concreto se asocia al valor Respeto según la guía?",
+    "options": [
+      "Tratar dignamente y escuchar incluso opiniones distintas",
+      "Evitar responder preguntas del ciudadano",
+      "Priorizar la jerarquía sobre la igualdad",
+      "Limitar el diálogo a los superiores"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "Respeto significa reconocer y tratar dignamente a todas las personas, propiciando diálogo y comprensión.",
+    "topic": "Valores del código"
+  }
+]

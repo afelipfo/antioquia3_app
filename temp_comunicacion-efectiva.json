@@ -1,0 +1,72 @@
+[
+  {
+    "id": 25,
+    "question": "Hacer comentarios sexistas o discriminatorios, aunque sea en privado, según el código:",
+    "options": [
+      "Es aceptable porque no se hace en público",
+      "Normaliza la discriminación y contradice el valor Respeto",
+      "Es válido si no se identifica a la persona",
+      "Es admisible siempre que exista confianza"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Cualquier manifestación discriminatoria vulnera la dignidad humana y se opone al valor Respeto del código.",
+    "topic": "Valores del código - Respeto"
+  },
+  {
+    "id": 26,
+    "question": "Aceptar críticas sobre el trabajo sin tomarlas como ataques personales demuestra:",
+    "options": [
+      "Debilidad profesional",
+      "Apertura al diálogo, madurez emocional y compromiso con la mejora",
+      "Desinterés frente a la tarea asignada",
+      "Una postura contraproducente para el liderazgo"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Escuchar críticas con apertura es coherente con el valor Respeto y fortalece el trabajo en equipo.",
+    "topic": "Valores del código - Trabajo en equipo"
+  },
+  {
+    "id": 27,
+    "question": "Limitarse a realizar únicamente las tareas mínimas para no exceder la jornada evidencia:",
+    "options": [
+      "Un compromiso sólido con la organización",
+      "Una falta de compromiso y desapego con la misión institucional",
+      "Una estrategia válida para equilibrar responsabilidades",
+      "Una forma de evitar conflictos con los superiores"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "El valor Compromiso implica ir más allá del mínimo requerido y priorizar los resultados para la ciudadanía.",
+    "topic": "Valores del código - Compromiso"
+  },
+  {
+    "id": 1,
+    "question": "¿Cómo define la presentación las competencias laborales en términos generales?",
+    "options": [
+      "Como conocimientos aislados",
+      "Como características intrínsecas demostradas mediante conductas ligadas a un desempeño superior",
+      "Como requisitos administrativos sin efectos en el trabajo",
+      "Como inventarios de funciones"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Se afirma que las competencias son características intrínsecas que se evidencian en conductas relacionadas con un desempeño destacado.",
+    "topic": "Definición de competencia"
+  },
+  {
+    "id": 2,
+    "question": "La definición de Spenser rescatada en la presentación indica que una competencia es:",
+    "options": [
+      "Una característica opcional",
+      "Una característica fundamental causalmente relacionada con un desempeño efectivo o superior",
+      "Un requisito de antigüedad",
+      "Un documento administrativo"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Spenser conceptualiza la competencia como una característica fundamental causalmente ligada al desempeño superior.",
+    "topic": "Definición académica"
+  }
+]

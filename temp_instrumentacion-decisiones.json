@@ -1,0 +1,72 @@
+[
+  {
+    "id": 8,
+    "question": "Orientación al usuario y al ciudadano implica:",
+    "options": [
+      "Centrar las decisiones en la satisfacción de usuarios y ciudadanía, valorar sus necesidades y establecer mecanismos para conocerlas",
+      "Evitar la interacción con el ciudadano",
+      "Restringir el servicio a canales internos",
+      "Discriminar según el tipo de usuario"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "La competencia orienta decisiones y acciones hacia la satisfacción y no discriminación de usuarios y ciudadanos.",
+    "topic": "Competencias comunes"
+  },
+  {
+    "id": 9,
+    "question": "Compromiso con la organización se manifiesta cuando el servidor:",
+    "options": [
+      "Alinea su comportamiento con las metas institucionales, antepone los intereses de la organización y demuestra sentido de pertenencia",
+      "Prioriza el beneficio personal",
+      "Ignora los objetivos institucionales",
+      "Limita su aporte a lo mínimo"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "La competencia exige comportamiento alineado con metas y sentido de pertenencia.",
+    "topic": "Competencias comunes"
+  },
+  {
+    "id": 10,
+    "question": "Trabajo en equipo, según la presentación, incluye:",
+    "options": [
+      "Colaborar con compañeros, respetar criterios diversos y contribuir a un clima laboral armónico",
+      "Competir con el equipo",
+      "Evitar el intercambio de ideas",
+      "Delegar todo en un líder"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "La competencia enfatiza la colaboración, el respeto por la diversidad y el apoyo mutuo.",
+    "topic": "Competencias comunes"
+  },
+  {
+    "id": 11,
+    "question": "Adaptación al cambio requiere:",
+    "options": [
+      "Rechazar nuevas metas",
+      "Aceptar y apoyar nuevas situaciones, procesos y objetivos institucionales",
+      "Limitarse a procedimientos antiguos",
+      "Detener la transformación organizacional"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La competencia se enfoca en aceptar, apoyar y gestionar positivamente los cambios institucionales.",
+    "topic": "Competencias comunes"
+  },
+  {
+    "id": 12,
+    "question": "El nivel Directivo se destaca por:",
+    "options": [
+      "Formular políticas institucionales y adoptar planes, programas y proyectos",
+      "Ejecutar tareas de apoyo complementario",
+      "Registrar información básica",
+      "Cotizar bienes y servicios"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El nivel directivo es responsable de formular políticas y adoptar planes y proyectos institucionales.",
+    "topic": "Competencias por nivel"
+  }
+]

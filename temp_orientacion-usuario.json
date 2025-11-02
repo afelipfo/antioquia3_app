@@ -1,0 +1,72 @@
+[
+  {
+    "id": 18,
+    "question": "El nivel Técnico se orienta a:",
+    "options": [
+      "Desarrollar actividades técnicas misionales y de apoyo",
+      "Formular políticas públicas",
+      "Evaluar proyectos estratégicos",
+      "Coordinar comisiones internacionales"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El nivel técnico desarrolla actividades técnicas misionales y de apoyo dentro de la entidad.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 19,
+    "question": "Las competencias del nivel Técnico incluyen:",
+    "options": [
+      "Confiabilidad técnica, disciplina y responsabilidad",
+      "Visión estratégica",
+      "Gestión de la innovación",
+      "Resolución de conflictos complejos"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El decreto asigna al nivel técnico competencias como confiabilidad técnica, disciplina y responsabilidad.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 20,
+    "question": "El nivel Asistencial se encarga de:",
+    "options": [
+      "Realizar tareas de apoyo complementario y, según la complejidad, coordinar o supervisar áreas internas",
+      "Dirigir la planeación institucional",
+      "Diseñar políticas públicas",
+      "Representar a la entidad ante organismos internacionales"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El nivel asistencial desarrolla tareas de apoyo y, de acuerdo con la complejidad, coordina o supervisa actividades internas.",
+    "topic": "Competencias por nivel"
+  },
+  {
+    "id": 21,
+    "question": "Invertir tiempo extra en capacitarse para servir mejor a la ciudadanía es un ejemplo de:",
+    "options": [
+      "Falta de priorización",
+      "Aprendizaje continuo y compromiso con la excelencia",
+      "Uso indebido del tiempo",
+      "Conducta innecesaria"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La autoformación constante fortalece el valor Aprendizaje continuo y la vocación de servicio.",
+    "topic": "Competencias comunes - Aprendizaje continuo"
+  },
+  {
+    "id": 22,
+    "question": "Renunciar a un proyecto prioritario porque requiere esfuerzo adicional no remunerado revela:",
+    "options": [
+      "Vocación de servicio",
+      "Un compromiso condicionado y falta de perseverancia",
+      "Gestión eficiente del tiempo",
+      "Una medida justificada por el bienestar personal"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "El compromiso con la organización implica asumir esfuerzos adicionales cuando es necesario para cumplir la misión.",
+    "topic": "Valores del código - Compromiso"
+  }
+]

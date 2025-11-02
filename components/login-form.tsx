@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Loader2, LogIn } from "lucide-react"
 
 export function LoginForm() {
   const [username, setUsername] = useState("")
@@ -44,13 +45,16 @@ export function LoginForm() {
   }
 
   return (
-    <Card className="border-border">
-      <CardHeader>
-        <CardTitle>Iniciar Sesión</CardTitle>
-        <CardDescription>Ingresa tus credenciales para acceder al centro de pruebas</CardDescription>
+    <Card className="relative overflow-hidden border-white/30 bg-white/80 shadow-xl shadow-primary/15 backdrop-blur">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,hsla(215,90%,70%,0.18),transparent_55%)]" />
+      <CardHeader className="relative space-y-3">
+        <CardTitle className="text-2xl font-semibold">Iniciar Sesión</CardTitle>
+        <CardDescription className="leading-relaxed">
+          Ingresa tus credenciales institucionales para acceder al centro de pruebas y continuar tu preparación.
+        </CardDescription>
       </CardHeader>
-      <CardContent>
-        <form onSubmit={handleSubmit} className="space-y-4">
+      <CardContent className="relative">
+        <form onSubmit={handleSubmit} className="space-y-5">
           <div className="space-y-2">
             <Label htmlFor="username">Usuario</Label>
             <Input
@@ -59,7 +63,7 @@ export function LoginForm() {
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               required
-              className="bg-secondary border-border"
+              className="border-border bg-secondary/80 focus-visible:ring-2 focus-visible:ring-primary/60"
               placeholder="Ingresa tu usuario"
             />
           </div>
@@ -71,15 +75,30 @@ export function LoginForm() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
-              className="bg-secondary border-border"
+              className="border-border bg-secondary/80 focus-visible:ring-2 focus-visible:ring-primary/60"
               placeholder="Ingresa tu contraseña"
             />
           </div>
-          {error && <p className="text-sm text-destructive">{error}</p>}
-          <Button type="submit" className="w-full" disabled={loading}>
-            {loading ? "Iniciando sesión..." : "Iniciar Sesión"}
+          {error && <p className="rounded-md border border-destructive/40 bg-destructive/10 px-3 py-2 text-sm text-destructive">
+            {error}
+          </p>}
+          <Button type="submit" className="w-full gap-2" disabled={loading}>
+            {loading ? (
+              <>
+                <Loader2 className="h-4 w-4 animate-spin" />
+                Validando acceso...
+              </>
+            ) : (
+              <>
+                <LogIn className="h-4 w-4" />
+                Ingresar al Dashboard
+              </>
+            )}
           </Button>
         </form>
+        <p className="mt-6 text-xs text-muted-foreground">
+          El acceso está limitado al personal designado para el proceso de selección Antioquia 3.
+        </p>
       </CardContent>
     </Card>
   )

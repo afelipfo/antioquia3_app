@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuál norma creó el Código de Integridad como instrumento técnico de la política de integridad?",
+    "options": [
+      "Decreto 1499 de 2017",
+      "Ley 2016 de 2020",
+      "Decreto 815 de 2018",
+      "Ley 1474 de 2011"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "El Decreto 1499 de 2017, expedido con la entrada en vigencia del MIPG, estableció el Código de Integridad como instrumento técnico de la política de integridad.",
+    "topic": "Fundamento normativo"
+  },
+  {
+    "id": 2,
+    "question": "La adopción e implementación del Código de Integridad en todo el servicio público colombiano fue formalizada por:",
+    "options": [
+      "Ley 2016 de 2020",
+      "Ley 1712 de 2014",
+      "Ley 2195 de 2022",
+      "Ley 87 de 1993"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "La Ley 2016 de 2020 dispuso la adopción e implementación del código de integridad en el servicio público colombiano.",
+    "topic": "Fundamento normativo"
+  },
+  {
+    "id": 3,
+    "question": "Según la presentación, adoptar el Código de Integridad implica que las entidades deben:",
+    "options": [
+      "Diseñar controles exclusivamente financieros",
+      "Adoptar el código, gestionar conflictos de interés y fortalecer la declaración de bienes y rentas",
+      "Suspender los manuales de funciones",
+      "Eliminar los programas de inducción"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Se menciona que las entidades deben adoptar el código, manejar los conflictos de interés y robustecer la declaración de bienes y rentas.",
+    "topic": "Implementación"
+  },
+  {
+    "id": 4,
+    "question": "¿Cuántos participantes intervinieron en la construcción participativa del Código de Integridad?",
+    "options": [
+      "Cerca de 2.500",
+      "Cerca de 25.000",
+      "Más de 100.000",
+      "Menos de 500"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La presentación señala que cerca de 25.000 ciudadanos y servidores públicos participaron en la construcción del código tras un diagnóstico de la OCDE.",
+    "topic": "Construcción participativa"
+  },
+  {
+    "id": 5,
+    "question": "¿Cuántos valores adicionales puede incorporar cada entidad, además de los cinco centrales del Código?",
+    "options": [
+      "Ninguno",
+      "Uno",
+      "Hasta dos",
+      "Hasta cinco"
+    ],
+    "correctAnswer": 2,
+    "points": 5,
+    "explanation": "Cada entidad puede añadir hasta dos valores adicionales acordes con su misión, además de los cinco valores centrales.",
+    "topic": "Implementación"
+  },
+  {
+    "id": 6,
+    "question": "La implementación del Código incluye, entre otros elementos:",
+    "options": [
+      "Capacitación obligatoria de inducción para cualquier cargo",
+      "Eliminación de la evaluación del desempeño",
+      "Suspensión de indicadores de integridad",
+      "Exclusión del código de los manuales de funciones"
+    ],
+    "correctAnswer": 0,
+    "points": 5,
+    "explanation": "La guía menciona capacitación obligatoria de inducción, indicadores y la inclusión del código en los manuales de funciones.",
+    "topic": "Implementación"
+  }
+]

@@ -15,7 +15,7 @@ const subjects = [
     id: "contratacion",
     title: "Contratación Pública",
     description: "Procesos y normativa de contratación estatal",
-    questionsCount: 0,
+    questionsCount: 20,
   },
   {
     id: "formulacion",
@@ -36,6 +36,12 @@ const subjects = [
     questionsCount: 0,
   },
   {
+    id: "juicio-situacional",
+    title: "Juicio Situacional",
+    description: "Toma de decisiones ante situaciones laborales complejas",
+    questionsCount: 20,
+  },
+  {
     id: "obras-publicas",
     title: "Obras Públicas de Construcción y Mantenimiento",
     description: "Ejecución y mantenimiento de obras públicas",
@@ -50,8 +56,8 @@ const subjects = [
   {
     id: "servicio-usuario",
     title: "Servicio y Atención al Usuario",
-    description: "Calidad en la atención y servicio al ciudadano",
-    questionsCount: 0,
+    description: "Protocolos de atención al ciudadano y aplicación de la NTC 6047",
+    questionsCount: 20,
   },
 ]
 

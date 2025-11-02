@@ -1,0 +1,999 @@
+
+  {
+    id: "adaptacion-cambio",
+    title: "Adaptación al Cambio",
+    description: "Flexibilidad ante nuevas situaciones y cooperación activa en su implementación.",
+    intro:
+      "Evalúa cómo respondes ante cambios organizacionales, la disposición para apoyar nuevas decisiones y la capacidad de guiar a tu equipo durante las transiciones.",
+    reference: "Sección 2.6 del Decreto 815 de 2018 - Adaptación al Cambio.",
+    questions: [
+      {
+        id: "adaptacion-cambio-1",
+        text: "Según el decreto, ¿qué actitud demuestra mejor la adaptación al cambio dentro de una entidad pública?",
+        options: [
+          { value: "a", label: "Resistir nuevas decisiones hasta recibir instrucciones detalladas." },
+          { value: "b", label: "Aceptar con flexibilidad las nuevas situaciones y apoyar activamente su implementación." },
+          { value: "c", label: "Delegar el ajuste del equipo a un tercero externo para evitar conflictos." },
+          { value: "d", label: "Suspender temporalmente procesos hasta que las novedades estén completamente probadas." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El decreto resalta que la Adaptación al Cambio implica aceptar y responder con flexibilidad, apoyando activamente las decisiones adoptadas por la entidad.",
+        review:
+          "Refuerza la lectura de la sección Adaptación al Cambio: apoyar activamente las decisiones y promover la flexibilidad del equipo es clave.",
+      },
+      {
+        id: "adaptacion-cambio-2",
+        text: "Cuando se introduce un nuevo procedimiento institucional, el servidor público debe:",
+        options: [
+          { value: "a", label: "Esperar a que otro equipo se encargue del cambio y continuar con los procesos anteriores." },
+          { value: "b", label: "Aplicar parcialmente el cambio para evaluar si conviene mantenerlo." },
+          { value: "c", label: "Cooperar activamente en la implementación del nuevo objetivo y apoyar a la entidad en su aplicación." },
+          { value: "d", label: "Documentar la novedad y archivarla hasta que se oficialice mediante decreto adicional." },
+        ],
+        correctOption: "c",
+        score: 10,
+        explanation:
+          "El componente de Adaptación al Cambio enfatiza cooperar activamente con la implementación de nuevos objetivos, formas de trabajo y procedimientos.",
+        review:
+          "Revisa el apartado sobre adaptación al cambio: deber cooperar activamente y no posponer la adopción de procedimientos oficiales.",
+      },
+      {
+        id: "adaptacion-cambio-3",
+        text: "Promover que el grupo se adapte a condiciones nuevas implica principalmente:",
+        options: [
+          { value: "a", label: "Informar únicamente a los responsables directos de los cambios." },
+          { value: "b", label: "Establecer sanciones para quien no acepte los cambios inmediatamente." },
+          { value: "c", label: "Generar acompañamiento y soporte para que el equipo integre las nuevas condiciones de forma constructiva." },
+          { value: "d", label: "Reducir las responsabilidades del equipo hasta que las condiciones sean estables." },
+        ],
+        correctOption: "c",
+        score: 10,
+        explanation:
+          "El decreto indica que se espera que los servidores públicos promuevan que el grupo se adapte positivamente, brindando soporte y fomentando la cooperación.",
+        review:
+          "Consulta las conductas asociadas a la Adaptación al Cambio: el acompañamiento y soporte al equipo son esenciales.",
+      },
+      {
+        id: "adaptacion-cambio-4",
+        text: "Al describir la competencia comportamental de Adaptación al Cambio, el Decreto 815 señala que se deben considerar:",
+        options: [
+          {
+            value: "a",
+            label: "Únicamente la descripción general de la competencia sin detallar responsabilidades.",
+          },
+          {
+            value: "b",
+            label: "Responsabilidad sobre personal a cargo, habilidades y aptitudes laborales, responsabilidad en la toma de decisiones, iniciativa e innovación y valor estratégico de la responsabilidad.",
+          },
+          { value: "c", label: "Solo los cursos de capacitación que haya tomado el servidor público." },
+          { value: "d", label: "El número de años de experiencia sin atender al contexto del empleo." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El artículo 2.2.4.6 exige describir cada competencia comportamental con cinco criterios: responsabilidades sobre personal, habilidades y aptitudes, responsabilidad decisoria, iniciativa e innovación y valor estratégico.",
+        review:
+          "Revisa la metodología del Decreto 815 para documentar competencias comportamentales: los cinco criterios aseguran descripciones completas.",
+      },
+    ],
+  },
+  {
+    id: "aporte-tecnico",
+    title: "Aporte Técnico - Profesional",
+    description: "Contribución de conocimientos especializados para anticipar y resolver problemas.",
+    intro:
+      "Pon a prueba tu capacidad para aportar soluciones técnicas, anticipar problemas y aprovechar la interdisciplinariedad dentro de tu rol profesional.",
+    reference: "Sección 3.1 del Decreto 815 de 2018 - Aporte técnico-profesional.",
+    questions: [
+      {
+        id: "aporte-tecnico-1",
+        text: "¿Qué conducta ejemplifica el aporte técnico-profesional según el decreto?",
+        options: [
+          { value: "a", label: "Aplicar únicamente las instrucciones recibidas sin proponer alternativas." },
+          { value: "b", label: "Anticipar problemas previsibles y aportar soluciones relacionadas con su experiencia especializada." },
+          { value: "c", label: "Remitir decisiones técnicas a otros niveles jerárquicos para evitar responsabilidad." },
+          { value: "d", label: "Limitarse a documentar situaciones sin intervenir en ellas." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El aporte técnico-profesional exige poner a disposición saberes especializados, anticipar problemas y proponer soluciones basadas en ellos.",
+        review:
+          "Repasa la sección de Aporte técnico-profesional: anticipar problemas y proponer soluciones es central a esta competencia.",
+      },
+      {
+        id: "aporte-tecnico-2",
+        text: "Practicar la interdisciplinariedad significa:",
+        options: [
+          { value: "a", label: "Limitar las decisiones solo a la perspectiva del área técnica propia." },
+          { value: "b", label: "Aprender puntos de vista diversos para analizar soluciones y enriquecerlas con perspectivas alternativas." },
+          { value: "c", label: "Delegar decisiones en el área jurídica para evitar sesgos." },
+          { value: "d", label: "Establecer jerarquías estrictas entre disciplinas para priorizar las propias." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El decreto plantea que el aporte técnico-profesional incluye practicar la interdisciplinariedad para enriquecer el análisis y las decisiones.",
+        review:
+          "Vuelve al apartado de interdisciplinariedad en la competencia técnica: integrar perspectivas diversas fortalece las decisiones.",
+      },
+      {
+        id: "aporte-tecnico-3",
+        text: "Cuando un profesional comunica su experiencia en la toma de decisiones que involucren su especialidad está:",
+        options: [
+          { value: "a", label: "Cumpliendo con la obligación de compartir saberes especializados para orientar mejor la decisión." },
+          { value: "b", label: "Divulgando información reservada del cargo." },
+          { value: "c", label: "Interfiriendo en competencias jerárquicas de otros cargos." },
+          { value: "d", label: "Realizando una función opcional sin impacto en la competencia." },
+        ],
+        correctOption: "a",
+        score: 10,
+        explanation:
+          "Compartir conocimientos y experiencias especializadas favorece decisiones fundamentadas y es parte del aporte técnico-profesional.",
+        review:
+          "Revisa la competencia de aporte técnico: el compartir experiencia orienta decisiones y es obligatorio para la calidad del servicio.",
+      },
+      {
+        id: "aporte-tecnico-4",
+        text: "Para definir las competencias funcionales de un empleo, el Decreto 815 establece que deben incluir:",
+        options: [
+          { value: "a", label: "Solo la descripción del cargo y los años de experiencia del titular." },
+          {
+            value: "b",
+            label: "Criterios de desempeño, conocimientos básicos, contextos donde deben demostrarse las contribuciones y las evidencias requeridas.",
+          },
+          { value: "c", label: "Las funciones esenciales sin necesidad de evidencias ni contextos de aplicación." },
+          { value: "d", label: "La lista de cursos y certificaciones aprobados por el servidor." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El artículo 2.2.4.5 indica que las competencias funcionales se formulan con criterios de desempeño, conocimientos, contextos y evidencias que demuestran las contribuciones del empleo.",
+        review:
+          "Consulta la definición de competencias funcionales: los cuatro elementos garantizan claridad en el aporte técnico-profesional.",
+      },
+    ],
+  },
+  {
+    id: "aprendizaje-continuo",
+    title: "Aprendizaje Continuo",
+    description: "Actualización permanente mediante fuentes confiables y espacios de capacitación.",
+    intro:
+      "Identifica conductas que mantienen tus competencias al día, promueven el intercambio de saberes y garantizan la efectividad del servicio público.",
+    reference: "Sección 2.1 del Decreto 815 de 2018 - Aprendizaje continuo.",
+    questions: [
+      {
+        id: "aprendizaje-continuo-1",
+        text: "Mantener actualizadas las competencias implica principalmente:",
+        options: [
+          { value: "a", label: "Esperar las capacitaciones obligatorias de la entidad." },
+          { value: "b", label: "Buscar y aplicar nuevos conocimientos acordes con los cambios de la administración pública." },
+          { value: "c", label: "Documentar aprendizajes sin llevarlos a la práctica." },
+          { value: "d", label: "Delegar la actualización a los superiores inmediatos." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El decreto señala que se deben identificar, incorporar y aplicar nuevos conocimientos para mantener la efectividad de las prácticas.",
+        review:
+          "Repasa la definición de Aprendizaje continuo: aplicar lo aprendido en el trabajo es indispensable.",
+      },
+      {
+        id: "aprendizaje-continuo-2",
+        text: "Compartir saberes con colegas permite:",
+        options: [
+          { value: "a", label: "Evitar que la entidad invierta en capacitación formal." },
+          { value: "b", label: "Nivelar conocimientos mediante flujos de interaprendizaje y fortalecer al equipo." },
+          { value: "c", label: "Reducir la autonomía de cada servidor público." },
+          { value: "d", label: "Sustituir completamente la formación técnica especializada." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "Compartir saberes y aprender de colegas es una conducta asociada al aprendizaje continuo y favorece la nivelación del equipo.",
+        review:
+          "Lee las conductas asociadas al Aprendizaje continuo: el intercambio de conocimientos fortalece la competencia.",
+      },
+      {
+        id: "aprendizaje-continuo-3",
+        text: "Gestionar fuentes de información confiable significa:",
+        options: [
+          { value: "a", label: "Recopilar información sin verificar su origen para luego validarla." },
+          { value: "b", label: "Acceder a normas, metodologías y programas oficiales que respalden las decisiones." },
+          { value: "c", label: "Basarse en rumores internos para actuar con rapidez." },
+          { value: "d", label: "Depender de terceros para recibir actualizaciones relevantes." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El aprendizaje continuo demanda acudir a fuentes confiables para garantizar decisiones alineadas con la normatividad vigente.",
+        review:
+          "Revisa la sección Aprendizaje continuo: la actualización se sustenta en fuentes confiables y oficiales.",
+      },
+      {
+        id: "aprendizaje-continuo-4",
+        text: "Según el Decreto 815 de 2018, la competencia laboral se entiende como la capacidad de:",
+        options: [
+          { value: "a", label: "Acumular títulos académicos sin relacionarlos con el desempeño del empleo público." },
+          {
+            value: "b",
+            label: "Desempeñar funciones en diferentes contextos con los niveles de calidad requeridos, integrando conocimientos, destrezas, habilidades, valores, actitudes y aptitudes.",
+          },
+          { value: "c", label: "Ejecutar solo las tareas descritas en el manual sin considerar los resultados esperados." },
+          { value: "d", label: "Aplicar experiencia previa sin necesidad de actualizar saberes ni comportamientos." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El artículo 2.2.4.2 define la competencia laboral como la capacidad para desempeñar funciones con calidad, soportada en conocimientos, destrezas, habilidades, valores, actitudes y aptitudes.",
+        review:
+          "Consulta la definición de competencia laboral del Decreto 815: integra saberes y comportamientos para cumplir los estándares del sector público.",
+      },
+    ],
+  },
+  {
+    id: "compromiso-organizacion",
+    title: "Compromiso con la Organización",
+    description: "Aplicación cotidiana de los valores del Código de Integridad del Servicio Público Colombiano.",
+    intro:
+      "Explora cómo vivir la honestidad, el respeto, el compromiso, la diligencia y la justicia definidos por el Código de Integridad para orientar cada decisión en el servicio público.",
+    reference: "Código de Integridad del Servicio Público Colombiano – DAFP (2017).",
+    questions: [
+      {
+        id: "compromiso-organizacion-1",
+        text: "¿Cuál es el propósito central del Código de Integridad del Servicio Público Colombiano?",
+        options: [
+          { value: "a", label: "Sustituir el Código Disciplinario Único con un catálogo de sanciones penales." },
+          {
+            value: "b",
+            label: "Servir como guía pedagógica que complementa la normativa para promover compromisos éticos cotidianos.",
+          },
+          { value: "c", label: "Reemplazar los manuales de funciones y procedimientos de cada entidad pública." },
+          { value: "d", label: "Otorgar beneficios económicos a quienes se adhieran formalmente al código." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El Código se concibe como un instrumento pedagógico y preventivo que orienta las actuaciones diarias, complementando la normatividad existente.",
+        review: "Revisa la introducción del Código de Integridad para recordar su naturaleza pedagógica y preventiva.",
+      },
+      {
+        id: "compromiso-organizacion-2",
+        text: "¿Qué elementos estructuran la implementación del Código de Integridad?",
+        options: [
+          {
+            value: "a",
+            label: "Un reglamento de sanciones pecuniarias, un manual de comunicaciones y un fondo de incentivos monetarios.",
+          },
+          {
+            value: "b",
+            label: "Un código-tipo único, un sistema de formación e interiorización y un sistema de seguimiento y evaluación.",
+          },
+          {
+            value: "c",
+            label: "Comités ad hoc por entidad, reglamentos internos de policía y convenios internacionales sobre ética.",
+          },
+          {
+            value: "d",
+            label: "Un régimen contractual especial, acuerdos de confidencialidad y protocolos disciplinarios sectoriales.",
+          },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El DAFP definió tres pilares: código único, formación e interiorización y seguimiento y evaluación para asegurar la vivencia de los valores.",
+        review: "Consulta los elementos fundacionales del Código: identifican la ruta de implementación integral.",
+      },
+      {
+        id: "compromiso-organizacion-3",
+        text: "¿Qué caracteriza el proceso participativo que dio origen al Código de Integridad?",
+        options: [
+          {
+            value: "a",
+            label: "Fue elaborado exclusivamente por consultores externos sin participación ciudadana.",
+          },
+          {
+            value: "b",
+            label: "Involucró a más de 25 000 servidores y ciudadanos que identificaron valores y conductas clave mediante buzones y plataformas digitales.",
+          },
+          {
+            value: "c",
+            label: "Se limitó a directivos de cinco entidades piloto en reuniones cerradas.",
+          },
+          {
+            value: "d",
+            label: "Fue un ejercicio académico sin incidencia en la formulación de política pública.",
+          },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "La construcción participativa permitió identificar valores y conductas esenciales, reforzando el enfoque pedagógico del Código.",
+        review:
+          "Revisa el apartado del proceso participativo: la participación masiva aseguró legitimidad y pertinencia de los valores.",
+      },
+      {
+        id: "compromiso-organizacion-4",
+        text: "Según el Código, ¿qué práctica refleja el valor de la honestidad?",
+        options: [
+          { value: "a", label: "Dar trato preferencial a aliados estratégicos para agilizar trámites." },
+          {
+            value: "b",
+            label: "Decir la verdad incluso ante errores, buscar orientación ante dudas y facilitar información veraz a la ciudadanía.",
+          },
+          { value: "c", label: "Utilizar parte del tiempo laboral para atender asuntos personales." },
+          { value: "d", label: "Reservar la información pública para evitar controversias mediáticas." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "La honestidad exige verdad, transparencia y cuidado de la información y recursos públicos, incluso cuando se reconocen errores.",
+        review: "Consulta la descripción del valor honestidad: enfatiza transparencia, veracidad y denuncia de irregularidades.",
+      },
+      {
+        id: "compromiso-organizacion-5",
+        text: "¿Cuál conducta expresa el valor respeto en el servicio público?",
+        options: [
+          { value: "a", label: "Priorizar solicitudes de quienes poseen mayor influencia o reconocimiento social." },
+          {
+            value: "b",
+            label: "Atender con amabilidad e igualdad a todas las personas, evitando discriminación o prejuicios.",
+          },
+          { value: "c", label: "Responder únicamente a peticiones elevadas por escrito para evitar malentendidos." },
+          { value: "d", label: "Desestimar opiniones divergentes para acelerar la toma de decisiones." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El respeto demanda trato digno e igualitario sin importar procedencia, cargo o condición, garantizando un diálogo abierto.",
+        review:
+          "Relee el valor respeto: subraya igualdad, trato digno y la eliminación de estereotipos o actitudes groseras.",
+      },
+      {
+        id: "compromiso-organizacion-6",
+        text: "Para vivir el valor compromiso, el servidor público debe:",
+        options: [
+          { value: "a", label: "Considerar que cada atención es un favor personal y elegir a quién ayudar." },
+          {
+            value: "b",
+            label: "Escuchar y orientar activamente a las personas, mantenerse atento y proponer soluciones para mejorar su bienestar.",
+          },
+          { value: "c", label: "Delegar cualquier inquietud ciudadana a otra dependencia sin acompañamiento." },
+          { value: "d", label: "Suspender temporalmente el servicio cuando perciba demasiada demanda." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El compromiso implica disposición permanente, empatía y orientación efectiva para responder a las necesidades ciudadanas.",
+        review:
+          "Vuelve al valor compromiso: destaca empatía, orientación continua y actitud proactiva frente a los requerimientos ciudadanos.",
+      },
+      {
+        id: "compromiso-organizacion-7",
+        text: "El valor diligencia se evidencia cuando el servidor:",
+        options: [
+          { value: "a", label: "Pospone decisiones hasta recibir recordatorios reiterados de los usuarios." },
+          {
+            value: "b",
+            label: "Usa responsablemente los recursos públicos, cumple los plazos y asegura calidad en lo entregado.",
+          },
+          { value: "c", label: "Rechaza el trabajo coordinado para evitar errores derivados de otros equipos." },
+          { value: "d", label: "Solicita ampliar constantemente los trámites sin justificación objetiva." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "La diligencia supone atención, prontitud y eficiencia, optimizando recursos del Estado y garantizando la calidad del servicio.",
+        review:
+          "Consulta el valor diligencia: resalta cumplimiento oportuno, interés genuino y mejora continua en la ejecución de tareas.",
+      },
+      {
+        id: "compromiso-organizacion-8",
+        text: "El valor justicia exige que el servidor público:",
+        options: [
+          { value: "a", label: "Adopte decisiones guiadas por simpatías personales para preservar la convivencia." },
+          { value: "b", label: "Permita que presiones externas definan la respuesta institucional." },
+          {
+            value: "c",
+            label: "Actúe con imparcialidad, proteja los derechos y evite favorecer intereses particulares sobre el interés general.",
+          },
+          { value: "d", label: "Reserve información relevante cuando la soliciten grupos influyentes." },
+        ],
+        correctOption: "c",
+        score: 10,
+        explanation:
+          "La justicia se relaciona con equidad, imparcialidad y decisiones basadas en evidencias para garantizar los derechos de todas las personas.",
+        review:
+          "Revisa el valor justicia: enfatiza decisiones basadas en datos, protección de derechos y rechazo a presiones o favoritismos.",
+      },
+    ],
+  },
+  {
+    id: "comunicacion-efectiva",
+    title: "Comunicación Efectiva",
+    description: "Intercambio claro, preciso y empático con superiores, pares y ciudadanos.",
+    intro:
+      "Pon a prueba tu capacidad para comunicarte con claridad, escuchar activamente y responder con oportunidad en contextos institucionales.",
+    reference: "Sección 3.2 del Decreto 815 de 2018 - Comunicación efectiva.",
+    questions: [
+      {
+        id: "comunicacion-efectiva-1",
+        text: "Redactar informes claros y comprensibles permite:",
+        options: [
+          { value: "a", label: "Substituir la comunicación verbal en la entidad." },
+          { value: "b", label: "Facilitar la comprensión de la información y apoyar la toma de decisiones informada." },
+          { value: "c", label: "Limitar la participación de los ciudadanos en los procesos." },
+          { value: "d", label: "Evitar el uso de otros canales de comunicación." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "La comunicación efectiva exige claridad escrita para que la información sea comprensible y útil en las decisiones institucionales.",
+        review:
+          "Revisa la competencia de Comunicación efectiva: la claridad escrita respalda decisiones y transparencia.",
+      },
+      {
+        id: "comunicacion-efectiva-2",
+        text: "Escuchar activamente a usuarios y colegas significa:",
+        options: [
+          { value: "a", label: "Solo atender solicitudes cuando hay tiempo disponible." },
+          { value: "b", label: "Mantener una escucha atenta para comprender mejor la información y responder con precisión." },
+          { value: "c", label: "Delegar la atención al ciudadano en otras instancias." },
+          { value: "d", label: "Responder únicamente por canales escritos para evitar malentendidos." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El decreto resalta que la comunicación efectiva incluye escucha y lectura atenta para comprender la información recibida.",
+        review:
+          "Retoma el apartado de escucha activa en Comunicación efectiva: comprender primero garantiza respuestas acertadas.",
+      },
+      {
+        id: "comunicacion-efectiva-3",
+        text: "Responder inmediatamente a cada comunicación recibida ayuda a:",
+        options: [
+          { value: "a", label: "Incrementar el volumen de trámites sin mejorar el servicio." },
+          { value: "b", label: "Mantener la oportunidad y la calidad en la atención al ciudadano." },
+          { value: "c", label: "Reducir la trazabilidad de las actuaciones." },
+          { value: "d", label: "Eliminar la necesidad de reportes periódicos." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "Responder oportunamente forma parte de la comunicación efectiva y fortalece la percepción de servicio de calidad.",
+        review:
+          "Revisa la competencia de comunicación: la oportunidad de respuesta es parte de la responsabilidad con el ciudadano.",
+      },
+    ],
+  },
+  {
+    id: "gestion-procedimientos",
+    title: "Gestión de Procedimientos",
+    description: "Ejecución y mejora continua de procesos dentro de los lineamientos vigentes.",
+    intro:
+      "Evalúa tu capacidad para seguir protocolos, proponer mejoras y asegurar la calidad en la ejecución de los procedimientos institucionales.",
+    reference: "Sección 3.3 del Decreto 815 de 2018 - Gestión de procedimientos.",
+    questions: [
+      {
+        id: "gestion-procedimientos-1",
+        text: "Una conducta alineada con la gestión de procedimientos consiste en:",
+        options: [
+          { value: "a", label: "Ejecutar las tareas según criterios de calidad establecidos y protocolos vigentes." },
+          { value: "b", label: "Modificar procedimientos sin comunicarlo para agilizar resultados." },
+          { value: "c", label: "Priorizar la velocidad sobre el cumplimiento de normas." },
+          { value: "d", label: "Esperar nuevas instrucciones para iniciar cada actividad." },
+        ],
+        correctOption: "a",
+        score: 10,
+        explanation:
+          "El decreto establece que la gestión de procedimientos implica ejecutar tareas conforme a los criterios de calidad y protocolos definidos.",
+        review:
+          "Lee la sección Gestión de procedimientos: cumplir criterios de calidad y protocolos es innegociable.",
+      },
+      {
+        id: "gestion-procedimientos-2",
+        text: "Revisar procedimientos e instrumentos regularmente permite:",
+        options: [
+          { value: "a", label: "Detectar oportunidades de mejora en tiempos y resultados, anticipando soluciones." },
+          { value: "b", label: "Reducir la documentación exigida por la entidad." },
+          { value: "c", label: "Evitar la participación de otros actores en el proceso." },
+          { value: "d", label: "Suspender temporalmente actividades hasta que haya cambios normativos." },
+        ],
+        correctOption: "a",
+        score: 10,
+        explanation:
+          "La gestión de procedimientos promueve revisar y mejorar continuamente para asegurar productividad y anticipar problemas.",
+        review:
+          "Revisa el componente de mejora continua: revisar procedimientos permite anticipar soluciones oportunas.",
+      },
+      {
+        id: "gestion-procedimientos-3",
+        text: "Proponer acciones para acelerar la mejora continua implica:",
+        options: [
+          { value: "a", label: "Adecuar actividades a los protocolos definidos y sugerir ajustes fundamentados." },
+          { value: "b", label: "Implementar cambios inmediatos sin medir su impacto." },
+          { value: "c", label: "Ignorar los hallazgos del control interno." },
+          { value: "d", label: "Limitarse a cumplir sin sugerir optimizaciones." },
+        ],
+        correctOption: "a",
+        score: 10,
+        explanation:
+          "El decreto destaca proponer mejoras fundamentadas dentro de los procedimientos vigentes como parte de esta competencia.",
+        review:
+          "Repasa la descripción de la gestión de procedimientos: la mejora continua se fundamenta en evidencia y protocolos.",
+      },
+      {
+        id: "gestion-procedimientos-4",
+        text: "Tras la expedición del Decreto 815 de 2018, las entidades del orden nacional deben adecuar sus manuales específicos de funciones y competencias en un plazo de:",
+        options: [
+          { value: "a", label: "Tres meses para todas las entidades públicas." },
+          { value: "b", label: "Seis meses, mientras que las entidades territoriales disponen de un año." },
+          { value: "c", label: "Doce meses para el nivel nacional y seis para el territorial." },
+          { value: "d", label: "Dos años sin distinción del orden administrativo." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El parágrafo 2 del artículo 2.2.4.8 fija seis meses para que el orden nacional adecúe sus manuales y concede un año al orden territorial.",
+        review:
+          "Consulta los plazos de adecuación del Decreto 815: identifica los tiempos diferenciados para nivel nacional y territorial.",
+      },
+      {
+        id: "gestion-procedimientos-5",
+        text: "¿Quién brinda la asistencia técnica para que las entidades territoriales ajusten sus manuales de funciones según el Decreto 815?",
+        options: [
+          { value: "a", label: "El Departamento Administrativo de la Función Pública a través de la Escuela Superior de Administración Pública (ESAP)." },
+          { value: "b", label: "Las contralorías territoriales mediante auditorías simultáneas." },
+          { value: "c", label: "El Ministerio de Hacienda mediante circulares presupuestales." },
+          { value: "d", label: "Cada entidad territorial de manera autónoma sin acompañamiento externo." },
+        ],
+        correctOption: "a",
+        score: 10,
+        explanation:
+          "El artículo 2.2.4.11 ordena a la Función Pública establecer lineamientos para un programa de asistencia que ejecuta la ESAP, apoyando a las entidades territoriales en la adecuación de sus manuales.",
+        review:
+          "Revisa la disposición sobre asistencia territorial: la ESAP, bajo lineamientos de Función Pública, guía la actualización de manuales.",
+      },
+      {
+        id: "gestion-procedimientos-6",
+        text: "Cuando las necesidades del servicio lo exijan, ¿quién puede actualizar mediante acto motivado las competencias del artículo 2.2.4.8?",
+        options: [
+          { value: "a", label: "Las entidades territoriales de manera autónoma." },
+          { value: "b", label: "El Departamento Administrativo de la Función Pública." },
+          { value: "c", label: "La Comisión Nacional del Servicio Civil." },
+          { value: "d", label: "El Ministerio de Trabajo previo concepto del DANE." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El parágrafo 1 del artículo 2.2.4.8 faculta al Departamento Administrativo de la Función Pública para actualizar las competencias mediante acto motivado cuando las necesidades del servicio lo requieran.",
+        review:
+          "Consulta el parágrafo 1 del artículo 2.2.4.8: la Función Pública puede actualizar las competencias para mantenerlas vigentes frente a nuevas necesidades.",
+      },
+      {
+        id: "gestion-procedimientos-7",
+        text: "¿Qué establece el artículo 2.2.4.9 respecto de las competencias funcionales para áreas transversales?",
+        options: [
+          { value: "a", label: "Cada entidad debe elaborar de forma independiente sus normas de competencias para áreas transversales." },
+          { value: "b", label: "La Función Pública adoptará un catálogo de normas de competencias funcionales para las áreas o procesos transversales de las entidades públicas." },
+          { value: "c", label: "Los catálogos de competencias transversales se definen mediante acuerdos sindicales." },
+          { value: "d", label: "Las áreas transversales no requieren competencias específicas, solo manuales de procedimientos." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El artículo 2.2.4.9 dispone que la Función Pública adopte un catálogo de normas de competencias funcionales aplicable a áreas o procesos transversales para armonizar criterios en las entidades.",
+        review:
+          "Revisa el artículo 2.2.4.9: el catálogo nacional de competencias funcionales asegura coherencia en procesos transversales.",
+      },
+      {
+        id: "gestion-procedimientos-8",
+        text: "Según el Decreto 1083 de 2015, las pruebas o instrumentos de selección deben:",
+        options: [
+          { value: "a", label: "Aplicarse únicamente mediante entrevistas individuales." },
+          { value: "b", label: "Apreciar capacidad, idoneidad y potencialidad con al menos dos pruebas, una de ellas escrita o de ejecución según el empleo." },
+          { value: "c", label: "Reducirse a un examen escrito estándar para todos los cargos." },
+          { value: "d", label: "Medir exclusivamente antecedentes académicos y laborales." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El artículo 2.2.6.13 indica que las pruebas de selección deben apreciar capacidad, idoneidad y potencialidad del aspirante y que en cada concurso se aplican por lo menos dos pruebas, una escrita o de ejecución según la naturaleza del empleo.",
+        review:
+          "Revisa el artículo 2.2.6.13 del Decreto 1083: define finalidad, variedad y mínima cantidad de pruebas dentro del concurso de mérito.",
+      },
+      {
+        id: "gestion-procedimientos-9",
+        text: "La prueba de polígrafo mencionada en el Decreto 1083 de 2015 se caracteriza por:",
+        options: [
+          { value: "a", label: "Ser un examen de conocimientos que evalúa el dominio normativo del aspirante." },
+          { value: "b", label: "Medir reacciones fisiológicas para verificar la confiabilidad del candidato frente a preguntas sobre su experiencia." },
+          { value: "c", label: "Sustituir todas las demás pruebas del concurso de mérito." },
+          { value: "d", label: "Aplicarse obligatoriamente a todos los aspirantes del proceso de selección." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El artículo 2.2.18.6.1 señala que el polígrafo es una prueba de confiabilidad que verifica información mediante respuestas fisiológicas provocadas por una serie de preguntas, buscando correlacionar la conducta previa con los requisitos del empleo.",
+        review:
+          "Consulta la descripción del polígrafo en el Decreto 1083: su finalidad es validar confiabilidad, no evaluar conocimiento.",
+      },
+      {
+        id: "gestion-procedimientos-10",
+        text: "En el Decreto 1083 de 2015, un examen se entiende como:",
+        options: [
+          { value: "a", label: "Un cuestionario con preguntas de selección múltiple incluidas en el decreto." },
+          { value: "b", label: "Un mecanismo de evaluación que mide la competencia del candidato por medios escritos, orales, prácticos u observación de comportamientos." },
+          { value: "c", label: "Una entrevista informal que valida la hoja de vida del aspirante." },
+          { value: "d", label: "Una prueba opcional cuya aplicación depende de la voluntad del aspirante." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El artículo 2.2.18.4.1 define el examen como un mecanismo de evaluación que puede aplicar distintos medios para medir competencias, sin contener en el decreto un banco de preguntas específicas.",
+        review:
+          "Revisa la definición de examen en el Decreto 1083: establece el concepto general de evaluación, independiente de un cuestionario fijo.",
+      },
+      {
+        id: "gestion-procedimientos-11",
+        text: "En todo el Decreto 1083 de 2015, la palabra «preguntas» aparece exclusivamente para describir:",
+        options: [
+          { value: "a", label: "Los formularios de inscripción a concursos de mérito." },
+          { value: "b", label: "Los cuestionarios de selección múltiple que deben resolver los aspirantes." },
+          { value: "c", label: "Las preguntas utilizadas en la prueba de polígrafo como parte de la verificación de confiabilidad." },
+          { value: "d", label: "Las entrevistas finales ante la Comisión Nacional del Servicio Civil." },
+        ],
+        correctOption: "c",
+        score: 10,
+        explanation:
+          "El decreto solo usa la palabra «preguntas» al describir la prueba de polígrafo, donde estas sirven para generar estímulos fisiológicos que validan la confiabilidad del aspirante.",
+        review:
+          "Consulta el artículo 2.2.18.6.1: allí se aclara que las preguntas del polígrafo verifican conductas previas, no conocimientos.",
+      },
+      {
+        id: "gestion-procedimientos-12",
+        text: "Según el Decreto 1083, ¿qué límite tiene la entrevista dentro de la calificación total del concurso?",
+        options: [
+          { value: "a", label: "Puede representar hasta el 30 % del puntaje total." },
+          { value: "b", label: "No puede superar el 15 % de la calificación total." },
+          { value: "c", label: "Se valora únicamente como criterio de desempate." },
+          { value: "d", label: "Debe equivaler a la mitad del puntaje total para garantizar objetividad." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El decreto establece que la entrevista es un instrumento complementario cuya ponderación no puede exceder el 15 % de la calificación total del concurso.",
+        review:
+          "Revisa las reglas sobre entrevistas en el concurso de mérito: se busca evitar que un instrumento subjetivo defina la totalidad del resultado.",
+      },
+      {
+        id: "gestion-procedimientos-13",
+        text: "Las reclamaciones frente a los resultados de las pruebas en un concurso regido por el Decreto 1083 deben presentarse ante:",
+        options: [
+          { value: "a", label: "La Procuraduría General de la Nación." },
+          { value: "b", label: "La Comisión Nacional del Servicio Civil, conforme al procedimiento establecido." },
+          { value: "c", label: "La oficina de talento humano de la entidad convocante, sin revisión externa." },
+          { value: "d", label: "El Departamento Administrativo de la Función Pública." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El Decreto 1083 remite las reclamaciones sobre pruebas al trámite ante la Comisión Nacional del Servicio Civil, autoridad encargada del control del mérito en los concursos.",
+        review:
+          "Consulta el capítulo de reclamaciones del concurso: la CNSC asegura la objetividad y uniformidad en la resolución de inconformidades.",
+      },
+    ],
+  },
+  {
+    id: "instrumentacion-decisiones",
+    title: "Instrumentación de Decisiones",
+    description: "Aplicación efectiva de decisiones con criterios de eficacia, eficiencia y transparencia.",
+    intro:
+      "Pon a prueba tu criterio para decidir dentro de tu responsabilidad, asumir los efectos y mantener transparencia en el proceso.",
+    reference: "Sección 3.4 del Decreto 815 de 2018 - Instrumentación de decisiones.",
+    questions: [
+      {
+        id: "instrumentacion-decisiones-1",
+        text: "Una decisión fundamentada en la esfera de responsabilidad del servidor público debe basarse en:",
+        options: [
+          { value: "a", label: "Percepciones personales para actuar con rapidez." },
+          { value: "b", label: "Información válida, rigurosa y criterios objetivos que garanticen transparencia." },
+          { value: "c", label: "Preferencias políticas del superior inmediato." },
+          { value: "d", label: "Opiniones informales del equipo de trabajo." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El decreto exige decisiones con criterios de economía, eficacia, eficiencia y transparencia, basadas en información válida.",
+        review:
+          "Consulta la sección Instrumentación de decisiones: la información válida y objetiva orienta decisiones responsables.",
+      },
+      {
+        id: "instrumentacion-decisiones-2",
+        text: "Discriminar qué decisiones deben ser elevadas a un superior permite:",
+        options: [
+          { value: "a", label: "Delegar toda responsabilidad en niveles jerárquicos altos." },
+          { value: "b", label: "Definir claramente el alcance del rol y asegurar que cada nivel asuma las decisiones que le corresponden." },
+          { value: "c", label: "Evitar asumir compromisos institucionales." },
+          { value: "d", label: "Reducir la comunicación formal con los superiores." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "La instrumentación de decisiones implica saber qué decisiones son propias y cuáles deben escalarse, garantizando gobernanza clara.",
+        review:
+          "Revisa el apartado de límites decisorios: identificar qué subir o socializar es parte de la transparencia.",
+      },
+      {
+        id: "instrumentacion-decisiones-3",
+        text: "Asumir los efectos de las decisiones adoptadas por el equipo significa:",
+        options: [
+          { value: "a", label: "Responsabilizar a otros integrantes cuando los resultados no son favorables." },
+          { value: "b", label: "Reconocer y gestionar los impactos de las decisiones propias y del equipo con sentido de responsabilidad." },
+          { value: "c", label: "Limitar la participación en decisiones colectivas." },
+          { value: "d", label: "Documentar en actas que la decisión no fue propia para evitar consecuencias." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El decreto establece que se deben asumir los efectos de las decisiones individuales y de equipo, demostrando responsabilidad.",
+        review:
+          "Vuelve a la sección Instrumentación de decisiones: asumir efectos es parte del compromiso con la entidad.",
+      },
+      {
+        id: "instrumentacion-decisiones-4",
+        text: "En el nivel directivo, la competencia de toma de decisiones señalada por el Decreto 815 implica:",
+        options: [
+          { value: "a", label: "Delegar todas las decisiones complejas para evitar riesgos personales." },
+          {
+            value: "b",
+            label: "Consultar al equipo, evaluar alternativas en situaciones de alta complejidad, asumir riesgos y responsabilizarse por los resultados.",
+          },
+          { value: "c", label: "Tomar decisiones únicamente cuando exista una instrucción escrita del superior jerárquico." },
+          { value: "d", label: "Priorizar decisiones que generen consenso aunque sacrifiquen los objetivos institucionales." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El Decreto 815 establece que los directivos deben analizar alternativas, escuchar al equipo, decidir en contextos complejos, asumir riesgos y hacerse responsables de los resultados.",
+        review:
+          "Revisa las competencias del nivel directivo: la toma de decisiones combina análisis, participación y responsabilidad por los resultados.",
+      },
+      {
+        id: "instrumentacion-decisiones-5",
+        text: "Para definir el contenido funcional de un empleo, el Decreto 815 exige describir:",
+        options: [
+          { value: "a", label: "Únicamente el número de personas a cargo y los insumos presupuestales." },
+          {
+            value: "b",
+            label: "El propósito principal del empleo, las funciones esenciales y las contribuciones esperadas.",
+          },
+          { value: "c", label: "Los antecedentes laborales del servidor y los logros obtenidos en cargos previos." },
+          { value: "d", label: "Los indicadores de gestión del área sin relacionarlos con el empleo." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El artículo 2.2.4.4 indica que el contenido funcional se describe con el propósito principal, funciones esenciales y contribuciones esperadas del empleo.",
+        review:
+          "Consulta la definición de contenido funcional: resume las responsabilidades clave que orientan las decisiones del cargo.",
+      },
+    ],
+  },
+  {
+    id: "orientacion-resultado",
+    title: "Orientación a Resultados",
+    description: "Cumplimiento de objetivos con eficacia, calidad y uso de indicadores para medir avances.",
+    intro:
+      "Evalúa tu enfoque hacia metas claras, la gestión de riesgos y el uso de indicadores para asegurar el cumplimiento de compromisos.",
+    reference: "Sección 2.2 del Decreto 815 de 2018 - Orientación a resultados.",
+    questions: [
+      {
+        id: "orientacion-resultado-1",
+        text: "Trabajar con base en objetivos claros y realistas permite:",
+        options: [
+          { value: "a", label: "Dilatar la ejecución de actividades para ajustarse a cambios continuos." },
+          { value: "b", label: "Alinear esfuerzos con metas verificables y cumplir responsabilidades a tiempo." },
+          { value: "c", label: "Descartar indicadores de desempeño por complejos." },
+          { value: "d", label: "Distribuir las tareas sin medir los avances." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "La orientación a resultados exige objetivos claros y realistas para medir avances y cumplir compromisos con oportunidad.",
+        review:
+          "Revisa las conductas de orientación a resultados: fijar metas claras es la base del seguimiento efectivo.",
+      },
+      {
+        id: "orientacion-resultado-2",
+        text: "Adoptar medidas para minimizar riesgos significa:",
+        options: [
+          { value: "a", label: "Identificar posibles obstáculos y definir estrategias que eviten afectar el logro de resultados." },
+          { value: "b", label: "Esperar instrucciones de control interno antes de actuar." },
+          { value: "c", label: "Transferir la responsabilidad de los riesgos a otros equipos." },
+          { value: "d", label: "Reducir la meta para evitar escenarios exigentes." },
+        ],
+        correctOption: "a",
+        score: 10,
+        explanation:
+          "Una conducta asociada es anticipar riesgos y tomar medidas para asegurar que los resultados esperados se cumplan con calidad.",
+        review:
+          "Vuelve al apartado Orientación a resultados: la gestión de riesgos sostiene el logro de metas.",
+      },
+      {
+        id: "orientacion-resultado-3",
+        text: "Evaluar regularmente el grado de consecución de objetivos busca:",
+        options: [
+          { value: "a", label: "Incrementar reportes sin acciones correctivas." },
+          { value: "b", label: "Realizar ajustes oportunos y garantizar la eficacia en el cumplimiento de compromisos." },
+          { value: "c", label: "Centralizar la información en un solo responsable." },
+          { value: "d", label: "Minimizar la participación del equipo en el seguimiento." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El seguimiento constante permite hacer ajustes y asegurar que los resultados se alcancen con los niveles de calidad esperados.",
+        review:
+          "Repasa las conductas de orientación a resultados: el seguimiento regular permite ajustar a tiempo.",
+      },
+      {
+        id: "orientacion-resultado-4",
+        text: "Dentro de las competencias del nivel directivo, la planeación definida por el Decreto 815 implica:",
+        options: [
+          {
+            value: "a",
+            label: "Enumerar actividades sin asignar responsables para conservar flexibilidad durante la ejecución.",
+          },
+          {
+            value: "b",
+            label: "Establecer metas y prioridades institucionales, definir planes de acción con responsables, plazos y recursos, y hacer seguimiento permanente.",
+          },
+          { value: "c", label: "Ajustar los planes únicamente cuando existan instrucciones superiores por escrito." },
+          { value: "d", label: "Delegar la planeación al área financiera para enfocarse en asuntos estratégicos." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "En el nivel directivo, la planeación supone definir metas y prioridades, asignar responsables, plazos y recursos y realizar seguimiento continuo orientado a usuarios y ciudadanos.",
+        review:
+          "Revisa las competencias del nivel directivo: la planeación integra metas, responsables, recursos y seguimiento permanente.",
+      },
+    ],
+  },
+  {
+    id: "orientacion-usuario",
+    title: "Orientación al Usuario y al Ciudadano",
+    description: "Atención oportuna, inclusiva y veraz a las necesidades de usuarios y ciudadanos.",
+    intro:
+      "Analiza tu capacidad para atender necesidades ciudadanas, diseñar mecanismos de participación y mantener un lenguaje inclusivo.",
+    reference: "Sección 2.3 del Decreto 815 de 2018 - Orientación al usuario y al ciudadano.",
+    questions: [
+      {
+        id: "orientacion-usuario-1",
+        text: "Establecer mecanismos para conocer inquietudes y necesidades ciudadanas permite:",
+        options: [
+          { value: "a", label: "Ajustar proyectos institucionales incorporando la visión de servicio público." },
+          { value: "b", label: "Reducir la participación de los usuarios para agilizar trámites." },
+          { value: "c", label: "Transferir la responsabilidad de atención a terceros." },
+          { value: "d", label: "Limitar el servicio a los horarios más convenientes para la entidad." },
+        ],
+        correctOption: "a",
+        score: 10,
+        explanation:
+          "La orientación al usuario exige incorporar las necesidades ciudadanas en la planeación institucional para garantizar servicio adecuado.",
+        review:
+          "Revisa la sección Orientación al usuario: los mecanismos de escucha alimentan proyectos pertinentes.",
+      },
+      {
+        id: "orientacion-usuario-2",
+        text: "No estigmatizar ni discriminar y usar lenguaje inclusivo implica:",
+        options: [
+          { value: "a", label: "Atender solicitudes de manera uniforme, sin sesgos y con comunicación respetuosa." },
+          { value: "b", label: "Dar prioridad a usuarios frecuentes sobre los nuevos." },
+          { value: "c", label: "Ofrecer información parcial según la percepción del servidor público." },
+          { value: "d", label: "Trasladar casos complejos a otras dependencias sin orientación." },
+        ],
+        correctOption: "a",
+        score: 10,
+        explanation:
+          "El decreto subraya la necesidad de trato inclusivo, sin estigmas, escuchando activamente e informando con veracidad.",
+        review:
+          "Retoma la sección de orientación al ciudadano: el lenguaje inclusivo y la no discriminación son conductas esenciales.",
+      },
+      {
+        id: "orientacion-usuario-3",
+        text: "Reconocer la interdependencia entre el trabajo propio y el de otros equipos ayuda a:",
+        options: [
+          { value: "a", label: "Integrar esfuerzos y evitar duplicidad de acciones en beneficio del ciudadano." },
+          { value: "b", label: "Limitar la colaboración para mantener responsabilidades individuales claras." },
+          { value: "c", label: "Reducir la comunicación interinstitucional." },
+          { value: "d", label: "Incrementar los tiempos de atención." },
+        ],
+        correctOption: "a",
+        score: 10,
+        explanation:
+          "La orientación al usuario requiere coordinar con otros para ofrecer respuestas integrales y oportunas.",
+        review:
+          "Consulta las conductas asociadas: la coordinación interdependiente mejora la experiencia ciudadana.",
+      },
+    ],
+  },
+  {
+    id: "trabajo-equipo",
+    title: "Trabajo en Equipo",
+    description: "Colaboración integrada, respeto por la diversidad y responsabilidad compartida.",
+    intro:
+      "Evalúa tu capacidad para cumplir compromisos colectivos, integrar nuevos miembros y mantener comunicación respetuosa.",
+    reference: "Sección 2.5 del Decreto 815 de 2018 - Trabajo en equipo.",
+    questions: [
+      {
+        id: "trabajo-equipo-1",
+        text: "Cumplir los compromisos adquiridos con el equipo permite:",
+        options: [
+          { value: "a", label: "Evitar la asignación de nuevas responsabilidades." },
+          { value: "b", label: "Contribuir al cumplimiento de metas institucionales comunes y fortalecer la confianza mutua." },
+          { value: "c", label: "Delegar tareas pendientes en otros miembros." },
+          { value: "d", label: "Reducir la planificación conjunta." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El trabajo en equipo se fundamenta en cumplir compromisos y responsabilizarse de los objetivos compartidos.",
+        review:
+          "Revisita la sección Trabajo en equipo: cumplir compromisos mantiene la confianza del equipo.",
+      },
+      {
+        id: "trabajo-equipo-2",
+        text: "Respetar la diversidad de criterios y opiniones implica:",
+        options: [
+          { value: "a", label: "Priorizar únicamente la opinión del líder del equipo." },
+          { value: "b", label: "Escuchar, valorar enfoques distintos y utilizarlos para enriquecer las decisiones." },
+          { value: "c", label: "Permitir opiniones diferentes siempre que no cambien las decisiones ya adoptadas." },
+          { value: "d", label: "Evitar discusiones para mantener un ambiente pasivo." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El decreto enfatiza la integración armoniosa, respetando la diversidad para alcanzar metas comunes.",
+        review:
+          "Vuelve a la sección de trabajo en equipo: el respeto por la diversidad impulsa soluciones más sólidas.",
+      },
+      {
+        id: "trabajo-equipo-3",
+        text: "Integrar a nuevos miembros y facilitar su apropiación de actividades significa:",
+        options: [
+          { value: "a", label: "Asignarles tareas básicas sin orientación para que aprendan solos." },
+          { value: "b", label: "Proporcionarles información, acompañamiento y acceso al equipo para acelerar su aporte." },
+          { value: "c", label: "Delegar en ellos las tareas menos críticas y seguir con el plan habitual." },
+          { value: "d", label: "Esperar a que se adapten antes de incluirlos en la planificación." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "El trabajo en equipo incluye integrar activamente a nuevos miembros y facilitar su participación plena.",
+        review:
+          "Revisa las conductas asociadas: integrar y acompañar a nuevos miembros fortalece al equipo.",
+      },
+      {
+        id: "trabajo-equipo-4",
+        text: "En el nivel directivo, la competencia de liderazgo efectivo descrita por el Decreto 815 requiere:",
+        options: [
+          { value: "a", label: "Centralizar decisiones y evitar la delegación para mantener el control." },
+          {
+            value: "b",
+            label: "Movilizar al equipo, delegar responsabilidades según competencias e intereses y brindar apoyo en momentos de adversidad.",
+          },
+          { value: "c", label: "Limitarse a comunicar instrucciones sin acompañar la ejecución." },
+          { value: "d", label: "Delegar tareas sin verificar los resultados obtenidos por el equipo." },
+        ],
+        correctOption: "b",
+        score: 10,
+        explanation:
+          "La competencia de liderazgo efectivo implica formar equipos comprometidos, delegar con criterio y apoyar al talento humano para mantener un clima positivo.",
+        review:
+          "Revisa las competencias del nivel directivo: el liderazgo efectivo articula delegación, apoyo y generación de compromiso.",
+      },
+    ],
+  },

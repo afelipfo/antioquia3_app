@@ -1,0 +1,72 @@
+[
+  {
+    "id": 23,
+    "question": "Buscar formas de hacer procesos más eficientes y ahorrar recursos demuestra:",
+    "options": [
+      "Resistencia al cambio",
+      "Diligencia proactiva orientada a la mejora continua",
+      "Incumplimiento de funciones",
+      "Desinterés por los resultados"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La diligencia implica optimizar recursos, proponer mejoras y aportar a la eficiencia institucional.",
+    "topic": "Valores del código - Diligencia"
+  },
+  {
+    "id": 24,
+    "question": "Omitir pasos 'innecesarios' en protocolos para cumplir metas más rápido implica:",
+    "options": [
+      "Compromiso con la eficiencia",
+      "Riesgos para la calidad, la trazabilidad y el cumplimiento normativo",
+      "Innovación positiva",
+      "Una práctica avalada por el Código de Integridad"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Tomar atajos compromete la diligencia, la calidad y la seguridad de los procesos.",
+    "topic": "Valores del código - Diligencia"
+  },
+  {
+    "id": 25,
+    "question": "Abandonar tareas ante dificultades no previstas refleja:",
+    "options": [
+      "Resiliencia",
+      "Falta de perseverancia y adaptación al cambio",
+      "Capacidad de priorización",
+      "Gestión estratégica"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La adaptación al cambio requiere mantener el esfuerzo, buscar soluciones y gestionar los obstáculos.",
+    "topic": "Competencias comunes - Adaptación al cambio"
+  },
+  {
+    "id": 26,
+    "question": "Escuchar a todas las partes involucradas antes de decidir en un conflicto garantiza:",
+    "options": [
+      "Retrasos injustificados",
+      "Decisiones equitativas, informadas y legítimas",
+      "Ventaja personal",
+      "Evitar responsabilidades"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "La justicia exige oír a todas las partes para asegurar decisiones imparciales y fundamentadas.",
+    "topic": "Valores del código - Justicia"
+  },
+  {
+    "id": 27,
+    "question": "Manipular evaluaciones de desempeño para perjudicar a alguien es:",
+    "options": [
+      "Una acción válida cuando hay conflictos personales",
+      "Contraria a la justicia, la transparencia y la ética pública",
+      "Una herramienta de gestión",
+      "Una práctica aceptada si no hay supervisión"
+    ],
+    "correctAnswer": 1,
+    "points": 5,
+    "explanation": "Manipular evaluaciones es un abuso de autoridad que viola los principios de justicia y transparencia.",
+    "topic": "Valores del código - Justicia"
+  }
+]

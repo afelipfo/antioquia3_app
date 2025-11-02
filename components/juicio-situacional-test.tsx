@@ -476,6 +476,25 @@ const questionsV2: Question[] = [
     explanation: "Rechazar regalos de valor y reportar la situación protege la integridad, evita conflictos de interés y cumple con los códigos de ética del servicio público.",
     points: 5,
   },
+  {
+    id: 33,
+    context:
+      "La metodología de juicio situacional utiliza escenarios vinculados al trabajo para evaluar competencias como toma de decisiones, resolución de problemas, ética profesional y manejo de conflictos, analizando cómo las respuestas inciden en el entorno laboral.",
+    question: "¿Qué enunciado resume el objetivo de esta metodología?",
+    options: [
+      { id: "a", text: "Medir únicamente conocimientos normativos mediante preguntas cerradas." },
+      {
+        id: "b",
+        text: "Valorar competencias clave a partir de escenarios laborales simulados, observando el impacto de las decisiones en el contexto institucional.",
+      },
+      { id: "c", text: "Reemplazar entrevistas individuales por pruebas psicométricas automatizadas." },
+      { id: "d", text: "Calificar solo la rapidez con la que se elige una alternativa." },
+    ],
+    correct: "b",
+    explanation:
+      "El juicio situacional busca evaluar cómo las personas aplican competencias en situaciones laborales simuladas y cómo sus decisiones afectan al entorno y a los involucrados.",
+    points: 5,
+  },
 ]
 
 export function JuicioSituacionalTest() {

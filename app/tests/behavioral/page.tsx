@@ -3,9 +3,9 @@ import { SubjectCard } from "@/components/subject-card"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { behavioralSubjectsV2 } from "@/lib/behavioral-competencies-v2"
+import { behavioralSubjects } from "@/lib/behavioral-competencies"
 
-const subjects = behavioralSubjectsV2.map((subject) => ({
+const subjects = behavioralSubjects.map((subject) => ({
   id: subject.id,
   title: subject.title,
   description: subject.description,

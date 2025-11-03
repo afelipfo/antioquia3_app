@@ -17,7 +17,87 @@ type Question = {
   correct: string
   explanation: string
   points: number
+  readingId?: string
 }
+
+type Reading = {
+  id: string
+  title: string
+  text: string
+  questionIds: number[]
+}
+
+const readingsV1: Reading[] = [
+  {
+    id: "lectura-libro",
+    title: "Lectura 1: El libro como extensión de la memoria e imaginación",
+    text: `El libro es uno de los inventos más asombrosos de la humanidad, pues sirve de extensión a nuestro poder de recordar y de imaginar. ¿Cómo puede un objeto inanimado ayudar a que millones, o incluso cientos de millones de personas recuerden la misma cosa? El libro como medio de información permite contener cierta información determinada que es posible preservar; también sirve para representar el mundo y hacerlo legible. El libro es una extensión de nuestra memoria y nuestra imaginación, pues expande la capacidad de pensar y comunicarse.
+
+Para el reconocido autor Roger Chartier, el libro no es un simple auxiliar de la memoria, sino que él mismo informa, él mismo da forma al recuerdo.
+
+Sin embargo, es extraño comprobar cómo se rechazaba el poder de lo escrito en la antigüedad. Sócrates afirmó en algún momento que la escritura terminaría por destruir la capacidad de recordar: «Es olvido lo que [las letras] producirán en las almas de quienes las aprendan, al descuidar la memoria, ya que, fiándose de lo escrito, llegarán al recuerdo desde fuera, a través de caracteres ajenos, no desde dentro, desde ellos mismos. No es, pues, un fármaco [remedio] de la memoria lo que has hallado, sino un simple recordatorio». Sócrates dice que la escritura destruye la capacidad del juicio, pues evita el trabajo mental que debe realizar quien realmente quiere conocer. No hay error en lo afirmado por Sócrates, solo que él suponía que la memoria es algo más intenso y más noble que la escritura. La historia demostró que se trataba de una forma de pensamiento útil en su época, en la que el culto de la oralidad y las ideas eran necesarias en ese momento. Comparar ambos aspectos de la memoria —la oral y la escrita— es igual que comparar el culto a la oralidad de los antiguos con nuestro culto a los libros. Son simplemente formas de pensamiento útiles, necesarias en su momento, en su cultura.`,
+    questionIds: [68, 69, 70, 71],
+  },
+  {
+    id: "lectura-retorica",
+    title: "Lectura 2: El obstáculo amoroso en la retórica medieval",
+    text: `Los trovadores Provenzales contribuyeron en la Edad Media a expandir una nueva forma de pensar el amor. En sus obras, se establece como regla que el enamorado sufre el rechazo de la mujer amada, quien debe mantenerse distante y ser «inaccesible». Esta estructura narrativa no es casual: detrás del rechazo de la dama se esconde un código complejo de conductas y valores corteses. El amor debía permanecer discreto, casi secreto, y el sufrimiento del pretendiente servía para probar su persistencia, virtud y nobleza de espíritu.
+
+La retórica cortés establecía que sin obstáculo no hay relato amoroso. El impedimento no es un accidente, sino la esencia misma del amor cortés. La imposibilidad del amor alimenta la tensión narrativa y permite explorar temas de honor, deseo contenido, sufrimiento refinado y lealtad incondicional. La dama, al mantenerse inalcanzable, eleva al caballero y lo obliga a perfeccionarse moralmente.
+
+Este código influyó profundamente en la literatura medieval y renacentista, estableciendo el patrón del amor imposible que perduró durante siglos en la tradición literaria occidental. La distancia entre amante y amada no era un defecto del relato, sino su motor narrativo fundamental.`,
+    questionIds: [72, 73, 74, 75, 76],
+  },
+  {
+    id: "lectura-star-trek",
+    title: "Lectura 3: Gene Roddenberry y el éxito de Star Trek",
+    text: `El futuro cumple 30 años
+Por: Mario H. Doren
+
+Gene Roddenberry era guionista de series de televisión, pero su fascinación eran los viajes espaciales. Soñaba con velocidades lumínicas, teletransportación, comunicadores portátiles (que luego inspirarían los teléfonos celulares), computadoras parlantes y naves que exploraban las estrellas. No era científico, y para la comunidad científica era un discreto y redondo cero a la izquierda. Pero él creó la nave U.S.S. Enterprise, con una tripulación de 430 personas comandada por el capitán James Kirk, el doctor Spock y el médico McCoy, que cada semana visitaban un nuevo planeta.
+
+La serie se estrenó en septiembre de 1966 con el episodio The Man Trap (La trampa humana) y en 1996 cumplió treinta años al aire. El programa se hizo con presupuesto limitado: la Enterprise nunca aterrizaba porque no había dinero para construir escenarios de descenso. Los guionistas asumieron que la mayoría de planetas visitados tenían atmósferas respirables para ahorrarse el costo de trajes espaciales. A pesar de estar hecha «con las uñas», con escenarios de cartón, miniaturas y uniformes sencillos, la serie Viaje a las Estrellas (Star Trek) se convirtió en un fenómeno cultural global.
+
+Roddenberry nunca pretendió hacer ciencia real, pero sus imaginaciones sobre el futuro capturaron la fantasía de millones. Sus visiones creativas terminaron influyendo en generaciones de ingenieros, científicos y diseñadores que convirtieron muchas de sus ideas en realidad décadas después.`,
+    questionIds: [77, 78, 79, 80, 81, 82],
+  },
+]
+
+const readingsV2: Reading[] = [
+  {
+    id: "lectura-libro",
+    title: "Lectura 1: El libro como extensión de la memoria e imaginación",
+    text: `El libro es uno de los inventos más asombrosos de la humanidad, pues sirve de extensión a nuestro poder de recordar y de imaginar. ¿Cómo puede un objeto inanimado ayudar a que millones, o incluso cientos de millones de personas recuerden la misma cosa? El libro como medio de información permite contener cierta información determinada que es posible preservar; también sirve para representar el mundo y hacerlo legible. El libro es una extensión de nuestra memoria y nuestra imaginación, pues expande la capacidad de pensar y comunicarse.
+
+Para el reconocido autor Roger Chartier, el libro no es un simple auxiliar de la memoria, sino que él mismo informa, él mismo da forma al recuerdo.
+
+Sin embargo, es extraño comprobar cómo se rechazaba el poder de lo escrito en la antigüedad. Sócrates afirmó en algún momento que la escritura terminaría por destruir la capacidad de recordar: «Es olvido lo que [las letras] producirán en las almas de quienes las aprendan, al descuidar la memoria, ya que, fiándose de lo escrito, llegarán al recuerdo desde fuera, a través de caracteres ajenos, no desde dentro, desde ellos mismos. No es, pues, un fármaco [remedio] de la memoria lo que has hallado, sino un simple recordatorio». Sócrates dice que la escritura destruye la capacidad del juicio, pues evita el trabajo mental que debe realizar quien realmente quiere conocer. No hay error en lo afirmado por Sócrates, solo que él suponía que la memoria es algo más intenso y más noble que la escritura. La historia demostró que se trataba de una forma de pensamiento útil en su época, en la que el culto de la oralidad y las ideas eran necesarias en ese momento. Comparar ambos aspectos de la memoria —la oral y la escrita— es igual que comparar el culto a la oralidad de los antiguos con nuestro culto a los libros. Son simplemente formas de pensamiento útiles, necesarias en su momento, en su cultura.`,
+    questionIds: [99, 100, 101, 102],
+  },
+  {
+    id: "lectura-retorica",
+    title: "Lectura 2: El obstáculo amoroso en la retórica medieval",
+    text: `Los trovadores Provenzales contribuyeron en la Edad Media a expandir una nueva forma de pensar el amor. En sus obras, se establece como regla que el enamorado sufre el rechazo de la mujer amada, quien debe mantenerse distante y ser «inaccesible». Esta estructura narrativa no es casual: detrás del rechazo de la dama se esconde un código complejo de conductas y valores corteses. El amor debía permanecer discreto, casi secreto, y el sufrimiento del pretendiente servía para probar su persistencia, virtud y nobleza de espíritu.
+
+La retórica cortés establecía que sin obstáculo no hay relato amoroso. El impedimento no es un accidente, sino la esencia misma del amor cortés. La imposibilidad del amor alimenta la tensión narrativa y permite explorar temas de honor, deseo contenido, sufrimiento refinado y lealtad incondicional. La dama, al mantenerse inalcanzable, eleva al caballero y lo obliga a perfeccionarse moralmente.
+
+Este código influyó profundamente en la literatura medieval y renacentista, estableciendo el patrón del amor imposible que perduró durante siglos en la tradición literaria occidental. La distancia entre amante y amada no era un defecto del relato, sino su motor narrativo fundamental.`,
+    questionIds: [103, 104, 105, 106, 107],
+  },
+  {
+    id: "lectura-star-trek",
+    title: "Lectura 3: Gene Roddenberry y el éxito de Star Trek",
+    text: `El futuro cumple 30 años
+Por: Mario H. Doren
+
+Gene Roddenberry era guionista de series de televisión, pero su fascinación eran los viajes espaciales. Soñaba con velocidades lumínicas, teletransportación, comunicadores portátiles (que luego inspirarían los teléfonos celulares), computadoras parlantes y naves que exploraban las estrellas. No era científico, y para la comunidad científica era un discreto y redondo cero a la izquierda. Pero él creó la nave U.S.S. Enterprise, con una tripulación de 430 personas comandada por el capitán James Kirk, el doctor Spock y el médico McCoy, que cada semana visitaban un nuevo planeta.
+
+La serie se estrenó en septiembre de 1966 con el episodio The Man Trap (La trampa humana) y en 1996 cumplió treinta años al aire. El programa se hizo con presupuesto limitado: la Enterprise nunca aterrizaba porque no había dinero para construir escenarios de descenso. Los guionistas asumieron que la mayoría de planetas visitados tenían atmósferas respirables para ahorrarse el costo de trajes espaciales. A pesar de estar hecha «con las uñas», con escenarios de cartón, miniaturas y uniformes sencillos, la serie Viaje a las Estrellas (Star Trek) se convirtió en un fenómeno cultural global.
+
+Roddenberry nunca pretendió hacer ciencia real, pero sus imaginaciones sobre el futuro capturaron la fantasía de millones. Sus visiones creativas terminaron influyendo en generaciones de ingenieros, científicos y diseñadores que convirtieron muchas de sus ideas en realidad décadas después.`,
+    questionIds: [108, 109, 110, 111, 112, 113],
+  },
+]
 
 const questionsV1: Question[] = [
   // Oraciones temáticas
@@ -1203,6 +1283,261 @@ const questionsV1: Question[] = [
     correct: "c",
     explanation:
       "El analista demuestra competencia propositiva al generar múltiples soluciones creativas e integradas para abordar un problema complejo, no solo identificándolo o argumentando sobre él.",
+    points: 5,
+  },
+  {
+    id: 68,
+    category: "Comprensión Lectora",
+    context:
+      "El libro es uno de los inventos más asombrosos de la humanidad. A diferencia de otros instrumentos —como el microscopio, el telescopio, el teléfono o el arado— que son extensiones de la vista, la voz o el brazo, el libro es una extensión de la memoria y de la imaginación. Mientras que un periódico o un disco se consumen 'para el olvido', un libro se lee 'para la memoria'. Los antiguos desconfiaban de la palabra escrita, pues la consideraban muerta; por eso Pitágoras se negó a escribir y Platón recurrió al diálogo. Las bibliotecas son 'gabinetes mágicos' donde reposan los mejores espíritus de la humanidad que esperan ser despertados. Un libro cerrado es apenas un objeto, pero al leerlo conectamos con el tiempo transcurrido entre su escritura y nuestra lectura.",
+    question: "Tras comparar el culto a la oralidad de los antiguos con el culto a los libros actual, ¿cuál afirmación es correcta?",
+    options: [
+      { id: "a", text: "Son dos formas de pensamiento determinadas por necesidades culturales diferentes." },
+      { id: "b", text: "Los antiguos tenían razón, pues gracias a la escritura hoy conocemos su cultura." },
+      { id: "c", text: "Son formas de pensamiento similares, pues privilegian ante todo el sentido de sus enseñanzas." },
+      { id: "d", text: "Los antiguos tenían razón, pues hoy se ha perdido la capacidad de escuchar y memorizar." },
+    ],
+    correct: "a",
+    explanation:
+      "El texto establece que el culto a la oralidad de los antiguos y el culto al libro moderno son dos formas de pensamiento determinadas por necesidades culturales diferentes de cada época.",
+    points: 5,
+  },
+  {
+    id: 69,
+    category: "Comprensión Lectora",
+    context:
+      "El libro es uno de los inventos más asombrosos de la humanidad. A diferencia de otros instrumentos —como el microscopio, el telescopio, el teléfono o el arado— que son extensiones de la vista, la voz o el brazo, el libro es una extensión de la memoria y de la imaginación. Mientras que un periódico o un disco se consumen 'para el olvido', un libro se lee 'para la memoria'. Los antiguos desconfiaban de la palabra escrita, pues la consideraban muerta; por eso Pitágoras se negó a escribir y Platón recurrió al diálogo.",
+    question: "En el texto se afirma que un periódico 'se lee para el olvido'. ¿A qué alude esa expresión?",
+    options: [
+      { id: "a", text: "A la naturaleza efímera y cotidiana de dicha publicación." },
+      { id: "b", text: "A la naturaleza caótica y dispersa de dicha publicación." },
+      { id: "c", text: "A la excesiva influencia de los medios impresos de comunicación." },
+      { id: "d", text: "A la abundante información escrita en nuestros días." },
+    ],
+    correct: "a",
+    explanation:
+      "La expresión 'se lee para el olvido' alude a la naturaleza efímera y cotidiana del periódico, que contrasta con el libro que se lee 'para la memoria'.",
+    points: 5,
+  },
+  {
+    id: 70,
+    category: "Comprensión Lectora",
+    context:
+      "Los antiguos desconfiaban de la palabra escrita, pues la consideraban muerta; por eso Pitágoras se negó a escribir y Platón recurrió al diálogo. El texto contrapone la oralidad antigua —que confiaba en la memoria viva de discípulos y maestros— con el culto al libro de la modernidad. Las bibliotecas se presentan como 'gabinetes mágicos' donde reposan los mejores espíritus de la humanidad que esperan ser despertados.",
+    question: "De la relación planteada entre oralidad y escritura se deduce que:",
+    options: [
+      { id: "a", text: "El pasado se conoce gracias a la escritura y el futuro gracias a la oralidad." },
+      { id: "b", text: "La memoria está determinada por la oralidad y el olvido por la escritura." },
+      { id: "c", text: "La vida tenía que ver con la escritura y la muerte con la oralidad." },
+      { id: "d", text: "Lo antiguo estuvo determinado por la oralidad y lo moderno por la escritura." },
+    ],
+    correct: "d",
+    explanation:
+      "El texto establece claramente que lo antiguo se caracterizó por el culto a la oralidad (Pitágoras, Platón) y lo moderno por el culto a la escritura y los libros.",
+    points: 5,
+  },
+  {
+    id: 71,
+    category: "Comprensión Lectora",
+    context:
+      "El libro es uno de los inventos más asombrosos de la humanidad. A diferencia de otros instrumentos —como el microscopio, el telescopio, el teléfono o el arado— que son extensiones de la vista, la voz o el brazo, el libro es una extensión de la memoria y de la imaginación. Un libro cerrado es apenas un objeto, pero al leerlo conectamos con el tiempo transcurrido entre su escritura y nuestra lectura. La lectura mantiene viva la búsqueda de felicidad y sabiduría.",
+    question: "Al señalar que el libro es una extensión de la memoria y la imaginación, ¿qué implica ello?",
+    options: [
+      { id: "a", text: "Que los libros se encuentran más allá del pasado de la humanidad." },
+      { id: "b", text: "Que amplían la historia y las fantasías de la humanidad." },
+      { id: "c", text: "Que están a favor de la tecnología, pero en contra de la tradición." },
+      { id: "d", text: "Que promueven y estimulan los distintos avances." },
+    ],
+    correct: "b",
+    explanation:
+      "Al ser una extensión de la memoria (historia) y la imaginación (fantasías), el libro amplía ambas dimensiones de la experiencia humana.",
+    points: 5,
+  },
+  {
+    id: 72,
+    category: "Comprensión Lectora",
+    context:
+      "La retórica amorosa del siglo XII describe un esquema en el que el amor está siempre acompañado por un obstáculo. El deseo se dirige hacia un objeto que nunca se poseerá plenamente en el 'goce'. Según la retórica cortés, el obstáculo amoroso está significado por la condena virtual contra el matrimonio, porque implica un derecho de posesión. La inmanencia del obstáculo se manifiesta en la exigencia del secreto: revelar el amor lo destruiría. La retórica del siglo XII reposa sobre una doble afirmación: el deseo se identifica con su expresión, y quien canta merece el amor.",
+    question: "En el pasaje sobre el amor cortés, ¿por qué se cuestiona la idea del matrimonio como limitante del amor?",
+    options: [
+      { id: "a", text: "Responde al interés de la sociedad medieval por comprender el deseo." },
+      { id: "b", text: "Contradice la necesidad de los amantes de mantener su secreto." },
+      { id: "c", text: "Corresponde a la forma de pensar de la sociedad del siglo XII." },
+      { id: "d", text: "Es un obstáculo para la creación de metáforas en el siglo XII." },
+    ],
+    correct: "c",
+    explanation:
+      "El texto indica que la concepción del matrimonio como obstáculo corresponde a la retórica y forma de pensar características de la sociedad del siglo XII.",
+    points: 5,
+  },
+  {
+    id: 73,
+    category: "Comprensión Lectora",
+    context:
+      "Según la retórica cortés del siglo XII, el obstáculo amoroso está significado por la condena virtual contra el matrimonio, porque implica un derecho de posesión. El deseo se dirige hacia un objeto que nunca se poseerá plenamente. La inmanencia del obstáculo se manifiesta en la exigencia del secreto: revelar el amor lo destruiría.",
+    question: "El texto señala que el matrimonio implica un 'derecho de posesión'. ¿Por qué?",
+    options: [
+      { id: "a", text: "Porque cuando se revela el secreto amoroso el amor muere." },
+      { id: "b", text: "Porque en la voz hablada del deseo interfiere el obstáculo." },
+      { id: "c", text: "Porque así lo concibe el simbolismo cortés primitivo." },
+      { id: "d", text: "Porque este sentimiento mata la manifestación del amor." },
+    ],
+    correct: "c",
+    explanation:
+      "El texto explica que la concepción del matrimonio como derecho de posesión proviene del simbolismo cortés primitivo, que veía en ello un obstáculo para el amor ideal.",
+    points: 5,
+  },
+  {
+    id: 74,
+    category: "Comprensión Lectora",
+    context:
+      "La retórica del siglo XII reposa sobre una doble afirmación: el deseo se identifica con su expresión, y quien canta merece el amor. Se observa así una profunda confianza en la eficacia de la palabra: amar es cantar y expresar el sentimiento. El deseo que poseo y me posee refleja la experiencia personal de quien experimenta esta posesión mutua.",
+    question: "La frase 'el deseo que poseo y me posee' se clasifica como:",
+    options: [
+      { id: "a", text: "Afirmación general referida a la experiencia personal de quien experimenta la posesión." },
+      { id: "b", text: "Afirmación particular referida a una situación general propia de la retórica del siglo XII." },
+      { id: "c", text: "Afirmación colectiva porque la experiencia de posesión hace parte de la sociedad medieval." },
+      { id: "d", text: "Afirmación personal porque existe un 'yo' que experimenta un sentimiento de posesión." },
+    ],
+    correct: "d",
+    explanation:
+      "La frase es una afirmación personal porque implica la existencia de un 'yo' (quien posee) que experimenta personalmente el sentimiento de posesión mutua con el deseo.",
+    points: 5,
+  },
+  {
+    id: 75,
+    category: "Comprensión Lectora",
+    context:
+      "La retórica amorosa del siglo XII describe un esquema imaginativo y lingüístico en el que el amor está siempre acompañado por un obstáculo. La retórica cortés presenta una doble afirmación: el deseo se identifica con su expresión, y quien canta merece el amor. Se observa una profunda confianza en la eficacia de la palabra. Este discurso se inscribe en la estética, la historia y la cultura medievales.",
+    question: "¿A qué ámbitos se refieren las informaciones y discursos del texto sobre la retórica del siglo XII?",
+    options: [
+      { id: "a", text: "A la estética, la historia y la cultura medievales." },
+      { id: "b", text: "A la cultura, ya que describen la sociedad medieval." },
+      { id: "c", text: "A la historia, porque permiten una ubicación temporal." },
+      { id: "d", text: "A la moral, la crítica y la religión medievales." },
+    ],
+    correct: "a",
+    explanation:
+      "El texto aborda información relacionada con la estética (retórica y expresión artística), la historia (siglo XII) y la cultura (prácticas sociales) medievales.",
+    points: 5,
+  },
+  {
+    id: 76,
+    category: "Comprensión Lectora",
+    context:
+      "La retórica amorosa del siglo XII describe un esquema en el que el amor está siempre acompañado por un obstáculo. El deseo se dirige hacia un objeto que nunca se poseerá plenamente en el 'goce'. Según la retórica cortés, el obstáculo amoroso está significado por la condena virtual contra el matrimonio, porque implica un derecho de posesión. La inmanencia del obstáculo se manifiesta en la exigencia del secreto.",
+    question: "¿Cuál es el tema central del texto sobre la retórica medieval?",
+    options: [
+      { id: "a", text: "El obstáculo inminente a todo amor." },
+      { id: "b", text: "El matrimonio que implica un derecho de posesión." },
+      { id: "c", text: "El deseo de posesión y su imposibilidad." },
+      { id: "d", text: "La fe casi mágica en la eficacia de la palabra." },
+    ],
+    correct: "a",
+    explanation:
+      "El tema central del texto es el obstáculo inminente a todo amor en la retórica cortés del siglo XII, del cual el matrimonio y la imposibilidad de posesión son manifestaciones específicas.",
+    points: 5,
+  },
+  {
+    id: 77,
+    category: "Comprensión Lectora",
+    context:
+      "Gene Roddenberry, creador de la serie Star Trek, fue piloto de bombardero B-17 durante la Segunda Guerra Mundial y guionista de series del Oeste. Sus ideas en la serie posibilitaron los viajes espaciales a velocidades lumínicas, la teletransportación, los teléfonos celulares y la primera generación de máquinas inteligentes. Sin embargo, su nombre es poco recordado en la comunidad científica, que lo considera 'un discreto y redondo cero a la izquierda'. La serie se estrenó en 1966 y se convirtió en un éxito global y una 'mina de oro' para Paramount Pictures.",
+    question: "¿Cuál es la intención del autor del artículo sobre Star Trek?",
+    options: [
+      { id: "a", text: "Señalar los percances que tuvo la serie Viaje a las estrellas para ser transmitida." },
+      { id: "b", text: "Demostrar que con poco dinero no se puede hacer un buen trabajo." },
+      { id: "c", text: "Dar información sobre el éxito monetario de la serie Star Trek." },
+      { id: "d", text: "Criticar el trabajo hecho por Gene Roddenberry en cine y televisión." },
+    ],
+    correct: "c",
+    explanation:
+      "La intención del autor es informar sobre el éxito monetario y cultural de la serie Star Trek, destacando cómo se convirtió en una 'mina de oro' a pesar de las limitaciones presupuestales.",
+    points: 5,
+  },
+  {
+    id: 78,
+    category: "Comprensión Lectora",
+    context:
+      "El artículo sobre Gene Roddenberry y Star Trek reseña cómo la serie se estrenó en 1966 con el episodio The Man Trap y celebró treinta años en 1996. Fue producida con restricciones presupuestales: la nave U.S.S. Enterprise nunca aterrizaba porque no había dinero para construir escenarios de descenso. A pesar de utilizar escenarios de cartón, miniaturas y uniformes sencillos, la serie se convirtió en un éxito global.",
+    question: "¿Con qué tipo de texto se presenta la información sobre Viaje a las estrellas?",
+    options: [
+      { id: "a", text: "Periodístico, porque reseña la creación y éxito de la serie." },
+      { id: "b", text: "Descriptivo, porque detalla hechos irreales sucedidos en la nave Enterprise." },
+      { id: "c", text: "Científico, porque muestra los avances de la ciencia para crear naves espaciales." },
+      { id: "d", text: "Informativo, porque muestra la historia del creador de la serie." },
+    ],
+    correct: "a",
+    explanation:
+      "El texto es de tipo periodístico porque reseña la creación, desarrollo y éxito de la serie Star Trek, presentando información de manera objetiva sobre un fenómeno cultural.",
+    points: 5,
+  },
+  {
+    id: 79,
+    category: "Comprensión Lectora",
+    context:
+      "Gene Roddenberry, creador de Star Trek, posibilitó con sus ideas los viajes espaciales a velocidades lumínicas, la teletransportación, los teléfonos celulares y la primera generación de máquinas inteligentes. Pese a ello, su nombre es poco recordado en la comunidad científica, que lo considera 'un discreto y redondo cero a la izquierda'. Sin embargo, sus innovaciones generaron enormes ganancias económicas y culto entre los aficionados a la ciencia ficción.",
+    question: "La expresión 'un discreto y redondo cero a la izquierda' refiere a:",
+    options: [
+      { id: "a", text: "Nunca fue científico y, por lo tanto, no aportó al desarrollo de la ciencia." },
+      { id: "b", text: "Hizo muchos descubrimientos en el espacio que no fueron aceptados por la comunidad científica." },
+      { id: "c", text: "Posibilitó la creación de un mundo fantástico e irreal que le aportó mucho al mundo científico." },
+      { id: "d", text: "Consiguió su prestigio con base en falsos descubrimientos que nunca fueron aceptados por los científicos." },
+    ],
+    correct: "a",
+    explanation:
+      "La expresión 'un discreto y redondo cero a la izquierda' indica que Roddenberry no fue científico y por tanto la comunidad científica no lo considera un aporte al desarrollo de la ciencia, a pesar de su impacto cultural.",
+    points: 5,
+  },
+  {
+    id: 80,
+    category: "Comprensión Lectora",
+    context:
+      "La serie Star Trek se estrenó en 1966 con el episodio The Man Trap y celebró treinta años en 1996. Durante ese tiempo, los viajes de la nave Enterprise captaron la imaginación de millones de espectadores y la serie se convirtió en un fenómeno cultural global. El título 'El futuro cumple 30 años' hace referencia a este aniversario.",
+    question: "El título 'El futuro cumple 30 años' se refiere a:",
+    options: [
+      { id: "a", text: "Los viajes que ha realizado la nave Enterprise a otros planetas durante treinta años." },
+      { id: "b", text: "El recorrido que ha realizado la nave por el espacio." },
+      { id: "c", text: "Los adelantos espaciales que se han hecho en los últimos treinta años." },
+      { id: "d", text: "La cantidad de años que lleva la serie Viaje a las Estrellas, con su nave Enterprise, al aire." },
+    ],
+    correct: "d",
+    explanation:
+      "El título se refiere a los treinta años (de 1966 a 1996) que lleva la serie Star Trek al aire, representando una visión futurista que cumple tres décadas desde su estreno.",
+    points: 5,
+  },
+  {
+    id: 81,
+    category: "Comprensión Lectora",
+    context:
+      "Star Trek fue producida con restricciones presupuestales significativas. La nave U.S.S. Enterprise nunca aterrizaba porque no había dinero para construir escenarios de descenso. Los guionistas asumieron que la mayoría de los planetas visitados tenían atmósferas respirables para ahorrar en trajes espaciales. A pesar de utilizar escenarios de cartón, miniaturas y uniformes sencillos, la serie se convirtió en un éxito global. La frase 'hecha con las uñas' describe estas condiciones de producción.",
+    question: "La frase 'hecha con las uñas' indica que la producción de la serie se realizó:",
+    options: [
+      { id: "a", text: "Manualmente, porque la tecnología no estaba desarrollada lo suficiente." },
+      { id: "b", text: "Con insuficiente publicidad, porque no se sabía cómo promocionarla." },
+      { id: "c", text: "Con pocos materiales, porque era la primera en su género que se hacía." },
+      { id: "d", text: "Con escaso dinero, porque no se esperaba que tuviera tanto éxito." },
+    ],
+    correct: "d",
+    explanation:
+      "La expresión 'hecha con las uñas' indica que la serie se produjo con escaso dinero y recursos limitados, sin esperar el enorme éxito que finalmente alcanzó.",
+    points: 5,
+  },
+  {
+    id: 82,
+    category: "Comprensión Lectora",
+    context:
+      "Gene Roddenberry creó Star Trek partiendo de sus imaginaciones sobre los viajes espaciales. Sus ideas sobre velocidades lumínicas, teletransportación, comunicadores (que inspiraron los teléfonos celulares) y computadoras inteligentes se convirtieron en la base de una serie futurista que capturó la imaginación de millones. Aunque no era científico, sus visiones imaginativas terminaron influyendo en el desarrollo tecnológico posterior.",
+    question: "¿Qué pretendía Gene Roddenberry con su creación de la nave Enterprise?",
+    options: [
+      { id: "a", text: "Obtener reconocimiento y dinero a base de la ingenuidad de los televidentes." },
+      { id: "b", text: "Indicar que podría haber vida en otros planetas y ayudar a descubrirla." },
+      { id: "c", text: "Plasmar sus imaginaciones sobre los viajes espaciales, que terminaron siendo la base de una serie futurista." },
+      { id: "d", text: "Explorar el espacio con una nueva tecnología y aportar este conocimiento al mundo científico." },
+    ],
+    correct: "c",
+    explanation:
+      "Roddenberry pretendía plasmar sus imaginaciones sobre los viajes espaciales, y estas visiones creativas se convirtieron en la base de la serie futurista Star Trek.",
     points: 5,
   },
 ]
@@ -2433,6 +2768,261 @@ const questionsV2: Question[] = [
       "La competencia propositiva se evidencia cuando el gerente diseña una estrategia creativa e integrada para solucionar el problema, no solo al analizar la situación o identificar causas.",
     points: 5,
   },
+  {
+    id: 99,
+    category: "Comprensión Lectora",
+    context:
+      "El libro es uno de los inventos más asombrosos de la humanidad, pues sirve de extensión a nuestro poder de recordar y de imaginar. Permite contener información para preservarla, ayuda a representar el mundo y hacerlo legible. Expande la capacidad de pensar y comunicarse. En la cultura digital actual, el libro mantiene su relevancia como herramienta indispensable.",
+    question: "¿Por qué el texto afirma que el libro es una extensión del poder humano?",
+    options: [
+      { id: "a", text: "Porque permite almacenar información fuera de la mente y expandir las capacidades cognitivas." },
+      { id: "b", text: "Porque la escritura reemplazó completamente la tradición oral antigua." },
+      { id: "c", text: "Porque hace innecesario ejercitar la memoria humana." },
+      { id: "d", text: "Porque elimina la necesidad de comunicación directa entre personas." },
+    ],
+    correct: "a",
+    explanation:
+      "El libro es una extensión del poder humano porque permite contener información externamente, preservarla y expandir las capacidades de pensar y comunicarse, no porque reemplace o elimine funciones humanas.",
+    points: 5,
+  },
+  {
+    id: 100,
+    category: "Comprensión Lectora",
+    context:
+      "Sócrates afirmó que la escritura terminaría con la capacidad de recordar porque ya no habría necesidad de ejercitar la memoria ni someter los pensamientos a juicio propio. Sin embargo, la historia demostró que ambas tradiciones —oral y escrita— respondían a necesidades culturales diferentes en momentos distintos de la humanidad.",
+    question: "Según el texto, ¿cuál es la validez de la preocupación de Sócrates?",
+    options: [
+      { id: "a", text: "Tenía razón absoluta porque la escritura destruyó la capacidad memorística humana." },
+      { id: "b", text: "Su preocupación era válida para su contexto, pero oralidad y escritura responden a necesidades culturales diferentes." },
+      { id: "c", text: "Estaba equivocado porque la escritura siempre fue superior a la oralidad." },
+      { id: "d", text: "Era correcta, pues hoy nadie ejercita la memoria gracias a los libros." },
+    ],
+    correct: "b",
+    explanation:
+      "El texto sugiere que la preocupación de Sócrates tenía sentido en su época, pero que ambas tradiciones (oral y escrita) respondían a necesidades culturales distintas en momentos diferentes.",
+    points: 5,
+  },
+  {
+    id: 101,
+    category: "Comprensión Lectora",
+    context:
+      "Los antiguos valoraban profundamente el ejercicio de la memoria y el juicio propio sobre los pensamientos. Para ellos, el acto de recordar era fundamental para el conocimiento. En contraste, la sociedad moderna valora la capacidad de almacenar y acceder a grandes cantidades de información mediante libros y tecnología digital.",
+    question: "¿Qué diferencia fundamental establece el texto entre antiguos y modernos?",
+    options: [
+      { id: "a", text: "Los antiguos no tenían acceso a información, mientras los modernos sí." },
+      { id: "b", text: "Los antiguos valoraban el ejercicio mental de recordar, mientras los modernos valoran el almacenamiento externo de información." },
+      { id: "c", text: "Los antiguos eran superiores intelectualmente a los modernos." },
+      { id: "d", text: "Los modernos han perdido completamente la capacidad de memorizar." },
+    ],
+    correct: "b",
+    explanation:
+      "La diferencia clave está en los valores: los antiguos privilegiaban el ejercicio de la memoria y el juicio propio, mientras los modernos valoran la capacidad de almacenar y acceder a información externamente.",
+    points: 5,
+  },
+  {
+    id: 102,
+    category: "Comprensión Lectora",
+    context:
+      "El libro permite representar el mundo y hacerlo legible. No solo preserva información, sino que ayuda a organizar el conocimiento, estructurar el pensamiento y comunicar ideas complejas a través del tiempo y el espacio. Es una tecnología que transforma cómo entendemos la realidad.",
+    question: "Según el texto, ¿cuál es la función más amplia del libro más allá de preservar información?",
+    options: [
+      { id: "a", text: "Simplemente guardar datos para el futuro." },
+      { id: "b", text: "Reemplazar la necesidad de pensar críticamente." },
+      { id: "c", text: "Representar el mundo, organizar conocimiento y estructurar el pensamiento humano." },
+      { id: "d", text: "Eliminar la comunicación oral entre generaciones." },
+    ],
+    correct: "c",
+    explanation:
+      "El texto destaca que el libro tiene funciones más profundas: representa el mundo, lo hace legible, organiza conocimiento y estructura el pensamiento, no solo preserva datos.",
+    points: 5,
+  },
+  {
+    id: 103,
+    category: "Comprensión Lectora",
+    context:
+      "La retórica cortés medieval establecía que el enamorado debía sufrir el rechazo de la mujer amada como parte del proceso amoroso. Este sufrimiento no era casual, sino estructurado según códigos específicos. El amor debía ser discreto, y la dama mantenía su distancia para probar la persistencia y virtud del pretendiente.",
+    question: "En la retórica cortés medieval, ¿qué función cumplía el rechazo de la dama?",
+    options: [
+      { id: "a", text: "Era una expresión de crueldad sin propósito." },
+      { id: "b", text: "Servía para probar la persistencia y virtud del pretendiente según códigos establecidos." },
+      { id: "c", text: "Buscaba humillar públicamente al enamorado." },
+      { id: "d", text: "No tenía significado particular en la cultura medieval." },
+    ],
+    correct: "b",
+    explanation:
+      "El rechazo tenía una función específica dentro del código cortés: probar la persistencia y virtud del pretendiente, siendo parte estructurada del proceso amoroso medieval.",
+    points: 5,
+  },
+  {
+    id: 104,
+    category: "Comprensión Lectora",
+    context:
+      "El obstáculo amoroso en la literatura medieval no era un impedimento accidental, sino un elemento estructural del relato. La imposibilidad del amor alimentaba la narrativa y permitía explorar temas de honor, virtud, sufrimiento y nobleza. Sin obstáculo, la historia perdía su tensión narrativa.",
+    question: "¿Por qué el obstáculo amoroso era estructural en la narrativa medieval?",
+    options: [
+      { id: "a", text: "Porque los escritores no sabían crear historias sin conflictos." },
+      { id: "b", text: "Porque alimentaba la narrativa y permitía explorar temas de honor, virtud y nobleza." },
+      { id: "c", text: "Porque reflejaba la simple realidad social sin elaboración artística." },
+      { id: "d", text: "Porque era un requisito legal impuesto por la Iglesia." },
+    ],
+    correct: "b",
+    explanation:
+      "El obstáculo era estructural porque no era accidental sino intencional: alimentaba la narrativa y permitía explorar temas centrales como honor, virtud, sufrimiento y nobleza.",
+    points: 5,
+  },
+  {
+    id: 105,
+    category: "Comprensión Lectora",
+    context:
+      "En la poesía trovadoresca, el amor debía mantenerse secreto y discreto. La revelación pública del amor podía arruinar la reputación de la dama y del caballero. La discreción era tanto una virtud como una necesidad práctica, creando una tensión entre el deseo de expresar el amor y la obligación de ocultarlo.",
+    question: "¿Qué tensión caracterizaba el amor trovadoresco medieval?",
+    options: [
+      { id: "a", text: "Entre la riqueza del caballero y la pobreza de la dama." },
+      { id: "b", text: "Entre el deseo de expresar el amor y la obligación social de ocultarlo." },
+      { id: "c", text: "Entre el amor verdadero y el matrimonio arreglado exclusivamente." },
+      { id: "d", text: "Entre las órdenes religiosas y la nobleza secular." },
+    ],
+    correct: "b",
+    explanation:
+      "La tensión clave era entre el impulso de expresar el amor y la necesidad social de mantenerlo secreto y discreto para proteger reputaciones.",
+    points: 5,
+  },
+  {
+    id: 106,
+    category: "Comprensión Lectora",
+    context:
+      "El amor cortés medieval establecía una jerarquía donde la dama ocupaba una posición superior al pretendiente. El caballero se colocaba en posición de servicio, similar a un vasallo ante su señor. Esta inversión de roles sociales convencionales creaba una dinámica única de poder y sumisión voluntaria.",
+    question: "¿Qué característica distintiva tenía la jerarquía del amor cortés?",
+    options: [
+      { id: "a", text: "Mantenía exactamente las jerarquías sociales convencionales." },
+      { id: "b", text: "Invertía los roles, colocando a la dama en posición superior y al caballero como servidor." },
+      { id: "c", text: "Eliminaba completamente toda jerarquía entre los amantes." },
+      { id: "d", text: "Privilegiaba siempre al hombre sobre la mujer en todas las situaciones." },
+    ],
+    correct: "b",
+    explanation:
+      "Lo distintivo del amor cortés era la inversión de jerarquías: la dama ocupaba posición superior y el caballero se colocaba voluntariamente en posición de servicio, como vasallo.",
+    points: 5,
+  },
+  {
+    id: 107,
+    category: "Comprensión Lectora",
+    context:
+      "El código del amor cortés requería que el sufrimiento del enamorado fuera refinado y estético. No bastaba sufrir; había que hacerlo con elegancia, expresándolo mediante poesía, música y gestos codificados. El sufrimiento se convertía en arte y prueba de nobleza espiritual.",
+    question: "Según el código cortés, ¿cómo debía manifestarse el sufrimiento amoroso?",
+    options: [
+      { id: "a", text: "De manera vulgar y desesperada para demostrar sinceridad." },
+      { id: "b", text: "Con refinamiento estético, expresándose mediante arte y gestos codificados." },
+      { id: "c", text: "En completo silencio sin ninguna expresión externa." },
+      { id: "d", text: "Solo mediante actos violentos contra rivales." },
+    ],
+    correct: "b",
+    explanation:
+      "El sufrimiento debía ser refinado y estético, expresándose mediante poesía, música y gestos codificados, convirtiéndose en arte y prueba de nobleza espiritual.",
+    points: 5,
+  },
+  {
+    id: 108,
+    category: "Comprensión Lectora",
+    context:
+      "Gene Roddenberry no era científico ni ingeniero, pero sus visiones imaginativas sobre el futuro influyeron posteriormente en el desarrollo tecnológico real. Los comunicadores de Star Trek inspiraron los teléfonos celulares, y conceptos como las computadoras parlantes anticiparon asistentes virtuales modernos.",
+    question: "¿Qué relación establece el texto entre imaginación y desarrollo tecnológico?",
+    options: [
+      { id: "a", text: "Solo los científicos pueden imaginar tecnología futura relevante." },
+      { id: "b", text: "La imaginación creativa puede anticipar e inspirar desarrollos tecnológicos reales posteriores." },
+      { id: "c", text: "La ciencia ficción nunca tiene impacto en la tecnología real." },
+      { id: "d", text: "Roddenberry robó ideas de científicos contemporáneos." },
+    ],
+    correct: "b",
+    explanation:
+      "El texto muestra que la imaginación creativa de Roddenberry, aunque no era científico, anticipó e inspiró desarrollos tecnológicos reales como celulares y asistentes virtuales.",
+    points: 5,
+  },
+  {
+    id: 109,
+    category: "Comprensión Lectora",
+    context:
+      "Star Trek comenzó como una serie de televisión con presupuesto limitado y audiencias modestas. Sin embargo, su visión optimista del futuro, donde la humanidad superaba conflictos mediante cooperación y conocimiento, resonó profundamente con el público y creó un fenómeno cultural duradero.",
+    question: "¿Qué factor explica mejor el éxito cultural duradero de Star Trek?",
+    options: [
+      { id: "a", text: "El enorme presupuesto inicial de producción." },
+      { id: "b", text: "Su visión optimista del futuro basada en cooperación y conocimiento." },
+      { id: "c", text: "Los efectos especiales revolucionarios de la época." },
+      { id: "d", text: "El apoyo inmediato de audiencias masivas desde el inicio." },
+    ],
+    correct: "b",
+    explanation:
+      "A pesar del presupuesto limitado y audiencias modestas iniciales, el éxito duradero se debió a su visión optimista del futuro fundamentada en cooperación y conocimiento.",
+    points: 5,
+  },
+  {
+    id: 110,
+    category: "Comprensión Lectora",
+    context:
+      "Los dispositivos imaginados en Star Trek —comunicadores portátiles, tabletas táctiles, traductores universales— no existían en los años 60, pero presentaban soluciones a necesidades humanas reales. Décadas después, la tecnología real desarrolló equivalentes funcionales a muchos de estos conceptos.",
+    question: "¿Qué demuestra la materialización posterior de tecnologías imaginadas en Star Trek?",
+    options: [
+      { id: "a", text: "Que Roddenberry tenía información privilegiada de laboratorios secretos." },
+      { id: "b", text: "Que la ficción que identifica necesidades humanas reales puede anticipar soluciones tecnológicas." },
+      { id: "c", text: "Que toda la tecnología moderna proviene exclusivamente de Star Trek." },
+      { id: "d", text: "Que la ciencia ficción no tiene valor más allá del entretenimiento." },
+    ],
+    correct: "b",
+    explanation:
+      "La materialización posterior demuestra que la ficción bien fundamentada, al identificar necesidades humanas reales, puede anticipar direcciones del desarrollo tecnológico futuro.",
+    points: 5,
+  },
+  {
+    id: 111,
+    category: "Comprensión Lectora",
+    context:
+      "La nave Enterprise de Star Trek representaba más que un vehículo espacial: simbolizaba la exploración, el descubrimiento, la diversidad cultural y la resolución de conflictos mediante el diálogo. Era una metáfora móvil de los valores que la serie promovía sobre cómo la humanidad debería enfrentar el futuro.",
+    question: "¿Cuál era la función simbólica más profunda de la nave Enterprise?",
+    options: [
+      { id: "a", text: "Simplemente servir como escenario para aventuras espaciales." },
+      { id: "b", text: "Representar una metáfora de valores sobre exploración, diversidad y resolución de conflictos." },
+      { id: "c", text: "Demostrar superioridad militar de la Tierra sobre otras civilizaciones." },
+      { id: "d", text: "Mostrar tecnología impresionante sin mensaje particular." },
+    ],
+    correct: "b",
+    explanation:
+      "La Enterprise era más que escenario: simbolizaba valores como exploración, descubrimiento, diversidad y resolución de conflictos mediante diálogo, siendo metáfora de cómo enfrentar el futuro.",
+    points: 5,
+  },
+  {
+    id: 112,
+    category: "Comprensión Lectora",
+    context:
+      "A pesar de ser cancelada después de tres temporadas por bajas audiencias, Star Trek renació como fenómeno cultural a través de repeticiones, convenciones de fans y eventual expansión a películas y series derivadas. Este patrón demuestra que el éxito inmediato no siempre predice el impacto cultural duradero.",
+    question: "¿Qué lección sobre el impacto cultural ilustra la historia de Star Trek?",
+    options: [
+      { id: "a", text: "El éxito inmediato siempre garantiza impacto cultural duradero." },
+      { id: "b", text: "Las series canceladas nunca pueden recuperarse o tener influencia posterior." },
+      { id: "c", text: "El éxito inicial en audiencias no necesariamente predice el impacto cultural a largo plazo." },
+      { id: "d", text: "Solo las series con altas audiencias iniciales merecen reconocimiento." },
+    ],
+    correct: "c",
+    explanation:
+      "Star Trek demuestra que obras inicialmente modestas en audiencia pueden generar impacto cultural profundo y duradero a largo plazo, desafiando predicciones basadas solo en éxito inmediato.",
+    points: 5,
+  },
+  {
+    id: 113,
+    category: "Comprensión Lectora",
+    context:
+      "Los creadores de tecnologías modernas como los teléfonos celulares han reconocido explícitamente la inspiración que tomaron de los comunicadores de Star Trek. Martin Cooper, inventor del primer celular portátil, citó directamente a la serie como influencia para conceptualizar dispositivos de comunicación móvil.",
+    question: "¿Qué evidencia concreta confirma la influencia de Star Trek en tecnología real?",
+    options: [
+      { id: "a", text: "Solo especulaciones de fans sin confirmación de inventores." },
+      { id: "b", text: "El reconocimiento explícito de inventores como Martin Cooper sobre la inspiración recibida de la serie." },
+      { id: "c", text: "Documentos secretos que prueban que Roddenberry era ingeniero encubierto." },
+      { id: "d", text: "Similitudes casuales sin conexión histórica documentada." },
+    ],
+    correct: "b",
+    explanation:
+      "La influencia está concretamente documentada: inventores como Martin Cooper reconocieron explícitamente haber tomado inspiración de Star Trek para desarrollar tecnologías como el celular portátil.",
+    points: 5,
+  },
 ]
 
 export function RazonamientoTest() {
@@ -2442,8 +3032,20 @@ export function RazonamientoTest() {
   const [showFeedback, setShowFeedback] = useState(false)
 
   const questions = selectedVersion === "v1" ? questionsV1 : questionsV2
+  const readings = selectedVersion === "v1" ? readingsV1 : readingsV2
 
   const totalScore = useMemo(() => questions.reduce((sum, q) => sum + q.points, 0), [questions])
+
+  // Separar preguntas con lectura de las demás
+  const questionsWithReadings = useMemo(() => {
+    const readingQuestionIds = new Set(readings.flatMap(r => r.questionIds))
+    return questions.filter(q => readingQuestionIds.has(q.id))
+  }, [questions, readings])
+
+  const questionsWithoutReadings = useMemo(() => {
+    const readingQuestionIds = new Set(readings.flatMap(r => r.questionIds))
+    return questions.filter(q => !readingQuestionIds.has(q.id))
+  }, [questions, readings])
 
   const handleVersionChange = (value: string) => {
     setSelectedVersion(value as "v1" | "v2")
@@ -2496,8 +3098,8 @@ export function RazonamientoTest() {
 
   const unansweredCount = questions.length - Object.keys(answers).length
 
-  // Agrupar preguntas por categoría
-  const groupedQuestions = questions.reduce((acc, question) => {
+  // Agrupar preguntas sin lectura por categoría
+  const groupedQuestionsWithoutReadings = questionsWithoutReadings.reduce((acc, question) => {
     if (!acc[question.category]) {
       acc[question.category] = []
     }
@@ -2556,7 +3158,126 @@ export function RazonamientoTest() {
         </CardContent>
       </Card>
 
-      {Object.entries(groupedQuestions).map(([category, categoryQuestions]) => (
+      {/* Renderizar lecturas completas con sus preguntas */}
+      {readings.map((reading) => {
+        const readingQuestions = questions.filter(q => reading.questionIds.includes(q.id))
+
+        return (
+          <div key={reading.id} className="space-y-4">
+            {/* Lectura completa */}
+            <Card className="border-primary/40 bg-gradient-to-br from-primary/5 to-primary/10 shadow-lg shadow-primary/20 backdrop-blur">
+              <CardHeader>
+                <CardTitle className="text-xl font-bold text-primary flex items-center gap-2">
+                  <Brain className="h-5 w-5" />
+                  {reading.title}
+                </CardTitle>
+                <CardDescription>
+                  Lee cuidadosamente el siguiente texto antes de responder las preguntas asociadas
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="rounded-xl border border-primary/30 bg-white/90 px-6 py-5">
+                  <p className="text-sm leading-relaxed text-foreground whitespace-pre-line">
+                    {reading.text}
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Preguntas de esta lectura */}
+            <div className="pl-4 border-l-4 border-primary/30 space-y-4">
+              <div className="flex items-center gap-2 px-2">
+                <div className="h-1 w-8 bg-primary/40 rounded-full" />
+                <h4 className="text-base font-semibold text-primary">
+                  Preguntas sobre: {reading.title.replace(/^Lectura \d+: /, '')}
+                </h4>
+                <div className="h-1 flex-1 bg-primary/40 rounded-full" />
+              </div>
+
+              {readingQuestions.map((question) => {
+                const selectedAnswer = answers[question.id]
+                const isCorrect = showResults && selectedAnswer === question.correct
+                const showState = showResults && showFeedback
+
+                return (
+                  <Card
+                    key={question.id}
+                    className={`border transition-colors ${
+                      showState
+                        ? isCorrect
+                          ? "border-emerald-400/70 bg-emerald-50/70"
+                          : selectedAnswer
+                            ? "border-rose-400/70 bg-rose-50/70"
+                            : "border-white/20 bg-white/80"
+                        : "border-white/20 bg-white/80"
+                    } shadow-md shadow-primary/10 backdrop-blur`}
+                  >
+                    <CardHeader className="space-y-3">
+                      <div className="flex items-center justify-between">
+                        <p className="text-sm font-semibold text-primary/80">
+                          Pregunta {question.id}
+                        </p>
+                        <span className="rounded-full border border-white/20 bg-white/70 px-3 py-1 text-xs font-medium text-muted-foreground">
+                          {question.points} pts
+                        </span>
+                      </div>
+                      <CardTitle className="text-lg font-semibold leading-relaxed text-balance">
+                        {question.question}
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent className="space-y-3">
+                      {question.options.map((option) => {
+                        const isSelected = selectedAnswer === option.id
+                        const isOptionCorrect = question.correct === option.id
+                        const showCorrect = showState && isOptionCorrect
+                        const showIncorrect = showState && isSelected && !isOptionCorrect
+
+                        return (
+                          <label
+                            key={option.id}
+                            className={`flex cursor-pointer items-center justify-between gap-3 rounded-2xl border px-4 py-3 text-sm transition-all ${
+                              isSelected
+                                ? "border-primary/60 bg-primary/10 text-primary"
+                                : "border-white/40 bg-white/70 hover:border-primary/40 hover:bg-primary/5"
+                            } ${showResults ? "pointer-events-none opacity-90" : ""}`}
+                          >
+                            <span className="flex-1 text-left leading-relaxed">{option.text}</span>
+                            <input
+                              type="radio"
+                              name={`question-${question.id}`}
+                              value={option.id}
+                              checked={isSelected}
+                              onChange={() => handleAnswerChange(question.id, option.id)}
+                              disabled={showResults}
+                              className="hidden"
+                            />
+                            {showCorrect && <CheckCircle2 className="h-5 w-5 text-emerald-500" aria-hidden="true" />}
+                            {showIncorrect && <Info className="h-5 w-5 text-rose-500" aria-hidden="true" />}
+                          </label>
+                        )
+                      })}
+
+                      {showState && (
+                        <div className="rounded-2xl border border-white/40 bg-white/70 px-4 py-3 text-sm text-muted-foreground">
+                          <p className="flex items-center gap-2 text-foreground">
+                            <Info className="h-4 w-4 text-primary" />
+                            Respuesta correcta:&nbsp;
+                            <span className="font-medium text-primary">{question.correct.toUpperCase()}</span>
+                          </p>
+                          <p className="mt-2 leading-relaxed">{question.explanation}</p>
+                        </div>
+                      )}
+                    </CardContent>
+                  </Card>
+                )
+              })}
+            </div>
+          </div>
+        )
+      })}
+
+      {/* Renderizar preguntas sin lectura agrupadas por categoría */}
+      {Object.entries(groupedQuestionsWithoutReadings).map(([category, categoryQuestions]) => (
         <div key={category} className="space-y-4">
           <div className="flex items-center gap-2 px-2">
             <div className="h-1 w-12 bg-primary/30 rounded-full" />

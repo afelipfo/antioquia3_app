@@ -4,7 +4,7 @@
 import { useMemo, useState } from "react"
 import { CheckCircle2, Info, RefreshCw, ShieldCheck, XCircle } from "lucide-react"
 import type { BehavioralSubject } from "@/lib/behavioral-competencies"
-import { behavioralSubjectsV2 } from "@/lib/behavioral-competencies-v2"
+import { behavioralSubjects } from "@/lib/behavioral-competencies"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -23,7 +23,7 @@ export function BehavioralQuiz({ subject }: BehavioralQuizProps) {
   // Obtener el subject correspondiente según la versión
   const currentSubject = selectedVersion === "v1"
     ? subject
-    : behavioralSubjectsV2.find(s => s.id === subject.id) || subject
+    : behavioralSubjects.find(s => s.id === subject.id) || subject
 
   const totalScore = useMemo(
     () => currentSubject.questions.reduce((acc, question) => acc + question.score, 0),
@@ -123,7 +123,7 @@ export function BehavioralQuiz({ subject }: BehavioralQuizProps) {
                 Versión 1 ({subject.questions.length} preguntas)
               </TabsTrigger>
               <TabsTrigger value="v2" disabled={submitted}>
-                Versión 2 ({behavioralSubjectsV2.find(s => s.id === subject.id)?.questions.length || 4} preguntas)
+                Versión 2 ({behavioralSubjects.find(s => s.id === subject.id)?.questions.length || 4} preguntas)
               </TabsTrigger>
             </TabsList>
           </Tabs>

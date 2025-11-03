@@ -545,7 +545,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 33,
-    context:
+    scenario:
       "La metodología de juicio situacional utiliza escenarios vinculados al trabajo para evaluar competencias como toma de decisiones, resolución de problemas, ética profesional y manejo de conflictos, analizando cómo las respuestas inciden en el entorno laboral.",
     question: "¿Qué enunciado resume el objetivo de esta metodología?",
     options: [

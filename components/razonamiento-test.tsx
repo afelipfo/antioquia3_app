@@ -61,6 +61,128 @@ La serie se estrenó en septiembre de 1966 con el episodio The Man Trap (La tram
 Roddenberry nunca pretendió hacer ciencia real, pero sus imaginaciones sobre el futuro capturaron la fantasía de millones. Sus visiones creativas terminaron influyendo en generaciones de ingenieros, científicos y diseñadores que convirtieron muchas de sus ideas en realidad décadas después.`,
     questionIds: [77, 78, 79, 80, 81, 82],
   },
+  {
+    id: "lectura-lampara",
+    title: "Lectura 4: La lámpara maravillosa - William Ospina",
+    text: `El cuerpo, la vida, el mundo, son continuamente bendición y tormento, y desde muy temprano tenemos el deber de conocer sus dones y prevenir sus peligros; es de vida o muerte saber cuándo es provechosa la audacia y cuando es salvadora la prudencia. Y para todo eso sólo tenemos dos recursos: la experiencia y la imaginación. La experiencia nos va enseñando que no podemos acariciar el fuego ni descansar en el fondo del agua, que no conviene empujar la punta de la espina ni molestar demasiado a la abeja, que en lo alto del día hay una cosa que no se debe mirar y que en lo alto de la noche hay una que siempre queremos mirar otra vez.
+
+Pero esos juegos de la experiencia se ahondan en los juegos de la imaginación, y en los reinos de la imaginación está permitido todo aquello que la experiencia prohíbe. Por fortuna existe el paraíso de los libros, que nos permiten escarmentar por cabeza ajena, vivir lo no vivido, recordar memorias de otros, oír los pensamientos de todos, las aventuras, las audacias, las atrocidades, las violencias, el relato de los que supieron vivir y la magia de los que supieron cantar. Una de las experiencias inevitables de la vida es la soledad, otra es la amistad, otra es la felicidad. Pero en nuestra relación con los libros están juntas las tres. La soledad nos permite dialogar con nosotros mismos; y la relación con los libros es, como diría Borges, el hallazgo de una legión de amigos que puede ser inagotable. Uno nos cuenta la historia de un hombre de vida ordinaria a quien la lectura le contagia el deseo de ser héroe y lo pone a vivir una vida fantástica; otro nos relata la cacería obsesionada y satánica de una enorme ballena blanca; otro nos cuenta la historia triste de un hombre que se convierte en escarabajo; otro nos muestra a un hombre inseguro y celoso que, manipulado por otro, termina matando sin causa a la mujer que adora. Qué alivio permitir que por momentos otros protagonicen nuestra vida. Los libros nos convierten en el escenario donde ocurren hechos ilustres, viajes asombrosos, acontecimientos fantásticos. Por un contacto que sólo podemos llamar mágico, gracias al libro vemos cosas que están guardadas más allá de sus páginas, vivimos las navegaciones, los conflictos, los crímenes.`,
+    questionIds: [83, 84, 85, 86, 87, 88, 89, 90, 91],
+  },
+  {
+    id: "lectura-kundera",
+    title: "Lectura 5: La insoportable levedad del ser - Milan Kundera",
+    text: `1. La idea del eterno retorno es misteriosa y con ella Nietzsche dejó perplejos a los demás filósofos: ¡pensar que alguna vez haya de repetirse todo tal como lo hemos vivido ya, y que incluso esa repetición haya de repetirse hasta el infinito! ¿Qué quiere decir ese mito demencial? 2. El mito del eterno retorno viene a decir, per negationem, que una vida que desaparece de una vez para siempre, que no retorna, es como una sombra, carece de peso, está muerta de antemano y, si ha sido horrorosa, bella, elevada, ese horror, esa elevación o esa belleza nada significan. No es necesario que los tengamos en cuenta, igual que una guerra entre dos Estados africanos en el siglo catorce que no cambió en nada la faz de la tierra, aunque en ella murieran, en medio de indecibles padecimientos, trescientos mil negros. 3. ¿Cambia en algo la guerra entre dos Estados africanos si se repite incontables veces en un eterno retorno? Cambia: se convierte en un bloque que sobresale y perdura, y su estupidez será irreparable. 4. Si la Revolución francesa tuviera que repetirse eternamente, la historiografía francesa estaría menos orgullosa de Robespierre. Pero dado que habla de algo que ya no volverá a ocurrir, los años sangrientos se convierten en meras palabras, en teorías, en discusiones, se vuelven más ligeros que una pluma, no dan miedo. Hay una diferencia infinita entre el Robespierre que apareció sólo una vez en la historia y un Robespierre que volviera eternamente a cortarle la cabeza a los franceses. 5. Digamos, por tanto, que la idea del eterno retorno significa cierta perspectiva desde la cual las cosas aparecen de un modo distinto a como las conocemos: aparecen sin la circunstancia atenuante de su fugacidad. Esta circunstancia atenuante es la que nos impide pronunciar condena alguna. ¿Cómo es posible condenar algo fugaz? El crepúsculo de la desaparición lo baña todo con la magia de la nostalgia; todo, incluida la guillotina. 6. No hace mucho me sorprendí a mí mismo con una sensación increíble: estaba hojeando un libro sobre Hitler y al ver algunas de las fotografías me emocioné: me habían recordado el tiempo de mi infancia; la viví durante la guerra; algunos de mis parientes murieron en los campos de concentración de Hitler; ¿pero qué era su muerte en comparación con el hecho de que las fotografías de Hitler me habían recordado un tiempo pasado de mi vida, un tiempo que no volverá? 7. Esta reconciliación con Hitler demuestra la profunda perversión moral que va unida a un mundo basado esencialmente en la inexistencia del retorno, porque en ese mundo todo está perdonado de antemano y, por tanto, todo cínicamente permitido.`,
+    questionIds: [92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105],
+  },
+  {
+    id: "lectura-paz",
+    title: "Lectura 6: La llama doble. Amor y erotismo - Octavio Paz",
+    text: `La relación entre erotismo y poesía es tal que puede decirse, sin afectación, que el primero es una poética corporal y que la segunda es una erótica verbal. Ambos están constituidos por una oposición complementaria. El lenguaje – sonido que emite sentidos, trazo material que denota ideas incorpóreas – es capaz de dar nombre a lo más fugitivo y evanescente: la sensación; a su vez, el erotismo no es mera sexualidad animal: es ceremonia, representación. El erotismo es sexualidad transfigurada: metáfora. El agente que mueve lo mismo al acto erótico que al poético es la imaginación. Es la potencia que transfigura al sexo en ceremonia y rito, al lenguaje en ritmo y metáfora. La imagen poética es abrazo de realidades opuestas y la rima es cópula de sonidos; la poesía erotiza al lenguaje y al mundo porque ella misma, en su modo de operación, es ya erotismo. Y del mismo modo: el erotismo es una metáfora de la sexualidad animal. ¿Qué dice esa metáfora? Como todas las metáforas, designa algo que está más allá de la realidad que la origina, algo nuevo y distinto de los términos que la componen. Si Góngora dice púrpura nevada, inventa o descubre una realidad que, aunque hecha de ambas, no es sangre ni nieve. Lo mismo sucede con el erotismo: dice o, más bien: es, algo diferente a la mera sexualidad.`,
+    questionIds: [106, 107, 108, 109, 110, 111, 112, 113, 114, 115],
+  },
+  {
+    id: "lectura-roca",
+    title: "Lectura 7: Boca que busca la boca - Juan Manuel Roca",
+    text: `El erotismo llama a la transgresión, con un acuerdo entre las partes para crear un espacio de libertad donde no hay víctimas ni victimarios sino un despojo de potestades. Es una confesión – según el término cristiano – de deseos absueltos que se acompañan de ornamentos rituales donde la boca es cáliz, el olor de los cuerpos es incienso, las palabras son claves para abrir como un sésamo el pequeño jardín que conduce al Paraíso, las palabras de amor correspondidas son plegarias escuchadas.`,
+    questionIds: [116, 117, 118, 119, 120],
+  },
+  {
+    id: "lectura-restrepo",
+    title: "Lectura 8: Delirio - Laura Restrepo",
+    text: `Supe que había sucedido algo irreparable en el momento en que un hombre me abrió la puerta de esa habitación de hotel y vi a mi mujer sentada en el fondo, mirando por la ventana de muy extraña manera. Fue a mi regreso de un viaje corto, sólo cuatro días por cosas de trabajo, dice Aguilar, y asegura que al partir la dejó bien. Cuando me fui no le pasaba nada raro, o al menos nada fuera de lo habitual, ciertamente nada que anunciara lo que iba a sucederle durante mi ausencia, salvo sus propias premoniciones, claro está, pero cómo iba Aguilar a creerle si Agustina, su mujer, siempre anda pronosticando calamidades. Él ha tratado por todos los medios de hacerla entrar en razón pero ella no da su brazo a torcer e insiste en que desde pequeña tiene lo que llama un don de los ojos, o visión de lo venidero, y sólo Dios sabe – dice Aguilar – lo que eso ha trastornado nuestras vidas. Esta vez, como todas, mi Agustina pronosticó que algo saldría mal, y yo, como siempre, pasé por alto su pronóstico; me fui de la ciudad un miércoles, la dejé pintando de verde las paredes del apartamento y el domingo siguiente, a mi regreso, la encontré en un hotel, al norte de la ciudad, transformada en un ser aterrado y aterrador al que apenas reconozco. No he podido saber qué le sucedió durante mi ausencia porque si se lo pregunto me insulta; hay que ver cuán feroz puede llegar a ser cuando se exalta, me trata como si yo ya no fuera yo ni ella fuera ella, intenta explicar Aguilar y si no puede es porque él mismo no lo comprende; la mujer que amo se ha perdido dentro de su propia cabeza, hace ya catorce días que la ando buscando y me va la vida en encontrarla pero la cosa es difícil, es angustiosa a morir y jodidamente difícil; es como si Agustina habitara en un plano paralelo al real, cercano pero inabordable, es como si hablara en una lengua extrajera que Aguilar vagamente reconoce pero que no logra comprender. La trastornada razón de mi mujer es un perro que me tira tarascadas pero que al mismo tiempo me envía en sus ladridos un llamado de auxilio que no atino a responder; Agustina es un perro famélico y malherido que quisiera volver a casa y no lo logra, y al minuto siguiente en un perro vagabundo que ni siquiera recuerda que alguna vez tuvo casa.`,
+    questionIds: [121, 122, 123, 124, 125, 126, 127, 128, 129, 130],
+  },
+  {
+    id: "lectura-montero",
+    title: "Lectura 9: La loca de la casa - Rosa Montero",
+    text: `Escribir, en fin, es estar habitado por un revoltijo de fantasías, a veces perezosas como las lentas ensoñaciones de una siesta estival, a veces agitadas y enfebrecidas como el delirio de un loco. La cabeza del novelista marcha por sí sola; está poseída por una suerte de compulsión fabuladora, y eso a veces es un don y en otras ocasiones es un castigo. Por ejemplo, a lo mejor lees un día en el periódico una noticia atroz sobre niños descuartizados delante de sus padres en Argelia, y no puedes evitar que la maldita fantasía se te dispare, recreando de manera instantánea la horripilante escena hasta en sus detalles más insoportables: los gritos, las salpicaduras, el pegajoso olor, el chasquido de los huesos al quebrarse, la mirada de los verdugos y las víctimas. O bien, en un nivel mucho más ridículo pero igualmente molesto, vas a cruzar un río de montaña por un puente improvisado de troncos y, al plantar el primer pie sobre el madero, tu cabeza te ofrece, de manera súbita, la secuencia completa de tu caída: cómo vas a resbalar con el verdín, cómo vas a bracear en el aire patosamente, cómo vas a meter un pie en la corriente helada y después, para mayor oprobio, también el otro pie e incluso las nalgas, porque te vas a caer sentada sobre el arroyo. Y, Voilà, una vez imaginada la tontería con todos sus pormenores (el choque frío del agua, el momentáneo descoloque espacial que produce toda caída, la dolorosa torcedura del pie, el escozor del raspón de la mano contra la piedra), resulta bastante difícil no cumplirla. De lo que se deriva, al menos en mi caso, una enojosa tendencia a despanzurrarme en todos los vados de riachuelos y en todas las laderas montañosas un poco ásperas.`,
+    questionIds: [131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208],
+  },
+  {
+    id: "poema-pajaros-cortazar",
+    title: "Lectura 10: Ahora escribo pájaros - Julio Cortázar",
+    text: `Ahora escribo pájaros. / No los veo venir, no los elijo, / de golpe están ahí, son esto, / una bandada de palabras / posándose / una / a / una / en los alambres de la página, / chirriando, picoteando, lluvia de alas / y yo sin pan que darles, solamente / dejándolos venir. Tal vez / sea eso un árbol / o tal vez / el amor.`,
+    questionIds: [209],
+  },
+  {
+    id: "poema-ratoncito-cortazar",
+    title: "Lectura 11: Ratoncito, pelusa... - Julio Cortázar",
+    text: `Ratoncito, pelusa, medialuna, / caleidoscopio, barco en la botella, / musgo, campana, diáspora, / palingenesia, helecho, / eso y el dulce de zapallo, / el bandoneón de Troilo y dos o tres / zonas de piel en donde / hace nido el alción, / son las palabras que contienen / tu cruel definición inalcanzable, / son las cosas que guardan las sustancias / de que estás hecha para que alguien / beba y posea y arda convencida / de conocerte entera, / de que sólo eres Cris.`,
+    questionIds: [210],
+  },
+  {
+    id: "poema-desamor-cortazar",
+    title: "Lectura 12: La lenta máquina del desamor - Julio Cortázar",
+    text: `La lenta máquina del desamor, / los engranajes del reflujo, / los cuerpos que abandonan las almohadas, / las sábanas, los besos, / y de pie ante el espejo interrogándose / cada uno a sí mismo, / ya no mirándose entre ellos, / ya no desnudos para el otro, / ya no te amo, / mi amor.`,
+    questionIds: [211],
+  },
+  {
+    id: "ortografia-general",
+    title: "Lectura 13: Ejercicios de ortografía y gramática",
+    text: `Ejercicios generales de acentuación, uso de palabras homófonas y clasificación gramatical.`,
+    questionIds: [212, 213, 214, 215, 216, 217, 218],
+  },
+  {
+    id: "poema-mal-siglo-silva",
+    title: "Lectura 14: El mal del siglo - José Asunción Silva",
+    text: `El paciente: / Doctor, un desaliento de la vida / que en lo íntimo de mí se arraiga y nace, / el mal del siglo… el mismo mal de Werther, / de Rolla, de Manfredo y de Leopardi. / Un cansancio de todo, un absoluto / desprecio por lo humano… un incesante / renegar de lo vil de la existencia / digno de mi maestro Schopenhauer; / un malestar profundo que se aumenta / con todas las torturas del análisis… / El médico: / Eso es cuestión de régimen: camine / de mañanita; duerma largo, báñese; / beba bien; coma bien; cuídese mucho, / ¡Lo que usted tiene es hambre!`,
+    questionIds: [219, 220],
+  },
+  {
+    id: "poema-verdor-restrepo",
+    title: "Lectura 15: Verdor - Elkin Restrepo",
+    text: `No son de animal salvaje / las pisadas / que rodean tu casa / esta mañana. / Cerca no hay gamos / ni osos / ni el bosque / se arrimaría hasta aquí. / Sin embargo, / alguien en la oscuridad / estuvo en vela / mientras / tú dormías. / alguien que pudo / sacar provecho / de tu fragilidad / y no lo hizo. / El rastro aún está fresco. / De actuar, / no habrías tenido salvación. / ¡Nadie hubiera podido con fuerza tal! / Lo prueba / el violento verdor / que salta allí / donde Él estuvo.`,
+    questionIds: [221, 222, 239, 240],
+  },
+  {
+    id: "poema-futuro-gonzalez",
+    title: "Lectura 16: ¡Futuro mío...! - Ángel González",
+    text: `¡Futuro mío…! Corazón lejano / que lo dictaste ayer: / no te avergüences. / Hoy es el resultado de tu sangre, / dolor que reconozco, luz que admito, / sufrimiento que asumo, / amor que intento. / Pero nada es aún definitivo. / Mañana he decidido ir adelante, / y avanzaré, / mañana me dispongo a estar contento, / mañana te amaré, mañana / y tarde, / mañana no será lo que Dios quiera. / Mañana gris, o luminosa, o fría, / que unas manos modelan en el viento, / que unos puños dibujan en el aire.`,
+    questionIds: [223],
+  },
+  {
+    id: "estructura-oraciones",
+    title: "Lectura 17: Estructura de oraciones",
+    text: `Ejercicios sobre identificación de sujeto, predicado, complementos directos e indirectos, tipos de predicado y clasificación de oraciones.`,
+    questionIds: [224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238],
+  },
+  {
+    id: "relato-zapato-juliao",
+    title: "Lectura 18: Zapato Zapata - David Sánchez Juliao",
+    text: `Zapato Zapata fue un zapatito que un lunes cualquiera decidió fugarse de la zapatería y salir a predicar de vitrina en vitrina, de almacén en almacén, de fábrica en fábrica, de taller en taller, pidiendo a zapatos, chanclas, sandalias, zuecos, pantuflas, tenis y botas que se fugaran como él de la vida ciudadana y se fueran al monte o a la clandestinidad urbana, no con el propósito de crear nuevos focos guerrilleros ni mucho menos con la intención de hacer la revolución, sino con el sólo objeto de que la gente, por fin, ante la ausencia de calzado, se viera forzada a poner los pies en la tierra.`,
+    questionIds: [241, 242, 243],
+  },
+  {
+    id: "ortografia-acentuacion",
+    title: "Lectura 19: Ejercicios de acentuación",
+    text: `Ejercicios de identificación de acentos prosódicos, ortográficos y uso del pronombre 'se'.`,
+    questionIds: [244, 245],
+  },
+  {
+    id: "cien-años-garcia-marquez",
+    title: "Lectura 20: Cien años de soledad - Gabriel García Márquez",
+    text: `Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo. Macondo era entonces una aldea de veinte casas de barro y cañabrava construidas a la orilla de un río de aguas diáfanas que se precipitaban por un lecho de piedras pulidas, blancas y enormes como huevos prehistóricos.`,
+    questionIds: [246],
+  },
+  {
+    id: "relato-ya-era-tiempo-juliao",
+    title: "Lectura 21: Ya era tiempo - David Sánchez Juliao",
+    text: `Nadie en la relojería pudo entender, ni mucho menos justificar, que las aspiraciones de aquel relojito humilde fueran las de llegar a ser reloj despertador, y las de aprender alpinismo, para así subirse al pico más alto de los Andes, poner la alarma a las seis de la mañana y campanear, campanear y campanear, hasta que todo el Continente despertara de su sueño.`,
+    questionIds: [247],
+  },
+  {
+    id: "relato-entre-lapices-juliao",
+    title: "Lectura 22: Entre lápices - David Sánchez Juliao",
+    text: `En una fábrica de lápices para la exportación, dos lápices conversaban un día: —¿Y por qué fabrican aquellos colegas sin borrador? —Es que esos van para la América Latina. —¿Y eso qué es? —Una tierra lejana en donde nadie reconoce errores.`,
+    questionIds: [248],
+  },
+  {
+    id: "puntuacion-ortografia-final",
+    title: "Lectura 23: Ejercicios de puntuación y ortografía final",
+    text: `Ejercicios finales sobre uso de coma, punto seguido, porqué/porque/por qué, y corrección ortográfica.`,
+    questionIds: [249, 250, 251, 252, 253],
+  },
 ]
 
 const readingsV2: Reading[] = [
@@ -96,6 +218,44 @@ La serie se estrenó en septiembre de 1966 con el episodio The Man Trap (La tram
 
 Roddenberry nunca pretendió hacer ciencia real, pero sus imaginaciones sobre el futuro capturaron la fantasía de millones. Sus visiones creativas terminaron influyendo en generaciones de ingenieros, científicos y diseñadores que convirtieron muchas de sus ideas en realidad décadas después.`,
     questionIds: [108, 109, 110, 111, 112, 113],
+  },
+  {
+    id: "lectura-lampara",
+    title: "Lectura 4: La lámpara maravillosa - William Ospina",
+    text: `El cuerpo, la vida, el mundo, son continuamente bendición y tormento, y desde muy temprano tenemos el deber de conocer sus dones y prevenir sus peligros; es de vida o muerte saber cuándo es provechosa la audacia y cuando es salvadora la prudencia. Y para todo eso sólo tenemos dos recursos: la experiencia y la imaginación. La experiencia nos va enseñando que no podemos acariciar el fuego ni descansar en el fondo del agua, que no conviene empujar la punta de la espina ni molestar demasiado a la abeja, que en lo alto del día hay una cosa que no se debe mirar y que en lo alto de la noche hay una que siempre queremos mirar otra vez.
+
+Pero esos juegos de la experiencia se ahondan en los juegos de la imaginación, y en los reinos de la imaginación está permitido todo aquello que la experiencia prohíbe. Por fortuna existe el paraíso de los libros, que nos permiten escarmentar por cabeza ajena, vivir lo no vivido, recordar memorias de otros, oír los pensamientos de todos, las aventuras, las audacias, las atrocidades, las violencias, el relato de los que supieron vivir y la magia de los que supieron cantar. Una de las experiencias inevitables de la vida es la soledad, otra es la amistad, otra es la felicidad. Pero en nuestra relación con los libros están juntas las tres. La soledad nos permite dialogar con nosotros mismos; y la relación con los libros es, como diría Borges, el hallazgo de una legión de amigos que puede ser inagotable. Uno nos cuenta la historia de un hombre de vida ordinaria a quien la lectura le contagia el deseo de ser héroe y lo pone a vivir una vida fantástica; otro nos relata la cacería obsesionada y satánica de una enorme ballena blanca; otro nos cuenta la historia triste de un hombre que se convierte en escarabajo; otro nos muestra a un hombre inseguro y celoso que, manipulado por otro, termina matando sin causa a la mujer que adora. Qué alivio permitir que por momentos otros protagonicen nuestra vida. Los libros nos convierten en el escenario donde ocurren hechos ilustres, viajes asombrosos, acontecimientos fantásticos. Por un contacto que sólo podemos llamar mágico, gracias al libro vemos cosas que están guardadas más allá de sus páginas, vivimos las navegaciones, los conflictos, los crímenes.`,
+    questionIds: [141, 142, 143, 144, 145, 146, 147, 148, 149],
+  },
+  {
+    id: "lectura-kundera",
+    title: "Lectura 5: La insoportable levedad del ser - Milan Kundera",
+    text: `1. La idea del eterno retorno es misteriosa y con ella Nietzsche dejó perplejos a los demás filósofos: ¡pensar que alguna vez haya de repetirse todo tal como lo hemos vivido ya, y que incluso esa repetición haya de repetirse hasta el infinito! ¿Qué quiere decir ese mito demencial? 2. El mito del eterno retorno viene a decir, per negationem, que una vida que desaparece de una vez para siempre, que no retorna, es como una sombra, carece de peso, está muerta de antemano y, si ha sido horrorosa, bella, elevada, ese horror, esa elevación o esa belleza nada significan. No es necesario que los tengamos en cuenta, igual que una guerra entre dos Estados africanos en el siglo catorce que no cambió en nada la faz de la tierra, aunque en ella murieran, en medio de indecibles padecimientos, trescientos mil negros. 3. ¿Cambia en algo la guerra entre dos Estados africanos si se repite incontables veces en un eterno retorno? Cambia: se convierte en un bloque que sobresale y perdura, y su estupidez será irreparable. 4. Si la Revolución francesa tuviera que repetirse eternamente, la historiografía francesa estaría menos orgullosa de Robespierre. Pero dado que habla de algo que ya no volverá a ocurrir, los años sangrientos se convierten en meras palabras, en teorías, en discusiones, se vuelven más ligeros que una pluma, no dan miedo. Hay una diferencia infinita entre el Robespierre que apareció sólo una vez en la historia y un Robespierre que volviera eternamente a cortarle la cabeza a los franceses. 5. Digamos, por tanto, que la idea del eterno retorno significa cierta perspectiva desde la cual las cosas aparecen de un modo distinto a como las conocemos: aparecen sin la circunstancia atenuante de su fugacidad. Esta circunstancia atenuante es la que nos impide pronunciar condena alguna. ¿Cómo es posible condenar algo fugaz? El crepúsculo de la desaparición lo baña todo con la magia de la nostalgia; todo, incluida la guillotina. 6. No hace mucho me sorprendí a mí mismo con una sensación increíble: estaba hojeando un libro sobre Hitler y al ver algunas de las fotografías me emocioné: me habían recordado el tiempo de mi infancia; la viví durante la guerra; algunos de mis parientes murieron en los campos de concentración de Hitler; ¿pero qué era su muerte en comparación con el hecho de que las fotografías de Hitler me habían recordado un tiempo pasado de mi vida, un tiempo que no volverá? 7. Esta reconciliación con Hitler demuestra la profunda perversión moral que va unida a un mundo basado esencialmente en la inexistencia del retorno, porque en ese mundo todo está perdonado de antemano y, por tanto, todo cínicamente permitido.`,
+    questionIds: [150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163],
+  },
+  {
+    id: "lectura-paz",
+    title: "Lectura 6: La llama doble. Amor y erotismo - Octavio Paz",
+    text: `La relación entre erotismo y poesía es tal que puede decirse, sin afectación, que el primero es una poética corporal y que la segunda es una erótica verbal. Ambos están constituidos por una oposición complementaria. El lenguaje – sonido que emite sentidos, trazo material que denota ideas incorpóreas – es capaz de dar nombre a lo más fugitivo y evanescente: la sensación; a su vez, el erotismo no es mera sexualidad animal: es ceremonia, representación. El erotismo es sexualidad transfigurada: metáfora. El agente que mueve lo mismo al acto erótico que al poético es la imaginación. Es la potencia que transfigura al sexo en ceremonia y rito, al lenguaje en ritmo y metáfora. La imagen poética es abrazo de realidades opuestas y la rima es cópula de sonidos; la poesía erotiza al lenguaje y al mundo porque ella misma, en su modo de operación, es ya erotismo. Y del mismo modo: el erotismo es una metáfora de la sexualidad animal. ¿Qué dice esa metáfora? Como todas las metáforas, designa algo que está más allá de la realidad que la origina, algo nuevo y distinto de los términos que la componen. Si Góngora dice púrpura nevada, inventa o descubre una realidad que, aunque hecha de ambas, no es sangre ni nieve. Lo mismo sucede con el erotismo: dice o, más bien: es, algo diferente a la mera sexualidad.`,
+    questionIds: [164, 165, 166, 167, 168, 169, 170, 171, 172, 173],
+  },
+  {
+    id: "lectura-roca",
+    title: "Lectura 7: Boca que busca la boca - Juan Manuel Roca",
+    text: `El erotismo llama a la transgresión, con un acuerdo entre las partes para crear un espacio de libertad donde no hay víctimas ni victimarios sino un despojo de potestades. Es una confesión – según el término cristiano – de deseos absueltos que se acompañan de ornamentos rituales donde la boca es cáliz, el olor de los cuerpos es incienso, las palabras son claves para abrir como un sésamo el pequeño jardín que conduce al Paraíso, las palabras de amor correspondidas son plegarias escuchadas.`,
+    questionIds: [174, 175, 176, 177, 178],
+  },
+  {
+    id: "lectura-restrepo",
+    title: "Lectura 8: Delirio - Laura Restrepo",
+    text: `Supe que había sucedido algo irreparable en el momento en que un hombre me abrió la puerta de esa habitación de hotel y vi a mi mujer sentada en el fondo, mirando por la ventana de muy extraña manera. Fue a mi regreso de un viaje corto, sólo cuatro días por cosas de trabajo, dice Aguilar, y asegura que al partir la dejó bien. Cuando me fui no le pasaba nada raro, o al menos nada fuera de lo habitual, ciertamente nada que anunciara lo que iba a sucederle durante mi ausencia, salvo sus propias premoniciones, claro está, pero cómo iba Aguilar a creerle si Agustina, su mujer, siempre anda pronosticando calamidades. Él ha tratado por todos los medios de hacerla entrar en razón pero ella no da su brazo a torcer e insiste en que desde pequeña tiene lo que llama un don de los ojos, o visión de lo venidero, y sólo Dios sabe – dice Aguilar – lo que eso ha trastornado nuestras vidas. Esta vez, como todas, mi Agustina pronosticó que algo saldría mal, y yo, como siempre, pasé por alto su pronóstico; me fui de la ciudad un miércoles, la dejé pintando de verde las paredes del apartamento y el domingo siguiente, a mi regreso, la encontré en un hotel, al norte de la ciudad, transformada en un ser aterrado y aterrador al que apenas reconozco. No he podido saber qué le sucedió durante mi ausencia porque si se lo pregunto me insulta; hay que ver cuán feroz puede llegar a ser cuando se exalta, me trata como si yo ya no fuera yo ni ella fuera ella, intenta explicar Aguilar y si no puede es porque él mismo no lo comprende; la mujer que amo se ha perdido dentro de su propia cabeza, hace ya catorce días que la ando buscando y me va la vida en encontrarla pero la cosa es difícil, es angustiosa a morir y jodidamente difícil; es como si Agustina habitara en un plano paralelo al real, cercano pero inabordable, es como si hablara en una lengua extrajera que Aguilar vagamente reconoce pero que no logra comprender. La trastornada razón de mi mujer es un perro que me tira tarascadas pero que al mismo tiempo me envía en sus ladridos un llamado de auxilio que no atino a responder; Agustina es un perro famélico y malherido que quisiera volver a casa y no lo logra, y al minuto siguiente en un perro vagabundo que ni siquiera recuerda que alguna vez tuvo casa.`,
+    questionIds: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188],
+  },
+  {
+    id: "lectura-montero",
+    title: "Lectura 9: La loca de la casa - Rosa Montero",
+    text: `Escribir, en fin, es estar habitado por un revoltijo de fantasías, a veces perezosas como las lentas ensoñaciones de una siesta estival, a veces agitadas y enfebrecidas como el delirio de un loco. La cabeza del novelista marcha por sí sola; está poseída por una suerte de compulsión fabuladora, y eso a veces es un don y en otras ocasiones es un castigo. Por ejemplo, a lo mejor lees un día en el periódico una noticia atroz sobre niños descuartizados delante de sus padres en Argelia, y no puedes evitar que la maldita fantasía se te dispare, recreando de manera instantánea la horripilante escena hasta en sus detalles más insoportables: los gritos, las salpicaduras, el pegajoso olor, el chasquido de los huesos al quebrarse, la mirada de los verdugos y las víctimas. O bien, en un nivel mucho más ridículo pero igualmente molesto, vas a cruzar un río de montaña por un puente improvisado de troncos y, al plantar el primer pie sobre el madero, tu cabeza te ofrece, de manera súbita, la secuencia completa de tu caída: cómo vas a resbalar con el verdín, cómo vas a bracear en el aire patosamente, cómo vas a meter un pie en la corriente helada y después, para mayor oprobio, también el otro pie e incluso las nalgas, porque te vas a caer sentada sobre el arroyo. Y, Voilà, una vez imaginada la tontería con todos sus pormenores (el choque frío del agua, el momentáneo descoloque espacial que produce toda caída, la dolorosa torcedura del pie, el escozor del raspón de la mano contra la piedra), resulta bastante difícil no cumplirla. De lo que se deriva, al menos en mi caso, una enojosa tendencia a despanzurrarme en todos los vados de riachuelos y en todas las laderas montañosas un poco ásperas.`,
+    questionIds: [189, 190, 191, 192, 193, 194, 195, 196, 197, 198],
   },
 ]
 
@@ -1538,6 +1698,882 @@ const questionsV1: Question[] = [
     correct: "c",
     explanation:
       "Roddenberry pretendía plasmar sus imaginaciones sobre los viajes espaciales, y estas visiones creativas se convirtieron en la base de la serie futurista Star Trek.",
+    points: 5,
+  },
+  // La lámpara maravillosa - William Ospina (IDs 83-91)
+  {
+    id: 83,
+    category: "Comprensión Lectora",
+    question: "¿Cuál es la tipología textual del fragmento de La lámpara maravillosa?",
+    options: [
+      { id: "a", text: "Narrativo" },
+      { id: "b", text: "Expositivo" },
+      { id: "c", text: "Argumentativo" },
+      { id: "d", text: "Descriptivo" },
+    ],
+    correct: "c",
+    explanation:
+      "El texto es argumentativo porque el autor presenta una tesis sobre la importancia de la experiencia y la imaginación, y la desarrolla con argumentos y ejemplos para convencer al lector.",
+    points: 5,
+  },
+  {
+    id: 84,
+    category: "Comprensión Lectora",
+    question: "¿Cuál es el propósito del autor en este fragmento?",
+    options: [
+      { id: "a", text: "Narrar su propia experiencia con los libros" },
+      { id: "b", text: "Describir diferentes tipos de libros" },
+      { id: "c", text: "Establecer la relación entre experiencia, imaginación y la lectura" },
+      { id: "d", text: "Criticar a quienes no leen" },
+    ],
+    correct: "c",
+    explanation:
+      "El propósito central del autor es establecer y explicar cómo se relacionan la experiencia, la imaginación y la lectura como recursos fundamentales para navegar la vida.",
+    points: 5,
+  },
+  {
+    id: 85,
+    category: "Comprensión Lectora",
+    question: "¿Cuál es la idea central del segundo párrafo?",
+    options: [
+      { id: "a", text: "Los libros son un paraíso que permite vivir experiencias ajenas" },
+      { id: "b", text: "La imaginación ahonda lo que la experiencia enseña" },
+      { id: "c", text: "Los libros contienen historias fantásticas" },
+      { id: "d", text: "Borges era un gran escritor" },
+    ],
+    correct: "a",
+    explanation:
+      "El segundo párrafo desarrolla la idea de que los libros constituyen un paraíso donde podemos 'escarmentar por cabeza ajena' y vivir lo no vivido, experimentando memorias, aventuras y pensamientos de otros.",
+    points: 5,
+  },
+  {
+    id: 86,
+    category: "Comprensión Lectora",
+    question: "Según la ubicación de la idea central en el segundo párrafo, este es un párrafo:",
+    options: [
+      { id: "a", text: "Deductivo" },
+      { id: "b", text: "Inductivo" },
+      { id: "c", text: "Inductivo-deductivo" },
+      { id: "d", text: "Paralelo" },
+    ],
+    correct: "c",
+    explanation:
+      "El párrafo es inductivo-deductivo porque presenta la idea central al inicio ('Por fortuna existe el paraíso de los libros'), la desarrolla con ejemplos y argumentos en el medio, y la refuerza al final con ejemplos literarios concretos.",
+    points: 5,
+  },
+  {
+    id: 87,
+    category: "Comprensión Lectora",
+    question: "¿Cuál es la idea central del tercer párrafo (que empieza con 'Una de las experiencias inevitables...')?",
+    options: [
+      { id: "a", text: "La soledad es inevitable en la vida" },
+      { id: "b", text: "Borges era un gran autor" },
+      { id: "c", text: "En la relación con los libros se encuentran juntas la soledad, la amistad y la felicidad" },
+      { id: "d", text: "Los libros narran historias de escarabajos" },
+    ],
+    correct: "c",
+    explanation:
+      "La idea central plantea que la relación con los libros es única porque en ella convergen simultáneamente tres experiencias fundamentales de la vida: la soledad, la amistad y la felicidad.",
+    points: 5,
+  },
+  {
+    id: 88,
+    category: "Comprensión Lectora",
+    question: "Los deícticos 'uno' y 'otro' (en 'Uno nos cuenta...', 'otro nos relata...') se refieren a:",
+    options: [
+      { id: "a", text: "Los autores de libros" },
+      { id: "b", text: "Los amigos que se encuentran en los libros" },
+      { id: "c", text: "Los personajes literarios" },
+      { id: "d", text: "Los lectores diferentes" },
+    ],
+    correct: "b",
+    explanation:
+      "Los deícticos 'uno' y 'otro' se refieren a 'los amigos' mencionados anteriormente en la frase 'el hallazgo de una legión de amigos que puede ser inagotable', es decir, los libros como amigos.",
+    points: 5,
+  },
+  {
+    id: 89,
+    category: "Comprensión Lectora",
+    question: "Un sinónimo de 'escarmentar' en el contexto del texto sería:",
+    options: [
+      { id: "a", text: "Sufrir" },
+      { id: "b", text: "Aprender" },
+      { id: "c", text: "Castigar" },
+      { id: "d", text: "Olvidar" },
+    ],
+    correct: "b",
+    explanation:
+      "En el contexto 'escarmentar por cabeza ajena', el término significa aprender de las experiencias de otros sin tener que vivirlas personalmente.",
+    points: 5,
+  },
+  {
+    id: 90,
+    category: "Comprensión Lectora",
+    question: "La relación semántica entre 'bendición' y 'tormento' es de:",
+    options: [
+      { id: "a", text: "Sinonimia" },
+      { id: "b", text: "Causa-efecto" },
+      { id: "c", text: "Oposición" },
+      { id: "d", text: "Parte-todo" },
+    ],
+    correct: "c",
+    explanation:
+      "Los términos 'bendición' y 'tormento' son antónimos que expresan una relación de oposición, representando los aspectos positivos y negativos de la vida.",
+    points: 5,
+  },
+  {
+    id: 91,
+    category: "Comprensión Lectora",
+    question: "La alusión a 'lo alto del día' y 'lo alto de la noche' se refiere a:",
+    options: [
+      { id: "a", text: "Las montañas y el cielo" },
+      { id: "b", text: "El sol y la luna" },
+      { id: "c", text: "El mediodía y la medianoche" },
+      { id: "d", text: "Los árboles y las estrellas" },
+    ],
+    correct: "b",
+    explanation:
+      "'Lo alto del día' alude al sol (que no se debe mirar directamente) y 'lo alto de la noche' a la luna o las estrellas (que siempre queremos mirar otra vez).",
+    points: 5,
+  },
+  // La insoportable levedad del ser - Milan Kundera (IDs 92-105)
+  {
+    id: 92,
+    category: "Comprensión Lectora",
+    question: "El fragmento de Kundera es un texto predominantemente:",
+    options: [
+      { id: "a", text: "Narrativo" },
+      { id: "b", text: "Expositivo" },
+      { id: "c", text: "Descriptivo" },
+      { id: "d", text: "Instructivo" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto es expositivo porque explica y desarrolla el concepto filosófico del eterno retorno de Nietzsche, presentando información de manera objetiva y estructurada.",
+    points: 5,
+  },
+  {
+    id: 93,
+    category: "Comprensión Lectora",
+    question: "¿Cuál es la estructura del texto expositivo de Kundera?",
+    options: [
+      { id: "a", text: "Planteamiento, nudo, desenlace" },
+      { id: "b", text: "Tesis, argumentos, conclusión" },
+      { id: "c", text: "Introducción, desarrollo, conclusiones" },
+      { id: "d", text: "Causa, efecto, consecuencias" },
+    ],
+    correct: "c",
+    explanation:
+      "El texto sigue la estructura clásica de un texto expositivo: introduce el concepto del eterno retorno (párrafos 1-2), lo desarrolla con ejemplos (párrafos 3-5), y concluye con reflexiones personales (párrafos 6-7).",
+    points: 5,
+  },
+  {
+    id: 94,
+    category: "Comprensión Lectora",
+    question: "¿Qué significa la expresión latina 'per negationem'?",
+    options: [
+      { id: "a", text: "Por afirmación" },
+      { id: "b", text: "Por negación" },
+      { id: "c", text: "Por repetición" },
+      { id: "d", text: "Por contradicción" },
+    ],
+    correct: "b",
+    explanation:
+      "'Per negationem' es una expresión latina que significa 'por negación', indicando que el concepto se define a través de su opuesto.",
+    points: 5,
+  },
+  {
+    id: 95,
+    category: "Comprensión Lectora",
+    question: "¿Cómo se podría sintetizar la definición del eterno retorno según el texto?",
+    options: [
+      { id: "a", text: "Todo se repite exactamente igual infinitamente" },
+      { id: "b", text: "La historia nunca se repite" },
+      { id: "c", text: "Solo los eventos importantes se repiten" },
+      { id: "d", text: "El tiempo es circular" },
+    ],
+    correct: "a",
+    explanation:
+      "El eterno retorno de Nietzsche plantea que alguna vez todo habrá de repetirse tal como lo hemos vivido ya, y que incluso esa repetición habrá de repetirse hasta el infinito.",
+    points: 5,
+  },
+  {
+    id: 96,
+    category: "Comprensión Lectora",
+    question: "¿Qué función cumple el tercer párrafo en el texto?",
+    options: [
+      { id: "a", text: "Presenta la conclusión del texto" },
+      { id: "b", text: "Introduce el tema principal" },
+      { id: "c", text: "Es un párrafo de interrogación que sirve de transición" },
+      { id: "d", text: "Resume todo lo anterior" },
+    ],
+    correct: "c",
+    explanation:
+      "El tercer párrafo es un párrafo de transición que mediante una pregunta retórica conecta la definición del concepto con sus implicaciones prácticas y ejemplos concretos.",
+    points: 5,
+  },
+  {
+    id: 97,
+    category: "Comprensión Lectora",
+    question: "El referente de 'se vuelven más ligeros que una pluma' es:",
+    options: [
+      { id: "a", text: "Los historiadores franceses (metonimia)" },
+      { id: "b", text: "Los años sangrientos de la Revolución francesa (símil)" },
+      { id: "c", text: "Robespierre y sus acciones (metáfora)" },
+      { id: "d", text: "Las teorías sobre la historia (hipérbole)" },
+    ],
+    correct: "b",
+    explanation:
+      "El referente es 'los años sangrientos' de la Revolución francesa, y la comparación 'más ligeros que una pluma' es un símil que expresa cómo la falta de repetición disminuye el peso moral de los eventos.",
+    points: 5,
+  },
+  {
+    id: 98,
+    category: "Comprensión Lectora",
+    question: "Un sinónimo de 'perplejos' es, EXCEPTO:",
+    options: [
+      { id: "a", text: "Confundidos" },
+      { id: "b", text: "Desconcertados" },
+      { id: "c", text: "Resueltos" },
+      { id: "d", text: "Sorprendidos" },
+    ],
+    correct: "c",
+    explanation:
+      "'Resueltos' NO es sinónimo de 'perplejos'. Por el contrario, es un antónimo, ya que 'perplejos' significa confundidos o desconcertados, mientras que 'resueltos' implica determinación y claridad.",
+    points: 5,
+  },
+  {
+    id: 99,
+    category: "Comprensión Lectora",
+    question: "¿Qué refrán o frase se relaciona con la idea del no-retorno mencionada en el texto?",
+    options: [
+      { id: "a", text: "El que no conoce la historia está condenado a repetirla" },
+      { id: "b", text: "Todo tiempo pasado fue mejor" },
+      { id: "c", text: "Más vale tarde que nunca" },
+      { id: "d", text: "A quien madruga, Dios lo ayuda" },
+    ],
+    correct: "a",
+    explanation:
+      "El refrán 'El que no conoce la historia está condenado a repetirla' se relaciona irónicamente con la idea del texto: Kundera sugiere que la historia NO se repite, y esa ausencia de retorno es lo que hace que los eventos pierdan peso moral.",
+    points: 5,
+  },
+  {
+    id: 100,
+    category: "Comprensión Lectora",
+    question: "¿Qué se puede inferir de la frase 'El crepúsculo de la desaparición lo baña todo con la magia de la nostalgia'?",
+    options: [
+      { id: "a", text: "La nostalgia solo existe al atardecer" },
+      { id: "b", text: "El paso del tiempo y la certeza de que todo desaparecerá genera nostalgia que suaviza nuestra percepción de los eventos" },
+      { id: "c", text: "Los crepúsculos son momentos mágicos" },
+      { id: "d", text: "La desaparición es siempre dolorosa" },
+    ],
+    correct: "b",
+    explanation:
+      "La frase metafórica sugiere que el carácter transitorio e irrepetible de los eventos (su desaparición inevitable) los envuelve en nostalgia, lo cual suaviza y embellece nuestra percepción de ellos, incluso de eventos terribles.",
+    points: 5,
+  },
+  {
+    id: 101,
+    category: "Comprensión Lectora",
+    question: "¿En qué párrafos se expresa más claramente la idea de que vivimos en un mundo de no-retorno?",
+    options: [
+      { id: "a", text: "Párrafos 1 y 3" },
+      { id: "b", text: "Párrafos 2 y 7" },
+      { id: "c", text: "Párrafos 4 y 5" },
+      { id: "d", text: "Párrafos 1 y 6" },
+    ],
+    correct: "b",
+    explanation:
+      "Los párrafos 2 y 7 expresan claramente la idea del no-retorno: el párrafo 2 explica que nuestra vida 'desaparece de una vez para siempre', y el párrafo 7 concluye con 'un mundo basado esencialmente en la inexistencia del retorno'.",
+    points: 5,
+  },
+  {
+    id: 102,
+    category: "Comprensión Lectora",
+    question: "Un sinónimo de 'demencial' es, EXCEPTO:",
+    options: [
+      { id: "a", text: "Descabellado" },
+      { id: "b", text: "Absurdo" },
+      { id: "c", text: "Razonable" },
+      { id: "d", text: "Irracional" },
+    ],
+    correct: "c",
+    explanation:
+      "'Razonable' NO es sinónimo de 'demencial', sino su antónimo. 'Demencial' significa que carece de razón o lógica, mientras que 'razonable' implica sensatez y lógica.",
+    points: 5,
+  },
+  {
+    id: 103,
+    category: "Comprensión Lectora",
+    question: "Según el texto, si Robespierre y sus acciones se repitieran eternamente:",
+    options: [
+      { id: "a", text: "La historiografía francesa estaría más orgullosa" },
+      { id: "b", text: "La historiografía francesa estaría menos orgullosa" },
+      { id: "c", text: "No cambiaría nada en la percepción histórica" },
+      { id: "d", text: "Robespierre sería olvidado" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto afirma que 'Si la Revolución francesa tuviera que repetirse eternamente, la historiografía francesa estaría menos orgullosa de Robespierre', porque el horror de sus acciones tendría más peso si se repitiera infinitamente.",
+    points: 5,
+  },
+  {
+    id: 104,
+    category: "Comprensión Lectora",
+    question: "¿Qué personas gramaticales utiliza el autor en el texto?",
+    options: [
+      { id: "a", text: "Primera persona en todo el texto" },
+      { id: "b", text: "Tercera persona en todo el texto" },
+      { id: "c", text: "Tercera persona en párrafos 1-5, primera persona en párrafos 6-7" },
+      { id: "d", text: "Segunda persona en todo el texto" },
+    ],
+    correct: "c",
+    explanation:
+      "En los párrafos 1-5, el autor usa la tercera persona para exponer objetivamente el concepto. En los párrafos 6-7, cambia a primera persona ('No hace mucho me sorprendí a mí mismo') para compartir una experiencia personal que ilustra el concepto.",
+    points: 5,
+  },
+  {
+    id: 105,
+    category: "Comprensión Lectora",
+    question: "La expresión 'perversión moral' en el último párrafo es un juicio:",
+    options: [
+      { id: "a", text: "Objetivo y neutral" },
+      { id: "b", text: "Subjetivo y valorativo" },
+      { id: "c", text: "Científico" },
+      { id: "d", text: "Histórico" },
+    ],
+    correct: "b",
+    explanation:
+      "'Perversión moral' es un juicio subjetivo y valorativo del autor sobre las implicaciones éticas de vivir en un mundo sin retorno, donde todo está perdonado de antemano.",
+    points: 5,
+  },
+  // La llama doble - Octavio Paz (IDs 106-115)
+  {
+    id: 106,
+    category: "Comprensión Lectora",
+    question: "¿Cuál es la idea central del párrafo de Octavio Paz?",
+    options: [
+      { id: "a", text: "La poesía es superior al erotismo" },
+      { id: "b", text: "La relación entre erotismo y poesía es de oposición complementaria, ambos transfiguran su materia mediante la imaginación" },
+      { id: "c", text: "La sexualidad animal es diferente del erotismo" },
+      { id: "d", text: "Góngora era un gran poeta" },
+    ],
+    correct: "b",
+    explanation:
+      "La idea central es que erotismo y poesía están íntimamente relacionados: el erotismo es poética corporal, la poesía es erótica verbal, y ambos transfiguran su materia (sexo y lenguaje) mediante la imaginación.",
+    points: 5,
+  },
+  {
+    id: 107,
+    category: "Comprensión Lectora",
+    question: "El texto de Octavio Paz es principalmente:",
+    options: [
+      { id: "a", text: "Narrativo" },
+      { id: "b", text: "Descriptivo" },
+      { id: "c", text: "Argumentativo" },
+      { id: "d", text: "Instructivo" },
+    ],
+    correct: "c",
+    explanation:
+      "El texto es argumentativo porque presenta una tesis sobre la relación entre erotismo y poesía, y la defiende mediante argumentos, ejemplos y razonamientos lógicos.",
+    points: 5,
+  },
+  {
+    id: 108,
+    category: "Comprensión Lectora",
+    question: "¿Cuál es la intencionalidad del autor?",
+    options: [
+      { id: "a", text: "Narrar una historia de amor" },
+      { id: "b", text: "Describir actos eróticos" },
+      { id: "c", text: "Establecer la relación entre erotismo y poesía" },
+      { id: "d", text: "Definir qué es la sexualidad animal" },
+    ],
+    correct: "c",
+    explanation:
+      "La intencionalidad principal es establecer y explicar la profunda relación conceptual entre erotismo y poesía, mostrando cómo ambos operan de manera similar mediante la transfiguración imaginativa.",
+    points: 5,
+  },
+  {
+    id: 109,
+    category: "Comprensión Lectora",
+    question: "Las palabras 'fugitivo y evanescente' son:",
+    options: [
+      { id: "a", text: "Sustantivos" },
+      { id: "b", text: "Verbos" },
+      { id: "c", text: "Adjetivos" },
+      { id: "d", text: "Adverbios" },
+    ],
+    correct: "c",
+    explanation:
+      "'Fugitivo' y 'evanescente' son adjetivos que califican a 'la sensación', describiendo su carácter pasajero y efímero.",
+    points: 5,
+  },
+  {
+    id: 110,
+    category: "Comprensión Lectora",
+    question: "Según el texto, la poesía es todo lo siguiente, EXCEPTO:",
+    options: [
+      { id: "a", text: "Una erótica verbal" },
+      { id: "b", text: "Erotización del lenguaje y el mundo" },
+      { id: "c", text: "Una poética corporal" },
+      { id: "d", text: "Abrazo de realidades opuestas" },
+    ],
+    correct: "c",
+    explanation:
+      "'Poética corporal' NO es la poesía, sino el erotismo. El texto establece que 'el erotismo es una poética corporal y la poesía es una erótica verbal'.",
+    points: 5,
+  },
+  {
+    id: 111,
+    category: "Comprensión Lectora",
+    question: "Según el texto, el erotismo es todo lo siguiente, EXCEPTO:",
+    options: [
+      { id: "a", text: "Poética corporal" },
+      { id: "b", text: "Sexualidad transfigurada" },
+      { id: "c", text: "Erótica verbal" },
+      { id: "d", text: "Ceremonia y representación" },
+    ],
+    correct: "c",
+    explanation:
+      "'Erótica verbal' NO es el erotismo, sino la poesía. El texto establece claramente que 'la poesía es una erótica verbal', mientras que el erotismo es 'poética corporal'.",
+    points: 5,
+  },
+  {
+    id: 112,
+    category: "Comprensión Lectora",
+    question: "¿Qué se puede inferir de la afirmación 'El erotismo es sexualidad transfigurada: metáfora'?",
+    options: [
+      { id: "a", text: "El erotismo es igual que la sexualidad animal" },
+      { id: "b", text: "El erotismo tiene carácter poético" },
+      { id: "c", text: "La metáfora no tiene relación con el erotismo" },
+      { id: "d", text: "El erotismo es puramente físico" },
+    ],
+    correct: "b",
+    explanation:
+      "Al definir el erotismo como 'sexualidad transfigurada: metáfora', el autor establece que el erotismo tiene un carácter esencialmente poético, pues opera como una metáfora que transforma la sexualidad básica en algo más elevado.",
+    points: 5,
+  },
+  {
+    id: 113,
+    category: "Comprensión Lectora",
+    question: "Las palabras 'ceremonia y representación' son:",
+    options: [
+      { id: "a", text: "Verbos de acción" },
+      { id: "b", text: "Adjetivos calificativos" },
+      { id: "c", text: "Sustantivos abstractos" },
+      { id: "d", text: "Sustantivos concretos" },
+    ],
+    correct: "c",
+    explanation:
+      "'Ceremonia' y 'representación' son sustantivos abstractos que designan conceptos inmateriales relacionados con actos simbólicos y rituales.",
+    points: 5,
+  },
+  {
+    id: 114,
+    category: "Comprensión Lectora",
+    question: "Según el texto, ¿qué potencia transfigura al sexo en ceremonia y rito?",
+    options: [
+      { id: "a", text: "El amor" },
+      { id: "b", text: "La razón" },
+      { id: "c", text: "La imaginación" },
+      { id: "d", text: "La cultura" },
+    ],
+    correct: "c",
+    explanation:
+      "El texto afirma explícitamente que 'El agente que mueve lo mismo al acto erótico que al poético es la imaginación. Es la potencia que transfigura al sexo en ceremonia y rito'.",
+    points: 5,
+  },
+  {
+    id: 115,
+    category: "Comprensión Lectora",
+    question: "Un sinónimo de 'incorpóreas' es:",
+    options: [
+      { id: "a", text: "Materiales" },
+      { id: "b", text: "Físicas" },
+      { id: "c", text: "Intangibles" },
+      { id: "d", text: "Corpóreas" },
+    ],
+    correct: "c",
+    explanation:
+      "'Incorpóreas' significa sin cuerpo o materia, por lo tanto 'intangibles' es su sinónimo, refiriéndose a las ideas que no tienen forma física.",
+    points: 5,
+  },
+  // Boca que busca la boca - Juan Manuel Roca (IDs 116-120)
+  {
+    id: 116,
+    category: "Comprensión Lectora",
+    question: "¿Qué coincidencia existe entre los textos de Octavio Paz y Juan Manuel Roca sobre el erotismo?",
+    options: [
+      { id: "a", text: "Ambos lo consideran puramente físico" },
+      { id: "b", text: "Ambos lo conciben como ritual o ceremonia" },
+      { id: "c", text: "Ambos lo rechazan como tema literario" },
+      { id: "d", text: "Ambos hablan solo de sexualidad animal" },
+    ],
+    correct: "b",
+    explanation:
+      "Tanto Paz como Roca conciben el erotismo como ceremonia, ritual y representación, más allá de la mera sexualidad física, enfatizando su dimensión simbólica y cultural.",
+    points: 5,
+  },
+  {
+    id: 117,
+    category: "Comprensión Lectora",
+    question: "La expresión 'despojo de potestades' significa:",
+    options: [
+      { id: "a", text: "Aumento del poder de una parte" },
+      { id: "b", text: "Ausencia de poderes o autoridad de las partes" },
+      { id: "c", text: "Imposición de la voluntad de uno sobre otro" },
+      { id: "d", text: "Mantenimiento de jerarquías" },
+    ],
+    correct: "b",
+    explanation:
+      "'Despojo de potestades' indica que en el encuentro erótico ambas partes abandonan sus poderes y autoridades, creando un espacio de libertad e igualdad sin jerarquías.",
+    points: 5,
+  },
+  {
+    id: 118,
+    category: "Comprensión Lectora",
+    question: "La figura literaria en 'la boca es cáliz' es:",
+    options: [
+      { id: "a", text: "Metáfora" },
+      { id: "b", text: "Hipérbole" },
+      { id: "c", text: "Símil" },
+      { id: "d", text: "Personificación" },
+    ],
+    correct: "c",
+    explanation:
+      "'La boca es cáliz' es un símil (comparación explícita usando 'es') que establece una analogía entre la boca en el contexto erótico y un cáliz religioso, sugiriendo su carácter sagrado y ritual.",
+    points: 5,
+  },
+  {
+    id: 119,
+    category: "Comprensión Lectora",
+    question: "Las palabras 'ornamentos rituales' corresponden a las categorías gramaticales:",
+    options: [
+      { id: "a", text: "Verbo y adverbio" },
+      { id: "b", text: "Sustantivo y adjetivo" },
+      { id: "c", text: "Artículo y sustantivo" },
+      { id: "d", text: "Pronombre y verbo" },
+    ],
+    correct: "b",
+    explanation:
+      "'Ornamentos' es un sustantivo y 'rituales' funciona como adjetivo que califica a 'ornamentos', formando una construcción sustantivo + adjetivo.",
+    points: 5,
+  },
+  {
+    id: 120,
+    category: "Comprensión Lectora",
+    question: "El sujeto de la oración 'Las palabras de amor correspondidas son plegarias escuchadas' es:",
+    options: [
+      { id: "a", text: "Amor" },
+      { id: "b", text: "Las palabras de amor correspondidas" },
+      { id: "c", text: "Plegarias" },
+      { id: "d", text: "Plegarias escuchadas" },
+    ],
+    correct: "b",
+    explanation:
+      "El sujeto completo es 'Las palabras de amor correspondidas', que es aquello de lo que se predica que 'son plegarias escuchadas'.",
+    points: 5,
+  },
+  // Delirio - Laura Restrepo (IDs 121-130)
+  {
+    id: 121,
+    category: "Comprensión Lectora",
+    question: "Según Aguilar, ¿cuál fue la causa del estado mental de Agustina?",
+    options: [
+      { id: "a", text: "Un accidente durante su ausencia" },
+      { id: "b", text: "Las premoniciones que ella siempre tenía" },
+      { id: "c", text: "Una enfermedad física" },
+      { id: "d", text: "El viaje de trabajo de Aguilar" },
+    ],
+    correct: "b",
+    explanation:
+      "Aguilar menciona que lo único que podría haber anunciado lo sucedido eran 'sus propias premoniciones', aunque él nunca las tomaba en serio. El texto sugiere que Agustina siempre pronosticaba calamidades.",
+    points: 5,
+  },
+  {
+    id: 122,
+    category: "Comprensión Lectora",
+    question: "El texto de Laura Restrepo es predominantemente:",
+    options: [
+      { id: "a", text: "Descriptivo" },
+      { id: "b", text: "Narrativo" },
+      { id: "c", text: "Argumentativo" },
+      { id: "d", text: "Expositivo" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto es narrativo porque relata los acontecimientos que llevaron a Aguilar a encontrar a su esposa en un estado mental alterado, usando técnicas narrativas como narrador, personajes y secuencia temporal.",
+    points: 5,
+  },
+  {
+    id: 123,
+    category: "Comprensión Lectora",
+    question: "El uso de mayúsculas en 'Aguilar' tiene la función de:",
+    options: [
+      { id: "a", text: "Indicar que es un nombre propio" },
+      { id: "b", text: "Dar énfasis a la palabra" },
+      { id: "c", text: "Introducir la voz del personaje en estilo indirecto libre" },
+      { id: "d", text: "Corregir un error ortográfico" },
+    ],
+    correct: "c",
+    explanation:
+      "El uso de mayúsculas en 'Aguilar' junto con expresiones como 'dice Aguilar' introduce la voz del personaje en estilo indirecto libre, mezclando la narración con los pensamientos y palabras del personaje.",
+    points: 5,
+  },
+  {
+    id: 124,
+    category: "Comprensión Lectora",
+    question: "¿Qué sentido tiene la expresión 'La mujer que amo se ha perdido dentro de su propia cabeza'?",
+    options: [
+      { id: "a", text: "Agustina tiene amnesia" },
+      { id: "b", text: "Agustina sufre un trastorno mental que la desconecta de la realidad" },
+      { id: "c", text: "Agustina está físicamente perdida" },
+      { id: "d", text: "Agustina no quiere hablar con Aguilar" },
+    ],
+    correct: "b",
+    explanation:
+      "La metáfora 'perdida dentro de su propia cabeza' indica que Agustina sufre un trastorno mental que la ha desconectado de la realidad y de su identidad previa, haciéndola inaccesible emocionalmente.",
+    points: 5,
+  },
+  {
+    id: 125,
+    category: "Comprensión Lectora",
+    question: "El 'don de los ojos' al que se refiere Agustina es:",
+    options: [
+      { id: "a", text: "Su belleza física" },
+      { id: "b", text: "Su capacidad de ver bien" },
+      { id: "c", text: "Sus premoniciones o visión de lo venidero" },
+      { id: "d", text: "Su habilidad para pintar" },
+    ],
+    correct: "c",
+    explanation:
+      "El texto explica que Agustina llama 'don de los ojos' a su capacidad de tener 'visión de lo venidero', es decir, premoniciones sobre eventos futuros.",
+    points: 5,
+  },
+  {
+    id: 126,
+    category: "Comprensión Lectora",
+    question: "Un sinónimo de 'tarascadas' es, EXCEPTO:",
+    options: [
+      { id: "a", text: "Mordidas" },
+      { id: "b", text: "Dentelladas" },
+      { id: "c", text: "Ladrido" },
+      { id: "d", text: "Mordiscos" },
+    ],
+    correct: "c",
+    explanation:
+      "'Ladrido' NO es sinónimo de 'tarascadas'. Las tarascadas son mordidas o dentelladas, mientras que el ladrido es el sonido que hace un perro. Aunque ambos aparecen en la metáfora del perro, son acciones diferentes.",
+    points: 5,
+  },
+  {
+    id: 127,
+    category: "Comprensión Lectora",
+    question: "¿Qué sentido tiene la comparación 'Agustina es un perro famélico y malherido que quisiera volver a casa y no lo logra'?",
+    options: [
+      { id: "a", text: "Agustina se comporta como un animal" },
+      { id: "b", text: "Agustina está físicamente herida" },
+      { id: "c", text: "Expresa la imposibilidad de Agustina de regresar a su estado mental normal por sí misma" },
+      { id: "d", text: "Agustina está perdida en la calle" },
+    ],
+    correct: "c",
+    explanation:
+      "La metáfora del perro famélico y malherido expresa la condición de Agustina: está sufriendo (famélico, malherido), desea recuperarse ('volver a casa'), pero no puede lograrlo por sí misma debido a su trastorno mental.",
+    points: 5,
+  },
+  {
+    id: 128,
+    category: "Comprensión Lectora",
+    question: "¿Qué personas gramaticales predominan en el texto?",
+    options: [
+      { id: "a", text: "Solo tercera persona" },
+      { id: "b", text: "Primera persona de Aguilar y tercera persona del narrador" },
+      { id: "c", text: "Solo primera persona" },
+      { id: "d", text: "Segunda persona dirigiéndose al lector" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto alterna entre la tercera persona del narrador que cuenta la historia ('dice Aguilar', 'intenta explicar') y la primera persona de Aguilar en estilo indirecto libre ('mi mujer', 'me fui', 'la dejé').",
+    points: 5,
+  },
+  {
+    id: 129,
+    category: "Comprensión Lectora",
+    question: "Un sinónimo de 'premoniciones' es:",
+    options: [
+      { id: "a", text: "Recuerdos" },
+      { id: "b", text: "Presagios" },
+      { id: "c", text: "Alucinaciones" },
+      { id: "d", text: "Ilusiones" },
+    ],
+    correct: "b",
+    explanation:
+      "'Presagios' es sinónimo de 'premoniciones', ambas palabras se refieren a intuiciones o anticipaciones de eventos futuros.",
+    points: 5,
+  },
+  {
+    id: 130,
+    category: "Comprensión Lectora",
+    question: "En la metáfora 'un perro que me tira tarascadas', ¿a qué se refiere 'el perro'?",
+    options: [
+      { id: "a", text: "La personalidad violenta de Agustina" },
+      { id: "b", text: "La razón trastornada de Agustina" },
+      { id: "c", text: "Un perro real que los ataca" },
+      { id: "d", text: "Los recuerdos de Agustina" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto aclara explícitamente: 'La trastornada razón de mi mujer es un perro que me tira tarascadas', indicando que el perro es una metáfora de la mente alterada de Agustina.",
+    points: 5,
+  },
+  // La loca de la casa - Rosa Montero (IDs 131-140)
+  {
+    id: 131,
+    category: "Comprensión Lectora",
+    question: "¿Por qué el texto de Rosa Montero puede considerarse argumentativo?",
+    options: [
+      { id: "a", text: "Porque narra una historia" },
+      { id: "b", text: "Porque defiende una tesis sobre la naturaleza de la escritura mediante ejemplos y argumentos" },
+      { id: "c", text: "Porque describe paisajes" },
+      { id: "d", text: "Porque solo da información objetiva" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto es argumentativo porque presenta una tesis ('escribir es estar habitado por fantasías que son don y castigo') y la defiende mediante argumentos y ejemplos concretos.",
+    points: 5,
+  },
+  {
+    id: 132,
+    category: "Comprensión Lectora",
+    question: "¿Cuál es la estructura del párrafo?",
+    options: [
+      { id: "a", text: "Introducción, nudo, desenlace" },
+      { id: "b", text: "Tesis, argumentos, ejemplos, conclusión" },
+      { id: "c", text: "Planteamiento y resolución" },
+      { id: "d", text: "Causa y efecto" },
+    ],
+    correct: "b",
+    explanation:
+      "El párrafo sigue la estructura: tesis inicial (la compulsión fabuladora es don y castigo), argumentos (cómo funciona la fantasía), ejemplos concretos (Argelia, el puente), y conclusión implícita sobre las consecuencias.",
+    points: 5,
+  },
+  {
+    id: 133,
+    category: "Comprensión Lectora",
+    question: "La figura literaria en 'perezosas como las lentas ensoñaciones de una siesta estival' es:",
+    options: [
+      { id: "a", text: "Metáfora" },
+      { id: "b", text: "Hipérbole" },
+      { id: "c", text: "Símil" },
+      { id: "d", text: "Metonimia" },
+    ],
+    correct: "c",
+    explanation:
+      "Es un símil porque usa la palabra comparativa 'como' para establecer una comparación explícita entre las fantasías perezosas y las ensoñaciones de una siesta estival.",
+    points: 5,
+  },
+  {
+    id: 134,
+    category: "Comprensión Lectora",
+    question: "¿Cuál es la idea central del párrafo?",
+    options: [
+      { id: "a", text: "Los novelistas sufren enfermedades mentales" },
+      { id: "b", text: "La compulsión fabuladora del escritor es tanto un don como un castigo que hace que su mente funcione automáticamente" },
+      { id: "c", text: "Es peligroso cruzar puentes de madera" },
+      { id: "d", text: "Las noticias de Argelia son muy tristes" },
+    ],
+    correct: "b",
+    explanation:
+      "La idea central es que la mente del novelista está poseída por una compulsión fabuladora que opera automáticamente, y esta capacidad es simultáneamente un don (para crear) y un castigo (genera sufrimiento innecesario).",
+    points: 5,
+  },
+  {
+    id: 135,
+    category: "Comprensión Lectora",
+    question: "El sentido de 'compulsión fabuladora' es:",
+    options: [
+      { id: "a", text: "Mentir compulsivamente" },
+      { id: "b", text: "Tendencia irresistible a inventar, imaginar y crear historias" },
+      { id: "c", text: "Leer muchos libros" },
+      { id: "d", text: "Escribir muy rápido" },
+    ],
+    correct: "b",
+    explanation:
+      "'Compulsión fabuladora' se refiere a la tendencia irresistible e involuntaria a fabular, es decir, a inventar e imaginar historias constantemente, característica de la mente del novelista.",
+    points: 5,
+  },
+  {
+    id: 136,
+    category: "Comprensión Lectora",
+    question: "Un sinónimo de 'oprobio' es:",
+    options: [
+      { id: "a", text: "Honor" },
+      { id: "b", text: "Alegría" },
+      { id: "c", text: "Vergüenza" },
+      { id: "d", text: "Orgullo" },
+    ],
+    correct: "c",
+    explanation:
+      "'Oprobio' significa vergüenza, deshonra o humillación. En el contexto, se refiere a la vergüenza de caerse de manera poco elegante en el arroyo.",
+    points: 5,
+  },
+  {
+    id: 137,
+    category: "Comprensión Lectora",
+    question: "La expresión 'Voilà' es un:",
+    options: [
+      { id: "a", text: "Anglicismo" },
+      { id: "b", text: "Italianismo" },
+      { id: "c", text: "Galicismo" },
+      { id: "d", text: "Germanismo" },
+    ],
+    correct: "c",
+    explanation:
+      "'Voilà' es un galicismo (préstamo del francés) que significa 'he aquí' o 'ya está', usado para presentar o concluir algo.",
+    points: 5,
+  },
+  {
+    id: 138,
+    category: "Comprensión Lectora",
+    question: "La palabra 'chasquido' corresponde a:",
+    options: [
+      { id: "a", text: "Una metáfora" },
+      { id: "b", text: "Una onomatopeya" },
+      { id: "c", text: "Un símil" },
+      { id: "d", text: "Una hipérbole" },
+    ],
+    correct: "b",
+    explanation:
+      "'Chasquido' es una onomatopeya que imita el sonido seco y repentino, en este caso del quebrarse de los huesos.",
+    points: 5,
+  },
+  {
+    id: 139,
+    category: "Comprensión Lectora",
+    question: "¿A qué se refiere 'a veces es un don y en otras ocasiones es un castigo'?",
+    options: [
+      { id: "a", text: "La lectura de noticias" },
+      { id: "b", text: "Cruzar puentes de madera" },
+      { id: "c", text: "La compulsión fabuladora o imaginación del novelista" },
+      { id: "d", text: "Vivir en Argelia" },
+    ],
+    correct: "c",
+    explanation:
+      "Se refiere a la compulsión fabuladora del novelista: es un don cuando permite crear literatura, pero es un castigo cuando obliga a imaginar horrores o anticipar caídas ridículas.",
+    points: 5,
+  },
+  {
+    id: 140,
+    category: "Comprensión Lectora",
+    question: "¿Cuál de los siguientes NO es un ejemplo de cómo marcha la cabeza del novelista por sí sola?",
+    options: [
+      { id: "a", text: "Recrear instantáneamente una noticia atroz sobre niños descuartizados" },
+      { id: "b", text: "Imaginar detalladamente una caída al cruzar un puente" },
+      { id: "c", text: "Leer tranquilamente el periódico sin que se dispare la imaginación" },
+      { id: "d", text: "Visualizar con todos los pormenores una situación antes de que ocurra" },
+    ],
+    correct: "c",
+    explanation:
+      "'Leer tranquilamente el periódico sin que se dispare la imaginación' NO es un ejemplo de la compulsión fabuladora. Por el contrario, el texto muestra que la imaginación del novelista se dispara involuntariamente al leer el periódico.",
     points: 5,
   },
 ]
@@ -3021,6 +4057,882 @@ const questionsV2: Question[] = [
     correct: "b",
     explanation:
       "La influencia está concretamente documentada: inventores como Martin Cooper reconocieron explícitamente haber tomado inspiración de Star Trek para desarrollar tecnologías como el celular portátil.",
+    points: 5,
+  },
+  // La lámpara maravillosa - William Ospina V2 (IDs 141-149)
+  {
+    id: 141,
+    category: "Comprensión Lectora",
+    question: "Según el texto, los dos recursos fundamentales que tenemos para navegar la vida son:",
+    options: [
+      { id: "a", text: "El conocimiento y la razón" },
+      { id: "b", text: "La experiencia y la imaginación" },
+      { id: "c", text: "Los libros y la educación" },
+      { id: "d", text: "La memoria y la inteligencia" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto establece claramente que 'para todo eso sólo tenemos dos recursos: la experiencia y la imaginación', siendo estos los medios fundamentales para conocer los dones y prevenir los peligros de la vida.",
+    points: 5,
+  },
+  {
+    id: 142,
+    category: "Comprensión Lectora",
+    question: "La expresión 'el paraíso de los libros' se refiere a:",
+    options: [
+      { id: "a", text: "Una biblioteca perfecta" },
+      { id: "b", text: "Un lugar imaginario donde se escriben libros" },
+      { id: "c", text: "Un espacio donde la imaginación permite vivir experiencias prohibidas en la realidad" },
+      { id: "d", text: "El cielo de los escritores" },
+    ],
+    correct: "c",
+    explanation:
+      "El 'paraíso de los libros' es el espacio imaginativo donde 'está permitido todo aquello que la experiencia prohíbe', permitiendo vivir lo no vivido y escarmentar por cabeza ajena.",
+    points: 5,
+  },
+  {
+    id: 143,
+    category: "Comprensión Lectora",
+    question: "¿A qué obras literarias alude el autor en el segundo párrafo?",
+    options: [
+      { id: "a", text: "La Odisea, La Ilíada, Romeo y Julieta, Hamlet" },
+      { id: "b", text: "Don Quijote, Moby Dick, La metamorfosis, Otelo" },
+      { id: "c", text: "Cien años de soledad, El amor en los tiempos del cólera" },
+      { id: "d", text: "La Divina Comedia, El Paraíso Perdido" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto alude a Don Quijote (hombre que por la lectura quiere ser héroe), Moby Dick (cacería de la ballena blanca), La metamorfosis (hombre que se convierte en escarabajo) y Otelo (hombre celoso que mata a su mujer).",
+    points: 5,
+  },
+  {
+    id: 144,
+    category: "Comprensión Lectora",
+    question: "La referencia a Borges en el texto sirve para:",
+    options: [
+      { id: "a", text: "Criticar su obra literaria" },
+      { id: "b", text: "Ilustrar cómo los libros son una legión de amigos inagotables" },
+      { id: "c", text: "Comparar su estilo con otros autores" },
+      { id: "d", text: "Explicar su teoría sobre la memoria" },
+    ],
+    correct: "b",
+    explanation:
+      "El autor cita a Borges para reforzar la idea de que 'la relación con los libros es... el hallazgo de una legión de amigos que puede ser inagotable', enfatizando la riqueza infinita de la lectura.",
+    points: 5,
+  },
+  {
+    id: 145,
+    category: "Comprensión Lectora",
+    question: "¿Qué relación establece el autor entre soledad, amistad y felicidad?",
+    options: [
+      { id: "a", text: "Son experiencias mutuamente excluyentes" },
+      { id: "b", text: "Solo la amistad conduce a la felicidad" },
+      { id: "c", text: "En la relación con los libros las tres experiencias coexisten simultáneamente" },
+      { id: "d", text: "La soledad elimina la posibilidad de amistad" },
+    ],
+    correct: "c",
+    explanation:
+      "El texto afirma que estas tres experiencias inevitables de la vida 'están juntas' en nuestra relación con los libros, coexistiendo de manera única en el acto de leer.",
+    points: 5,
+  },
+  {
+    id: 146,
+    category: "Comprensión Lectora",
+    question: "La función de 'vivir lo no vivido' y 'recordar memorias de otros' es:",
+    options: [
+      { id: "a", text: "Confundir nuestra propia experiencia" },
+      { id: "b", text: "Ampliar nuestra experiencia a través de la imaginación sin sufrir las consecuencias reales" },
+      { id: "c", text: "Olvidar nuestras propias vivencias" },
+      { id: "d", text: "Sustituir completamente la experiencia real" },
+    ],
+    correct: "b",
+    explanation:
+      "Los libros permiten ampliar nuestra experiencia vital 'escarmentando por cabeza ajena', aprendiendo de las experiencias de otros sin tener que vivirlas directamente con sus riesgos y consecuencias.",
+    points: 5,
+  },
+  {
+    id: 147,
+    category: "Comprensión Lectora",
+    question: "El autor presenta la vida como:",
+    options: [
+      { id: "a", text: "Solo bendición" },
+      { id: "b", text: "Solo tormento" },
+      { id: "c", text: "Continuamente bendición y tormento" },
+      { id: "d", text: "Ni bendición ni tormento" },
+    ],
+    correct: "c",
+    explanation:
+      "El texto comienza afirmando que 'El cuerpo, la vida, el mundo, son continuamente bendición y tormento', reconociendo la dualidad inherente a la experiencia vital.",
+    points: 5,
+  },
+  {
+    id: 148,
+    category: "Comprensión Lectora",
+    question: "¿Qué significa 'los libros nos convierten en el escenario donde ocurren hechos ilustres'?",
+    options: [
+      { id: "a", text: "Los libros nos hacen famosos" },
+      { id: "b", text: "Somos espectadores pasivos de los libros" },
+      { id: "c", text: "Al leer, nosotros mismos nos convertimos en el lugar donde suceden las historias" },
+      { id: "d", text: "Los libros solo describen escenarios" },
+    ],
+    correct: "c",
+    explanation:
+      "La metáfora indica que al leer, nuestra mente se transforma en el espacio donde las historias cobran vida, convirtiéndonos en participantes activos del mundo imaginario del libro.",
+    points: 5,
+  },
+  {
+    id: 149,
+    category: "Comprensión Lectora",
+    question: "El contacto con los libros se describe como 'mágico' porque:",
+    options: [
+      { id: "a", text: "Los libros contienen hechizos reales" },
+      { id: "b", text: "Permite ver y vivir cosas que están más allá de las páginas físicas" },
+      { id: "c", text: "Los libros desaparecen al leerlos" },
+      { id: "d", text: "Los escritores son magos" },
+    ],
+    correct: "b",
+    explanation:
+      "El autor describe como mágico el proceso por el cual 'gracias al libro vemos cosas que están guardadas más allá de sus páginas, vivimos las navegaciones, los conflictos, los crímenes', transformando símbolos en experiencias vividas.",
+    points: 5,
+  },
+  // La insoportable levedad del ser - Milan Kundera V2 (IDs 150-163)
+  {
+    id: 150,
+    category: "Comprensión Lectora",
+    question: "Según Nietzsche citado en el texto, la idea del eterno retorno implica que:",
+    options: [
+      { id: "a", text: "Solo los buenos eventos se repiten" },
+      { id: "b", text: "Todo lo vivido se repetirá exactamente igual infinitas veces" },
+      { id: "c", text: "Nada se repite jamás" },
+      { id: "d", text: "Solo se repiten los errores" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto presenta el eterno retorno como la idea de que 'alguna vez haya de repetirse todo tal como lo hemos vivido ya, y que incluso esa repetición haya de repetirse hasta el infinito'.",
+    points: 5,
+  },
+  {
+    id: 151,
+    category: "Comprensión Lectora",
+    question: "Una vida sin retorno, según el texto, es:",
+    options: [
+      { id: "a", text: "Más valiosa porque es única" },
+      { id: "b", text: "Como una sombra, carece de peso y está muerta de antemano" },
+      { id: "c", text: "Más significativa que una vida con retorno" },
+      { id: "d", text: "La única forma posible de existencia" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto afirma que 'una vida que desaparece de una vez para siempre, que no retorna, es como una sombra, carece de peso, está muerta de antemano', indicando su falta de peso moral.",
+    points: 5,
+  },
+  {
+    id: 152,
+    category: "Comprensión Lectora",
+    question: "El ejemplo de la guerra entre Estados africanos en el siglo catorce sirve para ilustrar:",
+    options: [
+      { id: "a", text: "La importancia de la historia africana" },
+      { id: "b", text: "Que eventos sin retorno no tienen peso significativo aunque sean horribles" },
+      { id: "c", text: "La crueldad de las guerras antiguas" },
+      { id: "d", text: "La superioridad de unas civilizaciones sobre otras" },
+    ],
+    correct: "b",
+    explanation:
+      "El autor usa este ejemplo para mostrar cómo eventos terribles que 'no cambiaron en nada la faz de la tierra' pierden significado por su carácter único e irrepetible, ilustrando la levedad de lo que no retorna.",
+    points: 5,
+  },
+  {
+    id: 153,
+    category: "Comprensión Lectora",
+    question: "¿Qué diferencia hace el eterno retorno en la percepción de eventos?",
+    options: [
+      { id: "a", text: "No hace ninguna diferencia" },
+      { id: "b", text: "Los convierte en un bloque que perdura y su estupidez será irreparable" },
+      { id: "c", text: "Los hace más ligeros y fáciles de olvidar" },
+      { id: "d", text: "Los transforma en eventos positivos" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto explica que con el eterno retorno, los eventos 'se convierten en un bloque que sobresale y perdura, y su estupidez será irreparable', adquiriendo un peso moral permanente.",
+    points: 5,
+  },
+  {
+    id: 154,
+    category: "Comprensión Lectora",
+    question: "La actitud de la historiografía francesa hacia Robespierre es posible porque:",
+    options: [
+      { id: "a", text: "Robespierre era un héroe" },
+      { id: "b", text: "Los eventos no volverán a ocurrir, convirtiéndose en meras palabras sin peso" },
+      { id: "c", text: "La Revolución francesa fue positiva" },
+      { id: "d", text: "No hubo víctimas reales" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto explica que la historiografía puede estar orgullosa porque 'habla de algo que ya no volverá a ocurrir, los años sangrientos se convierten en meras palabras... se vuelven más ligeros que una pluma'.",
+    points: 5,
+  },
+  {
+    id: 155,
+    category: "Comprensión Lectora",
+    question: "La 'circunstancia atenuante' de la fugacidad significa que:",
+    options: [
+      { id: "a", text: "Todo es perdonable porque no se repetirá" },
+      { id: "b", text: "Los eventos fugaces son más importantes" },
+      { id: "c", text: "El tiempo cura todas las heridas" },
+      { id: "d", text: "Solo lo permanente tiene valor" },
+    ],
+    correct: "a",
+    explanation:
+      "El texto indica que 'esta circunstancia atenuante es la que nos impide pronunciar condena alguna' porque lo fugaz, al no repetirse, pierde peso moral y es más fácil de perdonar u olvidar.",
+    points: 5,
+  },
+  {
+    id: 156,
+    category: "Comprensión Lectora",
+    question: "¿Qué provocó en el autor ver fotografías de Hitler?",
+    options: [
+      { id: "a", text: "Solo horror y rechazo" },
+      { id: "b", text: "Emoción nostálgica por su infancia, superando el horror de las atrocidades" },
+      { id: "c", text: "Indiferencia total" },
+      { id: "d", text: "Deseo de venganza" },
+    ],
+    correct: "b",
+    explanation:
+      "El autor confiesa que las fotos de Hitler le emocionaron porque 'me habían recordado el tiempo de mi infancia', y se pregunta '¿qué era su muerte [de parientes] en comparación con... un tiempo pasado que no volverá?'",
+    points: 5,
+  },
+  {
+    id: 157,
+    category: "Comprensión Lectora",
+    question: "La 'reconciliación con Hitler' que menciona el autor demuestra:",
+    options: [
+      { id: "a", text: "Que Hitler no era tan malo" },
+      { id: "b", text: "La profunda perversión moral de un mundo sin retorno" },
+      { id: "c", text: "Que debemos perdonar a todos" },
+      { id: "d", text: "La superioridad de la nostalgia sobre la justicia" },
+    ],
+    correct: "b",
+    explanation:
+      "El autor concluye que esta reconciliación 'demuestra la profunda perversión moral que va unida a un mundo basado esencialmente en la inexistencia del retorno, porque... todo está perdonado de antemano'.",
+    points: 5,
+  },
+  {
+    id: 158,
+    category: "Comprensión Lectora",
+    question: "En un mundo sin retorno, según el autor:",
+    options: [
+      { id: "a", text: "Existe justicia verdadera" },
+      { id: "b", text: "Todo está perdonado de antemano y cínicamente permitido" },
+      { id: "c", text: "Solo importan las buenas acciones" },
+      { id: "d", text: "La moral es más fuerte" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto concluye afirmando que en un mundo sin retorno 'todo está perdonado de antemano y, por tanto, todo cínicamente permitido', señalando el colapso de la responsabilidad moral.",
+    points: 5,
+  },
+  {
+    id: 159,
+    category: "Comprensión Lectora",
+    question: "La metáfora del 'crepúsculo de la desaparición' sugiere:",
+    options: [
+      { id: "a", text: "El fin del día" },
+      { id: "b", text: "Que la transitoriedad de todo embellece incluso lo horrible con nostalgia" },
+      { id: "c", text: "La muerte física" },
+      { id: "d", text: "El inicio de algo nuevo" },
+    ],
+    correct: "b",
+    explanation:
+      "Esta metáfora indica que el carácter pasajero de los eventos 'lo baña todo con la magia de la nostalgia', suavizando nuestra percepción incluso de atrocidades como la guillotina.",
+    points: 5,
+  },
+  {
+    id: 160,
+    category: "Comprensión Lectora",
+    question: "¿Por qué Nietzsche dejó 'perplejos' a los demás filósofos?",
+    options: [
+      { id: "a", text: "Por su estilo de escritura complejo" },
+      { id: "b", text: "Por proponer la idea radical del eterno retorno de lo mismo" },
+      { id: "c", text: "Por su crítica a la religión" },
+      { id: "d", text: "Por su filosofía del superhombre" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto indica que los filósofos quedaron perplejos ante la idea del eterno retorno: '¡pensar que alguna vez haya de repetirse todo... hasta el infinito! ¿Qué quiere decir ese mito demencial?'",
+    points: 5,
+  },
+  {
+    id: 161,
+    category: "Comprensión Lectora",
+    question: "El tono del autor en los párrafos personales (6-7) es:",
+    options: [
+      { id: "a", text: "Objetivo y distante" },
+      { id: "b", text: "Confesional y reflexivo" },
+      { id: "c", text: "Agresivo y crítico" },
+      { id: "d", text: "Optimista y celebratorio" },
+    ],
+    correct: "b",
+    explanation:
+      "En los párrafos finales, el autor adopta un tono confesional ('me sorprendí a mí mismo') y reflexivo, compartiendo una experiencia personal perturbadora para ilustrar sus argumentos filosóficos.",
+    points: 5,
+  },
+  {
+    id: 162,
+    category: "Comprensión Lectora",
+    question: "¿Qué rol cumple el cuestionamiento '¿Cómo es posible condenar algo fugaz?'",
+    options: [
+      { id: "a", text: "Es una pregunta retórica que expone la dificultad moral del no-retorno" },
+      { id: "b", text: "Busca una respuesta concreta del lector" },
+      { id: "c", text: "Critica a quienes no condenan" },
+      { id: "d", text: "Defiende la fugacidad como virtud" },
+    ],
+    correct: "a",
+    explanation:
+      "Esta pregunta retórica ilustra el dilema moral central: la imposibilidad de juzgar severamente lo que no se repetirá, revelando la 'perversión moral' de un mundo sin retorno.",
+    points: 5,
+  },
+  {
+    id: 163,
+    category: "Comprensión Lectora",
+    question: "La expresión 'más ligeros que una pluma' se refiere a:",
+    options: [
+      { id: "a", text: "El peso físico de los objetos históricos" },
+      { id: "b", text: "La pérdida de gravedad moral de eventos que no se repetirán" },
+      { id: "c", text: "La facilidad de los estudios históricos" },
+      { id: "d", text: "La ligereza del aire en Francia" },
+    ],
+    correct: "b",
+    explanation:
+      "La metáfora describe cómo los eventos históricos, al no repetirse, 'se vuelven más ligeros que una pluma, no dan miedo', perdiendo su peso y gravedad moral.",
+    points: 5,
+  },
+  // La llama doble - Octavio Paz V2 (IDs 164-173)
+  {
+    id: 164,
+    category: "Comprensión Lectora",
+    question: "Según Paz, el erotismo se define como:",
+    options: [
+      { id: "a", text: "Sexualidad animal sin transformación" },
+      { id: "b", text: "Ceremonia y representación, sexualidad transfigurada" },
+      { id: "c", text: "Únicamente instinto físico" },
+      { id: "d", text: "La negación de la sexualidad" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto define claramente que 'el erotismo no es mera sexualidad animal: es ceremonia, representación. El erotismo es sexualidad transfigurada: metáfora'.",
+    points: 5,
+  },
+  {
+    id: 165,
+    category: "Comprensión Lectora",
+    question: "La 'oposición complementaria' entre erotismo y poesía significa que:",
+    options: [
+      { id: "a", text: "Son completamente diferentes y no se relacionan" },
+      { id: "b", text: "Se oponen pero no se complementan" },
+      { id: "c", text: "Son opuestos que se necesitan y completan mutuamente" },
+      { id: "d", text: "Son exactamente lo mismo" },
+    ],
+    correct: "c",
+    explanation:
+      "El concepto de 'oposición complementaria' indica que aunque erotismo (poética corporal) y poesía (erótica verbal) parecen opuestos, en realidad funcionan de manera análoga y se complementan en su operación.",
+    points: 5,
+  },
+  {
+    id: 166,
+    category: "Comprensión Lectora",
+    question: "El lenguaje es definido como:",
+    options: [
+      { id: "a", text: "Solo sonidos sin significado" },
+      { id: "b", text: "Sonido que emite sentidos, trazo material que denota ideas incorpóreas" },
+      { id: "c", text: "Un sistema cerrado de símbolos" },
+      { id: "d", text: "Una herramienta puramente racional" },
+    ],
+    correct: "b",
+    explanation:
+      "Paz caracteriza el lenguaje como 'sonido que emite sentidos, trazo material que denota ideas incorpóreas', resaltando su doble naturaleza material-inmaterial.",
+    points: 5,
+  },
+  {
+    id: 167,
+    category: "Comprensión Lectora",
+    question: "¿Qué capacidad tiene el lenguaje según el texto?",
+    options: [
+      { id: "a", text: "Solo expresar ideas abstractas" },
+      { id: "b", text: "Dar nombre a lo más fugitivo y evanescente: la sensación" },
+      { id: "c", text: "Únicamente describir objetos concretos" },
+      { id: "d", text: "Expresar solo emociones" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto destaca que el lenguaje 'es capaz de dar nombre a lo más fugitivo y evanescente: la sensación', subrayando su poder de capturar lo inefable.",
+    points: 5,
+  },
+  {
+    id: 168,
+    category: "Comprensión Lectora",
+    question: "La imaginación, según Paz, actúa como:",
+    options: [
+      { id: "a", text: "Un obstáculo para la sexualidad" },
+      { id: "b", text: "El agente que transfigura tanto el sexo como el lenguaje" },
+      { id: "c", text: "Una distracción del erotismo" },
+      { id: "d", text: "Un elemento secundario sin importancia" },
+    ],
+    correct: "b",
+    explanation:
+      "El autor afirma que 'El agente que mueve lo mismo al acto erótico que al poético es la imaginación. Es la potencia que transfigura al sexo en ceremonia y rito, al lenguaje en ritmo y metáfora'.",
+    points: 5,
+  },
+  {
+    id: 169,
+    category: "Comprensión Lectora",
+    question: "La afirmación 'la imagen poética es abrazo de realidades opuestas' significa que:",
+    options: [
+      { id: "a", text: "La poesía solo une cosas similares" },
+      { id: "b", text: "La metáfora une elementos contrarios creando algo nuevo" },
+      { id: "c", text: "La poesía rechaza las contradicciones" },
+      { id: "d", text: "Las realidades opuestas no pueden coexistir" },
+    ],
+    correct: "b",
+    explanation:
+      "Esta afirmación expresa que la imagen poética fusiona elementos opuestos, así como la rima es 'cópula de sonidos', creando unidad de los contrarios.",
+    points: 5,
+  },
+  {
+    id: 170,
+    category: "Comprensión Lectora",
+    question: "El ejemplo 'púrpura nevada' de Góngora ilustra que:",
+    options: [
+      { id: "a", text: "Góngora describía la nieve" },
+      { id: "b", text: "La metáfora crea una realidad nueva más allá de sus componentes" },
+      { id: "c", text: "La sangre y la nieve son lo mismo" },
+      { id: "d", text: "La poesía es simple descripción" },
+    ],
+    correct: "b",
+    explanation:
+      "Paz usa este ejemplo para mostrar cómo la metáfora 'inventa o descubre una realidad que, aunque hecha de ambas, no es sangre ni nieve', sino algo completamente nuevo.",
+    points: 5,
+  },
+  {
+    id: 171,
+    category: "Comprensión Lectora",
+    question: "¿Qué hace la poesía con el lenguaje y el mundo?",
+    options: [
+      { id: "a", text: "Los describe objetivamente" },
+      { id: "b", text: "Los erotiza" },
+      { id: "c", text: "Los destruye" },
+      { id: "d", text: "Los ignora" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto afirma que 'la poesía erotiza al lenguaje y al mundo porque ella misma, en su modo de operación, es ya erotismo', estableciendo su naturaleza transformadora.",
+    points: 5,
+  },
+  {
+    id: 172,
+    category: "Comprensión Lectora",
+    question: "La rima es descrita como:",
+    options: [
+      { id: "a", text: "Simple repetición de sonidos" },
+      { id: "b", text: "Cópula de sonidos" },
+      { id: "c", text: "Un artificio innecesario" },
+      { id: "d", text: "Decoración del poema" },
+    ],
+    correct: "b",
+    explanation:
+      "Paz usa un lenguaje erótico para describir la rima como 'cópula de sonidos', estableciendo paralelismo entre la operación poética y la erótica.",
+    points: 5,
+  },
+  {
+    id: 173,
+    category: "Comprensión Lectora",
+    question: "La frase 'el erotismo es una metáfora de la sexualidad animal' implica que:",
+    options: [
+      { id: "a", text: "El erotismo es idéntico a la sexualidad animal" },
+      { id: "b", text: "El erotismo transforma la sexualidad en algo diferente y más elevado" },
+      { id: "c", text: "Los animales tienen erotismo" },
+      { id: "d", text: "La sexualidad humana es inferior" },
+    ],
+    correct: "b",
+    explanation:
+      "Al definir el erotismo como 'metáfora' de la sexualidad animal, Paz indica que el erotismo 'es algo diferente a la mera sexualidad', transformándola en algo cultural y simbólico.",
+    points: 5,
+  },
+  // Boca que busca la boca - Juan Manuel Roca V2 (IDs 174-178)
+  {
+    id: 174,
+    category: "Comprensión Lectora",
+    question: "El erotismo, según Roca, implica:",
+    options: [
+      { id: "a", text: "Dominación de una parte sobre otra" },
+      { id: "b", text: "Transgresión con acuerdo mutuo para crear libertad" },
+      { id: "c", text: "Obediencia a reglas estrictas" },
+      { id: "d", text: "Violencia entre las partes" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto afirma que 'El erotismo llama a la transgresión, con un acuerdo entre las partes para crear un espacio de libertad', enfatizando el consenso y la liberación.",
+    points: 5,
+  },
+  {
+    id: 175,
+    category: "Comprensión Lectora",
+    question: "En el encuentro erótico descrito por Roca, no hay:",
+    options: [
+      { id: "a", text: "Ornamentos rituales" },
+      { id: "b", text: "Confesión de deseos" },
+      { id: "c", text: "Víctimas ni victimarios" },
+      { id: "d", text: "Plegarias" },
+    ],
+    correct: "c",
+    explanation:
+      "El texto establece claramente que en este espacio de libertad erótica 'no hay víctimas ni victimarios sino un despojo de potestades', subrayando la igualdad y el consenso.",
+    points: 5,
+  },
+  {
+    id: 176,
+    category: "Comprensión Lectora",
+    question: "Los 'ornamentos rituales' del erotismo incluyen todas las siguientes metáforas religiosas, EXCEPTO:",
+    options: [
+      { id: "a", text: "La boca es cáliz" },
+      { id: "b", text: "El olor es incienso" },
+      { id: "c", text: "Las palabras son claves del Paraíso" },
+      { id: "d", text: "El cuerpo es sacrificio" },
+    ],
+    correct: "d",
+    explanation:
+      "El texto menciona la boca como cáliz, el olor como incienso, y las palabras como claves del Paraíso, pero no presenta el cuerpo como sacrificio, lo cual contradiría la idea de placer mutuo.",
+    points: 5,
+  },
+  {
+    id: 177,
+    category: "Comprensión Lectora",
+    question: "La metáfora del 'pequeño jardín que conduce al Paraíso' sugiere:",
+    options: [
+      { id: "a", text: "Un jardín real" },
+      { id: "b", text: "El espacio erótico como acceso a un estado de plenitud o éxtasis" },
+      { id: "c", text: "El Edén bíblico literal" },
+      { id: "d", text: "Un parque público" },
+    ],
+    correct: "b",
+    explanation:
+      "Esta metáfora presenta el encuentro erótico como un camino hacia una experiencia trascendente, usando el lenguaje religioso del Paraíso para expresar el éxtasis erótico.",
+    points: 5,
+  },
+  {
+    id: 178,
+    category: "Comprensión Lectora",
+    question: "El uso del término cristiano 'confesión' para describir la expresión de deseos sugiere:",
+    options: [
+      { id: "a", text: "Que el erotismo es pecaminoso" },
+      { id: "b", text: "La sacralización del encuentro erótico mediante lenguaje religioso" },
+      { id: "c", text: "Que se requiere un sacerdote" },
+      { id: "d", text: "El rechazo de la religión" },
+    ],
+    correct: "b",
+    explanation:
+      "Roca utiliza conscientemente terminología religiosa ('confesión', 'absueltos', 'cáliz', 'incienso', 'plegarias') para elevar el erotismo a una dimensión sagrada o ritual.",
+    points: 5,
+  },
+  // Delirio - Laura Restrepo V2 (IDs 179-188)
+  {
+    id: 179,
+    category: "Comprensión Lectora",
+    question: "¿Cuánto tiempo duró el viaje de Aguilar?",
+    options: [
+      { id: "a", text: "Una semana" },
+      { id: "b", text: "Dos semanas" },
+      { id: "c", text: "Cuatro días" },
+      { id: "d", text: "Un mes" },
+    ],
+    correct: "c",
+    explanation:
+      "El texto menciona explícitamente que fue 'un viaje corto, sólo cuatro días por cosas de trabajo'.",
+    points: 5,
+  },
+  {
+    id: 180,
+    category: "Comprensión Lectora",
+    question: "¿Qué estaba haciendo Agustina cuando Aguilar se fue de viaje?",
+    options: [
+      { id: "a", text: "Leyendo un libro" },
+      { id: "b", text: "Pintando de verde las paredes del apartamento" },
+      { id: "c", text: "Visitando a su familia" },
+      { id: "d", text: "Trabajando en su oficina" },
+    ],
+    correct: "b",
+    explanation:
+      "Aguilar recuerda que cuando se fue 'la dejó pintando de verde las paredes del apartamento', indicando que ella estaba realizando actividades normales.",
+    points: 5,
+  },
+  {
+    id: 181,
+    category: "Comprensión Lectora",
+    question: "¿Dónde encontró Aguilar a su esposa al regresar?",
+    options: [
+      { id: "a", text: "En su apartamento" },
+      { id: "b", text: "En casa de sus padres" },
+      { id: "c", text: "En un hotel al norte de la ciudad" },
+      { id: "d", text: "En un hospital" },
+    ],
+    correct: "c",
+    explanation:
+      "El texto indica que 'la encontré en un hotel, al norte de la ciudad, transformada en un ser aterrado y aterrador'.",
+    points: 5,
+  },
+  {
+    id: 182,
+    category: "Comprensión Lectora",
+    question: "¿Cuánto tiempo lleva Aguilar buscando a Agustina (mentalmente)?",
+    options: [
+      { id: "a", text: "Cuatro días" },
+      { id: "b", text: "Una semana" },
+      { id: "c", text: "Catorce días" },
+      { id: "d", text: "Un mes" },
+    ],
+    correct: "c",
+    explanation:
+      "Aguilar afirma: 'hace ya catorce días que la ando buscando y me va la vida en encontrarla', refiriéndose a su búsqueda de la Agustina que conocía dentro de su mente alterada.",
+    points: 5,
+  },
+  {
+    id: 183,
+    category: "Comprensión Lectora",
+    question: "La actitud de Aguilar hacia las premoniciones de Agustina era:",
+    options: [
+      { id: "a", text: "De total creencia y respeto" },
+      { id: "b", text: "De incredulidad, siempre las pasaba por alto" },
+      { id: "c", text: "De miedo y ansiedad" },
+      { id: "d", text: "De indiferencia total" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto indica que Aguilar 'como siempre, pasó por alto su pronóstico' y menciona su intento de 'hacerla entrar en razón', mostrando su escepticismo sistemático.",
+    points: 5,
+  },
+  {
+    id: 184,
+    category: "Comprensión Lectora",
+    question: "¿Cómo reacciona Agustina cuando Aguilar le pregunta qué pasó?",
+    options: [
+      { id: "a", text: "Le explica todo con calma" },
+      { id: "b", text: "Lo insulta" },
+      { id: "c", text: "Llora desconsoladamente" },
+      { id: "d", text: "Permanece en silencio" },
+    ],
+    correct: "b",
+    explanation:
+      "Aguilar afirma: 'No he podido saber qué le sucedió durante mi ausencia porque si se lo pregunto me insulta', mostrando la hostilidad de su respuesta.",
+    points: 5,
+  },
+  {
+    id: 185,
+    category: "Comprensión Lectora",
+    question: "La metáfora 'Agustina habitara en un plano paralelo al real' significa que:",
+    options: [
+      { id: "a", text: "Agustina vive en otro país" },
+      { id: "b", text: "Su realidad mental está separada pero cercana a la realidad compartida" },
+      { id: "c", text: "Agustina es una persona paralela" },
+      { id: "d", text: "Agustina vive en el pasado" },
+    ],
+    correct: "b",
+    explanation:
+      "Esta metáfora expresa que Agustina existe en una realidad mental propia 'cercana pero inabordable', accesible para ella pero inaccesible para Aguilar.",
+    points: 5,
+  },
+  {
+    id: 186,
+    category: "Comprensión Lectora",
+    question: "La comparación con 'una lengua extranjera que Aguilar vagamente reconoce pero que no logra comprender' se refiere a:",
+    options: [
+      { id: "a", text: "Que Agustina habla otro idioma" },
+      { id: "b", text: "La comunicación incomprensible de Agustina en su estado mental alterado" },
+      { id: "c", text: "Que Aguilar es extranjero" },
+      { id: "d", text: "Las diferencias culturales entre ellos" },
+    ],
+    correct: "b",
+    explanation:
+      "La metáfora expresa la incapacidad de Aguilar para entender a Agustina: sus palabras y comportamiento son familiares pero incomprensibles en su nuevo estado mental.",
+    points: 5,
+  },
+  {
+    id: 187,
+    category: "Comprensión Lectora",
+    question: "La triple comparación con el perro (famélico, malherido, vagabundo) progresa para mostrar:",
+    options: [
+      { id: "a", text: "Que Agustina es violenta" },
+      { id: "b", text: "El deterioro progresivo: de querer volver a casa a olvidar que tuvo una" },
+      { id: "c", text: "Que les gusta los perros" },
+      { id: "d", text: "Que Agustina necesita comida" },
+    ],
+    correct: "b",
+    explanation:
+      "Las tres imágenes muestran una progresión: primero un perro que quiere volver pero no puede, luego uno que ni siquiera recuerda haber tenido casa, ilustrando el empeoramiento del estado de Agustina.",
+    points: 5,
+  },
+  {
+    id: 188,
+    category: "Comprensión Lectora",
+    question: "El narrador describe la situación como:",
+    options: [
+      { id: "a", text: "Fácil de resolver" },
+      { id: "b", text: "Angustiosa a morir y jodidamente difícil" },
+      { id: "c", text: "Temporal y pasajera" },
+      { id: "d", text: "Divertida y ligera" },
+    ],
+    correct: "b",
+    explanation:
+      "Aguilar caracteriza explícitamente la situación como 'angustiosa a morir y jodidamente difícil', usando lenguaje coloquial para expresar su desesperación extrema.",
+    points: 5,
+  },
+  // La loca de la casa - Rosa Montero V2 (IDs 189-198)
+  {
+    id: 189,
+    category: "Comprensión Lectora",
+    question: "Las fantasías del escritor pueden ser:",
+    options: [
+      { id: "a", text: "Solo perezosas" },
+      { id: "b", text: "Solo agitadas" },
+      { id: "c", text: "Tanto perezosas como agitadas y enfebrecidas" },
+      { id: "d", text: "Ni perezosas ni agitadas" },
+    ],
+    correct: "c",
+    explanation:
+      "El texto caracteriza las fantasías como 'a veces perezosas como las lentas ensoñaciones de una siesta estival, a veces agitadas y enfebrecidas como el delirio de un loco'.",
+    points: 5,
+  },
+  {
+    id: 190,
+    category: "Comprensión Lectora",
+    question: "¿Cómo describe la autora el funcionamiento de la mente del novelista?",
+    options: [
+      { id: "a", text: "Está completamente bajo control consciente" },
+      { id: "b", text: "Marcha por sí sola, poseída por compulsión fabuladora" },
+      { id: "c", text: "No funciona adecuadamente" },
+      { id: "d", text: "Solo funciona cuando escribe" },
+    ],
+    correct: "b",
+    explanation:
+      "La autora afirma que 'La cabeza del novelista marcha por sí sola; está poseída por una suerte de compulsión fabuladora', indicando su carácter automático e involuntario.",
+    points: 5,
+  },
+  {
+    id: 191,
+    category: "Comprensión Lectora",
+    question: "El ejemplo de la noticia de Argelia sirve para ilustrar:",
+    options: [
+      { id: "a", text: "La violencia en África" },
+      { id: "b", text: "El aspecto negativo de la imaginación descontrolada" },
+      { id: "c", text: "La importancia del periodismo" },
+      { id: "d", text: "La indiferencia del novelista" },
+    ],
+    correct: "b",
+    explanation:
+      "Este ejemplo muestra el lado oscuro de la compulsión fabuladora: 'no puedes evitar que la maldita fantasía se te dispare, recreando... la horripilante escena hasta en sus detalles más insoportables'.",
+    points: 5,
+  },
+  {
+    id: 192,
+    category: "Comprensión Lectora",
+    question: "El ejemplo del puente de troncos demuestra que:",
+    options: [
+      { id: "a", text: "La autora tiene miedo a las alturas" },
+      { id: "b", text: "Imaginar un accidente aumenta la probabilidad de que ocurra" },
+      { id: "c", text: "Los puentes son peligrosos" },
+      { id: "d", text: "La imaginación es siempre positiva" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto explica que 'una vez imaginada la tontería con todos sus pormenores... resulta bastante difícil no cumplirla', sugiriendo que la visualización detallada puede facilitar su ocurrencia.",
+    points: 5,
+  },
+  {
+    id: 193,
+    category: "Comprensión Lectora",
+    question: "¿Qué implica la frase 'a lo mejor lees un día en el periódico'?",
+    options: [
+      { id: "a", text: "Es una situación única" },
+      { id: "b", text: "Es un ejemplo hipotético que ilustra algo recurrente" },
+      { id: "c", text: "Solo ocurre al leer el periódico" },
+      { id: "d", text: "Es una recomendación" },
+    ],
+    correct: "b",
+    explanation:
+      "La expresión 'a lo mejor' introduce un ejemplo hipotético representativo de lo que sucede regularmente con la imaginación del novelista ante estímulos externos.",
+    points: 5,
+  },
+  {
+    id: 194,
+    category: "Comprensión Lectora",
+    question: "Los detalles sensoriales que imagina (gritos, salpicaduras, olor, chasquido) demuestran:",
+    options: [
+      { id: "a", text: "Que la autora es violenta" },
+      { id: "b", text: "La intensidad y especificidad involuntaria de la imaginación del novelista" },
+      { id: "c", text: "Que disfruta del horror" },
+      { id: "d", text: "Su falta de empatía" },
+    ],
+    correct: "b",
+    explanation:
+      "La acumulación de detalles sensoriales específicos ilustra cómo la imaginación del novelista funciona automática y vívidamente, 'recreando... hasta en sus detalles más insoportables'.",
+    points: 5,
+  },
+  {
+    id: 195,
+    category: "Comprensión Lectora",
+    question: "La referencia al 'descoloque espacial que produce toda caída' muestra:",
+    options: [
+      { id: "a", text: "Conocimiento físico abstracto" },
+      { id: "b", text: "Experiencia corporal vivida o imaginada con precisión" },
+      { id: "c", text: "Estudios científicos sobre la gravedad" },
+      { id: "d", text: "Teorías filosóficas sobre el espacio" },
+    ],
+    correct: "b",
+    explanation:
+      "Este detalle específico sobre la desorientación espacial revela conocimiento experiencial o imaginativo profundo del fenómeno de caer, característico de la mente fabuladora.",
+    points: 5,
+  },
+  {
+    id: 196,
+    category: "Comprensión Lectora",
+    question: "La 'enojosa tendencia a despanzurrarme' resulta de:",
+    options: [
+      { id: "a", text: "Falta de coordinación física" },
+      { id: "b", text: "La profecía autocumplida de imaginar la caída detalladamente" },
+      { id: "c", text: "No prestar atención al caminar" },
+      { id: "d", text: "La mala suerte" },
+    ],
+    correct: "b",
+    explanation:
+      "La autora establece una relación causal: después de imaginar la caída con todos sus detalles, 'resulta bastante difícil no cumplirla', convirtiéndose en profecía autocumplida.",
+    points: 5,
+  },
+  {
+    id: 197,
+    category: "Comprensión Lectora",
+    question: "El adjetivo 'patosamente' en 'bracear en el aire patosamente' connota:",
+    options: [
+      { id: "a", text: "Elegancia y gracia" },
+      { id: "b", text: "Falta de control y torpeza, añadiendo humillación a la caída" },
+      { id: "c", text: "Fuerza y determinación" },
+      { id: "d", text: "Indiferencia ante la situación" },
+    ],
+    correct: "b",
+    explanation:
+      "'Patosamente' connota torpeza y falta de dignidad, amplificando la humillación ('oprobio') de la caída imaginada, lo que ilustra cómo la imaginación no se detiene en lo básico sino que añade detalles mortificantes.",
+    points: 5,
+  },
+  {
+    id: 198,
+    category: "Comprensión Lectora",
+    question: "La estructura 'Por ejemplo... O bien...' sirve para:",
+    options: [
+      { id: "a", text: "Confundir al lector" },
+      { id: "b", text: "Presentar dos ejemplos contrastantes de la compulsión fabuladora" },
+      { id: "c", text: "Cambiar de tema abruptamente" },
+      { id: "d", text: "Concluir el argumento" },
+    ],
+    correct: "b",
+    explanation:
+      "Esta estructura presenta dos ejemplos contrastantes: uno trágico (Argelia) y otro ridículo (el puente), ilustrando cómo la compulsión fabuladora opera en diferentes registros, siempre siendo simultáneamente don y castigo.",
     points: 5,
   },
 ]

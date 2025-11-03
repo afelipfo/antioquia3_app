@@ -1593,7 +1593,7 @@ export const behavioralSubjectsV2: BehavioralSubject[] = [
     ],
   },
   {
-    id: "orientacion-resultados",
+    id: "orientacion-resultado",
     title: "Orientación a Resultados",
     description: "Cumplimiento de objetivos con eficacia, calidad y uso de indicadores para medir avances.",
     intro:
@@ -1601,7 +1601,7 @@ export const behavioralSubjectsV2: BehavioralSubject[] = [
     reference: "Sección 2.3 del Decreto 815 de 2018 - Orientación a resultados.",
     questions: [
       {
-        id: "orientacion-resultados-v2-1",
+        id: "orientacion-resultado-v2-1",
         text: "¿Qué caracteriza la orientación a resultados según el Decreto 815?",
         options: [
           { value: "a", label: "Enfocarse en completar actividades asignadas sin necesidad de medir su impacto." },
@@ -1617,7 +1617,7 @@ export const behavioralSubjectsV2: BehavioralSubject[] = [
           "Revisa la definición de orientación a resultados: combina calidad, eficacia, persistencia y monitoreo de indicadores.",
       },
       {
-        id: "orientacion-resultados-v2-2",
+        id: "orientacion-resultado-v2-2",
         text: "El uso de indicadores para medir avances sirve para:",
         options: [
           { value: "a", label: "Justificar retrasos o incumplimientos mediante datos objetivos documentados." },
@@ -1633,7 +1633,7 @@ export const behavioralSubjectsV2: BehavioralSubject[] = [
           "Consulta el uso de indicadores: son herramientas para monitoreo, identificación de desviaciones y toma de decisiones.",
       },
       {
-        id: "orientacion-resultados-v2-3",
+        id: "orientacion-resultado-v2-3",
         text: "La persistencia en el cumplimiento de objetivos significa:",
         options: [
           { value: "a", label: "Mantener el mismo enfoque de trabajo independientemente de obstáculos o resultados parciales." },
@@ -1649,7 +1649,7 @@ export const behavioralSubjectsV2: BehavioralSubject[] = [
           "Repasa el concepto de persistencia: incluye esfuerzo sostenido, superación de obstáculos y flexibilidad estratégica.",
       },
       {
-        id: "orientacion-resultados-v2-4",
+        id: "orientacion-resultado-v2-4",
         text: "La calidad en los resultados se garantiza cuando:",
         options: [
           { value: "a", label: "Se cumplen plazos establecidos independientemente del nivel de calidad alcanzado." },
@@ -1665,7 +1665,7 @@ export const behavioralSubjectsV2: BehavioralSubject[] = [
           "Revisa el componente de calidad: los resultados deben satisfacer estándares, cumplir requisitos y generar valor institucional.",
       },
       {
-        id: "orientacion-resultados-v2-5",
+        id: "orientacion-resultado-v2-5",
         text: "Dentro de las competencias del nivel directivo, la planeación definida por el Decreto 815 implica:",
         options: [
           { value: "a", label: "Definir actividades generales sin asignar responsables ni recursos para mantener flexibilidad." },
@@ -1681,7 +1681,7 @@ export const behavioralSubjectsV2: BehavioralSubject[] = [
           "Consulta las competencias directivas del Decreto 815: la planeación integra metas, responsables, recursos y seguimiento orientado al servicio ciudadano.",
       },
       {
-        id: "orientacion-resultados-v2-6",
+        id: "orientacion-resultado-v2-6",
         text: "Orientación a resultados conlleva:",
         options: [
           { value: "a", label: "Fijar objetivos claros, diseñar indicadores, minimizar riesgos y asumir responsabilidad por los resultados" },

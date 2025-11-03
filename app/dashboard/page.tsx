@@ -97,6 +97,244 @@ export default function DashboardPage() {
           </div>
         </section>
 
+        {/* Recomendaciones para Responder Section */}
+        <section className="relative overflow-hidden rounded-3xl border border-white/15 bg-gradient-to-br from-white/90 to-white/75 p-8 shadow-lg shadow-primary/15 backdrop-blur">
+          <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,hsla(45,95%,65%,0.12),transparent_60%)]" />
+          <div className="relative space-y-6">
+            <div className="space-y-2">
+              <h2 className="text-3xl font-bold text-foreground">Recomendaciones para Responder Correctamente</h2>
+              <p className="text-muted-foreground">
+                Estrategias clave para identificar la opción correcta en las pruebas de selección
+              </p>
+            </div>
+
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">1. Generalidades</h3>
+                <p className="text-sm text-muted-foreground">
+                  Cuando la pregunta se refiera a una generalidad, selecciona la respuesta que más abarque del tema.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">2. Objetivo y Sujeto</h3>
+                <p className="text-sm text-muted-foreground">
+                  Identifica claramente el objetivo y el sujeto en la pregunta. Si hay varias acciones correctas, selecciona la primera en orden consecutivo.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">3. Patrones</h3>
+                <p className="text-sm text-muted-foreground">
+                  Identifica los patrones en las características entregadas. Sintetiza en una palabra las diferentes definiciones para llegar a la respuesta.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">4. Distractores</h3>
+                <p className="text-sm text-muted-foreground">
+                  Identifica los señuelos distractores estableciendo claramente el objetivo esperado.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">5. Lectura Crítica</h3>
+                <p className="text-sm text-muted-foreground">
+                  En las pruebas de lectura crítica, reemplaza en cada frase el término de referencia para hallar la opción correcta.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">6. Singular y Plural</h3>
+                <p className="text-sm text-muted-foreground">
+                  Identifica las palabras en singular o plural. Si preguntan en singular, así debe estar la respuesta. Si preguntan en plural, así debe estar la respuesta.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">7. Cantidades</h3>
+                <p className="text-sm text-muted-foreground">
+                  Verifica las cantidades mencionadas. Si se menciona una sola cosa, las respuestas no pueden demarcar varias cosas o situaciones.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">8. Correlación de Verbos</h3>
+                <p className="text-sm text-muted-foreground">
+                  El verbo que aparece en el caso debe guardar correlación con el verbo usado en la opción de respuesta (similar o sinónimo).
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">9. Caso Resuelto</h3>
+                <p className="text-sm text-muted-foreground">
+                  Cuando el caso ya está resuelto, selecciona la respuesta más completa o que incluya todos los elementos necesarios.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">10. Conceptos</h3>
+                <p className="text-sm text-muted-foreground">
+                  Cuando la pregunta haga referencia a conceptos, las palabras negativas no funcionan. Las opciones deben estar relacionadas con el concepto citado.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">11. Partes del Caso</h3>
+                <p className="text-sm text-muted-foreground">
+                  Si el caso está dividido en partes con condiciones especiales, pon atención especial a cada condición.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">12. Lógica Temporal</h3>
+                <p className="text-sm text-muted-foreground">
+                  Busca la lógica en las operaciones de respuesta. Las opciones que no guardan lógica de tiempo no son correctas.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">13. Secuencias</h3>
+                <p className="text-sm text-muted-foreground">
+                  El contenido técnico y las secuencias se definen en el caso. Sigue el patrón en las opciones de respuesta.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">14. Elaboración</h3>
+                <p className="text-sm text-muted-foreground">
+                  Inclínate por la opción de respuesta mayormente elaborada. Las opciones mejor elaboradas suelen ser las correctas.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">15. Condiciones</h3>
+                <p className="text-sm text-muted-foreground">
+                  La condición en el caso marca la diferencia. Las condiciones te dan la oportunidad de descartar opciones.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">16. Contexto</h3>
+                <p className="text-sm text-muted-foreground">
+                  Entiende el contexto y entorno determinado en el caso. Selecciona la opción que cumpla completamente con la solicitud.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">17. Premisas Globales</h3>
+                <p className="text-sm text-muted-foreground">
+                  Las preguntas deben respetar las premisas globales establecidas en el caso.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">18. Sinónimos</h3>
+                <p className="text-sm text-muted-foreground">
+                  Identifica sinónimos entre el caso y las opciones de respuesta. Se usan para aumentar la dificultad.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">19. Palabras Clave</h3>
+                <p className="text-sm text-muted-foreground">
+                  Identifica las diferentes palabras clave y sus definiciones que dan sentido al caso.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">20. Redundancias</h3>
+                <p className="text-sm text-muted-foreground">
+                  Identifica redundancias que puedan aparecer entre las opciones de respuesta y las preguntas o casos.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">21. Patrones de Redacción</h3>
+                <p className="text-sm text-muted-foreground">
+                  Verifica el patrón de las opciones. Las incorrectas suelen tener patrones identificables en la redacción.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">22. Objetivo Principal</h3>
+                <p className="text-sm text-muted-foreground">
+                  Identifica claramente el objetivo de la pregunta. No te inclines por opciones que no cumplan el objetivo.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">23. Comparación</h3>
+                <p className="text-sm text-muted-foreground">
+                  Compara adecuadamente los objetivos y condiciones de cada caso antes de seleccionar.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">24. Creador del Contenido</h3>
+                <p className="text-sm text-muted-foreground">
+                  Conoce al máximo al creador del contenido para identificar lo que busca en cada pregunta.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">25. Descarte de Opciones</h3>
+                <p className="text-sm text-muted-foreground">
+                  Identifica las opciones de respuesta que no cumplen con los objetivos trazados y descártalas.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">26. Objetivo y Condición</h3>
+                <p className="text-sm text-muted-foreground">
+                  No solo busques el objetivo planteado, sino también la condición establecida en el caso.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">27. Acción Evidente</h3>
+                <p className="text-sm text-muted-foreground">
+                  En algunas ocasiones, la pregunta evidencia cuál es la acción por seguir. Identifícala cuidadosamente.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">28. Secuencia Temporal</h3>
+                <p className="text-sm text-muted-foreground">
+                  Establece la secuencia de tiempo. Cuando se habla a futuro, así debe establecerse la opción de respuesta.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">29. Palabras Clave del Caso</h3>
+                <p className="text-sm text-muted-foreground">
+                  Identificar las palabras clave que dan sentido al caso. Estas palabras son fundamentales para comprender el contexto.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">30. Contexto del Caso</h3>
+                <p className="text-sm text-muted-foreground">
+                  En muchas ocasiones, estas palabras clave enmarcan el contexto del caso. Identifícalas para una mejor comprensión.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
+                <h3 className="text-sm font-semibold text-primary mb-3">31. Múltiples Condiciones</h3>
+                <p className="text-sm text-muted-foreground">
+                  Identificar las diferentes condiciones establecidas. En muchos casos, es importante identificar las condiciones; solo así se puede tomar la decisión correcta.
+                </p>
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-primary/30 bg-primary/10 p-6">
+              <p className="text-sm text-primary">
+                <span className="font-semibold">Recuerda:</span> Estas estrategias te ayudarán a analizar las preguntas con mayor precisión y a identificar la opción correcta. Practica aplicándolas en cada ejercicio para interiorizarlas.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Perfil a Aspirar Section */}
         <section className="relative overflow-hidden rounded-3xl border border-white/15 bg-white/75 p-8 shadow-lg shadow-primary/15 backdrop-blur">
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,hsla(215,90%,70%,0.16),transparent_60%)]" />

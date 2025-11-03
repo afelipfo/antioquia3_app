@@ -1025,6 +1025,186 @@ const questionsV1: Question[] = [
       "El régimen sancionatorio prevé multas significativas y cierres temporales o definitivos, modulados por el tamaño y activos de la empresa.",
     points: 5,
   },
+  {
+    id: 58,
+    category: "Competencias de Comprensión",
+    context:
+      "La habilidad es una capacidad específica para ejecutar una tarea concreta, mientras que la competencia integra conocimientos, habilidades, actitudes y valores para resolver problemas en contextos variados. La competencia implica un desempeño complejo y adaptativo.",
+    question: "¿Qué diferencia esencial existe entre habilidad y competencia?",
+    options: [
+      { id: "a", text: "La habilidad es más compleja que la competencia." },
+      { id: "b", text: "La competencia integra conocimientos, habilidades y actitudes en contextos variados." },
+      { id: "c", text: "La habilidad requiere conocimientos previos, mientras que la competencia no." },
+      { id: "d", text: "No existe diferencia entre ambos términos." },
+      { id: "e", text: "La competencia se limita a tareas mecánicas específicas." },
+    ],
+    correct: "b",
+    explanation:
+      "La competencia es un concepto más amplio que integra conocimientos, habilidades, actitudes y valores para resolver problemas en diversos contextos, mientras que la habilidad es una capacidad específica.",
+    points: 5,
+  },
+  {
+    id: 59,
+    category: "Estructura de Preguntas",
+    context:
+      "Una pregunta de selección múltiple se compone de tres elementos: el enunciado (plantea la situación), las opciones de respuesta (incluyen la clave correcta y los distractores), y los distractores (opciones incorrectas pero verosímiles que evalúan comprensión).",
+    question: "¿Cuál es la función principal de los distractores en una pregunta de selección múltiple?",
+    options: [
+      { id: "a", text: "Confundir deliberadamente al evaluado sin propósito pedagógico." },
+      { id: "b", text: "Presentar opciones incorrectas pero verosímiles que evalúan la comprensión." },
+      { id: "c", text: "Alargar el tiempo de respuesta sin aportar valor." },
+      { id: "d", text: "Ser idénticos a la respuesta correcta para aumentar dificultad." },
+      { id: "e", text: "Reducir el número de respuestas posibles." },
+    ],
+    correct: "b",
+    explanation:
+      "Los distractores son opciones incorrectas pero verosímiles que permiten evaluar si el candidato comprende realmente el contenido, diferenciando el conocimiento superficial del profundo.",
+    points: 5,
+  },
+  {
+    id: 60,
+    category: "Competencias de Comprensión",
+    context:
+      "La competencia interpretativa identifica y comprende información explícita e implícita. La competencia argumentativa establece razones y justificaciones para sustentar posiciones. La competencia propositiva genera soluciones, alternativas y propuestas creativas ante problemas.",
+    question: "¿Qué caracteriza a la competencia propositiva?",
+    options: [
+      { id: "a", text: "Identificar información explícita en un texto." },
+      { id: "b", text: "Establecer razones para justificar una posición." },
+      { id: "c", text: "Generar soluciones, alternativas y propuestas creativas." },
+      { id: "d", text: "Memorizar conceptos sin aplicarlos." },
+      { id: "e", text: "Resumir literalmente lo leído." },
+    ],
+    correct: "c",
+    explanation:
+      "La competencia propositiva se caracteriza por la capacidad de generar soluciones, alternativas y propuestas creativas ante problemas o situaciones planteadas.",
+    points: 5,
+  },
+  {
+    id: 61,
+    category: "Niveles de Información",
+    context:
+      "La información local se encuentra en fragmentos específicos del texto (palabras, oraciones). La información global requiere integrar múltiples partes del texto para obtener el sentido general. La información intertextual relaciona el texto actual con otros textos o conocimientos previos.",
+    question: "¿Qué implica trabajar con información global en un texto?",
+    options: [
+      { id: "a", text: "Identificar el significado de una palabra específica." },
+      { id: "b", text: "Integrar múltiples partes del texto para obtener el sentido general." },
+      { id: "c", text: "Relacionar el texto con otros previamente leídos." },
+      { id: "d", text: "Localizar datos puntuales en una oración." },
+      { id: "e", text: "Memorizar cada párrafo sin analizarlo." },
+    ],
+    correct: "b",
+    explanation:
+      "La información global requiere integrar y sintetizar múltiples partes del texto para comprender el sentido general o la idea principal, no solo fragmentos aislados.",
+    points: 5,
+  },
+  {
+    id: 62,
+    category: "Estrategias de Respuesta",
+    context:
+      "Para resolver ítems de comprensión se recomienda: leer primero la pregunta para saber qué buscar, subrayar palabras clave en el enunciado, eliminar opciones claramente incorrectas, y verificar que la respuesta seleccionada responde exactamente lo preguntado.",
+    question: "¿Por qué es útil leer primero la pregunta antes del texto completo?",
+    options: [
+      { id: "a", text: "Para evitar leer el texto completo y ahorrar tiempo." },
+      { id: "b", text: "Para saber qué información buscar y hacer una lectura enfocada." },
+      { id: "c", text: "Para adivinar la respuesta sin leer el contexto." },
+      { id: "d", text: "Para confundir el orden lógico del ejercicio." },
+      { id: "e", text: "Para reducir la concentración en detalles importantes." },
+    ],
+    correct: "b",
+    explanation:
+      "Leer primero la pregunta permite identificar qué información específica se necesita buscar en el texto, haciendo la lectura más estratégica y enfocada.",
+    points: 5,
+  },
+  {
+    id: 63,
+    category: "Competencias de Comprensión",
+    context:
+      "En el siguiente fragmento: 'Los índices de desempleo aumentaron un 2% el último trimestre, lo cual demuestra que las políticas económicas implementadas no han sido efectivas para generar empleo.' La primera parte presenta un hecho (competencia interpretativa), mientras que la segunda establece una conclusión basada en ese hecho (competencia argumentativa).",
+    question: "¿Qué competencia se evidencia al establecer que el aumento del desempleo demuestra inefectividad de las políticas?",
+    options: [
+      { id: "a", text: "Competencia interpretativa, al identificar datos numéricos." },
+      { id: "b", text: "Competencia argumentativa, al establecer una relación causal y justificar una conclusión." },
+      { id: "c", text: "Competencia propositiva, al generar una nueva política." },
+      { id: "d", text: "Ninguna competencia específica, es una simple descripción." },
+      { id: "e", text: "Competencia memorística, al recordar porcentajes." },
+    ],
+    correct: "b",
+    explanation:
+      "La segunda parte del enunciado establece una relación causal y justifica una conclusión basándose en el hecho presentado, lo cual caracteriza la competencia argumentativa.",
+    points: 5,
+  },
+  {
+    id: 64,
+    category: "Estructura de Preguntas",
+    context:
+      "Los conectores lógicos (sin embargo, por lo tanto, además, en consecuencia) son esenciales para establecer relaciones entre ideas. Identificar correctamente estos conectores permite comprender la estructura argumentativa del texto y anticipar el tipo de información que seguirá.",
+    question: "¿Cuál es la importancia de identificar conectores lógicos en un texto?",
+    options: [
+      { id: "a", text: "Son irrelevantes para la comprensión del texto." },
+      { id: "b", text: "Permiten comprender la estructura argumentativa y relaciones entre ideas." },
+      { id: "c", text: "Solo sirven para decorar el texto sin función específica." },
+      { id: "d", text: "Dificultan la lectura y deben ignorarse." },
+      { id: "e", text: "Solo se usan en textos literarios, no en pruebas." },
+    ],
+    correct: "b",
+    explanation:
+      "Los conectores lógicos establecen relaciones entre ideas (contraste, consecuencia, adición, etc.) y permiten comprender la estructura argumentativa del texto.",
+    points: 5,
+  },
+  {
+    id: 65,
+    category: "Niveles de Información",
+    context:
+      "Un estudiante lee un artículo sobre calentamiento global y lo relaciona con un documental que vio previamente sobre el deshielo polar, estableciendo conexiones entre ambas fuentes para construir una comprensión más completa del fenómeno.",
+    question: "¿Qué nivel de información está utilizando el estudiante al relacionar el artículo con el documental?",
+    options: [
+      { id: "a", text: "Información local, al enfocarse en datos específicos." },
+      { id: "b", text: "Información global, al integrar partes del artículo." },
+      { id: "c", text: "Información intertextual, al relacionar diferentes fuentes de información." },
+      { id: "d", text: "Información superficial, al no analizar profundamente." },
+      { id: "e", text: "Información memorística, al recordar el documental." },
+    ],
+    correct: "c",
+    explanation:
+      "La información intertextual se caracteriza por relacionar el texto actual con otros textos, fuentes o conocimientos previos para construir una comprensión más completa.",
+    points: 5,
+  },
+  {
+    id: 66,
+    category: "Estrategias de Respuesta",
+    context:
+      "Al enfrentar opciones de respuesta similares, se recomienda identificar las palabras o frases que las diferencian, analizar si esas diferencias son sustanciales o superficiales, y contrastar cada variación con la pregunta original para determinar cuál responde con mayor precisión.",
+    question: "¿Cuál es la mejor estrategia para elegir entre opciones de respuesta muy similares?",
+    options: [
+      { id: "a", text: "Seleccionar la primera que parezca correcta sin analizar las demás." },
+      { id: "b", text: "Identificar las diferencias clave y contrastarlas con la pregunta original." },
+      { id: "c", text: "Asumir que todas son correctas y elegir al azar." },
+      { id: "d", text: "Ignorar las opciones y reformular la pregunta." },
+      { id: "e", text: "Seleccionar la opción más larga, pues suele ser correcta." },
+    ],
+    correct: "b",
+    explanation:
+      "La estrategia más efectiva es identificar las diferencias específicas entre opciones similares y contrastarlas con exactitud con lo que pregunta el enunciado.",
+    points: 5,
+  },
+  {
+    id: 67,
+    category: "Competencias de Comprensión",
+    context:
+      "Ante el problema de alta rotación de personal en una empresa, un analista propone: implementar un programa de mentorías, flexibilizar horarios laborales, mejorar el plan de beneficios, y crear oportunidades de desarrollo profesional. Esta propuesta integra múltiples soluciones para abordar el problema.",
+    question: "¿Qué competencia demuestra el analista al proponer múltiples soluciones integradas?",
+    options: [
+      { id: "a", text: "Competencia interpretativa, al entender el problema." },
+      { id: "b", text: "Competencia argumentativa, al justificar la rotación." },
+      { id: "c", text: "Competencia propositiva, al generar soluciones creativas e integradas." },
+      { id: "d", text: "Competencia descriptiva, al enumerar opciones." },
+      { id: "e", text: "Competencia memorística, al recordar estrategias conocidas." },
+    ],
+    correct: "c",
+    explanation:
+      "El analista demuestra competencia propositiva al generar múltiples soluciones creativas e integradas para abordar un problema complejo, no solo identificándolo o argumentando sobre él.",
+    points: 5,
+  },
 ]
 
 const questionsV2: Question[] = [
@@ -2071,6 +2251,186 @@ const questionsV2: Question[] = [
     ],
     correct: "b",
     explanation: "Al invitar únicamente a sus exalumnos hombres, muestra su interés por celebrar rodeada exclusivamente de ellos.",
+    points: 5,
+  },
+  {
+    id: 89,
+    category: "Competencias de Comprensión",
+    context:
+      "Mientras la destreza se refiere al dominio técnico en una actividad particular (como tocar piano o programar), la competencia abarca un conjunto más amplio que incluye conocimientos teóricos, habilidades prácticas, actitudes profesionales y capacidad de aplicación en diferentes contextos.",
+    question: "¿En qué se diferencia fundamentalmente una destreza de una competencia?",
+    options: [
+      { id: "a", text: "La destreza es teórica mientras que la competencia es práctica." },
+      { id: "b", text: "La competencia integra conocimientos, habilidades, actitudes y contextos variados." },
+      { id: "c", text: "La destreza requiere años de práctica, la competencia es innata." },
+      { id: "d", text: "No hay diferencia real entre ambos conceptos." },
+      { id: "e", text: "La competencia es menos valiosa que la destreza." },
+    ],
+    correct: "b",
+    explanation:
+      "La competencia es un concepto integrador que combina conocimientos teóricos, habilidades prácticas, actitudes y capacidad de aplicación contextual, mientras que la destreza se enfoca en el dominio técnico específico.",
+    points: 5,
+  },
+  {
+    id: 90,
+    category: "Estructura de Preguntas",
+    context:
+      "En una pregunta bien construida, el enunciado debe ser claro y preciso, la opción correcta debe responder exactamente lo preguntado, y los distractores deben parecer plausibles pero contener errores conceptuales, información incompleta o generalizaciones incorrectas.",
+    question: "¿Qué características deben tener los distractores efectivos en una evaluación?",
+    options: [
+      { id: "a", text: "Deben ser absurdos para facilitar la identificación de la respuesta correcta." },
+      { id: "b", text: "Deben parecer plausibles pero contener errores conceptuales o información incompleta." },
+      { id: "c", text: "Deben ser idénticos entre sí para confundir al evaluado." },
+      { id: "d", text: "Deben ser más extensos que la respuesta correcta." },
+      { id: "e", text: "No deben relacionarse con el tema evaluado." },
+    ],
+    correct: "b",
+    explanation:
+      "Los distractores efectivos son aquellos que parecen plausibles a quien no domina el tema, pero contienen errores conceptuales, información incompleta o generalizaciones incorrectas que los hacen incorrectos.",
+    points: 5,
+  },
+  {
+    id: 91,
+    category: "Competencias de Comprensión",
+    context:
+      "Un auditor revisa un informe financiero (competencia interpretativa), luego explica por qué ciertos gastos no están justificados adecuadamente según la normativa vigente (competencia argumentativa), y finalmente sugiere un nuevo procedimiento de control interno para prevenir futuros incumplimientos (competencia propositiva).",
+    question: "¿Qué competencia demuestra el auditor al sugerir un nuevo procedimiento de control interno?",
+    options: [
+      { id: "a", text: "Competencia interpretativa, al revisar el informe." },
+      { id: "b", text: "Competencia argumentativa, al explicar los incumplimientos." },
+      { id: "c", text: "Competencia propositiva, al diseñar una solución preventiva." },
+      { id: "d", text: "Competencia operativa, al aplicar la normativa." },
+      { id: "e", text: "Competencia descriptiva, al enumerar gastos." },
+    ],
+    correct: "c",
+    explanation:
+      "Al sugerir un nuevo procedimiento de control interno, el auditor está generando una propuesta de solución para prevenir problemas futuros, lo cual caracteriza la competencia propositiva.",
+    points: 5,
+  },
+  {
+    id: 92,
+    category: "Niveles de Información",
+    context:
+      "La información local permite responder '¿cuándo ocurrió?', '¿quién participó?' o '¿dónde sucedió?'. La información global responde '¿cuál es el tema principal?' o '¿qué conclusión presenta el autor?'. La información intertextual requiere preguntas como '¿cómo se relaciona esto con lo planteado en el texto anterior?'",
+    question: "¿Qué tipo de pregunta requiere trabajar con información global?",
+    options: [
+      { id: "a", text: "¿En qué año ocurrió el evento mencionado?" },
+      { id: "b", text: "¿Cuál es el tema principal que desarrolla el autor?" },
+      { id: "c", text: "¿Qué relación tiene este texto con otros del mismo tema?" },
+      { id: "d", text: "¿Qué significa la palabra 'perspicaz' en el párrafo tres?" },
+      { id: "e", text: "¿Quién es el personaje mencionado en la línea cinco?" },
+    ],
+    correct: "b",
+    explanation:
+      "Identificar el tema principal requiere integrar información de múltiples partes del texto para obtener el sentido general, lo cual caracteriza el trabajo con información global.",
+    points: 5,
+  },
+  {
+    id: 93,
+    category: "Estrategias de Respuesta",
+    context:
+      "Las estrategias metacognitivas incluyen: planificar la lectura identificando el propósito, monitorear la comprensión pausando para verificar entendimiento, y evaluar si la respuesta seleccionada realmente contesta lo preguntado antes de confirmarla.",
+    question: "¿Cuál acción corresponde a una estrategia metacognitiva de monitoreo durante la lectura?",
+    options: [
+      { id: "a", text: "Leer el texto completo sin detenerse en ningún momento." },
+      { id: "b", text: "Pausar para verificar si se está comprendiendo lo leído." },
+      { id: "c", text: "Subrayar todas las palabras desconocidas al terminar." },
+      { id: "d", text: "Contar el número de párrafos del texto." },
+      { id: "e", text: "Memorizar las primeras líneas de cada sección." },
+    ],
+    correct: "b",
+    explanation:
+      "El monitoreo metacognitivo implica pausar durante la lectura para verificar el nivel de comprensión y ajustar estrategias si es necesario, no simplemente leer de manera continua.",
+    points: 5,
+  },
+  {
+    id: 94,
+    category: "Competencias de Comprensión",
+    context:
+      "Al leer: 'El proyecto se retrasó tres meses debido a problemas logísticos, por lo tanto no cumplió con los plazos establecidos en el contrato', la primera parte identifica un hecho y su causa (interpretativa), mientras que 'por lo tanto' introduce una consecuencia lógica que argumenta sobre el incumplimiento contractual (argumentativa).",
+    question: "¿Qué función cumple la expresión 'por lo tanto' en la estructura argumentativa del enunciado?",
+    options: [
+      { id: "a", text: "Introduce información adicional sin relación causal." },
+      { id: "b", text: "Establece una consecuencia lógica y conecta la causa con el efecto." },
+      { id: "c", text: "Niega la información presentada previamente." },
+      { id: "d", text: "Propone una solución al problema planteado." },
+      { id: "e", text: "Describe detalles técnicos del proyecto." },
+    ],
+    correct: "b",
+    explanation:
+      "'Por lo tanto' es un conector consecutivo que introduce una consecuencia lógica derivada de la premisa anterior, estableciendo una relación causal explícita entre el retraso y el incumplimiento.",
+    points: 5,
+  },
+  {
+    id: 95,
+    category: "Estructura de Preguntas",
+    context:
+      "Los conectores de contraste (sin embargo, no obstante, aunque) indican oposición entre ideas. Los de consecuencia (por lo tanto, en consecuencia, así que) muestran resultado. Los de adición (además, asimismo, también) agregan información. Reconocerlos ayuda a anticipar el desarrollo del texto.",
+    question: "Si un párrafo termina con 'sin embargo', ¿qué tipo de información debería esperarse a continuación?",
+    options: [
+      { id: "a", text: "Una idea que contradice o contrasta con lo planteado anteriormente." },
+      { id: "b", text: "Una consecuencia lógica de lo expuesto previamente." },
+      { id: "c", text: "Información adicional que refuerza lo dicho antes." },
+      { id: "d", text: "Una definición técnica de términos especializados." },
+      { id: "e", text: "La conclusión final del texto completo." },
+    ],
+    correct: "a",
+    explanation:
+      "'Sin embargo' es un conector de contraste que introduce información que contradice, matiza u opone una idea alternativa a lo planteado anteriormente.",
+    points: 5,
+  },
+  {
+    id: 96,
+    category: "Niveles de Información",
+    context:
+      "Una investigadora estudia un artículo sobre políticas educativas en Finlandia y lo compara con un libro que leyó sobre el sistema educativo de Singapur, identificando similitudes en sus enfoques pedagógicos y diferencias en la inversión estatal, construyendo así un análisis comparativo enriquecido.",
+    question: "¿Qué nivel de procesamiento de información realiza la investigadora al comparar ambas fuentes?",
+    options: [
+      { id: "a", text: "Información local, al identificar datos específicos en cada texto." },
+      { id: "b", text: "Información global, al sintetizar cada sistema educativo por separado." },
+      { id: "c", text: "Información intertextual, al establecer relaciones entre diferentes textos." },
+      { id: "d", text: "Información literal, al citar textualmente ambas fuentes." },
+      { id: "e", text: "Información implícita, al deducir información no explícita." },
+    ],
+    correct: "c",
+    explanation:
+      "Al comparar y relacionar información de dos textos diferentes para construir un análisis enriquecido, la investigadora trabaja con información intertextual que vincula múltiples fuentes.",
+    points: 5,
+  },
+  {
+    id: 97,
+    category: "Estrategias de Respuesta",
+    context:
+      "Al enfrentar dos opciones aparentemente correctas, una estrategia efectiva es preguntarse: ¿cuál responde con mayor precisión?, ¿cuál está más completa?, ¿cuál usa el vocabulario del texto?, y ¿cuál evita generalizaciones excesivas o absolutas como 'siempre' o 'nunca'?",
+    question: "¿Qué característica suele hacer menos confiable una opción de respuesta?",
+    options: [
+      { id: "a", text: "Que use vocabulario técnico del área evaluada." },
+      { id: "b", text: "Que incluya términos absolutos como 'siempre', 'nunca' o 'todos'." },
+      { id: "c", text: "Que responda directamente lo preguntado." },
+      { id: "d", text: "Que sea coherente con el contexto presentado." },
+      { id: "e", text: "Que tenga una extensión similar a las otras opciones." },
+    ],
+    correct: "b",
+    explanation:
+      "Las opciones que contienen términos absolutos como 'siempre', 'nunca', 'todos' suelen ser menos confiables porque pocas afirmaciones son universalmente verdaderas sin excepciones.",
+    points: 5,
+  },
+  {
+    id: 98,
+    category: "Competencias de Comprensión",
+    context:
+      "Ante la disminución de ventas en una región, un gerente comercial analiza los reportes de mercado (interpretativa), identifica que el factor principal es el aumento de competidores locales (argumentativa), y diseña una estrategia de fidelización que combina descuentos progresivos, atención personalizada y mejoras en el servicio posventa (propositiva).",
+    question: "¿En qué momento el gerente demuestra competencia propositiva?",
+    options: [
+      { id: "a", text: "Al analizar los reportes de mercado para entender la situación." },
+      { id: "b", text: "Al identificar que el aumento de competidores es el factor principal." },
+      { id: "c", text: "Al diseñar una estrategia integrada de fidelización con múltiples componentes." },
+      { id: "d", text: "Al observar la disminución de ventas en los registros." },
+      { id: "e", text: "Al comparar los datos del trimestre actual con trimestres anteriores." },
+    ],
+    correct: "c",
+    explanation:
+      "La competencia propositiva se evidencia cuando el gerente diseña una estrategia creativa e integrada para solucionar el problema, no solo al analizar la situación o identificar causas.",
     points: 5,
   },
 ]

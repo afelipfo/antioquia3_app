@@ -39,7 +39,7 @@ const subjects = [
     id: "juicio-situacional",
     title: "Juicio Situacional",
     description: "Toma de decisiones ante situaciones laborales complejas",
-    questionsCount: 20,
+    questionsCount: 25,
   },
   {
     id: "obras-publicas",

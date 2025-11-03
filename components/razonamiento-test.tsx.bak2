@@ -5024,85 +5024,85 @@ const questionsV2: Question[] = [
   {
     id: 254,
     category: "Construcción de textos y ortografía",
-    question: "El fragmento de Rosa Montero corresponde a un texto:",
+    question: "¿Qué tipo de texto es el fragmento de Rosa Montero?",
     readingId: "lectura-montero",
     options: [
-      { id: "a", text: "Expositivo-informativo" },
-      { id: "b", text: "Argumentativo-reflexivo" },
-      { id: "c", text: "Narrativo-descriptivo" },
-      { id: "d", text: "Instructivo-prescriptivo" },
+      { id: "a", text: "Narrativo" },
+      { id: "b", text: "Argumentativo" },
+      { id: "c", text: "Expositivo" },
+      { id: "d", text: "Descriptivo" },
     ],
     correct: "b",
     explanation:
-      "El texto es argumentativo-reflexivo porque desarrolla una reflexión sobre escribir, presentando una tesis y sustentándola con ejemplos que ilustran el don y castigo de la compulsión fabuladora.",
+      "El texto es argumentativo porque presenta una tesis sobre la naturaleza de la escritura y la sustenta con ejemplos y reflexiones.",
     points: 5,
   },
   {
-    id: 255,
+    id: 200,
     category: "Construcción de textos y ortografía",
-    question: "La organización discursiva del texto de Montero sigue el esquema:",
+    question: "¿Cuál es la estructura del párrafo?",
     readingId: "lectura-montero",
     options: [
-      { id: "a", text: "Problema-solución-evaluación" },
-      { id: "b", text: "Tesis-ejemplificación-conclusión" },
-      { id: "c", text: "Descripción-comparación-contraste" },
-      { id: "d", text: "Cronológico-narrativo-reflexivo" },
+      { id: "a", text: "Introducción, desarrollo y conclusión" },
+      { id: "b", text: "Tesis, argumentos, ejemplos y conclusión" },
+      { id: "c", text: "Planteamiento, nudo y desenlace" },
+      { id: "d", text: "Causa y efecto" },
     ],
     correct: "b",
     explanation:
-      "El texto plantea una tesis inicial sobre la naturaleza de escribir, la desarrolla mediante ejemplos concretos (la noticia de Argelia, el puente), y cierra con una conclusión reflexiva sobre sus consecuencias personales.",
+      "El párrafo presenta una tesis sobre escribir, la argumenta con ejemplos concretos (Argelia, el puente) y concluye con una reflexión.",
     points: 5,
   },
   {
-    id: 256,
+    id: 201,
     category: "Construcción de textos y ortografía",
-    question: "En la expresión 'perezosas como las lentas ensoñaciones de una siesta estival', la autora utiliza:",
+    question: "¿Qué figura literaria predomina en 'a veces perezosas como las lentas ensoñaciones...'?",
     readingId: "lectura-montero",
     options: [
-      { id: "a", text: "Una comparación implícita (metáfora)" },
-      { id: "b", text: "Una comparación explícita (símil)" },
-      { id: "c", text: "Una exageración retórica (hipérbole)" },
-      { id: "d", text: "Una atribución de cualidades humanas (personificación)" },
+      { id: "a", text: "Metáfora" },
+      { id: "b", text: "Símil" },
+      { id: "c", text: "Hipérbole" },
+      { id: "d", text: "Personificación" },
     ],
     correct: "b",
     explanation:
-      "Es un símil o comparación explícita porque establece una relación de semejanza directa entre las fantasías y las ensoñaciones mediante el nexo comparativo 'como'.",
+      "Es un símil porque compara explícitamente las fantasías con ensoñaciones usando la palabra 'como'.",
     points: 5,
   },
   {
-    id: 257,
+    id: 202,
     category: "Construcción de textos y ortografía",
-    question: "La oración que contiene la idea principal del fragmento es:",
+    question: "¿Cuál es la idea central del párrafo?",
     readingId: "lectura-montero",
     options: [
-      { id: "a", text: "La oración inicial que define el acto de escribir como habitar fantasías" },
-      { id: "b", text: "La afirmación sobre la marcha autónoma de la mente del novelista" },
-      { id: "c", text: "El ejemplo de la noticia sobre los niños en Argelia" },
-      { id: "d", text: "La conclusión sobre la tendencia a caerse en los riachuelos" },
+      { id: "a", text: "Escribir, en fin, es estar habitado por un revoltijo de fantasías..." },
+      { id: "b", text: "La cabeza del novelista marcha por sí sola" },
+      { id: "c", text: "Por ejemplo, a lo mejor lees un día en el periódico..." },
+      { id: "d", text: "De lo que se deriva una enojosa tendencia a despanzurrarme..." },
     ],
     correct: "a",
     explanation:
-      "La idea principal se expresa en la primera oración del texto, que establece la tesis fundamental: escribir es estar habitado por fantasías. Todo lo demás funciona como desarrollo, ejemplificación o consecuencia de esta idea central.",
+      "La idea central es la primera oración, que presenta la tesis sobre la naturaleza de la escritura. Las demás oraciones la desarrollan y ejemplifican.",
     points: 5,
   },
   {
-    id: 258,
+    id: 203,
     category: "Construcción de textos y ortografía",
-    question: "El término 'compulsión fabuladora' hace referencia a:",
+    question: "¿A qué se refiere 'compulsión fabuladora'?",
     readingId: "lectura-montero",
     options: [
-      { id: "a", text: "Un trastorno psicológico que afecta a los escritores" },
-      { id: "b", text: "La tendencia irresistible del novelista a crear narrativas" },
-      { id: "c", text: "Una técnica literaria para estructurar relatos" },
-      { id: "d", text: "El fenómeno involuntario de imaginar constantemente" },
+      { id: "a", text: "A una enfermedad mental" },
+      { id: "b", text: "A la capacidad de inventar historias de forma compulsiva" },
+      { id: "c", text: "A un método de escritura" },
+      { id: "d", text: "A una experiencia que atraviesa la cabeza de los novelistas" },
     ],
     correct: "d",
     explanation:
-      "La 'compulsión fabuladora' describe el fenómeno involuntario e incontrolable por el cual la mente del novelista genera constantemente imágenes y escenas narrativas, sin que pueda evitarlo.",
+      "La 'compulsión fabuladora' es la tendencia involuntaria e incontrolable del novelista a imaginar y crear escenas narrativas constantemente.",
     points: 5,
   },
   {
-    id: 259,
+    id: 204,
     category: "Construcción de textos y ortografía",
     question: "¿Cuál es el sinónimo de 'oprobio'?",
     readingId: "lectura-montero",
@@ -5118,7 +5118,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 260,
+    id: 205,
     category: "Construcción de textos y ortografía",
     question: "El extranjerismo 'voilà' es un:",
     readingId: "lectura-montero",
@@ -5134,7 +5134,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 261,
+    id: 206,
     category: "Construcción de textos y ortografía",
     question: "La palabra 'chasquido' es un ejemplo de:",
     readingId: "lectura-montero",
@@ -5150,7 +5150,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 262,
+    id: 207,
     category: "Construcción de textos y ortografía",
     question: "'A veces es un don y en otras ocasiones es un castigo' se refiere a:",
     readingId: "lectura-montero",
@@ -5166,7 +5166,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 263,
+    id: 208,
     category: "Construcción de textos y ortografía",
     question: "¿Cuál opción NO es un ejemplo de cómo marcha la cabeza?",
     readingId: "lectura-montero",
@@ -5183,7 +5183,7 @@ const questionsV2: Question[] = [
   },
   // Módulo 2: Poemas y gramática (Preguntas 209-223)
   {
-    id: 264,
+    id: 209,
     category: "Construcción de textos y ortografía",
     question: "Las palabras agudas del poema 'Ahora escribo pájaros' son:",
     readingId: "poema-pajaros-cortazar",
@@ -5199,7 +5199,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 265,
+    id: 210,
     category: "Construcción de textos y ortografía",
     question: "En el poema 'Ratoncito, pelusa...', ¿cuáles palabras NO son graves?",
     readingId: "poema-ratoncito-cortazar",
@@ -5215,7 +5215,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 266,
+    id: 211,
     category: "Construcción de textos y ortografía",
     question: "Las palabras esdrújulas del poema 'La lenta máquina del desamor' son:",
     readingId: "poema-desamor-cortazar",
@@ -5231,7 +5231,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 267,
+    id: 212,
     category: "Construcción de textos y ortografía",
     question: "¿Cuál palabra está escrita correctamente?",
     readingId: "ortografia-general",
@@ -5247,7 +5247,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 268,
+    id: 213,
     category: "Construcción de textos y ortografía",
     question: "Complete: 'Miró hacia la ___ y me dijo: ___ tráigame la ___ para hacer un postre'",
     readingId: "ortografia-general",
@@ -5263,7 +5263,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 269,
+    id: 214,
     category: "Construcción de textos y ortografía",
     question: "¿Cuál lista NO contiene sustantivos abstractos?",
     readingId: "ortografia-general",
@@ -5279,7 +5279,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 270,
+    id: 215,
     category: "Construcción de textos y ortografía",
     question: "En '¿Quién viene caminando esta mañana por la plaza? Es ella, él y algunos más', los pronombres personales son:",
     readingId: "ortografia-general",
@@ -5295,7 +5295,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 271,
+    id: 216,
     category: "Construcción de textos y ortografía",
     question: "En 'Su madre dijo que la verdad era suya, mía y vuestra', los pronombres posesivos son:",
     readingId: "ortografia-general",
@@ -5311,7 +5311,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 272,
+    id: 217,
     category: "Construcción de textos y ortografía",
     question: "Las funciones de los adjetivos son:",
     readingId: "ortografia-general",
@@ -5327,7 +5327,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 273,
+    id: 218,
     category: "Construcción de textos y ortografía",
     question: "En cuál oración 'este' funciona como adjetivo demostrativo:",
     readingId: "ortografia-general",
@@ -5343,7 +5343,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 274,
+    id: 219,
     category: "Construcción de textos y ortografía",
     question: "Las palabras que son verbos en el poema 'El mal del siglo' son:",
     readingId: "poema-mal-siglo-silva",
@@ -5359,7 +5359,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 275,
+    id: 220,
     category: "Construcción de textos y ortografía",
     question: "Los pronombres enclíticos en el poema 'El mal del siglo' están en:",
     readingId: "poema-mal-siglo-silva",
@@ -5375,7 +5375,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 276,
+    id: 221,
     category: "Construcción de textos y ortografía",
     question: "Los deícticos personales en el poema 'Verdor' son:",
     readingId: "poema-verdor-restrepo",
@@ -5391,7 +5391,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 277,
+    id: 222,
     category: "Construcción de textos y ortografía",
     question: "Los deícticos espaciales en el poema 'Verdor' son:",
     readingId: "poema-verdor-restrepo",
@@ -5407,7 +5407,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 278,
+    id: 223,
     category: "Construcción de textos y ortografía",
     question: "Los deícticos temporales del poema de Ángel González son:",
     readingId: "poema-futuro-gonzalez",
@@ -5424,7 +5424,7 @@ const questionsV2: Question[] = [
   },
   // Módulo 3: Estructura de oraciones (Preguntas 224-238)
   {
-    id: 279,
+    id: 224,
     category: "Construcción de textos y ortografía",
     question: "¿Cuál NO es una oración?",
     readingId: "estructura-oraciones",
@@ -5440,7 +5440,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 280,
+    id: 225,
     category: "Construcción de textos y ortografía",
     question: "En 'El portero de la empresa grande tuvo un conflicto ayer', el sujeto es:",
     readingId: "estructura-oraciones",
@@ -5456,7 +5456,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 281,
+    id: 226,
     category: "Construcción de textos y ortografía",
     question: "En 'Viniste en aquel crucero', el sujeto es:",
     readingId: "estructura-oraciones",
@@ -5472,7 +5472,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 282,
+    id: 227,
     category: "Construcción de textos y ortografía",
     question: "En 'Juan, Tomás y Julio, mis mejores amigos, fueron a viajar al extranjero', los núcleos del sujeto son:",
     readingId: "estructura-oraciones",
@@ -5488,7 +5488,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 283,
+    id: 228,
     category: "Construcción de textos y ortografía",
     question: "En 'La música alimenta y llena el espíritu', el predicado es:",
     readingId: "estructura-oraciones",
@@ -5504,7 +5504,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 284,
+    id: 229,
     category: "Construcción de textos y ortografía",
     question: "En 'Ellas están en la casa de Julián', el tipo de predicado es:",
     readingId: "estructura-oraciones",
@@ -5520,7 +5520,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 285,
+    id: 230,
     category: "Construcción de textos y ortografía",
     question: "En 'Los niños y las niñas jugaron y cantaron durante la jornada recreativa', los núcleos del predicado son:",
     readingId: "estructura-oraciones",
@@ -5536,7 +5536,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 286,
+    id: 231,
     category: "Construcción de textos y ortografía",
     question: "En 'El psicólogo entregó una remisión al psiquiatra', el CD y CI son:",
     readingId: "estructura-oraciones",
@@ -5552,7 +5552,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 287,
+    id: 232,
     category: "Construcción de textos y ortografía",
     question: "En 'Camila tuvo un accidente ayer en la mañana', el CD y CC son:",
     readingId: "estructura-oraciones",
@@ -5568,7 +5568,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 288,
+    id: 233,
     category: "Construcción de textos y ortografía",
     question: "¿Cuál oración es desiderativa (expresa deseo)?",
     readingId: "estructura-oraciones",
@@ -5584,7 +5584,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 289,
+    id: 234,
     category: "Construcción de textos y ortografía",
     question: "En cuál oración 'la' NO es artículo:",
     readingId: "estructura-oraciones",
@@ -5600,7 +5600,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 290,
+    id: 235,
     category: "Construcción de textos y ortografía",
     question: "¿Cuál lista NO contiene sustantivos?",
     readingId: "estructura-oraciones",
@@ -5616,7 +5616,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 291,
+    id: 236,
     category: "Construcción de textos y ortografía",
     question: "Para nombrar una cualidad de un sustantivo se utiliza:",
     readingId: "estructura-oraciones",
@@ -5632,7 +5632,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 292,
+    id: 237,
     category: "Construcción de textos y ortografía",
     question: "Las palabras que son adjetivos son:",
     readingId: "estructura-oraciones",
@@ -5648,7 +5648,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 293,
+    id: 238,
     category: "Construcción de textos y ortografía",
     question: "En 'Ella se comió la torta que dejó aquella que vino esta mañana. Su sabor era rico, pero le gustó más la que le daba su madre', los pronombres son:",
     readingId: "estructura-oraciones",
@@ -5665,7 +5665,7 @@ const questionsV2: Question[] = [
   },
   // Módulo 4: Textos y ortografía (Preguntas 239-253)
   {
-    id: 294,
+    id: 239,
     category: "Construcción de textos y ortografía",
     question: "Los verbos en el poema 'Verdor' son:",
     readingId: "poema-verdor-restrepo",
@@ -5681,7 +5681,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 295,
+    id: 240,
     category: "Construcción de textos y ortografía",
     question: "Los adverbios en el poema 'Verdor' son:",
     readingId: "poema-verdor-restrepo",
@@ -5697,7 +5697,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 296,
+    id: 241,
     category: "Construcción de textos y ortografía",
     question: "En el relato 'Zapato Zapata', 'clandestinidad urbana' está formada por:",
     readingId: "relato-zapato-juliao",
@@ -5713,7 +5713,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 297,
+    id: 242,
     category: "Construcción de textos y ortografía",
     question: "En 'pidiendo a zapatos, chanclas, sandalias, zuecos, pantuflas, tenis y botas', la categoría gramatical predominante es:",
     readingId: "relato-zapato-juliao",
@@ -5729,7 +5729,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 298,
+    id: 243,
     category: "Construcción de textos y ortografía",
     question: "En 'se viera forzada a poner los pies en la tierra', 'forzada' funciona como:",
     readingId: "relato-zapato-juliao",
@@ -5745,7 +5745,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 299,
+    id: 244,
     category: "Construcción de textos y ortografía",
     question: "¿Cuál palabra tiene acento prosódico (no lleva tilde)?",
     readingId: "ortografia-acentuacion",
@@ -5761,7 +5761,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 300,
+    id: 245,
     category: "Construcción de textos y ortografía",
     question: "En cuál oración 'se' NO lleva tilde:",
     readingId: "ortografia-acentuacion",
@@ -5777,7 +5777,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 301,
+    id: 246,
     category: "Construcción de textos y ortografía",
     question: "Las palabras agudas del fragmento de 'Cien años de soledad' son:",
     readingId: "cien-años-garcia-marquez",
@@ -5793,7 +5793,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 302,
+    id: 247,
     category: "Construcción de textos y ortografía",
     question: "En el relato 'Ya era tiempo', ¿cuál opción contiene palabras agudas?",
     readingId: "relato-ya-era-tiempo-juliao",
@@ -5809,7 +5809,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 303,
+    id: 248,
     category: "Construcción de textos y ortografía",
     question: "Las palabras esdrújulas del relato 'Entre lápices' son:",
     readingId: "relato-entre-lapices-juliao",
@@ -5825,7 +5825,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 304,
+    id: 249,
     category: "Construcción de textos y ortografía",
     question: "¿Cuál oración tiene uso incorrecto de la coma?",
     readingId: "puntuacion-ortografia-final",
@@ -5841,7 +5841,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 305,
+    id: 250,
     category: "Construcción de textos y ortografía",
     question: "¿Cuál oración usa correctamente el punto seguido?",
     readingId: "puntuacion-ortografia-final",
@@ -5857,7 +5857,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 306,
+    id: 251,
     category: "Construcción de textos y ortografía",
     question: "Complete: 'Ella no habla nunca del ___ de su tristeza. Calla ___ debe aprender sola. ¿___ habría de decir lo que piensa?'",
     readingId: "puntuacion-ortografia-final",
@@ -5873,7 +5873,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 307,
+    id: 252,
     category: "Construcción de textos y ortografía",
     question: "¿Cuál palabra está escrita correctamente?",
     readingId: "puntuacion-ortografia-final",
@@ -5889,7 +5889,7 @@ const questionsV2: Question[] = [
     points: 5,
   },
   {
-    id: 308,
+    id: 253,
     category: "Construcción de textos y ortografía",
     question: "¿Cuál palabra está mal escrita?",
     readingId: "puntuacion-ortografia-final",

@@ -1,7 +1,10 @@
+"use client"
+
 import Link from "next/link"
+import { useState } from "react"
 import { DashboardHeader } from "@/components/dashboard-header"
 import { TestCategoryCard } from "@/components/test-category-card"
-import { FileText, Users, Brain, Clock, Sparkles, Target } from "lucide-react"
+import { FileText, Users, Brain, Clock, Sparkles, Target, BookOpen, ChevronDown, ChevronUp } from "lucide-react"
 
 const testCategories = [
   {
@@ -34,6 +37,9 @@ const testCategories = [
 ]
 
 export default function DashboardPage() {
+  const [isRecommendationsOpen, setIsRecommendationsOpen] = useState(false)
+  const [isProfileOpen, setIsProfileOpen] = useState(false)
+
   return (
     <div className="min-h-screen">
       <DashboardHeader />
@@ -98,15 +104,32 @@ export default function DashboardPage() {
         </section>
 
         {/* Recomendaciones para Responder Section */}
-        <section className="relative overflow-hidden rounded-3xl border border-white/15 bg-gradient-to-br from-white/90 to-white/75 p-8 shadow-lg shadow-primary/15 backdrop-blur">
+        <section className="relative overflow-hidden rounded-3xl border border-white/15 bg-gradient-to-br from-white/90 to-white/75 shadow-lg shadow-primary/15 backdrop-blur">
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,hsla(45,95%,65%,0.12),transparent_60%)]" />
-          <div className="relative space-y-6">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold text-foreground">Recomendaciones para Responder Correctamente</h2>
-              <p className="text-muted-foreground">
-                Estrategias clave para identificar la opción correcta en las pruebas de selección
-              </p>
-            </div>
+          <div className="relative">
+            <button
+              onClick={() => setIsRecommendationsOpen(!isRecommendationsOpen)}
+              className="w-full p-8 text-left transition-colors hover:bg-white/30"
+            >
+              <div className="flex items-center justify-between gap-4">
+                <div className="space-y-2 flex-1">
+                  <h2 className="text-3xl font-bold text-foreground">Recomendaciones para Responder Correctamente</h2>
+                  <p className="text-muted-foreground">
+                    Estrategias clave para identificar la opción correcta en las pruebas de selección
+                  </p>
+                </div>
+                <div className="flex-shrink-0">
+                  {isRecommendationsOpen ? (
+                    <ChevronUp className="h-6 w-6 text-primary" />
+                  ) : (
+                    <ChevronDown className="h-6 w-6 text-primary" />
+                  )}
+                </div>
+              </div>
+            </button>
+
+            {isRecommendationsOpen && (
+              <div className="px-8 pb-8 space-y-6 animate-in slide-in-from-top-2 duration-300">
 
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
               <div className="rounded-2xl border border-white/25 bg-white/90 p-5 shadow-sm">
@@ -332,17 +355,36 @@ export default function DashboardPage() {
                 <span className="font-semibold">Recuerda:</span> Estas estrategias te ayudarán a analizar las preguntas con mayor precisión y a identificar la opción correcta. Practica aplicándolas en cada ejercicio para interiorizarlas.
               </p>
             </div>
+              </div>
+            )}
           </div>
         </section>
 
         {/* Perfil a Aspirar Section */}
-        <section className="relative overflow-hidden rounded-3xl border border-white/15 bg-white/75 p-8 shadow-lg shadow-primary/15 backdrop-blur">
+        <section className="relative overflow-hidden rounded-3xl border border-white/15 bg-white/75 shadow-lg shadow-primary/15 backdrop-blur">
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,hsla(215,90%,70%,0.16),transparent_60%)]" />
-          <div className="relative space-y-6">
-            <div>
-              <h2 className="text-3xl font-bold text-primary mb-2">Perfil a Aspirar</h2>
-              <p className="text-sm text-muted-foreground">OPEC 201834</p>
-            </div>
+          <div className="relative">
+            <button
+              onClick={() => setIsProfileOpen(!isProfileOpen)}
+              className="w-full p-8 text-left transition-colors hover:bg-white/30"
+            >
+              <div className="flex items-center justify-between gap-4">
+                <div className="flex-1">
+                  <h2 className="text-3xl font-bold text-primary mb-2">Perfil a Aspirar</h2>
+                  <p className="text-sm text-muted-foreground">OPEC 201834</p>
+                </div>
+                <div className="flex-shrink-0">
+                  {isProfileOpen ? (
+                    <ChevronUp className="h-6 w-6 text-primary" />
+                  ) : (
+                    <ChevronDown className="h-6 w-6 text-primary" />
+                  )}
+                </div>
+              </div>
+            </button>
+
+            {isProfileOpen && (
+              <div className="px-8 pb-8 space-y-6 animate-in slide-in-from-top-2 duration-300">
 
             <div className="grid gap-6 md:grid-cols-2">
               {/* Identificación del empleo */}
@@ -626,6 +668,54 @@ export default function DashboardPage() {
                 <span className="font-semibold text-foreground">Base legal:</span> Resolución 202250086636 del 27 de julio de 2022
               </p>
             </div>
+              </div>
+            )}
+          </div>
+        </section>
+
+        {/* Recursos Educativos Section */}
+        <section className="relative overflow-hidden rounded-3xl border border-white/15 bg-gradient-to-br from-amber-50/90 to-orange-50/75 p-8 shadow-lg shadow-amber-500/15 backdrop-blur">
+          <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,hsla(45,95%,65%,0.18),transparent_60%)]" />
+          <div className="relative space-y-6">
+            <div className="flex items-center gap-3">
+              <div className="p-3 bg-gradient-to-br from-amber-500 to-orange-600 rounded-xl shadow-lg">
+                <BookOpen className="h-7 w-7 text-white" />
+              </div>
+              <div>
+                <h2 className="text-3xl font-bold text-foreground">Recursos Educativos</h2>
+                <p className="text-muted-foreground text-base">
+                  Contenido formativo para fortalecer tus competencias
+                </p>
+              </div>
+            </div>
+
+            <Link href="/minicursos">
+              <div className="group relative overflow-hidden rounded-2xl border-2 border-white/25 bg-white/90 p-6 shadow-sm transition-all hover:shadow-xl hover:scale-[1.02] hover:border-amber-500/50 cursor-pointer">
+                <div className="flex items-start justify-between gap-4">
+                  <div className="flex-1 space-y-2">
+                    <h3 className="text-xl font-semibold text-foreground group-hover:text-amber-600 transition-colors">
+                      Minicursos Educativos
+                    </h3>
+                    <p className="text-muted-foreground leading-relaxed">
+                      Explora contenido teórico fundamental sobre conceptos clave que te ayudarán a desarrollar
+                      un pensamiento más profundo y estructurado, esencial para el desempeño en los concursos públicos.
+                    </p>
+                    <div className="flex items-center gap-2 pt-2">
+                      <span className="inline-flex items-center gap-1 text-sm font-medium text-amber-600">
+                        <BookOpen className="h-4 w-4" />
+                        4 minicursos disponibles
+                      </span>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2 text-amber-600 font-medium group-hover:gap-3 transition-all">
+                    <span className="text-sm">Explorar</span>
+                    <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </Link>
           </div>
         </section>
 

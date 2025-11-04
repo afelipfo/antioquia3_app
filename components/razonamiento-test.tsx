@@ -7,6 +7,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { useTestTimer } from "@/hooks/use-test-timer"
+import { TestTimer } from "@/components/test-timer"
 
 type Question = {
   id: number
@@ -2658,6 +2660,846 @@ const questionsV1: Question[] = [
     correct: "c",
     explanation:
       "'Leer tranquilamente el periódico sin que se dispare la imaginación' NO es un ejemplo de la compulsión fabuladora. Por el contrario, el texto muestra que la imaginación del novelista se dispara involuntariamente al leer el periódico.",
+    points: 5,
+  },
+  // Módulo 1: Rosa Montero - Construcción de textos y ortografía
+  {
+    id: 199,
+    category: "Construcción de textos y ortografía",
+    question: "¿Qué tipo de texto es el fragmento de Rosa Montero?",
+    options: [
+      { id: "a", text: "Narrativo" },
+      { id: "b", text: "Argumentativo" },
+      { id: "c", text: "Descriptivo" },
+      { id: "d", text: "Expositivo" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto es argumentativo porque la autora presenta una tesis ('escribir es estar habitado por un revoltijo de fantasías') y la sustenta con argumentos y ejemplos.",
+    points: 5,
+  },
+  {
+    id: 200,
+    category: "Construcción de textos y ortografía",
+    question: "¿Cuál es la estructura del párrafo?",
+    options: [
+      { id: "a", text: "Introducción, desarrollo y cierre" },
+      { id: "b", text: "Tesis, argumentos, ejemplos y conclusión" },
+      { id: "c", text: "Planteamiento, nudo y desenlace" },
+      { id: "d", text: "Causa y efecto" },
+    ],
+    correct: "b",
+    explanation:
+      "El texto argumentativo presenta una tesis inicial, luego argumentos que la sustentan, ejemplos que la ilustran y una conclusión final.",
+    points: 5,
+  },
+  {
+    id: 201,
+    category: "Construcción de textos y ortografía",
+    question: "¿Qué figura literaria predomina en 'a veces perezosas como las lentas ensoñaciones de una siesta estival, a veces agitadas y enfebrecidas como el delirio de un loco'?",
+    options: [
+      { id: "a", text: "Metáfora" },
+      { id: "b", text: "Símil" },
+      { id: "c", text: "Hipérbole" },
+      { id: "d", text: "Personificación" },
+    ],
+    correct: "b",
+    explanation:
+      "Predomina el símil, pues la escritora compara las fantasías con otros fenómenos (ensoñaciones, delirio) usando 'como'.",
+    points: 5,
+  },
+  {
+    id: 202,
+    category: "Construcción de textos y ortografía",
+    question: "¿Cuál oración resume la idea central del párrafo?",
+    options: [
+      { id: "a", text: "Escribir, en fin, es estar habitado por un revoltijo de fantasías" },
+      { id: "b", text: "La cabeza del novelista marcha por sí sola" },
+      { id: "c", text: "Eso a veces es un don y en otras ocasiones es un castigo" },
+      { id: "d", text: "Una enojosa tendencia a despanzurrarme en todos los vados" },
+    ],
+    correct: "a",
+    explanation:
+      "La oración inicial contiene la tesis y resume la idea central que todo el párrafo desarrolla y ejemplifica.",
+    points: 5,
+  },
+  {
+    id: 203,
+    category: "Construcción de textos y ortografía",
+    question: "¿A qué se refiere la expresión 'compulsión fabuladora'?",
+    options: [
+      { id: "a", text: "A una enfermedad mental" },
+      { id: "b", text: "A una posesión demoníaca" },
+      { id: "c", text: "A un proceso creativo consciente" },
+      { id: "d", text: "A una experiencia que atraviesa la cabeza de los novelistas" },
+    ],
+    correct: "d",
+    explanation:
+      "La 'compulsión fabuladora' se refiere a la experiencia involuntaria que atraviesa la cabeza de los novelistas, haciendo que su imaginación se dispare automáticamente.",
+    points: 5,
+  },
+  {
+    id: 204,
+    category: "Construcción de textos y ortografía",
+    question: "¿Cuál es el sinónimo de 'oprobio' en el contexto del texto?",
+    options: [
+      { id: "a", text: "Vergüenza" },
+      { id: "b", text: "Dolor" },
+      { id: "c", text: "Alegría" },
+      { id: "d", text: "Confusión" },
+    ],
+    correct: "a",
+    explanation:
+      "En el contexto del texto, 'oprobio' significa vergüenza o humillación, refiriéndose a la situación embarazosa de caerse.",
+    points: 5,
+  },
+  {
+    id: 205,
+    category: "Construcción de textos y ortografía",
+    question: "El extranjerismo 'voilà' es un:",
+    options: [
+      { id: "a", text: "Anglicismo" },
+      { id: "b", text: "Italianismo" },
+      { id: "c", text: "Germanismo" },
+      { id: "d", text: "Galicismo" },
+    ],
+    correct: "d",
+    explanation:
+      "'Voilà' es una palabra que proviene del francés, por lo tanto es un galicismo.",
+    points: 5,
+  },
+  {
+    id: 206,
+    category: "Construcción de textos y ortografía",
+    question: "La palabra 'chasquido' es un ejemplo de:",
+    options: [
+      { id: "a", text: "Metáfora" },
+      { id: "b", text: "Onomatopeya" },
+      { id: "c", text: "Aliteración" },
+      { id: "d", text: "Hipérbaton" },
+    ],
+    correct: "b",
+    explanation:
+      "La palabra 'chasquido' imita el sonido de los huesos al quebrarse, por lo que es una onomatopeya.",
+    points: 5,
+  },
+  {
+    id: 207,
+    category: "Construcción de textos y ortografía",
+    question: "'A veces es un don y en otras ocasiones es un castigo' se refiere a:",
+    options: [
+      { id: "a", text: "La forma en que la cabeza del novelista marcha por sí sola" },
+      { id: "b", text: "El acto de escribir en general" },
+      { id: "c", text: "Las fantasías perezosas" },
+      { id: "d", text: "La lectura del periódico" },
+    ],
+    correct: "a",
+    explanation:
+      "Esta frase alude directamente a la 'compulsión fabuladora' y cómo la cabeza del novelista marcha por sí sola, lo cual puede ser tanto beneficioso como problemático.",
+    points: 5,
+  },
+  {
+    id: 208,
+    category: "Construcción de textos y ortografía",
+    question: "¿Cuál de las siguientes opciones NO es un ejemplo de cómo marcha la cabeza del novelista?",
+    options: [
+      { id: "a", text: "Recrear instantáneamente una noticia atroz" },
+      { id: "b", text: "Imaginar detalladamente una caída al cruzar un puente" },
+      { id: "c", text: "La cabeza del novelista marcha por sí sola" },
+      { id: "d", text: "Visualizar con todos los pormenores el choque frío del agua" },
+    ],
+    correct: "c",
+    explanation:
+      "La opción C describe la situación general, no es un ejemplo específico. Las opciones A, B y D reproducen los ejemplos concretos dados en el texto.",
+    points: 5,
+  },
+  // Módulo 2: Poemas y gramática - Construcción de textos y ortografía
+  {
+    id: 209,
+    category: "Construcción de textos y ortografía",
+    question: "Del poema 'Ahora escribo pájaros' de Julio Cortázar, las palabras agudas son:",
+    context: "Ahora escribo pájaros. / No los veo venir, no los elijo, / de golpe están ahí, son esto, / una bandada de palabras / posándose / una / a / una / en los alambres de la página, / chirriando, picoteando, lluvia de alas / y yo sin pan que darles, solamente / dejándolos venir. Tal vez / sea eso un árbol / o tal vez / el amor.",
+    options: [
+      { id: "a", text: "Pájaros, alambres, página" },
+      { id: "b", text: "Están, pan, ahí" },
+      { id: "c", text: "Escribo, venir, palabras" },
+      { id: "d", text: "Lluvia, árbol, amor" },
+    ],
+    correct: "b",
+    explanation:
+      "Las palabras agudas llevan el acento en la última sílaba. En el poema, las agudas son están, pan y ahí.",
+    points: 5,
+  },
+  {
+    id: 210,
+    category: "Construcción de textos y ortografía",
+    question: "Del poema 'Ratoncito, pelusa...' de Julio Cortázar, ¿cuáles palabras NO son graves?",
+    context: "Ratoncito, pelusa, medialuna, / caleidoscopio, barco en la botella, / musgo, campana, diáspora, / palingenesia, helecho, / eso y el dulce de zapallo, / el bandoneón de Troilo y dos o tres / zonas de piel en donde / hace nido el alción, / son las palabras que contienen / tu cruel definición inalcanzable, / son las cosas que guardan las sustancias / de que estás hecha para que alguien / beba y posea y arda convencida / de conocerte entera, / de que sólo eres Cris.",
+    options: [
+      { id: "a", text: "Ratoncito, pelusa, medialuna" },
+      { id: "b", text: "Caleidoscopio, botella, campana" },
+      { id: "c", text: "Definición, diáspora, bandoneón" },
+      { id: "d", text: "Cruel, sustancias, entera" },
+    ],
+    correct: "c",
+    explanation:
+      "Las palabras graves llevan el acento en la penúltima sílaba. La opción C contiene dos agudas (definición, bandoneón) y una esdrújula (diáspora), por lo que es la correcta.",
+    points: 5,
+  },
+  {
+    id: 211,
+    category: "Construcción de textos y ortografía",
+    question: "Del poema 'La lenta máquina del desamor' de Julio Cortázar, las palabras esdrújulas son:",
+    context: "La lenta máquina del desamor, / los engranajes del reflujo, / los cuerpos que abandonan las almohadas, / las sábanas, los besos, / y de pie ante el espejo interrogándose / cada uno a sí mismo, / ya no mirándose entre ellos, / ya no desnudos para el otro, / ya no te amo, / mi amor.",
+    options: [
+      { id: "a", text: "Lenta, cuerpos, espejo" },
+      { id: "b", text: "Desamor, almohadas, desnudos" },
+      { id: "c", text: "Máquina, interrogándose, sábanas" },
+      { id: "d", text: "Engranajes, mirándose, amor" },
+    ],
+    correct: "c",
+    explanation:
+      "Las palabras esdrújulas llevan el acento en la antepenúltima sílaba. En este poema son máquina, interrogándose y sábanas.",
+    points: 5,
+  },
+  {
+    id: 212,
+    category: "Construcción de textos y ortografía",
+    question: "¿Cuál de las siguientes palabras está escrita correctamente?",
+    options: [
+      { id: "a", text: "Óvalo" },
+      { id: "b", text: "Pán" },
+      { id: "c", text: "Árado" },
+      { id: "d", text: "Guíon" },
+    ],
+    correct: "a",
+    explanation:
+      "La única forma correcta es 'Óvalo'. Las demás tienen tildes erróneas: 'pan' es monosílaba y no lleva tilde, 'arado' es grave terminada en vocal y no lleva tilde, 'guion' es monosílaba según la RAE y no lleva tilde.",
+    points: 5,
+  },
+  {
+    id: 213,
+    category: "Construcción de textos y ortografía",
+    question: "Complete la frase: 'Miró hacia la ___ y me dijo: ___ tráigame la ___ para hacer un postre'",
+    options: [
+      { id: "a", text: "Baya, valla, vaya" },
+      { id: "b", text: "Vaya, baya, valla" },
+      { id: "c", text: "Valla, baya, vaya" },
+      { id: "d", text: "Valla, vaya, baya" },
+    ],
+    correct: "d",
+    explanation:
+      "La secuencia correcta es: valla (cartelera/cerca), vaya (del verbo ir en subjuntivo), baya (fruto).",
+    points: 5,
+  },
+  {
+    id: 214,
+    category: "Construcción de textos y ortografía",
+    question: "¿Cuál lista NO contiene sustantivos abstractos (intangibles)?",
+    options: [
+      { id: "a", text: "Amor, esperanza, tristeza" },
+      { id: "b", text: "Belleza, justicia, libertad" },
+      { id: "c", text: "Morada, silueta, riachuelo" },
+      { id: "d", text: "Felicidad, bondad, valentía" },
+    ],
+    correct: "c",
+    explanation:
+      "La opción C contiene sustantivos concretos y tangibles: morada (casa), silueta (contorno visible), riachuelo (cuerpo de agua). Las demás opciones contienen sustantivos abstractos.",
+    points: 5,
+  },
+  {
+    id: 215,
+    category: "Construcción de textos y ortografía",
+    question: "En '¿Quién viene caminando esta mañana por la plaza? Es ella...', los pronombres personales son:",
+    options: [
+      { id: "a", text: "Ella, él, algunos" },
+      { id: "b", text: "Quién, esta, es" },
+      { id: "c", text: "Viene, caminando, por" },
+      { id: "d", text: "Mañana, plaza, ella" },
+    ],
+    correct: "a",
+    explanation:
+      "Los pronombres personales identifican personas sin nombrarlas directamente. En el enunciado completo, los pronombres personales son ella, él y algunos.",
+    points: 5,
+  },
+  {
+    id: 216,
+    category: "Construcción de textos y ortografía",
+    question: "En 'Su madre dijo que la verdad era suya...', los pronombres posesivos son:",
+    options: [
+      { id: "a", text: "Su, la, que" },
+      { id: "b", text: "Madre, verdad, era" },
+      { id: "c", text: "Suya, mía, vuestra" },
+      { id: "d", text: "Dijo, era, su" },
+    ],
+    correct: "c",
+    explanation:
+      "Los pronombres posesivos indican pertenencia. En el enunciado completo, los posesivos son suya, mía y vuestra.",
+    points: 5,
+  },
+  {
+    id: 217,
+    category: "Construcción de textos y ortografía",
+    question: "Las funciones de los adjetivos son:",
+    options: [
+      { id: "a", text: "Solo calificar al sustantivo" },
+      { id: "b", text: "Calificar y determinar al sustantivo" },
+      { id: "c", text: "Modificar solo al verbo" },
+      { id: "d", text: "Conectar oraciones" },
+    ],
+    correct: "b",
+    explanation:
+      "Los adjetivos no solo califican (grande, azul) sino que también determinan al sustantivo indicando género, número, cercanía, etc. (este, aquella, dos).",
+    points: 5,
+  },
+  {
+    id: 218,
+    category: "Construcción de textos y ortografía",
+    question: "En cuál oración 'este' funciona como adjetivo demostrativo:",
+    options: [
+      { id: "a", text: "Éste es mi libro favorito" },
+      { id: "b", text: "Éste llegó primero" },
+      { id: "c", text: "Prefiero éste al otro" },
+      { id: "d", text: "Este encantamiento pareciera durar una eternidad" },
+    ],
+    correct: "d",
+    explanation:
+      "En la opción D, 'este' acompaña al sustantivo 'encantamiento' y funciona como adjetivo demostrativo. En las demás opciones, 'éste' funciona como pronombre (aunque la tilde ya no es obligatoria según la RAE).",
+    points: 5,
+  },
+  {
+    id: 219,
+    category: "Construcción de textos y ortografía",
+    question: "Del poema 'El mal del siglo' de José Asunción Silva, las palabras que son verbos son:",
+    context: "El paciente: Doctor, un desaliento de la vida / que en lo íntimo de mí se arraiga y nace, / el mal del siglo… / Un cansancio de todo, un absoluto / desprecio por lo humano… un incesante / renegar de lo vil de la existencia / El médico: Eso es cuestión de régimen: camine / de mañanita; duerma largo, báñese; / beba bien; coma bien; cuídese mucho, / ¡Lo que usted tiene es hambre!",
+    options: [
+      { id: "a", text: "Desaliento, cansancio, desprecio" },
+      { id: "b", text: "Íntimo, absoluto, incesante" },
+      { id: "c", text: "Aumenta, arraiga, nace" },
+      { id: "d", text: "Doctor, régimen, hambre" },
+    ],
+    correct: "c",
+    explanation:
+      "Los verbos indican acciones o estados. En el poema, las palabras que son verbos son aumenta, arraiga y nace.",
+    points: 5,
+  },
+  {
+    id: 220,
+    category: "Construcción de textos y ortografía",
+    question: "Los pronombres enclíticos en el poema 'El mal del siglo' están en:",
+    options: [
+      { id: "a", text: "Báñese, cuídese" },
+      { id: "b", text: "Camine, duerma" },
+      { id: "c", text: "Beba, coma" },
+      { id: "d", text: "Arraiga, nace" },
+    ],
+    correct: "a",
+    explanation:
+      "Los pronombres enclíticos (me, te, se, le) se unen al final del verbo. En el poema, 'Báñese' y 'cuídese' contienen el pronombre enclítico 'se'.",
+    points: 5,
+  },
+  {
+    id: 221,
+    category: "Construcción de textos y ortografía",
+    question: "Del poema 'Verdor' de Elkin Restrepo, los deícticos personales son:",
+    context: "No son de animal salvaje / las pisadas / que rodean tu casa / esta mañana. / Cerca no hay gamos / ni osos / ni el bosque / se arrimaría hasta aquí. / Sin embargo, / alguien en la oscuridad / estuvo en vela / mientras / tú dormías. / alguien que pudo / sacar provecho / de tu fragilidad / y no lo hizo. / El rastro aún está fresco. / ¡Nadie hubiera podido con fuerza tal! / Lo prueba / el violento verdor / que salta allí / donde Él estuvo.",
+    options: [
+      { id: "a", text: "Casa, bosque, rastro" },
+      { id: "b", text: "Esta, cerca, aquí" },
+      { id: "c", text: "Alguien, nadie, él" },
+      { id: "d", text: "Mañana, oscuridad, fuerza" },
+    ],
+    correct: "c",
+    explanation:
+      "Los deícticos personales señalan personas sin nombrarlas. En el poema son: alguien, nadie y él.",
+    points: 5,
+  },
+  {
+    id: 222,
+    category: "Construcción de textos y ortografía",
+    question: "Del poema 'Verdor', los deícticos espaciales (de lugar) son:",
+    options: [
+      { id: "a", text: "Aquí, allí, cerca" },
+      { id: "b", text: "Esta, mañana, aún" },
+      { id: "c", text: "Tú, él, alguien" },
+      { id: "d", text: "No, ni, mientras" },
+    ],
+    correct: "a",
+    explanation:
+      "Los deícticos espaciales indican ubicación. En el poema son los adverbios de lugar: aquí, allí y cerca.",
+    points: 5,
+  },
+  {
+    id: 223,
+    category: "Construcción de textos y ortografía",
+    question: "Del poema de Ángel González, los deícticos temporales son:",
+    context: "¡Futuro mío…! Corazón lejano / que lo dictaste ayer: / no te avergüences. / Hoy es el resultado de tu sangre, / dolor que reconozco, luz que admito, / sufrimiento que asumo, / amor que intento. / Pero nada es aún definitivo. / Mañana he decidido ir adelante, / y avanzaré, / mañana me dispongo a estar contento, / mañana te amaré, mañana / y tarde.",
+    options: [
+      { id: "a", text: "Futuro, corazón, amor" },
+      { id: "b", text: "Mío, lejano, definitivo" },
+      { id: "c", text: "Reconozco, admito, asumo" },
+      { id: "d", text: "Ayer, hoy, mañana" },
+    ],
+    correct: "d",
+    explanation:
+      "Los deícticos temporales indican tiempo. En el poema son los adverbios: ayer, hoy y mañana.",
+    points: 5,
+  },
+  // Módulo 3: Estructura de oraciones - Construcción de textos y ortografía
+  {
+    id: 224,
+    category: "Construcción de textos y ortografía",
+    question: "¿Cuál de las siguientes opciones NO es una oración?",
+    options: [
+      { id: "a", text: "El sol brilla intensamente" },
+      { id: "b", text: "El bello rinoceronte" },
+      { id: "c", text: "Ella canta muy bien" },
+      { id: "d", text: "Llegaron tarde" },
+    ],
+    correct: "b",
+    explanation:
+      "Una oración contiene al menos un verbo en forma personal. 'El bello rinoceronte' es una frase nominal sin verbo, por lo tanto no es una oración.",
+    points: 5,
+  },
+  {
+    id: 225,
+    category: "Construcción de textos y ortografía",
+    question: "En 'El portero de la empresa grande tuvo un conflicto ayer', el sujeto es:",
+    options: [
+      { id: "a", text: "El portero" },
+      { id: "b", text: "La empresa grande" },
+      { id: "c", text: "El portero de la empresa grande" },
+      { id: "d", text: "Un conflicto ayer" },
+    ],
+    correct: "c",
+    explanation:
+      "El sujeto completo incluye el núcleo (portero) y todos sus modificadores (el, de la empresa grande). Por lo tanto, el sujeto es 'El portero de la empresa grande'.",
+    points: 5,
+  },
+  {
+    id: 226,
+    category: "Construcción de textos y ortografía",
+    question: "En 'Viniste en aquel crucero', el tipo de sujeto es:",
+    options: [
+      { id: "a", text: "Sujeto expreso" },
+      { id: "b", text: "Sujeto tácito" },
+      { id: "c", text: "Sujeto compuesto" },
+      { id: "d", text: "Sujeto complejo" },
+    ],
+    correct: "b",
+    explanation:
+      "El sujeto no está explícito en la oración, pero se infiere del verbo conjugado (tú viniste). Es un sujeto tácito o implícito.",
+    points: 5,
+  },
+  {
+    id: 227,
+    category: "Construcción de textos y ortografía",
+    question: "En 'Juan, Tomás y Julio, mis mejores amigos, fueron a viajar al extranjero', los núcleos del sujeto son:",
+    options: [
+      { id: "a", text: "Mis mejores amigos" },
+      { id: "b", text: "Juan y Tomás" },
+      { id: "c", text: "Juan, Tomás y Julio" },
+      { id: "d", text: "Fueron a viajar" },
+    ],
+    correct: "c",
+    explanation:
+      "El sujeto tiene tres núcleos (Juan, Tomás, Julio), lo que lo convierte en un sujeto compuesto. La frase 'mis mejores amigos' es un complemento del sujeto.",
+    points: 5,
+  },
+  {
+    id: 228,
+    category: "Construcción de textos y ortografía",
+    question: "En 'La música alimenta y llena el espíritu', el predicado es:",
+    options: [
+      { id: "a", text: "Alimenta y llena el espíritu" },
+      { id: "b", text: "La música" },
+      { id: "c", text: "El espíritu" },
+      { id: "d", text: "Alimenta y llena" },
+    ],
+    correct: "a",
+    explanation:
+      "El predicado es todo lo que se dice del sujeto. En este caso, 'alimenta y llena el espíritu' es el predicado completo.",
+    points: 5,
+  },
+  {
+    id: 229,
+    category: "Construcción de textos y ortografía",
+    question: "En 'Ellas están en la casa de Julián', el tipo de predicado es:",
+    options: [
+      { id: "a", text: "Predicado nominal" },
+      { id: "b", text: "Predicado verbal" },
+      { id: "c", text: "Predicado adjetival" },
+      { id: "d", text: "Predicado sustantivo" },
+    ],
+    correct: "b",
+    explanation:
+      "Aunque usa el verbo 'estar', en este caso indica ubicación (no un estado con adjetivo), por lo que el predicado es verbal, no nominal.",
+    points: 5,
+  },
+  {
+    id: 230,
+    category: "Construcción de textos y ortografía",
+    question: "En 'Los niños y las niñas jugaron y cantaron durante la jornada recreativa', los núcleos del predicado son:",
+    options: [
+      { id: "a", text: "Los niños y las niñas" },
+      { id: "b", text: "Jugaron y cantaron" },
+      { id: "c", text: "La jornada recreativa" },
+      { id: "d", text: "Durante la jornada" },
+    ],
+    correct: "b",
+    explanation:
+      "Los núcleos del predicado son siempre verbos. En este caso, hay dos núcleos: 'jugaron' y 'cantaron'.",
+    points: 5,
+  },
+  {
+    id: 231,
+    category: "Construcción de textos y ortografía",
+    question: "En 'El psicólogo entregó una remisión al psiquiatra', el complemento directo (CD) y el complemento indirecto (CI) son:",
+    options: [
+      { id: "a", text: "CD: psicólogo, CI: psiquiatra" },
+      { id: "b", text: "CD: al psiquiatra, CI: una remisión" },
+      { id: "c", text: "CD: remisión, CI: psiquiatra" },
+      { id: "d", text: "CD: entregó, CI: remisión" },
+    ],
+    correct: "c",
+    explanation:
+      "El complemento directo es aquello que se entrega (remisión). El complemento indirecto es a quien se le entrega (psiquiatra).",
+    points: 5,
+  },
+  {
+    id: 232,
+    category: "Construcción de textos y ortografía",
+    question: "En 'Camila tuvo un accidente ayer en la mañana', el complemento directo (CD) y el complemento circunstancial (CC) son:",
+    options: [
+      { id: "a", text: "CD: accidente, CC: ayer en la mañana" },
+      { id: "b", text: "CD: Camila, CC: accidente" },
+      { id: "c", text: "CD: ayer, CC: en la mañana" },
+      { id: "d", text: "CD: tuvo, CC: accidente" },
+    ],
+    correct: "a",
+    explanation:
+      "El complemento directo es 'accidente' (lo que tuvo). El complemento circunstancial de tiempo es 'ayer en la mañana' (cuándo ocurrió).",
+    points: 5,
+  },
+  {
+    id: 233,
+    category: "Construcción de textos y ortografía",
+    question: "¿Cuál de las siguientes oraciones es desiderativa (expresa deseo)?",
+    options: [
+      { id: "a", text: "¿Vendrás mañana?" },
+      { id: "b", text: "No quiero estar en casa hasta las dos" },
+      { id: "c", text: "Cierra la puerta" },
+      { id: "d", text: "El auto es rojo" },
+    ],
+    correct: "b",
+    explanation:
+      "Las oraciones desiderativas expresan un deseo. 'No quiero estar en casa hasta las dos' manifiesta claramente un deseo del hablante.",
+    points: 5,
+  },
+  {
+    id: 234,
+    category: "Construcción de textos y ortografía",
+    question: "En cuál oración 'la' NO funciona como artículo:",
+    options: [
+      { id: "a", text: "La había llamado ayer" },
+      { id: "b", text: "La casa es grande" },
+      { id: "c", text: "La mesa está limpia" },
+      { id: "d", text: "La niña juega" },
+    ],
+    correct: "a",
+    explanation:
+      "En 'La había llamado ayer', 'la' funciona como pronombre de complemento directo (la llamó a ella), no como artículo.",
+    points: 5,
+  },
+  {
+    id: 235,
+    category: "Construcción de textos y ortografía",
+    question: "¿Cuál lista NO contiene sustantivos?",
+    options: [
+      { id: "a", text: "Casa, árbol, perro" },
+      { id: "b", text: "Felicidad, amor, justicia" },
+      { id: "c", text: "Verde, feo, interesante" },
+      { id: "d", text: "Juan, María, Colombia" },
+    ],
+    correct: "c",
+    explanation:
+      "La opción C contiene solo adjetivos: 'verde' (color), 'feo' (cualidad), 'interesante' (cualidad). Las demás opciones contienen sustantivos.",
+    points: 5,
+  },
+  {
+    id: 236,
+    category: "Construcción de textos y ortografía",
+    question: "Para nombrar una cualidad de un sustantivo se utiliza:",
+    options: [
+      { id: "a", text: "Adjetivo" },
+      { id: "b", text: "Verbo" },
+      { id: "c", text: "Adverbio" },
+      { id: "d", text: "Preposición" },
+    ],
+    correct: "a",
+    explanation:
+      "Los adjetivos son las palabras que califican o determinan a los sustantivos, indicando sus cualidades o características.",
+    points: 5,
+  },
+  {
+    id: 237,
+    category: "Construcción de textos y ortografía",
+    question: "¿Cuáles de las siguientes palabras son adjetivos?",
+    options: [
+      { id: "a", text: "Correr, saltar, nadar" },
+      { id: "b", text: "Rápidamente, lentamente, bien" },
+      { id: "c", text: "Ágil, atentos, rígidas" },
+      { id: "d", text: "Pero, aunque, porque" },
+    ],
+    correct: "c",
+    explanation:
+      "Los adjetivos califican a los sustantivos. 'Ágil', 'atentos' y 'rígidas' son adjetivos que indican cualidades.",
+    points: 5,
+  },
+  {
+    id: 238,
+    category: "Construcción de textos y ortografía",
+    question: "En 'Ella se comió la torta que dejó aquella que vino esta mañana. Su sabor era rico, pero le gustó más la que le daba su madre', los pronombres son:",
+    options: [
+      { id: "a", text: "Aquella, se, le" },
+      { id: "b", text: "Torta, sabor, madre" },
+      { id: "c", text: "Era, gustó, daba" },
+      { id: "d", text: "Rico, más, su" },
+    ],
+    correct: "a",
+    explanation:
+      "Los pronombres sustituyen o hacen referencia a sustantivos. En el texto, 'aquella' (demostrativo), 'se' (reflexivo) y 'le' (personal) son pronombres.",
+    points: 5,
+  },
+  // Módulo 4: Textos y ortografía avanzada - Construcción de textos y ortografía
+  {
+    id: 239,
+    category: "Construcción de textos y ortografía",
+    question: "Del poema 'Verdor' de Elkin Restrepo, los verbos son:",
+    context: "No son de animal salvaje / las pisadas / que rodean tu casa / esta mañana. / Cerca no hay gamos / ni osos / ni el bosque / se arrimaría hasta aquí. / Sin embargo, / alguien en la oscuridad / estuvo en vela / mientras / tú dormías. / El rastro aún está fresco. / ¡Nadie hubiera podido con fuerza tal! / Lo prueba / el violento verdor / que salta allí / donde Él estuvo.",
+    options: [
+      { id: "a", text: "Pisadas, gamos, rastro" },
+      { id: "b", text: "Violento, fresco, salvaje" },
+      { id: "c", text: "Casa, oscuridad, fuerza" },
+      { id: "d", text: "Arrimaría, salta, está" },
+    ],
+    correct: "d",
+    explanation:
+      "Los verbos indican acciones o estados. En el poema, las palabras que son verbos incluyen arrimaría, salta y está.",
+    points: 5,
+  },
+  {
+    id: 240,
+    category: "Construcción de textos y ortografía",
+    question: "Los adverbios de lugar en el poema 'Verdor' son:",
+    options: [
+      { id: "a", text: "Aquí, cerca, allí" },
+      { id: "b", text: "Mañana, mientras, aún" },
+      { id: "c", text: "Violento, fresco, salvaje" },
+      { id: "d", text: "Alguien, nadie, él" },
+    ],
+    correct: "a",
+    explanation:
+      "Los adverbios de lugar indican dónde ocurre la acción. En el poema son: aquí, cerca y allí.",
+    points: 5,
+  },
+  {
+    id: 241,
+    category: "Construcción de textos y ortografía",
+    question: "En el relato 'Zapato Zapata', la expresión 'clandestinidad urbana' está formada por:",
+    context: "Zapato Zapata fue un zapatito que un lunes cualquiera decidió fugarse de la zapatería y salir a predicar de vitrina en vitrina, de almacén en almacén, pidiendo a zapatos, chanclas, sandalias, zuecos, pantuflas, tenis y botas que se fugaran como él de la vida ciudadana y se fueran al monte o a la clandestinidad urbana.",
+    options: [
+      { id: "a", text: "Verbo y sustantivo" },
+      { id: "b", text: "Sustantivo y adjetivo" },
+      { id: "c", text: "Adjetivo y adverbio" },
+      { id: "d", text: "Dos sustantivos" },
+    ],
+    correct: "b",
+    explanation:
+      "La expresión está formada por 'clandestinidad' (sustantivo) y 'urbana' (adjetivo que modifica al sustantivo).",
+    points: 5,
+  },
+  {
+    id: 242,
+    category: "Construcción de textos y ortografía",
+    question: "En 'pidiendo a zapatos, chanclas, sandalias, zuecos, pantuflas, tenis y botas', la categoría gramatical predominante es:",
+    options: [
+      { id: "a", text: "Verbo" },
+      { id: "b", text: "Adjetivo" },
+      { id: "c", text: "Adverbio" },
+      { id: "d", text: "Sustantivo" },
+    ],
+    correct: "d",
+    explanation:
+      "La categoría predominante en este fragmento es el sustantivo: zapatos, chanclas, sandalias, zuecos, pantuflas, tenis y botas son todos sustantivos.",
+    points: 5,
+  },
+  {
+    id: 243,
+    category: "Construcción de textos y ortografía",
+    question: "En 'se viera forzada a poner los pies en la tierra', la palabra 'forzada' funciona como:",
+    options: [
+      { id: "a", text: "Sustantivo" },
+      { id: "b", text: "Verbo conjugado" },
+      { id: "c", text: "Adjetivo predicativo" },
+      { id: "d", text: "Adverbio de modo" },
+    ],
+    correct: "d",
+    explanation:
+      "En este contexto, 'forzada' funciona como adverbio de modo que acompaña al verbo 'se viera', indicando la manera en que se vería.",
+    points: 5,
+  },
+  {
+    id: 244,
+    category: "Construcción de textos y ortografía",
+    question: "De las siguientes palabras, ¿cuál tiene acento prosódico (sin tilde)?",
+    options: [
+      { id: "a", text: "Eléctrico" },
+      { id: "b", text: "Cúpula" },
+      { id: "c", text: "Conciso" },
+      { id: "d", text: "Estético" },
+    ],
+    correct: "c",
+    explanation:
+      "'Conciso' es palabra grave terminada en vocal y no lleva tilde, por lo que solo tiene acento prosódico. Las demás palabras llevan tilde (acento ortográfico).",
+    points: 5,
+  },
+  {
+    id: 245,
+    category: "Construcción de textos y ortografía",
+    question: "En cuál oración 'se' NO lleva tilde diacrítica:",
+    options: [
+      { id: "a", text: "Sé que vendrás mañana" },
+      { id: "b", text: "Sé amable con todos" },
+      { id: "c", text: "Ya lo sé todo" },
+      { id: "d", text: "Se dirigió a mí" },
+    ],
+    correct: "d",
+    explanation:
+      "En 'Se dirigió a mí', 'se' funciona como pronombre personal y no lleva tilde. En las demás opciones, 'sé' lleva tilde por ser del verbo saber o del imperativo de ser.",
+    points: 5,
+  },
+  {
+    id: 246,
+    category: "Construcción de textos y ortografía",
+    question: "Del fragmento de 'Cien años de soledad', las palabras agudas son:",
+    context: "Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo. Macondo era entonces una aldea de veinte casas de barro y cañabrava construidas a la orilla de un río de aguas diáfanas.",
+    options: [
+      { id: "a", text: "Después, coronel, llevó" },
+      { id: "b", text: "Muchos, años, frente" },
+      { id: "c", text: "Recordar, aldea, casas" },
+      { id: "d", text: "Padre, hielo, río" },
+    ],
+    correct: "a",
+    explanation:
+      "Las palabras agudas llevan el acento en la última sílaba. En el fragmento son: después, coronel y llevó.",
+    points: 5,
+  },
+  {
+    id: 247,
+    category: "Construcción de textos y ortografía",
+    question: "Del relato 'Ya era tiempo', ¿cuál opción contiene palabras agudas?",
+    context: "Nadie en la relojería pudo entender que las aspiraciones de aquel relojito humilde fueran las de llegar a ser reloj despertador, y las de aprender alpinismo, para así subirse al pico más alto de los Andes.",
+    options: [
+      { id: "a", text: "Nadie, relojería, humilde" },
+      { id: "b", text: "Llegar, más, aquel, reloj" },
+      { id: "c", text: "Aspiraciones, despertador, alpinismo" },
+      { id: "d", text: "Pudo, entender, fueran" },
+    ],
+    correct: "b",
+    explanation:
+      "La opción B contiene palabras agudas (llevan acento en la última sílaba): llegar, más, aquel, reloj. Las demás opciones contienen principalmente palabras graves.",
+    points: 5,
+  },
+  {
+    id: 248,
+    category: "Construcción de textos y ortografía",
+    question: "Del relato 'Entre lápices', las palabras esdrújulas son:",
+    context: "En una fábrica de lápices para la exportación, dos lápices conversaban un día: —¿Y por qué fabrican aquellos colegas sin borrador? —Es que esos van para la América Latina.",
+    options: [
+      { id: "a", text: "Exportación, conversaban, América" },
+      { id: "b", text: "Aquellos, colegas, borrador" },
+      { id: "c", text: "Fábrica, lápices" },
+      { id: "d", text: "Fabrican, Latina" },
+    ],
+    correct: "c",
+    explanation:
+      "Las palabras esdrújulas llevan el acento en la antepenúltima sílaba. En el texto son: fábrica y lápices.",
+    points: 5,
+  },
+  {
+    id: 249,
+    category: "Construcción de textos y ortografía",
+    question: "¿Cuál oración tiene uso incorrecto de la coma?",
+    options: [
+      { id: "a", text: "María, mi hermana, llegó tarde" },
+      { id: "b", text: "Compré manzanas, peras, uvas y naranjas" },
+      { id: "c", text: "Mi madre mujer amorosa, odia las injusticias" },
+      { id: "d", text: "Hoy, sin embargo, no iré al trabajo" },
+    ],
+    correct: "c",
+    explanation:
+      "Falta una coma después de 'Mi madre' para separar el inciso explicativo 'mujer amorosa'. Debería ser: 'Mi madre, mujer amorosa, odia las injusticias'.",
+    points: 5,
+  },
+  {
+    id: 250,
+    category: "Construcción de textos y ortografía",
+    question: "¿Cuál oración usa correctamente el punto seguido?",
+    options: [
+      { id: "a", text: "Recibí un correo. Era de mi mejor amiga" },
+      { id: "b", text: "Me gusta. El chocolate" },
+      { id: "c", text: "Ella es. Muy inteligente" },
+      { id: "d", text: "Voy a. La tienda" },
+    ],
+    correct: "a",
+    explanation:
+      "El punto seguido separa oraciones relacionadas dentro de un párrafo. La opción A lo usa correctamente: dos oraciones completas y relacionadas.",
+    points: 5,
+  },
+  {
+    id: 251,
+    category: "Construcción de textos y ortografía",
+    question: "Complete: 'Ella no habla nunca del ___ de su tristeza. Calla ___ debe aprender sola. ¿___ habría de decir lo que piensa?'",
+    options: [
+      { id: "a", text: "Porque, porqué, por qué" },
+      { id: "b", text: "Porqué, porque, por qué" },
+      { id: "c", text: "Por qué, porque, porqué" },
+      { id: "d", text: "Porque, por qué, porqué" },
+    ],
+    correct: "b",
+    explanation:
+      "La secuencia correcta es: porqué (sustantivo = motivo), porque (conjunción causal), por qué (pregunta).",
+    points: 5,
+  },
+  {
+    id: 252,
+    category: "Construcción de textos y ortografía",
+    question: "¿Cuál palabra está escrita correctamente?",
+    options: [
+      { id: "a", text: "Inospitalario" },
+      { id: "b", text: "Aprendízaje" },
+      { id: "c", text: "Inútil" },
+      { id: "d", text: "Arbol" },
+    ],
+    correct: "c",
+    explanation:
+      "La única palabra correcta es 'Inútil' (palabra grave con tilde). Las formas correctas de las demás son: inhospitalario (con h), aprendizaje (sin tilde), árbol (con tilde).",
+    points: 5,
+  },
+  {
+    id: 253,
+    category: "Construcción de textos y ortografía",
+    question: "¿Cuál palabra está mal escrita?",
+    options: [
+      { id: "a", text: "Obvio" },
+      { id: "b", text: "Cambio" },
+      { id: "c", text: "Ábito" },
+      { id: "d", text: "Ejecutivo" },
+    ],
+    correct: "c",
+    explanation:
+      "La palabra 'Ábito' está mal escrita. La forma correcta es 'hábito' (con h inicial y tilde).",
     points: 5,
   },
 ]
@@ -5917,6 +6759,18 @@ export function RazonamientoTest() {
 
   const totalScore = useMemo(() => questions.reduce((sum, q) => sum + q.points, 0), [questions])
 
+  const timer = useTestTimer({
+    totalQuestions: questions.length,
+    timePerQuestion: 120,
+    onTimeUp: () => {
+      if (Object.keys(answers).length === questions.length) {
+        setShowResults(true)
+        setShowFeedback(false)
+      }
+    },
+    isActive: !showResults
+  })
+
   // Separar preguntas con lectura de las demás
   const questionsWithReadings = useMemo(() => {
     const readingQuestionIds = new Set(readings.flatMap(r => r.questionIds))
@@ -5952,6 +6806,7 @@ export function RazonamientoTest() {
     setAnswers({})
     setShowResults(false)
     setShowFeedback(false)
+    timer.resetTimer()
   }
 
   const score = useMemo(() => {
@@ -5990,6 +6845,14 @@ export function RazonamientoTest() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
+      {!showResults && (
+        <TestTimer
+          formattedTime={timer.formattedTime}
+          timeColor={timer.timeColor}
+          percentageRemaining={timer.percentageRemaining}
+        />
+      )}
+
       <Card className="border-white/30 bg-white/80 shadow-lg shadow-primary/15 backdrop-blur">
         <CardHeader>
           <CardTitle className="text-2xl font-semibold text-balance flex items-center gap-2">

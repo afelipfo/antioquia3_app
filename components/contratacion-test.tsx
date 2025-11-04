@@ -8,6 +8,8 @@ import { CheckCircle2, XCircle, InfoIcon } from "lucide-react"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "@/components/ui/label"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { useTestTimer } from "@/hooks/use-test-timer"
+import { TestTimer } from "@/components/test-timer"
 
 interface Question {
   id: number
@@ -299,6 +301,290 @@ const questionsV1: Question[] = [
     points: 5,
     explanation: "Si sobreviene una inhabilidad durante la ejecución, el contratista puede ceder el contrato a un tercero con iguales condiciones técnicas, financieras y de experiencia, previa aprobación de la entidad; de lo contrario, el contrato se termina y liquida.",
     topic: "Régimen de inhabilidades - Efectos"
+  },
+  // Supervisión de contratos
+  {
+    id: 21,
+    question: "Según la Ley 1474 de 2011 (Estatuto Anticorrupción), la supervisión de contratos:",
+    options: [
+      "Es facultativa y depende de la voluntad de la entidad",
+      "Consiste únicamente en la verificación final del cumplimiento del contrato",
+      "Consiste en el seguimiento técnico, administrativo, financiero, contable y jurídico sobre el cumplimiento del objeto contractual",
+      "Solo aplica para contratos de obra pública"
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation: "El artículo 83 de la Ley 1474 establece que la supervisión consiste en el seguimiento técnico, administrativo, financiero, contable y jurídico que sobre el cumplimiento del objeto del contrato es ejercida por la entidad estatal cuando no se requiere conocimientos especializados.",
+    topic: "Supervisión de contratos"
+  },
+  {
+    id: 22,
+    question: "La diferencia principal entre supervisión e interventoría es que:",
+    options: [
+      "No existe diferencia, son términos sinónimos",
+      "La supervisión la ejerce directamente un funcionario de la entidad, mientras que la interventoría la realiza un contratista externo con conocimientos especializados",
+      "La interventoría solo aplica para contratos menores a 50 SMMLV",
+      "La supervisión solo se requiere en contratos de prestación de servicios"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "La supervisión es ejercida directamente por un funcionario de la entidad estatal cuando no se requieren conocimientos especializados. La interventoría se contrata cuando se necesitan conocimientos especializados para el seguimiento técnico del contrato.",
+    topic: "Supervisión vs Interventoría"
+  },
+  {
+    id: 23,
+    question: "Entre las funciones del supervisor de un contrato de obra se encuentra:",
+    options: [
+      "Modificar unilateralmente el objeto contractual sin acta",
+      "Verificar el cumplimiento de las especificaciones técnicas, controlar el avance físico y financiero, y revisar la calidad de materiales y procedimientos constructivos",
+      "Sustituir al contratista en la ejecución de la obra",
+      "Autorizar pagos sin verificar requisitos previos"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "El supervisor debe verificar el cumplimiento de las especificaciones técnicas, controlar el avance físico y financiero, revisar la calidad de materiales y procedimientos constructivos, y velar por el cumplimiento de normas de seguridad y ambientales.",
+    topic: "Funciones del supervisor"
+  },
+  {
+    id: 24,
+    question: "El supervisor o interventor que evidencie incumplimientos del contratista debe:",
+    options: [
+      "Informar de manera inmediata al ordenador del gasto para que adopte las medidas conducentes, como imposición de multas o inicio de caducidad",
+      "Esperar hasta la terminación del contrato para reportar",
+      "Negociar directamente con el contratista sin informar a la entidad",
+      "Solo documentar las irregularidades sin tomar acción"
+    ],
+    correctAnswer: 0,
+    points: 5,
+    explanation: "El supervisor o interventor tiene la obligación legal de informar de manera inmediata al ordenador del gasto sobre los incumplimientos del contratista, para que la entidad adopte las medidas como imposición de multas, declaratoria de incumplimiento o caducidad.",
+    topic: "Obligaciones del supervisor ante incumplimientos"
+  },
+  {
+    id: 25,
+    question: "La responsabilidad del supervisor por el incumplimiento de sus obligaciones puede ser:",
+    options: [
+      "Únicamente administrativa, sin consecuencias adicionales",
+      "Disciplinaria, fiscal, penal y civil, dependiendo de la naturaleza y gravedad de los hechos",
+      "Solo disciplinaria, sin afectación patrimonial",
+      "Ninguna, ya que la responsabilidad es exclusiva del contratista"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "El supervisor puede incurrir en responsabilidad disciplinaria (Ley 734), fiscal (daño al patrimonio público), penal (delitos como peculado por extensión) y civil (reparación de perjuicios), según la naturaleza y gravedad de los hechos.",
+    topic: "Responsabilidad del supervisor"
+  },
+  // Interventoría
+  {
+    id: 26,
+    question: "La interventoría en contratos de obra pública debe ser ejercida por:",
+    options: [
+      "Cualquier profesional sin restricciones",
+      "Personas naturales o jurídicas que cuenten con la capacidad técnica, experiencia, organización y recursos especializados necesarios",
+      "Únicamente por entidades públicas",
+      "Solo por empleados de planta de la entidad contratante"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "La interventoría debe ser ejercida por personas naturales o jurídicas que cuenten con la capacidad técnica idónea, experiencia, organización y recursos especializados necesarios para el seguimiento del contrato según su objeto, valor y complejidad.",
+    topic: "Interventoría - Requisitos"
+  },
+  {
+    id: 27,
+    question: "El interventor de un contrato de obra debe presentar a la entidad:",
+    options: [
+      "Solo un informe final al terminar el contrato",
+      "Informes periódicos sobre el avance físico y financiero, control de calidad, cumplimiento del cronograma y novedades relevantes",
+      "Únicamente reportes cuando existan incumplimientos",
+      "No está obligado a presentar informes escritos"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "El interventor debe presentar informes periódicos (según se establezca en el contrato) sobre el avance físico y financiero, control de calidad, cumplimiento del cronograma, gestión de riesgos y novedades relevantes del contrato.",
+    topic: "Obligaciones del interventor"
+  },
+  {
+    id: 28,
+    question: "En un contrato de interventoría, el interventor debe:",
+    options: [
+      "Aprobar pagos sin verificar el cumplimiento de requisitos contractuales",
+      "Verificar el cumplimiento de obligaciones del contratista antes de certificar para pago, incluyendo aportes a seguridad social y parafiscales",
+      "Solo verificar aspectos técnicos sin revisar documentación legal",
+      "Autorizar cambios contractuales sin concepto previo"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "El interventor debe verificar integralmente el cumplimiento de obligaciones del contratista antes de certificar para pago, incluyendo aportes a seguridad social, parafiscales, pólizas vigentes y cumplimiento de especificaciones técnicas.",
+    topic: "Verificación de pagos - Interventoría"
+  },
+  {
+    id: 29,
+    question: "Cuando se detectan vicios ocultos en una obra después de la liquidación, el interventor puede ser responsable si:",
+    options: [
+      "En ningún caso, pues su responsabilidad termina con la liquidación del contrato",
+      "Se demuestra que actuó con dolo, culpa grave o negligencia en la supervisión técnica durante la ejecución de la obra",
+      "Solo si el vicio aparece dentro del mes siguiente a la liquidación",
+      "La responsabilidad es exclusiva del constructor sin afectar al interventor"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "El interventor puede ser responsable por vicios ocultos si se demuestra que actuó con dolo, culpa grave o negligencia en la supervisión técnica, incumpliendo sus obligaciones de control de calidad durante la ejecución de la obra.",
+    topic: "Responsabilidad del interventor por vicios"
+  },
+  {
+    id: 30,
+    question: "El interventor tiene prohibido:",
+    options: [
+      "Solicitar información técnica al contratista",
+      "Tener interés directo o indirecto en el contrato principal, ser socio, proveedor o tener vínculos que generen conflicto de interés",
+      "Presentar informes a la entidad contratante",
+      "Asistir a las reuniones de obra"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "El interventor tiene prohibido tener interés directo o indirecto en el contrato objeto de interventoría, ser socio del contratista, proveedor de materiales o tener cualquier vínculo que genere conflicto de interés, según el régimen de inhabilidades e incompatibilidades.",
+    topic: "Prohibiciones del interventor"
+  },
+  // Pólizas y garantías
+  {
+    id: 31,
+    question: "Las garantías en la contratación estatal tienen como finalidad:",
+    options: [
+      "Generar ingresos adicionales para la entidad",
+      "Respaldar el cumplimiento de las obligaciones del contratista y proteger a la entidad de perjuicios derivados del incumplimiento",
+      "Sustituir la obligación de pago del contratista",
+      "Únicamente cubrir riesgos de fuerza mayor"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "Las garantías tienen como finalidad respaldar el cumplimiento de las obligaciones del contratista y proteger a la entidad estatal de perjuicios derivados del incumplimiento, mala calidad o eventos que afecten la correcta ejecución contractual.",
+    topic: "Pólizas y garantías - Finalidad"
+  },
+  {
+    id: 32,
+    question: "La garantía de cumplimiento de un contrato de obra debe cubrir:",
+    options: [
+      "Únicamente el valor total del contrato",
+      "El cumplimiento general del contrato, calidad y correcto funcionamiento de los bienes o servicios, pago de salarios, prestaciones e indemnizaciones laborales, y responsabilidad extracontractual",
+      "Solo los materiales utilizados en la obra",
+      "Exclusivamente los salarios del personal contratista"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "La garantía de cumplimiento debe cubrir: cumplimiento general del contrato, calidad y correcto funcionamiento, pago de salarios y prestaciones sociales, y responsabilidad extracontractual. Los amparos y porcentajes se establecen según el Decreto 1082 de 2015.",
+    topic: "Garantía de cumplimiento - Amparos"
+  },
+  {
+    id: 33,
+    question: "El amparo de calidad y correcto funcionamiento de la obra debe tener una vigencia de:",
+    options: [
+      "Solo hasta la terminación del contrato",
+      "La que se establezca en el contrato, que en ningún caso será inferior a un (1) año contado desde el recibo a satisfacción",
+      "Máximo 6 meses desde la entrega de la obra",
+      "No es obligatorio para contratos de obra"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "El amparo de calidad y correcto funcionamiento (también llamado garantía de estabilidad de la obra) debe tener la vigencia que se establezca en el contrato, que en ningún caso será inferior a un (1) año contado desde el recibo a satisfacción, según el Decreto 1082 de 2015.",
+    topic: "Garantía de calidad - Vigencia"
+  },
+  {
+    id: 34,
+    question: "Si el contratista incumple el contrato y la entidad hace efectiva la póliza de cumplimiento:",
+    options: [
+      "El contratista queda liberado de todas sus obligaciones",
+      "La entidad recibe el valor asegurado de la póliza, pero el contratista sigue siendo responsable por perjuicios que excedan el valor garantizado",
+      "Se termina automáticamente la responsabilidad civil del contratista",
+      "La aseguradora asume la ejecución del contrato"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "Hacer efectiva la póliza no libera al contratista de sus obligaciones. La entidad recibe el valor asegurado, pero el contratista sigue siendo responsable por los perjuicios que excedan el valor garantizado y por las demás obligaciones contractuales y legales.",
+    topic: "Efectos de hacer efectiva la póliza"
+  },
+  {
+    id: 35,
+    question: "La garantía de salarios, prestaciones sociales e indemnizaciones laborales debe ser del:",
+    options: [
+      "5% del valor del contrato",
+      "El equivalente a cinco (5%) por ciento del valor total del contrato y su vigencia debe ser el plazo del contrato y tres (3) años más",
+      "10% del valor del contrato con vigencia de un año",
+      "No es obligatoria en contratos de obra"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "La garantía de pago de salarios, prestaciones sociales e indemnizaciones debe ser del cinco por ciento (5%) del valor total del contrato y su vigencia debe ser el plazo del contrato y tres (3) años más, según el Decreto 1082 de 2015, artículo 2.2.1.2.3.1.2.",
+    topic: "Garantía laboral - Valor y vigencia"
+  },
+  // Ejecución contractual
+  {
+    id: 36,
+    question: "El acta de inicio de un contrato de obra debe contener:",
+    options: [
+      "Solo la fecha de firma del contrato",
+      "La fecha de inicio de ejecución, designación del supervisor o interventor, forma de pago acordada y obligaciones específicas del contratista",
+      "Únicamente la identificación de las partes",
+      "No es obligatoria el acta de inicio"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "El acta de inicio debe indicar la fecha de inicio de ejecución, designación del supervisor o interventor, forma de pago acordada, obligaciones específicas del contratista, cronograma de ejecución y demás aspectos necesarios para la correcta ejecución del contrato.",
+    topic: "Acta de inicio"
+  },
+  {
+    id: 37,
+    question: "Durante la ejecución del contrato, las modificaciones al valor o al plazo requieren:",
+    options: [
+      "Solo el acuerdo verbal entre las partes",
+      "Modificación mediante otrosí o adición contractual, con justificación técnica, legal o financiera, y disponibilidad presupuestal previa",
+      "Únicamente la aprobación del contratista",
+      "No es posible modificar contratos estatales una vez firmados"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "Las modificaciones al valor (adición) o al plazo (prórroga) requieren modificación contractual mediante otrosí, con justificación técnica, legal o financiera documentada, disponibilidad presupuestal previa, y cumplimiento de los límites legales establecidos.",
+    topic: "Modificaciones contractuales"
+  },
+  {
+    id: 38,
+    question: "El límite legal para adicionar el valor de un contrato de obra es:",
+    options: [
+      "Ilimitado, según las necesidades de la obra",
+      "Hasta el cincuenta por ciento (50%) del valor inicialmente pactado, expresado en el mismo",
+      "Máximo el 30% del valor inicial",
+      "No existe límite para contratos de obra pública"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "El artículo 40 de la Ley 80 establece que los contratos pueden adicionarse hasta en un cincuenta por ciento (50%) de su valor inicial, expresado en el mismo, siempre que exista justificación, disponibilidad presupuestal y se mantenga el equilibrio económico.",
+    topic: "Límite de adiciones"
+  },
+  {
+    id: 39,
+    question: "La cesión de un contrato estatal a un tercero requiere:",
+    options: [
+      "Solo la voluntad del contratista cedente",
+      "Autorización previa y expresa de la entidad, verificando que el cesionario cumple con los requisitos de capacidad, experiencia e idoneidad del cedente",
+      "Únicamente notificar a la entidad después de realizada",
+      "No es posible ceder contratos estatales"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "La cesión del contrato requiere autorización previa y expresa de la entidad estatal, quien debe verificar que el cesionario cumple con los requisitos habilitantes de capacidad, experiencia e idoneidad que tenía el cedente al momento de contratar, según el artículo 41 de la Ley 80.",
+    topic: "Cesión de contratos"
+  },
+  {
+    id: 40,
+    question: "La liquidación del contrato de obra debe realizarse:",
+    options: [
+      "Solo cuando existe acuerdo entre las partes, sin límite de tiempo",
+      "De común acuerdo dentro de los cuatro (4) meses siguientes a su terminación, vencimiento o expedición del acto que ordene la terminación, o unilateralmente si no hay acuerdo",
+      "Únicamente de manera unilateral por la entidad",
+      "No es obligatorio liquidar contratos de obra pública"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "El artículo 60 de la Ley 80 establece que la liquidación debe realizarse de común acuerdo dentro de los cuatro (4) meses siguientes a la terminación, vencimiento o expedición del acto que ordene la terminación. Si no hay acuerdo, la entidad puede liquidar unilateralmente dentro de los dos (2) meses siguientes.",
+    topic: "Liquidación de contratos"
   }
 ]
 
@@ -593,12 +879,25 @@ export function ContratacionTest() {
 
   const questions = selectedVersion === "v1" ? questionsV1 : questionsV2
 
+  const handleSubmit = () => {
+    setShowResults(true)
+    setShowFeedback(true)
+  }
+
+  const timer = useTestTimer({
+    totalQuestions: questions.length,
+    timePerQuestion: 120,
+    onTimeUp: handleSubmit,
+    isActive: !showResults
+  })
+
   const handleVersionChange = (value: string) => {
     setSelectedVersion(value as "v1" | "v2")
     // Reiniciar el estado cuando se cambia de versión
     setAnswers({})
     setShowResults(false)
     setShowFeedback(false)
+    timer.resetTimer()
   }
 
   const handleAnswerChange = (questionId: number, answerIndex: number) => {
@@ -624,21 +923,25 @@ export function ContratacionTest() {
     return { correct, total: questions.length, earnedPoints, totalPoints }
   }
 
-  const handleSubmit = () => {
-    setShowResults(true)
-    setShowFeedback(true)
-  }
-
   const handleReset = () => {
     setAnswers({})
     setShowResults(false)
     setShowFeedback(false)
+    timer.resetTimer()
   }
 
   const score = showResults ? calculateScore() : null
 
   return (
     <div className="space-y-6">
+      {!showResults && (
+        <TestTimer
+          formattedTime={timer.formattedTime}
+          timeColor={timer.timeColor}
+          percentageRemaining={timer.percentageRemaining}
+        />
+      )}
+
       <Alert className="border-primary/50 bg-primary/5">
         <InfoIcon className="h-4 w-4" />
         <AlertDescription>

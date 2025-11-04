@@ -8,6 +8,8 @@ import { CheckCircle2, XCircle, InfoIcon } from "lucide-react"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "@/components/ui/label"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { useTestTimer } from "@/hooks/use-test-timer"
+import { TestTimer } from "@/components/test-timer"
 
 interface Question {
   id: number
@@ -593,11 +595,24 @@ export function NormatividadTest() {
 
   const questions = selectedVersion === "v1" ? questionsV1 : questionsV2
 
+  const handleSubmit = () => {
+    setShowResults(true)
+    setShowFeedback(true)
+  }
+
+  const timer = useTestTimer({
+    totalQuestions: questions.length,
+    timePerQuestion: 120,
+    onTimeUp: handleSubmit,
+    isActive: !showResults
+  })
+
   const handleVersionChange = (value: string) => {
     setSelectedVersion(value as "v1" | "v2")
     setAnswers({})
     setShowResults(false)
     setShowFeedback(false)
+    timer.resetTimer()
   }
 
   const handleAnswerChange = (questionId: number, answerIndex: number) => {
@@ -623,21 +638,25 @@ export function NormatividadTest() {
     return { correct, total: questions.length, earnedPoints, totalPoints }
   }
 
-  const handleSubmit = () => {
-    setShowResults(true)
-    setShowFeedback(true)
-  }
-
   const handleReset = () => {
     setAnswers({})
     setShowResults(false)
     setShowFeedback(false)
+    timer.resetTimer()
   }
 
   const score = showResults ? calculateScore() : null
 
   return (
     <div className="space-y-6">
+      {!showResults && (
+        <TestTimer
+          formattedTime={timer.formattedTime}
+          timeColor={timer.timeColor}
+          percentageRemaining={timer.percentageRemaining}
+        />
+      )}
+
       <Alert className="border-primary/50 bg-primary/5">
         <InfoIcon className="h-4 w-4" />
         <AlertDescription>

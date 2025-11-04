@@ -26,8 +26,8 @@ const subjects = [
   {
     id: "razonamiento",
     title: "Razonamiento Analítico",
-    description: "Capacidad de análisis lógico y resolución de problemas",
-    questionsCount: 82,
+    description: "Capacidad de análisis lógico, comprensión lectora y construcción de textos",
+    questionsCount: 253,
   },
 ]
 

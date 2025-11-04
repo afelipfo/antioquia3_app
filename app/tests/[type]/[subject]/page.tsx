@@ -9,6 +9,12 @@ import { MipgTest } from "@/components/mipg-test"
 import { ServicioUsuarioTest } from "@/components/servicio-usuario-test"
 import { RazonamientoTest } from "@/components/razonamiento-test"
 import { JuicioSituacionalTest } from "@/components/juicio-situacional-test"
+import { FormulacionTest } from "@/components/formulacion-test"
+import { GestionProyectosTest } from "@/components/gestion-proyectos-test"
+import { InfraestructuraTest } from "@/components/infraestructura-test"
+import { ObrasPublicasTest } from "@/components/obras-publicas-test"
+import { PqrsdTest } from "@/components/pqrsd-test"
+import { PlanesMejoramientoTest } from "@/components/planes-mejoramiento-test"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Alert, AlertDescription } from "@/components/ui/alert"
@@ -237,6 +243,156 @@ export default async function TestPage({ params }: TestPageProps) {
           </div>
 
           <JuicioSituacionalTest />
+        </main>
+      </div>
+    )
+  }
+
+  if (type === "specific" && subject === "formulacion") {
+    return (
+      <div className="min-h-screen bg-background">
+        <DashboardHeader />
+        <main className="container mx-auto max-w-4xl px-4 py-8">
+          <Button asChild variant="ghost" size="sm" className="mb-6 gap-2">
+            <Link href={`/tests/${type}`}>
+              <ArrowLeft className="h-4 w-4" />
+              Volver a la categoría
+            </Link>
+          </Button>
+
+          <div className="mb-8">
+            <h1 className="text-3xl font-bold text-balance md:text-4xl">Formulación de Planes, Programas y Proyectos</h1>
+            <p className="text-muted-foreground text-balance">
+              Evaluación sobre MGA, ciclo de proyectos, marco lógico y presupuestación
+            </p>
+          </div>
+
+          <FormulacionTest />
+        </main>
+      </div>
+    )
+  }
+
+  if (type === "specific" && subject === "gestion-proyectos") {
+    return (
+      <div className="min-h-screen bg-background">
+        <DashboardHeader />
+        <main className="container mx-auto max-w-4xl px-4 py-8">
+          <Button asChild variant="ghost" size="sm" className="mb-6 gap-2">
+            <Link href={`/tests/${type}`}>
+              <ArrowLeft className="h-4 w-4" />
+              Volver a la categoría
+            </Link>
+          </Button>
+
+          <div className="mb-8">
+            <h1 className="text-3xl font-bold text-balance md:text-4xl">Gestión de Proyectos</h1>
+            <p className="text-muted-foreground text-balance">
+              Evaluación sobre ejecución, indicadores, seguimiento y evaluación de proyectos
+            </p>
+          </div>
+
+          <GestionProyectosTest />
+        </main>
+      </div>
+    )
+  }
+
+  if (type === "specific" && subject === "infraestructura") {
+    return (
+      <div className="min-h-screen bg-background">
+        <DashboardHeader />
+        <main className="container mx-auto max-w-4xl px-4 py-8">
+          <Button asChild variant="ghost" size="sm" className="mb-6 gap-2">
+            <Link href={`/tests/${type}`}>
+              <ArrowLeft className="h-4 w-4" />
+              Volver a la categoría
+            </Link>
+          </Button>
+
+          <div className="mb-8">
+            <h1 className="text-3xl font-bold text-balance md:text-4xl">Infraestructura Física</h1>
+            <p className="text-muted-foreground text-balance">
+              Evaluación sobre NSR-10, normas INVIAS, diseño vial, accesibilidad y presupuestos de obra
+            </p>
+          </div>
+
+          <InfraestructuraTest />
+        </main>
+      </div>
+    )
+  }
+
+  if (type === "specific" && subject === "obras-publicas") {
+    return (
+      <div className="min-h-screen bg-background">
+        <DashboardHeader />
+        <main className="container mx-auto max-w-4xl px-4 py-8">
+          <Button asChild variant="ghost" size="sm" className="mb-6 gap-2">
+            <Link href={`/tests/${type}`}>
+              <ArrowLeft className="h-4 w-4" />
+              Volver a la categoría
+            </Link>
+          </Button>
+
+          <div className="mb-8">
+            <h1 className="text-3xl font-bold text-balance md:text-4xl">Obras Públicas e Hidráulica</h1>
+            <p className="text-muted-foreground text-balance">
+              Evaluación sobre procesos constructivos, mantenimiento vial, hidráulica y seguridad en obra
+            </p>
+          </div>
+
+          <ObrasPublicasTest />
+        </main>
+      </div>
+    )
+  }
+
+  if (type === "specific" && subject === "atencion-pqrs") {
+    return (
+      <div className="min-h-screen bg-background">
+        <DashboardHeader />
+        <main className="container mx-auto max-w-4xl px-4 py-8">
+          <Button asChild variant="ghost" size="sm" className="mb-6 gap-2">
+            <Link href={`/tests/${type}`}>
+              <ArrowLeft className="h-4 w-4" />
+              Volver a la categoría
+            </Link>
+          </Button>
+
+          <div className="mb-8">
+            <h1 className="text-3xl font-bold text-balance md:text-4xl">Atención de Solicitudes PQRSD</h1>
+            <p className="text-muted-foreground text-balance">
+              Evaluación sobre Ley 1755/2015, Ley 1712/2014, transparencia y gestión documental
+            </p>
+          </div>
+
+          <PqrsdTest />
+        </main>
+      </div>
+    )
+  }
+
+  if (type === "specific" && subject === "planes-mejoramiento") {
+    return (
+      <div className="min-h-screen bg-background">
+        <DashboardHeader />
+        <main className="container mx-auto max-w-4xl px-4 py-8">
+          <Button asChild variant="ghost" size="sm" className="mb-6 gap-2">
+            <Link href={`/tests/${type}`}>
+              <ArrowLeft className="h-4 w-4" />
+              Volver a la categoría
+            </Link>
+          </Button>
+
+          <div className="mb-8">
+            <h1 className="text-3xl font-bold text-balance md:text-4xl">Planes de Mejoramiento</h1>
+            <p className="text-muted-foreground text-balance">
+              Evaluación sobre control interno, auditoría, planes de mejoramiento y MIPG
+            </p>
+          </div>
+
+          <PlanesMejoramientoTest />
         </main>
       </div>
     )

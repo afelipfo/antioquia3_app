@@ -8,6 +8,8 @@ import { behavioralSubjects } from "@/lib/behavioral-competencies"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { useTestTimer } from "@/hooks/use-test-timer"
+import { TestTimer } from "@/components/test-timer"
 
 type BehavioralQuizProps = {
   subject: BehavioralSubject
@@ -32,25 +34,7 @@ export function BehavioralQuiz({ subject }: BehavioralQuizProps) {
 
   const unanswered = currentSubject.questions.filter((question) => !answers[question.id])
 
-  const handleVersionChange = (value: string) => {
-    setSelectedVersion(value as "v1" | "v2")
-    // Reiniciar estado cuando se cambia de versión
-    setAnswers({})
-    setSubmitted(false)
-    setScore(0)
-    setShowFeedback(false)
-  }
-
-  const handleChange = (questionId: string, optionValue: string) => {
-    if (submitted) return
-    setAnswers((prev) => ({
-      ...prev,
-      [questionId]: optionValue,
-    }))
-  }
-
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
+  const submitQuiz = () => {
     if (unanswered.length > 0) return
 
     const obtainedScore = currentSubject.questions.reduce((total, question) => {
@@ -66,11 +50,42 @@ export function BehavioralQuiz({ subject }: BehavioralQuizProps) {
     setShowFeedback(false)
   }
 
+  const timer = useTestTimer({
+    totalQuestions: currentSubject.questions.length,
+    timePerQuestion: 120,
+    onTimeUp: submitQuiz,
+    isActive: !submitted
+  })
+
+  const handleVersionChange = (value: string) => {
+    setSelectedVersion(value as "v1" | "v2")
+    // Reiniciar estado cuando se cambia de versión
+    setAnswers({})
+    setSubmitted(false)
+    setScore(0)
+    setShowFeedback(false)
+    timer.resetTimer()
+  }
+
+  const handleChange = (questionId: string, optionValue: string) => {
+    if (submitted) return
+    setAnswers((prev) => ({
+      ...prev,
+      [questionId]: optionValue,
+    }))
+  }
+
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault()
+    submitQuiz()
+  }
+
   const resetQuiz = () => {
     setAnswers({})
     setSubmitted(false)
     setScore(0)
     setShowFeedback(false)
+    timer.resetTimer()
   }
 
   const percentage = submitted && totalScore > 0 ? Math.round((score / totalScore) * 100) : 0
@@ -88,6 +103,14 @@ export function BehavioralQuiz({ subject }: BehavioralQuizProps) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
+      {!submitted && (
+        <TestTimer
+          formattedTime={timer.formattedTime}
+          timeColor={timer.timeColor}
+          percentageRemaining={timer.percentageRemaining}
+        />
+      )}
+
       <Card className="border-white/30 bg-white/80 shadow-lg shadow-primary/15 backdrop-blur">
         <CardHeader>
           <CardTitle className="text-2xl font-semibold text-balance">{currentSubject.title}</CardTitle>

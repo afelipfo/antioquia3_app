@@ -7,6 +7,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { useTestTimer } from "@/hooks/use-test-timer"
+import { TestTimer } from "@/components/test-timer"
 
 type Question = {
   id: number
@@ -641,11 +643,24 @@ export function JuicioSituacionalTest() {
 
   const totalScore = useMemo(() => questions.reduce((sum, q) => sum + q.points, 0), [questions])
 
+  const submitTest = () => {
+    setShowResults(true)
+    setShowFeedback(false)
+  }
+
+  const timer = useTestTimer({
+    totalQuestions: questions.length,
+    timePerQuestion: 120,
+    onTimeUp: submitTest,
+    isActive: !showResults
+  })
+
   const handleVersionChange = (value: string) => {
     setSelectedVersion(value as "v1" | "v2")
     setAnswers({})
     setShowResults(false)
     setShowFeedback(false)
+    timer.resetTimer()
   }
 
   const handleAnswerChange = (questionId: number, answerId: string) => {
@@ -656,15 +671,14 @@ export function JuicioSituacionalTest() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (Object.keys(answers).length < questions.length) return
-
-    setShowResults(true)
-    setShowFeedback(false)
+    submitTest()
   }
 
   const handleReset = () => {
     setAnswers({})
     setShowResults(false)
     setShowFeedback(false)
+    timer.resetTimer()
   }
 
   const score = useMemo(() => {
@@ -694,6 +708,14 @@ export function JuicioSituacionalTest() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
+      {!showResults && (
+        <TestTimer
+          formattedTime={timer.formattedTime}
+          timeColor={timer.timeColor}
+          percentageRemaining={timer.percentageRemaining}
+        />
+      )}
+
       <Card className="border-white/30 bg-white/80 shadow-lg shadow-primary/15 backdrop-blur">
         <CardHeader>
           <CardTitle className="text-2xl font-semibold text-balance">Juicio Situacional</CardTitle>

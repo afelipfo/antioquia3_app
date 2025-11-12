@@ -25,7 +25,7 @@ const questionsV1: Question[] = [
   // PROCESOS CONSTRUCTIVOS (4 preguntas)
   {
     id: 1,
-    question: "En la construcción de pavimentos flexibles, la compactación de la capa de base granular debe alcanzar como mínimo:",
+    question: "Lectura: Un programa de obras viales busca garantizar calidad técnica y cumplimiento normativo en campo. En la construcción de pavimentos flexibles, la compactación de la capa de base granular debe alcanzar como mínimo:",
     options: [
       "85% del ensayo Proctor Modificado",
       "95% del ensayo Proctor Modificado",
@@ -447,7 +447,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 30,
-    question: "El Plan de Gestión Integral de Residuos de Construcción y Demolición (PGIR-CD) debe contemplar:",
+    question: "Lectura: Un programa de obras viales busca garantizar calidad técnica y cumplimiento normativo en campo. El Plan de Gestión Integral de Residuos de Construcción y Demolición (PGIR-CD) debe contemplar:",
     options: [
       "Botar todo en cualquier lugar",
       "Reducción en origen, separación en sitio, reutilización, reciclaje, transporte adecuado, disposición final autorizada, y documentación de cantidades y destinos",

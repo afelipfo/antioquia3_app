@@ -24,7 +24,7 @@ interface Question {
 const questionsV1: Question[] = [
   {
     id: 1,
-    question: "Según Libardo Rodríguez, el derecho administrativo es:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Según Libardo Rodríguez, el derecho administrativo es:",
     options: [
       "Una rama del derecho privado que regula los contratos entre particulares",
       "Una rama del derecho público que regula la organización, actividad y control de la administración pública y la relación Estado-ciudadano por fuera del ámbito contractual o penal",
@@ -290,7 +290,7 @@ const questionsV1: Question[] = [
   },
   {
     id: 20,
-    question: "Según la Corte Constitucional, un acto administrativo es:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Según la Corte Constitucional, un acto administrativo es:",
     options: [
       "Cualquier contrato celebrado por la administración",
       "Una declaración de voluntad, juicio, conocimiento o deseo de la administración en ejercicio de potestad administrativa distinta de la reglamentaria",
@@ -307,7 +307,7 @@ const questionsV1: Question[] = [
 const questionsV2: Question[] = [
   {
     id: 1,
-    question: "¿Cuál de las siguientes actuaciones NO constituye un acto administrativo?",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. ¿Cuál de las siguientes actuaciones NO constituye un acto administrativo?",
     options: [
       "Una resolución que impone una sanción",
       "Una operación administrativa que ejecuta una decisión previa",
@@ -573,7 +573,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 20,
-    question: "El término para interponer los recursos de reposición y apelación es:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El término para interponer los recursos de reposición y apelación es:",
     options: [
       "Cinco días hábiles contados desde la ejecutoria",
       "Diez días hábiles siguientes a la notificación o al acto presunto, pudiendo interponerse en cualquier tiempo contra actos presuntos",

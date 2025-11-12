@@ -25,7 +25,7 @@ const questionsV1: Question[] = [
   // Clasificación de infraestructura
   {
     id: 1,
-    question: "La jerarquización del sistema vial urbano en Colombia clasifica las vías en:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. La jerarquización del sistema vial urbano en Colombia clasifica las vías en:",
     options: [
       "Solo vías principales y secundarias",
       "Vías arterias (V-0, V-1), vías principales (V-2, V-3), vías secundarias (V-4, V-5), vías terciarias (V-6, V-7), vías peatonales (V-8) y ciclorutas (V-9)",
@@ -364,7 +364,7 @@ const questionsV1: Question[] = [
   },
   {
     id: 25,
-    question: "El presupuesto oficial de un proyecto de inversión pública debe incluir:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El presupuesto oficial de un proyecto de inversión pública debe incluir:",
     options: [
       "Solo el costo de construcción",
       "Estudios y diseños, adquisición de predios, construcción, interventoría, gestión ambiental, gestión social, gestión predial, imprevistos, y costos indirectos de la entidad",
@@ -382,7 +382,7 @@ const questionsV2: Question[] = [
   // Clasificación de infraestructura
   {
     id: 1,
-    question: "Los andenes peatonales en zonas urbanas deben tener:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Los andenes peatonales en zonas urbanas deben tener:",
     options: [
       "Cualquier ancho sin restricción",
       "Ancho mínimo de 1.20m en zonas residenciales y 2.00m en zonas comerciales, superficie antideslizante, pendiente transversal máxima 2%, y estar libres de obstáculos",
@@ -721,7 +721,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 25,
-    question: "El acta de precios unitarios fijos sin fórmula de reajuste implica que:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El acta de precios unitarios fijos sin fórmula de reajuste implica que:",
     options: [
       "Los precios pueden cambiar libremente",
       "Los precios pactados permanecen constantes durante toda la ejecución del contrato, asumiendo el contratista el riesgo de variación de costos de insumos",

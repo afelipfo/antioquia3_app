@@ -25,7 +25,7 @@ const questionsV1: Question[] = [
   // DERECHO DE PETICIÓN (8 preguntas)
   {
     id: 1,
-    question: "El derecho de petición en Colombia está regulado principalmente por:",
+    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El derecho de petición en Colombia está regulado principalmente por:",
     options: [
       "Únicamente la Constitución Política",
       "El Código Civil",
@@ -727,7 +727,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 50,
-    question: "El sistema de gestión de documentos electrónicos de archivo (SGDEA) debe garantizar:",
+    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El sistema de gestión de documentos electrónicos de archivo (SGDEA) debe garantizar:",
     options: [
       "Solo almacenar archivos en computador",
       "Autenticidad, integridad, fiabilidad, disponibilidad y trazabilidad de documentos electrónicos durante todo su ciclo de vida, cumpliendo estándares como ISO 15489 y normas AGN",

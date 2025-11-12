@@ -24,7 +24,7 @@ interface Question {
 const questionsV1: Question[] = [
   {
     id: 1,
-    question: "¿Cuál es el propósito central del Modelo Integrado de Planeación y Gestión (MIPG)?",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. ¿Cuál es el propósito central del Modelo Integrado de Planeación y Gestión (MIPG)?",
     options: [
       "Unificar únicamente los manuales de funciones de las entidades públicas",
       "Dirigir, planear, ejecutar, hacer seguimiento, evaluar y controlar la gestión pública para obtener resultados alineados con los planes de desarrollo y resolver necesidades ciudadanas con integridad y calidad",
@@ -290,7 +290,7 @@ const questionsV1: Question[] = [
   },
   {
     id: 20,
-    question: "La política de Defensa Jurídica abarca:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La política de Defensa Jurídica abarca:",
     options: [
       "Únicamente la firma de contratos con abogados externos",
       "Las etapas de prevención del daño antijurídico, defensa judicial, cumplimiento de sentencias y acciones de repetición para recuperar recursos públicos",
@@ -307,7 +307,7 @@ const questionsV1: Question[] = [
 const questionsV2: Question[] = [
   {
     id: 1,
-    question: "El artículo 2.2.22.1.1 del Decreto 1083 de 2015 define el Sistema de Gestión como:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El artículo 2.2.22.1.1 del Decreto 1083 de 2015 define el Sistema de Gestión como:",
     options: [
       "Un manual de procedimientos para trámites ciudadanos",
       "El conjunto de entidades, organismos, políticas y recursos que orientan la gestión pública hacia un mejor desempeño institucional y la satisfacción de necesidades ciudadanas",
@@ -573,7 +573,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 20,
-    question: "¿Cuál entidad lidera la política de Compras y Contratación Pública dentro del MIPG?",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. ¿Cuál entidad lidera la política de Compras y Contratación Pública dentro del MIPG?",
     options: [
       "Agencia Nacional de Contratación Pública – Colombia Compra Eficiente",
       "Departamento Administrativo Nacional de Estadística (DANE)",

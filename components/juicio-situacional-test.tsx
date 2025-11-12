@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
 "use client"
 
 import { useState, useMemo } from "react"
@@ -25,7 +24,7 @@ const questionsV1: Question[] = [
   {
     id: 1,
     scenario: "Un funcionario de atención al público en una oficina gubernamental recibe a un ciudadano muy molesto porque su trámite ha sido rechazado varias veces y exige hablar con un superior.",
-    question: "¿Qué debería hacer el funcionario?",
+    question: "Lectura: Un funcionario de atención al público recibe a un ciudadano muy molesto porque su trámite ha sido rechazado varias veces y exige hablar con un superior. ¿Qué debería hacer el funcionario?",
     options: [
       { id: "a", text: "Ignorar al ciudadano y continuar con su trabajo." },
       { id: "b", text: "Llamar inmediatamente a un superior para que se encargue de la situación." },
@@ -620,7 +619,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 38,
-    question: "¿Qué elementos se deben considerar al analizar un escenario de juicio situacional en el contexto público?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué elementos se deben considerar al analizar un escenario de juicio situacional en el contexto público?",
     options: [
       { id: "a", text: "Solo el beneficio personal que se puede obtener de la situación." },
       { id: "b", text: "El marco normativo aplicable, los principios éticos del servicio público, el impacto en ciudadanos y la misión institucional." },

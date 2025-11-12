@@ -24,7 +24,7 @@ interface Question {
 const questionsV1: Question[] = [
   {
     id: 1,
-    question: "¿Cuál conjunto normativo constituye la base principal del proceso disciplinario colombiano?",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. ¿Cuál conjunto normativo constituye la base principal del proceso disciplinario colombiano?",
     options: [
       "Constitución Política (arts. 6, 90 y 124), Ley 734 de 2002, Ley 1952 de 2019 y Ley 2094 de 2021",
       "Ley 80 de 1993, Ley 1150 de 2007 y Decreto 1082 de 2015",
@@ -290,7 +290,7 @@ const questionsV1: Question[] = [
   },
   {
     id: 20,
-    question: "Una causal de exclusión de responsabilidad disciplinaria es:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Una causal de exclusión de responsabilidad disciplinaria es:",
     options: [
       "Falta de motivación en el fallo",
       "Miedo insuperable o fuerza mayor que impiden actuar conforme al deber",
@@ -307,7 +307,7 @@ const questionsV1: Question[] = [
 const questionsV2: Question[] = [
   {
     id: 1,
-    question: "La clasificación de las faltas gravísimas en el Código General Disciplinario se encuentra:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. La clasificación de las faltas gravísimas en el Código General Disciplinario se encuentra:",
     options: [
       "En los artículos 5 al 20 de la Ley 1952 de 2019",
       "En los artículos 52 al 66 de la Ley 1952 de 2019",
@@ -573,7 +573,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 20,
-    question: "Las sanciones disciplinarias deben registrarse en:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Las sanciones disciplinarias deben registrarse en:",
     options: [
       "El despacho del jefe inmediato",
       "La División de Registro y Control y Correspondencia de la Procuraduría General de la Nación para efectos del certificado de antecedentes",

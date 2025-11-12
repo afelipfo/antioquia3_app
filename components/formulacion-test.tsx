@@ -25,7 +25,7 @@ const questionsV1: Question[] = [
   // Ciclo del proyecto
   {
     id: 1,
-    question: "El ciclo de vida de un proyecto público en Colombia comprende las siguientes fases:",
+    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El ciclo de vida de un proyecto público en Colombia comprende las siguientes fases:",
     options: [
       "Solo formulación y ejecución",
       "Pre-inversión, inversión y operación",
@@ -364,7 +364,7 @@ const questionsV1: Question[] = [
   },
   {
     id: 25,
-    question: "Las metas de un proyecto deben ser:",
+    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Las metas de un proyecto deben ser:",
     options: [
       "Generales y ambiguas",
       "Específicas, Medibles, Alcanzables, Relevantes y con Tiempo definido (criterio SMART)",
@@ -382,7 +382,7 @@ const questionsV2: Question[] = [
   // Ciclo del proyecto
   {
     id: 1,
-    question: "La evaluación ex-post de un proyecto se realiza:",
+    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La evaluación ex-post de un proyecto se realiza:",
     options: [
       "Antes de iniciar el proyecto",
       "Durante la fase de operación, después de finalizada la ejecución, para medir los resultados e impactos reales alcanzados",
@@ -721,7 +721,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 25,
-    question: "El análisis de sensibilidad en la evaluación de proyectos consiste en:",
+    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El análisis de sensibilidad en la evaluación de proyectos consiste en:",
     options: [
       "Solo presentar el escenario optimista",
       "Evaluar cómo cambian los indicadores de viabilidad (VPN, TIR, B/C) ante variaciones en variables críticas como costos, beneficios, demanda o tasa de descuento",

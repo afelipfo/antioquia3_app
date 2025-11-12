@@ -25,7 +25,7 @@ const questionsV1: Question[] = [
   // CONTROL INTERNO (8 preguntas)
   {
     id: 1,
-    question: "El Sistema de Control Interno en Colombia está regulado por:",
+    question: "Lectura: Tras una auditoría, la entidad debe formular y hacer seguimiento a un plan de mejoramiento con responsables claros. El Sistema de Control Interno en Colombia está regulado por:",
     options: [
       "Solo normas internas de cada entidad",
       "La Ley 87 de 1993 y el Decreto 1499 de 2017 (ahora Decreto 1083 de 2015 actualizado)",
@@ -727,7 +727,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 50,
-    question: "La cultura de la calidad y mejora continua se construye mediante:",
+    question: "Lectura: Tras una auditoría, la entidad debe formular y hacer seguimiento a un plan de mejoramiento con responsables claros. La cultura de la calidad y mejora continua se construye mediante:",
     options: [
       "Solo órdenes desde la dirección",
       "Capacitación, comunicación constante, reconocimiento de logros, participación del personal, liderazgo visible, y integración de la calidad en valores y quehacer diario",

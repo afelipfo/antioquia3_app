@@ -25,7 +25,7 @@ const questionsV1: Question[] = [
   // Ejecución de proyectos
   {
     id: 1,
-    question: "El Plan de Ejecución del Proyecto (PEP) es un documento que:",
+    question: "Lectura: Una gerencia ejecuta un proyecto estratégico con cronograma ajustado y múltiples actores. El Plan de Ejecución del Proyecto (PEP) es un documento que:",
     options: [
       "Solo contiene el presupuesto aprobado",
       "Integra y coordina todos los planes subsidiarios del proyecto: alcance, tiempo, costos, calidad, recursos humanos, comunicaciones, riesgos y adquisiciones",
@@ -364,7 +364,7 @@ const questionsV1: Question[] = [
   },
   {
     id: 25,
-    question: "El plan de transición o cierre de un proyecto debe incluir:",
+    question: "Lectura: Una gerencia ejecuta un proyecto estratégico con cronograma ajustado y múltiples actores. El plan de transición o cierre de un proyecto debe incluir:",
     options: [
       "Solo la entrega de llaves de las instalaciones",
       "Transferencia formal de entregables, traspaso de conocimiento y documentación, entrega de responsabilidades operativas, liberación de recursos y cierre administrativo completo",
@@ -382,7 +382,7 @@ const questionsV2: Question[] = [
   // Ejecución de proyectos
   {
     id: 1,
-    question: "La gestión de la calidad en un proyecto de infraestructura incluye:",
+    question: "Lectura: Una gerencia ejecuta un proyecto estratégico con cronograma ajustado y múltiples actores. La gestión de la calidad en un proyecto de infraestructura incluye:",
     options: [
       "Solo inspeccionar al final de la obra",
       "Planificar la calidad, asegurar la calidad mediante procesos preventivos, y controlar la calidad mediante inspecciones y ensayos, cumpliendo normas técnicas aplicables",
@@ -721,7 +721,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 25,
-    question: "La capitalización de experiencias en proyectos consiste en:",
+    question: "Lectura: Una gerencia ejecuta un proyecto estratégico con cronograma ajustado y múltiples actores. La capitalización de experiencias en proyectos consiste en:",
     options: [
       "Solo archivar documentos del proyecto",
       "Sistematizar, analizar y documentar la experiencia del proyecto de manera ordenada, extrayendo aprendizajes, buenas prácticas y recomendaciones para compartir el conocimiento",

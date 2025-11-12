@@ -24,7 +24,7 @@ interface Question {
 const questionsV1: Question[] = [
   {
     id: 1,
-    question: "¿Cuáles son las principales leyes que rigen la contratación estatal en Colombia?",
+    question: "Lectura: La Alcaldía abrió una licitación para modernizar la infraestructura vial y debe garantizar transparencia en cada etapa del proceso. ¿Cuáles son las principales leyes que la entidad debe consultar para regir la contratación estatal en Colombia?",
     options: [
       "Ley 80 de 1993, Ley 1150 de 2007 y Decreto 1082 de 2015",
       "Ley 100 de 1993, Ley 715 de 2001 y Decreto 2555 de 2010",
@@ -574,7 +574,7 @@ const questionsV1: Question[] = [
   },
   {
     id: 40,
-    question: "La liquidación del contrato de obra debe realizarse:",
+    question: "Lectura: La Alcaldía abrió una licitación para modernizar la infraestructura vial y debe garantizar transparencia en cada etapa del proceso. La liquidación del contrato de obra debe realizarse:",
     options: [
       "Solo cuando existe acuerdo entre las partes, sin límite de tiempo",
       "De común acuerdo dentro de los cuatro (4) meses siguientes a su terminación, vencimiento o expedición del acto que ordene la terminación, o unilateralmente si no hay acuerdo",
@@ -591,7 +591,7 @@ const questionsV1: Question[] = [
 const questionsV2: Question[] = [
   {
     id: 1,
-    question: "Los principios constitucionales que fundamentan la contratación estatal según la Ley 80 incluyen:",
+    question: "Lectura: La Alcaldía abrió una licitación para modernizar la infraestructura vial y debe garantizar transparencia en cada etapa del proceso. Los principios constitucionales que fundamentan la contratación estatal según la Ley 80 incluyen:",
     options: [
       "Solo transparencia y economía",
       "Transparencia, economía, responsabilidad y selección objetiva, garantizando legalidad, igualdad, debido proceso, buena fe, imparcialidad, eficacia, moralidad, celeridad y publicidad",

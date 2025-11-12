@@ -25,6 +25,12 @@
     "paths": {
       "@/*": [
         "./*"
+      ],
+      "clsx": [
+        "./lib/clsx.ts"
+      ],
+      "class-variance-authority": [
+        "./lib/cva.ts"
       ]
     }
   },

@@ -24,7 +24,7 @@ interface Question {
 const questionsV1: Question[] = [
   {
     id: 1,
-    question: "¿Cuál es el objetivo central de la presentación “Protocolos de Atención al Ciudadano y aplicación de la NTC 6047”?",
+    question: "Lectura: En el Centro Integrado de Atención se reciben altos volúmenes de PQRS y se busca fortalecer la experiencia del ciudadano. ¿Cuál es el objetivo central de la presentación “Protocolos de Atención al Ciudadano y aplicación de la NTC 6047”?",
     options: [
       "Enseñar técnicas de evaluación para concursos de mérito",
       "Introducir la importancia de la atención al ciudadano y los protocolos de la NTC 6047 para garantizar servicios de calidad",
@@ -309,7 +309,7 @@ const questionsV1: Question[] = [
   },
   {
     id: 20,
-    question: "La presentación busca mejorar la atención al ciudadano mediante:",
+    question: "Lectura: En el Centro Integrado de Atención se reciben altos volúmenes de PQRS y se busca fortalecer la experiencia del ciudadano. La presentación busca mejorar la atención al ciudadano mediante:",
     options: [
       "La imposición de sanciones disciplinarias a los asistentes",
       "La comprensión de los protocolos, la sensibilización sobre derechos y deberes y la aplicación práctica de la NTC 6047",
@@ -327,7 +327,7 @@ const questionsV1: Question[] = [
 const questionsV2: Question[] = [
   {
     id: 1,
-    question: "Durante una inducción sobre la NTC 6047, un asistente pregunta si existen evaluaciones dentro de la presentación. La respuesta correcta es:",
+    question: "Lectura: Durante una inducción sobre la NTC 6047, un asistente pregunta si existen evaluaciones dentro de la presentación. La respuesta correcta es:",
     options: [
       "Sí, incluye cuestionarios de opción múltiple en cada módulo",
       "No, es material informativo para capacitación sin preguntas de examen",
@@ -612,7 +612,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 20,
-    question: "Para reforzar la cultura de servicio tras la capacitación, la entidad debería:",
+    question: "Lectura: En el Centro Integrado de Atención se reciben altos volúmenes de PQRS y se busca fortalecer la experiencia del ciudadano. Para reforzar la cultura de servicio tras la capacitación, la entidad debería:",
     options: [
       "Suspender sesiones de formación para enfocarse en indicadores",
       "Actualizar protocolos, socializar la Carta de Trato Digno y evaluar periódicamente el ciclo del servicio",

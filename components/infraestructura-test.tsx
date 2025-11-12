@@ -39,7 +39,7 @@ const questionsV1: Question[] = [
   },
   {
     id: 2,
-    question: "Los equipamientos colectivos de una ciudad incluyen:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Los equipamientos colectivos de una ciudad incluyen:",
     options: [
       "Solo viviendas privadas",
       "Infraestructuras de educación, salud, cultura, recreación, deporte, seguridad, servicios públicos y administración pública",
@@ -48,12 +48,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Los equipamientos colectivos son infraestructuras de uso público que prestan servicios sociales: educación (colegios), salud (hospitales), cultura (bibliotecas, teatros), recreación (parques), deporte (polideportivos), seguridad (CAI), servicios (mercados) y administración.",
+    explanation: "En la situación descrita, los equipamientos colectivos son infraestructuras de uso público que prestan servicios sociales: educación (colegios), salud (hospitales), cultura (bibliotecas, teatros), recreación (parques), deporte (polideportivos), seguridad (CAI), servicios (mercados) y administración.",
     topic: "Equipamientos colectivos"
   },
   {
     id: 3,
-    question: "El espacio público en áreas urbanas comprende:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El espacio público en áreas urbanas comprende:",
     options: [
       "Solo parques y jardines",
       "Vías peatonales, andenes, separadores, parques, plazas, plazoletas, zonas verdes, mobiliario urbano y elementos naturales como ríos y quebradas",
@@ -62,12 +62,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El espacio público incluye: vías y áreas peatonales, andenes, separadores viales, parques, plazas, plazoletas, zonas verdes, mobiliario urbano (bancas, luminarias), y elementos naturales del paisaje como cuerpos de agua y zonas de protección ambiental.",
+    explanation: "En la situación descrita, el espacio público incluye: vías y áreas peatonales, andenes, separadores viales, parques, plazas, plazoletas, zonas verdes, mobiliario urbano (bancas, luminarias), y elementos naturales del paisaje como cuerpos de agua y zonas de protección ambiental.",
     topic: "Espacio público"
   },
   {
     id: 4,
-    question: "La clasificación funcional de carreteras en Colombia según el Manual de Diseño Geométrico INVIAS incluye:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. La clasificación funcional de carreteras en Colombia según el Manual de Diseño Geométrico INVIAS incluye:",
     options: [
       "Solo autopistas",
       "Primarias o troncales (conectan principales centros), secundarias o interregionales (conectan cabeceras municipales) y terciarias o veredales (penetración rural)",
@@ -76,12 +76,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La clasificación funcional según INVIAS: Primarias o troncales (conectan principales centros de producción y consumo), secundarias o interregionales (conectan cabeceras municipales), y terciarias o veredales (acceso a veredas y zonas rurales de producción).",
+    explanation: "En la situación descrita, la clasificación funcional según INVIAS: Primarias o troncales (conectan principales centros de producción y consumo), secundarias o interregionales (conectan cabeceras municipales), y terciarias o veredales (acceso a veredas y zonas rurales de producción).",
     topic: "Clasificación de carreteras"
   },
   {
     id: 5,
-    question: "Los diferentes tipos de infraestructura pública incluyen:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Los diferentes tipos de infraestructura pública incluyen:",
     options: [
       "Solo infraestructura vial",
       "Infraestructura vial (vías, puentes), hidráulica (acueducto, alcantarillado), social (educación, salud), recreativa (parques, escenarios deportivos) y de servicios (mercados, cementerios)",
@@ -90,13 +90,13 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La infraestructura pública se clasifica en: vial (vías, puentes, ciclorutas), hidráulica y sanitaria (acueducto, alcantarillado, drenaje), social (equipamientos de educación, salud), recreativa y deportiva (parques, polideportivos), y de servicios públicos (mercados, plazas de mercado, cementerios).",
+    explanation: "En la situación descrita, la infraestructura pública se clasifica en: vial (vías, puentes, ciclorutas), hidráulica y sanitaria (acueducto, alcantarillado, drenaje), social (equipamientos de educación, salud), recreativa y deportiva (parques, polideportivos), y de servicios públicos (mercados, plazas de mercado, cementerios).",
     topic: "Tipos de infraestructura"
   },
   // Diseño de infraestructura
   {
     id: 6,
-    question: "Los estudios topográficos para proyectos de infraestructura deben incluir:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Los estudios topográficos para proyectos de infraestructura deben incluir:",
     options: [
       "Solo mediciones aproximadas",
       "Levantamiento planimétrico y altimétrico, localización de redes existentes, linderos, curvas de nivel, perfiles longitudinales y transversales, y georreferenciación en sistema de coordenadas oficial",
@@ -105,12 +105,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Los estudios topográficos incluyen: levantamiento planimétrico (coordenadas X,Y) y altimétrico (cotas Z), localización de redes de servicios públicos existentes, linderos y construcciones, curvas de nivel, perfiles longitudinales y transversales del terreno, y georreferenciación en sistema Magna-Sirgas.",
+    explanation: "En la situación descrita, los estudios topográficos incluyen: levantamiento planimétrico (coordenadas X,Y) y altimétrico (cotas Z), localización de redes de servicios públicos existentes, linderos y construcciones, curvas de nivel, perfiles longitudinales y transversales del terreno, y georreferenciación en sistema Magna-Sirgas.",
     topic: "Estudios topográficos"
   },
   {
     id: 7,
-    question: "El estudio geotécnico y de suelos de un proyecto de infraestructura determina:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El estudio geotécnico y de suelos de un proyecto de infraestructura determina:",
     options: [
       "Solo el color del suelo",
       "Estratigrafía del subsuelo, propiedades mecánicas del suelo (capacidad portante, compresibilidad, expansividad), nivel freático, recomendaciones de cimentación y estabilidad de taludes",
@@ -119,12 +119,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El estudio geotécnico determina: estratigrafía (capas del subsuelo), propiedades físicas y mecánicas (granulometría, plasticidad, resistencia, compresibilidad, expansividad), capacidad portante, nivel freático, estabilidad de taludes, y recomendaciones para tipo de cimentación y movimiento de tierras.",
+    explanation: "En la situación descrita, el estudio geotécnico determina: estratigrafía (capas del subsuelo), propiedades físicas y mecánicas (granulometría, plasticidad, resistencia, compresibilidad, expansividad), capacidad portante, nivel freático, estabilidad de taludes, y recomendaciones para tipo de cimentación y movimiento de tierras.",
     topic: "Estudio geotécnico"
   },
   {
     id: 8,
-    question: "El diseño geométrico de una vía urbana debe considerar:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El diseño geométrico de una vía urbana debe considerar:",
     options: [
       "Solo el ancho de la calzada",
       "Velocidad de diseño, radio de curvatura horizontal y vertical, peralte, pendientes longitudinales, distancia de visibilidad, ancho de carriles, bermas y obras de drenaje",
@@ -133,12 +133,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El diseño geométrico considera: velocidad de diseño, alineamiento horizontal (radios de curvatura, peralte, transiciones), alineamiento vertical (pendientes, curvas verticales), distancia de visibilidad de parada y adelantamiento, sección transversal (ancho de carriles, bermas, andenes), y obras de drenaje.",
+    explanation: "En la situación descrita, el diseño geométrico considera: velocidad de diseño, alineamiento horizontal (radios de curvatura, peralte, transiciones), alineamiento vertical (pendientes, curvas verticales), distancia de visibilidad de parada y adelantamiento, sección transversal (ancho de carriles, bermas, andenes), y obras de drenaje.",
     topic: "Diseño geométrico vial"
   },
   {
     id: 9,
-    question: "Las especificaciones técnicas de un proyecto de infraestructura definen:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Las especificaciones técnicas de un proyecto de infraestructura definen:",
     options: [
       "Solo el presupuesto del proyecto",
       "Los requisitos de calidad de materiales, procedimientos constructivos, equipos a utilizar, tolerancias dimensionales, controles de calidad y ensayos requeridos para cada actividad",
@@ -147,12 +147,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las especificaciones técnicas detallan para cada actividad: requisitos de calidad de materiales (normas ICONTEC, ASTM), procedimientos constructivos paso a paso, equipos y herramientas, tolerancias dimensionales, controles de calidad, ensayos y pruebas requeridos, y criterios de aceptación.",
+    explanation: "En la situación descrita, las especificaciones técnicas detallan para cada actividad: requisitos de calidad de materiales (normas ICONTEC, ASTM), procedimientos constructivos paso a paso, equipos y herramientas, tolerancias dimensionales, controles de calidad, ensayos y pruebas requeridos, y criterios de aceptación.",
     topic: "Especificaciones técnicas"
   },
   {
     id: 10,
-    question: "Los planos de un proyecto de infraestructura deben incluir:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Los planos de un proyecto de infraestructura deben incluir:",
     options: [
       "Solo el plano de localización",
       "Planos arquitectónicos, estructurales, hidráulicos, sanitarios, eléctricos, de detalles constructivos, cortes, secciones, especificaciones y notas técnicas",
@@ -161,12 +161,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Los planos incluyen: localización general, arquitectónicos (plantas, fachadas), estructurales (cimentación, estructura), instalaciones hidráulicas y sanitarias, instalaciones eléctricas, detalles constructivos ampliados, cortes y secciones, especificaciones técnicas, notas y convenciones, y cuadro de áreas.",
+    explanation: "En la situación descrita, los planos incluyen: localización general, arquitectónicos (plantas, fachadas), estructurales (cimentación, estructura), instalaciones hidráulicas y sanitarias, instalaciones eléctricas, detalles constructivos ampliados, cortes y secciones, especificaciones técnicas, notas y convenciones, y cuadro de áreas.",
     topic: "Planos del proyecto"
   },
   {
     id: 11,
-    question: "Las memorias de cálculo de un proyecto estructural deben contener:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Las memorias de cálculo de un proyecto estructural deben contener:",
     options: [
       "Solo el resultado final sin justificación",
       "Criterios de diseño, cargas consideradas (muertas, vivas, sísmicas), combinaciones de carga, análisis estructural, diseño de elementos (cimentación, columnas, vigas, losas), cumplimiento de norma NSR-10",
@@ -175,12 +175,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las memorias de cálculo documentan: criterios y normas de diseño (NSR-10), caracterización de materiales, cargas (muertas, vivas, sismo), combinaciones de carga, modelo y análisis estructural, diseño y verificación de cada elemento (cimentación, columnas, vigas, muros, losas, conexiones), y cumplimiento de requisitos normativos.",
+    explanation: "En la situación descrita, las memorias de cálculo documentan: criterios y normas de diseño (NSR-10), caracterización de materiales, cargas (muertas, vivas, sismo), combinaciones de carga, modelo y análisis estructural, diseño y verificación de cada elemento (cimentación, columnas, vigas, muros, losas, conexiones), y cumplimiento de requisitos normativos.",
     topic: "Memorias de cálculo"
   },
   {
     id: 12,
-    question: "El diseño de pavimento flexible de una vía requiere:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El diseño de pavimento flexible de una vía requiere:",
     options: [
       "Solo estimar espesores al azar",
       "Estudio de tránsito (número de ejes equivalentes), caracterización de subrasante (CBR), diseño de estructura de pavimento (subbase, base, rodadura) según método AASHTO o INVIAS, y drenaje",
@@ -189,12 +189,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El diseño de pavimento flexible requiere: estudio de tránsito para determinar ejes equivalentes (ESAL), caracterización de subrasante mediante ensayo CBR, diseño de estructura (espesores de subbase, base granular, capa asfáltica) según metodología AASHTO o Manual INVIAS, y diseño de obras de drenaje.",
+    explanation: "En la situación descrita, el diseño de pavimento flexible requiere: estudio de tránsito para determinar ejes equivalentes (ESAL), caracterización de subrasante mediante ensayo CBR, diseño de estructura (espesores de subbase, base granular, capa asfáltica) según metodología AASHTO o Manual INVIAS, y diseño de obras de drenaje.",
     topic: "Diseño de pavimento"
   },
   {
     id: 13,
-    question: "Los estudios de impacto ambiental de proyectos de infraestructura deben incluir:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Los estudios de impacto ambiental de proyectos de infraestructura deben incluir:",
     options: [
       "Solo una carta de intención",
       "Línea base ambiental, identificación y evaluación de impactos, Plan de Manejo Ambiental (PMA), Plan de Gestión Social (PGS), y Plan de Compensación y Restauración",
@@ -203,13 +203,13 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El estudio de impacto ambiental incluye: línea base (medio físico, biótico, social), identificación y evaluación de impactos (matrices, metodología), Plan de Manejo Ambiental (prevención, mitigación, corrección, compensación), Plan de Gestión Social, permisos ambientales requeridos y plan de seguimiento.",
+    explanation: "En la situación descrita, el estudio de impacto ambiental incluye: línea base (medio físico, biótico, social), identificación y evaluación de impactos (matrices, metodología), Plan de Manejo Ambiental (prevención, mitigación, corrección, compensación), Plan de Gestión Social, permisos ambientales requeridos y plan de seguimiento.",
     topic: "Impacto ambiental de infraestructura"
   },
   // Normas técnicas
   {
     id: 14,
-    question: "La NSR-10 (Reglamento Colombiano de Construcción Sismo Resistente) establece requisitos para:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. La NSR-10 (Reglamento Colombiano de Construcción Sismo Resistente) establece requisitos para:",
     options: [
       "Solo edificios de gran altura",
       "Diseño y construcción sismo resistente de edificaciones, incluyendo cargas, análisis estructural, diseño de elementos, supervisión técnica y requisitos de calidad de materiales",
@@ -218,12 +218,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La NSR-10 (Ley 400 de 1997, Decreto 926 de 2010) regula el diseño y construcción sismo resistente de edificaciones nuevas en Colombia, estableciendo: requisitos de estudios de suelos, análisis y diseño estructural, calidad de materiales, supervisión técnica, y aspectos arquitectónicos y de instalaciones.",
+    explanation: "En la situación descrita, la NSR-10 (Ley 400 de 1997, Decreto 926 de 2010) regula el diseño y construcción sismo resistente de edificaciones nuevas en Colombia, estableciendo: requisitos de estudios de suelos, análisis y diseño estructural, calidad de materiales, supervisión técnica, y aspectos arquitectónicos y de instalaciones.",
     topic: "NSR-10"
   },
   {
     id: 15,
-    question: "Los Títulos de la NSR-10 abarcan:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Los Títulos de la NSR-10 abarcan:",
     options: [
       "Solo diseño de concreto",
       "Título A (requisitos generales), B (cargas), C (concreto), D (mampostería), E (casas de uno y dos pisos), F (estructuras metálicas), G (madera), H (estudios geotécnicos), I (cubiertas), J (requisitos de protección contra incendios), K (requisitos complementarios)",
@@ -232,12 +232,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La NSR-10 comprende: Título A (requisitos generales, licencias, supervisión), B (cargas), C (concreto reforzado), D (mampostería estructural), E (casas de uno y dos pisos), F (estructuras metálicas), G (madera), H (estudios geotécnicos, cimentaciones), I (cubiertas), J (protección contra incendios), K (complementarios).",
+    explanation: "En la situación descrita, la NSR-10 comprende: Título A (requisitos generales, licencias, supervisión), B (cargas), C (concreto reforzado), D (mampostería estructural), E (casas de uno y dos pisos), F (estructuras metálicas), G (madera), H (estudios geotécnicos, cimentaciones), I (cubiertas), J (protección contra incendios), K (complementarios).",
     topic: "Estructura NSR-10"
   },
   {
     id: 16,
-    question: "El Manual de Diseño Geométrico de Carreteras del INVIAS establece criterios para:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El Manual de Diseño Geométrico de Carreteras del INVIAS establece criterios para:",
     options: [
       "Solo el color de señalización",
       "Clasificación de carreteras, velocidad de diseño, alineamiento horizontal y vertical, sección transversal, distancias de visibilidad, intersecciones y obras de drenaje",
@@ -246,12 +246,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El Manual INVIAS define criterios para: clasificación funcional de vías, velocidades de diseño según categoría, diseño de alineamiento horizontal (radios, peralte, transición), alineamiento vertical (pendientes, curvas), sección transversal (carriles, bermas, cunetas), visibilidad, intersecciones y drenaje vial.",
+    explanation: "En la situación descrita, el Manual INVIAS define criterios para: clasificación funcional de vías, velocidades de diseño según categoría, diseño de alineamiento horizontal (radios, peralte, transición), alineamiento vertical (pendientes, curvas), sección transversal (carriles, bermas, cunetas), visibilidad, intersecciones y drenaje vial.",
     topic: "Manual INVIAS"
   },
   {
     id: 17,
-    question: "La Resolución 0549 de 2015 del MinVivienda establece parámetros para:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. La Resolución 0549 de 2015 del MinVivienda establece parámetros para:",
     options: [
       "Solo rampas de acceso",
       "Accesibilidad universal en edificaciones y espacios urbanos para personas con movilidad reducida: rampas, pasamanos, baños accesibles, señalización, circulaciones y mobiliario urbano",
@@ -260,12 +260,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La Resolución 0549/2015 regula la accesibilidad universal estableciendo parámetros técnicos para: rampas (pendientes, descansos), pasamanos, puertas, baños accesibles, ascensores, rutas accesibles, circulaciones, señalización táctil y visual, y mobiliario urbano accesible en edificaciones y espacio público.",
+    explanation: "En la situación descrita, la Resolución 0549/2015 regula la accesibilidad universal estableciendo parámetros técnicos para: rampas (pendientes, descansos), pasamanos, puertas, baños accesibles, ascensores, rutas accesibles, circulaciones, señalización táctil y visual, y mobiliario urbano accesible en edificaciones y espacio público.",
     topic: "Accesibilidad - Resolución 0549"
   },
   {
     id: 18,
-    question: "Las pendientes máximas en rampas de acceso según Resolución 0549/2015 son:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Las pendientes máximas en rampas de acceso según Resolución 0549/2015 son:",
     options: [
       "30% sin restricción",
       "Hasta 12% para desniveles hasta 15cm; hasta 10% para desniveles entre 15cm y 75cm; hasta 8% para desniveles entre 75cm y 150cm; y hasta 6% para desniveles mayores",
@@ -274,12 +274,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La Resolución 0549 establece pendientes máximas para rampas según el desnivel a salvar: hasta 12% (desnivel ≤15cm), hasta 10% (15cm<desnivel≤75cm), hasta 8% (75cm<desnivel≤150cm), y hasta 6% (desnivel>150cm). Además requiere descansos cada 9 metros y pasamanos continuos.",
+    explanation: "En la situación descrita, la Resolución 0549 establece pendientes máximas para rampas según el desnivel a salvar: hasta 12% (desnivel ≤15cm), hasta 10% (15cm<desnivel≤75cm), hasta 8% (75cm<desnivel≤150cm), y hasta 6% (desnivel>150cm). Además requiere descansos cada 9 metros y pasamanos continuos.",
     topic: "Pendientes en rampas"
   },
   {
     id: 19,
-    question: "Las especificaciones generales de construcción de carreteras del INVIAS establecen requisitos para:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Las especificaciones generales de construcción de carreteras del INVIAS establecen requisitos para:",
     options: [
       "Solo el transporte de materiales",
       "Movimiento de tierras, obras de drenaje, pavimentos (subbases, bases, carpetas asfálticas, concreto), puentes, señalización, seguridad vial y protección ambiental",
@@ -288,12 +288,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las Especificaciones INVIAS definen requisitos para: movimiento de tierras (excavación, terraplenes, compactación), obras de drenaje (alcantarillas, cunetas, filtros), pavimentos (subbases, bases, mezclas asfálticas, concreto hidráulico), estructuras (puentes), señalización, seguridad vial, protección ambiental, y ensayos de control de calidad.",
+    explanation: "En la situación descrita, las Especificaciones INVIAS definen requisitos para: movimiento de tierras (excavación, terraplenes, compactación), obras de drenaje (alcantarillas, cunetas, filtros), pavimentos (subbases, bases, mezclas asfálticas, concreto hidráulico), estructuras (puentes), señalización, seguridad vial, protección ambiental, y ensayos de control de calidad.",
     topic: "Especificaciones INVIAS"
   },
   {
     id: 20,
-    question: "Las normas técnicas ICONTEC (Instituto Colombiano de Normas Técnicas) regulan:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Las normas técnicas ICONTEC (Instituto Colombiano de Normas Técnicas) regulan:",
     options: [
       "Solo exportaciones",
       "Requisitos de calidad, especificaciones técnicas, métodos de ensayo y certificación para materiales de construcción, productos, procesos y servicios utilizados en infraestructura",
@@ -302,13 +302,13 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las NTC (Normas Técnicas Colombianas) establecen: requisitos de calidad y especificaciones para materiales de construcción (cemento, acero, agregados), métodos de ensayo y muestreo, procedimientos de certificación, y requisitos para productos, procesos y servicios. Son referencia en contratos y especificaciones técnicas.",
+    explanation: "En la situación descrita, las NTC (Normas Técnicas Colombianas) establecen: requisitos de calidad y especificaciones para materiales de construcción (cemento, acero, agregados), métodos de ensayo y muestreo, procedimientos de certificación, y requisitos para productos, procesos y servicios. Son referencia en contratos y especificaciones técnicas.",
     topic: "Normas ICONTEC"
   },
   // Presupuestos de obra
   {
     id: 21,
-    question: "El Análisis de Precios Unitarios (APU) de una actividad de construcción incluye:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El Análisis de Precios Unitarios (APU) de una actividad de construcción incluye:",
     options: [
       "Solo el costo total sin detallar",
       "Costos de materiales (cantidades y precios), mano de obra (rendimientos y salarios), equipos y herramientas (rendimientos y tarifas), transporte, y porcentajes de administración, imprevistos y utilidad",
@@ -317,12 +317,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El APU desglosa todos los costos directos e indirectos de una unidad de obra: materiales (cantidades, desperdicios, precios), mano de obra (cuadrilla, rendimiento, salarios, prestaciones), equipos (rendimiento, tarifas), transporte, más porcentajes de administración, imprevistos y utilidad. Se expresa en $/unidad (m3, m2, ml, UN).",
+    explanation: "En la situación descrita, el APU desglosa todos los costos directos e indirectos de una unidad de obra: materiales (cantidades, desperdicios, precios), mano de obra (cuadrilla, rendimiento, salarios, prestaciones), equipos (rendimiento, tarifas), transporte, más porcentajes de administración, imprevistos y utilidad. Se expresa en $/unidad (m3, m2, ml, UN).",
     topic: "Análisis de Precios Unitarios (APU)"
   },
   {
     id: 22,
-    question: "Las cantidades de obra de un presupuesto se calculan a partir de:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Las cantidades de obra de un presupuesto se calculan a partir de:",
     options: [
       "Estimaciones sin sustento técnico",
       "Los planos y especificaciones técnicas del proyecto, mediante levantamiento o cuantificación detallada de cada actividad (volúmenes, áreas, longitudes, unidades)",
@@ -331,12 +331,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las cantidades de obra se cuantifican rigurosamente a partir de los planos (plantas, cortes, detalles) y especificaciones técnicas del proyecto, calculando volúmenes de excavación, áreas de pavimento, longitudes de tubería, unidades de elementos, considerando desperdicios normales. Cada cantidad debe sustentarse con memorias de cálculo.",
+    explanation: "En la situación descrita, las cantidades de obra se cuantifican rigurosamente a partir de los planos (plantas, cortes, detalles) y especificaciones técnicas del proyecto, calculando volúmenes de excavación, áreas de pavimento, longitudes de tubería, unidades de elementos, considerando desperdicios normales. Cada cantidad debe sustentarse con memorias de cálculo.",
     topic: "Cantidades de obra"
   },
   {
     id: 23,
-    question: "El cronograma valorado de un proyecto relaciona:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El cronograma valorado de un proyecto relaciona:",
     options: [
       "Solo fechas de actividades",
       "El cronograma de ejecución de actividades con los costos asociados a cada periodo (mensual o semanal), permitiendo la programación de flujo de caja del proyecto",
@@ -345,12 +345,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El cronograma valorado integra la programación temporal de actividades con sus costos, indicando cuánto se debe invertir en cada periodo (semana o mes). Permite: programar flujo de caja, establecer cronograma de desembolsos, determinar avance financiero esperado, y controlar la ejecución presupuestal del proyecto.",
+    explanation: "En la situación descrita, el cronograma valorado integra la programación temporal de actividades con sus costos, indicando cuánto se debe invertir en cada periodo (semana o mes). Permite: programar flujo de caja, establecer cronograma de desembolsos, determinar avance financiero esperado, y controlar la ejecución presupuestal del proyecto.",
     topic: "Cronograma valorado"
   },
   {
     id: 24,
-    question: "Las fórmulas de reajuste de precios en contratos de obra pública permiten:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Las fórmulas de reajuste de precios en contratos de obra pública permiten:",
     options: [
       "Modificar arbitrariamente los precios",
       "Ajustar el valor del contrato cuando varían los costos de insumos (materiales, mano de obra, equipos) durante la ejecución, según índices oficiales (DANE, Banco de la República)",
@@ -359,7 +359,7 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las fórmulas de reajuste (polinómicas o monomiales) ajustan el valor del contrato cuando varían los índices de precios de insumos durante la ejecución, protegiendo el equilibrio económico. Utilizan índices oficiales del DANE o Banco de la República para materiales, mano de obra y equipos, según participación porcentual en el presupuesto.",
+    explanation: "En la situación descrita, las fórmulas de reajuste (polinómicas o monomiales) ajustan el valor del contrato cuando varían los índices de precios de insumos durante la ejecución, protegiendo el equilibrio económico. Utilizan índices oficiales del DANE o Banco de la República para materiales, mano de obra y equipos, según participación porcentual en el presupuesto.",
     topic: "Fórmulas de reajuste"
   },
   {
@@ -396,7 +396,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 2,
-    question: "Las ciclorutas o infraestructura para bicicletas deben diseñarse con:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Las ciclorutas o infraestructura para bicicletas deben diseñarse con:",
     options: [
       "Solo pintura en la vía vehicular",
       "Ancho mínimo de 1.20m por sentido, separación física o visual de vehículos motorizados, pendientes controladas, radios de curvatura adecuados, señalización específica y conexión con red de transporte",
@@ -405,12 +405,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las ciclorutas requieren: ancho mínimo 1.20m unidireccional o 2.50m bidireccional, separación de tráfico motorizado (física o demarcación), pendientes máximas 6-8%, radios de curvatura mínimos, pavimento antideslizante, señalización horizontal y vertical específica, iluminación, y conexión con sistema de transporte público.",
+    explanation: "En la situación descrita, las ciclorutas requieren: ancho mínimo 1.20m unidireccional o 2.50m bidireccional, separación de tráfico motorizado (física o demarcación), pendientes máximas 6-8%, radios de curvatura mínimos, pavimento antideslizante, señalización horizontal y vertical específica, iluminación, y conexión con sistema de transporte público.",
     topic: "Diseño de ciclorutas"
   },
   {
     id: 3,
-    question: "La clasificación del suelo según su capacidad portante (CBR) es:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. La clasificación del suelo según su capacidad portante (CBR) es:",
     options: [
       "Solo suelo bueno o malo",
       "Inadecuado (CBR<3%), pobre (3%≤CBR<5%), regular (5%≤CBR<10%), bueno (10%≤CBR<20%), muy bueno (20%≤CBR<30%), excelente (CBR≥30%)",
@@ -419,12 +419,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La clasificación por CBR (California Bearing Ratio) es: Inadecuado (CBR<3%), Pobre (3-5%), Regular (5-10%), Bueno (10-20%), Muy bueno (20-30%), Excelente (≥30%). El CBR es fundamental para diseño de pavimentos y determina el espesor de las capas estructurales.",
+    explanation: "En la situación descrita, la clasificación por CBR (California Bearing Ratio) es: Inadecuado (CBR<3%), Pobre (3-5%), Regular (5-10%), Bueno (10-20%), Muy bueno (20-30%), Excelente (≥30%). El CBR es fundamental para diseño de pavimentos y determina el espesor de las capas estructurales.",
     topic: "Clasificación de suelos por CBR"
   },
   {
     id: 4,
-    question: "La carga viva vehicular de diseño para puentes en Colombia según la NSR-10 y CCP-14 es:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. La carga viva vehicular de diseño para puentes en Colombia según la NSR-10 y CCP-14 es:",
     options: [
       "Solo vehículos livianos",
       "Camión C40-95 o HS20-44 y sistema de cargas alternativo (carril más tandem), considerando factor de carga y reducción por número de carriles",
@@ -433,12 +433,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El diseño de puentes utiliza: Camión de diseño C40-95 (equivalente HS20-44), Sistema alternativo de carga (carril uniforme + tandem), con factores de carga según LRFD y reducción por múltiples carriles cargados. Se considera también carga peatonal, sísmica, viento, temperatura y fuerzas de frenado.",
+    explanation: "En la situación descrita, el diseño de puentes utiliza: Camión de diseño C40-95 (equivalente HS20-44), Sistema alternativo de carga (carril uniforme + tandem), con factores de carga según LRFD y reducción por múltiples carriles cargados. Se considera también carga peatonal, sísmica, viento, temperatura y fuerzas de frenado.",
     topic: "Cargas de diseño en puentes"
   },
   {
     id: 5,
-    question: "Los elementos constitutivos naturales del espacio público incluyen:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Los elementos constitutivos naturales del espacio público incluyen:",
     options: [
       "Solo construcciones urbanas",
       "Áreas de protección de ríos, quebradas, nacimientos de agua, humedales, zonas de reserva forestal, parques naturales y elementos del paisaje natural",
@@ -447,13 +447,13 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Los elementos naturales del espacio público comprenden: áreas de protección y rondas de ríos, quebradas y cuerpos de agua, zonas de nacimientos de agua, humedales, zonas de reserva forestal protectora, parques naturales, cerros tutelares y elementos naturales del paisaje que hacen parte del patrimonio ambiental.",
+    explanation: "En la situación descrita, los elementos naturales del espacio público comprenden: áreas de protección y rondas de ríos, quebradas y cuerpos de agua, zonas de nacimientos de agua, humedales, zonas de reserva forestal protectora, parques naturales, cerros tutelares y elementos naturales del paisaje que hacen parte del patrimonio ambiental.",
     topic: "Elementos naturales del espacio público"
   },
   // Diseño de infraestructura
   {
     id: 6,
-    question: "El peralte en curvas horizontales de una vía sirve para:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El peralte en curvas horizontales de una vía sirve para:",
     options: [
       "Solo estética vial",
       "Contrarrestar la fuerza centrífuga que actúa sobre los vehículos en curvas, mejorando la seguridad y comodidad, mediante inclinación transversal de la calzada",
@@ -462,12 +462,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El peralte es la inclinación transversal de la calzada en curvas horizontales que contrarresta la fuerza centrífuga, permitiendo que los vehículos circulen con seguridad a la velocidad de diseño. Se calcula según radio de curvatura y velocidad. Los valores típicos varían entre 2% (mínimo) y 8-10% (máximo en zonas urbanas).",
+    explanation: "En la situación descrita, el peralte es la inclinación transversal de la calzada en curvas horizontales que contrarresta la fuerza centrífuga, permitiendo que los vehículos circulen con seguridad a la velocidad de diseño. Se calcula según radio de curvatura y velocidad. Los valores típicos varían entre 2% (mínimo) y 8-10% (máximo en zonas urbanas).",
     topic: "Peralte en curvas"
   },
   {
     id: 7,
-    question: "La distancia de visibilidad de parada en una vía es:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. La distancia de visibilidad de parada en una vía es:",
     options: [
       "Cualquier distancia al azar",
       "La longitud de vía requerida para que un conductor pueda detener su vehículo antes de alcanzar un obstáculo visible, considerando tiempo de reacción y distancia de frenado",
@@ -476,12 +476,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La distancia de visibilidad de parada es la suma de: distancia recorrida durante el tiempo de percepción-reacción del conductor (típicamente 2.5 segundos), más la distancia de frenado considerando la velocidad de diseño, pendiente y coeficiente de fricción. Es fundamental para el diseño seguro de alineamientos horizontal y vertical.",
+    explanation: "En la situación descrita, la distancia de visibilidad de parada es la suma de: distancia recorrida durante el tiempo de percepción-reacción del conductor (típicamente 2.5 segundos), más la distancia de frenado considerando la velocidad de diseño, pendiente y coeficiente de fricción. Es fundamental para el diseño seguro de alineamientos horizontal y vertical.",
     topic: "Distancia de visibilidad"
   },
   {
     id: 8,
-    question: "El bombeo de una vía en tramos rectos es:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El bombeo de una vía en tramos rectos es:",
     options: [
       "La profundidad de excavación",
       "La inclinación transversal de la calzada desde el eje hacia los bordes para evacuar el agua lluvia, típicamente entre 1.5% y 2.5%",
@@ -490,12 +490,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El bombeo es la inclinación transversal de la calzada en tramos rectos que facilita el drenaje superficial del agua lluvia desde el centro hacia las cunetas laterales. Los valores típicos son: 1.5-2% para pavimentos asfálticos o concreto, 2-3% para pavimentos en adoquín o grava.",
+    explanation: "En la situación descrita, el bombeo es la inclinación transversal de la calzada en tramos rectos que facilita el drenaje superficial del agua lluvia desde el centro hacia las cunetas laterales. Los valores típicos son: 1.5-2% para pavimentos asfálticos o concreto, 2-3% para pavimentos en adoquín o grava.",
     topic: "Bombeo de vías"
   },
   {
     id: 9,
-    question: "Las bermas o espaldones de una carretera son:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Las bermas o espaldones de una carretera son:",
     options: [
       "Solo vegetación lateral",
       "Franjas longitudinales contiguas a la calzada, de ancho variable según categoría de vía, que sirven como zona de escape, soporte lateral del pavimento y zona de trabajo en mantenimiento",
@@ -504,12 +504,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las bermas son franjas longitudinales paralelas a la calzada que proporcionan: zona de escape para vehículos en emergencia, soporte lateral para la estructura del pavimento, espacio para maniobras de mantenimiento, ubicación de señalización, y mejora en seguridad vial. El ancho varía entre 0.50m y 3.00m según categoría de vía.",
+    explanation: "En la situación descrita, las bermas son franjas longitudinales paralelas a la calzada que proporcionan: zona de escape para vehículos en emergencia, soporte lateral para la estructura del pavimento, espacio para maniobras de mantenimiento, ubicación de señalización, y mejora en seguridad vial. El ancho varía entre 0.50m y 3.00m según categoría de vía.",
     topic: "Bermas en carreteras"
   },
   {
     id: 10,
-    question: "El módulo de rotura del concreto (Mr) se utiliza para:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El módulo de rotura del concreto (Mr) se utiliza para:",
     options: [
       "Solo estimar costos",
       "Diseñar pavimentos rígidos de concreto hidráulico, expresado en MPa, y representa la resistencia a la flexión del concreto",
@@ -518,12 +518,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El Módulo de Rotura (Mr) es la resistencia a la flexión del concreto utilizada en diseño de pavimentos rígidos, expresada en MPa. Valores típicos: 3.8-4.5 MPa para vías de bajo tráfico, 4.0-4.5 MPa para tráfico medio, 4.5-5.0 MPa para tráfico alto. Se determina mediante ensayo de viga simple a los 28 días.",
+    explanation: "En la situación descrita, el Módulo de Rotura (Mr) es la resistencia a la flexión del concreto utilizada en diseño de pavimentos rígidos, expresada en MPa. Valores típicos: 3.8-4.5 MPa para vías de bajo tráfico, 4.0-4.5 MPa para tráfico medio, 4.5-5.0 MPa para tráfico alto. Se determina mediante ensayo de viga simple a los 28 días.",
     topic: "Módulo de rotura del concreto"
   },
   {
     id: 11,
-    question: "Las juntas de construcción en pavimentos de concreto sirven para:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Las juntas de construcción en pavimentos de concreto sirven para:",
     options: [
       "Solo decoración",
       "Controlar el agrietamiento por retracción del concreto, permitir movimientos térmicos, delimitar áreas de vaciado y facilitar el proceso constructivo",
@@ -532,12 +532,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las juntas en pavimentos rígidos son: Juntas transversales de contracción (controlan fisuras, cada 3-5m), juntas longitudinales (entre carriles), juntas de construcción (límite de jornadas de vaciado), y juntas de expansión (permiten dilatación térmica). Requieren sellado y diseño de transferencia de carga con pasajuntas o dovelas.",
+    explanation: "En la situación descrita, las juntas en pavimentos rígidos son: Juntas transversales de contracción (controlan fisuras, cada 3-5m), juntas longitudinales (entre carriles), juntas de construcción (límite de jornadas de vaciado), y juntas de expansión (permiten dilatación térmica). Requieren sellado y diseño de transferencia de carga con pasajuntas o dovelas.",
     topic: "Juntas en pavimentos de concreto"
   },
   {
     id: 12,
-    question: "El ensayo Proctor de compactación de suelos determina:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El ensayo Proctor de compactación de suelos determina:",
     options: [
       "Solo el color del suelo",
       "La densidad seca máxima que puede alcanzar un suelo y la humedad óptima de compactación, fundamentales para el control de calidad de terraplenes y capas de pavimento",
@@ -546,12 +546,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El ensayo Proctor (estándar o modificado) determina: la densidad seca máxima (γd max) que puede alcanzar el suelo y el contenido de humedad óptimo (w opt) para lograrla. Es fundamental para: especificar grados de compactación (90%, 95%, 100% del Proctor), controlar calidad de terraplenes, subbases y bases granulares.",
+    explanation: "En la situación descrita, el ensayo Proctor (estándar o modificado) determina: la densidad seca máxima (γd max) que puede alcanzar el suelo y el contenido de humedad óptimo (w opt) para lograrla. Es fundamental para: especificar grados de compactación (90%, 95%, 100% del Proctor), controlar calidad de terraplenes, subbases y bases granulares.",
     topic: "Ensayo Proctor"
   },
   {
     id: 13,
-    question: "El diseño de intersecciones viales debe considerar:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El diseño de intersecciones viales debe considerar:",
     options: [
       "Solo semáforos",
       "Volúmenes de tráfico, movimientos vehiculares (giros), carriles de aceleración y desaceleración, radios de giro, visibilidad, señalización, semaforización y seguridad de peatones y ciclistas",
@@ -560,13 +560,13 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El diseño de intersecciones considera: análisis de volúmenes y capacidad, geometría de movimientos (directos, giros), carriles de aceleración/desaceleración, radios de giro según vehículo de diseño, distancias de visibilidad (triángulo de visibilidad), señalización horizontal y vertical, semaforización (si aplica), y diseño de pasos peatonales y cruces ciclistas seguros.",
+    explanation: "En la situación descrita, el diseño de intersecciones considera: análisis de volúmenes y capacidad, geometría de movimientos (directos, giros), carriles de aceleración/desaceleración, radios de giro según vehículo de diseño, distancias de visibilidad (triángulo de visibilidad), señalización horizontal y vertical, semaforización (si aplica), y diseño de pasos peatonales y cruces ciclistas seguros.",
     topic: "Diseño de intersecciones"
   },
   // Normas técnicas
   {
     id: 14,
-    question: "El espectro de diseño sísmico según NSR-10 depende de:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El espectro de diseño sísmico según NSR-10 depende de:",
     options: [
       "Solo el área de construcción",
       "La zona de amenaza sísmica, el tipo de suelo de fundación, el grupo de uso de la edificación y el sistema estructural empleado",
@@ -575,12 +575,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El espectro de diseño sísmico se define según: zona de amenaza sísmica (baja, intermedia, alta), perfil de suelo (A a F según rigidez), grupo de uso (I a IV según importancia), y coeficientes de modificación de respuesta (R) según sistema estructural. Determina las fuerzas sísmicas de diseño.",
+    explanation: "En la situación descrita, el espectro de diseño sísmico se define según: zona de amenaza sísmica (baja, intermedia, alta), perfil de suelo (A a F según rigidez), grupo de uso (I a IV según importancia), y coeficientes de modificación de respuesta (R) según sistema estructural. Determina las fuerzas sísmicas de diseño.",
     topic: "Espectro de diseño sísmico"
   },
   {
     id: 15,
-    question: "El recubrimiento mínimo de concreto sobre refuerzo según NSR-10 en elementos expuestos a la intemperie es:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El recubrimiento mínimo de concreto sobre refuerzo según NSR-10 en elementos expuestos a la intemperie es:",
     options: [
       "5mm en todos los casos",
       "Para barras #5 y menores: 40mm; para barras #6 y mayores: 50mm; en elementos en contacto con suelo: 75mm",
@@ -589,12 +589,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La NSR-10 establece recubrimientos mínimos para protección del refuerzo según exposición: Concreto en contacto con suelo: 75mm; Expuesto a intemperie: 40mm (barras ≤#5) o 50mm (barras ≥#6); Interior no expuesto: 40mm (vigas, columnas), 20mm (losas). Garantiza protección contra corrosión y adherencia.",
+    explanation: "En la situación descrita, la NSR-10 establece recubrimientos mínimos para protección del refuerzo según exposición: Concreto en contacto con suelo: 75mm; Expuesto a intemperie: 40mm (barras ≤#5) o 50mm (barras ≥#6); Interior no expuesto: 40mm (vigas, columnas), 20mm (losas). Garantiza protección contra corrosión y adherencia.",
     topic: "Recubrimientos en concreto reforzado"
   },
   {
     id: 16,
-    question: "La velocidad de diseño en carreteras según INVIAS se selecciona considerando:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. La velocidad de diseño en carreteras según INVIAS se selecciona considerando:",
     options: [
       "Solo el deseo del diseñador",
       "La categoría funcional de la vía, topografía del terreno (plano, ondulado, montañoso), volumen de tráfico proyectado y costos de construcción",
@@ -603,12 +603,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La velocidad de diseño se selecciona según: categoría de vía (primaria: 80-110 km/h, secundaria: 60-80 km/h, terciaria: 30-60 km/h), topografía (plana, ondulada, montañosa, escarpada), TPD (tráfico promedio diario), restricciones económicas. Determina todos los elementos geométricos: radios, peraltes, visibilidad.",
+    explanation: "En la situación descrita, la velocidad de diseño se selecciona según: categoría de vía (primaria: 80-110 km/h, secundaria: 60-80 km/h, terciaria: 30-60 km/h), topografía (plana, ondulada, montañosa, escarpada), TPD (tráfico promedio diario), restricciones económicas. Determina todos los elementos geométricos: radios, peraltes, visibilidad.",
     topic: "Velocidad de diseño de carreteras"
   },
   {
     id: 17,
-    question: "Los requisitos de accesibilidad para baños públicos según Resolución 0549 incluyen:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. Los requisitos de accesibilidad para baños públicos según Resolución 0549 incluyen:",
     options: [
       "Solo mayor tamaño",
       "Dimensiones mínimas (1.50m x 1.70m), área de maniobra para silla de ruedas, sanitario con barras de apoyo, lavamanos accesible sin pedestal, grifería de palanca, espejo inclinado y señalización",
@@ -617,12 +617,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Los baños accesibles requieren: dimensiones mínimas 1.50m x 1.70m libres, puerta mínimo 0.90m que abre hacia afuera, área de transferencia lateral al sanitario (0.90m), barras de apoyo abatibles (0.75-0.80m altura), lavamanos sin pedestal (altura 0.80-0.85m), grifería de palanca o sensor, espejo inclinado desde 0.90m, señalización con símbolo internacional.",
+    explanation: "En la situación descrita, los baños accesibles requieren: dimensiones mínimas 1.50m x 1.70m libres, puerta mínimo 0.90m que abre hacia afuera, área de transferencia lateral al sanitario (0.90m), barras de apoyo abatibles (0.75-0.80m altura), lavamanos sin pedestal (altura 0.80-0.85m), grifería de palanca o sensor, espejo inclinado desde 0.90m, señalización con símbolo internacional.",
     topic: "Baños accesibles"
   },
   {
     id: 18,
-    question: "La NTC 4595 (Ingeniería Civil y Arquitectura. Planeamiento y Diseño de Instalaciones de Estacionamientos) establece:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. La NTC 4595 (Ingeniería Civil y Arquitectura. Planeamiento y Diseño de Instalaciones de Estacionamientos) establece:",
     options: [
       "Solo el número de parqueaderos requeridos",
       "Dimensiones mínimas de espacios de parqueo (tipo de vehículo), anchos de circulación, rampas, radios de giro, estacionamientos accesibles, señalización y ventilación",
@@ -631,12 +631,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La NTC 4595 define: dimensiones mínimas de espacios (2.30-2.50m x 4.50-5.00m según tipo), anchos de circulación (3.00-6.50m), pendientes de rampas (máx 15%), radios de giro, estacionamientos accesibles (5% del total, mínimo 1), señalización horizontal y vertical, iluminación, ventilación mecánica si aplica.",
+    explanation: "En la situación descrita, la NTC 4595 define: dimensiones mínimas de espacios (2.30-2.50m x 4.50-5.00m según tipo), anchos de circulación (3.00-6.50m), pendientes de rampas (máx 15%), radios de giro, estacionamientos accesibles (5% del total, mínimo 1), señalización horizontal y vertical, iluminación, ventilación mecánica si aplica.",
     topic: "NTC 4595 - Parqueaderos"
   },
   {
     id: 19,
-    question: "El ensayo Marshall para mezclas asfálticas determina:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El ensayo Marshall para mezclas asfálticas determina:",
     options: [
       "Solo el color del asfalto",
       "El contenido óptimo de asfalto de la mezcla, estabilidad (resistencia a la deformación), flujo, porcentaje de vacíos y propiedades volumétricas",
@@ -645,12 +645,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El ensayo Marshall determina: contenido óptimo de cemento asfáltico (%), estabilidad (resistencia a la deformación en kN), flujo o deformación (mm), porcentaje de vacíos con aire (VCA), vacíos del agregado mineral (VAM), vacíos llenos de asfalto (VFA). Asegura desempeño adecuado del pavimento asfáltico.",
+    explanation: "En la situación descrita, el ensayo Marshall determina: contenido óptimo de cemento asfáltico (%), estabilidad (resistencia a la deformación en kN), flujo o deformación (mm), porcentaje de vacíos con aire (VCA), vacíos del agregado mineral (VAM), vacíos llenos de asfalto (VFA). Asegura desempeño adecuado del pavimento asfáltico.",
     topic: "Ensayo Marshall"
   },
   {
     id: 20,
-    question: "La señalización vial según el Manual de Señalización Vial del MinTransporte comprende:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. La señalización vial según el Manual de Señalización Vial del MinTransporte comprende:",
     options: [
       "Solo semáforos",
       "Señales verticales (reglamentarias, preventivas, informativas), señalización horizontal (demarcación), señales transitorias (obras), y dispositivos de seguridad (delineadores, tachas, barreras)",
@@ -659,13 +659,13 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La señalización vial incluye: Verticales (reglamentarias-orden, preventivas-advertencia, informativas-orientación), Horizontales (líneas, símbolos, letras, tachas reflectivas), Transitorias (obras en la vía), y Dispositivos de seguridad (delineadores, barreras, reductores de velocidad). Cada tipo tiene especificaciones de forma, color, tamaño, ubicación y retroreflectividad.",
+    explanation: "En la situación descrita, la señalización vial incluye: Verticales (reglamentarias-orden, preventivas-advertencia, informativas-orientación), Horizontales (líneas, símbolos, letras, tachas reflectivas), Transitorias (obras en la vía), y Dispositivos de seguridad (delineadores, barreras, reductores de velocidad). Cada tipo tiene especificaciones de forma, color, tamaño, ubicación y retroreflectividad.",
     topic: "Señalización vial"
   },
   // Presupuestos de obra
   {
     id: 21,
-    question: "El rendimiento de mano de obra en un APU representa:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El rendimiento de mano de obra en un APU representa:",
     options: [
       "Solo el salario del trabajador",
       "La cantidad de unidades de obra que una cuadrilla puede ejecutar en una jornada laboral (jornadas/unidad o unidades/jornada)",
@@ -674,12 +674,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El rendimiento expresa la productividad de la cuadrilla de trabajo, indicando cuántas jornadas se requieren para ejecutar una unidad de obra (jornadas/m3, jornadas/m2) o cuántas unidades se ejecutan en una jornada (m3/jornada). Se determina por análisis histórico, estudios de tiempo o referencia de manuales técnicos. Afecta directamente el costo.",
+    explanation: "En la situación descrita, el rendimiento expresa la productividad de la cuadrilla de trabajo, indicando cuántas jornadas se requieren para ejecutar una unidad de obra (jornadas/m3, jornadas/m2) o cuántas unidades se ejecutan en una jornada (m3/jornada). Se determina por análisis histórico, estudios de tiempo o referencia de manuales técnicos. Afecta directamente el costo.",
     topic: "Rendimientos de mano de obra"
   },
   {
     id: 22,
-    question: "El costo horario de un equipo de construcción considera:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El costo horario de un equipo de construcción considera:",
     options: [
       "Solo el precio de compra",
       "Depreciación, intereses sobre inversión, seguros, costos de operación (combustible, lubricantes, llantas), mantenimiento y reparaciones, y operador si aplica",
@@ -688,12 +688,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El costo horario del equipo incluye: Costos de posesión (depreciación, intereses sobre capital invertido, seguros, almacenamiento) y Costos de operación (combustible, energía, lubricantes, filtros, llantas, mantenimiento preventivo y correctivo, reparaciones, operador si aplica). Se calcula según vida útil, valor de salvamento y horas trabajadas al año.",
+    explanation: "En la situación descrita, el costo horario del equipo incluye: Costos de posesión (depreciación, intereses sobre capital invertido, seguros, almacenamiento) y Costos de operación (combustible, energía, lubricantes, filtros, llantas, mantenimiento preventivo y correctivo, reparaciones, operador si aplica). Se calcula según vida útil, valor de salvamento y horas trabajadas al año.",
     topic: "Costo horario de equipos"
   },
   {
     id: 23,
-    question: "El factor prestacional en Colombia para calcular el costo real de mano de obra incluye:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. El factor prestacional en Colombia para calcular el costo real de mano de obra incluye:",
     options: [
       "Solo el salario básico",
       "Prestaciones sociales (cesantías, intereses, prima, vacaciones), seguridad social (salud, pensión, ARL), aportes parafiscales (SENA, ICBF, Caja de Compensación), dotación y herramientas",
@@ -702,12 +702,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El factor prestacional (típicamente 52-58%) incluye: Prestaciones (cesantías 8.33%, intereses 1%, prima 8.33%, vacaciones 4.17%), Seguridad Social (salud 8.5%, pensión 12%, ARL 0.522-6.96%), Parafiscales (SENA 2%, ICBF 3%, CCF 4%), dotación, herramientas menores. Se multiplica por el salario básico para obtener costo real.",
+    explanation: "En la situación descrita, el factor prestacional (típicamente 52-58%) incluye: Prestaciones (cesantías 8.33%, intereses 1%, prima 8.33%, vacaciones 4.17%), Seguridad Social (salud 8.5%, pensión 12%, ARL 0.522-6.96%), Parafiscales (SENA 2%, ICBF 3%, CCF 4%), dotación, herramientas menores. Se multiplica por el salario básico para obtener costo real.",
     topic: "Factor prestacional"
   },
   {
     id: 24,
-    question: "La Administración, Imprevistos y Utilidad (AIU) en un presupuesto representan:",
+    question: "Lectura: La entidad administra una red de infraestructura física que requiere mantenimiento y control patrimonial. La Administración, Imprevistos y Utilidad (AIU) en un presupuesto representan:",
     options: [
       "Solo ganancias del contratista",
       "Costos indirectos de administración del contratista, imprevistos (riesgos no cuantificables) y utilidad o margen de ganancia esperado, expresados como porcentajes sobre costos directos",
@@ -716,7 +716,7 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El AIU comprende: Administración (gastos indirectos: personal administrativo, oficina, equipos de oficina, servicios, típicamente 10-18%), Imprevistos (contingencias para riesgos no cuantificados, típicamente 3-5%), Utilidad (margen de ganancia esperado por el contratista, típicamente 5-10%). Se calcula sobre la sumatoria de costos directos.",
+    explanation: "En la situación descrita, el AIU comprende: Administración (gastos indirectos: personal administrativo, oficina, equipos de oficina, servicios, típicamente 10-18%), Imprevistos (contingencias para riesgos no cuantificados, típicamente 3-5%), Utilidad (margen de ganancia esperado por el contratista, típicamente 5-10%). Se calcula sobre la sumatoria de costos directos.",
     topic: "Administración, Imprevistos y Utilidad (AIU)"
   },
   {

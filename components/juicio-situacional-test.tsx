@@ -40,7 +40,7 @@ const questionsV1: Question[] = [
   {
     id: 2,
     scenario: "Eres supervisor en una oficina de registro civil. Uno de tus empleados llega tarde repetidamente y su rendimiento ha disminuido; otros empleados empiezan a quejarse.",
-    question: "¿Cómo abordarías esta situación?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo abordarías esta situación?",
     options: [
       { id: "a", text: "Ignorar el problema y esperar que se resuelva solo." },
       { id: "b", text: "Regañar al empleado frente a sus compañeros para que sirva de ejemplo." },
@@ -48,14 +48,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "Informar al departamento de recursos humanos para que tomen medidas disciplinarias." },
     ],
     correct: "c",
-    explanation: "Hablar en privado con el empleado demuestra respeto, permite entender las causas del problema y buscar soluciones constructivas. Es la mejor práctica de gestión de personas.",
+    explanation: "En la situación descrita, hablar en privado con el empleado demuestra respeto, permite entender las causas del problema y buscar soluciones constructivas. Es la mejor práctica de gestión de personas.",
     points: 5,
   },
   // Ejemplo 3
   {
     id: 3,
     scenario: "Estás a cargo de un proyecto con plazo ajustado. Un miembro clave del equipo solicita una semana de licencia por motivos personales.",
-    question: "¿Qué harías en esta situación?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué harías en esta situación?",
     options: [
       { id: "a", text: "Negar la solicitud de licencia y exigir que el miembro se quede para cumplir con el plazo." },
       { id: "b", text: "Aceptar la solicitud de licencia sin ajustar el plan del proyecto." },
@@ -63,14 +63,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "Pedir al miembro del equipo que trabaje desde casa durante su licencia." },
     ],
     correct: "c",
-    explanation: "Aceptar la licencia y redistribuir tareas demuestra flexibilidad, respeto por el bienestar del equipo y capacidad de adaptación para cumplir objetivos.",
+    explanation: "En la situación descrita, aceptar la licencia y redistribuir tareas demuestra flexibilidad, respeto por el bienestar del equipo y capacidad de adaptación para cumplir objetivos.",
     points: 5,
   },
   // Ejemplo 4
   {
     id: 4,
     scenario: "Eres responsable de implementar un nuevo sistema de gestión. Algunos empleados se resisten al cambio y continúan utilizando el sistema antiguo.",
-    question: "¿Cómo manejarías esta resistencia al cambio?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo manejarías esta resistencia al cambio?",
     options: [
       { id: "a", text: "Ignorar a los empleados que se resisten y seguir adelante con la implementación." },
       { id: "b", text: "Forzar a los empleados a usar el nuevo sistema bajo amenaza de sanciones." },
@@ -78,14 +78,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "Permitir que los empleados elijan qué sistema quieren usar." },
     ],
     correct: "c",
-    explanation: "Organizar capacitaciones y explicar beneficios es la mejor estrategia para gestionar la resistencia al cambio, generando comprensión y aceptación.",
+    explanation: "En la situación descrita, organizar capacitaciones y explicar beneficios es la mejor estrategia para gestionar la resistencia al cambio, generando comprensión y aceptación.",
     points: 5,
   },
   // Ejemplo 5
   {
     id: 5,
     scenario: "Un ciudadano presenta una queja formal sobre el comportamiento de un colega, alegando trato irrespetuoso y discriminatorio.",
-    question: "¿Cuál sería tu curso de acción?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál sería tu curso de acción?",
     options: [
       { id: "a", text: "Ignorar la queja y continuar con tus tareas." },
       { id: "b", text: "Informar inmediatamente a tu superior y solicitar una investigación interna." },
@@ -93,13 +93,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Pedir al ciudadano que retire la queja para evitar problemas." },
     ],
     correct: "b",
-    explanation: "Ante una queja formal por trato irrespetuoso o discriminatorio, el protocolo correcto es informar al superior y solicitar investigación formal para garantizar imparcialidad.",
+    explanation: "En la situación descrita, ante una queja formal por trato irrespetuoso o discriminatorio, el protocolo correcto es informar al superior y solicitar investigación formal para garantizar imparcialidad.",
     points: 5,
   },
   // Actividad 1 - Desarrollo sostenible
   {
     id: 6,
-    question: "¿Cuál es el objetivo principal del desarrollo sostenible?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál es el objetivo principal del desarrollo sostenible?",
     options: [
       { id: "a", text: "Incrementar el crecimiento económico." },
       { id: "b", text: "Satisfacer las necesidades del presente sin comprometer el futuro." },
@@ -107,13 +107,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Aumentar la inclusión social." },
     ],
     correct: "b",
-    explanation: "El desarrollo sostenible busca satisfacer las necesidades del presente sin comprometer la capacidad de las futuras generaciones, equilibrando economía, inclusión social y medio ambiente.",
+    explanation: "En la situación descrita, el desarrollo sostenible busca satisfacer las necesidades del presente sin comprometer la capacidad de las futuras generaciones, equilibrando economía, inclusión social y medio ambiente.",
     points: 5,
   },
   {
     id: 7,
     scenario: "Eres asesor de políticas públicas y debes explicar la importancia del desarrollo sostenible a un grupo de empresarios preocupados por los costos.",
-    question: "¿Cómo lo explicarías?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo lo explicarías?",
     options: [
       { id: "a", text: "Enfatizando solo los beneficios económicos." },
       { id: "b", text: "Mostrando cómo la sostenibilidad puede mejorar la reputación y atraer inversiones." },
@@ -121,13 +121,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Focalizándote únicamente en la inclusión social." },
     ],
     correct: "b",
-    explanation: "Mostrar cómo la sostenibilidad mejora la reputación y atrae inversiones conecta los valores ambientales con los intereses empresariales de forma estratégica.",
+    explanation: "En la situación descrita, mostrar cómo la sostenibilidad mejora la reputación y atrae inversiones conecta los valores ambientales con los intereses empresariales de forma estratégica.",
     points: 5,
   },
   // Actividad 2 - Tecnología y redes sociales
   {
     id: 8,
-    question: "Según los avances del siglo XXI, ¿qué ha permitido la tecnología?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. Según los avances del siglo XXI, ¿qué ha permitido la tecnología?",
     options: [
       { id: "a", text: "Una desconexión global." },
       { id: "b", text: "Una conexión instantánea y global." },
@@ -135,13 +135,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Una reducción en la seguridad." },
     ],
     correct: "b",
-    explanation: "La tecnología ha permitido una conexión instantánea y global, transformando la forma en que nos comunicamos, aunque presenta desafíos de privacidad y seguridad.",
+    explanation: "En la situación descrita, la tecnología ha permitido una conexión instantánea y global, transformando la forma en que nos comunicamos, aunque presenta desafíos de privacidad y seguridad.",
     points: 5,
   },
   {
     id: 9,
     scenario: "Eres experto en ciberseguridad y das una charla a estudiantes sobre redes sociales.",
-    question: "¿Cómo abordarías los desafíos de privacidad y seguridad?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo abordarías los desafíos de privacidad y seguridad?",
     options: [
       { id: "a", text: "Minimizando los riesgos." },
       { id: "b", text: "Enfatizando la importancia de la privacidad y ofreciendo consejos prácticos." },
@@ -149,13 +149,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Focalizándote solo en los aspectos positivos de las redes sociales." },
     ],
     correct: "b",
-    explanation: "Enfatizar la importancia de la privacidad y ofrecer consejos prácticos es la mejor forma de educar sobre ciberseguridad de manera efectiva y útil.",
+    explanation: "En la situación descrita, enfatizar la importancia de la privacidad y ofrecer consejos prácticos es la mejor forma de educar sobre ciberseguridad de manera efectiva y útil.",
     points: 5,
   },
   // Actividad 3 - Cambio climático
   {
     id: 10,
-    question: "¿Cuál es uno de los efectos del cambio climático?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál es uno de los efectos del cambio climático?",
     options: [
       { id: "a", text: "La reducción de las temperaturas globales." },
       { id: "b", text: "El aumento de las temperaturas globales." },
@@ -163,13 +163,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "La disminución de fenómenos meteorológicos extremos." },
     ],
     correct: "b",
-    explanation: "El cambio climático causa el aumento de las temperaturas globales, el derretimiento de glaciares y mayor frecuencia de fenómenos meteorológicos extremos.",
+    explanation: "En la situación descrita, el cambio climático causa el aumento de las temperaturas globales, el derretimiento de glaciares y mayor frecuencia de fenómenos meteorológicos extremos.",
     points: 5,
   },
   {
     id: 11,
     scenario: "Eres científico ambiental y debes presentar un informe a políticos sobre el cambio climático.",
-    question: "¿Cómo destacarías la urgencia de abordar el cambio climático?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo destacarías la urgencia de abordar el cambio climático?",
     options: [
       { id: "a", text: "Presentando datos alarmantes sin soluciones." },
       { id: "b", text: "Ofreciendo datos claros y proponiendo medidas concretas." },
@@ -177,13 +177,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Focalizándote solo en los aspectos económicos." },
     ],
     correct: "b",
-    explanation: "Ofrecer datos claros y proponer medidas concretas es la forma más efectiva de comunicar la urgencia del cambio climático a tomadores de decisiones.",
+    explanation: "En la situación descrita, ofrecer datos claros y proponer medidas concretas es la forma más efectiva de comunicar la urgencia del cambio climático a tomadores de decisiones.",
     points: 5,
   },
   // Actividad 4 - Biodiversidad
   {
     id: 12,
-    question: "¿Por qué es esencial la biodiversidad?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Por qué es esencial la biodiversidad?",
     options: [
       { id: "a", text: "Para el desarrollo tecnológico." },
       { id: "b", text: "Para el equilibrio de los ecosistemas." },
@@ -191,13 +191,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Para la globalización." },
     ],
     correct: "b",
-    explanation: "La biodiversidad es esencial para el equilibrio de los ecosistemas. La pérdida de especies puede afectar negativamente el medio ambiente, la economía y la salud humana.",
+    explanation: "En la situación descrita, la biodiversidad es esencial para el equilibrio de los ecosistemas. La pérdida de especies puede afectar negativamente el medio ambiente, la economía y la salud humana.",
     points: 5,
   },
   {
     id: 13,
     scenario: "Eres biólogo y debes explicar la importancia de la biodiversidad a un público general.",
-    question: "¿Qué enfoque usarías?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué enfoque usarías?",
     options: [
       { id: "a", text: "Usar términos técnicos sin explicación." },
       { id: "b", text: "Utilizar ejemplos concretos y accesibles." },
@@ -205,13 +205,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Focalizarse solo en los aspectos científicos." },
     ],
     correct: "b",
-    explanation: "Utilizar ejemplos concretos y accesibles es la mejor forma de comunicar conceptos científicos complejos a un público general.",
+    explanation: "En la situación descrita, utilizar ejemplos concretos y accesibles es la mejor forma de comunicar conceptos científicos complejos a un público general.",
     points: 5,
   },
   // Actividad 5 - Derecho a la educación
   {
     id: 14,
-    question: "¿Qué se afirma sobre la educación?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué se afirma sobre la educación?",
     options: [
       { id: "a", text: "Es un privilegio." },
       { id: "b", text: "Es un derecho fundamental." },
@@ -219,13 +219,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Es una opción." },
     ],
     correct: "b",
-    explanation: "La educación es un derecho fundamental que debe ser accesible para todos, aunque millones de niños en el mundo no tienen acceso a una educación de calidad.",
+    explanation: "En la situación descrita, la educación es un derecho fundamental que debe ser accesible para todos, aunque millones de niños en el mundo no tienen acceso a una educación de calidad.",
     points: 5,
   },
   {
     id: 15,
     scenario: "Como activista por la educación, debes convencer a donantes para financiar programas educativos.",
-    question: "¿Qué enfoque tomarías?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué enfoque tomarías?",
     options: [
       { id: "a", text: "Enfatizar solo las necesidades sin mostrar resultados." },
       { id: "b", text: "Mostrar el impacto positivo de la educación y los beneficios a largo plazo." },
@@ -233,13 +233,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Focalizarse solo en los problemas." },
     ],
     correct: "b",
-    explanation: "Mostrar el impacto positivo y los beneficios a largo plazo es la estrategia más efectiva para obtener apoyo financiero para programas educativos.",
+    explanation: "En la situación descrita, mostrar el impacto positivo y los beneficios a largo plazo es la estrategia más efectiva para obtener apoyo financiero para programas educativos.",
     points: 5,
   },
   // Actividad 6 - Globalización
   {
     id: 16,
-    question: "¿Qué ha permitido la globalización?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué ha permitido la globalización?",
     options: [
       { id: "a", text: "Una menor interconexión entre los países." },
       { id: "b", text: "Una mayor interconexión entre los países." },
@@ -247,13 +247,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Una disminución del intercambio cultural." },
     ],
     correct: "b",
-    explanation: "La globalización ha permitido una mayor interconexión entre los países, facilitando el comercio y el intercambio cultural, aunque también ha generado desigualdades.",
+    explanation: "En la situación descrita, la globalización ha permitido una mayor interconexión entre los países, facilitando el comercio y el intercambio cultural, aunque también ha generado desigualdades.",
     points: 5,
   },
   {
     id: 17,
     scenario: "Eres economista y presentas un informe sobre globalización.",
-    question: "¿Cómo abordarías las desigualdades generadas?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo abordarías las desigualdades generadas?",
     options: [
       { id: "a", text: "Ignorar los aspectos negativos." },
       { id: "b", text: "Proponer políticas para mitigar las desigualdades." },
@@ -261,13 +261,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Focalizarse solo en los intercambios culturales." },
     ],
     correct: "b",
-    explanation: "Proponer políticas para mitigar las desigualdades es la forma más responsable y efectiva de abordar los efectos negativos de la globalización.",
+    explanation: "En la situación descrita, proponer políticas para mitigar las desigualdades es la forma más responsable y efectiva de abordar los efectos negativos de la globalización.",
     points: 5,
   },
   // Actividad 7 - Inteligencia artificial
   {
     id: 18,
-    question: "¿Qué está revolucionando la inteligencia artificial?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué está revolucionando la inteligencia artificial?",
     options: [
       { id: "a", text: "Solo la industria de la medicina." },
       { id: "b", text: "Diversas industrias." },
@@ -275,13 +275,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Solo la industria tecnológica." },
     ],
     correct: "b",
-    explanation: "La inteligencia artificial está revolucionando diversas industrias, desde la medicina hasta la agricultura, aunque plantea desafíos éticos y de privacidad.",
+    explanation: "En la situación descrita, la inteligencia artificial está revolucionando diversas industrias, desde la medicina hasta la agricultura, aunque plantea desafíos éticos y de privacidad.",
     points: 5,
   },
   {
     id: 19,
     scenario: "Como experto en IA, vas a hablar sobre los desafíos éticos en una conferencia.",
-    question: "¿Qué enfoque tomarías?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué enfoque tomarías?",
     options: [
       { id: "a", text: "Ignorar los desafíos éticos." },
       { id: "b", text: "Abordar los desafíos éticos y proponer soluciones." },
@@ -289,13 +289,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Focalizarse solo en la privacidad." },
     ],
     correct: "b",
-    explanation: "Abordar los desafíos éticos y proponer soluciones es esencial para el desarrollo responsable de la inteligencia artificial.",
+    explanation: "En la situación descrita, abordar los desafíos éticos y proponer soluciones es esencial para el desarrollo responsable de la inteligencia artificial.",
     points: 5,
   },
   // Actividad 8 - Turismo sostenible
   {
     id: 20,
-    question: "¿Qué busca el turismo sostenible?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué busca el turismo sostenible?",
     options: [
       { id: "a", text: "Maximizar el impacto negativo en el medio ambiente." },
       { id: "b", text: "Minimizar el impacto negativo en el medio ambiente." },
@@ -303,12 +303,12 @@ const questionsV1: Question[] = [
       { id: "d", text: "Promover prácticas irresponsables." },
     ],
     correct: "b",
-    explanation: "El turismo sostenible busca minimizar el impacto negativo en el medio ambiente y las comunidades locales, promoviendo prácticas responsables y beneficiosas.",
+    explanation: "En la situación descrita, el turismo sostenible busca minimizar el impacto negativo en el medio ambiente y las comunidades locales, promoviendo prácticas responsables y beneficiosas.",
     points: 5,
   },
   {
     id: 21,
-    question: "¿Cuál es el propósito principal de las pruebas de juicio situacional en procesos de selección?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál es el propósito principal de las pruebas de juicio situacional en procesos de selección?",
     options: [
       { id: "a", text: "Evaluar únicamente conocimientos teóricos mediante preguntas memorísticas." },
       { id: "b", text: "Medir competencias como toma de decisiones, ética y resolución de problemas en contextos laborales." },
@@ -316,13 +316,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Reemplazar completamente las entrevistas personales con pruebas automatizadas." },
     ],
     correct: "b",
-    explanation: "Las pruebas de juicio situacional evalúan competencias clave como toma de decisiones, ética profesional y resolución de problemas a través de escenarios laborales realistas que reflejan situaciones del puesto.",
+    explanation: "En la situación descrita, las pruebas de juicio situacional evalúan competencias clave como toma de decisiones, ética profesional y resolución de problemas a través de escenarios laborales realistas que reflejan situaciones del puesto.",
     points: 5,
   },
   {
     id: 22,
     scenario: "Al responder una pregunta de juicio situacional, te encuentras con dos opciones que parecen igualmente correctas.",
-    question: "¿Qué estrategia deberías aplicar para seleccionar la mejor respuesta?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué estrategia deberías aplicar para seleccionar la mejor respuesta?",
     options: [
       { id: "a", text: "Elegir al azar entre ambas opciones sin analizar más." },
       { id: "b", text: "Analizar cuál opción refleja mejor los valores del servicio público, la ética profesional y el mayor beneficio para todos los involucrados." },
@@ -330,12 +330,12 @@ const questionsV1: Question[] = [
       { id: "d", text: "Buscar la opción que favorezca únicamente tus intereses personales." },
     ],
     correct: "b",
-    explanation: "La mejor estrategia es analizar cuál opción refleja mejor los principios del servicio público, la ética profesional y genera el mayor beneficio para la organización, los ciudadanos y los involucrados.",
+    explanation: "En la situación descrita, la mejor estrategia es analizar cuál opción refleja mejor los principios del servicio público, la ética profesional y genera el mayor beneficio para la organización, los ciudadanos y los involucrados.",
     points: 5,
   },
   {
     id: 23,
-    question: "¿Qué competencias se evalúan principalmente en las pruebas de juicio situacional del sector público?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué competencias se evalúan principalmente en las pruebas de juicio situacional del sector público?",
     options: [
       { id: "a", text: "Solo habilidades técnicas específicas del cargo." },
       { id: "b", text: "Orientación al servicio, ética, trabajo en equipo, toma de decisiones y resolución de conflictos." },
@@ -343,13 +343,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Habilidades artísticas y deportivas." },
     ],
     correct: "b",
-    explanation: "Las pruebas de juicio situacional en el sector público evalúan competencias comportamentales como orientación al servicio, ética profesional, trabajo en equipo, toma de decisiones y resolución de conflictos, no solo conocimientos técnicos.",
+    explanation: "En la situación descrita, las pruebas de juicio situacional en el sector público evalúan competencias comportamentales como orientación al servicio, ética profesional, trabajo en equipo, toma de decisiones y resolución de conflictos, no solo conocimientos técnicos.",
     points: 5,
   },
   {
     id: 24,
     scenario: "Recibes una solicitud de un ciudadano que requiere tramitar un documento urgente, pero falta un requisito menor que podría resolverse en pocos minutos con una llamada telefónica a otra dependencia.",
-    question: "¿Cuál acción refleja mejor las competencias del servicio público?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál acción refleja mejor las competencias del servicio público?",
     options: [
       { id: "a", text: "Rechazar la solicitud estrictamente porque falta el requisito, sin ofrecer alternativas." },
       { id: "b", text: "Realizar la llamada para verificar el requisito y ayudar al ciudadano a completar el trámite de manera ágil." },
@@ -357,12 +357,12 @@ const questionsV1: Question[] = [
       { id: "d", text: "Pedirle al ciudadano que regrese otro día con el requisito completo sin más orientación." },
     ],
     correct: "b",
-    explanation: "La orientación al servicio implica facilitar la gestión del ciudadano dentro del marco normativo. Realizar la verificación telefónica demuestra proactividad, eficiencia y compromiso con el servicio, sin comprometer el cumplimiento de requisitos.",
+    explanation: "En la situación descrita, la orientación al servicio implica facilitar la gestión del ciudadano dentro del marco normativo. Realizar la verificación telefónica demuestra proactividad, eficiencia y compromiso con el servicio, sin comprometer el cumplimiento de requisitos.",
     points: 5,
   },
   {
     id: 25,
-    question: "¿Qué caracteriza una respuesta efectiva en una pregunta de juicio situacional?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué caracteriza una respuesta efectiva en una pregunta de juicio situacional?",
     options: [
       { id: "a", text: "La opción más larga y detallada siempre es la correcta." },
       { id: "b", text: "Aquella que equilibra el cumplimiento normativo, la ética profesional y el impacto positivo en los involucrados." },
@@ -370,7 +370,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "Cualquier respuesta que evite tomar una decisión concreta." },
     ],
     correct: "b",
-    explanation: "Una respuesta efectiva equilibra el cumplimiento de normas, los principios éticos del servicio público y genera el mayor impacto positivo para la organización y los ciudadanos, demostrando competencias integrales.",
+    explanation: "En la situación descrita, una respuesta efectiva equilibra el cumplimiento de normas, los principios éticos del servicio público y genera el mayor impacto positivo para la organización y los ciudadanos, demostrando competencias integrales.",
     points: 5,
   },
 ]
@@ -379,7 +379,7 @@ const questionsV2: Question[] = [
   {
     id: 21,
     scenario: "Eres consultor de turismo sostenible y buscas convencer a una empresa turística para que adopte prácticas sostenibles.",
-    question: "¿Qué enfoque usarías?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué enfoque usarías?",
     options: [
       { id: "a", text: "Enfatizar solo los costos." },
       { id: "b", text: "Mostrar los beneficios a largo plazo y el impacto positivo en la comunidad." },
@@ -387,13 +387,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Focalizarse solo en las ganancias inmediatas." },
     ],
     correct: "b",
-    explanation: "Mostrar beneficios a largo plazo y el impacto positivo en la comunidad es la estrategia más efectiva para promover prácticas sostenibles.",
+    explanation: "En la situación descrita, mostrar beneficios a largo plazo y el impacto positivo en la comunidad es la estrategia más efectiva para promover prácticas sostenibles.",
     points: 5,
   },
   // Actividad 9 - Salud mental
   {
     id: 22,
-    question: "¿Qué se afirma sobre la salud mental?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué se afirma sobre la salud mental?",
     options: [
       { id: "a", text: "Es menos importante que la salud física." },
       { id: "b", text: "Es tan importante como la salud física." },
@@ -401,13 +401,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Es un lujo." },
     ],
     correct: "b",
-    explanation: "La salud mental es tan importante como la salud física, aunque muchas personas no buscan ayuda debido al estigma asociado a los trastornos mentales.",
+    explanation: "En la situación descrita, la salud mental es tan importante como la salud física, aunque muchas personas no buscan ayuda debido al estigma asociado a los trastornos mentales.",
     points: 5,
   },
   {
     id: 23,
     scenario: "Trabajas en recursos humanos y notas que varios empleados muestran signos de estrés y agotamiento.",
-    question: "¿Qué acción tomarías para abordar la salud mental en el equipo?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué acción tomarías para abordar la salud mental en el equipo?",
     options: [
       { id: "a", text: "Ignorar la situación esperando que mejore por sí sola." },
       { id: "b", text: "Implementar programas de bienestar y ofrecer acceso a servicios de apoyo psicológico." },
@@ -415,14 +415,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Sancionar a los empleados que muestren bajo rendimiento." },
     ],
     correct: "b",
-    explanation: "Implementar programas de bienestar y ofrecer apoyo psicológico demuestra compromiso con la salud integral de los empleados y previene problemas mayores.",
+    explanation: "En la situación descrita, implementar programas de bienestar y ofrecer apoyo psicológico demuestra compromiso con la salud integral de los empleados y previene problemas mayores.",
     points: 5,
   },
   // Escenarios adicionales de juicio situacional
   {
     id: 24,
     scenario: "En tu oficina se ha detectado un error en un documento oficial que ya fue publicado. El error podría generar confusión en los ciudadanos.",
-    question: "¿Cuál es la mejor acción a tomar?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál es la mejor acción a tomar?",
     options: [
       { id: "a", text: "Esperar a que alguien más note el error y lo reporte." },
       { id: "b", text: "Emitir inmediatamente una corrección oficial y comunicar el error de manera transparente." },
@@ -430,13 +430,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Culpar a otro departamento del error." },
     ],
     correct: "b",
-    explanation: "La transparencia y la corrección inmediata son fundamentales en el servicio público para mantener la confianza ciudadana y corregir información errónea.",
+    explanation: "En la situación descrita, la transparencia y la corrección inmediata son fundamentales en el servicio público para mantener la confianza ciudadana y corregir información errónea.",
     points: 5,
   },
   {
     id: 25,
     scenario: "Un colega te pide que apruebes un trámite que no cumple con todos los requisitos, argumentando que es urgente y que 'siempre se ha hecho así'.",
-    question: "¿Cómo deberías responder?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo deberías responder?",
     options: [
       { id: "a", text: "Aprobar el trámite para mantener buenas relaciones con el colega." },
       { id: "b", text: "Rechazar el trámite explicando los requisitos faltantes y ofreciendo orientación para completarlos correctamente." },
@@ -444,13 +444,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Transferir la responsabilidad a un supervisor." },
     ],
     correct: "b",
-    explanation: "Mantener la integridad del proceso es esencial. Rechazar el trámite y ofrecer orientación asegura el cumplimiento normativo y ayuda a corregir malas prácticas.",
+    explanation: "En la situación descrita, mantener la integridad del proceso es esencial. Rechazar el trámite y ofrecer orientación asegura el cumplimiento normativo y ayuda a corregir malas prácticas.",
     points: 5,
   },
   {
     id: 26,
     scenario: "Durante una reunión de equipo, surge un desacuerdo fuerte entre dos colegas sobre cómo abordar un proyecto.",
-    question: "¿Cuál sería tu rol más constructivo?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál sería tu rol más constructivo?",
     options: [
       { id: "a", text: "Tomar partido por la persona con más antigüedad." },
       { id: "b", text: "Facilitar un diálogo constructivo para que ambas partes expongan sus argumentos y buscar un consenso." },
@@ -458,13 +458,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Proponer tu propia solución sin escuchar las opiniones de los demás." },
     ],
     correct: "b",
-    explanation: "Facilitar el diálogo constructivo y buscar consenso demuestra habilidades de mediación y trabajo en equipo, aprovechando diferentes perspectivas.",
+    explanation: "En la situación descrita, facilitar el diálogo constructivo y buscar consenso demuestra habilidades de mediación y trabajo en equipo, aprovechando diferentes perspectivas.",
     points: 5,
   },
   {
     id: 27,
     scenario: "Te asignan liderar un proyecto en un área en la que tienes poca experiencia, pero el plazo es corto.",
-    question: "¿Qué estrategia seguirías?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué estrategia seguirías?",
     options: [
       { id: "a", text: "Rechazar el proyecto por falta de experiencia." },
       { id: "b", text: "Aceptar el reto, buscar asesoría de expertos y capacitarte rápidamente en el tema." },
@@ -472,13 +472,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Procrastinar esperando recibir más orientación." },
     ],
     correct: "b",
-    explanation: "Aceptar el reto, buscar asesoría y capacitarse demuestra aprendizaje continuo, adaptabilidad y compromiso con el desarrollo profesional.",
+    explanation: "En la situación descrita, aceptar el reto, buscar asesoría y capacitarse demuestra aprendizaje continuo, adaptabilidad y compromiso con el desarrollo profesional.",
     points: 5,
   },
   {
     id: 28,
     scenario: "Un ciudadano solicita información que es pública, pero entregarla requeriría varias horas de trabajo de búsqueda y compilación.",
-    question: "¿Cómo manejarías esta solicitud?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo manejarías esta solicitud?",
     options: [
       { id: "a", text: "Negar la solicitud porque requiere mucho tiempo." },
       { id: "b", text: "Aceptar la solicitud, establecer un plazo razonable y cumplir con la entrega de la información." },
@@ -486,13 +486,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Sugerir al ciudadano que busque la información por su cuenta." },
     ],
     correct: "b",
-    explanation: "El derecho de acceso a la información pública debe respetarse. Establecer un plazo razonable permite cumplir con la obligación legal de manera organizada.",
+    explanation: "En la situación descrita, el derecho de acceso a la información pública debe respetarse. Establecer un plazo razonable permite cumplir con la obligación legal de manera organizada.",
     points: 5,
   },
   {
     id: 29,
     scenario: "Observas que un proceso administrativo en tu área es ineficiente y causa demoras constantes.",
-    question: "¿Qué deberías hacer?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué deberías hacer?",
     options: [
       { id: "a", text: "Continuar con el proceso tal como está porque 'así se ha hecho siempre'." },
       { id: "b", text: "Analizar el proceso, identificar mejoras y proponer cambios a tu supervisor." },
@@ -500,13 +500,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Cambiar el proceso por tu cuenta sin consultar." },
     ],
     correct: "b",
-    explanation: "Analizar procesos y proponer mejoras demuestra iniciativa, orientación a resultados y compromiso con la eficiencia institucional.",
+    explanation: "En la situación descrita, analizar procesos y proponer mejoras demuestra iniciativa, orientación a resultados y compromiso con la eficiencia institucional.",
     points: 5,
   },
   {
     id: 30,
     scenario: "Durante un evento público, un ciudadano hace comentarios negativos sobre la gestión de la entidad en redes sociales.",
-    question: "Como funcionario presente, ¿cómo deberías responder?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. Como funcionario presente, ¿cómo deberías responder?",
     options: [
       { id: "a", text: "Ignorar los comentarios completamente." },
       { id: "b", text: "Responder profesionalmente, ofreciendo información objetiva y canales formales para presentar inquietudes." },
@@ -514,13 +514,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Bloquear al ciudadano en redes sociales." },
     ],
     correct: "b",
-    explanation: "Responder profesionalmente con información objetiva y canales formales mantiene la imagen institucional y orienta al ciudadano hacia mecanismos constructivos.",
+    explanation: "En la situación descrita, responder profesionalmente con información objetiva y canales formales mantiene la imagen institucional y orienta al ciudadano hacia mecanismos constructivos.",
     points: 5,
   },
   {
     id: 31,
     scenario: "Te ofrecen una capacitación en horario laboral que mejoraría tus habilidades, pero tienes tareas pendientes con plazos cercanos.",
-    question: "¿Qué decisión tomarías?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué decisión tomarías?",
     options: [
       { id: "a", text: "Rechazar la capacitación para cumplir con las tareas pendientes." },
       { id: "b", text: "Asistir a la capacitación y reorganizar tus tareas o solicitar apoyo para cumplir con los plazos." },
@@ -528,13 +528,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Pedir a un colega que asista en tu lugar." },
     ],
     correct: "b",
-    explanation: "El aprendizaje continuo es valioso. Asistir a la capacitación y reorganizar tareas demuestra gestión del tiempo y compromiso con el desarrollo profesional.",
+    explanation: "En la situación descrita, el aprendizaje continuo es valioso. Asistir a la capacitación y reorganizar tareas demuestra gestión del tiempo y compromiso con el desarrollo profesional.",
     points: 5,
   },
   {
     id: 32,
     scenario: "Un proveedor externo te ofrece un regalo de considerable valor después de adjudicarse un contrato con la entidad.",
-    question: "¿Cuál es la acción correcta?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál es la acción correcta?",
     options: [
       { id: "a", text: "Aceptar el regalo ya que el contrato ya está adjudicado." },
       { id: "b", text: "Rechazar cortésmente el regalo y reportar la situación según los protocolos de ética institucional." },
@@ -542,14 +542,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Aceptar el regalo y compartirlo con todo el equipo." },
     ],
     correct: "b",
-    explanation: "Rechazar regalos de valor y reportar la situación protege la integridad, evita conflictos de interés y cumple con los códigos de ética del servicio público.",
+    explanation: "En la situación descrita, rechazar regalos de valor y reportar la situación protege la integridad, evita conflictos de interés y cumple con los códigos de ética del servicio público.",
     points: 5,
   },
   {
     id: 33,
     scenario:
       "La metodología de juicio situacional utiliza escenarios vinculados al trabajo para evaluar competencias como toma de decisiones, resolución de problemas, ética profesional y manejo de conflictos, analizando cómo las respuestas inciden en el entorno laboral.",
-    question: "¿Qué enunciado resume el objetivo de esta metodología?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué enunciado resume el objetivo de esta metodología?",
     options: [
       { id: "a", text: "Medir únicamente conocimientos normativos mediante preguntas cerradas." },
       {
@@ -561,12 +561,12 @@ const questionsV2: Question[] = [
     ],
     correct: "b",
     explanation:
-      "El juicio situacional busca evaluar cómo las personas aplican competencias en situaciones laborales simuladas y cómo sus decisiones afectan al entorno y a los involucrados.",
+      "En la situación descrita, el juicio situacional busca evaluar cómo las personas aplican competencias en situaciones laborales simuladas y cómo sus decisiones afectan al entorno y a los involucrados.",
     points: 5,
   },
   {
     id: 34,
-    question: "¿Qué distingue las pruebas de juicio situacional de otros tipos de evaluación en selección de personal?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué distingue las pruebas de juicio situacional de otros tipos de evaluación en selección de personal?",
     options: [
       { id: "a", text: "Se enfocan exclusivamente en conocimientos técnicos memorizados." },
       { id: "b", text: "Presentan escenarios realistas del contexto laboral para evaluar competencias aplicadas en situaciones prácticas." },
@@ -574,13 +574,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Miden solamente habilidades matemáticas básicas." },
     ],
     correct: "b",
-    explanation: "Las pruebas de juicio situacional se distinguen por presentar escenarios realistas del contexto laboral que permiten evaluar cómo los candidatos aplican sus competencias en situaciones prácticas similares a las que enfrentarán en el puesto.",
+    explanation: "En la situación descrita, las pruebas de juicio situacional se distinguen por presentar escenarios realistas del contexto laboral que permiten evaluar cómo los candidatos aplican sus competencias en situaciones prácticas similares a las que enfrentarán en el puesto.",
     points: 5,
   },
   {
     id: 35,
     scenario: "Estás tomando una prueba de juicio situacional y encuentras un escenario donde todas las opciones tienen aspectos positivos y negativos.",
-    question: "¿Cómo deberías proceder para seleccionar la mejor respuesta?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo deberías proceder para seleccionar la mejor respuesta?",
     options: [
       { id: "a", text: "Seleccionar al azar sin analizar las consecuencias de cada opción." },
       { id: "b", text: "Identificar cuál opción minimiza riesgos, maximiza beneficios y se alinea mejor con los valores institucionales." },
@@ -588,12 +588,12 @@ const questionsV2: Question[] = [
       { id: "d", text: "Buscar la opción que beneficie únicamente tus metas personales." },
     ],
     correct: "b",
-    explanation: "La mejor estrategia es analizar las consecuencias de cada opción, identificando cuál minimiza riesgos, maximiza beneficios para todos los involucrados y se alinea mejor con los valores y objetivos de la institución pública.",
+    explanation: "En la situación descrita, la mejor estrategia es analizar las consecuencias de cada opción, identificando cuál minimiza riesgos, maximiza beneficios para todos los involucrados y se alinea mejor con los valores y objetivos de la institución pública.",
     points: 5,
   },
   {
     id: 36,
-    question: "En el contexto de las pruebas de juicio situacional, ¿qué significa demostrar competencia en toma de decisiones?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. En el contexto de las pruebas de juicio situacional, ¿qué significa demostrar competencia en toma de decisiones?",
     options: [
       { id: "a", text: "Tomar decisiones rápidas sin considerar las consecuencias." },
       { id: "b", text: "Analizar el contexto, evaluar alternativas, considerar impactos y elegir la opción más adecuada según principios éticos y organizacionales." },
@@ -601,13 +601,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Elegir siempre la opción más popular sin análisis crítico." },
     ],
     correct: "b",
-    explanation: "La competencia en toma de decisiones implica analizar el contexto, evaluar alternativas considerando sus impactos, y elegir la opción más adecuada basándose en principios éticos, normativos y objetivos organizacionales.",
+    explanation: "En la situación descrita, la competencia en toma de decisiones implica analizar el contexto, evaluar alternativas considerando sus impactos, y elegir la opción más adecuada basándose en principios éticos, normativos y objetivos organizacionales.",
     points: 5,
   },
   {
     id: 37,
     scenario: "Durante un proceso de selección, enfrentas una pregunta de juicio situacional sobre manejo de conflictos entre compañeros de trabajo.",
-    question: "¿Qué enfoque refleja mejor las competencias esperadas en el servicio público?",
+    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué enfoque refleja mejor las competencias esperadas en el servicio público?",
     options: [
       { id: "a", text: "Ignorar el conflicto esperando que se resuelva solo con el tiempo." },
       { id: "b", text: "Facilitar el diálogo entre las partes, buscar puntos comunes y promover una solución constructiva que beneficie el ambiente laboral." },
@@ -615,7 +615,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Reportar inmediatamente a ambos empleados sin intentar mediar primero." },
     ],
     correct: "b",
-    explanation: "El manejo efectivo de conflictos en el servicio público implica facilitar el diálogo, buscar puntos comunes y promover soluciones constructivas que beneficien el ambiente laboral y la productividad organizacional.",
+    explanation: "En la situación descrita, el manejo efectivo de conflictos en el servicio público implica facilitar el diálogo, buscar puntos comunes y promover soluciones constructivas que beneficien el ambiente laboral y la productividad organizacional.",
     points: 5,
   },
   {

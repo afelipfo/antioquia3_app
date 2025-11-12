@@ -38,7 +38,7 @@ const questionsV1: Question[] = [
   },
   {
     id: 2,
-    question: "Una finalidad central de las reformas disciplinarias de 2019 y 2021 fue:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Una finalidad central de las reformas disciplinarias de 2019 y 2021 fue:",
     options: [
       "Eliminar la doble instancia en el proceso disciplinario",
       "Adaptar el procedimiento a estándares internacionales de debido proceso e introducir un sistema mixto de juzgamiento",
@@ -47,12 +47,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las reformas introdujeron la doble instancia, mecanismos orales y escritos en el juicio y mayores garantías acordes con estándares internacionales de debido proceso.",
+    explanation: "En la situación descrita, las reformas introdujeron la doble instancia, mecanismos orales y escritos en el juicio y mayores garantías acordes con estándares internacionales de debido proceso.",
     topic: "Reformas al régimen disciplinario"
   },
   {
     id: 3,
-    question: "El principio de doble instancia implica que:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. El principio de doble instancia implica que:",
     options: [
       "La misma autoridad investiga y sanciona en una sola actuación",
       "Quien instruye puede fallar si existe autorización del investigado",
@@ -61,12 +61,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "El debido proceso disciplinario exige doble instancia: quien instruye no puede juzgar y debe existir revisión por autoridad distinta.",
+    explanation: "En la situación descrita, el debido proceso disciplinario exige doble instancia: quien instruye no puede juzgar y debe existir revisión por autoridad distinta.",
     topic: "Principios rectores - Debido proceso"
   },
   {
     id: 4,
-    question: "Según el principio de motivación, una decisión disciplinaria debe:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Según el principio de motivación, una decisión disciplinaria debe:",
     options: [
       "Fundarse en la conveniencia política de la sanción",
       "Ser breve y sin argumentación para garantizar celeridad",
@@ -75,12 +75,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "La motivación exige explicitar razones de hecho y de derecho que soportan la decisión; su ausencia genera vicio sustancial.",
+    explanation: "En la situación descrita, la motivación exige explicitar razones de hecho y de derecho que soportan la decisión; su ausencia genera vicio sustancial.",
     topic: "Principios rectores - Motivación"
   },
   {
     id: 5,
-    question: "La ilicitud sustancial de la conducta disciplinaria se configura cuando:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. La ilicitud sustancial de la conducta disciplinaria se configura cuando:",
     options: [
       "La conducta afecta el deber funcional sin justificación legal",
       "El servidor actúa conforme a la ley pero genera molestia social",
@@ -89,12 +89,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "La ilicitud sustancial supone que la conducta vulnera de manera injustificada el deber funcional, ocasionando reproche disciplinario.",
+    explanation: "En la situación descrita, la ilicitud sustancial supone que la conducta vulnera de manera injustificada el deber funcional, ocasionando reproche disciplinario.",
     topic: "Principios rectores - Ilicitud sustancial"
   },
   {
     id: 6,
-    question: "El principio de congruencia exige que:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. El principio de congruencia exige que:",
     options: [
       "La sanción pueda basarse en hechos distintos a los cargos",
       "La calificación jurídica del fallo se mantenga aunque cambien los hechos probados",
@@ -103,12 +103,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "La congruencia asegura que la sanción guarde correspondencia con los hechos, cargos y calificación jurídica formulados durante el proceso.",
+    explanation: "En la situación descrita, la congruencia asegura que la sanción guarde correspondencia con los hechos, cargos y calificación jurídica formulados durante el proceso.",
     topic: "Principios rectores - Congruencia"
   },
   {
     id: 7,
-    question: "El principio de favorabilidad en materia disciplinaria implica que:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. El principio de favorabilidad en materia disciplinaria implica que:",
     options: [
       "Se aplique siempre la sanción más benigna dentro del catálogo legal",
       "Se prefiera la norma más favorable al disciplinable cuando exista duda interpretativa",
@@ -117,12 +117,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La favorabilidad indica que, en caso de duda normativa o cambio legislativo, debe aplicarse la disposición más favorable al investigado.",
+    explanation: "En la situación descrita, la favorabilidad indica que, en caso de duda normativa o cambio legislativo, debe aplicarse la disposición más favorable al investigado.",
     topic: "Principios rectores - Favorabilidad"
   },
   {
     id: 8,
-    question: "¿Quién es titular de la acción disciplinaria en Colombia?",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. ¿Quién es titular de la acción disciplinaria en Colombia?",
     options: [
       "Únicamente la Procuraduría General de la Nación",
       "El Estado, a través de la Procuraduría, oficinas de control interno disciplinario, personerías y demás entidades con competencia sobre sus servidores",
@@ -131,12 +131,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El Estado ejerce la acción disciplinaria por conducto de la Procuraduría, oficinas de control interno, personerías y entidades competentes respecto de sus servidores y ex servidores.",
+    explanation: "En la situación descrita, el Estado ejerce la acción disciplinaria por conducto de la Procuraduría, oficinas de control interno, personerías y entidades competentes respecto de sus servidores y ex servidores.",
     topic: "Titularidad y destinatarios de la acción disciplinaria"
   },
   {
     id: 9,
-    question: "Entre los destinatarios de la ley disciplinaria se encuentran:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Entre los destinatarios de la ley disciplinaria se encuentran:",
     options: [
       "Únicamente los funcionarios de carrera administrativa",
       "Los servidores públicos, particulares que ejercen funciones públicas, administran recursos públicos o actúan como interventores y auxiliares de la justicia",
@@ -145,12 +145,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La ley disciplinaria cobija servidores públicos y particulares que cumplen funciones públicas, administran recursos o ejercen labores de interventoría o auxiliares de justicia.",
+    explanation: "En la situación descrita, la ley disciplinaria cobija servidores públicos y particulares que cumplen funciones públicas, administran recursos o ejercen labores de interventoría o auxiliares de justicia.",
     topic: "Destinatarios de la acción disciplinaria"
   },
   {
     id: 10,
-    question: "¿Cuál NO es un sujeto procesal en el proceso disciplinario?",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. ¿Cuál NO es un sujeto procesal en el proceso disciplinario?",
     options: [
       "El investigado",
       "El defensor",
@@ -159,12 +159,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 3,
     points: 5,
-    explanation: "Son sujetos procesales el investigado, su defensor, el Ministerio Público en intervención excepcional, la Procuraduría en supervigilancia y las víctimas; un juez laboral externo no participa como sujeto procesal.",
+    explanation: "En la situación descrita, son sujetos procesales el investigado, su defensor, el Ministerio Público en intervención excepcional, la Procuraduría en supervigilancia y las víctimas; un juez laboral externo no participa como sujeto procesal.",
     topic: "Sujetos procesales"
   },
   {
     id: 11,
-    question: "Un derecho esencial del disciplinable es:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Un derecho esencial del disciplinable es:",
     options: [
       "Designar apoderado, solicitar y controvertir pruebas y presentar alegatos",
       "Escoger la autoridad que lo investigará",
@@ -173,12 +173,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "El disciplinable tiene derecho de defensa integral: designar apoderado, solicitar, aportar o controvertir pruebas, rendir descargos y presentar alegatos.",
+    explanation: "En la situación descrita, el disciplinable tiene derecho de defensa integral: designar apoderado, solicitar, aportar o controvertir pruebas, rendir descargos y presentar alegatos.",
     topic: "Derechos del disciplinable"
   },
   {
     id: 12,
-    question: "Una falta disciplinaria se configura cuando el servidor:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Una falta disciplinaria se configura cuando el servidor:",
     options: [
       "Ejecuta cualquier conducta no prevista en la ley",
       "Desconoce deberes, prohibiciones o régimen de inhabilidades descritos en el Código General Disciplinario",
@@ -187,12 +187,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El Código General Disciplinario define como falta la conducta descrita en la ley: incumplimiento de deberes, prohibiciones, inhabilidades, incompatibilidades o conflictos de interés.",
+    explanation: "En la situación descrita, el Código General Disciplinario define como falta la conducta descrita en la ley: incumplimiento de deberes, prohibiciones, inhabilidades, incompatibilidades o conflictos de interés.",
     topic: "Faltas disciplinarias"
   },
   {
     id: 13,
-    question: "Un deber disciplinario expresamente previsto es:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Un deber disciplinario expresamente previsto es:",
     options: [
       "Negarse a rendir cuentas sobre bienes públicos",
       "Denunciar delitos y faltas disciplinarias conocidos, salvo excepciones legales",
@@ -201,12 +201,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La Ley 1952 ordena denunciar los delitos, contravenciones y faltas disciplinarias de los que se tenga conocimiento, salvo reservas legales específicas.",
+    explanation: "En la situación descrita, la Ley 1952 ordena denunciar los delitos, contravenciones y faltas disciplinarias de los que se tenga conocimiento, salvo reservas legales específicas.",
     topic: "Deberes del servidor público"
   },
   {
     id: 14,
-    question: "Según el régimen disciplinario, una prohibición expresa es:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Según el régimen disciplinario, una prohibición expresa es:",
     options: [
       "Solicitar dádivas o favores relacionados con la función",
       "Rechazar regalos ofrecidos por los usuarios",
@@ -215,12 +215,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "Entre las prohibiciones está solicitar dádivas, cobrar por trámites, omitir o retardar el servicio o nombrar personas sin requisitos.",
+    explanation: "En la situación descrita, entre las prohibiciones está solicitar dádivas, cobrar por trámites, omitir o retardar el servicio o nombrar personas sin requisitos.",
     topic: "Prohibiciones disciplinarias"
   },
   {
     id: 15,
-    question: "La instrucción dentro del proceso disciplinario se caracteriza por:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. La instrucción dentro del proceso disciplinario se caracteriza por:",
     options: [
       "Ser la etapa en la que se decide la sanción",
       "Recopilar pruebas en indagación previa o investigación para determinar existencia de la falta y autor, pudiendo archivarse o formular cargos",
@@ -229,12 +229,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La instrucción reúne elementos probatorios, identifica la conducta y al presunto autor y concluye archivando o formulando cargos.",
+    explanation: "En la situación descrita, la instrucción reúne elementos probatorios, identifica la conducta y al presunto autor y concluye archivando o formulando cargos.",
     topic: "Procedimiento disciplinario - Instrucción"
   },
   {
     id: 16,
-    question: "El juzgamiento disciplinario:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. El juzgamiento disciplinario:",
     options: [
       "Se limita a revisar formalmente el pliego sin practicar pruebas",
       "Puede ser adelantado por el mismo funcionario instructor para garantizar coherencia",
@@ -243,12 +243,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "El juzgamiento estudia cargos, admite variaciones justificadas, practica pruebas y concluye con decisión absolutoria o sancionatoria por autoridad distinta a la instructora.",
+    explanation: "En la situación descrita, el juzgamiento estudia cargos, admite variaciones justificadas, practica pruebas y concluye con decisión absolutoria o sancionatoria por autoridad distinta a la instructora.",
     topic: "Procedimiento disciplinario - Juzgamiento"
   },
   {
     id: 17,
-    question: "La acción disciplinaria puede iniciarse de oficio cuando:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. La acción disciplinaria puede iniciarse de oficio cuando:",
     options: [
       "El investigado reconoce voluntariamente su responsabilidad",
       "Existe información creíble proveniente de servidor público u otra fuente, sin necesidad de queja formal",
@@ -257,12 +257,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El proceso puede iniciarse de oficio cuando la autoridad cuenta con información seria; las quejas anónimas solo proceden si cumplen las exigencias de las Leyes 190 de 1995 y 24 de 1992.",
+    explanation: "En la situación descrita, el proceso puede iniciarse de oficio cuando la autoridad cuenta con información seria; las quejas anónimas solo proceden si cumplen las exigencias de las Leyes 190 de 1995 y 24 de 1992.",
     topic: "Inicio de la actuación disciplinaria"
   },
   {
     id: 18,
-    question: "La tipicidad disciplinaria implica que:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. La tipicidad disciplinaria implica que:",
     options: [
       "La autoridad puede sancionar conductas no previstas si son socialmente reprochables",
       "La conducta debe encuadrarse en una falta descrita en la ley y se evalúa su culpabilidad y gravedad",
@@ -271,12 +271,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Tipicidad exige correlacionar la conducta con faltas previstas legalmente y valorar culpabilidad (dolo o culpa) y gravedad.",
+    explanation: "En la situación descrita, tipicidad exige correlacionar la conducta con faltas previstas legalmente y valorar culpabilidad (dolo o culpa) y gravedad.",
     topic: "Responsabilidad disciplinaria - Tipicidad"
   },
   {
     id: 19,
-    question: "Cuando el disciplinable actúa con dolo:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Cuando el disciplinable actúa con dolo:",
     options: [
       "Desconoce la ilicitud de su conducta por error invencible",
       "Prevé la falta y su ilicitud y aun así decide ejecutarla",
@@ -285,7 +285,7 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El dolo supone conocimiento de la falta y voluntad de realizarla pese a conocer su ilicitud.",
+    explanation: "En la situación descrita, el dolo supone conocimiento de la falta y voluntad de realizarla pese a conocer su ilicitud.",
     topic: "Responsabilidad disciplinaria - Culpabilidad"
   },
   {
@@ -321,7 +321,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 2,
-    question: "Una falta grave culposa puede acarrear:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Una falta grave culposa puede acarrear:",
     options: [
       "Destitución e inhabilidad general de 10 a 20 años",
       "Suspensión e inhabilidad especial entre 1 y 18 meses",
@@ -330,12 +330,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Para faltas graves culposas la sanción prevista es suspensión e inhabilidad especial de 1 a 18 meses.",
+    explanation: "En la situación descrita, para faltas graves culposas la sanción prevista es suspensión e inhabilidad especial de 1 a 18 meses.",
     topic: "Sanciones disciplinarias"
   },
   {
     id: 3,
-    question: "La destitución disciplinaria implica que:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. La destitución disciplinaria implica que:",
     options: [
       "Se suspende al servidor solo por un mes",
       "Pierde la relación con la administración sin importar el tipo de vinculación y queda inhabilitado para ejercer funciones públicas por el término fijado",
@@ -344,12 +344,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La destitución desvincula al disciplinado de su cargo, finaliza cualquier relación con la administración y genera inhabilidad general por el término señalado.",
+    explanation: "En la situación descrita, la destitución desvincula al disciplinado de su cargo, finaliza cualquier relación con la administración y genera inhabilidad general por el término señalado.",
     topic: "Efectos de las sanciones"
   },
   {
     id: 4,
-    question: "Un atenuante de la responsabilidad disciplinaria es:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Un atenuante de la responsabilidad disciplinaria es:",
     options: [
       "Atribuir infundadamente la falta a un tercero",
       "Confesar o aceptar los cargos, o resarcir el daño causado",
@@ -358,12 +358,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Constituyen atenuantes la diligencia en el cargo, ausencia de antecedentes, confesión o aceptación de cargos y reparación del daño.",
+    explanation: "En la situación descrita, constituyen atenuantes la diligencia en el cargo, ausencia de antecedentes, confesión o aceptación de cargos y reparación del daño.",
     topic: "Atenuantes y agravantes"
   },
   {
     id: 5,
-    question: "Entre los agravantes disciplinarios se encuentra:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Entre los agravantes disciplinarios se encuentra:",
     options: [
       "Resarcir el daño ocasionado",
       "Haber sido sancionado disciplinaria o fiscalmente en los últimos cinco años",
@@ -372,12 +372,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Ser reincidente en sanciones disciplinarias o fiscales dentro de cinco años es un agravante; también lo son el grave daño social, conocimiento de la ilicitud o recibir recompensa.",
+    explanation: "En la situación descrita, ser reincidente en sanciones disciplinarias o fiscales dentro de cinco años es un agravante; también lo son el grave daño social, conocimiento de la ilicitud o recibir recompensa.",
     topic: "Atenuantes y agravantes"
   },
   {
     id: 6,
-    question: "La multa como sanción disciplinaria procede para:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. La multa como sanción disciplinaria procede para:",
     options: [
       "Faltas gravísimas con dolo",
       "Faltas leves, tanto dolosas como culposas, con rangos de 20-90 o 5-20 días de salario básico",
@@ -386,12 +386,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las faltas leves tienen como consecuencia principal la multa: de 20 a 90 días cuando son dolosas y de 5 a 20 días si son culposas.",
+    explanation: "En la situación descrita, las faltas leves tienen como consecuencia principal la multa: de 20 a 90 días cuando son dolosas y de 5 a 20 días si son culposas.",
     topic: "Sanciones disciplinarias"
   },
   {
     id: 7,
-    question: "Una causal de exclusión de la conducta disciplinaria es el error invencible sobre la ilicitud. Esto significa que:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Una causal de exclusión de la conducta disciplinaria es el error invencible sobre la ilicitud. Esto significa que:",
     options: [
       "El investigado desconoce la norma pese a que podía conocerla",
       "Existía un conocimiento pleno de la falta y aun así decidió realizarla",
@@ -400,12 +400,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "El error invencible implica imposibilidad de conocer la ilicitud incluso actuando con la diligencia exigible, por lo que excluye responsabilidad.",
+    explanation: "En la situación descrita, el error invencible implica imposibilidad de conocer la ilicitud incluso actuando con la diligencia exigible, por lo que excluye responsabilidad.",
     topic: "Responsabilidad disciplinaria - Exclusiones"
   },
   {
     id: 8,
-    question: "La acción disciplinaria prescribe, por regla general, en:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. La acción disciplinaria prescribe, por regla general, en:",
     options: [
       "Tres años contados desde la apertura de investigación",
       "Cinco años contados desde la consumación de la falta o el último acto en conductas continuadas",
@@ -414,12 +414,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La prescripción general es de cinco años, salvo faltas relacionadas con violaciones de derechos humanos o DIH que prescriben en doce años.",
+    explanation: "En la situación descrita, la prescripción general es de cinco años, salvo faltas relacionadas con violaciones de derechos humanos o DIH que prescriben en doce años.",
     topic: "Extinción y prescripción de la acción disciplinaria"
   },
   {
     id: 9,
-    question: "La caducidad de la acción disciplinaria ocurre cuando:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. La caducidad de la acción disciplinaria ocurre cuando:",
     options: [
       "Transcurren cinco años sin que se expida auto de apertura de investigación",
       "El investigado renuncia al cargo",
@@ -428,12 +428,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "La acción caduca si transcurren cinco años desde la ocurrencia de la falta sin que se haya proferido auto de apertura de investigación disciplinaria.",
+    explanation: "En la situación descrita, la acción caduca si transcurren cinco años desde la ocurrencia de la falta sin que se haya proferido auto de apertura de investigación disciplinaria.",
     topic: "Extinción de la acción disciplinaria"
   },
   {
     id: 10,
-    question: "Una notificación personal en el proceso disciplinario se practica sobre decisiones como:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Una notificación personal en el proceso disciplinario se practica sobre decisiones como:",
     options: [
       "Autos de apertura, vinculación, pliegos de cargos y fallos de instancia",
       "Traslado del dictamen pericial",
@@ -442,12 +442,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "Se notifican personalmente decisiones como el auto de apertura de investigación, auto de vinculación, pliego de cargos y los fallos disciplinarios.",
+    explanation: "En la situación descrita, se notifican personalmente decisiones como el auto de apertura de investigación, auto de vinculación, pliego de cargos y los fallos disciplinarios.",
     topic: "Notificaciones disciplinarias"
   },
   {
     id: 11,
-    question: "La notificación por estado procede, entre otros casos, para:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. La notificación por estado procede, entre otros casos, para:",
     options: [
       "El auto que resuelve el recurso de apelación",
       "El auto de cierre de investigación y el traslado para alegatos precalificados",
@@ -456,12 +456,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El auto de cierre de investigación y el traslado para alegatos precalificados se notifican por estado, al igual que el traslado del dictamen pericial.",
+    explanation: "En la situación descrita, el auto de cierre de investigación y el traslado para alegatos precalificados se notifican por estado, al igual que el traslado del dictamen pericial.",
     topic: "Notificaciones disciplinarias"
   },
   {
     id: 12,
-    question: "La notificación en estrado se entiende realizada cuando:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. La notificación en estrado se entiende realizada cuando:",
     options: [
       "Se envía por correo electrónico certificado",
       "La decisión se profiere en audiencia pública o diligencia verbal y queda notificada inmediatamente a todos los sujetos procesales",
@@ -470,12 +470,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las decisiones adoptadas en audiencia o diligencia verbal se notifican inmediatamente en estrado a quienes intervienen.",
+    explanation: "En la situación descrita, las decisiones adoptadas en audiencia o diligencia verbal se notifican inmediatamente en estrado a quienes intervienen.",
     topic: "Notificaciones disciplinarias"
   },
   {
     id: 13,
-    question: "Un medio de prueba disciplinario descrito en el compendio es:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Un medio de prueba disciplinario descrito en el compendio es:",
     options: [
       "La inspección disciplinaria sobre bienes o lugares con levantamiento de acta",
       "La confesión judicial únicamente en procesos penales",
@@ -484,12 +484,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "La inspección disciplinaria recae sobre bienes o lugares y debe documentarse mediante acta con los elementos observados.",
+    explanation: "En la situación descrita, la inspección disciplinaria recae sobre bienes o lugares y debe documentarse mediante acta con los elementos observados.",
     topic: "Medios de prueba"
   },
   {
     id: 14,
-    question: "Para admitir una prueba disciplinaria se requiere que sea:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Para admitir una prueba disciplinaria se requiere que sea:",
     options: [
       "Impertinente para evitar retrasos",
       "Conducente al hecho, pertinente y obtenida legalmente",
@@ -498,12 +498,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las pruebas deben ser conducentes, pertinentes y practicarse con apego a la ley; se rechazan las inconducentes, impertinentes o superfluas.",
+    explanation: "En la situación descrita, las pruebas deben ser conducentes, pertinentes y practicarse con apego a la ley; se rechazan las inconducentes, impertinentes o superfluas.",
     topic: "Medios de prueba"
   },
   {
     id: 15,
-    question: "La confesión o aceptación de cargos con acompañamiento de defensor:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. La confesión o aceptación de cargos con acompañamiento de defensor:",
     options: [
       "Debe presentarse antes de la apertura de la investigación",
       "Puede realizarse hasta antes de la ejecutoria del auto de cierre y permite reducción de sanción hasta la mitad si es en investigación o de una tercera parte si es en juzgamiento",
@@ -512,12 +512,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La confesión puede formularse desde la apertura hasta antes de la ejecutoria del auto de cierre; reduce la sanción hasta la mitad si se hace en investigación y en una tercera parte si es en juzgamiento.",
+    explanation: "En la situación descrita, la confesión puede formularse desde la apertura hasta antes de la ejecutoria del auto de cierre; reduce la sanción hasta la mitad si se hace en investigación y en una tercera parte si es en juzgamiento.",
     topic: "Medios de prueba - Confesión"
   },
   {
     id: 16,
-    question: "En materia de recursos, la reposición y la apelación deben interponerse:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. En materia de recursos, la reposición y la apelación deben interponerse:",
     options: [
       "Dentro de los cinco días siguientes a la notificación y siempre por escrito",
       "Desde la expedición de la decisión hasta cinco días después de la notificación, sustentándolos dentro del mismo término",
@@ -526,12 +526,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Reposición y apelación se interponen desde la expedición y hasta cinco días posteriores a la notificación; si la decisión se profiere en estrados, deben sustentarse allí.",
+    explanation: "En la situación descrita, reposición y apelación se interponen desde la expedición y hasta cinco días posteriores a la notificación; si la decisión se profiere en estrados, deben sustentarse allí.",
     topic: "Recursos disciplinarios"
   },
   {
     id: 17,
-    question: "El recurso de queja procede contra:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. El recurso de queja procede contra:",
     options: [
       "Fallos de segunda instancia",
       "Decisiones que rechazan el recurso de apelación",
@@ -540,12 +540,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La queja es procedente contra la decisión que inadmite un recurso de apelación.",
+    explanation: "En la situación descrita, la queja es procedente contra la decisión que inadmite un recurso de apelación.",
     topic: "Recursos disciplinarios"
   },
   {
     id: 18,
-    question: "Una nulidad disciplinaria puede alegarse por:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Una nulidad disciplinaria puede alegarse por:",
     options: [
       "Simple inconformidad con la valoración probatoria",
       "Falta de competencia o violación del derecho de defensa que afecte el debido proceso, siempre que no exista otro medio para subsanar",
@@ -554,12 +554,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las nulidades se plantean por vicios como falta de competencia o violación del debido proceso; deben proponerse antes del traslado para alegatos y solo proceden si no hay otro medio para corregir el vicio.",
+    explanation: "En la situación descrita, las nulidades se plantean por vicios como falta de competencia o violación del debido proceso; deben proponerse antes del traslado para alegatos y solo proceden si no hay otro medio para corregir el vicio.",
     topic: "Nulidades disciplinarias"
   },
   {
     id: 19,
-    question: "Una decisión disciplinaria queda ejecutoriada cuando:",
+    question: "Lectura: La Oficina de Control Interno Disciplinario adelanta una investigación a un servidor y el equipo repasa las reglas aplicables para orientar el trámite. Una decisión disciplinaria queda ejecutoriada cuando:",
     options: [
       "El disciplinado manifiesta su desacuerdo verbal",
       "No procede recurso, o si procedía, no fue interpuesto o ya se resolvió; también después de cinco días sin recurso tras la última notificación",
@@ -568,7 +568,7 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La ejecutoria se da cuando no existen recursos procedentes, no se interponen dentro del término o se resuelven; igualmente se produce tras cinco días sin recurso desde la última notificación.",
+    explanation: "En la situación descrita, la ejecutoria se da cuando no existen recursos procedentes, no se interponen dentro del término o se resuelven; igualmente se produce tras cinco días sin recurso desde la última notificación.",
     topic: "Ejecutoria de decisiones"
   },
   {

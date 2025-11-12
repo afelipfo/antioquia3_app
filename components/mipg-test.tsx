@@ -38,7 +38,7 @@ const questionsV1: Question[] = [
   },
   {
     id: 2,
-    question: "¿Qué establece la Ley 489 de 1998 en relación con el MIPG?",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. ¿Qué establece la Ley 489 de 1998 en relación con el MIPG?",
     options: [
       "Obliga a las entidades territoriales a adoptar el Modelo Estándar de Control Interno (MECI)",
       "Articula el Sistema de Desarrollo Administrativo como conjunto de políticas, estrategias y mecanismos para fortalecer la capacidad administrativa y el desempeño institucional",
@@ -47,12 +47,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La Ley 489 de 1998 articuló el Sistema de Desarrollo Administrativo, base del MIPG al fortalecer la gestión y desempeño institucional.",
+    explanation: "En la situación descrita, la Ley 489 de 1998 articuló el Sistema de Desarrollo Administrativo, base del MIPG al fortalecer la gestión y desempeño institucional.",
     topic: "Marco legal del MIPG"
   },
   {
     id: 3,
-    question: "El artículo 133 de la Ley 1753 de 2015 ordenó:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El artículo 133 de la Ley 1753 de 2015 ordenó:",
     options: [
       "Crear un sistema independiente para el control disciplinario de los servidores",
       "Integrar en un único Sistema de Gestión los Sistemas de Gestión de la Calidad y de Desarrollo Administrativo",
@@ -61,12 +61,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La Ley 1753 de 2015 mandató integrar los sistemas de Gestión de la Calidad y de Desarrollo Administrativo, antecedente directo del MIPG.",
+    explanation: "En la situación descrita, la Ley 1753 de 2015 mandató integrar los sistemas de Gestión de la Calidad y de Desarrollo Administrativo, antecedente directo del MIPG.",
     topic: "Marco legal del MIPG"
   },
   {
     id: 4,
-    question: "¿Cuál decreto formalizó el MIPG como modelo único de gestión pública?",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. ¿Cuál decreto formalizó el MIPG como modelo único de gestión pública?",
     options: [
       "Decreto 1083 de 2015",
       "Decreto 1499 de 2017",
@@ -75,12 +75,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El Decreto 1499 de 2017 modificó el Decreto 1083 de 2015 y formalizó al MIPG como modelo único de gestión pública.",
+    explanation: "En la situación descrita, el Decreto 1499 de 2017 modificó el Decreto 1083 de 2015 y formalizó al MIPG como modelo único de gestión pública.",
     topic: "Marco legal del MIPG"
   },
   {
     id: 5,
-    question: "De acuerdo con el artículo 2.2.22.3.4 del Decreto 1083 de 2015, el MIPG aplica:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. De acuerdo con el artículo 2.2.22.3.4 del Decreto 1083 de 2015, el MIPG aplica:",
     options: [
       "Solo a las entidades del orden nacional de la Rama Ejecutiva",
       "A los organismos y entidades de los órdenes nacional y territorial de la Rama Ejecutiva y a entidades descentralizadas con 90 % o más de capital público",
@@ -89,12 +89,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El alcance del MIPG cubre organismos y entidades de la Rama Ejecutiva en los niveles nacional y territorial, así como entidades descentralizadas con participación estatal igual o superior al 90 %. Los regímenes especiales aplican control interno y otras políticas según proceda.",
+    explanation: "En la situación descrita, el alcance del MIPG cubre organismos y entidades de la Rama Ejecutiva en los niveles nacional y territorial, así como entidades descentralizadas con participación estatal igual o superior al 90 %. Los regímenes especiales aplican control interno y otras políticas según proceda.",
     topic: "Alcance institucional"
   },
   {
     id: 6,
-    question: "¿Cuál de los siguientes NO es un principio del MIPG?",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. ¿Cuál de los siguientes NO es un principio del MIPG?",
     options: [
       "Aprendizaje e innovación",
       "Excelencia y calidad",
@@ -103,12 +103,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 3,
     points: 5,
-    explanation: "Los principios del MIPG son aprendizaje e innovación, orientación a resultados, integridad y confianza, articulación interinstitucional, decisiones basadas en evidencias y excelencia y calidad.",
+    explanation: "En la situación descrita, los principios del MIPG son aprendizaje e innovación, orientación a resultados, integridad y confianza, articulación interinstitucional, decisiones basadas en evidencias y excelencia y calidad.",
     topic: "Principios del MIPG"
   },
   {
     id: 7,
-    question: "El principio de toma de decisiones basadas en evidencias implica:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El principio de toma de decisiones basadas en evidencias implica:",
     options: [
       "Utilizar información confiable para soportar las decisiones públicas",
       "Priorizar la intuición del directivo sobre la información disponible",
@@ -117,12 +117,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "Una de las bases del MIPG es decidir con evidencia, es decir, con información confiable que respalde la gestión.",
+    explanation: "En la situación descrita, una de las bases del MIPG es decidir con evidencia, es decir, con información confiable que respalde la gestión.",
     topic: "Principios del MIPG"
   },
   {
     id: 8,
-    question: "El MIPG está conformado por:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El MIPG está conformado por:",
     options: [
       "Siete dimensiones de gestión y diecinueve políticas de gestión y desempeño",
       "Cuatro componentes y diez políticas de transparencia",
@@ -131,12 +131,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "El modelo se estructura en siete dimensiones de gestión y diecinueve políticas de gestión y desempeño.",
+    explanation: "En la situación descrita, el modelo se estructura en siete dimensiones de gestión y diecinueve políticas de gestión y desempeño.",
     topic: "Estructura del MIPG"
   },
   {
     id: 9,
-    question: "La política de Gestión Estratégica del Talento Humano dentro del MIPG exige:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La política de Gestión Estratégica del Talento Humano dentro del MIPG exige:",
     options: [
       "Elaborar exclusivamente un plan anual de capacitación",
       "Disponer de información, diagnosticar la gestión de talento, diseñar acciones y evaluar el Plan Estratégico de Talento Humano (PETH)",
@@ -145,12 +145,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La política orienta a contar con información, realizar diagnósticos, diseñar acciones y evaluar el PETH de la entidad.",
+    explanation: "En la situación descrita, la política orienta a contar con información, realizar diagnósticos, diseñar acciones y evaluar el PETH de la entidad.",
     topic: "Dimensión Talento Humano"
   },
   {
     id: 10,
-    question: "En la política de integridad, el Manual Operativo del MIPG plantea:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. En la política de integridad, el Manual Operativo del MIPG plantea:",
     options: [
       "Eliminar cualquier diagnóstico de integridad para agilizar la gestión",
       "Formular estrategias sin evaluar resultados para no distraerse de la operación",
@@ -159,12 +159,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "La política de integridad exige diagnosticar, formular y evaluar estrategias, y la Ley 2195 fija plazos para adoptar Programas de Transparencia y Ética Pública.",
+    explanation: "En la situación descrita, la política de integridad exige diagnosticar, formular y evaluar estrategias, y la Ley 2195 fija plazos para adoptar Programas de Transparencia y Ética Pública.",
     topic: "Dimensión Talento Humano"
   },
   {
     id: 11,
-    question: "La planeación institucional dentro del MIPG se basa en:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La planeación institucional dentro del MIPG se basa en:",
     options: [
       "Definir el propósito de la entidad, a quién sirve, prioridades alineadas con los planes de desarrollo y evaluar las capacidades estratégicas y funcionales",
       "Adoptar planes de acción solamente cuando cambie la administración",
@@ -173,12 +173,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "La planeación institucional parte del propósito, el público al que sirve, la definición de prioridades alineadas con el plan de desarrollo y la evaluación de capacidades.",
+    explanation: "En la situación descrita, la planeación institucional parte del propósito, el público al que sirve, la definición de prioridades alineadas con el plan de desarrollo y la evaluación de capacidades.",
     topic: "Dirección estratégica y planeación"
   },
   {
     id: 12,
-    question: "La política de Gestión Presupuestal y Eficiencia del Gasto incluye:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La política de Gestión Presupuestal y Eficiencia del Gasto incluye:",
     options: [
       "Elaborar exclusivamente el anteproyecto de presupuesto",
       "Programar el presupuesto, desagregarlo y formular el Plan Anual Mensualizado de Caja (PAC) para alinear ingresos y egresos",
@@ -187,12 +187,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La política comprende la programación, desagregación y formulación del PAC para asegurar correspondencia entre recursos y gasto.",
+    explanation: "En la situación descrita, la política comprende la programación, desagregación y formulación del PAC para asegurar correspondencia entre recursos y gasto.",
     topic: "Dirección estratégica y planeación"
   },
   {
     id: 13,
-    question: "En compras y contratación pública, el MIPG promueve:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. En compras y contratación pública, el MIPG promueve:",
     options: [
       "Evitar la planificación de adquisiciones para actuar con flexibilidad",
       "Centrar la contratación en acuerdos verbales con proveedores",
@@ -201,12 +201,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "La política de compras incluye el PAA, el uso de SECOP II, abastecimiento estratégico y herramientas como la Tienda Virtual del Estado.",
+    explanation: "En la situación descrita, la política de compras incluye el PAA, el uso de SECOP II, abastecimiento estratégico y herramientas como la Tienda Virtual del Estado.",
     topic: "Dirección estratégica y planeación"
   },
   {
     id: 14,
-    question: "Dentro de la dimensión Gestión con valores para resultados, el esquema operativo interno incluye:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. Dentro de la dimensión Gestión con valores para resultados, el esquema operativo interno incluye:",
     options: [
       "Únicamente la adquisición de nuevos bienes muebles",
       "Comprender la situación, rediseñar procesos, trabajar por procesos, gestionar recursos físicos, servicios internos y la gestión ambiental",
@@ -215,12 +215,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El esquema operativo interno busca simplificar y fortalecer procesos internos, gestionar recursos y considerar la dimensión ambiental.",
+    explanation: "En la situación descrita, el esquema operativo interno busca simplificar y fortalecer procesos internos, gestionar recursos y considerar la dimensión ambiental.",
     topic: "Gestión con valores para resultados"
   },
   {
     id: 15,
-    question: "La política de Servicio al Ciudadano implica:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La política de Servicio al Ciudadano implica:",
     options: [
       "Atender únicamente a los usuarios que presenten reclamos formales",
       "Diagnosticar el estado del servicio, formular estrategias articuladas con la planeación institucional, ejecutarlas y evaluarlas",
@@ -229,12 +229,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La política promueve un ciclo de diagnóstico, formulación, ejecución y evaluación para asegurar servicios de calidad.",
+    explanation: "En la situación descrita, la política promueve un ciclo de diagnóstico, formulación, ejecución y evaluación para asegurar servicios de calidad.",
     topic: "Relación Estado-ciudadano"
   },
   {
     id: 16,
-    question: "La simplificación y racionalización de trámites busca:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La simplificación y racionalización de trámites busca:",
     options: [
       "Aumentar los requisitos para garantizar mayor control",
       "Reducir costos, tiempos y requisitos para facilitar el acceso a derechos",
@@ -243,12 +243,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La política de trámites pretende facilitar el acceso a derechos mediante la reducción de costos, tiempos y requisitos.",
+    explanation: "En la situación descrita, la política de trámites pretende facilitar el acceso a derechos mediante la reducción de costos, tiempos y requisitos.",
     topic: "Relación Estado-ciudadano"
   },
   {
     id: 17,
-    question: "La participación ciudadana en la gestión pública dentro del MIPG requiere:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La participación ciudadana en la gestión pública dentro del MIPG requiere:",
     options: [
       "Limitar la incidencia ciudadana a la etapa de evaluación de proyectos",
       "Garantizar la incidencia efectiva de la ciudadanía en diagnóstico, planeación, ejecución y evaluación mediante diagnósticos, estrategias y acciones en cada fase",
@@ -257,12 +257,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La política pide diseñar diagnósticos, estrategias y acciones que permitan incidencia ciudadana en todas las fases de la gestión pública.",
+    explanation: "En la situación descrita, la política pide diseñar diagnósticos, estrategias y acciones que permitan incidencia ciudadana en todas las fases de la gestión pública.",
     topic: "Relación Estado-ciudadano"
   },
   {
     id: 18,
-    question: "La política de Transparencia, Acceso a la Información y Lucha contra la Corrupción se soporta en:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La política de Transparencia, Acceso a la Información y Lucha contra la Corrupción se soporta en:",
     options: [
       "Las leyes 1474 de 2011, 1712 de 2014 y 2195 de 2022",
       "Únicamente en la Ley 489 de 1998",
@@ -271,12 +271,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "Las leyes 1474 de 2011, 1712 de 2014 y 2195 de 2022 fundamentan la política de transparencia y acceso a la información.",
+    explanation: "En la situación descrita, las leyes 1474 de 2011, 1712 de 2014 y 2195 de 2022 fundamentan la política de transparencia y acceso a la información.",
     topic: "Gestión de recursos y transparencia"
   },
   {
     id: 19,
-    question: "La política de Seguridad Digital busca:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La política de Seguridad Digital busca:",
     options: [
       "Delegar el manejo de riesgos digitales a proveedores externos",
       "Fortalecer capacidades para identificar y mitigar riesgos de seguridad digital, promover resiliencia y cooperación",
@@ -285,7 +285,7 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Seguridad digital pretende fortalecer capacidades, mitigar riesgos y promover resiliencia y cooperación frente a amenazas digitales.",
+    explanation: "En la situación descrita, seguridad digital pretende fortalecer capacidades, mitigar riesgos y promover resiliencia y cooperación frente a amenazas digitales.",
     topic: "Gestión de recursos y transparencia"
   },
   {
@@ -321,7 +321,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 2,
-    question: "Las entidades con régimen especial (Ramas Legislativa y Judicial, organismos de control, Organización Electoral e institutos científicos) deben:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. Las entidades con régimen especial (Ramas Legislativa y Judicial, organismos de control, Organización Electoral e institutos científicos) deben:",
     options: [
       "Aplicar la totalidad de las políticas del MIPG sin excepción",
       "Aplicar la política de control interno de la Ley 87 de 1993 y las demás políticas de gestión en la medida en que sean aplicables",
@@ -330,12 +330,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Estas entidades aplican la política de control interno prevista en la Ley 87 de 1993 y las demás políticas de gestión en la medida en que las puedan adoptar.",
+    explanation: "En la situación descrita, estas entidades aplican la política de control interno prevista en la Ley 87 de 1993 y las demás políticas de gestión en la medida en que las puedan adoptar.",
     topic: "Alcance institucional"
   },
   {
     id: 3,
-    question: "El principio de integridad y confianza del MIPG implica:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El principio de integridad y confianza del MIPG implica:",
     options: [
       "Reducir la participación ciudadana para evitar riesgos reputacionales",
       "Conducir la gestión pública de manera ética y fortalecer la confianza ciudadana",
@@ -344,12 +344,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La integridad y la confianza promueven una gestión ética capaz de fortalecer la confianza ciudadana.",
+    explanation: "En la situación descrita, la integridad y la confianza promueven una gestión ética capaz de fortalecer la confianza ciudadana.",
     topic: "Principios del MIPG"
   },
   {
     id: 4,
-    question: "La dimensión Evaluación de Resultados exige, entre otros aspectos:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La dimensión Evaluación de Resultados exige, entre otros aspectos:",
     options: [
       "Preparar únicamente informes financieros trimestrales",
       "Definir responsables, revisar indicadores, evaluar resultados y riesgos, medir la percepción de los grupos de valor, documentar hallazgos y aplicar mejora continua",
@@ -358,12 +358,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La evaluación de resultados incluye asignar responsabilidades, actualizar indicadores, evaluar resultados y riesgos, medir percepciones y documentar mejoras.",
+    explanation: "En la situación descrita, la evaluación de resultados incluye asignar responsabilidades, actualizar indicadores, evaluar resultados y riesgos, medir percepciones y documentar mejoras.",
     topic: "Evaluación de resultados"
   },
   {
     id: 5,
-    question: "La política de seguimiento y evaluación del desempeño institucional incorpora la clasificación de indicadores de la CEPAL, que comprende:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La política de seguimiento y evaluación del desempeño institucional incorpora la clasificación de indicadores de la CEPAL, que comprende:",
     options: [
       "Eficiencia, eficacia, calidad y economía",
       "Impacto social, impacto ambiental y cobertura",
@@ -372,12 +372,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "El MIPG adopta la clasificación de indicadores de eficiencia, eficacia, calidad y economía propuesta por la CEPAL.",
+    explanation: "En la situación descrita, el MIPG adopta la clasificación de indicadores de eficiencia, eficacia, calidad y economía propuesta por la CEPAL.",
     topic: "Evaluación de resultados"
   },
   {
     id: 6,
-    question: "¿Qué tipo de indicador se usa para medir los cambios en las condiciones objetivas tras la intervención de la entidad?",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. ¿Qué tipo de indicador se usa para medir los cambios en las condiciones objetivas tras la intervención de la entidad?",
     options: [
       "Indicador de productividad",
       "Indicador de impacto",
@@ -386,12 +386,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Los indicadores de impacto permiten valorar los cambios obtenidos en las condiciones objeto de intervención.",
+    explanation: "En la situación descrita, los indicadores de impacto permiten valorar los cambios obtenidos en las condiciones objeto de intervención.",
     topic: "Evaluación de resultados"
   },
   {
     id: 7,
-    question: "La gestión documental en el MIPG se organiza en:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La gestión documental en el MIPG se organiza en:",
     options: [
       "Aspectos estratégicos, administración de archivos, procesos de gestión documental, dimensión tecnológica y cultura organizacional",
       "Compra de equipos y contratación de bodegas externas",
@@ -400,12 +400,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "La gestión documental contempla esas cinco áreas para garantizar la preservación y uso de la memoria institucional.",
+    explanation: "En la situación descrita, la gestión documental contempla esas cinco áreas para garantizar la preservación y uso de la memoria institucional.",
     topic: "Información y comunicación"
   },
   {
     id: 8,
-    question: "La gestión de la información estadística dentro del MIPG incluye:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La gestión de la información estadística dentro del MIPG incluye:",
     options: [
       "Únicamente la elaboración de boletines informativos",
       "Planificación estadística, fortalecimiento de registros administrativos y calidad estadística",
@@ -414,12 +414,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La política estadística contempla la planificación, el fortalecimiento de los registros administrativos y la garantía de calidad.",
+    explanation: "En la situación descrita, la política estadística contempla la planificación, el fortalecimiento de los registros administrativos y la garantía de calidad.",
     topic: "Información y comunicación"
   },
   {
     id: 9,
-    question: "La dimensión Gestión del Conocimiento e Innovación busca:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La dimensión Gestión del Conocimiento e Innovación busca:",
     options: [
       "Almacenar información sin compartirla para garantizar exclusividad",
       "Generar y producir conocimiento, contar con herramientas de uso y apropiación, analítica institucional y cultura de compartirlo",
@@ -428,12 +428,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La dimensión promueve generar, usar, analizar y compartir conocimiento para mejorar la gestión.",
+    explanation: "En la situación descrita, la dimensión promueve generar, usar, analizar y compartir conocimiento para mejorar la gestión.",
     topic: "Gestión del conocimiento e innovación"
   },
   {
     id: 10,
-    question: "El Sistema de Control Interno del MIPG se soporta, entre otras normas, en:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El Sistema de Control Interno del MIPG se soporta, entre otras normas, en:",
     options: [
       "La Constitución, la Ley 87 de 1993, la Ley 489 de 1998, la Ley 1474 de 2011 y decretos como 1599/2005, 943/2014, 1083/2015, 648/2017 y 1499/2017",
       "La Ley 80 de 1993 y la Ley 1150 de 2007",
@@ -442,12 +442,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "El SCI se sustenta en la Constitución, la Ley 87 y otras normas que consolidan el modelo de control interno.",
+    explanation: "En la situación descrita, el SCI se sustenta en la Constitución, la Ley 87 y otras normas que consolidan el modelo de control interno.",
     topic: "Control interno"
   },
   {
     id: 11,
-    question: "Entre los objetivos del Sistema de Control Interno se encuentran:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. Entre los objetivos del Sistema de Control Interno se encuentran:",
     options: [
       "Garantizar información oportuna y confiable, gestionar riesgos, aplicar mecanismos de verificación y evaluación y asegurar eficiencia, eficacia y economía",
       "Solo custodiar los bienes muebles de la entidad",
@@ -456,12 +456,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "Los objetivos del SCI abarcan la confiabilidad de la información, la gestión de riesgos, la verificación, la evaluación y la eficiencia operativa.",
+    explanation: "En la situación descrita, los objetivos del SCI abarcan la confiabilidad de la información, la gestión de riesgos, la verificación, la evaluación y la eficiencia operativa.",
     topic: "Control interno"
   },
   {
     id: 12,
-    question: "Los entes reguladores del Sistema de Control Interno son:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. Los entes reguladores del Sistema de Control Interno son:",
     options: [
       "Presidente de la República, Departamento Administrativo de la Función Pública, Congreso, Contaduría General y Contraloría General",
       "Ministerio de Hacienda y Corte Suprema",
@@ -470,12 +470,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "Estos entes regulan y orientan el Sistema de Control Interno a nivel nacional.",
+    explanation: "En la situación descrita, estos entes regulan y orientan el Sistema de Control Interno a nivel nacional.",
     topic: "Control interno"
   },
   {
     id: 13,
-    question: "Los principios del Sistema de Control Interno son:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. Los principios del Sistema de Control Interno son:",
     options: [
       "Autogestión, autorregulación y autocontrol",
       "Centralización, jerarquía y supervisión externa",
@@ -484,12 +484,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "El SCI descansa en la autogestión, la autorregulación y el autocontrol como principios fundamentales.",
+    explanation: "En la situación descrita, el SCI descansa en la autogestión, la autorregulación y el autocontrol como principios fundamentales.",
     topic: "Control interno"
   },
   {
     id: 14,
-    question: "El Modelo Estándar de Control Interno (MECI) se estructura en:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El Modelo Estándar de Control Interno (MECI) se estructura en:",
     options: [
       "Cinco componentes: ambiente de control, evaluación de riesgos, actividades de control, información y comunicación, y monitoreo",
       "Tres componentes: planificación, ejecución y cierre",
@@ -498,12 +498,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "El MECI tiene cinco componentes articulados con 17 principios para fortalecer la gestión y el control.",
+    explanation: "En la situación descrita, el MECI tiene cinco componentes articulados con 17 principios para fortalecer la gestión y el control.",
     topic: "Control interno"
   },
   {
     id: 15,
-    question: "Las cuatro líneas de defensa dentro del MIPG están orientadas a:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. Las cuatro líneas de defensa dentro del MIPG están orientadas a:",
     options: [
       "Segregar funciones entre oficinas técnicas para evitar duplicidades",
       "Gestionar el riesgo institucional asegurando control en la operación, supervisión, control interno independiente y control externo",
@@ -512,12 +512,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las líneas de defensa refuerzan la gestión del riesgo desde la operación, la supervisión, el control interno independiente y el control externo.",
+    explanation: "En la situación descrita, las líneas de defensa refuerzan la gestión del riesgo desde la operación, la supervisión, el control interno independiente y el control externo.",
     topic: "Control interno"
   },
   {
     id: 16,
-    question: "El Índice de Desempeño Institucional (MDI) mide:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El Índice de Desempeño Institucional (MDI) mide:",
     options: [
       "La ejecución presupuestal acumulada del último año",
       "La capacidad de las entidades para orientar sus procesos a producir bienes y servicios que solucionen necesidades ciudadanas con calidad e integridad",
@@ -526,12 +526,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El MDI evalúa la capacidad institucional de producir bienes y servicios que resuelvan necesidades ciudadanas con calidad e integridad.",
+    explanation: "En la situación descrita, el MDI evalúa la capacidad institucional de producir bienes y servicios que resuelvan necesidades ciudadanas con calidad e integridad.",
     topic: "Medición del desempeño"
   },
   {
     id: 17,
-    question: "El Índice de Control Interno permite:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El Índice de Control Interno permite:",
     options: [
       "Medir la capacidad de aplicar lineamientos que orienten procesos de control y gestión de riesgos en las entidades",
       "Determinar la satisfacción de los usuarios con los canales digitales",
@@ -540,12 +540,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "El Índice de Control Interno mide la capacidad de aplicar lineamientos de control y gestión de riesgos.",
+    explanation: "En la situación descrita, el Índice de Control Interno mide la capacidad de aplicar lineamientos de control y gestión de riesgos.",
     topic: "Medición del desempeño"
   },
   {
     id: 18,
-    question: "¿Qué entidades lideran las políticas de Gestión del Talento Humano, Integridad, Fortalecimiento organizacional, Simplificación de procesos, Racionalización de trámites, Participación ciudadana, Gestión del conocimiento e innovación y Control interno?",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. ¿Qué entidades lideran las políticas de Gestión del Talento Humano, Integridad, Fortalecimiento organizacional, Simplificación de procesos, Racionalización de trámites, Participación ciudadana, Gestión del conocimiento e innovación y Control interno?",
     options: [
       "Departamento Administrativo de la Función Pública (DAFP)",
       "Ministerio de Hacienda y Crédito Público",
@@ -554,12 +554,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "El DAFP lidera esas políticas dentro del MIPG.",
+    explanation: "En la situación descrita, el DAFP lidera esas políticas dentro del MIPG.",
     topic: "Gobernanza de las políticas"
   },
   {
     id: 19,
-    question: "El Departamento Nacional de Planeación (DNP) lidera principalmente las políticas de:",
+    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El Departamento Nacional de Planeación (DNP) lidera principalmente las políticas de:",
     options: [
       "Gestión del talento humano y control interno",
       "Planeación institucional y evaluación de resultados",
@@ -568,7 +568,7 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El DNP lidera la planeación institucional y la evaluación de resultados en el marco del MIPG.",
+    explanation: "En la situación descrita, el DNP lidera la planeación institucional y la evaluación de resultados en el marco del MIPG.",
     topic: "Gobernanza de las políticas"
   },
   {

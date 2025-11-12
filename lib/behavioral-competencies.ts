@@ -33,7 +33,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "adaptacion-cambio-v2-1",
-        text: "¿Cuál es el rol principal del servidor público frente a los cambios organizacionales según el Decreto 815?",
+        text: "Lectura: En la Secretaría de Movilidad se anunció una reestructuración que obliga a modificar procesos y roles. ¿Cuál es el rol principal del servidor público frente a los cambios organizacionales según el Decreto 815?",
         options: [
           { value: "a", label: "Mantener las prácticas anteriores hasta recibir capacitación formal completa." },
           { value: "b", label: "Facilitar la transición apoyando activamente la implementación de nuevas formas de trabajo." },
@@ -43,13 +43,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El decreto establece que se debe facilitar la transición y apoyar activamente la implementación, demostrando flexibilidad y compromiso institucional.",
+          "En la situación descrita, el decreto establece que se debe facilitar la transición y apoyar activamente la implementación, demostrando flexibilidad y compromiso institucional.",
         review:
           "Revisa la sección de Adaptación al Cambio: la actitud proactiva y el apoyo activo son fundamentales durante transiciones organizacionales.",
       },
       {
         id: "adaptacion-cambio-v2-2",
-        text: "Cuando un equipo manifiesta resistencia ante un cambio institucional, el servidor debe:",
+        text: "Lectura: En la Secretaría de Movilidad se anunció una reestructuración que obliga a modificar procesos y roles. Cuando un equipo manifiesta resistencia ante un cambio institucional, el servidor debe:",
         options: [
           { value: "a", label: "Reportar inmediatamente la resistencia y solicitar medidas disciplinarias." },
           { value: "b", label: "Acompañar al equipo, escuchar sus inquietudes y promover una integración constructiva del cambio." },
@@ -59,13 +59,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La adaptación al cambio implica promover que el grupo se adapte mediante acompañamiento y generación de un ambiente de soporte constructivo.",
+          "En la situación descrita, la adaptación al cambio implica promover que el grupo se adapte mediante acompañamiento y generación de un ambiente de soporte constructivo.",
         review:
           "Consulta las conductas asociadas: acompañar al equipo y promover la adaptación positiva son competencias clave.",
       },
       {
         id: "adaptacion-cambio-v2-3",
-        text: "La respuesta flexible ante situaciones nuevas significa:",
+        text: "Lectura: En la Secretaría de Movilidad se anunció una reestructuración que obliga a modificar procesos y roles. La respuesta flexible ante situaciones nuevas significa:",
         options: [
           { value: "a", label: "Ajustar comportamientos y métodos de trabajo para alinearse con las nuevas condiciones institucionales." },
           { value: "b", label: "Esperar instrucciones detalladas antes de modificar cualquier procedimiento establecido." },
@@ -75,13 +75,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 10,
         explanation:
-          "El Decreto 815 enfatiza aceptar y responder con flexibilidad, ajustando comportamientos y métodos según las necesidades institucionales.",
+          "En la situación descrita, el Decreto 815 enfatiza aceptar y responder con flexibilidad, ajustando comportamientos y métodos según las necesidades institucionales.",
         review:
           "Repasa el concepto de flexibilidad organizacional: implica ajustar proactivamente comportamientos y métodos de trabajo.",
       },
       {
         id: "adaptacion-cambio-v2-4",
-        text: "¿Qué caracteriza a un servidor que coopera activamente en la implementación de cambios?",
+        text: "Lectura: En la Secretaría de Movilidad se anunció una reestructuración que obliga a modificar procesos y roles. ¿Qué caracteriza a un servidor que coopera activamente en la implementación de cambios?",
         options: [
           { value: "a", label: "Participa en reuniones informativas pero espera a que otros ejecuten las acciones." },
           { value: "b", label: "Integra nuevos objetivos en su trabajo diario y apoya a colegas en la transición." },
@@ -91,13 +91,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "Cooperar activamente significa integrar los nuevos objetivos en el trabajo diario y apoyar al equipo en la adopción de las nuevas prácticas.",
+          "En la situación descrita, cooperar activamente significa integrar los nuevos objetivos en el trabajo diario y apoyar al equipo en la adopción de las nuevas prácticas.",
         review:
           "Revisa las conductas de cooperación activa: implica integración práctica y apoyo colaborativo al equipo.",
       },
       {
         id: "adaptacion-cambio-v2-5",
-        text: "Eres responsable de implementar un nuevo sistema de gestión. Algunos empleados se resisten al cambio y continúan utilizando el sistema antiguo. ¿Cómo manejarías esta resistencia al cambio?",
+        text: "Lectura: En la Secretaría de Movilidad se anunció una reestructuración que obliga a modificar procesos y roles. Eres responsable de implementar un nuevo sistema de gestión. Algunos empleados se resisten al cambio y continúan utilizando el sistema antiguo. ¿Cómo manejarías esta resistencia al cambio?",
         options: [
           { value: "a", label: "Ignorar a los empleados que se resisten y seguir adelante con la implementación." },
           { value: "b", label: "Forzar a los empleados a usar el nuevo sistema bajo amenaza de sanciones." },
@@ -107,13 +107,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "c",
         score: 10,
         explanation:
-          "Organizar capacitaciones y explicar beneficios es la mejor estrategia para gestionar la resistencia al cambio, generando comprensión y aceptación. Esta conducta demuestra adaptación al cambio mediante el acompañamiento al equipo.",
+          "En la situación descrita, organizar capacitaciones y explicar beneficios es la mejor estrategia para gestionar la resistencia al cambio, generando comprensión y aceptación. Esta conducta demuestra adaptación al cambio mediante el acompañamiento al equipo.",
         review:
           "Revisa las conductas de adaptación al cambio: promover que el grupo se adapte a nuevas condiciones requiere acompañamiento, explicación y generación de aceptación constructiva.",
       },
       {
         id: "adaptacion-cambio-v2-6-b",
-        text: "Adaptación al cambio requiere:",
+        text: "Lectura: En la Secretaría de Movilidad se anunció una reestructuración que obliga a modificar procesos y roles. Adaptación al cambio requiere:",
         options: [
           { value: "a", label: "Rechazar nuevas metas" },
           { value: "b", label: "Aceptar y apoyar nuevas situaciones, procesos y objetivos institucionales" },
@@ -123,13 +123,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "La competencia se enfoca en aceptar, apoyar y gestionar positivamente los cambios institucionales.",
+          "En la situación descrita, la competencia se enfoca en aceptar, apoyar y gestionar positivamente los cambios institucionales.",
         review:
           "Repasa la competencia Adaptación al Cambio: aceptar y apoyar nuevas situaciones, procesos y objetivos es fundamental.",
       },
       {
         id: "adaptacion-cambio-v2-6-c",
-        text: "Abandonar tareas ante dificultades no previstas refleja:",
+        text: "Lectura: En la Secretaría de Movilidad se anunció una reestructuración que obliga a modificar procesos y roles. Abandonar tareas ante dificultades no previstas refleja:",
         options: [
           { value: "a", label: "Resiliencia" },
           { value: "b", label: "Falta de perseverancia y adaptación al cambio" },
@@ -139,7 +139,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "La adaptación al cambio requiere mantener el esfuerzo, buscar soluciones y gestionar los obstáculos.",
+          "En la situación descrita, la adaptación al cambio requiere mantener el esfuerzo, buscar soluciones y gestionar los obstáculos.",
         review:
           "Consulta la competencia Adaptación al Cambio: requiere perseverancia, búsqueda de soluciones y gestión de obstáculos.",
       },
@@ -171,7 +171,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "aporte-tecnico-v2-1",
-        text: "¿Qué implica aportar conocimientos especializados según el Decreto 815?",
+        text: "Lectura: En la mesa técnica del proyecto regional, el equipo analiza incidentes que requieren criterio especializado. ¿Qué implica aportar conocimientos especializados según el Decreto 815?",
         options: [
           { value: "a", label: "Compartir experiencia técnica para mejorar procesos y resolver situaciones problemáticas de manera proactiva." },
           { value: "b", label: "Limitar el conocimiento especializado a reportes escritos sin participar en soluciones prácticas." },
@@ -181,13 +181,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 10,
         explanation:
-          "El aporte técnico-profesional requiere compartir experiencia especializada proactivamente para anticipar problemas y contribuir a soluciones efectivas.",
+          "En la situación descrita, el aporte técnico-profesional requiere compartir experiencia especializada proactivamente para anticipar problemas y contribuir a soluciones efectivas.",
         review:
           "Repasa la sección de Aporte Técnico: la proactividad y la contribución a soluciones son elementos centrales.",
       },
       {
         id: "aporte-tecnico-v2-2",
-        text: "Anticipar problemas previsibles en el contexto profesional significa:",
+        text: "Lectura: En la mesa técnica del proyecto regional, el equipo analiza incidentes que requieren criterio especializado. Anticipar problemas previsibles en el contexto profesional significa:",
         options: [
           { value: "a", label: "Esperar a que los problemas se materialicen para documentarlos adecuadamente." },
           { value: "b", label: "Identificar riesgos potenciales con base en conocimiento técnico y proponer medidas preventivas." },
@@ -197,13 +197,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "Anticipar implica usar el conocimiento especializado para identificar riesgos y proponer soluciones antes de que los problemas afecten el servicio.",
+          "En la situación descrita, anticipar implica usar el conocimiento especializado para identificar riesgos y proponer soluciones antes de que los problemas afecten el servicio.",
         review:
           "Consulta las conductas de anticipación: el uso proactivo del conocimiento técnico para prevenir problemas es clave.",
       },
       {
         id: "aporte-tecnico-v2-3",
-        text: "¿Cómo se manifiesta la interdisciplinariedad en el aporte técnico-profesional?",
+        text: "Lectura: En la mesa técnica del proyecto regional, el equipo analiza incidentes que requieren criterio especializado. ¿Cómo se manifiesta la interdisciplinariedad en el aporte técnico-profesional?",
         options: [
           { value: "a", label: "Manteniendo estrictamente los límites de la propia disciplina sin involucrarse en otras áreas." },
           { value: "b", label: "Reconociendo y aprovechando aportes de otras disciplinas para enriquecer soluciones integrales." },
@@ -213,13 +213,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El decreto enfatiza reconocer y aprovechar los aportes de otras disciplinas para construir soluciones más completas y efectivas.",
+          "En la situación descrita, el decreto enfatiza reconocer y aprovechar los aportes de otras disciplinas para construir soluciones más completas y efectivas.",
         review:
           "Revisa el componente de interdisciplinariedad: implica integrar activamente aportes de diversas especialidades.",
       },
       {
         id: "aporte-tecnico-v2-4",
-        text: "La experiencia especializada debe aplicarse para:",
+        text: "Lectura: En la mesa técnica del proyecto regional, el equipo analiza incidentes que requieren criterio especializado. La experiencia especializada debe aplicarse para:",
         options: [
           { value: "a", label: "Resolver únicamente problemas técnicos específicos asignados por el supervisor." },
           { value: "b", label: "Contribuir a la generación de soluciones que beneficien procesos y objetivos institucionales." },
@@ -229,13 +229,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El aporte técnico-profesional busca que la experiencia especializada contribuya activamente a soluciones que fortalezcan los procesos institucionales.",
+          "En la situación descrita, el aporte técnico-profesional busca que la experiencia especializada contribuya activamente a soluciones que fortalezcan los procesos institucionales.",
         review:
           "Refuerza la comprensión del aporte técnico: debe orientarse al beneficio de procesos y objetivos organizacionales.",
       },
       {
         id: "aporte-tecnico-v2-5",
-        text: "Al definir las competencias funcionales de un empleo, el Decreto 815 establece que deben contemplarse:",
+        text: "Lectura: En la mesa técnica del proyecto regional, el equipo analiza incidentes que requieren criterio especializado. Al definir las competencias funcionales de un empleo, el Decreto 815 establece que deben contemplarse:",
         options: [
           { value: "a", label: "Los manuales de procesos de otras entidades para homologar responsabilidades." },
           { value: "b", label: "Criterios de desempeño, conocimientos básicos, contextos de aplicación y evidencias que demuestren las contribuciones." },
@@ -245,13 +245,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El artículo 2.2.4.5 precisa que las competencias funcionales se definen con criterios de desempeño, conocimientos, contextos y evidencias que demuestren el aporte del empleo.",
+          "En la situación descrita, el artículo 2.2.4.5 precisa que las competencias funcionales se definen con criterios de desempeño, conocimientos, contextos y evidencias que demuestren el aporte del empleo.",
         review:
           "Consulta el artículo 2.2.4.5: los cuatro elementos garantizan claridad en las competencias funcionales del empleo público.",
       },
       {
         id: "aporte-tecnico-v2-6",
-        text: "El nivel Profesional se caracteriza por:",
+        text: "Lectura: En la mesa técnica del proyecto regional, el equipo analiza incidentes que requieren criterio especializado. El nivel Profesional se caracteriza por:",
         options: [
           { value: "a", label: "Ejecutar procesos y procedimientos técnicos aplicando ciencia y tecnología" },
           { value: "b", label: "Administrar trámites básicos" },
@@ -261,7 +261,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "Los profesionales ejecutan procesos técnicos y aplican conocimientos científicos y tecnológicos.",
+          "En la situación descrita, los profesionales ejecutan procesos técnicos y aplican conocimientos científicos y tecnológicos.",
         review:
           "Consulta las competencias del nivel Profesional: ejecutar procesos técnicos aplicando ciencia y tecnología.",
       },
@@ -293,7 +293,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "aprendizaje-continuo-v2-1",
-        text: "¿Qué caracteriza el aprendizaje continuo según el Decreto 815?",
+        text: "Lectura: El Centro de Formación reporta cambios normativos y convoca al personal a revisar sus planes de actualización. ¿Qué caracteriza el aprendizaje continuo según el Decreto 815?",
         options: [
           { value: "a", label: "Actualizar conocimientos solo cuando la entidad ofrezca capacitaciones obligatorias." },
           { value: "b", label: "Adquirir y desarrollar permanentemente conocimientos, habilidades y destrezas mediante fuentes confiables." },
@@ -303,13 +303,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El aprendizaje continuo implica la adquisición y desarrollo permanente de conocimientos a través de fuentes confiables y espacios formales e informales.",
+          "En la situación descrita, el aprendizaje continuo implica la adquisición y desarrollo permanente de conocimientos a través de fuentes confiables y espacios formales e informales.",
         review:
           "Revisa la definición de aprendizaje continuo: es un proceso permanente y proactivo, no limitado a capacitaciones formales obligatorias.",
       },
       {
         id: "aprendizaje-continuo-v2-2",
-        text: "La aplicación práctica del conocimiento adquirido se evidencia cuando:",
+        text: "Lectura: El Centro de Formación reporta cambios normativos y convoca al personal a revisar sus planes de actualización. La aplicación práctica del conocimiento adquirido se evidencia cuando:",
         options: [
           { value: "a", label: "Se archivan certificados de capacitación en la hoja de vida sin cambios en el desempeño." },
           { value: "b", label: "Se integran nuevos conocimientos en las actividades laborales para mejorar procesos y resultados." },
@@ -319,13 +319,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El decreto enfatiza que el conocimiento debe aplicarse en el trabajo para contribuir al mejoramiento de procesos y resultados institucionales.",
+          "En la situación descrita, el decreto enfatiza que el conocimiento debe aplicarse en el trabajo para contribuir al mejoramiento de procesos y resultados institucionales.",
         review:
           "Consulta las conductas asociadas: la aplicación práctica del conocimiento en el trabajo diario es fundamental.",
       },
       {
         id: "aprendizaje-continuo-v2-3",
-        text: "¿Qué papel juegan las fuentes confiables en el aprendizaje continuo?",
+        text: "Lectura: El Centro de Formación reporta cambios normativos y convoca al personal a revisar sus planes de actualización. ¿Qué papel juegan las fuentes confiables en el aprendizaje continuo?",
         options: [
           { value: "a", label: "Son opcionales si se cuenta con experiencia laboral suficiente." },
           { value: "b", label: "Garantizan que la actualización se base en información verificada y de calidad para el ejercicio profesional." },
@@ -335,13 +335,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "Las fuentes confiables aseguran que la actualización se realice con información verificada, actual y de calidad que respalde el ejercicio profesional.",
+          "En la situación descrita, las fuentes confiables aseguran que la actualización se realice con información verificada, actual y de calidad que respalde el ejercicio profesional.",
         review:
           "Repasa la importancia de las fuentes confiables: son esenciales para garantizar la calidad del aprendizaje continuo.",
       },
       {
         id: "aprendizaje-continuo-v2-4",
-        text: "Los espacios de capacitación incluyen:",
+        text: "Lectura: El Centro de Formación reporta cambios normativos y convoca al personal a revisar sus planes de actualización. Los espacios de capacitación incluyen:",
         options: [
           { value: "a", label: "Únicamente programas formales certificados por instituciones educativas acreditadas." },
           { value: "b", label: "Tanto capacitaciones formales como espacios informales de aprendizaje autodirigido." },
@@ -351,13 +351,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El Decreto 815 reconoce tanto espacios formales como informales de capacitación, incluyendo el aprendizaje autodirigido y continuo.",
+          "En la situación descrita, el Decreto 815 reconoce tanto espacios formales como informales de capacitación, incluyendo el aprendizaje autodirigido y continuo.",
         review:
           "Revisa el alcance de los espacios de capacitación: incluyen modalidades formales e informales de actualización profesional.",
       },
       {
         id: "aprendizaje-continuo-v2-5",
-        text: "¿Cuáles son los componentes de las competencias laborales definidos en el Decreto 815?",
+        text: "Lectura: El Centro de Formación reporta cambios normativos y convoca al personal a revisar sus planes de actualización. ¿Cuáles son los componentes de las competencias laborales definidos en el Decreto 815?",
         options: [
           { value: "a", label: "Requisitos de estudio y experiencia del empleo, competencias funcionales y competencias comportamentales." },
           { value: "b", label: "Únicamente los requisitos de formación y las certificaciones técnicas vigentes." },
@@ -367,13 +367,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 10,
         explanation:
-          "El artículo 2.2.4.3 establece que las competencias laborales se integran por requisitos de estudio y experiencia, competencias funcionales y competencias comportamentales.",
+          "En la situación descrita, el artículo 2.2.4.3 establece que las competencias laborales se integran por requisitos de estudio y experiencia, competencias funcionales y competencias comportamentales.",
         review:
           "Revisa el artículo 2.2.4.3: identifica los tres componentes que estructuran las competencias laborales en el empleo público.",
       },
       {
         id: "aprendizaje-continuo-v2-6",
-        text: "Aprendizaje continuo implica conductas como:",
+        text: "Lectura: El Centro de Formación reporta cambios normativos y convoca al personal a revisar sus planes de actualización. Aprendizaje continuo implica conductas como:",
         options: [
           { value: "a", label: "Resistirse a los cambios" },
           { value: "b", label: "Mantener competencias actualizadas, gestionar fuentes de información confiables y compartir conocimientos" },
@@ -383,7 +383,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "La competencia demanda actualización permanente, uso de fuentes confiables y socialización del conocimiento.",
+          "En la situación descrita, la competencia demanda actualización permanente, uso de fuentes confiables y socialización del conocimiento.",
         review:
           "Consulta la competencia Aprendizaje Continuo: actualización, fuentes confiables y compartir conocimiento.",
       },
@@ -415,7 +415,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "compromiso-organizacion-v2-1",
-        text: "¿Por qué el Código de Integridad se acompaña de un ejercicio comunicativo y pedagógico?",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Por qué el Código de Integridad se acompaña de un ejercicio comunicativo y pedagógico?",
         options: [
           { value: "a", label: "Para reemplazar el Código Disciplinario Único por un régimen de sanciones inmediatas." },
           {
@@ -428,13 +428,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El Código destaca que no bastan normas; se requiere un proceso pedagógico que promueva cambios culturales y compromiso cotidiano con la integridad.",
+          "En la situación descrita, el Código destaca que no bastan normas; se requiere un proceso pedagógico que promueva cambios culturales y compromiso cotidiano con la integridad.",
         review:
           "Revisa la motivación del Código de Integridad: subraya la necesidad de un enfoque pedagógico y preventivo.",
       },
       {
         id: "compromiso-organizacion-v2-2",
-        text: "La decisión del DAFP de formular un código general y conciso busca principalmente:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. La decisión del DAFP de formular un código general y conciso busca principalmente:",
         options: [
           { value: "a", label: "Permitir que cada entidad defina valores distintos sin lineamientos comunes." },
           { value: "b", label: "Garantizar universalidad y un lenguaje compartido para todos los servidores de la Rama Ejecutiva." },
@@ -444,13 +444,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El Código adopta un enfoque universal para redefinir la gestión ética con una política aplicable a todo el sector público.",
+          "En la situación descrita, el Código adopta un enfoque universal para redefinir la gestión ética con una política aplicable a todo el sector público.",
         review:
           "Consulta el apartado sobre universalidad: resalta la necesidad de un marco común para todos los servidores.",
       },
       {
         id: "compromiso-organizacion-v2-3",
-        text: "¿Cuál comportamiento vulnera directamente el valor honestidad?",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Cuál comportamiento vulnera directamente el valor honestidad?",
         options: [
           {
             value: "a",
@@ -466,13 +466,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El Código señala que la honestidad exige evitar incentivos indebidos y el uso de recursos públicos para fines personales.",
+          "En la situación descrita, el Código señala que la honestidad exige evitar incentivos indebidos y el uso de recursos públicos para fines personales.",
         review:
           "Revisa los comportamientos a evitar en honestidad: rechaza incentivos y uso personal de recursos públicos.",
       },
       {
         id: "compromiso-organizacion-v2-4",
-        text: "Durante una atención presencial, un ciudadano de zona rural recibe comentarios despectivos. Aplicar el valor respeto implica:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Durante una atención presencial, un ciudadano de zona rural recibe comentarios despectivos. Aplicar el valor respeto implica:",
         options: [
           { value: "a", label: "Continuar con el trámite priorizando usuarios que residen en la capital para ganar eficiencia." },
           {
@@ -485,13 +485,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El respeto exige reconocer la dignidad de todas las personas, sin discriminación por procedencia, cargo o condición.",
+          "En la situación descrita, el respeto exige reconocer la dignidad de todas las personas, sin discriminación por procedencia, cargo o condición.",
         review:
           "Revisa el valor respeto: evidencia la obligación de eliminar prejuicios y garantizar trato igualitario.",
       },
       {
         id: "compromiso-organizacion-v2-5",
-        text: "Una familia llega a la entidad sin comprender los requisitos de un programa social. Actuar con compromiso significa:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Una familia llega a la entidad sin comprender los requisitos de un programa social. Actuar con compromiso significa:",
         options: [
           { value: "a", label: "Indicarles que consulten la información en internet y continuar con otras tareas." },
           {
@@ -504,13 +504,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El compromiso implica empatía, orientación activa y disposición permanente para resolver necesidades ciudadanas.",
+          "En la situación descrita, el compromiso implica empatía, orientación activa y disposición permanente para resolver necesidades ciudadanas.",
         review:
           "Consulta el valor compromiso: destaca la importancia de escuchar, orientar y mantener actitud proactiva.",
       },
       {
         id: "compromiso-organizacion-v2-6",
-        text: "Debes entregar un informe clave en poco tiempo y recibes nuevas solicitudes ciudadanas. Ser diligente implica:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Debes entregar un informe clave en poco tiempo y recibes nuevas solicitudes ciudadanas. Ser diligente implica:",
         options: [
           { value: "a", label: "Postergar el informe hasta que finalicen todas las solicitudes pendientes." },
           {
@@ -523,13 +523,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La diligencia exige atención, prontitud y eficiencia para cumplir plazos con calidad, cuidando los recursos del Estado.",
+          "En la situación descrita, la diligencia exige atención, prontitud y eficiencia para cumplir plazos con calidad, cuidando los recursos del Estado.",
         review:
           "Revisa el valor diligencia: resalta el uso responsable de recursos y el cumplimiento oportuno con alta calidad.",
       },
       {
         id: "compromiso-organizacion-v2-7",
-        text: "Frente a presiones de un conocido para priorizar su trámite, actuar con justicia implica:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Frente a presiones de un conocido para priorizar su trámite, actuar con justicia implica:",
         options: [
           { value: "a", label: "Aceptar la solicitud para fortalecer la relación personal y evitar conflictos." },
           { value: "b", label: "Suspender los trámites de otros usuarios hasta resolver la petición del conocido." },
@@ -542,13 +542,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "c",
         score: 10,
         explanation:
-          "La justicia exige imparcialidad y decisiones objetivas que garanticen igualdad de trato y protección de los derechos.",
+          "En la situación descrita, la justicia exige imparcialidad y decisiones objetivas que garanticen igualdad de trato y protección de los derechos.",
         review:
           "Revisa el valor justicia: subraya la necesidad de evitar presiones, caprichos o intereses particulares.",
       },
       {
         id: "compromiso-organizacion-v2-8",
-        text: "¿Cuál es el objetivo del sistema de seguimiento y evaluación del Código de Integridad?",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Cuál es el objetivo del sistema de seguimiento y evaluación del Código de Integridad?",
         options: [
           { value: "a", label: "Otorgar premios económicos automáticos a los servidores destacados." },
           {
@@ -561,13 +561,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El sistema de seguimiento busca evaluar la implementación, detectar brechas y fortalecer la política de integridad con acciones correctivas.",
+          "En la situación descrita, el sistema de seguimiento busca evaluar la implementación, detectar brechas y fortalecer la política de integridad con acciones correctivas.",
         review:
           "Vuelve a los elementos fundacionales del Código: el seguimiento y evaluación garantizan la vivencia real de los valores.",
       },
       {
         id: "compromiso-organizacion-v2-9",
-        text: "¿Cuál norma creó el Código de Integridad como instrumento técnico de la política de integridad?",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Cuál norma creó el Código de Integridad como instrumento técnico de la política de integridad?",
         options: [
           { value: "a", label: "Decreto 1499 de 2017" },
           { value: "b", label: "Ley 2016 de 2020" },
@@ -577,13 +577,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "El Decreto 1499 de 2017, expedido con la entrada en vigencia del MIPG, estableció el Código de Integridad como instrumento técnico de la política de integridad.",
+          "En la situación descrita, el Decreto 1499 de 2017, expedido con la entrada en vigencia del MIPG, estableció el Código de Integridad como instrumento técnico de la política de integridad.",
         review:
           "Revisa el fundamento normativo del Código de Integridad: el Decreto 1499 de 2017 lo creó como instrumento técnico.",
       },
       {
         id: "compromiso-organizacion-v2-10",
-        text: "La adopción e implementación del Código de Integridad en todo el servicio público colombiano fue formalizada por:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. La adopción e implementación del Código de Integridad en todo el servicio público colombiano fue formalizada por:",
         options: [
           { value: "a", label: "Ley 2016 de 2020" },
           { value: "b", label: "Ley 1712 de 2014" },
@@ -593,13 +593,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "La Ley 2016 de 2020 dispuso la adopción e implementación del código de integridad en el servicio público colombiano.",
+          "En la situación descrita, la Ley 2016 de 2020 dispuso la adopción e implementación del código de integridad en el servicio público colombiano.",
         review:
           "Repasa el marco normativo: la Ley 2016 de 2020 formalizó la adopción obligatoria del Código de Integridad.",
       },
       {
         id: "compromiso-organizacion-v2-11",
-        text: "Según la presentación, adoptar el Código de Integridad implica que las entidades deben:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Según la presentación, adoptar el Código de Integridad implica que las entidades deben:",
         options: [
           { value: "a", label: "Diseñar controles exclusivamente financieros" },
           { value: "b", label: "Adoptar el código, gestionar conflictos de interés y fortalecer la declaración de bienes y rentas" },
@@ -609,13 +609,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Se menciona que las entidades deben adoptar el código, manejar los conflictos de interés y robustecer la declaración de bienes y rentas.",
+          "En la situación descrita, se menciona que las entidades deben adoptar el código, manejar los conflictos de interés y robustecer la declaración de bienes y rentas.",
         review:
           "Consulta los requisitos de implementación: adopción del código, gestión de conflictos de interés y declaración de bienes.",
       },
       {
         id: "compromiso-organizacion-v2-12",
-        text: "¿Cuántos participantes intervinieron en la construcción participativa del Código de Integridad?",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Cuántos participantes intervinieron en la construcción participativa del Código de Integridad?",
         options: [
           { value: "a", label: "Cerca de 2.500" },
           { value: "b", label: "Cerca de 25.000" },
@@ -625,13 +625,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "La presentación señala que cerca de 25.000 ciudadanos y servidores públicos participaron en la construcción del código tras un diagnóstico de la OCDE.",
+          "En la situación descrita, la presentación señala que cerca de 25.000 ciudadanos y servidores públicos participaron en la construcción del código tras un diagnóstico de la OCDE.",
         review:
           "Revisa la construcción participativa del código: cerca de 25.000 personas participaron en su formulación.",
       },
       {
         id: "compromiso-organizacion-v2-13",
-        text: "¿Cuántos valores adicionales puede incorporar cada entidad, además de los cinco centrales del Código?",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Cuántos valores adicionales puede incorporar cada entidad, además de los cinco centrales del Código?",
         options: [
           { value: "a", label: "Ninguno" },
           { value: "b", label: "Uno" },
@@ -641,13 +641,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "c",
         score: 5,
         explanation:
-          "Cada entidad puede añadir hasta dos valores adicionales acordes con su misión, además de los cinco valores centrales.",
+          "En la situación descrita, cada entidad puede añadir hasta dos valores adicionales acordes con su misión, además de los cinco valores centrales.",
         review:
           "Repasa la flexibilidad del código: las entidades pueden incorporar hasta dos valores adicionales propios.",
       },
       {
         id: "compromiso-organizacion-v2-14",
-        text: "La implementación del Código incluye, entre otros elementos:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. La implementación del Código incluye, entre otros elementos:",
         options: [
           { value: "a", label: "Capacitación obligatoria de inducción para cualquier cargo" },
           { value: "b", label: "Eliminación de la evaluación del desempeño" },
@@ -657,13 +657,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "La guía menciona capacitación obligatoria de inducción, indicadores y la inclusión del código en los manuales de funciones.",
+          "En la situación descrita, la guía menciona capacitación obligatoria de inducción, indicadores y la inclusión del código en los manuales de funciones.",
         review:
           "Consulta los elementos de implementación: capacitación obligatoria, indicadores e inclusión en manuales.",
       },
       {
         id: "compromiso-organizacion-v2-15",
-        text: "Además de capacitar, implementar el Código exige:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Además de capacitar, implementar el Código exige:",
         options: [
           { value: "a", label: "Evitar el seguimiento" },
           { value: "b", label: "Evaluar, hacer seguimiento y generar indicadores" },
@@ -673,13 +673,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Se plantea evaluar el cumplimiento, hacer seguimiento y generar indicadores que midan la aplicación del código.",
+          "En la situación descrita, se plantea evaluar el cumplimiento, hacer seguimiento y generar indicadores que midan la aplicación del código.",
         review:
           "Revisa los mecanismos de implementación: evaluación, seguimiento e indicadores son fundamentales.",
       },
       {
         id: "compromiso-organizacion-v2-16",
-        text: "El valor Honestidad exige entre otras conductas que el servidor público:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. El valor Honestidad exige entre otras conductas que el servidor público:",
         options: [
           { value: "a", label: "Oculte errores" },
           { value: "b", label: "Diga la verdad incluso ante errores, busque orientación, facilite información pública y denuncie faltas" },
@@ -689,13 +689,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Honestidad supone actuar con verdad, transparencia y denunciar irregularidades.",
+          "En la situación descrita, honestidad supone actuar con verdad, transparencia y denunciar irregularidades.",
         review:
           "Repasa el valor Honestidad: implica verdad, transparencia, búsqueda de orientación y denuncia de irregularidades.",
       },
       {
         id: "compromiso-organizacion-v2-17",
-        text: "Dentro de lo que NO se hace bajo el valor Honestidad está:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Dentro de lo que NO se hace bajo el valor Honestidad está:",
         options: [
           { value: "a", label: "Dar trato preferencial, aceptar incentivos indebidos o usar recursos públicos para fines personales" },
           { value: "b", label: "Documentar procesos" },
@@ -705,13 +705,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "Se prohíbe otorgar privilegios, recibir beneficios indebidos o emplear recursos públicos para asuntos personales.",
+          "En la situación descrita, se prohíbe otorgar privilegios, recibir beneficios indebidos o emplear recursos públicos para asuntos personales.",
         review:
           "Consulta las conductas prohibidas en Honestidad: tratos preferenciales, incentivos indebidos y uso personal de recursos.",
       },
       {
         id: "compromiso-organizacion-v2-18",
-        text: "El valor Compromiso promueve conductas como:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. El valor Compromiso promueve conductas como:",
         options: [
           { value: "a", label: "Tratar el servicio como un favor personal" },
           { value: "b", label: "Ponerse en los zapatos de los usuarios, escuchar, orientar y prestar un servicio ágil y de calidad" },
@@ -721,13 +721,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Compromiso significa asumir responsabilidades, empatizar con la ciudadanía y ofrecer servicios oportunos y de calidad.",
+          "En la situación descrita, compromiso significa asumir responsabilidades, empatizar con la ciudadanía y ofrecer servicios oportunos y de calidad.",
         review:
           "Revisa el valor Compromiso: empatía, orientación activa y servicios de calidad.",
       },
       {
         id: "compromiso-organizacion-v2-19",
-        text: "Lo que NO corresponde al valor Compromiso es:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Lo que NO corresponde al valor Compromiso es:",
         options: [
           { value: "a", label: "Ignorar a los ciudadanos o minimizar el impacto del rol" },
           { value: "b", label: "Atender con disposición" },
@@ -737,13 +737,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "Se advierte contra la actitud negativa, el desinterés y tratar el trabajo como un favor.",
+          "En la situación descrita, se advierte contra la actitud negativa, el desinterés y tratar el trabajo como un favor.",
         review:
           "Consulta las conductas prohibidas en Compromiso: ignorar ciudadanos, actitud negativa y desinterés.",
       },
       {
         id: "compromiso-organizacion-v2-20",
-        text: "¿Qué valor fue el más votado durante la construcción participativa del código?",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Qué valor fue el más votado durante la construcción participativa del código?",
         options: [
           { value: "a", label: "Justicia" },
           { value: "b", label: "Honestidad" },
@@ -753,13 +753,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Honestidad recibió 13.879 votos, convirtiéndose en el valor más respaldado por los participantes.",
+          "En la situación descrita, honestidad recibió 13.879 votos, convirtiéndose en el valor más respaldado por los participantes.",
         review:
           "Repasa la construcción participativa: la Honestidad fue el valor más votado con 13.879 votos.",
       },
       {
         id: "compromiso-organizacion-v2-21",
-        text: "La inclusión del Código de Integridad en los manuales de funciones busca principalmente:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. La inclusión del Código de Integridad en los manuales de funciones busca principalmente:",
         options: [
           { value: "a", label: "Generar trámites adicionales" },
           { value: "b", label: "Fortalecer la integridad en el servicio público incorporando los valores al desempeño diario" },
@@ -769,13 +769,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Incorporar el código en los manuales refuerza la integridad y los comportamientos esperados de los servidores públicos.",
+          "En la situación descrita, incorporar el código en los manuales refuerza la integridad y los comportamientos esperados de los servidores públicos.",
         review:
           "Revisa el propósito de incluir el código en manuales: fortalecer integridad en el desempeño diario.",
       },
       {
         id: "compromiso-organizacion-v2-22",
-        text: "De acuerdo con el Código de Integridad, firmar listas de asistencia en nombre de un compañero ausente es:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. De acuerdo con el Código de Integridad, firmar listas de asistencia en nombre de un compañero ausente es:",
         options: [
           { value: "a", label: "Una ayuda válida si se conoce al compañero" },
           { value: "b", label: "Una práctica que vulnera la honestidad y constituye falsificación documental" },
@@ -785,13 +785,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Firmar por otra persona viola la autenticidad de los registros y atenta contra el valor de la honestidad contemplado en el código.",
+          "En la situación descrita, firmar por otra persona viola la autenticidad de los registros y atenta contra el valor de la honestidad contemplado en el código.",
         review:
           "Consulta aplicaciones prácticas del valor Honestidad: firmar por otro es falsificación y viola la integridad.",
       },
       {
         id: "compromiso-organizacion-v2-23",
-        text: "Decir la verdad aunque perjudique la imagen o los intereses personales refleja:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Decir la verdad aunque perjudique la imagen o los intereses personales refleja:",
         options: [
           { value: "a", label: "Un comportamiento ingenuo que debe evitarse" },
           { value: "b", label: "La conducta esperada de honestidad y transparencia en el servicio público" },
@@ -801,13 +801,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "La honestidad implica priorizar la verdad y la transparencia por encima de beneficios personales inmediatos.",
+          "En la situación descrita, la honestidad implica priorizar la verdad y la transparencia por encima de beneficios personales inmediatos.",
         review:
           "Repasa la Honestidad en acción: priorizar la verdad sobre intereses personales es la conducta esperada.",
       },
       {
         id: "compromiso-organizacion-v2-24",
-        text: "Reportar irregularidades éticas o financieras que se presencian es considerado:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Reportar irregularidades éticas o financieras que se presencian es considerado:",
         options: [
           { value: "a", label: "Una actitud opcional que puede omitirse" },
           { value: "b", label: "Un deber ético que protege los recursos públicos y combate la corrupción" },
@@ -817,13 +817,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Denunciar faltas y delitos es un deber contemplado en el Código de Integridad y en la normatividad disciplinaria.",
+          "En la situación descrita, denunciar faltas y delitos es un deber contemplado en el Código de Integridad y en la normatividad disciplinaria.",
         review:
           "Consulta el deber de denuncia: reportar irregularidades es un deber ético que protege recursos públicos.",
       },
       {
         id: "compromiso-organizacion-v2-25",
-        text: "Limitarse a realizar únicamente las tareas mínimas para no exceder la jornada evidencia:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Limitarse a realizar únicamente las tareas mínimas para no exceder la jornada evidencia:",
         options: [
           { value: "a", label: "Un compromiso sólido con la organización" },
           { value: "b", label: "Una falta de compromiso y desapego con la misión institucional" },
@@ -833,13 +833,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "El valor Compromiso implica ir más allá del mínimo requerido y priorizar los resultados para la ciudadanía.",
+          "En la situación descrita, el valor Compromiso implica ir más allá del mínimo requerido y priorizar los resultados para la ciudadanía.",
         review:
           "Revisa el valor Compromiso en acción: requiere ir más allá del mínimo, no limitarse a lo estrictamente requerido.",
       },
       {
         id: "compromiso-organizacion-v2-26",
-        text: "¿Cómo define la presentación las competencias laborales en términos generales?",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Cómo define la presentación las competencias laborales en términos generales?",
         options: [
           { value: "a", label: "Como conocimientos aislados" },
           { value: "b", label: "Como características intrínsecas demostradas mediante conductas ligadas a un desempeño superior" },
@@ -849,13 +849,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Se afirma que las competencias son características intrínsecas que se evidencian en conductas relacionadas con un desempeño destacado.",
+          "En la situación descrita, se afirma que las competencias son características intrínsecas que se evidencian en conductas relacionadas con un desempeño destacado.",
         review:
           "Repasa la definición de competencias: son características intrínsecas que se manifiestan en conductas de desempeño superior.",
       },
       {
         id: "compromiso-organizacion-v2-27",
-        text: "La definición de Spenser rescatada en la presentación indica que una competencia es:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. La definición de Spenser rescatada en la presentación indica que una competencia es:",
         options: [
           { value: "a", label: "Una característica opcional" },
           { value: "b", label: "Una característica fundamental causalmente relacionada con un desempeño efectivo o superior" },
@@ -865,13 +865,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Spenser conceptualiza la competencia como una característica fundamental causalmente ligada al desempeño superior.",
+          "En la situación descrita, spenser conceptualiza la competencia como una característica fundamental causalmente ligada al desempeño superior.",
         review:
           "Consulta la definición académica de Spenser: competencia es característica fundamental ligada causalmente al desempeño.",
       },
       {
         id: "compromiso-organizacion-v2-28",
-        text: "De acuerdo con el Decreto 815 de 2018, una competencia en el sector público es la capacidad de:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. De acuerdo con el Decreto 815 de 2018, una competencia en el sector público es la capacidad de:",
         options: [
           {
             value: "a",
@@ -884,13 +884,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "El decreto establece que la competencia integra conocimientos, destrezas, habilidades, valores, actitudes y aptitudes para alcanzar los resultados esperados.",
+          "En la situación descrita, el decreto establece que la competencia integra conocimientos, destrezas, habilidades, valores, actitudes y aptitudes para alcanzar los resultados esperados.",
         review:
           "Revisa la definición normativa del Decreto 815: competencia es capacidad integral en múltiples contextos.",
       },
       {
         id: "compromiso-organizacion-v2-29",
-        text: "El Decreto 815 diferencia entre competencias funcionales y comportamentales para:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. El Decreto 815 diferencia entre competencias funcionales y comportamentales para:",
         options: [
           { value: "a", label: "Eliminar la gestión por competencias" },
           { value: "b", label: "Separar responsabilidades técnicas de conductuales" },
@@ -900,13 +900,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "El decreto distingue competencias funcionales (relacionadas con las tareas técnicas) y comportamentales (conductas esperadas).",
+          "En la situación descrita, el decreto distingue competencias funcionales (relacionadas con las tareas técnicas) y comportamentales (conductas esperadas).",
         review:
           "Consulta la clasificación de competencias: funcionales (técnicas) y comportamentales (conductas).",
       },
       {
         id: "compromiso-organizacion-v2-30",
-        text: "Las competencias comunes que todo servidor debe acreditar incluyen:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Las competencias comunes que todo servidor debe acreditar incluyen:",
         options: [
           {
             value: "a",
@@ -919,13 +919,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "El decreto identifica seis competencias comunes que aplican a todos los niveles jerárquicos.",
+          "En la situación descrita, el decreto identifica seis competencias comunes que aplican a todos los niveles jerárquicos.",
         review:
           "Repasa las competencias comunes: aprendizaje continuo, orientación a resultados, orientación al usuario, compromiso, trabajo en equipo y adaptación al cambio.",
       },
       {
         id: "compromiso-organizacion-v2-31",
-        text: "Compromiso con la organización se manifiesta cuando el servidor:",
+        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Compromiso con la organización se manifiesta cuando el servidor:",
         options: [
           {
             value: "a",
@@ -938,7 +938,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "La competencia exige comportamiento alineado con metas y sentido de pertenencia.",
+          "En la situación descrita, la competencia exige comportamiento alineado con metas y sentido de pertenencia.",
         review:
           "Consulta la competencia Compromiso con la Organización: alineación con metas y sentido de pertenencia.",
       },
@@ -970,7 +970,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "comunicacion-efectiva-v2-1",
-        text: "¿Qué caracteriza la comunicación efectiva según el Decreto 815?",
+        text: "Lectura: En una audiencia pública, la entidad debe comunicar decisiones sensibles a distintos grupos de interés. ¿Qué caracteriza la comunicación efectiva según el Decreto 815?",
         options: [
           { value: "a", label: "Transmitir información técnica detallada sin considerar el nivel de comprensión del interlocutor." },
           { value: "b", label: "Intercambiar información clara y precisa, escuchando activamente y adaptando el mensaje al interlocutor." },
@@ -980,13 +980,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La comunicación efectiva requiere claridad, precisión, escucha activa y adaptación del mensaje según las características del interlocutor.",
+          "En la situación descrita, la comunicación efectiva requiere claridad, precisión, escucha activa y adaptación del mensaje según las características del interlocutor.",
         review:
           "Revisa los elementos de comunicación efectiva: claridad, escucha activa y adaptación son componentes esenciales.",
       },
       {
         id: "comunicacion-efectiva-v2-2",
-        text: "La escucha activa en el contexto laboral implica:",
+        text: "Lectura: En una audiencia pública, la entidad debe comunicar decisiones sensibles a distintos grupos de interés. La escucha activa en el contexto laboral implica:",
         options: [
           { value: "a", label: "Esperar el turno para hablar mientras el otro termina de expresarse." },
           { value: "b", label: "Prestar atención genuina, comprender el mensaje y verificar la comprensión antes de responder." },
@@ -996,13 +996,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La escucha activa requiere atención genuina al mensaje, comprensión del contenido y verificación de entendimiento antes de formular respuestas.",
+          "En la situación descrita, la escucha activa requiere atención genuina al mensaje, comprensión del contenido y verificación de entendimiento antes de formular respuestas.",
         review:
           "Consulta las conductas de escucha activa: atención, comprensión y verificación son elementos fundamentales.",
       },
       {
         id: "comunicacion-efectiva-v2-3",
-        text: "Adaptar el mensaje según el interlocutor significa:",
+        text: "Lectura: En una audiencia pública, la entidad debe comunicar decisiones sensibles a distintos grupos de interés. Adaptar el mensaje según el interlocutor significa:",
         options: [
           { value: "a", label: "Mantener un único estilo de comunicación formal para todos los contextos laborales." },
           { value: "b", label: "Ajustar lenguaje, tono y nivel de detalle según el conocimiento y necesidades del receptor." },
@@ -1012,7 +1012,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "Adaptar el mensaje implica ajustar el lenguaje, tono y nivel de detalle considerando el conocimiento previo y las necesidades del interlocutor.",
+          "En la situación descrita, adaptar el mensaje implica ajustar el lenguaje, tono y nivel de detalle considerando el conocimiento previo y las necesidades del interlocutor.",
         review:
           "Repasa la adaptación comunicativa: debe considerar características específicas del receptor para garantizar comprensión.",
       },
@@ -1044,7 +1044,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "gestion-procedimientos-v2-1",
-        text: "¿Qué implica la gestión de procedimientos según el Decreto 815?",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. ¿Qué implica la gestión de procedimientos según el Decreto 815?",
         options: [
           { value: "a", label: "Ejecutar procesos tal como están documentados sin cuestionarlos ni proponer cambios." },
           { value: "b", label: "Ejecutar procedimientos con eficacia, identificar mejoras y garantizar cumplimiento de lineamientos." },
@@ -1054,13 +1054,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La gestión de procedimientos requiere ejecución eficaz, identificación proactiva de mejoras y garantía de cumplimiento de lineamientos vigentes.",
+          "En la situación descrita, la gestión de procedimientos requiere ejecución eficaz, identificación proactiva de mejoras y garantía de cumplimiento de lineamientos vigentes.",
         review:
           "Revisa la definición de gestión de procedimientos: combina ejecución eficaz, mejora continua y cumplimiento normativo.",
       },
       {
         id: "gestion-procedimientos-v2-2",
-        text: "Identificar oportunidades de mejora en los procesos implica:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Identificar oportunidades de mejora en los procesos implica:",
         options: [
           { value: "a", label: "Esperar a que problemas recurrentes generen quejas formales antes de proponer cambios." },
           { value: "b", label: "Analizar críticamente procedimientos actuales y proponer ajustes que optimicen resultados." },
@@ -1070,13 +1070,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "Identificar mejoras requiere análisis crítico de procedimientos actuales y proposición fundamentada de ajustes que optimicen resultados institucionales.",
+          "En la situación descrita, identificar mejoras requiere análisis crítico de procedimientos actuales y proposición fundamentada de ajustes que optimicen resultados institucionales.",
         review:
           "Consulta las conductas de mejora continua: el análisis crítico y las propuestas fundamentadas son clave.",
       },
       {
         id: "gestion-procedimientos-v2-3",
-        text: "El cumplimiento de lineamientos vigentes significa:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El cumplimiento de lineamientos vigentes significa:",
         options: [
           { value: "a", label: "Aplicar normas y procedimientos institucionales con rigor, garantizando legalidad y transparencia." },
           { value: "b", label: "Seguir procedimientos cuando sean cómodos y adaptarlos cuando dificulten el trabajo diario." },
@@ -1086,13 +1086,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 10,
         explanation:
-          "El cumplimiento de lineamientos requiere aplicación rigurosa de normas y procedimientos institucionales para garantizar legalidad y transparencia.",
+          "En la situación descrita, el cumplimiento de lineamientos requiere aplicación rigurosa de normas y procedimientos institucionales para garantizar legalidad y transparencia.",
         review:
           "Repasa el concepto de cumplimiento normativo: implica rigor, legalidad y transparencia en la ejecución de procedimientos.",
       },
       {
         id: "gestion-procedimientos-v2-4",
-        text: "¿Cómo contribuye la gestión de procedimientos a la calidad del servicio?",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. ¿Cómo contribuye la gestión de procedimientos a la calidad del servicio?",
         options: [
           { value: "a", label: "Permite que cada servidor personalice procesos según su experiencia individual." },
           { value: "b", label: "Garantiza estandarización, eficiencia y cumplimiento normativo en la prestación del servicio." },
@@ -1102,13 +1102,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La gestión adecuada de procedimientos garantiza estandarización, eficiencia y cumplimiento normativo, mejorando la calidad y confiabilidad del servicio.",
+          "En la situación descrita, la gestión adecuada de procedimientos garantiza estandarización, eficiencia y cumplimiento normativo, mejorando la calidad y confiabilidad del servicio.",
         review:
           "Revisa la relación entre gestión de procedimientos y calidad: la estandarización y el cumplimiento son fundamentales.",
       },
       {
         id: "gestion-procedimientos-v2-5",
-        text: "Después de la expedición del Decreto 815, ¿cuál es el plazo para que las entidades del orden nacional adecuen sus manuales de funciones y competencias?",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Después de la expedición del Decreto 815, ¿cuál es el plazo para que las entidades del orden nacional adecuen sus manuales de funciones y competencias?",
         options: [
           { value: "a", label: "Tres meses para todas las entidades públicas." },
           { value: "b", label: "Seis meses para el orden nacional y un año para el orden territorial." },
@@ -1118,13 +1118,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El parágrafo 2 del artículo 2.2.4.8 establece seis meses para el ajuste de manuales del orden nacional y un año para las entidades territoriales.",
+          "En la situación descrita, el parágrafo 2 del artículo 2.2.4.8 establece seis meses para el ajuste de manuales del orden nacional y un año para las entidades territoriales.",
         review:
           "Revisa los plazos de adecuación del Decreto 815: identifica los tiempos diferenciados para órdenes nacional y territorial.",
       },
       {
         id: "gestion-procedimientos-v2-6",
-        text: "Para apoyar a las entidades territoriales en la actualización de sus manuales, el Decreto 815 dispone que:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Para apoyar a las entidades territoriales en la actualización de sus manuales, el Decreto 815 dispone que:",
         options: [
           { value: "a", label: "Cada entidad territorial gestione autónomamente la adecuación sin acompañamiento." },
           { value: "b", label: "La Función Pública establezca lineamientos para un programa de asistencia ejecutado por la ESAP." },
@@ -1134,13 +1134,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El artículo 2.2.4.11 ordena a la Función Pública definir lineamientos para un programa de asistencia que ejecutará la ESAP, apoyando a las entidades territoriales.",
+          "En la situación descrita, el artículo 2.2.4.11 ordena a la Función Pública definir lineamientos para un programa de asistencia que ejecutará la ESAP, apoyando a las entidades territoriales.",
         review:
           "Revisa el artículo 2.2.4.11: la ESAP, bajo lineamientos de la Función Pública, brinda asistencia en la actualización de manuales.",
       },
       {
         id: "gestion-procedimientos-v2-7",
-        text: "Cuando las necesidades del servicio lo requieran, ¿quién puede actualizar mediante acto motivado las competencias del artículo 2.2.4.8?",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Cuando las necesidades del servicio lo requieran, ¿quién puede actualizar mediante acto motivado las competencias del artículo 2.2.4.8?",
         options: [
           { value: "a", label: "Las entidades territoriales, previa autorización de sus concejos." },
           { value: "b", label: "El Departamento Administrativo de la Función Pública." },
@@ -1150,13 +1150,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El parágrafo 1 del artículo 2.2.4.8 faculta al Departamento Administrativo de la Función Pública para actualizar las competencias mediante acto motivado cuando sea necesario.",
+          "En la situación descrita, el parágrafo 1 del artículo 2.2.4.8 faculta al Departamento Administrativo de la Función Pública para actualizar las competencias mediante acto motivado cuando sea necesario.",
         review:
           "Consulta el parágrafo 1 del artículo 2.2.4.8: la Función Pública es la entidad autorizada para ajustar las competencias adoptadas.",
       },
       {
         id: "gestion-procedimientos-v2-8",
-        text: "Según el artículo 2.2.4.9, ¿qué acción tomará la Función Pública respecto a las áreas o procesos transversales?",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Según el artículo 2.2.4.9, ¿qué acción tomará la Función Pública respecto a las áreas o procesos transversales?",
         options: [
           { value: "a", label: "Autorizar a cada entidad para que diseñe libremente sus competencias funcionales transversales." },
           { value: "b", label: "Adoptar un catálogo de normas de competencias funcionales aplicable a las áreas o procesos transversales de las entidades públicas." },
@@ -1166,13 +1166,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El artículo 2.2.4.9 indica que la Función Pública adoptará un catálogo de normas de competencias funcionales para áreas o procesos transversales, armonizando criterios en el empleo público.",
+          "En la situación descrita, el artículo 2.2.4.9 indica que la Función Pública adoptará un catálogo de normas de competencias funcionales para áreas o procesos transversales, armonizando criterios en el empleo público.",
         review:
           "Revisa el artículo 2.2.4.9: el catálogo asegura coherencia y estandarización de competencias funcionales transversales.",
       },
       {
         id: "gestion-procedimientos-v2-9",
-        text: "Al diseñar un concurso de mérito conforme al Decreto 1083 de 2015, la entidad debe garantizar que:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Al diseñar un concurso de mérito conforme al Decreto 1083 de 2015, la entidad debe garantizar que:",
         options: [
           { value: "a", label: "Se aplique únicamente una entrevista, siempre que esté soportada en competencias." },
           { value: "b", label: "Se utilicen al menos dos pruebas, una de ellas escrita o de ejecución, para valorar capacidad, idoneidad y potencialidad." },
@@ -1182,13 +1182,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El artículo 2.2.6.13 exige mínimo dos pruebas, entre ellas una escrita o de ejecución, con parámetros objetivos que valoren capacidades y competencias del aspirante.",
+          "En la situación descrita, el artículo 2.2.6.13 exige mínimo dos pruebas, entre ellas una escrita o de ejecución, con parámetros objetivos que valoren capacidades y competencias del aspirante.",
         review:
           "Consulta el artículo 2.2.6.13: detalla la finalidad y el mínimo de pruebas dentro del concurso de mérito.",
       },
       {
         id: "gestion-procedimientos-v2-10",
-        text: "Cuando la convocatoria incluye la prueba de polígrafo, esta se aplica para:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Cuando la convocatoria incluye la prueba de polígrafo, esta se aplica para:",
         options: [
           { value: "a", label: "Medir conocimientos específicos del cargo." },
           { value: "b", label: "Verificar la confiabilidad del aspirante mediante preguntas que generan reacciones fisiológicas asociadas a su experiencia previa." },
@@ -1198,13 +1198,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El artículo 2.2.18.6.1 describe el polígrafo como una prueba de confiabilidad que utiliza preguntas para validar la información y las conductas previas del aspirante mediante sus reacciones fisiológicas.",
+          "En la situación descrita, el artículo 2.2.18.6.1 describe el polígrafo como una prueba de confiabilidad que utiliza preguntas para validar la información y las conductas previas del aspirante mediante sus reacciones fisiológicas.",
         review:
           "Revisa la descripción del polígrafo en el Decreto 1083: su foco es la confiabilidad, no la medición de conocimientos.",
       },
       {
         id: "gestion-procedimientos-v2-11",
-        text: "El Decreto 1083 define el examen como un mecanismo que:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El Decreto 1083 define el examen como un mecanismo que:",
         options: [
           { value: "a", label: "Consiste en un banco de preguntas de selección múltiple dispuesto en el decreto para todos los cargos." },
           { value: "b", label: "Mide la competencia del candidato a través de medios escritos, orales, prácticos u observación de comportamientos." },
@@ -1214,13 +1214,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El artículo 2.2.18.4.1 define el examen como un mecanismo de evaluación que puede emplear distintos medios para medir la competencia, sin proveer en el decreto un cuestionario cerrado.",
+          "En la situación descrita, el artículo 2.2.18.4.1 define el examen como un mecanismo de evaluación que puede emplear distintos medios para medir la competencia, sin proveer en el decreto un cuestionario cerrado.",
         review:
           "Consulta la definición de examen en el Decreto 1083: destaca la flexibilidad de medios para evaluar competencias.",
       },
       {
         id: "gestion-procedimientos-v2-12",
-        text: "Un participante pregunta si el decreto incluye ejemplos de cuestionarios para estudiar. ¿Cuál debería ser la respuesta correcta?",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Un participante pregunta si el decreto incluye ejemplos de cuestionarios para estudiar. ¿Cuál debería ser la respuesta correcta?",
         options: [
           { value: "a", label: "Sí, porque el decreto anexa preguntas de selección múltiple para cada empleo." },
           { value: "b", label: "No, el decreto solo menciona preguntas al describir la prueba de polígrafo como instrumento de confiabilidad." },
@@ -1230,13 +1230,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El Decreto 1083 no contiene cuestionarios; la única referencia a «preguntas» aparece en la descripción del polígrafo para verificar confiabilidad del aspirante.",
+          "En la situación descrita, el Decreto 1083 no contiene cuestionarios; la única referencia a «preguntas» aparece en la descripción del polígrafo para verificar confiabilidad del aspirante.",
         review:
           "Revisa el artículo 2.2.18.6.1: aclara el alcance de las preguntas empleadas exclusivamente en la prueba de polígrafo.",
       },
       {
         id: "gestion-procedimientos-v2-13",
-        text: "En la planeación de un concurso, el comité propone que la entrevista pese el 25 % del puntaje total. ¿Qué indica el decreto?",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. En la planeación de un concurso, el comité propone que la entrevista pese el 25 % del puntaje total. ¿Qué indica el decreto?",
         options: [
           { value: "a", label: "La propuesta es válida si así lo aprueba el jefe de talento humano." },
           { value: "b", label: "Debe ajustarse, porque la entrevista no puede superar el 15 % de la calificación total." },
@@ -1246,13 +1246,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El Decreto 1083 fija un límite máximo del 15 % para la entrevista, asegurando que otros instrumentos objetivos definan la mayor parte del puntaje.",
+          "En la situación descrita, el Decreto 1083 fija un límite máximo del 15 % para la entrevista, asegurando que otros instrumentos objetivos definan la mayor parte del puntaje.",
         review:
           "Consulta las reglas de ponderación: la entrevista es complementar ia y su peso no puede exceder el 15 %.",
       },
       {
         id: "gestion-procedimientos-v2-14",
-        text: "Si un aspirante no está conforme con el resultado de una prueba, el Decreto 1083 señala que debe presentar su reclamación ante:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Si un aspirante no está conforme con el resultado de una prueba, el Decreto 1083 señala que debe presentar su reclamación ante:",
         options: [
           { value: "a", label: "La Comisión Nacional del Servicio Civil, siguiendo el procedimiento establecido." },
           { value: "b", label: "La Procuraduría General, para que ejerza control disciplinario inmediato." },
@@ -1262,13 +1262,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 10,
         explanation:
-          "El decreto remite las reclamaciones sobre las pruebas a la Comisión Nacional del Servicio Civil, órgano garante del mérito en los procesos de selección.",
+          "En la situación descrita, el decreto remite las reclamaciones sobre las pruebas a la Comisión Nacional del Servicio Civil, órgano garante del mérito en los procesos de selección.",
         review:
           "Revisa el procedimiento de reclamaciones: la CNSC centraliza la atención y decisión sobre inconformidades de los aspirantes.",
       },
       {
         id: "gestion-procedimientos-v2-15",
-        text: "El valor Justicia se asocia a conductas como:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El valor Justicia se asocia a conductas como:",
         options: [
           { value: "a", label: "Discriminar según preferencias personales" },
           { value: "b", label: "Decidir con base en hechos, respetar derechos y actuar con imparcialidad" },
@@ -1278,13 +1278,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Justicia supone tomar decisiones basadas en hechos, evitando favoritismos y respetando derechos de todas las personas.",
+          "En la situación descrita, justicia supone tomar decisiones basadas en hechos, evitando favoritismos y respetando derechos de todas las personas.",
         review:
           "Revisa el valor Justicia: decisiones basadas en hechos, imparcialidad y respeto por los derechos.",
       },
       {
         id: "gestion-procedimientos-v2-16",
-        text: "Lo que NO corresponde al valor Justicia es:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Lo que NO corresponde al valor Justicia es:",
         options: [
           { value: "a", label: "Tomar decisiones con objetividad" },
           { value: "b", label: "Actuar con base en caprichos, amiguismos o intereses particulares" },
@@ -1294,13 +1294,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "El código prohíbe decidir con base en caprichos, amiguismos o intereses que comprometan la imparcialidad.",
+          "En la situación descrita, el código prohíbe decidir con base en caprichos, amiguismos o intereses que comprometan la imparcialidad.",
         review:
           "Consulta las conductas prohibidas en Justicia: caprichos, amiguismos e intereses particulares.",
       },
       {
         id: "gestion-procedimientos-v2-17",
-        text: "El valor Diligencia implica que el servidor público:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El valor Diligencia implica que el servidor público:",
         options: [
           { value: "a", label: "Procrastine tareas importantes" },
           { value: "b", label: "Cumpla con prontitud, oportunidad y calidad, usando responsablemente los recursos del Estado" },
@@ -1310,13 +1310,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Diligencia exige cumplir oportunamente con calidad, cuidando los recursos estatales.",
+          "En la situación descrita, diligencia exige cumplir oportunamente con calidad, cuidando los recursos estatales.",
         review:
           "Repasa el valor Diligencia: cumplimiento oportuno, calidad y uso responsable de recursos.",
       },
       {
         id: "gestion-procedimientos-v2-18",
-        text: "Dentro de lo que NO se hace según el valor Diligencia está:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Dentro de lo que NO se hace según el valor Diligencia está:",
         options: [
           { value: "a", label: "Trabajar con atención" },
           { value: "b", label: "Postergar actividades sin justificación, incumplir plazos o descuidar los recursos públicos" },
@@ -1326,13 +1326,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "La diligencia rechaza postergar, incumplir plazos y descuidar los recursos del Estado.",
+          "En la situación descrita, la diligencia rechaza postergar, incumplir plazos y descuidar los recursos del Estado.",
         review:
           "Consulta las conductas prohibidas en Diligencia: postergación, incumplimiento y descuido de recursos.",
       },
       {
         id: "gestion-procedimientos-v2-19",
-        text: "El nivel Directivo del Decreto 815 se caracteriza por:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El nivel Directivo del Decreto 815 se caracteriza por:",
         options: [
           { value: "a", label: "Ejecutar tareas operativas" },
           { value: "b", label: "Formular y dirigir la ejecución de planes y programas, supervisando su cumplimiento" },
@@ -1342,13 +1342,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Los directivos formulan, dirigen y supervisan la ejecución de planes y programas institucionales.",
+          "En la situación descrita, los directivos formulan, dirigen y supervisan la ejecución de planes y programas institucionales.",
         review:
           "Consulta las características del nivel Directivo: formulación, dirección y supervisión de planes.",
       },
       {
         id: "gestion-procedimientos-v2-20",
-        text: "Una competencia del nivel Directivo es:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Una competencia del nivel Directivo es:",
         options: [
           { value: "a", label: "Planeación" },
           { value: "b", label: "Transcripción" },
@@ -1358,13 +1358,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "Entre las competencias directivas se destacan: planeación, dirección, toma de decisiones y visión estratégica.",
+          "En la situación descrita, entre las competencias directivas se destacan: planeación, dirección, toma de decisiones y visión estratégica.",
         review:
           "Repasa las competencias del nivel Directivo: planeación, dirección, toma de decisiones, visión estratégica.",
       },
       {
         id: "gestion-procedimientos-v2-21",
-        text: "El nivel Asesor se caracteriza por:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El nivel Asesor se caracteriza por:",
         options: [
           { value: "a", label: "Ejecutar tareas rutinarias" },
           { value: "b", label: "Asistir, aconsejar y asesorar directamente a las directivas mediante análisis técnico y conocimiento especializado" },
@@ -1374,13 +1374,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Los asesores asisten y aconsejan a directivas aplicando análisis técnico y conocimiento especializado.",
+          "En la situación descrita, los asesores asisten y aconsejan a directivas aplicando análisis técnico y conocimiento especializado.",
         review:
           "Consulta las características del nivel Asesor: asistencia y asesoría técnica a directivas.",
       },
       {
         id: "gestion-procedimientos-v2-22",
-        text: "Una competencia del nivel Asesor es:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Una competencia del nivel Asesor es:",
         options: [
           { value: "a", label: "Experticia profesional" },
           { value: "b", label: "Ingreso de datos" },
@@ -1390,13 +1390,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "Los asesores requieren experticia profesional, conocimiento del entorno y construcción de relaciones.",
+          "En la situación descrita, los asesores requieren experticia profesional, conocimiento del entorno y construcción de relaciones.",
         review:
           "Repasa las competencias del nivel Asesor: experticia profesional, conocimiento del entorno y construcción de relaciones.",
       },
       {
         id: "gestion-procedimientos-v2-23",
-        text: "El nivel Técnico se caracteriza por:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El nivel Técnico se caracteriza por:",
         options: [
           { value: "a", label: "Formular políticas" },
           { value: "b", label: "Aplicar conocimientos técnicos en procesos y procedimientos administrativos u operativos" },
@@ -1406,13 +1406,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Los técnicos aplican conocimientos especializados en procesos administrativos y operativos.",
+          "En la situación descrita, los técnicos aplican conocimientos especializados en procesos administrativos y operativos.",
         review:
           "Consulta las características del nivel Técnico: aplicación de conocimientos técnicos en procesos.",
       },
       {
         id: "gestion-procedimientos-v2-24",
-        text: "Una competencia del nivel Técnico es:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Una competencia del nivel Técnico es:",
         options: [
           { value: "a", label: "Instrumentación de decisiones" },
           { value: "b", label: "Gerencia de equipos" },
@@ -1422,13 +1422,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "El nivel técnico requiere instrumentación de decisiones, manejo de procedimientos y seguimiento a procesos.",
+          "En la situación descrita, el nivel técnico requiere instrumentación de decisiones, manejo de procedimientos y seguimiento a procesos.",
         review:
           "Repasa las competencias del nivel Técnico: instrumentación, procedimientos y seguimiento.",
       },
       {
         id: "gestion-procedimientos-v2-25",
-        text: "El nivel Asistencial se caracteriza por:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El nivel Asistencial se caracteriza por:",
         options: [
           { value: "a", label: "Dirigir departamentos" },
           { value: "b", label: "Apoyar, complementar y ejecutar labores propias de los niveles superiores" },
@@ -1438,13 +1438,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Los asistenciales apoyan, complementan y ejecutan labores de los niveles superiores.",
+          "En la situación descrita, los asistenciales apoyan, complementan y ejecutan labores de los niveles superiores.",
         review:
           "Consulta las características del nivel Asistencial: apoyo y complemento a niveles superiores.",
       },
       {
         id: "gestion-procedimientos-v2-26",
-        text: "Cumplir una tarea fuera del plazo establecido sin justificación ni comunicación oportuna contradice:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Cumplir una tarea fuera del plazo establecido sin justificación ni comunicación oportuna contradice:",
         options: [
           { value: "a", label: "El valor Respeto" },
           { value: "b", label: "El valor Diligencia y el Compromiso con la organización" },
@@ -1454,13 +1454,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Incumplir plazos sin justificación vulnera la Diligencia y evidencia falta de compromiso institucional.",
+          "En la situación descrita, incumplir plazos sin justificación vulnera la Diligencia y evidencia falta de compromiso institucional.",
         review:
           "Repasa Diligencia y Compromiso: cumplir plazos es fundamental para ambos valores.",
       },
       {
         id: "gestion-procedimientos-v2-27",
-        text: "Asignar proyectos estratégicos según afinidades personales y no por méritos técnicos contradice:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Asignar proyectos estratégicos según afinidades personales y no por méritos técnicos contradice:",
         options: [
           { value: "a", label: "El valor Respeto" },
           { value: "b", label: "El valor Justicia" },
@@ -1470,13 +1470,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Decidir con base en afinidades personales en lugar de criterios técnicos vulnera la Justicia.",
+          "En la situación descrita, decidir con base en afinidades personales en lugar de criterios técnicos vulnera la Justicia.",
         review:
           "Consulta el valor Justicia: las decisiones deben basarse en criterios objetivos, no en preferencias personales.",
       },
       {
         id: "gestion-procedimientos-v2-28",
-        text: "Denegar el acceso a información pública solicitada legalmente para evitar rendición de cuentas vulnera:",
+        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Denegar el acceso a información pública solicitada legalmente para evitar rendición de cuentas vulnera:",
         options: [
           { value: "a", label: "El valor Diligencia" },
           { value: "b", label: "Los valores de Honestidad y Justicia, además del derecho de acceso a la información" },
@@ -1486,7 +1486,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Negar información pública atenta contra la Honestidad, la Justicia y el derecho ciudadano al acceso a la información.",
+          "En la situación descrita, negar información pública atenta contra la Honestidad, la Justicia y el derecho ciudadano al acceso a la información.",
         review:
           "Repasa los valores de Honestidad y Justicia: garantizar acceso a información pública es obligación fundamental.",
       },
@@ -1518,7 +1518,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "instrumentacion-decisiones-v2-1",
-        text: "¿Qué significa instrumentar decisiones según el Decreto 815?",
+        text: "Lectura: El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. ¿Qué significa instrumentar decisiones según el Decreto 815?",
         options: [
           { value: "a", label: "Comunicar decisiones a los equipos de trabajo sin involucrarse en su implementación práctica." },
           { value: "b", label: "Implementar efectivamente decisiones institucionales con criterios de eficacia, eficiencia y transparencia." },
@@ -1528,13 +1528,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "Instrumentar decisiones implica implementarlas efectivamente, garantizando eficacia en resultados, eficiencia en recursos y transparencia en el proceso.",
+          "En la situación descrita, instrumentar decisiones implica implementarlas efectivamente, garantizando eficacia en resultados, eficiencia en recursos y transparencia en el proceso.",
         review:
           "Revisa la definición de instrumentación: requiere implementación efectiva con criterios de eficacia, eficiencia y transparencia.",
       },
       {
         id: "instrumentacion-decisiones-v2-2",
-        text: "La eficacia en la implementación de decisiones se evidencia cuando:",
+        text: "Lectura: El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. La eficacia en la implementación de decisiones se evidencia cuando:",
         options: [
           { value: "a", label: "Se completan actividades planificadas independientemente de si se logran los objetivos esperados." },
           { value: "b", label: "Se alcanzan los objetivos y resultados esperados de la decisión implementada." },
@@ -1544,13 +1544,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La eficacia se refiere al logro de objetivos y resultados esperados, es decir, a que la decisión implementada cumpla su propósito institucional.",
+          "En la situación descrita, la eficacia se refiere al logro de objetivos y resultados esperados, es decir, a que la decisión implementada cumpla su propósito institucional.",
         review:
           "Consulta el concepto de eficacia: se centra en el logro de objetivos y resultados esperados de la decisión.",
       },
       {
         id: "instrumentacion-decisiones-v2-3",
-        text: "La eficiencia en la instrumentación implica:",
+        text: "Lectura: El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. La eficiencia en la instrumentación implica:",
         options: [
           { value: "a", label: "Lograr resultados óptimos con el mejor uso posible de recursos disponibles (tiempo, personal, presupuesto)." },
           { value: "b", label: "Cumplir plazos establecidos incluso si requiere inversión adicional no presupuestada." },
@@ -1560,13 +1560,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 10,
         explanation:
-          "La eficiencia implica optimizar el uso de recursos (tiempo, personal, presupuesto) para lograr los mejores resultados posibles con los medios disponibles.",
+          "En la situación descrita, la eficiencia implica optimizar el uso de recursos (tiempo, personal, presupuesto) para lograr los mejores resultados posibles con los medios disponibles.",
         review:
           "Repasa el concepto de eficiencia: se refiere a la optimización en el uso de recursos para lograr resultados.",
       },
       {
         id: "instrumentacion-decisiones-v2-4",
-        text: "La transparencia en la implementación de decisiones requiere:",
+        text: "Lectura: El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. La transparencia en la implementación de decisiones requiere:",
         options: [
           { value: "a", label: "Mantener confidencialidad absoluta del proceso de implementación hasta obtener resultados finales." },
           { value: "b", label: "Comunicar claramente el proceso, garantizar trazabilidad y permitir rendición de cuentas sobre las acciones realizadas." },
@@ -1576,13 +1576,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La transparencia requiere comunicación clara del proceso, trazabilidad de acciones y mecanismos de rendición de cuentas sobre la implementación.",
+          "En la situación descrita, la transparencia requiere comunicación clara del proceso, trazabilidad de acciones y mecanismos de rendición de cuentas sobre la implementación.",
         review:
           "Revisa el componente de transparencia: implica comunicación, trazabilidad y rendición de cuentas en la implementación.",
       },
       {
         id: "instrumentacion-decisiones-v2-5",
-        text: "En el nivel directivo, la competencia de toma de decisiones implica:",
+        text: "Lectura: El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. En el nivel directivo, la competencia de toma de decisiones implica:",
         options: [
           { value: "a", label: "Delegar decisiones complejas para evitar asumir riesgos institucionales." },
           { value: "b", label: "Analizar alternativas, consultar al equipo, decidir en escenarios complejos y asumir la responsabilidad por los resultados." },
@@ -1592,7 +1592,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El Decreto 815 señala que los directivos deben evaluar alternativas, escuchar al equipo, decidir en situaciones complejas y responder por los resultados obtenidos.",
+          "En la situación descrita, el Decreto 815 señala que los directivos deben evaluar alternativas, escuchar al equipo, decidir en situaciones complejas y responder por los resultados obtenidos.",
         review:
           "Revisa la competencia de toma de decisiones del nivel directivo: integra análisis, participación y responsabilidad por los resultados.",
       },
@@ -1624,7 +1624,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "orientacion-resultado-v2-1",
-        text: "¿Qué caracteriza la orientación a resultados según el Decreto 815?",
+        text: "Lectura: Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. ¿Qué caracteriza la orientación a resultados según el Decreto 815?",
         options: [
           { value: "a", label: "Enfocarse en completar actividades asignadas sin necesidad de medir su impacto." },
           { value: "b", label: "Cumplir objetivos con calidad, eficacia y persistencia, monitoreando avances mediante indicadores." },
@@ -1634,13 +1634,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La orientación a resultados implica cumplir objetivos con calidad y eficacia, manteniendo persistencia y monitoreando avances a través de indicadores.",
+          "En la situación descrita, la orientación a resultados implica cumplir objetivos con calidad y eficacia, manteniendo persistencia y monitoreando avances a través de indicadores.",
         review:
           "Revisa la definición de orientación a resultados: combina calidad, eficacia, persistencia y monitoreo de indicadores.",
       },
       {
         id: "orientacion-resultado-v2-2",
-        text: "El uso de indicadores para medir avances sirve para:",
+        text: "Lectura: Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. El uso de indicadores para medir avances sirve para:",
         options: [
           { value: "a", label: "Justificar retrasos o incumplimientos mediante datos objetivos documentados." },
           { value: "b", label: "Monitorear progreso, identificar desviaciones y tomar decisiones para garantizar el logro de objetivos." },
@@ -1650,13 +1650,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "Los indicadores permiten monitorear progreso, identificar desviaciones tempranamente y tomar decisiones correctivas para asegurar el cumplimiento de objetivos.",
+          "En la situación descrita, los indicadores permiten monitorear progreso, identificar desviaciones tempranamente y tomar decisiones correctivas para asegurar el cumplimiento de objetivos.",
         review:
           "Consulta el uso de indicadores: son herramientas para monitoreo, identificación de desviaciones y toma de decisiones.",
       },
       {
         id: "orientacion-resultado-v2-3",
-        text: "La persistencia en el cumplimiento de objetivos significa:",
+        text: "Lectura: Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. La persistencia en el cumplimiento de objetivos significa:",
         options: [
           { value: "a", label: "Mantener el mismo enfoque de trabajo independientemente de obstáculos o resultados parciales." },
           { value: "b", label: "Superar obstáculos y mantener esfuerzo sostenido hasta lograr los objetivos establecidos, ajustando estrategias según sea necesario." },
@@ -1666,13 +1666,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La persistencia implica mantener esfuerzo sostenido, superar obstáculos y ajustar estrategias cuando sea necesario para lograr los objetivos institucionales.",
+          "En la situación descrita, la persistencia implica mantener esfuerzo sostenido, superar obstáculos y ajustar estrategias cuando sea necesario para lograr los objetivos institucionales.",
         review:
           "Repasa el concepto de persistencia: incluye esfuerzo sostenido, superación de obstáculos y flexibilidad estratégica.",
       },
       {
         id: "orientacion-resultado-v2-4",
-        text: "La calidad en los resultados se garantiza cuando:",
+        text: "Lectura: Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. La calidad en los resultados se garantiza cuando:",
         options: [
           { value: "a", label: "Se cumplen plazos establecidos independientemente del nivel de calidad alcanzado." },
           { value: "b", label: "Los resultados satisfacen estándares esperados, cumplen requisitos y generan valor institucional." },
@@ -1682,13 +1682,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La calidad implica que los resultados satisfagan estándares esperados, cumplan requisitos establecidos y generen valor real para la institución.",
+          "En la situación descrita, la calidad implica que los resultados satisfagan estándares esperados, cumplan requisitos establecidos y generen valor real para la institución.",
         review:
           "Revisa el componente de calidad: los resultados deben satisfacer estándares, cumplir requisitos y generar valor institucional.",
       },
       {
         id: "orientacion-resultado-v2-5",
-        text: "Dentro de las competencias del nivel directivo, la planeación definida por el Decreto 815 implica:",
+        text: "Lectura: Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. Dentro de las competencias del nivel directivo, la planeación definida por el Decreto 815 implica:",
         options: [
           { value: "a", label: "Definir actividades generales sin asignar responsables ni recursos para mantener flexibilidad." },
           { value: "b", label: "Establecer metas y prioridades institucionales, asignar responsables, plazos y recursos, y hacer seguimiento permanente orientado a usuarios y ciudadanos." },
@@ -1698,7 +1698,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La competencia de planeación del nivel directivo requiere definir metas y prioridades, asignar responsables, recursos y plazos, y realizar seguimiento constante con enfoque en usuarios y ciudadanos.",
+          "En la situación descrita, la competencia de planeación del nivel directivo requiere definir metas y prioridades, asignar responsables, recursos y plazos, y realizar seguimiento constante con enfoque en usuarios y ciudadanos.",
         review:
           "Consulta las competencias directivas del Decreto 815: la planeación integra metas, responsables, recursos y seguimiento orientado al servicio ciudadano.",
       },
@@ -1730,7 +1730,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "orientacion-usuario-v2-1",
-        text: "¿Qué implica la orientación al usuario según el Decreto 815?",
+        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. ¿Qué implica la orientación al usuario según el Decreto 815?",
         options: [
           { value: "a", label: "Aplicar procedimientos estándar a todos los usuarios sin considerar necesidades particulares." },
           { value: "b", label: "Identificar necesidades, brindar atención oportuna y veraz, y garantizar satisfacción del usuario." },
@@ -1740,13 +1740,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La orientación al usuario requiere identificar necesidades, brindar atención oportuna, inclusiva y veraz, garantizando la satisfacción del ciudadano.",
+          "En la situación descrita, la orientación al usuario requiere identificar necesidades, brindar atención oportuna, inclusiva y veraz, garantizando la satisfacción del ciudadano.",
         review:
           "Revisa la definición de orientación al usuario: incluye identificación de necesidades, atención de calidad y garantía de satisfacción.",
       },
       {
         id: "orientacion-usuario-v2-2",
-        text: "La atención inclusiva a ciudadanos significa:",
+        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. La atención inclusiva a ciudadanos significa:",
         options: [
           { value: "a", label: "Atender únicamente a quienes cumplan estrictamente todos los requisitos documentales exigidos." },
           { value: "b", label: "Reconocer diversidad de usuarios, adaptar la atención a necesidades especiales y garantizar acceso equitativo." },
@@ -1756,13 +1756,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La inclusión implica reconocer la diversidad, adaptar la atención a necesidades especiales (discapacidad, edad, etc.) y garantizar acceso equitativo.",
+          "En la situación descrita, la inclusión implica reconocer la diversidad, adaptar la atención a necesidades especiales (discapacidad, edad, etc.) y garantizar acceso equitativo.",
         review:
           "Consulta el componente de inclusión: requiere reconocimiento de diversidad, adaptación y equidad en el acceso al servicio.",
       },
       {
         id: "orientacion-usuario-v2-3",
-        text: "La oportunidad en la atención al ciudadano se refiere a:",
+        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. La oportunidad en la atención al ciudadano se refiere a:",
         options: [
           { value: "a", label: "Atender solicitudes exclusivamente dentro de los términos legales máximos establecidos." },
           { value: "b", label: "Responder a necesidades del ciudadano en el momento adecuado, con agilidad y sin dilaciones innecesarias." },
@@ -1772,13 +1772,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La oportunidad implica responder en el momento adecuado, con agilidad y evitando dilaciones innecesarias que afecten al ciudadano.",
+          "En la situación descrita, la oportunidad implica responder en el momento adecuado, con agilidad y evitando dilaciones innecesarias que afecten al ciudadano.",
         review:
           "Repasa el concepto de oportunidad: se refiere a respuesta ágil, en el momento adecuado y sin dilaciones innecesarias.",
       },
       {
         id: "orientacion-usuario-v2-4",
-        text: "La veracidad en la información brindada al ciudadano requiere:",
+        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. La veracidad en la información brindada al ciudadano requiere:",
         options: [
           { value: "a", label: "Proporcionar información completa, precisa y verificada, evitando datos erróneos o engañosos." },
           { value: "b", label: "Comunicar solo información positiva para mantener satisfacción del ciudadano con la entidad." },
@@ -1788,13 +1788,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 10,
         explanation:
-          "La veracidad requiere proporcionar información completa, precisa, verificada y evitar datos erróneos, incompletos o engañosos al ciudadano.",
+          "En la situación descrita, la veracidad requiere proporcionar información completa, precisa, verificada y evitar datos erróneos, incompletos o engañosos al ciudadano.",
         review:
           "Revisa el componente de veracidad: implica información completa, precisa, verificada y libre de errores o engaños.",
       },
       {
         id: "orientacion-usuario-v2-5",
-        text: "Un funcionario de atención al público recibe a un ciudadano muy molesto porque su trámite ha sido rechazado varias veces y exige hablar con un superior. ¿Qué debería hacer el funcionario según los principios de orientación al usuario?",
+        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. Un funcionario de atención al público recibe a un ciudadano muy molesto porque su trámite ha sido rechazado varias veces y exige hablar con un superior. ¿Qué debería hacer el funcionario según los principios de orientación al usuario?",
         options: [
           { value: "a", label: "Ignorar al ciudadano y continuar con su trabajo." },
           { value: "b", label: "Llamar inmediatamente a un superior para que se encargue de la situación." },
@@ -1804,13 +1804,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "c",
         score: 10,
         explanation:
-          "La orientación al usuario requiere escuchar con calma, explicar con veracidad las razones y ofrecer ayuda oportuna para resolver el problema. Esto demuestra empatía, profesionalismo y compromiso con la satisfacción del ciudadano.",
+          "En la situación descrita, la orientación al usuario requiere escuchar con calma, explicar con veracidad las razones y ofrecer ayuda oportuna para resolver el problema. Esto demuestra empatía, profesionalismo y compromiso con la satisfacción del ciudadano.",
         review:
           "Revisa los principios de orientación al usuario: incluye atención oportuna, trato respetuoso, explicación veraz y disposición para ayudar a resolver problemas del ciudadano.",
       },
       {
         id: "orientacion-usuario-v2-6",
-        text: "El valor Respeto implica como conducta positiva que el servidor público:",
+        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. El valor Respeto implica como conducta positiva que el servidor público:",
         options: [
           { value: "a", label: "Priorice a quienes tienen mayor influencia" },
           { value: "b", label: "Atiendan con amabilidad y equidad, abiertos al diálogo aun ante opiniones diferentes" },
@@ -1820,13 +1820,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "El Respeto se traduce en atender con dignidad y apertura al diálogo, reconociendo a todas las personas sin discriminación.",
+          "En la situación descrita, el Respeto se traduce en atender con dignidad y apertura al diálogo, reconociendo a todas las personas sin discriminación.",
         review:
           "Revisa el valor Respeto del Código de Integridad: implica dignidad, equidad y apertura al diálogo.",
       },
       {
         id: "orientacion-usuario-v2-7",
-        text: "Lo que NO debe hacerse según el valor Respeto es:",
+        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. Lo que NO debe hacerse según el valor Respeto es:",
         options: [
           { value: "a", label: "Considerar opiniones distintas" },
           { value: "b", label: "Actuar de forma discriminatoria, grosera o basar decisiones en prejuicios" },
@@ -1836,13 +1836,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "El código señala que no se debe discriminar, actuar con grosería ni decidir con base en estereotipos.",
+          "En la situación descrita, el código señala que no se debe discriminar, actuar con grosería ni decidir con base en estereotipos.",
         review:
           "Consulta las conductas prohibidas en Respeto: discriminación, grosería y decisiones basadas en prejuicios.",
       },
       {
         id: "orientacion-usuario-v2-8",
-        text: "¿Qué comportamiento concreto se asocia al valor Respeto según la guía?",
+        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. ¿Qué comportamiento concreto se asocia al valor Respeto según la guía?",
         options: [
           { value: "a", label: "Tratar dignamente y escuchar incluso opiniones distintas" },
           { value: "b", label: "Evitar responder preguntas del ciudadano" },
@@ -1852,13 +1852,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "Respeto significa reconocer y tratar dignamente a todas las personas, propiciando diálogo y comprensión.",
+          "En la situación descrita, respeto significa reconocer y tratar dignamente a todas las personas, propiciando diálogo y comprensión.",
         review:
           "Repasa el valor Respeto en acción: trato digno, escucha activa y apertura al diálogo con todos.",
       },
       {
         id: "orientacion-usuario-v2-9",
-        text: "Adaptar la comunicación para que personas con discapacidad comprendan los mensajes es:",
+        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. Adaptar la comunicación para que personas con discapacidad comprendan los mensajes es:",
         options: [
           { value: "a", label: "Un esfuerzo opcional" },
           { value: "b", label: "Una obligación de accesibilidad y trato digno coherente con el valor Respeto" },
@@ -1868,13 +1868,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Garantizar accesibilidad comunicativa asegura igualdad de oportunidades y materializa el valor de respeto.",
+          "En la situación descrita, garantizar accesibilidad comunicativa asegura igualdad de oportunidades y materializa el valor de respeto.",
         review:
           "Consulta la accesibilidad como parte del Respeto: garantizar comunicación adaptada es obligación para trato digno e igualdad.",
       },
       {
         id: "orientacion-usuario-v2-10",
-        text: "Hacer comentarios sexistas o discriminatorios, aunque sea en privado, según el código:",
+        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. Hacer comentarios sexistas o discriminatorios, aunque sea en privado, según el código:",
         options: [
           { value: "a", label: "Es aceptable porque no se hace en público" },
           { value: "b", label: "Normaliza la discriminación y contradice el valor Respeto" },
@@ -1884,7 +1884,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Cualquier manifestación discriminatoria vulnera la dignidad humana y se opone al valor Respeto del código.",
+          "En la situación descrita, cualquier manifestación discriminatoria vulnera la dignidad humana y se opone al valor Respeto del código.",
         review:
           "Repasa el valor Respeto: cualquier comentario discriminatorio (público o privado) vulnera la dignidad y contradice el código.",
       },
@@ -1916,7 +1916,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "trabajo-equipo-v2-1",
-        text: "¿Qué caracteriza el trabajo en equipo según el Decreto 815?",
+        text: "Lectura: Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. ¿Qué caracteriza el trabajo en equipo según el Decreto 815?",
         options: [
           { value: "a", label: "Completar tareas individuales coordinando únicamente los aspectos mínimos necesarios con otros." },
           { value: "b", label: "Colaborar con otros para lograr objetivos comunes, respetando diversidad y asumiendo responsabilidad compartida." },
@@ -1926,13 +1926,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El trabajo en equipo implica colaboración genuina para lograr objetivos comunes, respetando la diversidad y compartiendo responsabilidad por los resultados.",
+          "En la situación descrita, el trabajo en equipo implica colaboración genuina para lograr objetivos comunes, respetando la diversidad y compartiendo responsabilidad por los resultados.",
         review:
           "Revisa la definición de trabajo en equipo: incluye colaboración, respeto por diversidad y responsabilidad compartida.",
       },
       {
         id: "trabajo-equipo-v2-2",
-        text: "El respeto por la diversidad en el equipo significa:",
+        text: "Lectura: Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. El respeto por la diversidad en el equipo significa:",
         options: [
           { value: "a", label: "Tolerar pasivamente perspectivas diferentes sin necesidad de integrarlas en las decisiones." },
           { value: "b", label: "Valorar y aprovechar perspectivas, experiencias y habilidades diversas para enriquecer soluciones." },
@@ -1942,13 +1942,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "Respetar la diversidad implica valorar activamente y aprovechar perspectivas, experiencias y habilidades diversas para enriquecer soluciones colectivas.",
+          "En la situación descrita, respetar la diversidad implica valorar activamente y aprovechar perspectivas, experiencias y habilidades diversas para enriquecer soluciones colectivas.",
         review:
           "Consulta el componente de respeto por diversidad: requiere valoración activa y aprovechamiento de diferencias para mejores resultados.",
       },
       {
         id: "trabajo-equipo-v2-3",
-        text: "La responsabilidad compartida en el trabajo en equipo implica:",
+        text: "Lectura: Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. La responsabilidad compartida en el trabajo en equipo implica:",
         options: [
           { value: "a", label: "Distribuir claramente responsabilidades individuales para facilitar la rendición de cuentas personal." },
           { value: "b", label: "Asumir colectivamente tanto los éxitos como los fracasos del equipo, apoyándose mutuamente." },
@@ -1958,13 +1958,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La responsabilidad compartida significa asumir colectivamente resultados (éxitos y fracasos), apoyándose mutuamente en el logro de objetivos comunes.",
+          "En la situación descrita, la responsabilidad compartida significa asumir colectivamente resultados (éxitos y fracasos), apoyándose mutuamente en el logro de objetivos comunes.",
         review:
           "Repasa el concepto de responsabilidad compartida: implica asunción colectiva de resultados y apoyo mutuo continuo.",
       },
       {
         id: "trabajo-equipo-v2-4",
-        text: "¿Cómo contribuye el trabajo en equipo al logro de objetivos institucionales?",
+        text: "Lectura: Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. ¿Cómo contribuye el trabajo en equipo al logro de objetivos institucionales?",
         options: [
           { value: "a", label: "Permite distribuir tareas reduciendo la carga de trabajo individual de cada servidor." },
           { value: "b", label: "Integra conocimientos, habilidades y perspectivas diversas para generar soluciones más completas y efectivas." },
@@ -1974,13 +1974,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El trabajo en equipo aporta al logro institucional integrando conocimientos, habilidades y perspectivas diversas para soluciones más completas y efectivas.",
+          "En la situación descrita, el trabajo en equipo aporta al logro institucional integrando conocimientos, habilidades y perspectivas diversas para soluciones más completas y efectivas.",
         review:
           "Revisa el aporte del trabajo en equipo: la integración de diversidad genera soluciones superiores a las individuales.",
       },
       {
         id: "trabajo-equipo-v2-5",
-        text: "Estás a cargo de un proyecto con plazo ajustado. Un miembro clave del equipo solicita una semana de licencia por motivos personales. ¿Qué harías en esta situación demostrando trabajo en equipo?",
+        text: "Lectura: Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. Estás a cargo de un proyecto con plazo ajustado. Un miembro clave del equipo solicita una semana de licencia por motivos personales. ¿Qué harías en esta situación demostrando trabajo en equipo?",
         options: [
           { value: "a", label: "Negar la solicitud de licencia y exigir que el miembro se quede para cumplir con el plazo." },
           { value: "b", label: "Aceptar la solicitud de licencia sin ajustar el plan del proyecto." },
@@ -1990,13 +1990,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "c",
         score: 10,
         explanation:
-          "Aceptar la licencia y redistribuir tareas demuestra respeto por el bienestar del equipo, responsabilidad compartida y capacidad de adaptación colaborativa para cumplir objetivos. Esta conducta refleja los principios del trabajo en equipo.",
+          "En la situación descrita, aceptar la licencia y redistribuir tareas demuestra respeto por el bienestar del equipo, responsabilidad compartida y capacidad de adaptación colaborativa para cumplir objetivos. Esta conducta refleja los principios del trabajo en equipo.",
         review:
           "Revisa los principios del trabajo en equipo: incluye respeto por los miembros, responsabilidad compartida, flexibilidad y colaboración para lograr objetivos comunes.",
       },
       {
         id: "trabajo-equipo-v2-6",
-        text: "En el nivel directivo, la competencia de gerenciar equipos descrita en el Decreto 815 se evidencia cuando el líder:",
+        text: "Lectura: Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. En el nivel directivo, la competencia de gerenciar equipos descrita en el Decreto 815 se evidencia cuando el líder:",
         options: [
           { value: "a", label: "Concentra todas las decisiones y funciones críticas para mantener un control total del equipo." },
           { value: "b", label: "Forma equipos comprometidos, delega según competencias e intereses y brinda apoyo ante situaciones adversas." },
@@ -2006,13 +2006,13 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "Gerenciar equipos implica movilizar a los miembros, delegar con criterio y sostener el compromiso brindando apoyo ante la adversidad, tal como señala la competencia directiva del Decreto 815.",
+          "En la situación descrita, gerenciar equipos implica movilizar a los miembros, delegar con criterio y sostener el compromiso brindando apoyo ante la adversidad, tal como señala la competencia directiva del Decreto 815.",
         review:
           "Consulta la competencia de gerenciar equipos del nivel directivo: combina movilización, delegación y apoyo continuo al talento humano.",
       },
       {
         id: "trabajo-equipo-v2-7",
-        text: "Aceptar críticas sobre el trabajo sin tomarlas como ataques personales demuestra:",
+        text: "Lectura: Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. Aceptar críticas sobre el trabajo sin tomarlas como ataques personales demuestra:",
         options: [
           { value: "a", label: "Debilidad profesional" },
           { value: "b", label: "Apertura al diálogo, madurez emocional y compromiso con la mejora" },
@@ -2022,7 +2022,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Escuchar críticas con apertura es coherente con el valor Respeto y fortalece el trabajo en equipo.",
+          "En la situación descrita, escuchar críticas con apertura es coherente con el valor Respeto y fortalece el trabajo en equipo.",
         review:
           "Revisa el valor Respeto en contexto de trabajo en equipo: apertura al diálogo, madurez emocional y compromiso con mejora son fundamentales.",
       },

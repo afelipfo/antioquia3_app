@@ -38,7 +38,7 @@ const questionsV1: Question[] = [
   },
   {
     id: 2,
-    question: "¿Cuál de las siguientes es una función del derecho administrativo?",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. ¿Cuál de las siguientes es una función del derecho administrativo?",
     options: [
       "Regular la relación entre administrados y la administración",
       "Definir la política monetaria del país",
@@ -47,12 +47,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "Entre las funciones del derecho administrativo está regular la relación entre la administración y los administrados, además de organizar internamente la administración y poner límites al ejercicio del poder.",
+    explanation: "En la situación descrita, entre las funciones del derecho administrativo está regular la relación entre la administración y los administrados, además de organizar internamente la administración y poner límites al ejercicio del poder.",
     topic: "Funciones del derecho administrativo"
   },
   {
     id: 3,
-    question: "El principio de igualdad exige que las autoridades:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de igualdad exige que las autoridades:",
     options: [
       "Favorezcan a grupos específicos para acelerar los trámites",
       "Seleccionen discrecionalmente a los usuarios que deben atender",
@@ -61,12 +61,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "El principio de igualdad obliga a las autoridades a tratar de forma imparcial a todos los administrados, evitando favoritismos o discriminaciones.",
+    explanation: "En la situación descrita, el principio de igualdad obliga a las autoridades a tratar de forma imparcial a todos los administrados, evitando favoritismos o discriminaciones.",
     topic: "Principios del artículo 209 - Igualdad"
   },
   {
     id: 4,
-    question: "El principio de moralidad implica que los servidores públicos deben:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de moralidad implica que los servidores públicos deben:",
     options: [
       "Actuar con honestidad y desinterés, respetando incompatibilidades y prohibiciones",
       "Priorizar decisiones que favorezcan a sus superiores jerárquicos",
@@ -75,12 +75,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "La moralidad exige que los servidores actúen con honestidad, desinterés y respeto por las normas que regulan sus obligaciones, incompatibilidades y prohibiciones.",
+    explanation: "En la situación descrita, la moralidad exige que los servidores actúen con honestidad, desinterés y respeto por las normas que regulan sus obligaciones, incompatibilidades y prohibiciones.",
     topic: "Principios del artículo 209 - Moralidad"
   },
   {
     id: 5,
-    question: "La primacía del interés general significa que:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. La primacía del interés general significa que:",
     options: [
       "Los intereses individuales prevalecen sobre las decisiones administrativas",
       "Cualquier particular puede suspender un acto administrativo",
@@ -89,12 +89,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "El principio de primacía del interés general establece que la actividad administrativa debe buscar el bienestar común, la supremacía del interés colectivo y la consecución del bien común.",
+    explanation: "En la situación descrita, el principio de primacía del interés general establece que la actividad administrativa debe buscar el bienestar común, la supremacía del interés colectivo y la consecución del bien común.",
     topic: "Principios del artículo 209 - Interés general"
   },
   {
     id: 6,
-    question: "El principio de legalidad impone que la administración:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de legalidad impone que la administración:",
     options: [
       "Actúe únicamente de acuerdo con las órdenes verbales del superior",
       "Ejerza sus funciones al margen de la Constitución",
@@ -103,12 +103,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "El principio de legalidad obliga a que la actividad administrativa se ajuste a la Constitución y la ley, haciendo responsables a los funcionarios por infracciones o extralimitaciones.",
+    explanation: "En la situación descrita, el principio de legalidad obliga a que la actividad administrativa se ajuste a la Constitución y la ley, haciendo responsables a los funcionarios por infracciones o extralimitaciones.",
     topic: "Principios del artículo 209 - Legalidad"
   },
   {
     id: 7,
-    question: "El principio de eficacia y economía exige que los procedimientos:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de eficacia y economía exige que los procedimientos:",
     options: [
       "Se prolonguen para asegurar un mayor número de controles",
       "Eviten decisiones inhibitorias y logren su finalidad con el menor tiempo, trámites y gastos posibles",
@@ -117,12 +117,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La eficacia y economía implican que los procedimientos deben alcanzar su finalidad con celeridad, evitando trámites innecesarios, decisiones inhibitorias y gastos injustificados.",
+    explanation: "En la situación descrita, la eficacia y economía implican que los procedimientos deben alcanzar su finalidad con celeridad, evitando trámites innecesarios, decisiones inhibitorias y gastos injustificados.",
     topic: "Principios del artículo 209 - Eficacia y economía"
   },
   {
     id: 8,
-    question: "El principio de celeridad se refleja en:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de celeridad se refleja en:",
     options: [
       "Detener los procedimientos hasta analizar nuevos requisitos",
       "Impulsar oficiosamente los trámites, eliminar formalidades innecesarias y usar formularios para actuaciones en serie sin descuidar las pruebas",
@@ -131,12 +131,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La celeridad implica el impulso oficioso del procedimiento, la supresión de trámites innecesarios y el uso de formularios sin sacrificar el análisis completo de los argumentos.",
+    explanation: "En la situación descrita, la celeridad implica el impulso oficioso del procedimiento, la supresión de trámites innecesarios y el uso de formularios sin sacrificar el análisis completo de los argumentos.",
     topic: "Principios del artículo 209 - Celeridad"
   },
   {
     id: 9,
-    question: "El principio de imparcialidad obliga a la administración a:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de imparcialidad obliga a la administración a:",
     options: [
       "Priorizar a quienes tengan preferencia política",
       "Garantizar los derechos de todas las personas sin discriminación, respetando el orden de actuación",
@@ -145,12 +145,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La imparcialidad implica asegurar los derechos de todas las personas sin discriminación y dar idéntico tratamiento a quienes actúan, respetando el orden de llegada.",
+    explanation: "En la situación descrita, la imparcialidad implica asegurar los derechos de todas las personas sin discriminación y dar idéntico tratamiento a quienes actúan, respetando el orden de llegada.",
     topic: "Principios del artículo 209 - Imparcialidad"
   },
   {
     id: 10,
-    question: "El principio de publicidad obliga a las autoridades a:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de publicidad obliga a las autoridades a:",
     options: [
       "Reservar toda la información contractual",
       "Comunicar, notificar o publicar sus decisiones conforme lo ordene la ley para garantizar su conocimiento",
@@ -159,12 +159,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La publicidad exige dar a conocer las decisiones administrativas mediante comunicaciones, notificaciones o publicaciones que ordene la ley.",
+    explanation: "En la situación descrita, la publicidad exige dar a conocer las decisiones administrativas mediante comunicaciones, notificaciones o publicaciones que ordene la ley.",
     topic: "Principios del artículo 209 - Publicidad"
   },
   {
     id: 11,
-    question: "Según el artículo 5 de la Ley 489 de 1998, la competencia administrativa debe ejercerse:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Según el artículo 5 de la Ley 489 de 1998, la competencia administrativa debe ejercerse:",
     options: [
       "De forma compartida con cualquier otra entidad",
       "Solo cuando medie autorización judicial",
@@ -173,12 +173,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "La norma establece que los organismos y entidades ejercen sus competencias de manera directa, inmediata y exclusiva respecto de los asuntos asignados expresamente por la ley o reglamento.",
+    explanation: "En la situación descrita, la norma establece que los organismos y entidades ejercen sus competencias de manera directa, inmediata y exclusiva respecto de los asuntos asignados expresamente por la ley o reglamento.",
     topic: "Actuación administrativa - Competencia"
   },
   {
     id: 12,
-    question: "El principio de coordinación del artículo 6 de la Ley 489 de 1998 exige que las autoridades:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de coordinación del artículo 6 de la Ley 489 de 1998 exige que las autoridades:",
     options: [
       "Actúen de forma aislada y autónoma frente a otras entidades",
       "Eviten compartir información para proteger la discrecionalidad",
@@ -187,12 +187,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "El principio de coordinación ordena a las autoridades colaborar y armonizar sus actuaciones, absteniéndose de impedir o entorpecer las funciones de otras entidades.",
+    explanation: "En la situación descrita, el principio de coordinación ordena a las autoridades colaborar y armonizar sus actuaciones, absteniéndose de impedir o entorpecer las funciones de otras entidades.",
     topic: "Actuación administrativa - Coordinación"
   },
   {
     id: 13,
-    question: "Una característica de la desconcentración es que:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Una característica de la desconcentración es que:",
     options: [
       "Se otorga mediante acto administrativo particular del titular",
       "Transfiere competencias a órganos subordinados sin personería jurídica ni presupuesto propio mediante normas legales o reglamentarias",
@@ -201,12 +201,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La desconcentración transfiere competencias a órganos inferiores dentro de la misma entidad, sin crear nuevas personas jurídicas, y se establece por ley o decreto.",
+    explanation: "En la situación descrita, la desconcentración transfiere competencias a órganos inferiores dentro de la misma entidad, sin crear nuevas personas jurídicas, y se establece por ley o decreto.",
     topic: "Organización administrativa - Desconcentración"
   },
   {
     id: 14,
-    question: "Un elemento constitutivo de la delegación es:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Un elemento constitutivo de la delegación es:",
     options: [
       "La creación de una entidad con autonomía presupuestal",
       "La transferencia de funciones mediante acto administrativo expedido por el titular, con autorización legal y posibilidad de reasumir la competencia",
@@ -215,12 +215,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La delegación supone que el órgano titular transfiere funciones mediante acto administrativo, requiere autorización legal y puede ser revocada por el delegante.",
+    explanation: "En la situación descrita, la delegación supone que el órgano titular transfiere funciones mediante acto administrativo, requiere autorización legal y puede ser revocada por el delegante.",
     topic: "Organización administrativa - Delegación"
   },
   {
     id: 15,
-    question: "La diferencia fundamental entre desconcentración y delegación es que:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. La diferencia fundamental entre desconcentración y delegación es que:",
     options: [
       "La desconcentración se otorga por acto administrativo particular y la delegación por ley",
       "La desconcentración crea nuevas personas jurídicas mientras la delegación mantiene la misma entidad",
@@ -229,12 +229,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "La desconcentración nace de normas generales (ley o decreto) y asigna competencias de forma permanente, mientras la delegación se otorga y revoca mediante actos del titular.",
+    explanation: "En la situación descrita, la desconcentración nace de normas generales (ley o decreto) y asigna competencias de forma permanente, mientras la delegación se otorga y revoca mediante actos del titular.",
     topic: "Organización administrativa - Desconcentración vs delegación"
   },
   {
     id: 16,
-    question: "Una característica esencial de la descentralización administrativa es:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Una característica esencial de la descentralización administrativa es:",
     options: [
       "La ausencia de autonomía presupuestal",
       "La creación de una nueva persona jurídico-pública con autonomía y traslado de competencias no recuperable",
@@ -243,12 +243,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La descentralización distribuye funciones entre el nivel central y entidades autónomas con personería jurídica y autonomía presupuestal; las competencias trasladadas no se recuperan automáticamente.",
+    explanation: "En la situación descrita, la descentralización distribuye funciones entre el nivel central y entidades autónomas con personería jurídica y autonomía presupuestal; las competencias trasladadas no se recuperan automáticamente.",
     topic: "Organización administrativa - Descentralización"
   },
   {
     id: 17,
-    question: "¿Cuál de las siguientes entidades hace parte del sector descentralizado territorialmente?",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. ¿Cuál de las siguientes entidades hace parte del sector descentralizado territorialmente?",
     options: [
       "Los ministerios y departamentos administrativos",
       "Las entidades territoriales como departamentos, distritos y municipios",
@@ -257,12 +257,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El sector descentralizado territorial incluye entidades territoriales como departamentos, distritos y municipios, además de entidades administrativas especiales de orden territorial.",
+    explanation: "En la situación descrita, el sector descentralizado territorial incluye entidades territoriales como departamentos, distritos y municipios, además de entidades administrativas especiales de orden territorial.",
     topic: "Estructura de la administración pública"
   },
   {
     id: 18,
-    question: "¿Cuál de los siguientes organismos se clasifica como órgano de control?",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. ¿Cuál de los siguientes organismos se clasifica como órgano de control?",
     options: [
       "Banco de la República",
       "Procuraduría General de la Nación",
@@ -271,12 +271,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Los órganos de control incluyen la Procuraduría, la Contraloría, la Personería y la Defensoría del Pueblo.",
+    explanation: "En la situación descrita, los órganos de control incluyen la Procuraduría, la Contraloría, la Personería y la Defensoría del Pueblo.",
     topic: "Estructura de la administración pública - Órganos de control"
   },
   {
     id: 19,
-    question: "Los trabajadores oficiales se vinculan a la administración mediante:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Los trabajadores oficiales se vinculan a la administración mediante:",
     options: [
       "Elección popular",
       "Nombramiento en carrera administrativa",
@@ -285,7 +285,7 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "Los trabajadores oficiales se vinculan mediante contrato laboral, a diferencia de los empleados públicos que se vinculan por nombramiento.",
+    explanation: "En la situación descrita, los trabajadores oficiales se vinculan mediante contrato laboral, a diferencia de los empleados públicos que se vinculan por nombramiento.",
     topic: "Servidores públicos - Formas de vinculación"
   },
   {
@@ -321,7 +321,7 @@ const questionsV2: Question[] = [
   },
   {
     id: 2,
-    question: "El acto ficto o presunto se entiende configurado cuando:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El acto ficto o presunto se entiende configurado cuando:",
     options: [
       "La administración resuelve favorablemente antes del vencimiento del término",
       "La administración guarda silencio y, por regla general, se presume la negativa a la solicitud después de tres meses",
@@ -330,12 +330,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Por regla general, el silencio administrativo negativo se configura si la administración no responde en tres meses; excepcionalmente la ley puede otorgarle efectos positivos.",
+    explanation: "En la situación descrita, por regla general, el silencio administrativo negativo se configura si la administración no responde en tres meses; excepcionalmente la ley puede otorgarle efectos positivos.",
     topic: "Acto administrativo - Acto ficto o presunto"
   },
   {
     id: 3,
-    question: "El elemento competencia de un acto administrativo se refiere a:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El elemento competencia de un acto administrativo se refiere a:",
     options: [
       "La conveniencia política de la decisión",
       "El poder jurídico de una autoridad para emitir un acto respecto de materia, territorio o tiempo determinados",
@@ -344,12 +344,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La competencia es el poder jurídico asignado a una autoridad para actuar en materias, territorios o tiempos específicos; es irrenunciable e indelegable salvo autorización legal.",
+    explanation: "En la situación descrita, la competencia es el poder jurídico asignado a una autoridad para actuar en materias, territorios o tiempos específicos; es irrenunciable e indelegable salvo autorización legal.",
     topic: "Acto administrativo - Elementos"
   },
   {
     id: 4,
-    question: "El vicio de competencia se configura cuando:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El vicio de competencia se configura cuando:",
     options: [
       "La autoridad motiva ampliamente su decisión",
       "La autoridad actúa fuera del ámbito que le fue conferido legalmente",
@@ -358,12 +358,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Existe vicio de competencia cuando la autoridad actúa sin estar habilitada para ello, por ejemplo, cuando decide sobre asuntos fuera de su jurisdicción territorial o material.",
+    explanation: "En la situación descrita, existe vicio de competencia cuando la autoridad actúa sin estar habilitada para ello, por ejemplo, cuando decide sobre asuntos fuera de su jurisdicción territorial o material.",
     topic: "Acto administrativo - Vicios"
   },
   {
     id: 5,
-    question: "Respecto del objeto del acto administrativo es correcto afirmar que:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Respecto del objeto del acto administrativo es correcto afirmar que:",
     options: [
       "Puede ser imposible o ilícito si beneficia al administrado",
       "Debe ser cierto, posible y lícito",
@@ -372,12 +372,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El objeto es el contenido del acto y debe ser cierto, posible y conforme al ordenamiento jurídico; un objeto ilícito o imposible vicia el acto.",
+    explanation: "En la situación descrita, el objeto es el contenido del acto y debe ser cierto, posible y conforme al ordenamiento jurídico; un objeto ilícito o imposible vicia el acto.",
     topic: "Acto administrativo - Elementos"
   },
   {
     id: 6,
-    question: "La finalidad del acto administrativo está relacionada con:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. La finalidad del acto administrativo está relacionada con:",
     options: [
       "El interés particular del funcionario que firma el acto",
       "El objetivo de interés general que la ley asigna a la competencia ejercida",
@@ -386,12 +386,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La finalidad se orienta al interés general previsto por la ley para cada competencia; su desviación configura desviación de poder.",
+    explanation: "En la situación descrita, la finalidad se orienta al interés general previsto por la ley para cada competencia; su desviación configura desviación de poder.",
     topic: "Acto administrativo - Finalidad"
   },
   {
     id: 7,
-    question: "La causa y el motivo del acto administrativo se entienden como:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. La causa y el motivo del acto administrativo se entienden como:",
     options: [
       "La norma habilitante y las circunstancias de hecho que sustentan la decisión",
       "La opinión pública y la motivación política del acto",
@@ -400,12 +400,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "La causa corresponde a la razón jurídica o norma habilitante, mientras que el motivo atiende a las circunstancias fácticas que justifican la decisión adoptada.",
+    explanation: "En la situación descrita, la causa corresponde a la razón jurídica o norma habilitante, mientras que el motivo atiende a las circunstancias fácticas que justifican la decisión adoptada.",
     topic: "Acto administrativo - Elementos"
   },
   {
     id: 8,
-    question: "Una finalidad del procedimiento administrativo, según la Ley 1437 de 2011, es:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Una finalidad del procedimiento administrativo, según la Ley 1437 de 2011, es:",
     options: [
       "Concentrar el poder en una sola autoridad sin controles",
       "Proteger derechos y libertades, defender el interés general y sujetar a las autoridades a la Constitución y la ley",
@@ -414,12 +414,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El procedimiento administrativo busca proteger derechos, defender los intereses generales, someter a las autoridades al ordenamiento y cumplir los fines del Estado.",
+    explanation: "En la situación descrita, el procedimiento administrativo busca proteger derechos, defender los intereses generales, someter a las autoridades al ordenamiento y cumplir los fines del Estado.",
     topic: "Procedimiento administrativo - Finalidades"
   },
   {
     id: 9,
-    question: "¿Cuál de las siguientes es una forma de iniciación del procedimiento administrativo?",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. ¿Cuál de las siguientes es una forma de iniciación del procedimiento administrativo?",
     options: [
       "Solo por orden judicial",
       "Derecho de petición en interés general o particular, cumplimiento de obligación legal o iniciativa oficiosa de la autoridad",
@@ -428,12 +428,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El procedimiento puede iniciarse por derecho de petición, en cumplimiento de un deber legal o por oficio cuando la autoridad actúa de manera oficiosa.",
+    explanation: "En la situación descrita, el procedimiento puede iniciarse por derecho de petición, en cumplimiento de un deber legal o por oficio cuando la autoridad actúa de manera oficiosa.",
     topic: "Procedimiento administrativo - Iniciación"
   },
   {
     id: 10,
-    question: "Cuando una petición está incompleta, la autoridad debe:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Cuando una petición está incompleta, la autoridad debe:",
     options: [
       "Rechazarla de inmediato sin explicación",
       "Requerir al interesado dentro de los diez días para que complete la solicitud, otorgándole hasta un mes para hacerlo por una sola vez",
@@ -442,12 +442,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La autoridad requiere al interesado dentro de los diez días siguientes para completar la petición y le concede hasta un mes para subsanar una única vez.",
+    explanation: "En la situación descrita, la autoridad requiere al interesado dentro de los diez días siguientes para completar la petición y le concede hasta un mes para subsanar una única vez.",
     topic: "Procedimiento administrativo - Peticiones incompletas"
   },
   {
     id: 11,
-    question: "Los términos para resolver peticiones son, respectivamente, para peticiones en general, de información y consultas:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Los términos para resolver peticiones son, respectivamente, para peticiones en general, de información y consultas:",
     options: [
       "10, 15 y 30 días hábiles",
       "15, 10 y 30 días hábiles",
@@ -456,12 +456,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La Ley 1437 fija 15 días hábiles para peticiones en general, 10 para información y documentos, y 30 para consultas.",
+    explanation: "En la situación descrita, la Ley 1437 fija 15 días hábiles para peticiones en general, 10 para información y documentos, y 30 para consultas.",
     topic: "Procedimiento administrativo - Términos"
   },
   {
     id: 12,
-    question: "La autoridad puede otorgar plazos adicionales para resolver peticiones siempre que:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. La autoridad puede otorgar plazos adicionales para resolver peticiones siempre que:",
     options: [
       "Se informe antes del vencimiento del término y el nuevo plazo no exceda el doble del inicial",
       "Exista autorización del interesado por escrito",
@@ -470,12 +470,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "La autoridad puede ampliar el término informando antes de su vencimiento y sin exceder el doble del plazo inicial.",
+    explanation: "En la situación descrita, la autoridad puede ampliar el término informando antes de su vencimiento y sin exceder el doble del plazo inicial.",
     topic: "Procedimiento administrativo - Prórrogas"
   },
   {
     id: 13,
-    question: "¿Cuál de los siguientes documentos se considera reservado según el artículo 24 de la Ley 1437 de 2011?",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. ¿Cuál de los siguientes documentos se considera reservado según el artículo 24 de la Ley 1437 de 2011?",
     options: [
       "Las peticiones de información pública",
       "Documentos relacionados con la defensa o seguridad nacionales",
@@ -484,12 +484,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La reserva cobija, entre otros, documentos sobre defensa o seguridad nacionales, secretos comerciales, información protegida por secreto profesional y datos sobre privacidad.",
+    explanation: "En la situación descrita, la reserva cobija, entre otros, documentos sobre defensa o seguridad nacionales, secretos comerciales, información protegida por secreto profesional y datos sobre privacidad.",
     topic: "Procedimiento administrativo - Reserva de información"
   },
   {
     id: 14,
-    question: "Los terceros pueden intervenir en una actuación administrativa cuando:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Los terceros pueden intervenir en una actuación administrativa cuando:",
     options: [
       "La actuación se inicia en interés general, sus derechos puedan verse afectados o hayan sido denunciantes o afectados",
       "Así lo solicite cualquier ciudadano sin relación con el asunto",
@@ -498,12 +498,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "Los terceros intervienen cuando la actuación afecta sus derechos, fue iniciada en interés general o pueden aportar pruebas por su rol de denunciantes o afectados.",
+    explanation: "En la situación descrita, los terceros intervienen cuando la actuación afecta sus derechos, fue iniciada en interés general o pueden aportar pruebas por su rol de denunciantes o afectados.",
     topic: "Procedimiento administrativo - Intervención de terceros"
   },
   {
     id: 15,
-    question: "Los gastos de práctica de pruebas en el procedimiento administrativo:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Los gastos de práctica de pruebas en el procedimiento administrativo:",
     options: [
       "Los asume siempre la autoridad",
       "Se distribuyen proporcionalmente entre los interesados y recaen en quien las solicite",
@@ -512,12 +512,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Los gastos de pruebas corren por cuenta de quien las solicita; si hay varios interesados se distribuyen en cuotas iguales.",
+    explanation: "En la situación descrita, los gastos de pruebas corren por cuenta de quien las solicita; si hay varios interesados se distribuyen en cuotas iguales.",
     topic: "Procedimiento administrativo - Pruebas"
   },
   {
     id: 16,
-    question: "Para notificar un acto administrativo particular, la autoridad primero debe:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Para notificar un acto administrativo particular, la autoridad primero debe:",
     options: [
       "Publicarlo en el Diario Oficial",
       "Citar al interesado para que comparezca dentro de cinco días hábiles y realizar notificación personal",
@@ -526,12 +526,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La notificación personal inicia con la citación para comparecer dentro de cinco días hábiles; si el interesado acude, se realiza la notificación personal.",
+    explanation: "En la situación descrita, la notificación personal inicia con la citación para comparecer dentro de cinco días hábiles; si el interesado acude, se realiza la notificación personal.",
     topic: "Notificaciones - Actos particulares"
   },
   {
     id: 17,
-    question: "Si el interesado no comparece tras la citación para notificación personal, la autoridad debe:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Si el interesado no comparece tras la citación para notificación personal, la autoridad debe:",
     options: [
       "Archivar el expediente",
       "Notificar por aviso enviando copia íntegra del acto",
@@ -540,12 +540,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Si no hay comparecencia, la autoridad notifica por aviso y envía copia del acto, cumpliendo con el procedimiento previsto.",
+    explanation: "En la situación descrita, si no hay comparecencia, la autoridad notifica por aviso y envía copia del acto, cumpliendo con el procedimiento previsto.",
     topic: "Notificaciones - Actos particulares"
   },
   {
     id: 18,
-    question: "La revocatoria directa procede cuando:",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. La revocatoria directa procede cuando:",
     options: [
       "El acto es ajustado a la ley y produce efectos favorables",
       "El acto es contrario a la Constitución o la ley, no se ajusta al bienestar común o atenta injustificadamente contra bienes o integridad de una persona",
@@ -554,12 +554,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La Ley 1437 permite revocar directamente actos que sean contrarios a la Constitución o ley, afecten el bienestar común o atenten injustificadamente contra bienes o integridad de una persona.",
+    explanation: "En la situación descrita, la Ley 1437 permite revocar directamente actos que sean contrarios a la Constitución o ley, afecten el bienestar común o atenten injustificadamente contra bienes o integridad de una persona.",
     topic: "Procedimiento administrativo - Revocatoria directa"
   },
   {
     id: 19,
-    question: "¿Cuáles son los recursos principales que proceden contra actos administrativos definitivos?",
+    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. ¿Cuáles son los recursos principales que proceden contra actos administrativos definitivos?",
     options: [
       "Reposición, apelación y queja",
       "Reposición, casación y revisión",
@@ -568,7 +568,7 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "Los recursos administrativos principales son reposición, apelación y queja; la apelación suele ser necesaria para acudir a la jurisdicción contencioso-administrativa.",
+    explanation: "En la situación descrita, los recursos administrativos principales son reposición, apelación y queja; la apelación suele ser necesaria para acudir a la jurisdicción contencioso-administrativa.",
     topic: "Procedimiento administrativo - Recursos"
   },
   {

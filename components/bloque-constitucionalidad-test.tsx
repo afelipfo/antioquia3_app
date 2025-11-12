@@ -382,6 +382,230 @@ const questions: Question[] = [
       "El bloque opera como parámetro para invalidar normas penales incompatibles con obligaciones internacionales y principios constitucionales.",
     topic: "Política criminal y bloque",
   },
+  {
+    id: 25,
+    question:
+      "Situación: A María le niegan un procedimiento médico vital. ¿Cuál mecanismo procede para protección rápida?",
+    options: [
+      "Acción popular",
+      "Acción de cumplimiento",
+      "Acción de tutela",
+      "Acción de grupo",
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation:
+      "En la situación descrita, la acción de tutela es el mecanismo preferente y sumario para proteger de inmediato derechos fundamentales cuando no existe otro medio eficaz.",
+    topic: "Tutela en salud urgente",
+  },
+  {
+    id: 26,
+    question:
+      "Situación: Un juez encuentra conflicto entre una ley y la Convención Americana sobre DD. HH. en un caso de libertad de expresión. ¿Qué debe aplicar?",
+    options: [
+      "La ley ordinaria",
+      "El tratado de derechos humanos como parte del bloque de constitucionalidad",
+      "Ninguno, por falta de reglamentación",
+      "Una directiva administrativa",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "El documento destaca que los tratados de derechos humanos integran el bloque de constitucionalidad, por lo que deben aplicarse con prevalencia frente a leyes contrarias.",
+    topic: "Tratado internacional vs. ley",
+  },
+  {
+    id: 27,
+    question:
+      "Situación: El Congreso limita el derecho de reunión mediante ley ordinaria. ¿Qué problema principal se configura?",
+    options: [
+      "Falta de consulta previa",
+      "Desconocer la reserva de ley estatutaria para derechos fundamentales",
+      "Inexistencia de decreto reglamentario",
+      "Vicio de forma en la ponencia",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "La regulación de derechos fundamentales como reunión y protesta está sometida a ley estatutaria; hacerlo por ley ordinaria viola esa reserva.",
+    topic: "Reserva de ley estatutaria",
+  },
+  {
+    id: 28,
+    question:
+      "Situación: El Gobierno decreta emergencia y suspende derechos fundamentales. Según el documento, esto es:",
+    options: [
+      "Válido por tres meses",
+      "Válido si lo avala un juez",
+      "Improcedente: los derechos fundamentales no pueden suspenderse en estados de excepción",
+      "Procede solo para derechos de segunda generación",
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation:
+      "Incluso en estados de excepción debe respetarse el bloque de constitucionalidad, que prohíbe la suspensión de los derechos fundamentales.",
+    topic: "Estados de excepción",
+  },
+  {
+    id: 29,
+    question:
+      "Situación: Una persona invoca el derecho al olvido digital. ¿Cómo podría reconocerse como fundamental?",
+    options: [
+      "Solo mediante reforma constitucional",
+      "Por ser innominado o por conexidad con privacidad y dignidad",
+      "Por costumbre mercantil",
+      "Por decreto presidencial",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "La Corte ha admitido derechos innominados y aquellos conectados con otros expresos —como privacidad y dignidad— dentro del catálogo fundamental.",
+    topic: "Derechos innominados",
+  },
+  {
+    id: 30,
+    question:
+      "Situación: Una comunidad demanda por vertimientos que contaminan su río. ¿Qué generación de derechos se activa principalmente?",
+    options: [
+      "Primera",
+      "Segunda",
+      "Tercera (colectivos/solidaridad, ambiente)",
+      "Cuarta",
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation:
+      "La protección del ambiente y los intereses colectivos corresponde a los derechos de tercera generación o de solidaridad.",
+    topic: "Derechos de tercera generación",
+  },
+  {
+    id: 31,
+    question:
+      "Situación: Una plataforma capta huellas y rostros sin consentimiento. ¿Qué derecho resulta central?",
+    options: [
+      "Libre asociación",
+      "Sufragio",
+      "Privacidad y datos personales (cuarta generación)",
+      "Trabajo",
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation:
+      "La recopilación de datos biométricos sin autorización vulnera el derecho a la privacidad y la protección de datos personales, ubicados en la cuarta generación.",
+    topic: "Protección de datos biométricos",
+  },
+  {
+    id: 32,
+    question:
+      "Situación: Una autoridad exige a mujeres usar determinada vestimenta por normas religiosas. ¿Qué tensión ilustra el documento?",
+    options: [
+      "Entre derecho penal y civil",
+      "Entre enfoques culturales o religiosos y estándares de derechos humanos y dignidad",
+      "Entre dos leyes ordinarias",
+      "Entre municipios",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "El texto subraya la tensión entre visiones culturales o religiosas y los estándares universales de dignidad y libertades individuales.",
+    topic: "Libertad religiosa y dignidad",
+  },
+  {
+    id: 33,
+    question:
+      "Situación: Una alcaldía impone toque de queda que restringe locomoción y reunión. ¿Qué límite debe respetar?",
+    options: [
+      "Ninguno si hay alteración del orden público",
+      "El núcleo esencial de los derechos limitados",
+      "Solo aplicarlo en horario nocturno",
+      "Prohibición de multas",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "Cualquier limitación debe salvaguardar el núcleo esencial de los derechos; de lo contrario, se torna inconstitucional.",
+    topic: "Límites al poder de policía",
+  },
+  {
+    id: 34,
+    question:
+      "Situación: Existe un vacío legal sobre un derecho y hay una sentencia de la Corte Constitucional que lo desarrolla. ¿Ese precedente integra el bloque?",
+    options: [
+      "No, solo cuenta el texto constitucional",
+      "Sí, la jurisprudencia de la Corte integra el bloque",
+      "Solo si la aprueba el Congreso",
+      "Solo en materia penal",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "La doctrina constitucional hace parte del bloque y sirve como parámetro obligatorio de interpretación y control.",
+    topic: "Precedente constitucional",
+  },
+  {
+    id: 35,
+    question:
+      "Situación: Una estudiante ve vulnerada su libertad de expresión por la universidad. ¿Qué rasgo de los derechos permite un remedio sin esperar reglamentación?",
+    options: [
+      "Principio de oportunidad",
+      "Aplicación inmediata",
+      "Legalidad estricta",
+      "Cosa juzgada",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "Los derechos fundamentales tienen aplicación inmediata (art. 85 C.P.), por lo que pueden exigirse aun sin desarrollo legal.",
+    topic: "Aplicación inmediata",
+  },
+  {
+    id: 36,
+    question:
+      "Situación: A un joven le niegan matrícula en educación básica por falta de pago. ¿Qué generación de derechos se invoca en primer plano?",
+    options: [
+      "Segunda (educación)",
+      "Primera",
+      "Tercera",
+      "Cuarta",
+    ],
+    correctAnswer: 0,
+    points: 5,
+    explanation:
+      "La educación es un derecho social de segunda generación que obliga al Estado a garantizar acceso efectivo, especialmente en básica.",
+    topic: "Derechos sociales",
+  },
+  {
+    id: 37,
+    question:
+      "Situación: Una autoridad clausura una emisora comunitaria sin orden judicial por críticas al alcalde. ¿Qué derecho y generación se afecta?",
+    options: [
+      "Trabajo – segunda",
+      "Libertad de expresión – primera",
+      "Ambiente – tercera",
+      "Datos personales – cuarta",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "El cierre arbitrario limita la libertad de expresión, derecho civil y político propio de la primera generación.",
+    topic: "Libertad de expresión",
+  },
+  {
+    id: 38,
+    question:
+      "Situación: Se propone una reforma constitucional para reducir las garantías de la tutela. ¿Qué advierte el documento sobre modificar estos derechos?",
+    options: [
+      "Pueden cambiarse por mayoría simple",
+      "Basta un decreto legislativo",
+      "Requieren procedimientos más estrictos, con un plus de protección",
+      "Solo necesita referendo municipal",
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation:
+      "Los derechos fundamentales gozan de especial rigidez; su modificación demanda procedimientos reforzados y un control estricto.",
+    topic: "Rigidez constitucional",
+  },
 ]
 
 export function BloqueConstitucionalidadTest() {
@@ -438,18 +662,21 @@ export function BloqueConstitucionalidadTest() {
             <CardHeader>
               <CardTitle className="text-lg">Bloque de Constitucionalidad en Colombia</CardTitle>
               <CardDescription>
-                Preguntas situacionales basadas en el documento “El Bloque de Constitucionalidad en Colombia”.
+                Preguntas situacionales basadas en los documentos “Noción de Derechos Fundamentales” y “El Bloque de Constitucionalidad en Colombia”.
               </CardDescription>
             </CardHeader>
             <CardContent className="text-sm text-muted-foreground space-y-2">
-              <p>Evalúa fundamentos, clasificación, efectos y casos emblemáticos (convenios OIT, pena perpetua, caso Petro).</p>
+              <p>
+                Evalúa nociones de derechos fundamentales (tutela, generaciones, bloque de convencionalidad, límites a la autoridad) y los fundamentos, clasificación,
+                efectos y casos emblemáticos del bloque (convenios OIT, pena perpetua, caso Petro).
+              </p>
               <Alert>
                 <AlertTitle className="flex items-center gap-2 font-semibold text-sm">
                   <InfoIcon className="h-4 w-4 text-primary" />
                   Puntaje
                 </AlertTitle>
                 <AlertDescription>
-                  Cada pregunta vale 5 puntos. Para enviar debes responder las 24 preguntas.
+                  Cada pregunta vale 5 puntos. Para enviar debes responder las 38 preguntas.
                 </AlertDescription>
               </Alert>
             </CardContent>

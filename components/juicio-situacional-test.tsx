@@ -630,6 +630,186 @@ const questionsV2: Question[] = [
     explanation: "Al analizar escenarios en el contexto público se debe considerar el marco normativo, los principios éticos (honestidad, respeto, diligencia, justicia, compromiso), el impacto en los ciudadanos y la alineación con la misión institucional.",
     points: 5,
   },
+  {
+    id: 39,
+    question:
+      "Lectura: Un ciudadano con discapacidad visual solicita radicar verbalmente su petición y la ventanilla exige un formato escrito con firma. ¿Qué procede según el enfoque de accesibilidad?",
+    options: [
+      { id: "a", text: "Recibirla por el medio más accesible para el peticionario y registrar la radicación verbal." },
+      { id: "b", text: "Mantener el formato escrito y ofrecer ayuda posterior." },
+      { id: "c", text: "Rechazarla hasta que cumpla las reglas internas." },
+      { id: "d", text: "Sugerir que vuelva con un acompañante que firme por él." },
+    ],
+    correct: "a",
+    explanation:
+      "El derecho de petición admite medios verbales, telefónicos o audiovisuales; exigir un único formato desconoce los ajustes razonables y constituye barrera injustificada para la población con discapacidad.",
+    points: 5,
+  },
+  {
+    id: 40,
+    question:
+      "Lectura: La entidad sostiene que \"tratar a todos por igual\" significa exigir el mismo formato escrito, incluso a quien tiene discapacidad. ¿Es válido?",
+    options: [
+      { id: "a", text: "Sí, porque garantiza uniformidad." },
+      { id: "b", text: "No; la igualdad real exige ajustes razonables y atención diferencial para garantizar el acceso efectivo." },
+      { id: "c", text: "Solo se aceptan medios digitales certificados." },
+      { id: "d", text: "Depende del volumen de solicitudes." },
+    ],
+    correct: "b",
+    explanation:
+      "La igualdad material implica adaptar los canales a las condiciones del ciudadano; rechazar ajustes razonables vulnera el enfoque diferencial y la Ley 1755 de 2015.",
+    points: 5,
+  },
+  {
+    id: 41,
+    question:
+      "Lectura: Han pasado veinte días hábiles sin respuesta ni prórroga a una petición. La oficina alega \"altísima carga operativa\". ¿Cuál es la lectura correcta?",
+    options: [
+      { id: "a", text: "Se vulnera el derecho de petición porque la prórroga debía motivarse y comunicarse antes del vencimiento." },
+      { id: "b", text: "La carga operativa es causal automática para extender el término." },
+      { id: "c", text: "Si la petición no es urgente, la entidad gestiona libremente los tiempos." },
+      { id: "d", text: "El silencio administrativo es válido siempre que se informe después." },
+    ],
+    correct: "a",
+    explanation:
+      "Los 15 días hábiles solo pueden ampliarse mediante prórroga motivada y notificada antes del vencimiento; la carga interna no excusa el incumplimiento.",
+    points: 5,
+  },
+  {
+    id: 42,
+    question:
+      "Lectura: La entidad envía una respuesta parcial con promesa de completarla “cuando haya tiempo”. ¿Qué núcleo preocupan estas prácticas?",
+    options: [
+      { id: "a", text: "El incumplimiento del deber de respuesta oportuna, clara y de fondo." },
+      { id: "b", text: "Ninguno, porque ya hubo respuesta." },
+      { id: "c", text: "Solo afecta la imagen institucional." },
+      { id: "d", text: "Se cumple el núcleo esencial si hay intención de contestar." },
+    ],
+    correct: "a",
+    explanation:
+      "El núcleo del derecho de petición exige respuestas completas, congruentes y oportunas; fragmentarlas sin justificación vulnera la confianza legítima del ciudadano.",
+    points: 5,
+  },
+  {
+    id: 43,
+    question:
+      "Lectura: Una ciudadana recibe una contestación que no resuelve lo solicitado. Antes de acudir a la tutela, ¿qué camino institucional corresponde?",
+    options: [
+      { id: "a", text: "Solicitar a la Procuraduría que rehaga la respuesta." },
+      { id: "b", text: "Presentar acción de tutela inmediata." },
+      { id: "c", text: "Interponer los recursos administrativos procedentes (insistencia, reposición o apelación) para agotar la vía gubernativa." },
+      { id: "d", text: "Esperar una respuesta espontánea." },
+    ],
+    correct: "c",
+    explanation:
+      "La tutela es subsidiaria; primero deben agotarse los recursos administrativos previstos para corregir la respuesta insuficiente.",
+    points: 5,
+  },
+  {
+    id: 44,
+    question:
+      "Lectura: ¿Cuándo es válida la prórroga del término para responder una petición de información general?",
+    options: [
+      { id: "a", text: "En cualquier momento, por carga operativa." },
+      { id: "b", text: "Antes del vencimiento, con motivación y comunicación expresa al peticionario." },
+      { id: "c", text: "Solo si el tema no es urgente." },
+      { id: "d", text: "Cuando se registra en el sistema, sin informar al ciudadano." },
+    ],
+    correct: "b",
+    explanation:
+      "La Ley 1755 regula que la prórroga debe motivarse y comunicarse antes de vencer el término; después de vencido no puede alegarse.",
+    points: 5,
+  },
+  {
+    id: 45,
+    question:
+      "Lectura: En un evento institucional se restringen consignas políticas de jóvenes y luego se publica un comunicado que afecta su imagen. ¿Qué núcleo se afecta principalmente?",
+    options: [
+      { id: "a", text: "La intimidad u honor personal." },
+      { id: "b", text: "El pluralismo democrático y la libertad de expresión política." },
+      { id: "c", text: "El debido proceso sancionatorio." },
+      { id: "d", text: "La libertad económica." },
+    ],
+    correct: "b",
+    explanation:
+      "La censura de manifestaciones políticas en espacios institucionales vulnera la libertad de expresión y el pluralismo democrático, aun sin sanción formal.",
+    points: 5,
+  },
+  {
+    id: 46,
+    question:
+      "Lectura: El alcalde quiere delegar funciones para agilizar la gestión. ¿Qué requisitos mínimos debe cumplir la delegación?",
+    options: [
+      { id: "a", text: "Basta un lineamiento interno sin formalidad." },
+      { id: "b", text: "Expedir acto administrativo expreso, identificar funciones delegables, verificar la competencia del delegado y asegurar trazabilidad y control." },
+      { id: "c", text: "Solicitar concepto de la gobernación y acta de gabinete." },
+      { id: "d", text: "Enviar un correo informal anunciando la delegación." },
+    ],
+    correct: "b",
+    explanation:
+      "El artículo 211 de la Constitución y la Ley 489/1998 exigen acto formal, claridad sobre funciones delegadas, competencia del delegado y mecanismos de seguimiento.",
+    points: 5,
+  },
+  {
+    id: 47,
+    question:
+      "Lectura: ¿Cuál de las siguientes funciones no puede delegarse?",
+    options: [
+      { id: "a", text: "Trámite de certificaciones técnicas." },
+      { id: "b", text: "Dirección política y representación legal de la entidad." },
+      { id: "c", text: "Firma de oficios de mero trámite." },
+      { id: "d", text: "Coordinación operativa de un proyecto." },
+    ],
+    correct: "b",
+    explanation:
+      "Las funciones de dirección y representación legal son indelegables por su naturaleza estratégica y por recaer directamente en la autoridad electa.",
+    points: 5,
+  },
+  {
+    id: 48,
+    question:
+      "Lectura: Planeación pretende tratar el POT como un simple anexo informativo del Plan Departamental de Desarrollo. ¿Es correcto?",
+    options: [
+      { id: "a", text: "Sí, porque simplifica el documento." },
+      { id: "b", text: "No; la articulación exige coordinación técnica y normativa, participación y coherencia territorial." },
+      { id: "c", text: "Depende del tamaño del municipio." },
+      { id: "d", text: "Solo cuando ya existe un POT adoptado." },
+    ],
+    correct: "b",
+    explanation:
+      "El POT no es un anexo; requiere articulación real con los planes territoriales para evitar fragmentación y garantizar coherencia en la gestión del suelo.",
+    points: 5,
+  },
+  {
+    id: 49,
+    question:
+      "Lectura: Una persona mayor con limitaciones tecnológicas pide radicar su petición por teléfono. ¿Corresponde habilitar ese canal?",
+    options: [
+      { id: "a", text: "No, solo radicaciones presenciales o web." },
+      { id: "b", text: "Sí, el medio debe adaptarse a las condiciones del peticionario para garantizar accesibilidad." },
+      { id: "c", text: "Solo si ya estaba registrado en el sistema." },
+      { id: "d", text: "Depende del tipo de asunto." },
+    ],
+    correct: "b",
+    explanation:
+      "El principio de accesibilidad permite radicar por canales telefónicos o audiovisuales cuando facilitan el ejercicio del derecho de petición, especialmente para población vulnerable.",
+    points: 5,
+  },
+  {
+    id: 50,
+    question:
+      "Lectura: ¿Qué práctica preserva el núcleo del derecho de petición y la confianza ciudadana?",
+    options: [
+      { id: "a", text: "Responder parcialmente y anunciar que se completará después." },
+      { id: "b", text: "Emitir respuesta de fondo, clara, congruente y dentro del término legal." },
+      { id: "c", text: "Posponer la respuesta cuando hay carga operativa." },
+      { id: "d", text: "Enviar un acuse de recibo y responder en la siguiente vigencia." },
+    ],
+    correct: "b",
+    explanation:
+      "El núcleo esencial del derecho exige respuestas completas y oportunas; cualquier práctica que dilate o fragmente la respuesta vulnera la confianza legítima del ciudadano.",
+    points: 5,
+  },
 ]
 
 export function JuicioSituacionalTest() {

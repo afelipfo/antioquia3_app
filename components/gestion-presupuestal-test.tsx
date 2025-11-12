@@ -622,6 +622,353 @@ const questions: Question[] = [
       "El procedimiento admite dividir el CDP en varios RP siempre que no se supere el valor inicial y se documenten todos los soportes.",
     topic: "CDP global - Control",
   },
+  {
+    id: 41,
+    question:
+      "Situación: Una alcaldía quiere financiar un programa social que no aparece en el presupuesto vigente. ¿Qué procede?",
+    options: [
+      "Ejecutarlo por decreto del alcalde",
+      "No puede ejecutarse: todo gasto debe estar previsto en el presupuesto aprobado",
+      "Cubrirlo con donaciones privadas sin trámite",
+      "Trasladar cualquier crédito a ese objeto",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "El artículo 345 de la Constitución prohíbe erogaciones que no estén decretadas en el presupuesto vigente ni traslados a objetos no previstos.",
+    topic: "CN art. 345 – Gasto no previsto",
+  },
+  {
+    id: 42,
+    question:
+      "Situación: Una asamblea pretende cobrar un nuevo impuesto sin incluirlo en el presupuesto de rentas. ¿Es viable?",
+    options: [
+      "Sí, si lo aprueba mayoría simple",
+      "No, en tiempo de paz no se perciben impuestos que no figuren en el presupuesto de rentas",
+      "Procede si se declara urgencia manifiesta",
+      "Solo requiere decreto del gobernador",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "El mismo artículo 345 dispone que en tiempos de paz no pueden cobrarse impuestos que no estén incorporados en el presupuesto de rentas.",
+    topic: "CN art. 345 – Impuestos",
+  },
+  {
+    id: 43,
+    question:
+      "Situación: ¿Quién da primer debate al Proyecto de Presupuesto de Rentas y Ley de Apropiaciones?",
+    options: [
+      "Comisiones Primera y Séptima",
+      "Plenarias conjuntas",
+      "Comisiones de asuntos económicos en forma conjunta",
+      "Comisión de Ética",
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation:
+      "El artículo 346 de la Constitución (modificado por el Acto Legislativo 03 de 2011) ordena que las comisiones económicas sesionen conjuntamente en el primer debate.",
+    topic: "CN art. 346 – Trámite",
+  },
+  {
+    id: 44,
+    question:
+      "Situación: Un ministerio desea incluir durante la vigencia un gasto que no estaba en el proyecto de ley de apropiaciones. ¿Puede hacerlo?",
+    options: [
+      "Sí, mediante circular interna",
+      "Sí, con decreto reglamentario",
+      "No: la ley de apropiaciones debe contener la totalidad de los gastos",
+      "Basta con expedir un CDP posterior",
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation:
+      "El artículo 347 establece que el proyecto de ley de apropiaciones comprende la totalidad de los gastos; lo no incluido no puede ejecutarse en la vigencia.",
+    topic: "CN art. 347 – Totalidad del gasto",
+  },
+  {
+    id: 45,
+    question:
+      "Situación: El PGN proyecta gastos superiores a los ingresos autorizados. ¿Cómo se financia la diferencia?",
+    options: [
+      "El Congreso reduce automáticamente el gasto",
+      "Se cubre con vigencias futuras sin trámite",
+      "El Gobierno debe proponer nuevas rentas o modificaciones en un proyecto separado",
+      "Se aprueba y luego se recorta",
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation:
+      "Según el artículo 347, cuando el presupuesto proyecta gastos mayores a los ingresos, el Gobierno debe presentar un proyecto que instituya nuevas rentas o modifique las existentes.",
+    topic: "CN art. 347 – Fuentes de financiación",
+  },
+  {
+    id: 46,
+    question:
+      "Situación: Una ley ordinaria contradice disposiciones de la ley orgánica de presupuesto. ¿Cuál prevalece?",
+    options: [
+      "La ley ordinaria por ser posterior",
+      "La ley orgánica, que fija reglas superiores para la actividad legislativa presupuestal",
+      "Decide el ministerio del ramo",
+      "Se aplican ambas",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "El artículo 151 establece que las materias de la ley orgánica vinculan al legislador ordinario; cualquier ley en contrario se ajusta a ella.",
+    topic: "Jerarquía normativa – Ley orgánica",
+  },
+  {
+    id: 47,
+    question:
+      "Situación: Un secretario de planeación duda sobre la norma que respalda utilizar la ley anual del PGN como instrumento para ejecutar el Plan Nacional de Desarrollo. ¿Qué responde?",
+    options: ["Ley 80 de 1993", "Acto Legislativo 01 de 2001", "Decreto 111 de 1996, artículo 10", "Decreto 1082 de 2015"],
+    correctAnswer: 2,
+    points: 5,
+    explanation:
+      "El artículo 10 del Estatuto Orgánico del Presupuesto (Decreto 111 de 1996) señala que la ley anual del presupuesto es el instrumento para ejecutar los planes y programas de desarrollo.",
+    topic: "EOP art. 10 – Instrumento",
+  },
+  {
+    id: 48,
+    question:
+      "Situación: El alcalde estructura el presupuesto sin considerar el Plan Financiero ni el POAI. ¿Es correcto?",
+    options: [
+      "Sí, si el Concejo lo aprueba",
+      "Sí, si hay superávit",
+      "No: el sistema presupuestal coordina Plan Financiero, POAI y Presupuesto para armonizar política fiscal y ejecución",
+      "Solo la Nación debe hacerlo",
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation:
+      "El sistema presupuestal colombiano exige coherencia entre el Plan Financiero, el Plan Operativo Anual de Inversiones y el presupuesto para garantizar disciplina macrofiscal.",
+    topic: "Sistema presupuestal – Coherencia",
+  },
+  {
+    id: 49,
+    question:
+      "Situación: Un concejal afirma que el presupuesto es una meta de gasto sin límite. ¿Cuál es la naturaleza real?",
+    options: [
+      "Depende del recaudo efectivo",
+      "Es una autorización máxima de gasto y un estimativo de ingresos",
+      "Es un compromiso político sin implicaciones jurídicas",
+      "Es un plan indicativo no vinculante",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "La cartilla Presupuesto lo explica describe el presupuesto como la autorización máxima de gasto y el estimativo de ingresos para una vigencia.",
+    topic: "Naturaleza del presupuesto",
+  },
+  {
+    id: 50,
+    question:
+      "Situación: Una entidad ignora los principios presupuestales al preparar el proyecto. ¿Qué ocurre?",
+    options: [
+      "No pasa nada",
+      "Se vicia la validez del proceso porque los principios condicionan la legitimidad del presupuesto",
+      "Se corrige con un CDP",
+      "Se ajusta durante la ejecución",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "El Estatuto Orgánico contempla nueve principios legales y tres jurisprudenciales que condicionan la validez del acto presupuestal.",
+    topic: "Principios presupuestales",
+  },
+  {
+    id: 51,
+    question:
+      "Situación: Un analista incorpora parafiscales como ingresos corrientes con gasto asociado. ¿Es correcto?",
+    options: [
+      "Sí, siempre",
+      "Sí, si son SENA o ICBF",
+      "No: los parafiscales se incluyen solo de forma informativa en capítulo separado y sin gasto asociado",
+      "Depende de la tasa de recaudo",
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation:
+      "El artículo 12 de la Ley 179 de 1994 (modificado por la Ley 225 de 1995) indica que los parafiscales se registran informativamente y no se mezclan con los ingresos corrientes.",
+    topic: "Parafiscales – Presentación presupuestal",
+  },
+  {
+    id: 52,
+    question:
+      "Situación: ¿Qué característica no corresponde a una contribución parafiscal?",
+    options: [
+      "Obligatoriedad",
+      "Libre destinación para gasto general",
+      "Singularidad dirigida a un grupo específico",
+      "Destinación sectorial",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "Las contribuciones parafiscales son obligatorias, singulares y con destinación sectorial; no financian gasto general.",
+    topic: "Parafiscales – Rasgos",
+  },
+  {
+    id: 53,
+    question:
+      "Situación: Hacienda propone crear un \"fondo\" sin personería para administrar recursos específicos. ¿Qué figura es?",
+    options: [
+      "Un fondo-cuenta o fondo especial sin personería jurídica",
+      "Un establecimiento público",
+      "Una empresa social del Estado",
+      "Una empresa industrial y comercial del Estado",
+    ],
+    correctAnswer: 0,
+    points: 5,
+    explanation:
+      "El documento define los fondos-cuenta como sistemas de manejo de recursos sin personería, que no constituyen secciones del presupuesto.",
+    topic: "Fondos especiales – Fondo-cuenta",
+  },
+  {
+    id: 54,
+    question:
+      "Situación: Se crea un fondo con personería jurídica como unidad ejecutora del PGN. ¿De qué tipo se trata?",
+    options: [
+      "Fondo-cuenta",
+      "Fondo-entidad (asimilado a establecimiento público)",
+      "Sociedad de economía mixta",
+      "Tasa parafiscal",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "Los fondos-entidad tienen personería jurídica y se asimilan a establecimientos públicos, por lo que modifican la estructura administrativa.",
+    topic: "Fondos especiales – Fondo-entidad",
+  },
+  {
+    id: 55,
+    question:
+      "Situación: Un municipio cobra por uso del espacio electromagnético. ¿Cómo clasifica ese ingreso?",
+    options: [
+      "Tributo directo",
+      "Renta contractual (ingreso no tributario)",
+      "Regalía",
+      "Transferencia del SGP",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "La cartilla clasifica los pagos por uso del espacio electromagnético como rentas contractuales dentro de los ingresos no tributarios.",
+    topic: "Clasificación de ingresos",
+  },
+  {
+    id: 56,
+    question:
+      "Situación: En comisión presupuestal surge la duda sobre si el alumbrado público es impuesto o tasa. ¿Qué señala el material?",
+    options: [
+      "Siempre es impuesto",
+      "Siempre es tasa",
+      "Es una discusión doctrinal y jurídica abierta",
+      "Es contribución parafiscal",
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation:
+      "El documento “Presupuesto lo explica” expone el debate sobre la naturaleza del alumbrado público sin cerrar la discusión.",
+    topic: "Ingresos – Alumbrado público",
+  },
+  {
+    id: 57,
+    question:
+      "Situación: Una secretaría desea registrar intereses de deuda como inversión. ¿Es correcto?",
+    options: [
+      "Sí, si financian proyectos",
+      "No, los intereses se clasifican como servicio de la deuda",
+      "Debe pasar por funcionamiento",
+      "Puede hacerse con POAI",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "Los intereses hacen parte del servicio de la deuda, no de la inversión; su registro incorrecto distorsiona el gasto.",
+    topic: "Clasificación del gasto – Servicio de deuda",
+  },
+  {
+    id: 58,
+    question:
+      "Situación: Se pretende imputar la compra de papelería al POAI. ¿Es válido?",
+    options: [
+      "Siempre procede",
+      "No: la inversión se ejecuta vía POAI, pero los gastos de funcionamiento (como papelería) deben imputarse a su rubro de funcionamiento",
+      "Sí, si es menor cuantía",
+      "Sí, con autorización del DNP",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "El POAI respalda exclusivamente los proyectos de inversión; los gastos de funcionamiento no se cargan allí.",
+    topic: "Funcionamiento vs inversión",
+  },
+  {
+    id: 59,
+    question:
+      "Situación: La entidad recibe recursos de crédito y donaciones. ¿Dónde se clasifican?",
+    options: [
+      "Ingresos corrientes",
+      "Recursos de capital",
+      "Parafiscales",
+      "Fondos especiales",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "Los recursos provenientes de crédito público y donaciones hacen parte de los recursos de capital.",
+    topic: "Ingresos – Recursos de capital",
+  },
+  {
+    id: 60,
+    question:
+      "Situación: Al liquidar la vigencia se reconocen exigibilidades de años anteriores. ¿Dónde se registran?",
+    options: [
+      "En inversión",
+      "En funcionamiento",
+      "En el presupuesto de gastos, discriminadas como déficit anterior y vigencias expiradas",
+      "En ingresos de capital",
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation:
+      "El documento señala que las obligaciones de vigencias anteriores se incluyen en el presupuesto de gastos, detallando déficit y vigencias expiradas.",
+    topic: "Cierre de vigencia – Registro",
+  },
+  {
+    id: 61,
+    question:
+      "Situación: La administración municipal presta directamente servicios de acueducto y aseo. ¿Cómo lo refleja el presupuesto?",
+    options: [
+      "Solo como tasa",
+      "Como ingresos por venta de bienes y servicios (ingresos no tributarios) cuando corresponda",
+      "Como regalías",
+      "Como contribución parafiscal",
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation:
+      "Los ingresos generados por la prestación directa de servicios se clasifican como venta de bienes y servicios dentro de los ingresos no tributarios.",
+    topic: "Ingresos – Prestación directa",
+  },
+  {
+    id: 62,
+    question:
+      "Situación: El Gobierno presenta el PGN a mitad de la legislatura. ¿Es válido?",
+    options: [
+      "Sí, por autonomía del Ejecutivo",
+      "Sí, si se envía con mensaje de urgencia",
+      "No: debe presentarse dentro de los primeros diez días de cada legislatura",
+      "Depende del CONFIS",
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation:
+      "El artículo 346 exige que el Gobierno radique el proyecto de presupuesto dentro de los diez primeros días de cada legislatura.",
+    topic: "Cronograma PGN",
+  },
 ]
 
 export function GestionPresupuestalTest() {
@@ -673,7 +1020,8 @@ export function GestionPresupuestalTest() {
           </TabsList>
           <TabsContent value="instrucciones" className="space-y-4 text-sm text-muted-foreground">
             <p>
-              Responde las preguntas situacionales sobre gestión presupuestal, certificaciones y ciclo de gasto.
+              Responde las preguntas situacionales sobre gestión presupuestal, certificaciones y ciclo de gasto,
+              incluidas las disposiciones constitucionales y del Estatuto Orgánico explicadas en “Presupuesto lo explica”.
               Cada ítem vale <strong>5 puntos</strong>; obtendrás retroalimentación al finalizar.
             </p>
             <Alert>
@@ -690,7 +1038,7 @@ export function GestionPresupuestalTest() {
             <div className="rounded-xl border bg-background/60 p-4 text-sm text-muted-foreground shadow-sm">
               <ul className="list-disc space-y-2 pl-5">
                 <li>Las preguntas plantean escenarios típicos de ingreso y gasto.</li>
-                <li>Selecciona la opción que refleja la normativa aplicada en la presentación.</li>
+                <li>Selecciona la opción que recoge la normativa explicada en la presentación y en “Presupuesto lo explica”.</li>
                 <li>Puedes reiniciar la prueba cuando quieras.</li>
               </ul>
             </div>

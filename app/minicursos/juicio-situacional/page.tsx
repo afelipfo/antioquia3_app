@@ -9,6 +9,7 @@ import {
   CheckCircle2,
   AlertCircle,
   Trophy,
+  FileText,
 } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -372,6 +373,30 @@ export default function JuicioSituacionalPage() {
                 y orientación a resultados, no solo con conocimiento técnico.
               </AlertDescription>
             </Alert>
+          </CardContent>
+        </Card>
+
+        {/* Recurso descargable */}
+        <Card className="mb-6 border-2 border-emerald-200">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <FileText className="h-5 w-5 text-emerald-600" />
+              Recurso descargable
+            </CardTitle>
+            <CardDescription>
+              Consulta la guía oficial para diseñar y practicar cuestionarios de juicio situacional.
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-3">
+            <p className="text-muted-foreground">
+              El documento “Guía para Prompts de Cuestionarios de Juicio Situacional” recopila ejemplos de
+              escenarios, enfoques de respuesta y recomendaciones para crear tus propios bancos de preguntas.
+            </p>
+            <Button asChild className="gap-2">
+              <Link href="/resources/guia-prompts-juicio-situacional.pdf" target="_blank" rel="noopener noreferrer">
+                Descargar guía (PDF)
+              </Link>
+            </Button>
           </CardContent>
         </Card>
 

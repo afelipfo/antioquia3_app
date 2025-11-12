@@ -584,6 +584,230 @@ const questionsV2: Question[] = [
     points: 5,
     explanation: "La reposición y la apelación se interponen al momento de la notificación o dentro de los diez días hábiles siguientes; contra actos presuntos pueden presentarse en cualquier tiempo.",
     topic: "Procedimiento administrativo - Recursos y términos"
+  },
+  {
+    id: 21,
+    question: "Situación: El Presidente entra en incapacidad temporal durante una visita oficial. ¿Quién debe asumir el despacho?",
+    options: [
+      "El Presidente del Congreso",
+      "El Vicepresidente",
+      "El Ministro del Interior",
+      "El Procurador General"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "La Constitución dispone que el Vicepresidente es el primer llamado a reemplazar temporal o definitivamente al Presidente cuando se presenta una falta.",
+    topic: "Organización del Estado - Reemplazo presidencial"
+  },
+  {
+    id: 22,
+    question: "Situación: Se debe formular una nueva política nacional de salud preventiva. ¿Qué entidad lidera su diseño?",
+    options: [
+      "La Superintendencia Nacional de Salud",
+      "El Ministerio de Salud y Protección Social",
+      "El Instituto Nacional de Metrología",
+      "La UGPP"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "Los ministerios dirigen el sector administrativo correspondiente y tienen a su cargo la formulación de políticas, planes y programas en su área.",
+    topic: "Organización del Estado - Ministerios"
+  },
+  {
+    id: 23,
+    question: "Situación: Se nombrará un nuevo director del DANE, que es un departamento administrativo. ¿Quién realiza la designación?",
+    options: [
+      "El Senado de la República",
+      "La Corte Constitucional",
+      "El Presidente de la República",
+      "Los alcaldes de capitales departamentales"
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation: "Los departamentos administrativos dependen directamente del Presidente, quien nombra a sus directores mediante decreto.",
+    topic: "Organización del Estado - Departamentos administrativos"
+  },
+  {
+    id: 24,
+    question: "Situación: Una entidad financiera incumple normas prudenciales. ¿Qué tipo de organismo aplica control y supervisión?",
+    options: [
+      "Un ministerio del sector",
+      "Una superintendencia",
+      "Una empresa industrial y comercial del Estado",
+      "Un establecimiento público"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "Las superintendencias ejercen inspección, vigilancia y control sobre actores de sectores económicos específicos para garantizar el cumplimiento regulatorio.",
+    topic: "Organización del Estado - Superintendencias"
+  },
+  {
+    id: 25,
+    question: "Situación: El Gobierno requiere una figura con autonomía administrativa para gestionar pensiones y parafiscales con agilidad. ¿Cuál encaja mejor?",
+    options: [
+      "Establecimiento público",
+      "Unidad Administrativa Especial (UAE)",
+      "Sociedad pública",
+      "Empresa industrial y comercial del Estado"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "Las unidades administrativas especiales cuentan con autonomía técnica y operativa para misiones estratégicas, como la gestión de aportes parafiscales.",
+    topic: "Organización del Estado - Unidades administrativas especiales"
+  },
+  {
+    id: 26,
+    question: "Situación: Se ejecutará un plan vial municipal. ¿Quién es la cabeza del Ejecutivo local que debe liderar la actuación?",
+    options: [
+      "El Gobernador",
+      "El Alcalde",
+      "El Ministro de Transporte",
+      "El Director de INVÍAS"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "En cada municipio, el alcalde es el jefe de la administración y dirige la ejecución del plan de desarrollo y las obras públicas locales.",
+    topic: "Gobierno territorial - Alcaldías"
+  },
+  {
+    id: 27,
+    question: "Situación: Un barrio quiere priorizar intervenciones de espacio público ante la Alcaldía. ¿Qué instancia lo representa ante la administración local?",
+    options: [
+      "El concejo departamental",
+      "Una asamblea ciudadana nacional",
+      "La Junta Administradora Local (JAL)",
+      "La Defensoría Regional"
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation: "Las Juntas Administradoras Locales, integradas por ediles, representan a las comunidades ante la alcaldía local y promueven la participación en la definición de inversiones.",
+    topic: "Participación territorial - JAL"
+  },
+  {
+    id: 28,
+    question: "Situación: Cinco municipios conurbados necesitan coordinar la planeación de transporte y vivienda. ¿Qué figura facilita esa articulación?",
+    options: [
+      "Provincia administrativa",
+      "Región geográfica",
+      "Área metropolitana",
+      "Distrito especial"
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation: "Las áreas metropolitanas articulan la planeación y la prestación de servicios entre municipios integrados alrededor de una ciudad núcleo.",
+    topic: "Organización regional - Áreas metropolitanas"
+  },
+  {
+    id: 29,
+    question: "Situación: Una ciudad con funciones capitales requiere mayor autonomía que un municipio ordinario. ¿Cuál categoría es la indicada?",
+    options: [
+      "Municipio certificado",
+      "Distrito especial",
+      "Departamento",
+      "Región Andina"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "Los distritos especiales cuentan con régimen político y fiscal reforzado para atender funciones estratégicas, como sucede con capitales departamentales y portuarias.",
+    topic: "Organización territorial - Distritos especiales"
+  },
+  {
+    id: 30,
+    question: "Situación: Una comunidad indígena define el uso de su territorio y recursos. ¿Qué reconoce el ordenamiento?",
+    options: [
+      "Su pertenencia al Ministerio del Interior",
+      "Un régimen idéntico al de los municipios",
+      "Territorios indígenas con reconocimiento legal y autonomía decisoria",
+      "Que debe convertirse en área metropolitana"
+    ],
+    correctAnswer: 2,
+    points: 5,
+    explanation: "La Constitución reconoce los territorios indígenas con autonomía para decidir sobre sus recursos y formas de gobierno, respetando sus culturas.",
+    topic: "Organización territorial - Territorios indígenas"
+  },
+  {
+    id: 31,
+    question: "Situación: Un municipio debe operar servicios hospitalarios públicos y fortalecer la atención primaria. ¿Qué figura estatal presta estos servicios?",
+    options: [
+      "Empresa industrial y comercial del Estado (EICE)",
+      "Empresa Social del Estado (ESE)",
+      "Sociedad de economía mixta",
+      "Superintendencia de Salud"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "Las Empresas Sociales del Estado integran la red pública hospitalaria y prestan servicios de salud bajo el sistema general de seguridad social.",
+    topic: "Sector salud - ESE"
+  },
+  {
+    id: 32,
+    question: "Situación: El Estado quiere participar en el sector energético con enfoque empresarial y generación de utilidades. ¿Qué figura corresponde?",
+    options: [
+      "Establecimiento público",
+      "Empresa Industrial y Comercial del Estado (EICE)",
+      "Empresa Social del Estado",
+      "Junta Administradora Local"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "Las EICE se constituyen para desarrollar actividades industriales o comerciales en competencia, con patrimonio propio y autonomía administrativa y financiera.",
+    topic: "Empresas estatales - EICE"
+  },
+  {
+    id: 33,
+    question: "Situación: Una empresa de acueducto requiere aprobación tarifaria y control de calidad. ¿Quién ejerce la regulación sectorial?",
+    options: [
+      "El Ministerio de Vivienda",
+      "Las comisiones de regulación (por ejemplo, CRA o CREG)",
+      "Una Empresa Social del Estado",
+      "El Departamento Nacional de Planeación"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "Las comisiones de regulación fijan reglas técnicas, tarifas y estándares de calidad para los servicios públicos domiciliarios y vigilan su cumplimiento.",
+    topic: "Servicios públicos - Regulación"
+  },
+  {
+    id: 34,
+    question: "Situación: El Estado mantiene control mayoritario de una empresa pero vincula capital privado para apalancar inversiones. ¿Qué figura jurídica es?",
+    options: [
+      "Sociedad pública",
+      "Sociedad de economía mixta",
+      "Establecimiento público",
+      "Unidad Administrativa Especial"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "En las sociedades de economía mixta el Estado conserva participación mayoritaria, pero admite accionistas privados para financiar proyectos estratégicos.",
+    topic: "Empresas estatales - Sociedades de economía mixta"
+  },
+  {
+    id: 35,
+    question: "Situación: Un ministerio quiere desarrollar tecnología para monitoreo costero con apoyo académico. ¿Qué tipo de entidad pública puede liderar el I+D?",
+    options: [
+      "Una superintendencia",
+      "Un instituto de investigación científica y tecnológica",
+      "Una Junta Administradora Local",
+      "Una empresa industrial y comercial del Estado"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "Los institutos de investigación científica y tecnológica son entidades estatales especializadas que coordinan proyectos de I+D y trabajan con la academia y la industria.",
+    topic: "Organización del Estado - Institutos científicos"
+  },
+  {
+    id: 36,
+    question: "Situación: Debe formularse un plan de ordenamiento territorial a escala departamental. ¿Quién lidera políticamente el proceso?",
+    options: [
+      "El Alcalde",
+      "El Gobernador",
+      "El Ministro de Ambiente",
+      "El Director de una unidad administrativa especial"
+    ],
+    correctAnswer: 1,
+    points: 5,
+    explanation: "En el nivel departamental, el gobernador es el jefe del Ejecutivo y coordina la planificación territorial conforme al plan de desarrollo y a las competencias del departamento.",
+    topic: "Gobierno territorial - Gobernaciones"
   }
 ]
 
@@ -662,6 +886,7 @@ export function NormatividadTest() {
         <AlertDescription>
           Esta prueba contiene {questions.length} preguntas sobre normatividad de las entidades territoriales y derecho administrativo.
           Total de puntos disponibles: {questions.reduce((sum, q) => sum + q.points, 0)} puntos.
+          Basada en el compendio de derecho administrativo y en “Organización del Estado: estructura y competencias”.
         </AlertDescription>
       </Alert>
 
@@ -669,7 +894,7 @@ export function NormatividadTest() {
         <CardHeader>
           <CardTitle className="text-lg">Selecciona la versión de la prueba</CardTitle>
           <CardDescription>
-            Cada versión incluye 20 preguntas diferentes basadas en el compendio de derecho administrativo.
+            La Versión 1 reúne {questionsV1.length} preguntas sobre organización del Estado y derecho administrativo; la Versión 2 conserva {questionsV2.length} preguntas centradas en acto y procedimiento administrativo.
           </CardDescription>
         </CardHeader>
         <CardContent>

@@ -958,6 +958,326 @@ export const behavioralSubjects: BehavioralSubject[] = [
         review:
           "Revisa el valor Compromiso en la práctica: implica esfuerzo adicional cuando la misión lo requiere.",
       },
+      {
+        id: "compromiso-organizacion-v2-33",
+        text: "Lectura: En la Presentación de Competencias Comportamentales se enfatiza el uso responsable de los recursos públicos. Un familiar te pide el portátil institucional “solo este fin de semana”. ¿Cómo procedes?",
+        options: [
+          { value: "a", label: "Lo presto si firma un vale" },
+          { value: "b", label: "Me niego y explico que los bienes públicos se usan exclusivamente para fines oficiales" },
+          { value: "c", label: "Lo presto siempre que nadie se entere" },
+          { value: "d", label: "Lo presto con una clave temporal" },
+        ],
+        correctOption: "b",
+        score: 5,
+        explanation:
+          "Los bienes públicos tienen destinación oficial; cederlos para fines personales facilita el uso indebido de recursos y vulnera la integridad.",
+        review:
+          "Repasa la Presentación de Competencias Comportamentales: el compromiso se evidencia cuidando y protegiendo los bienes del Estado.",
+      },
+      {
+        id: "compromiso-organizacion-v2-34",
+        text: "Lectura: En la Presentación de Competencias Comportamentales se indica que la transparencia económica evita conflictos de interés. Inicias actividades de consultoría en tu tiempo libre. ¿Qué corresponde?",
+        options: [
+          { value: "a", label: "No informar si no supera un salario mínimo" },
+          { value: "b", label: "Declarar todos los ingresos y actividades secundarias conforme a la ley" },
+          { value: "c", label: "Informarlo solo si un superior lo pide por escrito" },
+          { value: "d", label: "Reportarlo de forma anónima" },
+        ],
+        correctOption: "b",
+        score: 5,
+        explanation:
+          "La transparencia exige reportar ingresos y actividades adicionales para prevenir conflictos de interés y preservar la confianza ciudadana.",
+        review:
+          "Consulta la Presentación: la integridad financiera incluye revelar cualquier ingreso externo oportunamente.",
+      },
+      {
+        id: "compromiso-organizacion-v2-35",
+        text: "Lectura: Durante un concurso público participará un amigo cercano. ¿Qué determina la Presentación de Competencias Comportamentales frente al trato preferencial?",
+        options: [
+          { value: "a", label: "Garantizar imparcialidad y evitar preferencias" },
+          { value: "b", label: "Acelerar su trámite para equilibrar opciones" },
+          { value: "c", label: "Anticiparle requisitos internos para que se prepare mejor" },
+          { value: "d", label: "Darle prioridad porque confías en su perfil" },
+        ],
+        correctOption: "a",
+        score: 5,
+        explanation:
+          "El mérito y la igualdad de condiciones son principios rectores; cualquier ventaja indebida vulnera la confianza en el concurso.",
+        review:
+          "Revisa el apartado sobre imparcialidad: ningún vínculo personal justifica preferencias en trámites oficiales.",
+      },
+      {
+        id: "compromiso-organizacion-v2-36",
+        text: "Lectura: Un compañero usa apodos sobre rasgos físicos “en broma”. Según la Presentación de Competencias Comportamentales, ¿qué debes hacer?",
+        options: [
+          { value: "a", label: "Ignorarlo porque no es grave" },
+          { value: "b", label: "Reír para evitar tensiones" },
+          { value: "c", label: "Detener la conducta y activar la ruta institucional para corregirla" },
+          { value: "d", label: "Hablar solo con la persona afectada" },
+        ],
+        correctOption: "c",
+        score: 5,
+        explanation:
+          "Los apodos sobre rasgos físicos constituyen trato discriminatorio; detenerlos y usar los canales de convivencia protege la dignidad.",
+        review:
+          "Consulta la Presentación: rechaza cualquier conducta que pueda derivar en acoso y promueve entornos respetuosos.",
+      },
+      {
+        id: "compromiso-organizacion-v2-37",
+        text: "Lectura: El equipo aplica “ley del hielo” a un compañero por desacuerdos. ¿Qué plantea la Presentación de Competencias Comportamentales?",
+        options: [
+          { value: "a", label: "Sumarse para no quedar mal" },
+          { value: "b", label: "Justificarlo como parte del clima laboral" },
+          { value: "c", label: "Promover la inclusión y gestionar el conflicto mediante canales formales" },
+          { value: "d", label: "Solicitar traslado para evitar el problema" },
+        ],
+        correctOption: "c",
+        score: 5,
+        explanation:
+          "La exclusión deliberada es hostil y afecta el ambiente de trabajo; el deber ético es intervenir, mediar y usar los mecanismos institucionales.",
+        review:
+          "Revisa la Presentación: la competencia Trabajo en Equipo demanda inclusión activa y gestión del conflicto.",
+      },
+      {
+        id: "compromiso-organizacion-v2-38",
+        text: "Lectura: Un contratista presiona para flexibilizar un control clave. ¿Qué conducta protege el interés público?",
+        options: [
+          { value: "a", label: "Ceder por la urgencia del proyecto" },
+          { value: "b", label: "Mantener el estándar, informar y escalar si es necesario" },
+          { value: "c", label: "Postergar la decisión sin explicar" },
+          { value: "d", label: "Negociar un punto medio sin soporte" },
+        ],
+        correctOption: "b",
+        score: 5,
+        explanation:
+          "Renunciar a un control por presión compromete la transparencia; mantener el estándar y reportar asegura la protección del interés general.",
+        review:
+          "Consulta la Presentación: la defensa del interés público implica sostener controles y reportar presiones indebidas.",
+      },
+      {
+        id: "compromiso-organizacion-v2-39",
+        text: "Lectura: Tu área compite con otra y te solicitan datos críticos. ¿Qué indica la Presentación de Competencias Comportamentales?",
+        options: [
+          { value: "a", label: "Compartir información veraz y oportuna para cumplir la misión institucional" },
+          { value: "b", label: "Retrasar el envío para tener ventaja" },
+          { value: "c", label: "Remitir datos incompletos" },
+          { value: "d", label: "Negar la existencia de la información" },
+        ],
+        correctOption: "a",
+        score: 5,
+        explanation:
+          "Ocultar información entorpece los objetivos comunes; la colaboración interáreas es parte del compromiso con la entidad.",
+        review:
+          "Revisa la Presentación: el valor Compromiso incluye compartir información útil para el logro institucional.",
+      },
+      {
+        id: "compromiso-organizacion-v2-40",
+        text: "Lectura: El plazo de un proyecto está cerca, pero para cumplirlo deberías omitir una verificación esencial. ¿Qué resalta la Presentación?",
+        options: [
+          { value: "a", label: "Reprogramar con justificación y asegurar la calidad mínima exigida" },
+          { value: "b", label: "Entregar a tiempo sin validar" },
+          { value: "c", label: "Entregar incompleto y corregir después" },
+          { value: "d", label: "Culpar a otras áreas por el retraso" },
+        ],
+        correctOption: "a",
+        score: 5,
+        explanation:
+          "La responsabilidad con el ciudadano exige mantener la calidad; ajustar la planificación es preferible a sacrificar controles críticos.",
+        review:
+          "Consulta la Presentación: la orientación a resultados incluye calidad y rigor, no solo cumplimiento de fechas.",
+      },
+      {
+        id: "compromiso-organizacion-v2-41",
+        text: "Lectura: Saltarse un protocolo “menor” aceleraría la entrega a un ciudadano. ¿Qué recomienda la Presentación?",
+        options: [
+          { value: "a", label: "Cumplir el procedimiento y, si es ineficiente, gestionar su mejora formalmente" },
+          { value: "b", label: "Ignorarlo una vez por agilidad" },
+          { value: "c", label: "Pedir permiso informal para omitirlo" },
+          { value: "d", label: "Delegar el salto del protocolo en otra persona" },
+        ],
+        correctOption: "a",
+        score: 5,
+        explanation:
+          "La ética procedimental exige respetar los protocolos vigentes mientras se tramitan mejoras; saltarlos arbitrariamente abre la puerta a la corrupción.",
+        review:
+          "Revisa la Presentación: cumplir el procedimiento garantiza trazabilidad y confianza ciudadana.",
+      },
+      {
+        id: "compromiso-organizacion-v2-42",
+        text: "Lectura: Un usuario molesto eleva la voz. ¿Qué respuesta evidencia empatía y orientación al ciudadano según la Presentación?",
+        options: [
+          { value: "a", label: "Escuchar con calma, validar su emoción y reconducir con información clara" },
+          { value: "b", label: "Ignorar su enojo para mantener la objetividad" },
+          { value: "c", label: "Terminar la atención" },
+          { value: "d", label: "Recordarle que el problema no es tuyo" },
+        ],
+        correctOption: "a",
+        score: 5,
+        explanation:
+          "La inteligencia emocional es parte de la orientación al usuario: escuchar, validar y guiar resuelve la situación y protege la dignidad.",
+        review:
+          "Consulta la Presentación: la ciudadanía valora servidores que escuchan y reconducen con respeto.",
+      },
+      {
+        id: "compromiso-organizacion-v2-43",
+        text: "Lectura: Ya respondiste formalmente una PQRSD. ¿La labor terminó?",
+        options: [
+          { value: "a", label: "Sí, lo demás corresponde al usuario" },
+          { value: "b", label: "Sí, salvo que se queje de nuevo" },
+          { value: "c", label: "Debes hacer seguimiento para asegurar una solución efectiva" },
+          { value: "d", label: "Debes cerrar el caso por tiempos" },
+        ],
+        correctOption: "c",
+        score: 5,
+        explanation:
+          "El seguimiento confirma que la respuesta resolvió el problema; es parte del compromiso con la satisfacción ciudadana.",
+        review:
+          "Revisa la Presentación: la orientación al ciudadano incluye verificar el resultado, no solo emitir respuestas.",
+      },
+      {
+        id: "compromiso-organizacion-v2-44",
+        text: "Lectura: Cumplir normas “solo por miedo a la sanción” es suficiente?",
+        options: [
+          { value: "a", label: "Sí, evita problemas" },
+          { value: "b", label: "Es útil bajo presión" },
+          { value: "c", label: "No, el cumplimiento debe obedecer a convicción ética y valores institucionales" },
+          { value: "d", label: "Depende del estilo del jefe" },
+        ],
+        correctOption: "c",
+        score: 5,
+        explanation:
+          "Actuar solo por miedo genera conductas formales pero no sostenibles; la integridad se basa en convicción.",
+        review:
+          "Consulta la Presentación: promueve el compromiso por convicción, no por temor.",
+      },
+      {
+        id: "compromiso-organizacion-v2-45",
+        text: "Lectura: Un error del equipo afecta un entregable clave. ¿Qué actitud evidencia corresponsabilidad?",
+        options: [
+          { value: "a", label: "Desligarse porque no fue tu acción" },
+          { value: "b", label: "Señalar al responsable en público" },
+          { value: "c", label: "Asumir corresponsabilidad y colaborar en la corrección" },
+          { value: "d", label: "Pedir sanción inmediata" },
+        ],
+        correctOption: "c",
+        score: 5,
+        explanation:
+          "Los logros y errores del equipo comprometen a todos; asumirlos y corregir colectivamente fortalece la confianza.",
+        review:
+          "Revisa la Presentación: el sentido de pertenencia implica corresponsabilidad ante los resultados.",
+      },
+      {
+        id: "compromiso-organizacion-v2-46",
+        text: "Lectura: Dos compañeros discuten y el conflicto afecta el trabajo. ¿Qué señala la Presentación?",
+        options: [
+          { value: "a", label: "Buscar mediación o apoyo institucional para resolver y proteger la tarea" },
+          { value: "b", label: "Apartarse para no verse involucrado" },
+          { value: "c", label: "Tomar partido" },
+          { value: "d", label: "Ignorarlo porque no es tu rol" },
+        ],
+        correctOption: "a",
+        score: 5,
+        explanation:
+          "El trabajo colaborativo exige intervenir de forma constructiva, activar mediaciones y cuidar el clima laboral.",
+        review:
+          "Consulta la Presentación: la competencia Trabajo en Equipo implica gestionar conflictos oportunamente.",
+      },
+      {
+        id: "compromiso-organizacion-v2-47",
+        text: "Lectura: Se afirma que la diversidad de opiniones “ralentiza” la gestión. ¿Qué responde la Presentación?",
+        options: [
+          { value: "a", label: "Es cierto, mejor pensar igual" },
+          { value: "b", label: "Depende del líder" },
+          { value: "c", label: "Es falso: bien gestionada, la diversidad enriquece las decisiones" },
+          { value: "d", label: "Solo aplica a proyectos creativos" },
+        ],
+        correctOption: "c",
+        score: 5,
+        explanation:
+          "La diversidad aporta perspectivas que elevan la calidad de las soluciones si se gestiona con respeto y apertura.",
+        review:
+          "Revisa la Presentación: valorar la diversidad es un pilar del trabajo colaborativo.",
+      },
+      {
+        id: "compromiso-organizacion-v2-48",
+        text: "Lectura: Rechazar directrices nuevas hasta recibir “orden explícita” aparenta prudencia. ¿Qué indica la Presentación?",
+        options: [
+          { value: "a", label: "Es correcto para evitar errores" },
+          { value: "b", label: "Es inadecuado: se deben canalizar las dudas sin obstruir la implementación" },
+          { value: "c", label: "Solo aplica cuando hay auditoría" },
+          { value: "d", label: "Es válido si todos lo hacen" },
+        ],
+        correctOption: "b",
+        score: 5,
+        explanation:
+          "La adaptación al cambio implica plantear inquietudes de forma constructiva sin bloquear las decisiones institucionales.",
+        review:
+          "Consulta la Presentación: la flexibilidad activa es parte del compromiso con la organización.",
+      },
+      {
+        id: "compromiso-organizacion-v2-49",
+        text: "Lectura: Te solicitan un informe técnico. ¿Qué exige el aporte técnico-profesional?",
+        options: [
+          { value: "a", label: "Entregar datos acompañados de análisis, contexto y recomendaciones" },
+          { value: "b", label: "Enviar únicamente los datos" },
+          { value: "c", label: "Esperar a que otro analice" },
+          { value: "d", label: "Remitir un enlace al repositorio" },
+        ],
+        correctOption: "a",
+        score: 5,
+        explanation:
+          "El aporte técnico no se limita a entregar datos; exige interpretar, contextualizar y proponer acciones.",
+        review:
+          "Revisa la Presentación: el criterio técnico agrega valor cuando ofrece análisis y juicio experto.",
+      },
+      {
+        id: "compromiso-organizacion-v2-50",
+        text: "Lectura: Detectas inviabilidad técnica durante la ejecución. ¿Qué señala la Presentación sobre instrumentar decisiones?",
+        options: [
+          { value: "a", label: "Continuar y reportar después" },
+          { value: "b", label: "Detener definitivamente el proyecto" },
+          { value: "c", label: "Reportar de inmediato, proponer alternativas y ajustar el plan" },
+          { value: "d", label: "Trasladar el problema al proveedor" },
+        ],
+        correctOption: "c",
+        score: 5,
+        explanation:
+          "Informar oportunamente, sugerir alternativas y ajustar permite evitar sobrecostos y asegurar la calidad del resultado.",
+        review:
+          "Consulta la Presentación: la instrumentación de decisiones se basa en evidencia y en ajustes oportunos.",
+      },
+      {
+        id: "compromiso-organizacion-v2-51",
+        text: "Lectura: Auditoría solicita la trazabilidad de un expediente. ¿Qué conducta respalda la Presentación?",
+        options: [
+          { value: "a", label: "Buscar correos sueltos y entregarlos como evidencia" },
+          { value: "b", label: "Mantener registros organizados y actualizados para entregar la trazabilidad completa" },
+          { value: "c", label: "Pedir más tiempo sin realizar búsquedas" },
+          { value: "d", label: "Argumentar que no es obligatorio" },
+        ],
+        correctOption: "b",
+        score: 5,
+        explanation:
+          "La gestión de procedimientos exige orden documental permanente para responder con evidencias claras cuando se requiera.",
+        review:
+          "Revisa la Presentación: la trazabilidad y documentación son pilares del control institucional.",
+      },
+      {
+        id: "compromiso-organizacion-v2-52",
+        text: "Lectura: Se cae el sistema del trámite y los usuarios esperan atención. ¿Cuál es la ruta de contingencia adecuada?",
+        options: [
+          { value: "a", label: "Esperar a que vuelva el sistema" },
+          { value: "b", label: "Avisar que no se puede y cerrar el proceso" },
+          { value: "c", label: "Activar el protocolo alterno o escalar al responsable designado" },
+          { value: "d", label: "Cerrar el punto de atención temporalmente" },
+        ],
+        correctOption: "c",
+        score: 5,
+        explanation:
+          "Las competencias de servicio incluyen resiliencia operativa: activar la contingencia o escalar garantiza continuidad y confianza ciudadana.",
+        review:
+          "Consulta la Presentación: toda persona servidora debe conocer los protocolos alternos para asegurar la prestación continua.",
+      },
     ],
   },
   {

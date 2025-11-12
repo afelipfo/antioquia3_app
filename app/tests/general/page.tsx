@@ -35,6 +35,12 @@ const subjects = [
     description: "Capacidad de análisis lógico, comprensión lectora y construcción de textos",
     questionsCount: 253,
   },
+  {
+    id: "razonamiento-logico",
+    title: "Razonamiento Lógico Aplicado",
+    description: "Deducción, inducción y lógica proposicional en casos reales",
+    questionsCount: 24,
+  },
 ]
 
 export default function GeneralTestPage() {

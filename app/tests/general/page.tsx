@@ -36,6 +36,12 @@ const subjects = [
     questionsCount: 253,
   },
   {
+    id: "participacion-ciudadana",
+    title: "Participación Ciudadana 2025",
+    description: "Mecanismos, fundamentos y casos de control social",
+    questionsCount: 28,
+  },
+  {
     id: "razonamiento-logico",
     title: "Razonamiento Lógico Aplicado",
     description: "Deducción, inducción y lógica proposicional en casos reales",

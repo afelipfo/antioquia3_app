@@ -19,6 +19,7 @@ import { PlanesMejoramientoTest } from "@/components/planes-mejoramiento-test"
 import { BloqueConstitucionalidadTest } from "@/components/bloque-constitucionalidad-test"
 import { GestionPresupuestalTest } from "@/components/gestion-presupuestal-test"
 import { RazonamientoLogicoTest } from "@/components/razonamiento-logico-test"
+import { ParticipacionCiudadanaTest } from "@/components/participacion-ciudadana-test"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Alert, AlertDescription } from "@/components/ui/alert"
@@ -247,6 +248,31 @@ export default async function TestPage({ params }: TestPageProps) {
           </div>
 
           <RazonamientoLogicoTest />
+        </main>
+      </div>
+    )
+  }
+
+  if (type === "general" && subject === "participacion-ciudadana") {
+    return (
+      <div className="min-h-screen bg-background">
+        <DashboardHeader />
+        <main className="container mx-auto max-w-4xl px-4 py-8">
+          <Button asChild variant="ghost" size="sm" className="mb-6 gap-2">
+            <Link href={`/tests/${type}`}>
+              <ArrowLeft className="h-4 w-4" />
+              Volver a la categoría
+            </Link>
+          </Button>
+
+          <div className="mb-8">
+            <h1 className="text-3xl font-bold text-balance md:text-4xl">Mecanismos de Participación Ciudadana</h1>
+            <p className="text-muted-foreground text-balance">
+              Fundamentos constitucionales, leyes y procedimientos para iniciativa, consulta, referendo, plebiscito, cabildo y revocatoria
+            </p>
+          </div>
+
+          <ParticipacionCiudadanaTest />
         </main>
       </div>
     )

@@ -18,6 +18,12 @@ const subjects = [
     questionsCount: 20,
   },
   {
+    id: "bloque-constitucionalidad",
+    title: "Bloque de Constitucionalidad",
+    description: "Interpretación, fuentes y efectos del bloque de constitucionalidad en Colombia",
+    questionsCount: 24,
+  },
+  {
     id: "mipg",
     title: "Modelo Integrado de Planeación y Gestión",
     description: "Dimensiones, políticas y medición del MIPG en la gestión pública colombiana",

@@ -24,10 +24,22 @@ const subjects = [
     questionsCount: 25,
   },
   {
+    id: "formulacion-mga",
+    title: "Formulación con la MGA",
+    description: "Casos situacionales del facilitador Nicolás Vargas",
+    questionsCount: 30,
+  },
+  {
     id: "gestion-proyectos",
     title: "Gestión de Proyectos",
     description: "Administración y seguimiento de proyectos",
     questionsCount: 25,
+  },
+  {
+    id: "gestion-presupuestal",
+    title: "Gestión Presupuestal y Tesorería",
+    description: "Ciclo de ingresos, certificaciones y ejecución del gasto",
+    questionsCount: 40,
   },
   {
     id: "infraestructura",

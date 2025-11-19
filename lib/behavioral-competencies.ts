@@ -145,7 +145,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "adaptacion-cambio-v2-6",
-        text: "Al documentar la competencia de Adaptación al Cambio, el Decreto 815 exige incluir:",
+        text: "Situacion\n\nEn la Direccion de Talento Humano de la Gobernacion de Antioquia, el equipo debe actualizar los manuales de funciones y competencias comportamentales. Al revisar el Decreto 815 de 2018, necesitan identificar los criterios especificos que deben incluirse en la documentacion de cada competencia.\n\nPregunta\n\nCon base en la situacion descrita, al documentar la competencia de Adaptacion al Cambio, el Decreto 815 exige incluir:",
         options: [
           { value: "a", label: "Solo la descripción general de la conducta sin detallar responsabilidades." },
           { value: "b", label: "Responsabilidad sobre personal, habilidades y aptitudes, responsabilidad decisoria, iniciativa e innovación y valor estratégico de la responsabilidad." },
@@ -155,7 +155,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El artículo 2.2.4.6 establece cinco criterios para describir una competencia comportamental: responsabilidades sobre personal, habilidades y aptitudes, responsabilidad decisoria, iniciativa e innovación y valor estratégico.",
+          "En la situacion descrita, el artículo 2.2.4.6 establece cinco criterios para describir una competencia comportamental: responsabilidades sobre personal, habilidades y aptitudes, responsabilidad decisoria, iniciativa e innovación y valor estratégico.",
         review:
           "Consulta el artículo 2.2.4.6 del Decreto 815: los cinco criterios garantizan descripciones completas y comparables de las competencias comportamentales.",
       },
@@ -267,7 +267,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "aporte-tecnico-v2-7",
-        text: "Una competencia del nivel Profesional es:",
+        text: "Situacion\n\nDurante una capacitacion sobre competencias comportamentales en la Gobernacion de Antioquia, se presentan las competencias especificas de cada nivel jerarquico. Un funcionario del nivel profesional pregunta cuales son las competencias propias de su nivel segun el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, una competencia del nivel Profesional es:",
         options: [
           { value: "a", label: "Instrumentación de decisiones" },
           { value: "b", label: "Registro de correspondencia" },
@@ -277,7 +277,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "Entre las competencias profesionales se encuentran aporte técnico-profesional, comunicación efectiva, instrumentación de decisiones y gestión de procedimientos.",
+          "En la situacion descrita, entre las competencias profesionales se encuentran aporte técnico-profesional, comunicación efectiva, instrumentación de decisiones y gestión de procedimientos.",
         review:
           "Repasa las competencias del nivel Profesional: aporte técnico, comunicación, instrumentación de decisiones y gestión de procedimientos.",
       },
@@ -389,7 +389,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "aprendizaje-continuo-v2-7",
-        text: "Invertir tiempo extra en capacitarse para servir mejor a la ciudadanía es un ejemplo de:",
+        text: "Situacion\n\nUn funcionario de la Secretaria de Educacion de Antioquia dedica varias horas semanales fuera de su horario laboral a tomar cursos en linea sobre nuevas metodologias pedagogicas y herramientas digitales educativas, con el objetivo de mejorar la calidad del servicio que brinda a las instituciones educativas del departamento.\n\nPregunta\n\nCon base en la situacion descrita, invertir tiempo extra en capacitarse para servir mejor a la ciudadania es un ejemplo de:",
         options: [
           { value: "a", label: "Falta de priorización" },
           { value: "b", label: "Aprendizaje continuo y compromiso con la excelencia" },
@@ -399,7 +399,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "La autoformación constante fortalece el valor Aprendizaje continuo y la vocación de servicio.",
+          "En la situacion descrita, la autoformación constante fortalece el valor Aprendizaje continuo y la vocación de servicio.",
         review:
           "Revisa Aprendizaje Continuo en la práctica: la autoformación constante es ejemplo de compromiso con la excelencia.",
       },
@@ -944,7 +944,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-32",
-        text: "Renunciar a un proyecto prioritario porque requiere esfuerzo adicional no remunerado revela:",
+        text: "Situacion\n\nEn la Secretaria de Infraestructura de Antioquia se presenta un proyecto critico para mejorar la conectividad vial de varias comunidades rurales. El proyecto requiere esfuerzo adicional fuera del horario habitual para cumplir con los plazos establecidos. Un ingeniero decide renunciar al proyecto argumentando que no recibira compensacion economica extra.\n\nPregunta\n\nCon base en la situacion descrita, renunciar a un proyecto prioritario porque requiere esfuerzo adicional no remunerado revela:",
         options: [
           { value: "a", label: "Vocación de servicio" },
           { value: "b", label: "Un compromiso condicionado y falta de perseverancia" },
@@ -954,7 +954,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "El compromiso con la organización implica asumir esfuerzos adicionales cuando es necesario para cumplir la misión.",
+          "En la situacion descrita, el compromiso con la organización implica asumir esfuerzos adicionales cuando es necesario para cumplir la misión.",
         review:
           "Revisa el valor Compromiso en la práctica: implica esfuerzo adicional cuando la misión lo requiere.",
       },
@@ -1338,7 +1338,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "comunicacion-efectiva-v2-4",
-        text: "La empatía en la comunicación con ciudadanos se manifiesta cuando:",
+        text: "Situacion\n\nEn el punto de atencion al ciudadano de la Gobernacion de Antioquia, una funcionaria atiende a un adulto mayor visiblemente preocupado que tiene dificultades para entender el tramite que debe realizar. El ciudadano expresa frustracion porque ha visitado varias entidades sin obtener respuestas claras.\n\nPregunta\n\nCon base en la situacion descrita, la empatia en la comunicacion con ciudadanos se manifiesta cuando:",
         options: [
           { value: "a", label: "Se aplican procedimientos estándar sin considerar circunstancias particulares del caso." },
           { value: "b", label: "Se reconocen y consideran las emociones y perspectivas del ciudadano al interactuar." },
@@ -1348,7 +1348,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "La empatía comunicativa implica reconocer y considerar las emociones, perspectivas y necesidades del ciudadano durante la interacción.",
+          "En la situacion descrita, la empatía comunicativa implica reconocer y considerar las emociones, perspectivas y necesidades del ciudadano durante la interacción.",
         review:
           "Revisa el componente empático: reconocer perspectivas y emociones del ciudadano es fundamental en la comunicación efectiva.",
       },
@@ -1812,7 +1812,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-29",
-        text: "Usar información confidencial de un proceso de contratación para beneficiar a un proveedor conocido es:",
+        text: "Situacion\n\nUn funcionario de la Secretaria de Contratacion de la Gobernacion de Antioquia tiene acceso anticipado a los pliegos de condiciones de una licitacion. Un proveedor que es su conocido le pide informacion sobre los criterios de evaluacion antes de que sean publicados oficialmente. El funcionario debe decidir como actuar.\n\nPregunta\n\nCon base en la situacion descrita, usar informacion confidencial de un proceso de contratacion para beneficiar a un proveedor conocido es:",
         options: [
           { value: "a", label: "Aceptable si mejora la eficiencia del proceso" },
           { value: "b", label: "Una violación grave de Honestidad, Justicia y Compromiso, además de constituir posible corrupción" },
@@ -1822,7 +1822,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 5,
         explanation:
-          "Usar información privilegiada para beneficiar terceros vulnera múltiples valores del código y puede constituir delito.",
+          "En la situacion descrita, usar información privilegiada para beneficiar terceros vulnera múltiples valores del código y puede constituir delito.",
         review:
           "Consulta las prohibiciones del Código de Integridad: usar información privilegiada es violación grave de múltiples valores.",
       },
@@ -1918,7 +1918,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "instrumentacion-decisiones-v2-6",
-        text: "Para definir el contenido funcional de un empleo, el Decreto 815 exige describir:",
+        text: "Situacion\n\nLa Direccion de Talento Humano de la Gobernacion de Antioquia esta actualizando los manuales especificos de funciones y competencias laborales. El equipo debe asegurarse de que cada descripcion de cargo cumpla con los requisitos establecidos en el Decreto 815 de 2018.\n\nPregunta\n\nCon base en la situacion descrita, para definir el contenido funcional de un empleo, el Decreto 815 exige describir:",
         options: [
           { value: "a", label: "La trayectoria laboral previa del servidor y los resultados obtenidos." },
           { value: "b", label: "El propósito principal del empleo, las funciones esenciales y las contribuciones esperadas." },
@@ -1928,7 +1928,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "b",
         score: 10,
         explanation:
-          "El artículo 2.2.4.4 establece que el contenido funcional debe describir el propósito principal, las funciones esenciales y las contribuciones esperadas del empleo.",
+          "En la situacion descrita, el artículo 2.2.4.4 establece que el contenido funcional debe describir el propósito principal, las funciones esenciales y las contribuciones esperadas del empleo.",
         review:
           "Consulta el artículo 2.2.4.4: el contenido funcional alinea propósito, funciones y contribuciones del cargo con la estrategia institucional.",
       },
@@ -2024,7 +2024,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-resultado-v2-6",
-        text: "Orientación a resultados conlleva:",
+        text: "Situacion\n\nUn coordinador de proyectos de la Secretaria de Desarrollo Social de la Gobernacion de Antioquia debe presentar el plan operativo anual de su equipo. El director le solicita que incluya mecanismos para garantizar el cumplimiento de las metas establecidas y la rendicion de cuentas sobre los resultados obtenidos.\n\nPregunta\n\nCon base en la situacion descrita, orientacion a resultados conlleva:",
         options: [
           { value: "a", label: "Fijar objetivos claros, diseñar indicadores, minimizar riesgos y asumir responsabilidad por los resultados" },
           { value: "b", label: "Trabajar sin métricas" },
@@ -2034,7 +2034,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "Esta competencia busca el cumplimiento de objetivos con indicadores, gestión de riesgos y responsabilidad individual.",
+          "En la situacion descrita, esta competencia busca el cumplimiento de objetivos con indicadores, gestión de riesgos y responsabilidad individual.",
         review:
           "Consulta Orientación a Resultados: fijar objetivos, indicadores, gestión de riesgos y responsabilidad por resultados.",
       },
@@ -2210,7 +2210,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-usuario-v2-11",
-        text: "Orientación al usuario y al ciudadano implica:",
+        text: "Situacion\n\nLa Secretaria de Participacion Ciudadana de la Gobernacion de Antioquia esta disenando un nuevo modelo de atencion al ciudadano. El equipo debe definir los principios que guiaran todas las decisiones y acciones del area para garantizar un servicio de calidad centrado en las necesidades de la poblacion.\n\nPregunta\n\nCon base en la situacion descrita, orientacion al usuario y al ciudadano implica:",
         options: [
           { value: "a", label: "Centrar las decisiones en la satisfacción de usuarios y ciudadanía, valorar sus necesidades y establecer mecanismos para conocerlas" },
           { value: "b", label: "Evitar la interacción con el ciudadano" },
@@ -2220,7 +2220,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "La competencia orienta decisiones y acciones hacia la satisfacción y no discriminación de usuarios y ciudadanos.",
+          "En la situacion descrita, la competencia orienta decisiones y acciones hacia la satisfacción y no discriminación de usuarios y ciudadanos.",
         review:
           "Consulta la competencia Orientación al Usuario: centrar decisiones en satisfacción ciudadana y establecer mecanismos para conocer sus necesidades.",
       },
@@ -2348,7 +2348,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "trabajo-equipo-v2-8",
-        text: "Trabajo en equipo, según la presentación, incluye:",
+        text: "Situacion\n\nEn un proyecto interinstitucional de la Gobernacion de Antioquia participan funcionarios de diferentes secretarias con formaciones y experiencias diversas. El coordinador del proyecto debe establecer las dinamicas de trabajo que permitan aprovechar las fortalezas de cada miembro y alcanzar los objetivos comunes.\n\nPregunta\n\nCon base en la situacion descrita, trabajo en equipo, segun la presentacion, incluye:",
         options: [
           { value: "a", label: "Colaborar con compañeros, respetar criterios diversos y contribuir a un clima laboral armónico" },
           { value: "b", label: "Competir con el equipo" },
@@ -2358,7 +2358,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
         correctOption: "a",
         score: 5,
         explanation:
-          "La competencia enfatiza la colaboración, el respeto por la diversidad y el apoyo mutuo.",
+          "En la situacion descrita, la competencia enfatiza la colaboración, el respeto por la diversidad y el apoyo mutuo.",
         review:
           "Consulta la competencia Trabajo en Equipo: colaboración, respeto por diversidad y clima armónico son elementos clave.",
       },

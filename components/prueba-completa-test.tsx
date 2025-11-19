@@ -160,6 +160,14 @@ export function PruebaCompletaTest() {
     const score = calculateScore()
     return (
       <div className="container mx-auto max-w-4xl px-4 py-8">
+        <div className="mb-4">
+          <Link href="/dashboard">
+            <Button variant="ghost">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Volver al Dashboard
+            </Button>
+          </Link>
+        </div>
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
@@ -274,6 +282,14 @@ export function PruebaCompletaTest() {
 
   return (
     <div className="container mx-auto max-w-4xl px-4 py-8">
+      <div className="mb-4">
+        <Link href="/dashboard">
+          <Button variant="ghost">
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Volver al Dashboard
+          </Button>
+        </Link>
+      </div>
       <Card>
         <CardHeader>
           <div className="flex items-center justify-between">

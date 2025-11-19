@@ -24,49 +24,49 @@ interface Question {
 const questionsV1: Question[] = [
   {
     id: 1,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. ¿Cuál es el propósito central del Modelo Integrado de Planeación y Gestión (MIPG)?",
+    question: "Situacion\n\nLa Gobernacion de Antioquia esta revisando su marco de gestion institucional para mejorar el cumplimiento de metas y la respuesta al ciudadano. El equipo directivo necesita clarificar cual es la finalidad principal del modelo que deben implementar.\n\nPregunta\n\nSegun la situacion descrita, ¿cual es el proposito central del Modelo Integrado de Planeacion y Gestion (MIPG)?",
     options: [
-      "Unificar únicamente los manuales de funciones de las entidades públicas",
-      "Dirigir, planear, ejecutar, hacer seguimiento, evaluar y controlar la gestión pública para obtener resultados alineados con los planes de desarrollo y resolver necesidades ciudadanas con integridad y calidad",
+      "Unificar unicamente los manuales de funciones de las entidades publicas",
+      "Dirigir, planear, ejecutar, hacer seguimiento, evaluar y controlar la gestion publica para obtener resultados alineados con los planes de desarrollo y resolver necesidades ciudadanas con integridad y calidad",
       "Sustituir los sistemas de control fiscal y disciplinario existentes",
-      "Establecer un manual único de trámites para todas las entidades"
+      "Establecer un manual unico de tramites para todas las entidades"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El MIPG actúa como marco de referencia para todo el ciclo de gestión pública con el fin de generar resultados alineados con los planes de desarrollo y responder a las necesidades ciudadanas con integridad y calidad.",
-    topic: "Propósito del MIPG"
+    explanation: "En la situacion descrita, la Gobernacion debe entender que el MIPG actua como marco de referencia para todo el ciclo de gestion publica con el fin de generar resultados alineados con los planes de desarrollo y responder a las necesidades ciudadanas con integridad y calidad.",
+    topic: "Proposito del MIPG"
   },
   {
     id: 2,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. ¿Qué establece la Ley 489 de 1998 en relación con el MIPG?",
+    question: "Situacion\n\nEl asesor juridico de una alcaldia municipal esta preparando un informe sobre el marco legal que sustenta el MIPG. Necesita identificar que establece la normatividad base del modelo para presentarlo al Concejo Municipal.\n\nPregunta\n\nCon base en la situacion descrita, ¿que establece la Ley 489 de 1998 en relacion con el MIPG?",
     options: [
-      "Obliga a las entidades territoriales a adoptar el Modelo Estándar de Control Interno (MECI)",
-      "Articula el Sistema de Desarrollo Administrativo como conjunto de políticas, estrategias y mecanismos para fortalecer la capacidad administrativa y el desempeño institucional",
-      "Crea el Sistema de Gestión de la Calidad en el Estado",
-      "Define los indicadores del Índice de Desempeño Institucional"
+      "Obliga a las entidades territoriales a adoptar el Modelo Estandar de Control Interno (MECI)",
+      "Articula el Sistema de Desarrollo Administrativo como conjunto de politicas, estrategias y mecanismos para fortalecer la capacidad administrativa y el desempeno institucional",
+      "Crea el Sistema de Gestion de la Calidad en el Estado",
+      "Define los indicadores del Indice de Desempeno Institucional"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la Ley 489 de 1998 articuló el Sistema de Desarrollo Administrativo, base del MIPG al fortalecer la gestión y desempeño institucional.",
+    explanation: "En la situacion descrita, el asesor juridico debe explicar al Concejo que la Ley 489 de 1998 articulo el Sistema de Desarrollo Administrativo, que constituye la base del MIPG al fortalecer la gestion y desempeno institucional.",
     topic: "Marco legal del MIPG"
   },
   {
     id: 3,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El artículo 133 de la Ley 1753 de 2015 ordenó:",
+    question: "Situacion\n\nUna entidad del orden nacional esta actualizando su marco normativo interno y necesita comprender como evoluciono la integracion de sistemas de gestion. El equipo de planeacion debe identificar que ordeno la Ley del Plan Nacional de Desarrollo 2014-2018.\n\nPregunta\n\nSegun la situacion planteada, ¿que ordeno el articulo 133 de la Ley 1753 de 2015?",
     options: [
       "Crear un sistema independiente para el control disciplinario de los servidores",
-      "Integrar en un único Sistema de Gestión los Sistemas de Gestión de la Calidad y de Desarrollo Administrativo",
-      "Eliminar el Sistema de Gestión de la Calidad de las entidades públicas",
-      "Trasladar la planeación institucional al Departamento Nacional de Planeación"
+      "Integrar en un unico Sistema de Gestion los Sistemas de Gestion de la Calidad y de Desarrollo Administrativo",
+      "Eliminar el Sistema de Gestion de la Calidad de las entidades publicas",
+      "Trasladar la planeacion institucional al Departamento Nacional de Planeacion"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la Ley 1753 de 2015 mandató integrar los sistemas de Gestión de la Calidad y de Desarrollo Administrativo, antecedente directo del MIPG.",
+    explanation: "En la situacion descrita, el equipo de planeacion debe conocer que la Ley 1753 de 2015 mandato integrar los sistemas de Gestion de la Calidad y de Desarrollo Administrativo, siendo este el antecedente directo del MIPG.",
     topic: "Marco legal del MIPG"
   },
   {
     id: 4,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. ¿Cuál decreto formalizó el MIPG como modelo único de gestión pública?",
+    question: "Situacion\n\nEl jefe de control interno de una entidad descentralizada esta capacitando a los nuevos funcionarios sobre la reglamentacion del MIPG. Debe explicarles cual decreto formalizo el modelo como marco unico de gestion publica.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿cual decreto formalizo el MIPG como modelo unico de gestion publica?",
     options: [
       "Decreto 1083 de 2015",
       "Decreto 1499 de 2017",
@@ -75,110 +75,110 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el Decreto 1499 de 2017 modificó el Decreto 1083 de 2015 y formalizó al MIPG como modelo único de gestión pública.",
+    explanation: "En la situacion descrita, el jefe de control interno debe explicar a los funcionarios que el Decreto 1499 de 2017 modifico el Decreto 1083 de 2015 y formalizo al MIPG como modelo unico de gestion publica.",
     topic: "Marco legal del MIPG"
   },
   {
     id: 5,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. De acuerdo con el artículo 2.2.22.3.4 del Decreto 1083 de 2015, el MIPG aplica:",
+    question: "Situacion\n\nUna empresa industrial y comercial del Estado con 95% de capital publico esta evaluando si debe implementar el MIPG. El gerente ha solicitado al equipo juridico un concepto sobre el alcance de aplicacion del modelo.\n\nPregunta\n\nSegun la situacion descrita y el articulo 2.2.22.3.4 del Decreto 1083 de 2015, ¿a que entidades aplica el MIPG?",
     options: [
       "Solo a las entidades del orden nacional de la Rama Ejecutiva",
-      "A los organismos y entidades de los órdenes nacional y territorial de la Rama Ejecutiva y a entidades descentralizadas con 90 % o más de capital público",
-      "Exclusivamente a entidades sometidas al régimen de empresa industrial y comercial",
-      "Únicamente a las entidades del orden territorial"
+      "A los organismos y entidades de los ordenes nacional y territorial de la Rama Ejecutiva y a entidades descentralizadas con 90 % o mas de capital publico",
+      "Exclusivamente a entidades sometidas al regimen de empresa industrial y comercial",
+      "Unicamente a las entidades del orden territorial"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el alcance del MIPG cubre organismos y entidades de la Rama Ejecutiva en los niveles nacional y territorial, así como entidades descentralizadas con participación estatal igual o superior al 90 %. Los regímenes especiales aplican control interno y otras políticas según proceda.",
+    explanation: "En la situacion descrita, la empresa con 95% de capital publico debe implementar el MIPG, ya que el alcance del modelo cubre organismos y entidades de la Rama Ejecutiva en los niveles nacional y territorial, asi como entidades descentralizadas con participacion estatal igual o superior al 90%.",
     topic: "Alcance institucional"
   },
   {
     id: 6,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. ¿Cuál de los siguientes NO es un principio del MIPG?",
+    question: "Situacion\n\nDurante una jornada de induccion, un facilitador esta explicando los principios que orientan el MIPG. Un funcionario nuevo pregunta cuales son los principios del modelo para poder identificar practicas contrarias a estos.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual de los siguientes NO es un principio del MIPG?",
     options: [
-      "Aprendizaje e innovación",
+      "Aprendizaje e innovacion",
       "Excelencia y calidad",
       "Integridad y confianza",
       "Competencia desleal entre entidades"
     ],
     correctAnswer: 3,
     points: 5,
-    explanation: "En la situación descrita, los principios del MIPG son aprendizaje e innovación, orientación a resultados, integridad y confianza, articulación interinstitucional, decisiones basadas en evidencias y excelencia y calidad.",
+    explanation: "En la situacion descrita, el facilitador debe aclarar que los principios del MIPG son aprendizaje e innovacion, orientacion a resultados, integridad y confianza, articulacion interinstitucional, decisiones basadas en evidencias y excelencia y calidad. La competencia desleal no es un principio del modelo.",
     topic: "Principios del MIPG"
   },
   {
     id: 7,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El principio de toma de decisiones basadas en evidencias implica:",
+    question: "Situacion\n\nUna secretaria de despacho esta tomando una decision sobre la priorizacion de proyectos de inversion. Un asesor le sugiere basarse en el principio de toma de decisiones basadas en evidencias del MIPG.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que implica el principio de toma de decisiones basadas en evidencias?",
     options: [
-      "Utilizar información confiable para soportar las decisiones públicas",
-      "Priorizar la intuición del directivo sobre la información disponible",
-      "Tomar decisiones únicamente con base en solicitudes ciudadanas",
-      "Evitar el uso de datos para acelerar la gestión"
+      "Utilizar informacion confiable para soportar las decisiones publicas",
+      "Priorizar la intuicion del directivo sobre la informacion disponible",
+      "Tomar decisiones unicamente con base en solicitudes ciudadanas",
+      "Evitar el uso de datos para acelerar la gestion"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, una de las bases del MIPG es decidir con evidencia, es decir, con información confiable que respalde la gestión.",
+    explanation: "En la situacion descrita, la secretaria debe aplicar este principio utilizando informacion confiable que respalde la decision sobre priorizacion de proyectos, ya que una de las bases del MIPG es decidir con evidencia.",
     topic: "Principios del MIPG"
   },
   {
     id: 8,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El MIPG está conformado por:",
+    question: "Situacion\n\nEl director de planeacion de un departamento esta preparando una presentacion sobre la estructura del MIPG para el comite directivo. Necesita explicar claramente como esta organizado el modelo.\n\nPregunta\n\nSegun la situacion descrita, ¿como esta conformado el MIPG?",
     options: [
-      "Siete dimensiones de gestión y diecinueve políticas de gestión y desempeño",
-      "Cuatro componentes y diez políticas de transparencia",
-      "Nueve líneas estratégicas sin políticas asociadas",
+      "Siete dimensiones de gestion y diecinueve politicas de gestion y desempeno",
+      "Cuatro componentes y diez politicas de transparencia",
+      "Nueve lineas estrategicas sin politicas asociadas",
       "Dos dimensiones y seis principios operativos"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, el modelo se estructura en siete dimensiones de gestión y diecinueve políticas de gestión y desempeño.",
+    explanation: "En la situacion descrita, el director de planeacion debe explicar al comite directivo que el modelo se estructura en siete dimensiones de gestion y diecinueve politicas de gestion y desempeno.",
     topic: "Estructura del MIPG"
   },
   {
     id: 9,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La política de Gestión Estratégica del Talento Humano dentro del MIPG exige:",
+    question: "Situacion\n\nLa oficina de talento humano de una entidad territorial esta formulando su Plan Estrategico de Talento Humano (PETH). El jefe de la oficina necesita clarificar que exige la politica de Gestion Estrategica del Talento Humano del MIPG.\n\nPregunta\n\nCon base en la situacion descrita, ¿que exige la politica de Gestion Estrategica del Talento Humano dentro del MIPG?",
     options: [
-      "Elaborar exclusivamente un plan anual de capacitación",
-      "Disponer de información, diagnosticar la gestión de talento, diseñar acciones y evaluar el Plan Estratégico de Talento Humano (PETH)",
-      "Externalizar la administración del talento humano en una firma privada",
-      "Focalizar la gestión en la reducción de planta sin evaluación previa"
+      "Elaborar exclusivamente un plan anual de capacitacion",
+      "Disponer de informacion, diagnosticar la gestion de talento, disenar acciones y evaluar el Plan Estrategico de Talento Humano (PETH)",
+      "Externalizar la administracion del talento humano en una firma privada",
+      "Focalizar la gestion en la reduccion de planta sin evaluacion previa"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la política orienta a contar con información, realizar diagnósticos, diseñar acciones y evaluar el PETH de la entidad.",
-    topic: "Dimensión Talento Humano"
+    explanation: "En la situacion descrita, la oficina de talento humano debe seguir la politica que orienta a contar con informacion, realizar diagnosticos, disenar acciones y evaluar el PETH de la entidad.",
+    topic: "Dimension Talento Humano"
   },
   {
     id: 10,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. En la política de integridad, el Manual Operativo del MIPG plantea:",
+    question: "Situacion\n\nUna entidad publica debe implementar su Programa de Transparencia y Etica Publica conforme a la Ley 2195 de 2022. El comite de etica necesita conocer que plantea el Manual Operativo del MIPG sobre la politica de integridad.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que plantea el Manual Operativo del MIPG sobre la politica de integridad?",
     options: [
-      "Eliminar cualquier diagnóstico de integridad para agilizar la gestión",
-      "Formular estrategias sin evaluar resultados para no distraerse de la operación",
-      "Elaborar diagnósticos, formular estrategias y evaluar su implementación; además, la Ley 2195 de 2022 fija plazos para adoptar Programas de Transparencia y Ética Pública",
-      "Delegar la integridad en la oficina de control interno sin participación del talento humano"
+      "Eliminar cualquier diagnostico de integridad para agilizar la gestion",
+      "Formular estrategias sin evaluar resultados para no distraerse de la operacion",
+      "Elaborar diagnosticos, formular estrategias y evaluar su implementacion; ademas, la Ley 2195 de 2022 fija plazos para adoptar Programas de Transparencia y Etica Publica",
+      "Delegar la integridad en la oficina de control interno sin participacion del talento humano"
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "En la situación descrita, la política de integridad exige diagnosticar, formular y evaluar estrategias, y la Ley 2195 fija plazos para adoptar Programas de Transparencia y Ética Pública.",
-    topic: "Dimensión Talento Humano"
+    explanation: "En la situacion descrita, el comite de etica debe saber que la politica de integridad exige diagnosticar, formular y evaluar estrategias, y la Ley 2195 fija plazos para adoptar Programas de Transparencia y Etica Publica.",
+    topic: "Dimension Talento Humano"
   },
   {
     id: 11,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La planeación institucional dentro del MIPG se basa en:",
+    question: "Situacion\n\nEl equipo de planeacion de una secretaria departamental esta formulando su plan institucional para el nuevo periodo de gobierno. Necesitan alinear su planeacion con lo que establece el MIPG.\n\nPregunta\n\nSegun la situacion descrita, ¿en que se basa la planeacion institucional dentro del MIPG?",
     options: [
-      "Definir el propósito de la entidad, a quién sirve, prioridades alineadas con los planes de desarrollo y evaluar las capacidades estratégicas y funcionales",
-      "Adoptar planes de acción solamente cuando cambie la administración",
+      "Definir el proposito de la entidad, a quien sirve, prioridades alineadas con los planes de desarrollo y evaluar las capacidades estrategicas y funcionales",
+      "Adoptar planes de accion solamente cuando cambie la administracion",
       "Priorizar el gasto sobre la coherencia con los planes de desarrollo",
       "Repetir el plan del periodo anterior sin ajustes"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, la planeación institucional parte del propósito, el público al que sirve, la definición de prioridades alineadas con el plan de desarrollo y la evaluación de capacidades.",
-    topic: "Dirección estratégica y planeación"
+    explanation: "En la situacion descrita, el equipo de planeacion debe partir del proposito de la entidad, el publico al que sirve, la definicion de prioridades alineadas con el plan de desarrollo y la evaluacion de capacidades estrategicas y funcionales.",
+    topic: "Direccion estrategica y planeacion"
   },
   {
     id: 12,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La política de Gestión Presupuestal y Eficiencia del Gasto incluye:",
+    question: "Situacion\n\nEl area financiera de una alcaldia esta iniciando el proceso presupuestal del proximo ano. El tesorero necesita conocer que incluye la politica de Gestion Presupuestal y Eficiencia del Gasto del MIPG.\n\nPregunta\n\nCon base en la situacion descrita, ¿que incluye la politica de Gestion Presupuestal y Eficiencia del Gasto?",
     options: [
       "Elaborar exclusivamente el anteproyecto de presupuesto",
       "Programar el presupuesto, desagregarlo y formular el Plan Anual Mensualizado de Caja (PAC) para alinear ingresos y egresos",
@@ -187,403 +187,403 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la política comprende la programación, desagregación y formulación del PAC para asegurar correspondencia entre recursos y gasto.",
-    topic: "Dirección estratégica y planeación"
+    explanation: "En la situacion descrita, el tesorero debe aplicar la politica que comprende la programacion, desagregacion y formulacion del PAC para asegurar correspondencia entre recursos y gasto.",
+    topic: "Direccion estrategica y planeacion"
   },
   {
     id: 13,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. En compras y contratación pública, el MIPG promueve:",
+    question: "Situacion\n\nLa oficina de contratacion de una entidad nacional esta estructurando su Plan Anual de Adquisiciones. El jefe de contratacion necesita conocer que promueve el MIPG en materia de compras y contratacion publica.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que promueve el MIPG en compras y contratacion publica?",
     options: [
-      "Evitar la planificación de adquisiciones para actuar con flexibilidad",
-      "Centrar la contratación en acuerdos verbales con proveedores",
-      "Estructurar el Plan Anual de Adquisiciones, usar SECOP II, incorporar análisis de datos y emplear la Tienda Virtual del Estado",
+      "Evitar la planificacion de adquisiciones para actuar con flexibilidad",
+      "Centrar la contratacion en acuerdos verbales con proveedores",
+      "Estructurar el Plan Anual de Adquisiciones, usar SECOP II, incorporar analisis de datos y emplear la Tienda Virtual del Estado",
       "Restringir la competencia para mantener proveedores habituales"
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "En la situación descrita, la política de compras incluye el PAA, el uso de SECOP II, abastecimiento estratégico y herramientas como la Tienda Virtual del Estado.",
-    topic: "Dirección estratégica y planeación"
+    explanation: "En la situacion descrita, la oficina de contratacion debe aplicar la politica de compras que incluye el PAA, el uso de SECOP II, abastecimiento estrategico y herramientas como la Tienda Virtual del Estado.",
+    topic: "Direccion estrategica y planeacion"
   },
   {
     id: 14,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. Dentro de la dimensión Gestión con valores para resultados, el esquema operativo interno incluye:",
+    question: "Situacion\n\nUna entidad territorial esta rediseando sus procesos internos para mejorar la eficiencia operativa. El equipo de mejora continua necesita conocer que incluye el esquema operativo interno dentro de la dimension Gestion con valores para resultados.\n\nPregunta\n\nSegun la situacion descrita, ¿que incluye el esquema operativo interno dentro de la dimension Gestion con valores para resultados?",
     options: [
-      "Únicamente la adquisición de nuevos bienes muebles",
-      "Comprender la situación, rediseñar procesos, trabajar por procesos, gestionar recursos físicos, servicios internos y la gestión ambiental",
-      "Reducir la gestión a la supervisión contractual",
+      "Unicamente la adquisicion de nuevos bienes muebles",
+      "Comprender la situacion, redisenar procesos, trabajar por procesos, gestionar recursos fisicos, servicios internos y la gestion ambiental",
+      "Reducir la gestion a la supervision contractual",
       "Delegar procesos internos a entes de control"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el esquema operativo interno busca simplificar y fortalecer procesos internos, gestionar recursos y considerar la dimensión ambiental.",
-    topic: "Gestión con valores para resultados"
+    explanation: "En la situacion descrita, el equipo de mejora continua debe aplicar el esquema operativo interno que busca simplificar y fortalecer procesos internos, gestionar recursos y considerar la dimension ambiental.",
+    topic: "Gestion con valores para resultados"
   },
   {
     id: 15,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La política de Servicio al Ciudadano implica:",
+    question: "Situacion\n\nLa oficina de atencion al ciudadano de una gobernacion esta formulando su estrategia de servicio. El coordinador necesita conocer que implica la politica de Servicio al Ciudadano del MIPG.\n\nPregunta\n\nCon base en la situacion descrita, ¿que implica la politica de Servicio al Ciudadano?",
     options: [
-      "Atender únicamente a los usuarios que presenten reclamos formales",
-      "Diagnosticar el estado del servicio, formular estrategias articuladas con la planeación institucional, ejecutarlas y evaluarlas",
+      "Atender unicamente a los usuarios que presenten reclamos formales",
+      "Diagnosticar el estado del servicio, formular estrategias articuladas con la planeacion institucional, ejecutarlas y evaluarlas",
       "Crear canales digitales sin medir su efectividad",
-      "Centralizar la atención en oficinas de control interno"
+      "Centralizar la atencion en oficinas de control interno"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la política promueve un ciclo de diagnóstico, formulación, ejecución y evaluación para asegurar servicios de calidad.",
-    topic: "Relación Estado-ciudadano"
+    explanation: "En la situacion descrita, el coordinador debe aplicar la politica que promueve un ciclo de diagnostico, formulacion, ejecucion y evaluacion para asegurar servicios de calidad al ciudadano.",
+    topic: "Relacion Estado-ciudadano"
   },
   {
     id: 16,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La simplificación y racionalización de trámites busca:",
+    question: "Situacion\n\nUna entidad publica esta revisando sus tramites para facilitar el acceso de los ciudadanos a servicios como licencias y certificados. El equipo de racionalizacion necesita conocer que busca la politica de simplificacion de tramites.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que busca la simplificacion y racionalizacion de tramites?",
     options: [
       "Aumentar los requisitos para garantizar mayor control",
       "Reducir costos, tiempos y requisitos para facilitar el acceso a derechos",
-      "Suspender la prestación de servicios presenciales",
-      "Reemplazar todos los trámites por declaraciones juramentadas"
+      "Suspender la prestacion de servicios presenciales",
+      "Reemplazar todos los tramites por declaraciones juramentadas"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la política de trámites pretende facilitar el acceso a derechos mediante la reducción de costos, tiempos y requisitos.",
-    topic: "Relación Estado-ciudadano"
+    explanation: "En la situacion descrita, el equipo de racionalizacion debe aplicar la politica de tramites que pretende facilitar el acceso a derechos mediante la reduccion de costos, tiempos y requisitos.",
+    topic: "Relacion Estado-ciudadano"
   },
   {
     id: 17,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La participación ciudadana en la gestión pública dentro del MIPG requiere:",
+    question: "Situacion\n\nUna alcaldia esta disenando espacios de participacion ciudadana para incluir a la comunidad en la formulacion del plan de desarrollo. El equipo de participacion necesita conocer que requiere la politica del MIPG sobre este tema.\n\nPregunta\n\nSegun la situacion descrita, ¿que requiere la participacion ciudadana en la gestion publica dentro del MIPG?",
     options: [
-      "Limitar la incidencia ciudadana a la etapa de evaluación de proyectos",
-      "Garantizar la incidencia efectiva de la ciudadanía en diagnóstico, planeación, ejecución y evaluación mediante diagnósticos, estrategias y acciones en cada fase",
+      "Limitar la incidencia ciudadana a la etapa de evaluacion de proyectos",
+      "Garantizar la incidencia efectiva de la ciudadania en diagnostico, planeacion, ejecucion y evaluacion mediante diagnosticos, estrategias y acciones en cada fase",
       "Sustituir los mecanismos de control social existentes",
-      "Reducir los espacios de participación a encuestas anónimas"
+      "Reducir los espacios de participacion a encuestas anonimas"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la política pide diseñar diagnósticos, estrategias y acciones que permitan incidencia ciudadana en todas las fases de la gestión pública.",
-    topic: "Relación Estado-ciudadano"
+    explanation: "En la situacion descrita, el equipo de participacion debe disenar diagnosticos, estrategias y acciones que permitan la incidencia ciudadana efectiva en todas las fases de la gestion publica, incluyendo la formulacion del plan de desarrollo.",
+    topic: "Relacion Estado-ciudadano"
   },
   {
     id: 18,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La política de Transparencia, Acceso a la Información y Lucha contra la Corrupción se soporta en:",
+    question: "Situacion\n\nEl comite de transparencia de una entidad esta actualizando su plan anticorrupcion. El secretario tecnico necesita identificar en que leyes se soporta la politica de Transparencia, Acceso a la Informacion y Lucha contra la Corrupcion.\n\nPregunta\n\nCon base en la situacion descrita, ¿en que se soporta la politica de Transparencia, Acceso a la Informacion y Lucha contra la Corrupcion?",
     options: [
       "Las leyes 1474 de 2011, 1712 de 2014 y 2195 de 2022",
-      "Únicamente en la Ley 489 de 1998",
+      "Unicamente en la Ley 489 de 1998",
       "La Ley 80 de 1993 y sus decretos reglamentarios",
-      "El Código de Comercio"
+      "El Codigo de Comercio"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, las leyes 1474 de 2011, 1712 de 2014 y 2195 de 2022 fundamentan la política de transparencia y acceso a la información.",
-    topic: "Gestión de recursos y transparencia"
+    explanation: "En la situacion descrita, el secretario tecnico debe saber que las leyes 1474 de 2011, 1712 de 2014 y 2195 de 2022 fundamentan la politica de transparencia y acceso a la informacion que debe incluirse en el plan anticorrupcion.",
+    topic: "Gestion de recursos y transparencia"
   },
   {
     id: 19,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La política de Seguridad Digital busca:",
+    question: "Situacion\n\nEl oficial de seguridad de la informacion de una entidad esta elaborando el plan de seguridad digital. Necesita conocer que busca la politica de Seguridad Digital del MIPG para orientar sus acciones.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que busca la politica de Seguridad Digital?",
     options: [
       "Delegar el manejo de riesgos digitales a proveedores externos",
-      "Fortalecer capacidades para identificar y mitigar riesgos de seguridad digital, promover resiliencia y cooperación",
-      "Limitar el uso de herramientas digitales en la gestión pública",
-      "Suspender el intercambio de información entre entidades"
+      "Fortalecer capacidades para identificar y mitigar riesgos de seguridad digital, promover resiliencia y cooperacion",
+      "Limitar el uso de herramientas digitales en la gestion publica",
+      "Suspender el intercambio de informacion entre entidades"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, seguridad digital pretende fortalecer capacidades, mitigar riesgos y promover resiliencia y cooperación frente a amenazas digitales.",
-    topic: "Gestión de recursos y transparencia"
+    explanation: "En la situacion descrita, el oficial de seguridad debe orientar su plan hacia el fortalecimiento de capacidades, mitigacion de riesgos y promocion de resiliencia y cooperacion frente a amenazas digitales.",
+    topic: "Gestion de recursos y transparencia"
   },
   {
     id: 20,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La política de Defensa Jurídica abarca:",
+    question: "Situacion\n\nLa oficina juridica de una entidad esta estructurando su estrategia de defensa judicial para prevenir condenas. El jefe juridico necesita conocer que abarca la politica de Defensa Juridica del MIPG.\n\nPregunta\n\nSegun la situacion descrita, ¿que abarca la politica de Defensa Juridica?",
     options: [
-      "Únicamente la firma de contratos con abogados externos",
-      "Las etapas de prevención del daño antijurídico, defensa judicial, cumplimiento de sentencias y acciones de repetición para recuperar recursos públicos",
+      "Unicamente la firma de contratos con abogados externos",
+      "Las etapas de prevencion del dano antijuridico, defensa judicial, cumplimiento de sentencias y acciones de repeticion para recuperar recursos publicos",
       "El registro de bienes muebles de la entidad",
-      "La supervisión de auditorías internas"
+      "La supervision de auditorias internas"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La defensa jurídica articula prevención del daño, defensa judicial, cumplimiento de sentencias y acciones de repetición.",
-    topic: "Gestión de recursos y transparencia"
+    explanation: "En la situacion descrita, el jefe juridico debe estructurar su estrategia considerando que la defensa juridica articula prevencion del dano, defensa judicial, cumplimiento de sentencias y acciones de repeticion para recuperar recursos publicos.",
+    topic: "Gestion de recursos y transparencia"
   }
 ]
 
 const questionsV2: Question[] = [
   {
     id: 1,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El artículo 2.2.22.1.1 del Decreto 1083 de 2015 define el Sistema de Gestión como:",
+    question: "Situacion\n\nEl Departamento Administrativo de la Funcion Publica esta capacitando a servidores de diferentes entidades sobre los conceptos basicos del MIPG. Un participante pregunta como define el decreto reglamentario al Sistema de Gestion.\n\nPregunta\n\nCon base en la situacion descrita, ¿como define el articulo 2.2.22.1.1 del Decreto 1083 de 2015 al Sistema de Gestion?",
     options: [
-      "Un manual de procedimientos para trámites ciudadanos",
-      "El conjunto de entidades, organismos, políticas y recursos que orientan la gestión pública hacia un mejor desempeño institucional y la satisfacción de necesidades ciudadanas",
-      "Una lista de indicadores financieros para el sector público",
+      "Un manual de procedimientos para tramites ciudadanos",
+      "El conjunto de entidades, organismos, politicas y recursos que orientan la gestion publica hacia un mejor desempeno institucional y la satisfaccion de necesidades ciudadanas",
+      "Una lista de indicadores financieros para el sector publico",
       "Un sistema de control fiscal para las entidades territoriales"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El decreto define el Sistema de Gestión como el conjunto de actores, políticas y recursos que orientan la gestión pública hacia el buen desempeño y la satisfacción de los ciudadanos.",
-    topic: "Definición del Sistema de Gestión"
+    explanation: "En la situacion descrita, el capacitador debe explicar que el decreto define el Sistema de Gestion como el conjunto de actores, politicas y recursos que orientan la gestion publica hacia el buen desempeno y la satisfaccion de los ciudadanos.",
+    topic: "Definicion del Sistema de Gestion"
   },
   {
     id: 2,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. Las entidades con régimen especial (Ramas Legislativa y Judicial, organismos de control, Organización Electoral e institutos científicos) deben:",
+    question: "Situacion\n\nUn instituto cientifico adscrito al Ministerio de Ciencia esta evaluando como debe aplicar el MIPG considerando su regimen especial. El director necesita clarificar las obligaciones de las entidades con regimen especial.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que deben hacer las entidades con regimen especial (Ramas Legislativa y Judicial, organismos de control, Organizacion Electoral e institutos cientificos)?",
     options: [
-      "Aplicar la totalidad de las políticas del MIPG sin excepción",
-      "Aplicar la política de control interno de la Ley 87 de 1993 y las demás políticas de gestión en la medida en que sean aplicables",
+      "Aplicar la totalidad de las politicas del MIPG sin excepcion",
+      "Aplicar la politica de control interno de la Ley 87 de 1993 y las demas politicas de gestion en la medida en que sean aplicables",
       "Excluirse completamente del MIPG",
-      "Someterse únicamente al Modelo Estándar de Control Interno sin políticas complementarias"
+      "Someterse unicamente al Modelo Estandar de Control Interno sin politicas complementarias"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, estas entidades aplican la política de control interno prevista en la Ley 87 de 1993 y las demás políticas de gestión en la medida en que las puedan adoptar.",
+    explanation: "En la situacion descrita, el instituto cientifico debe aplicar la politica de control interno prevista en la Ley 87 de 1993 y las demas politicas de gestion en la medida en que las pueda adoptar segun su naturaleza.",
     topic: "Alcance institucional"
   },
   {
     id: 3,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El principio de integridad y confianza del MIPG implica:",
+    question: "Situacion\n\nUna entidad publica esta formulando su codigo de integridad y necesita alinearlo con los principios del MIPG. El comite de etica debe comprender que implica el principio de integridad y confianza.\n\nPregunta\n\nSegun la situacion descrita, ¿que implica el principio de integridad y confianza del MIPG?",
     options: [
-      "Reducir la participación ciudadana para evitar riesgos reputacionales",
-      "Conducir la gestión pública de manera ética y fortalecer la confianza ciudadana",
-      "Delegar la ética exclusivamente en los organismos de control",
+      "Reducir la participacion ciudadana para evitar riesgos reputacionales",
+      "Conducir la gestion publica de manera etica y fortalecer la confianza ciudadana",
+      "Delegar la etica exclusivamente en los organismos de control",
       "Priorizar resultados a cualquier costo"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la integridad y la confianza promueven una gestión ética capaz de fortalecer la confianza ciudadana.",
+    explanation: "En la situacion descrita, el comite de etica debe comprender que la integridad y la confianza promueven una gestion etica capaz de fortalecer la confianza ciudadana, lo cual debe reflejarse en el codigo de integridad.",
     topic: "Principios del MIPG"
   },
   {
     id: 4,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La dimensión Evaluación de Resultados exige, entre otros aspectos:",
+    question: "Situacion\n\nLa oficina de planeacion de una entidad esta estructurando su sistema de evaluacion de resultados. El jefe de planeacion necesita conocer que exige la dimension de Evaluacion de Resultados del MIPG.\n\nPregunta\n\nCon base en la situacion descrita, ¿que exige la dimension Evaluacion de Resultados?",
     options: [
-      "Preparar únicamente informes financieros trimestrales",
-      "Definir responsables, revisar indicadores, evaluar resultados y riesgos, medir la percepción de los grupos de valor, documentar hallazgos y aplicar mejora continua",
+      "Preparar unicamente informes financieros trimestrales",
+      "Definir responsables, revisar indicadores, evaluar resultados y riesgos, medir la percepcion de los grupos de valor, documentar hallazgos y aplicar mejora continua",
       "Suspender los indicadores cuando se cumplan las metas iniciales",
-      "Limitar la evaluación a encuestas de satisfacción ciudadana"
+      "Limitar la evaluacion a encuestas de satisfaccion ciudadana"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la evaluación de resultados incluye asignar responsabilidades, actualizar indicadores, evaluar resultados y riesgos, medir percepciones y documentar mejoras.",
-    topic: "Evaluación de resultados"
+    explanation: "En la situacion descrita, la oficina de planeacion debe estructurar un sistema que incluya asignacion de responsabilidades, actualizacion de indicadores, evaluacion de resultados y riesgos, medicion de percepciones y documentacion de mejoras.",
+    topic: "Evaluacion de resultados"
   },
   {
     id: 5,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La política de seguimiento y evaluación del desempeño institucional incorpora la clasificación de indicadores de la CEPAL, que comprende:",
+    question: "Situacion\n\nUn equipo de seguimiento y evaluacion esta disenando el tablero de indicadores de una entidad publica. Necesitan aplicar la clasificacion de indicadores que el MIPG adopta de la CEPAL.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿cual es la clasificacion de indicadores de la CEPAL que incorpora la politica de seguimiento y evaluacion del desempeno institucional?",
     options: [
-      "Eficiencia, eficacia, calidad y economía",
+      "Eficiencia, eficacia, calidad y economia",
       "Impacto social, impacto ambiental y cobertura",
-      "Producción, distribución y consumo",
-      "Satisfacción, competitividad y rentabilidad"
+      "Produccion, distribucion y consumo",
+      "Satisfaccion, competitividad y rentabilidad"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, el MIPG adopta la clasificación de indicadores de eficiencia, eficacia, calidad y economía propuesta por la CEPAL.",
-    topic: "Evaluación de resultados"
+    explanation: "En la situacion descrita, el equipo debe disenar el tablero de indicadores utilizando la clasificacion de eficiencia, eficacia, calidad y economia propuesta por la CEPAL y adoptada por el MIPG.",
+    topic: "Evaluacion de resultados"
   },
   {
     id: 6,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. ¿Qué tipo de indicador se usa para medir los cambios en las condiciones objetivas tras la intervención de la entidad?",
+    question: "Situacion\n\nUna secretaria de salud esta evaluando el efecto de un programa de vacunacion en la reduccion de enfermedades prevenibles. El equipo de epidemiologia necesita identificar que tipo de indicador usar para medir estos cambios.\n\nPregunta\n\nSegun la situacion descrita, ¿que tipo de indicador se usa para medir los cambios en las condiciones objetivas tras la intervencion de la entidad?",
     options: [
       "Indicador de productividad",
       "Indicador de impacto",
       "Indicador de eficacia",
-      "Indicador de economía"
+      "Indicador de economia"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los indicadores de impacto permiten valorar los cambios obtenidos en las condiciones objeto de intervención.",
-    topic: "Evaluación de resultados"
+    explanation: "En la situacion descrita, el equipo de epidemiologia debe usar indicadores de impacto que permiten valorar los cambios obtenidos en las condiciones de salud como resultado de la intervencion del programa de vacunacion.",
+    topic: "Evaluacion de resultados"
   },
   {
     id: 7,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La gestión documental en el MIPG se organiza en:",
+    question: "Situacion\n\nEl archivo central de una entidad territorial esta implementando el Programa de Gestion Documental. El archivista necesita conocer como se organiza la gestion documental en el MIPG.\n\nPregunta\n\nCon base en la situacion descrita, ¿como se organiza la gestion documental en el MIPG?",
     options: [
-      "Aspectos estratégicos, administración de archivos, procesos de gestión documental, dimensión tecnológica y cultura organizacional",
-      "Compra de equipos y contratación de bodegas externas",
-      "Digitalización de documentos en formato PDF sin control",
-      "Publicación inmediata de todos los archivos sin clasificación"
+      "Aspectos estrategicos, administracion de archivos, procesos de gestion documental, dimension tecnologica y cultura organizacional",
+      "Compra de equipos y contratacion de bodegas externas",
+      "Digitalizacion de documentos en formato PDF sin control",
+      "Publicacion inmediata de todos los archivos sin clasificacion"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, la gestión documental contempla esas cinco áreas para garantizar la preservación y uso de la memoria institucional.",
-    topic: "Información y comunicación"
+    explanation: "En la situacion descrita, el archivista debe organizar el Programa de Gestion Documental contemplando esas cinco areas para garantizar la preservacion y uso de la memoria institucional.",
+    topic: "Informacion y comunicacion"
   },
   {
     id: 8,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La gestión de la información estadística dentro del MIPG incluye:",
+    question: "Situacion\n\nUna entidad territorial esta fortaleciendo su produccion estadistica para mejorar la toma de decisiones. El coordinador de sistemas de informacion necesita conocer que incluye la gestion de la informacion estadistica del MIPG.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que incluye la gestion de la informacion estadistica dentro del MIPG?",
     options: [
-      "Únicamente la elaboración de boletines informativos",
-      "Planificación estadística, fortalecimiento de registros administrativos y calidad estadística",
-      "Tercerizar la producción estadística sin supervisión",
+      "Unicamente la elaboracion de boletines informativos",
+      "Planificacion estadistica, fortalecimiento de registros administrativos y calidad estadistica",
+      "Tercerizar la produccion estadistica sin supervision",
       "Limitarse a recopilar datos financieros"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la política estadística contempla la planificación, el fortalecimiento de los registros administrativos y la garantía de calidad.",
-    topic: "Información y comunicación"
+    explanation: "En la situacion descrita, el coordinador debe aplicar la politica estadistica que contempla la planificacion, el fortalecimiento de los registros administrativos y la garantia de calidad para mejorar la produccion estadistica.",
+    topic: "Informacion y comunicacion"
   },
   {
     id: 9,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. La dimensión Gestión del Conocimiento e Innovación busca:",
+    question: "Situacion\n\nUna entidad publica esta creando su repositorio de buenas practicas y lecciones aprendidas. El lider de innovacion necesita conocer que busca la dimension de Gestion del Conocimiento e Innovacion del MIPG.\n\nPregunta\n\nSegun la situacion descrita, ¿que busca la dimension Gestion del Conocimiento e Innovacion?",
     options: [
-      "Almacenar información sin compartirla para garantizar exclusividad",
-      "Generar y producir conocimiento, contar con herramientas de uso y apropiación, analítica institucional y cultura de compartirlo",
-      "Eliminar la documentación de buenas prácticas para evitar duplicidades",
-      "Subcontratar los procesos de innovación sin participación interna"
+      "Almacenar informacion sin compartirla para garantizar exclusividad",
+      "Generar y producir conocimiento, contar con herramientas de uso y apropiacion, analitica institucional y cultura de compartirlo",
+      "Eliminar la documentacion de buenas practicas para evitar duplicidades",
+      "Subcontratar los procesos de innovacion sin participacion interna"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la dimensión promueve generar, usar, analizar y compartir conocimiento para mejorar la gestión.",
-    topic: "Gestión del conocimiento e innovación"
+    explanation: "En la situacion descrita, el lider de innovacion debe orientar el repositorio hacia la generacion, uso, analisis y cultura de compartir conocimiento para mejorar la gestion institucional.",
+    topic: "Gestion del conocimiento e innovacion"
   },
   {
     id: 10,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El Sistema de Control Interno del MIPG se soporta, entre otras normas, en:",
+    question: "Situacion\n\nEl jefe de control interno de una entidad esta actualizando el marco normativo del sistema de control interno. Necesita identificar las normas principales que lo soportan segun el MIPG.\n\nPregunta\n\nCon base en la situacion descrita, ¿en que normas se soporta el Sistema de Control Interno del MIPG?",
     options: [
-      "La Constitución, la Ley 87 de 1993, la Ley 489 de 1998, la Ley 1474 de 2011 y decretos como 1599/2005, 943/2014, 1083/2015, 648/2017 y 1499/2017",
+      "La Constitucion, la Ley 87 de 1993, la Ley 489 de 1998, la Ley 1474 de 2011 y decretos como 1599/2005, 943/2014, 1083/2015, 648/2017 y 1499/2017",
       "La Ley 80 de 1993 y la Ley 1150 de 2007",
-      "Únicamente el Código de Comercio",
+      "Unicamente el Codigo de Comercio",
       "La Ley 734 de 2002 y sus decretos reglamentarios"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, el SCI se sustenta en la Constitución, la Ley 87 y otras normas que consolidan el modelo de control interno.",
+    explanation: "En la situacion descrita, el jefe de control interno debe conocer que el SCI se sustenta en la Constitucion, la Ley 87 y otras normas que consolidan el modelo de control interno.",
     topic: "Control interno"
   },
   {
     id: 11,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. Entre los objetivos del Sistema de Control Interno se encuentran:",
+    question: "Situacion\n\nEl comite de coordinacion del sistema de control interno esta revisando los objetivos del sistema para alinearlos con el plan de accion de la entidad. El presidente del comite necesita clarificar cuales son los objetivos del SCI.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿cuales son los objetivos del Sistema de Control Interno?",
     options: [
-      "Garantizar información oportuna y confiable, gestionar riesgos, aplicar mecanismos de verificación y evaluación y asegurar eficiencia, eficacia y economía",
+      "Garantizar informacion oportuna y confiable, gestionar riesgos, aplicar mecanismos de verificacion y evaluacion y asegurar eficiencia, eficacia y economia",
       "Solo custodiar los bienes muebles de la entidad",
-      "Definir el presupuesto anual de inversión",
-      "Aplicar sanciones disciplinarias a servidores públicos"
+      "Definir el presupuesto anual de inversion",
+      "Aplicar sanciones disciplinarias a servidores publicos"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, los objetivos del SCI abarcan la confiabilidad de la información, la gestión de riesgos, la verificación, la evaluación y la eficiencia operativa.",
+    explanation: "En la situacion descrita, el presidente del comite debe explicar que los objetivos del SCI abarcan la confiabilidad de la informacion, la gestion de riesgos, la verificacion, la evaluacion y la eficiencia operativa.",
     topic: "Control interno"
   },
   {
     id: 12,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. Los entes reguladores del Sistema de Control Interno son:",
+    question: "Situacion\n\nUna entidad esta preparando un informe sobre la gobernanza del Sistema de Control Interno para presentar al Consejo Directivo. El jefe de control interno necesita identificar quienes son los entes reguladores del sistema.\n\nPregunta\n\nSegun la situacion descrita, ¿cuales son los entes reguladores del Sistema de Control Interno?",
     options: [
-      "Presidente de la República, Departamento Administrativo de la Función Pública, Congreso, Contaduría General y Contraloría General",
+      "Presidente de la Republica, Departamento Administrativo de la Funcion Publica, Congreso, Contaduria General y Contraloria General",
       "Ministerio de Hacienda y Corte Suprema",
-      "Gobernaciones y alcaldías",
-      "Organizaciones sindicales del sector público"
+      "Gobernaciones y alcaldias",
+      "Organizaciones sindicales del sector publico"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, estos entes regulan y orientan el Sistema de Control Interno a nivel nacional.",
+    explanation: "En la situacion descrita, el jefe de control interno debe informar al Consejo que estos entes regulan y orientan el Sistema de Control Interno a nivel nacional.",
     topic: "Control interno"
   },
   {
     id: 13,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. Los principios del Sistema de Control Interno son:",
+    question: "Situacion\n\nDurante una capacitacion sobre control interno, un facilitador esta explicando los principios fundamentales del sistema. Un funcionario pregunta cuales son los principios que rigen el SCI segun el MIPG.\n\nPregunta\n\nCon base en la situacion descrita, ¿cuales son los principios del Sistema de Control Interno?",
     options: [
-      "Autogestión, autorregulación y autocontrol",
-      "Centralización, jerarquía y supervisión externa",
+      "Autogestion, autorregulacion y autocontrol",
+      "Centralizacion, jerarquia y supervision externa",
       "Competitividad, rentabilidad y cobertura",
       "Flexibilidad, confidencialidad y reserva"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, el SCI descansa en la autogestión, la autorregulación y el autocontrol como principios fundamentales.",
+    explanation: "En la situacion descrita, el facilitador debe explicar que el SCI descansa en la autogestion, la autorregulacion y el autocontrol como principios fundamentales.",
     topic: "Control interno"
   },
   {
     id: 14,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El Modelo Estándar de Control Interno (MECI) se estructura en:",
+    question: "Situacion\n\nEl equipo de control interno esta actualizando la documentacion del Modelo Estandar de Control Interno (MECI). Necesitan revisar como se estructura el modelo para alinearlo con el MIPG.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿como se estructura el Modelo Estandar de Control Interno (MECI)?",
     options: [
-      "Cinco componentes: ambiente de control, evaluación de riesgos, actividades de control, información y comunicación, y monitoreo",
-      "Tres componentes: planificación, ejecución y cierre",
-      "Siete componentes: dirección, talento, procesos, finanzas, control, tecnología y cultura",
-      "Dos componentes: auditoría interna y auditoría externa"
+      "Cinco componentes: ambiente de control, evaluacion de riesgos, actividades de control, informacion y comunicacion, y monitoreo",
+      "Tres componentes: planificacion, ejecucion y cierre",
+      "Siete componentes: direccion, talento, procesos, finanzas, control, tecnologia y cultura",
+      "Dos componentes: auditoria interna y auditoria externa"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, el MECI tiene cinco componentes articulados con 17 principios para fortalecer la gestión y el control.",
+    explanation: "En la situacion descrita, el equipo debe documentar que el MECI tiene cinco componentes articulados con 17 principios para fortalecer la gestion y el control.",
     topic: "Control interno"
   },
   {
     id: 15,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. Las cuatro líneas de defensa dentro del MIPG están orientadas a:",
+    question: "Situacion\n\nUna entidad esta implementando el modelo de lineas de defensa para fortalecer la gestion del riesgo institucional. El comite de riesgos necesita conocer la orientacion de las cuatro lineas de defensa del MIPG.\n\nPregunta\n\nSegun la situacion descrita, ¿a que estan orientadas las cuatro lineas de defensa dentro del MIPG?",
     options: [
-      "Segregar funciones entre oficinas técnicas para evitar duplicidades",
-      "Gestionar el riesgo institucional asegurando control en la operación, supervisión, control interno independiente y control externo",
-      "Sustituir los comités de coordinación de control interno",
-      "Garantizar la confidencialidad de la información financiera"
+      "Segregar funciones entre oficinas tecnicas para evitar duplicidades",
+      "Gestionar el riesgo institucional asegurando control en la operacion, supervision, control interno independiente y control externo",
+      "Sustituir los comites de coordinacion de control interno",
+      "Garantizar la confidencialidad de la informacion financiera"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, las líneas de defensa refuerzan la gestión del riesgo desde la operación, la supervisión, el control interno independiente y el control externo.",
+    explanation: "En la situacion descrita, el comite de riesgos debe implementar las lineas de defensa para reforzar la gestion del riesgo desde la operacion, la supervision, el control interno independiente y el control externo.",
     topic: "Control interno"
   },
   {
     id: 16,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El Índice de Desempeño Institucional (MDI) mide:",
+    question: "Situacion\n\nEl comite directivo de una entidad esta analizando los resultados del ultimo reporte del FURAG. El director de planeacion necesita explicar que mide el Indice de Desempeno Institucional (MDI).\n\nPregunta\n\nCon base en la situacion descrita, ¿que mide el Indice de Desempeno Institucional (MDI)?",
     options: [
-      "La ejecución presupuestal acumulada del último año",
+      "La ejecucion presupuestal acumulada del ultimo ano",
       "La capacidad de las entidades para orientar sus procesos a producir bienes y servicios que solucionen necesidades ciudadanas con calidad e integridad",
-      "La satisfacción de los servidores públicos con el clima laboral",
+      "La satisfaccion de los servidores publicos con el clima laboral",
       "El nivel de cumplimiento normativo en materia disciplinaria"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el MDI evalúa la capacidad institucional de producir bienes y servicios que resuelvan necesidades ciudadanas con calidad e integridad.",
-    topic: "Medición del desempeño"
+    explanation: "En la situacion descrita, el director de planeacion debe explicar al comite que el MDI evalua la capacidad institucional de producir bienes y servicios que resuelvan necesidades ciudadanas con calidad e integridad.",
+    topic: "Medicion del desempeno"
   },
   {
     id: 17,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El Índice de Control Interno permite:",
+    question: "Situacion\n\nEl jefe de control interno esta preparando el informe anual de evaluacion del sistema de control interno. Necesita conocer que permite medir el Indice de Control Interno para incluirlo en el informe.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que permite medir el Indice de Control Interno?",
     options: [
-      "Medir la capacidad de aplicar lineamientos que orienten procesos de control y gestión de riesgos en las entidades",
-      "Determinar la satisfacción de los usuarios con los canales digitales",
-      "Clasificar a las entidades según su nivel de endeudamiento",
+      "Medir la capacidad de aplicar lineamientos que orienten procesos de control y gestion de riesgos en las entidades",
+      "Determinar la satisfaccion de los usuarios con los canales digitales",
+      "Clasificar a las entidades segun su nivel de endeudamiento",
       "Evaluar el cumplimiento de los planes de compras"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, el Índice de Control Interno mide la capacidad de aplicar lineamientos de control y gestión de riesgos.",
-    topic: "Medición del desempeño"
+    explanation: "En la situacion descrita, el jefe de control interno debe incluir en su informe que el Indice de Control Interno mide la capacidad de aplicar lineamientos de control y gestion de riesgos.",
+    topic: "Medicion del desempeno"
   },
   {
     id: 18,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. ¿Qué entidades lideran las políticas de Gestión del Talento Humano, Integridad, Fortalecimiento organizacional, Simplificación de procesos, Racionalización de trámites, Participación ciudadana, Gestión del conocimiento e innovación y Control interno?",
+    question: "Situacion\n\nUna entidad esta identificando que instancia lidera cada politica del MIPG para gestionar la articulacion interinstitucional. El enlace MIPG necesita conocer que entidad lidera las politicas de Gestion del Talento Humano, Integridad, Fortalecimiento organizacional, entre otras.\n\nPregunta\n\nSegun la situacion descrita, ¿que entidades lideran las politicas de Gestion del Talento Humano, Integridad, Fortalecimiento organizacional, Simplificacion de procesos, Racionalizacion de tramites, Participacion ciudadana, Gestion del conocimiento e innovacion y Control interno?",
     options: [
-      "Departamento Administrativo de la Función Pública (DAFP)",
-      "Ministerio de Hacienda y Crédito Público",
-      "Departamento Nacional de Planeación",
-      "Procuraduría General de la Nación"
+      "Departamento Administrativo de la Funcion Publica (DAFP)",
+      "Ministerio de Hacienda y Credito Publico",
+      "Departamento Nacional de Planeacion",
+      "Procuraduria General de la Nacion"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, el DAFP lidera esas políticas dentro del MIPG.",
-    topic: "Gobernanza de las políticas"
+    explanation: "En la situacion descrita, el enlace MIPG debe saber que el DAFP lidera esas politicas dentro del MIPG para gestionar adecuadamente la articulacion interinstitucional.",
+    topic: "Gobernanza de las politicas"
   },
   {
     id: 19,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. El Departamento Nacional de Planeación (DNP) lidera principalmente las políticas de:",
+    question: "Situacion\n\nUna entidad esta formulando su plan de accion anual y necesita articularse con la entidad lider de las politicas de planeacion y evaluacion. El jefe de planeacion necesita identificar que entidad lidera estas politicas.\n\nPregunta\n\nCon base en la situacion descrita, ¿que politicas lidera principalmente el Departamento Nacional de Planeacion (DNP)?",
     options: [
-      "Gestión del talento humano y control interno",
-      "Planeación institucional y evaluación de resultados",
+      "Gestion del talento humano y control interno",
+      "Planeacion institucional y evaluacion de resultados",
       "Gobierno digital y seguridad digital",
-      "Defensa jurídica y mejora normativa"
+      "Defensa juridica y mejora normativa"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el DNP lidera la planeación institucional y la evaluación de resultados en el marco del MIPG.",
-    topic: "Gobernanza de las políticas"
+    explanation: "En la situacion descrita, el jefe de planeacion debe articularse con el DNP que lidera la planeacion institucional y la evaluacion de resultados en el marco del MIPG.",
+    topic: "Gobernanza de las politicas"
   },
   {
     id: 20,
-    question: "Lectura: Una entidad pública busca fortalecer su Modelo Integrado de Planeación y Gestión para cumplir metas institucionales y responder al ciudadano. ¿Cuál entidad lidera la política de Compras y Contratación Pública dentro del MIPG?",
+    question: "Situacion\n\nLa oficina de contratacion de una entidad territorial necesita articularse con la entidad lider de la politica de Compras y Contratacion Publica para recibir lineamientos. El jefe de contratacion necesita identificar quien lidera esta politica.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿cual entidad lidera la politica de Compras y Contratacion Publica dentro del MIPG?",
     options: [
-      "Agencia Nacional de Contratación Pública – Colombia Compra Eficiente",
-      "Departamento Administrativo Nacional de Estadística (DANE)",
-      "Archivo General de la Nación",
+      "Agencia Nacional de Contratacion Publica - Colombia Compra Eficiente",
+      "Departamento Administrativo Nacional de Estadistica (DANE)",
+      "Archivo General de la Nacion",
       "Ministerio de Justicia y del Derecho"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "Colombia Compra Eficiente lidera la política de compras y contratación pública.",
-    topic: "Gobernanza de las políticas"
+    explanation: "En la situacion descrita, el jefe de contratacion debe articularse con Colombia Compra Eficiente, que lidera la politica de compras y contratacion publica en el marco del MIPG.",
+    topic: "Gobernanza de las politicas"
   }
 ]
 
@@ -660,31 +660,31 @@ export function MipgTest() {
       <Alert className="border-primary/50 bg-primary/5">
         <InfoIcon className="h-4 w-4" />
         <AlertDescription>
-          Esta prueba contiene {questions.length} preguntas sobre el Modelo Integrado de Planeación y Gestión (MIPG).
+          Esta prueba contiene {questions.length} preguntas sobre el Modelo Integrado de Planeacion y Gestion (MIPG).
           Total de puntos disponibles: {questions.reduce((sum, q) => sum + q.points, 0)} puntos.
         </AlertDescription>
       </Alert>
 
       <Card>
         <CardHeader>
-          <CardTitle className="text-lg">Selecciona la versión de la prueba</CardTitle>
+          <CardTitle className="text-lg">Selecciona la version de la prueba</CardTitle>
           <CardDescription>
-            Cada versión incluye 20 preguntas diferentes sobre las dimensiones, políticas, principios e instrumentos del MIPG.
+            Cada version incluye 20 preguntas diferentes sobre las dimensiones, politicas, principios e instrumentos del MIPG.
           </CardDescription>
         </CardHeader>
         <CardContent>
           <Tabs value={selectedVersion} onValueChange={handleVersionChange} className="w-full">
             <TabsList className="grid w-full grid-cols-2">
               <TabsTrigger value="v1" disabled={showResults}>
-                Versión 1
+                Version 1
               </TabsTrigger>
               <TabsTrigger value="v2" disabled={showResults}>
-                Versión 2
+                Version 2
               </TabsTrigger>
             </TabsList>
           </Tabs>
           {showResults && (
-            <p className="mt-3 text-sm text-muted-foreground">Reinicia la prueba para cambiar de versión.</p>
+            <p className="mt-3 text-sm text-muted-foreground">Reinicia la prueba para cambiar de version.</p>
           )}
         </CardContent>
       </Card>
@@ -734,7 +734,7 @@ export function MipgTest() {
             <CardDescription className="text-sm text-muted-foreground">Tema: {question.topic}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
-            <p className="font-medium leading-relaxed">{question.question}</p>
+            <p className="font-medium leading-relaxed whitespace-pre-line">{question.question}</p>
 
             <RadioGroup
               value={answers[question.id]?.toString()}
@@ -782,7 +782,7 @@ export function MipgTest() {
                 </AlertTitle>
                 <AlertDescription className="mt-2 space-y-2">
                   <p>
-                    <strong>Explicación:</strong> {question.explanation}
+                    <strong>Explicacion:</strong> {question.explanation}
                   </p>
                   {answers[question.id] !== question.correctAnswer && (
                     <p className="text-sm">
@@ -814,7 +814,7 @@ export function MipgTest() {
               size="lg"
               className="min-w-[200px]"
             >
-              {showFeedback ? "Ocultar" : "Mostrar"} Retroalimentación
+              {showFeedback ? "Ocultar" : "Mostrar"} Retroalimentacion
             </Button>
             <Button onClick={handleReset} variant="secondary" size="lg" className="min-w-[200px]">
               Reiniciar Prueba

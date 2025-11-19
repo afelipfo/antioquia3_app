@@ -25,7 +25,7 @@ const questions: Question[] = [
   {
     id: 1,
     question:
-      "Lectura: Un juez analiza un derecho no desarrollado explícitamente en la Constitución pero respaldado por un tratado de DD. HH. ratificado por Colombia. ¿Qué herramienta utiliza para integrarlo?",
+      "Situacion\n\nUn juez de Medellin revisa un caso donde un ciudadano reclama proteccion de un derecho que no aparece expresamente en la Constitucion, pero que esta consagrado en un tratado de derechos humanos ratificado por Colombia. El abogado defensor argumenta que este derecho debe ser protegido.\n\nPregunta\n\nSegun la situacion descrita, ¿que herramienta juridica debe utilizar el juez para integrar este derecho al ordenamiento constitucional?",
     options: [
       "El principio de legalidad estricta para aplicar solo la ley",
       "El bloque de constitucionalidad como complemento interpretativo de la Carta",
@@ -34,43 +34,43 @@ const questions: Question[] = [
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El documento resalta que el bloque de constitucionalidad permite integrar tratados de DD. HH. como parámetro de interpretación y complementación de la Constitución.",
+      "En la situacion planteada, el juez debe utilizar el bloque de constitucionalidad, el cual permite integrar tratados de derechos humanos como parametro de interpretacion y complementacion de la Constitucion, garantizando asi la proteccion del derecho reclamado.",
     topic: "Concepto general",
   },
   {
     id: 2,
     question:
-      "Lectura: Una autoridad sostiene que la supremacía se agota en el texto literal de la Constitución. Según el estudio del bloque, ¿cuál es el enfoque correcto?",
+      "Situacion\n\nDurante una audiencia publica en el Concejo de Envigado, un concejal afirma que la supremacia constitucional se limita exclusivamente al texto literal de los 380 articulos de la Constitucion. Un asesor juridico le corrige publicamente.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual es el enfoque correcto sobre la supremacia constitucional segun el estudio del bloque?",
     options: [
-      "La Constitución no admite normas complementarias",
-      "La Constitución solo se interpreta con leyes ordinarias",
-      "La Constitución se integra con normas y principios que la desarrollan para garantizar su supremacía",
+      "La Constitucion no admite normas complementarias",
+      "La Constitucion solo se interpreta con leyes ordinarias",
+      "La Constitucion se integra con normas y principios que la desarrollan para garantizar su supremacia",
     ],
     correctAnswer: 2,
     points: 5,
     explanation:
-      "El material explica que la Carta no se reduce a su texto, pues se complementa con normas y principios del bloque que aseguran su supremacía.",
+      "En esta situacion, el asesor juridico tiene razon porque la Carta no se reduce a su texto, pues se complementa con normas y principios del bloque que aseguran su supremacia, incluyendo tratados de derechos humanos y otras fuentes.",
     topic: "Naturaleza del bloque",
   },
   {
     id: 3,
     question:
-      "Lectura: Se presenta un conflicto entre una ley y un tratado de DD. HH. prevalente. ¿Qué ordena el artículo 4 constitucional complementado con el bloque?",
+      "Situacion\n\nUn tribunal administrativo de Antioquia debe resolver un caso donde una ley departamental entra en conflicto con un tratado de derechos humanos prevalente que Colombia ratifico. Las partes presentan argumentos contradictorios sobre cual norma debe aplicarse.\n\nPregunta\n\nSegun el articulo 4 constitucional complementado con el bloque, ¿que debe ordenar el tribunal en esta situacion?",
     options: [
-      "Aplicar la ley por ser más reciente",
-      "Privilegiar la Constitución y las normas del bloque que garantizan su supremacía",
+      "Aplicar la ley por ser mas reciente",
+      "Privilegiar la Constitucion y las normas del bloque que garantizan su supremacia",
       "Remitir la controversia a un ministerio",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El artículo 4, interpretado con el bloque, establece la prevalencia de la Constitución y de las normas que la integran frente a leyes contrarias.",
-    topic: "Supremacía (art. 4)",
+      "En el caso descrito, el tribunal debe privilegiar la Constitucion y las normas del bloque. El articulo 4, interpretado con el bloque, establece la prevalencia de la Constitucion y de las normas que la integran frente a leyes contrarias.",
+    topic: "Supremacia (art. 4)",
   },
   {
     id: 4,
     question:
-      "Lectura: Una entidad consulta si un tratado de DD. HH. ratificado que limita medidas en estados de excepción es vinculante internamente. ¿Qué indica el artículo 93?",
+      "Situacion\n\nLa Gobernacion de Antioquia consulta a su oficina juridica sobre la aplicabilidad interna de un tratado de derechos humanos ratificado por Colombia que limita las medidas que pueden tomarse durante estados de excepcion. Algunos funcionarios dudan si este tratado es vinculante.\n\nPregunta\n\nDe acuerdo con el articulo 93 de la Constitucion, ¿que indica este sobre la vinculatoriedad del tratado en la situacion descrita?",
     options: [
       "No es vinculante si no existe ley estatutaria",
       "Solo vincula al ejecutivo",
@@ -79,28 +79,28 @@ const questions: Question[] = [
     correctAnswer: 2,
     points: 5,
     explanation:
-      "El artículo 93 menciona que los tratados y convenios de DD. HH. ratificados prevalecen en el orden interno, integrando el bloque y vinculando a todas las autoridades.",
+      "En esta situacion, la oficina juridica debe informar que el articulo 93 establece que los tratados y convenios de derechos humanos ratificados prevalecen en el orden interno, integrando el bloque y vinculando a todas las autoridades, incluida la Gobernacion.",
     topic: "Tratados de DD. HH. (art. 93)",
   },
   {
     id: 5,
     question:
-      "Lectura: Se reclama protección de un derecho inherente no enunciado en la Carta. ¿Qué dispone el artículo 94?",
+      "Situacion\n\nUn ciudadano de Rionegro presenta una accion de tutela reclamando proteccion de un derecho que considera inherente a la persona humana, pero que no esta expresamente enumerado en el catalogo de derechos de la Constitucion. El juez debe decidir si puede protegerlo.\n\nPregunta\n\nSegun el articulo 94 de la Constitucion, ¿que debe determinar el juez respecto al derecho reclamado en esta situacion?",
     options: [
-      "No puede protegerse por falta de consagración expresa",
-      "Debe regularse únicamente por ley",
+      "No puede protegerse por falta de consagracion expresa",
+      "Debe regularse unicamente por ley",
       "Puede reconocerse, pues la Carta ampara derechos no enunciados de manera expresa",
     ],
     correctAnswer: 2,
     points: 5,
     explanation:
-      "El artículo 94 señala que el reconocimiento de los derechos no debe entenderse como negación de otros inherentes, por lo que el bloque cubre derechos no enunciados.",
+      "En la situacion planteada, el juez puede reconocer el derecho porque el articulo 94 senala que el reconocimiento de los derechos no debe entenderse como negacion de otros inherentes, por lo que el bloque cubre derechos no enunciados expresamente.",
     topic: "Derechos no escritos (art. 94)",
   },
   {
     id: 6,
     question:
-      "Lectura: Durante un estado de excepción se pretende suspender normas de Derecho Internacional Humanitario. ¿Qué recuerda el artículo 214.2?",
+      "Situacion\n\nDurante un estado de excepcion declarado en una region de Antioquia, el comandante militar propone suspender la aplicacion de ciertas normas del Derecho Internacional Humanitario para facilitar operaciones de seguridad. El gobernador consulta la legalidad de esta medida.\n\nPregunta\n\nSegun el articulo 214.2 de la Constitucion, ¿que debe recordarse en esta situacion sobre el DIH?",
     options: [
       "Las autoridades pueden restringir cualquier derecho",
       "Debe respetarse el Derecho Internacional Humanitario",
@@ -109,73 +109,73 @@ const questions: Question[] = [
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El artículo 214.2, incorporado al bloque, impone el respeto al DIH aun durante estados de excepción.",
-    topic: "Estados de excepción",
+      "En esta situacion, el gobernador debe recordar que el articulo 214.2, incorporado al bloque, impone el respeto al DIH aun durante estados de excepcion. La propuesta del comandante es inconstitucional.",
+    topic: "Estados de excepcion",
   },
   {
     id: 7,
     question:
-      "Lectura: Una norma se erige como parámetro directo de control constitucional con jerarquía constitucional. ¿A qué categoría pertenece?",
+      "Situacion\n\nUn profesor de derecho constitucional en la Universidad de Antioquia explica a sus estudiantes que cierta norma internacional tiene jerarquia constitucional y sirve como parametro directo de control de constitucionalidad. Un estudiante pregunta a que categoria pertenece.\n\nPregunta\n\nSegun la clasificacion del bloque de constitucionalidad, ¿a que categoria pertenece la norma descrita en esta situacion?",
     options: [
       "Bloque de constitucionalidad en sentido estricto",
-      "Bloque en sentido lato con jerarquía supralegal",
+      "Bloque en sentido lato con jerarquia supralegal",
       "Derecho administrativo ordinario",
     ],
     correctAnswer: 0,
     points: 5,
     explanation:
-      "El bloque en sentido estricto agrupa normas con jerarquía constitucional que actúan como parámetro directo del control.",
+      "En la situacion descrita, la norma pertenece al bloque en sentido estricto, que agrupa normas con jerarquia constitucional que actuan como parametro directo del control de constitucionalidad.",
     topic: "Bloque en sentido estricto",
   },
   {
     id: 8,
     question:
-      "Lectura: Para resolver un litigio laboral, el juez invoca convenios OIT ratificados con valor supralegal. ¿En qué sentido del bloque se ubican?",
+      "Situacion\n\nUn juez laboral de Itagui debe resolver un litigio sobre libertad sindical. Para fundamentar su decision, invoca convenios de la OIT ratificados por Colombia, explicando que tienen valor supralegal aunque no jerarquia constitucional plena.\n\nPregunta\n\nDe acuerdo con la clasificacion del bloque, ¿en que sentido se ubican los convenios OIT utilizados en esta situacion?",
     options: [
       "Sentido estricto",
       "Sentido lato o supralegal",
-      "Norma orgánica",
+      "Norma organica",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "Los convenios de la OIT ratificados suelen ubicarse en el bloque en sentido lato como fuentes supralegales y criterios de interpretación.",
+      "En el caso descrito, los convenios de la OIT ratificados se ubican en el bloque en sentido lato como fuentes supralegales y criterios de interpretacion, lo cual el juez aplica correctamente.",
     topic: "Bloque en sentido lato",
   },
   {
     id: 9,
     question:
-      "Lectura: ¿Cuál de las siguientes normas se cita en el documento como perteneciente al bloque en sentido lato?",
+      "Situacion\n\nDurante un seminario sobre fuentes del derecho constitucional en la Asamblea Departamental de Antioquia, un expositor presenta ejemplos de normas que pertenecen al bloque en sentido lato. Los asistentes deben identificar cuales son correctas.\n\nPregunta\n\nSegun el documento de estudio, ¿cual de las siguientes normas pertenece al bloque en sentido lato como se menciona en la situacion?",
     options: [
-      "Códigos de policía",
+      "Codigos de policia",
       "Leyes estatutarias y normas del DIH como criterios interpretativos",
-      "Planes de desarrollo económico",
+      "Planes de desarrollo economico",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El texto menciona que leyes estatutarias y normas del DIH operan como herramientas supralegales en el bloque lato.",
+      "En esta situacion, la respuesta correcta son las leyes estatutarias y normas del DIH, ya que el texto menciona que estas operan como herramientas supralegales en el bloque lato.",
     topic: "Ejemplos lato",
   },
   {
     id: 10,
     question:
-      "Lectura: Una ley es demandada por contrariar un tratado de DD. HH. ¿Cuál es el efecto del bloque en el control de constitucionalidad?",
+      "Situacion\n\nUn grupo de ciudadanos de Bello demanda una ley ante la Corte Constitucional argumentando que contradice un tratado de derechos humanos ratificado por Colombia. El magistrado ponente debe determinar el efecto del bloque en este control.\n\nPregunta\n\nEn la situacion descrita, ¿cual es el efecto del bloque de constitucionalidad en el control de la ley demandada?",
     options: [
       "No aplica al control",
-      "Es parámetro de control y puede llevar a la inexequibilidad",
-      "Solo sirve como orientación política",
+      "Es parametro de control y puede llevar a la inexequibilidad",
+      "Solo sirve como orientacion politica",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El bloque integra el parámetro de control constitucional, por lo que una ley contraria puede ser declarada inexequible.",
+      "En este caso, el bloque integra el parametro de control constitucional, por lo que si la ley contradice el tratado de derechos humanos, puede ser declarada inexequible por la Corte.",
     topic: "Efectos - Control constitucional",
   },
   {
     id: 11,
     question:
-      "Lectura: Un alcalde afirma que el bloque solo obliga a jueces. ¿Qué enseña el documento?",
+      "Situacion\n\nDurante una capacitacion a funcionarios publicos en Apartado, el alcalde afirma que el bloque de constitucionalidad solo obliga a los jueces y que las autoridades administrativas no estan vinculadas por el. Un abogado del municipio le contradice.\n\nPregunta\n\nCon base en la situacion descrita, ¿que ensena el documento sobre la vinculacion del bloque?",
     options: [
       "Es cierto por reserva judicial",
       "Solo vincula al Congreso",
@@ -184,148 +184,148 @@ const questions: Question[] = [
     correctAnswer: 2,
     points: 5,
     explanation:
-      "La Corte ha reiterado que el bloque vincula a todas las ramas y niveles de la administración pública.",
-    topic: "Efectos - Vinculación",
+      "En esta situacion, el abogado tiene razon porque la Corte ha reiterado que el bloque vincula a todas las ramas y niveles de la administracion publica, incluyendo alcaldias y demas autoridades administrativas.",
+    topic: "Efectos - Vinculacion",
   },
   {
     id: 12,
     question:
-      "Lectura: El Estado desconoce un tratado de DD. HH. prevalente. ¿Qué consecuencias describe el documento?",
+      "Situacion\n\nEl Estado colombiano, a traves de una de sus entidades, expide un acto administrativo que desconoce abiertamente un tratado de derechos humanos prevalente. Una ONG internacional advierte sobre las posibles consecuencias de esta accion.\n\nPregunta\n\nSegun el documento, ¿que consecuencias puede generar la situacion descrita?",
     options: [
-      "Nulidad automática de toda la Constitución",
+      "Nulidad automatica de toda la Constitucion",
       "No hay consecuencias internas",
       "Se pueden anular actos normativos y generarse sanciones internacionales",
     ],
     correctAnswer: 2,
     points: 5,
     explanation:
-      "El bloque prevé tanto la nulidad de normas internas contrarias como la eventual responsabilidad internacional del Estado.",
+      "En la situacion planteada, el bloque preve tanto la nulidad de normas internas contrarias como la eventual responsabilidad internacional del Estado, por lo que la ONG advierte correctamente sobre ambas consecuencias.",
     topic: "Efectos - Sanciones",
   },
   {
     id: 13,
     question:
-      "Lectura: Una ley limita la libertad sindical. ¿Cómo procede la Corte Constitucional?",
+      "Situacion\n\nLa Asamblea Departamental de Antioquia aprueba una ordenanza que establece restricciones a la actividad sindical de los empleados publicos departamentales. Un sindicato la demanda ante la Corte Constitucional alegando violacion de derechos laborales.\n\nPregunta\n\nEn la situacion descrita, ¿como debe proceder la Corte Constitucional al analizar la ordenanza?",
     options: [
       "Solo confronta la ley con la Carta",
-      "Confronta también los Convenios 87 y 98 de la OIT y puede declarar inexequible",
+      "Confronta tambien los Convenios 87 y 98 de la OIT y puede declarar inexequible",
       "Remite el caso al Ministerio del Trabajo",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El documento cita que los convenios 87 y 98 de la OIT, como parte del bloque, se usan para el control de normas que afecten libertad sindical.",
+      "En este caso, la Corte debe confrontar la ordenanza no solo con la Constitucion sino tambien con los convenios 87 y 98 de la OIT, que como parte del bloque se usan para el control de normas que afecten la libertad sindical.",
     topic: "Caso - Libertad sindical",
   },
   {
     id: 14,
     question:
-      "Lectura: Se analiza el Acto Legislativo 01 de 2020 sobre prisión perpetua revisable. ¿Qué concluyó la Corte?",
+      "Situacion\n\nDurante un debate academico en la Facultad de Derecho de la Universidad de Medellin, se analiza el Acto Legislativo 01 de 2020 que establecia la prision perpetua revisable para ciertos delitos contra menores. Los estudiantes discuten el fallo de la Corte Constitucional.\n\nPregunta\n\nSegun la situacion descrita, ¿que concluyo la Corte Constitucional sobre el Acto Legislativo 01 de 2020?",
     options: [
-      "Lo declaró exequible por proteger menores",
-      "Lo declaró inexequible por desconocer la dignidad humana, la resocialización y tratados internacionales",
-      "Difirió su decisión para reglamentación",
+      "Lo declaro exequible por proteger menores",
+      "Lo declaro inexequible por desconocer la dignidad humana, la resocializacion y tratados internacionales",
+      "Difirio su decision para reglamentacion",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El fallo concluyó que la pena perpetua violaba el artículo 34 C.P. y tratados como el PIDCP y la CADH, integrados al bloque.",
+      "En el debate academico descrito, debe reconocerse que el fallo concluyo que la pena perpetua violaba el articulo 34 C.P. y tratados como el PIDCP y la CADH, integrados al bloque, por lo que fue declarada inexequible.",
     topic: "Caso - Pena perpetua",
   },
   {
     id: 15,
     question:
-      "Lectura: ¿Cuál fue el fundamento en DD. HH. para declarar inexequible la pena perpetua revisable?",
+      "Situacion\n\nUn fiscal de Medellin prepara un concepto sobre politica criminal y debe explicar por que la Corte Constitucional declaro inexequible la pena perpetua revisable. Necesita identificar el fundamento en derechos humanos de la decision.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual fue el fundamento en derechos humanos para declarar inexequible la pena perpetua revisable?",
     options: [
       "Los tratados no son pertinentes en materia penal",
       "El bloque impide medidas que desconozcan tratados de DD. HH.; la pena perpetua es inhumana y desproporcionada",
-      "El Congreso puede exceptuar tratados por mayoría simple",
+      "El Congreso puede exceptuar tratados por mayoria simple",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "La ratio decidendi resaltó que los compromisos internacionales en DD. HH. prohíben sanciones inhumanas, por lo que el bloque impedía la medida.",
+      "En el concepto que prepara el fiscal, debe explicarse que la ratio decidendi resalto que los compromisos internacionales en derechos humanos prohiben sanciones inhumanas, por lo que el bloque impedia la pena perpetua por ser desproporcionada.",
     topic: "Caso - Fundamento DD. HH.",
   },
   {
     id: 16,
     question:
-      "Lectura: Tras la destitución e inhabilidad de Gustavo Petro, ¿qué ocurrió a nivel internacional según el documento?",
+      "Situacion\n\nEn una clase de derecho administrativo en Medellin, el profesor explica el caso de la destitucion e inhabilidad de Gustavo Petro cuando era Alcalde de Bogota. Los estudiantes preguntan que ocurrio a nivel internacional tras la sancion disciplinaria.\n\nPregunta\n\nSegun el documento y la situacion descrita, ¿que ocurrio a nivel internacional tras la destitucion de Petro?",
     options: [
-      "No hubo reclamación internacional",
-      "Se presentó demanda ante la CIDH y el proceso terminó con su reintegro",
-      "La Corte IDH impuso sanción penal",
+      "No hubo reclamacion internacional",
+      "Se presento demanda ante la CIDH y el proceso termino con su reintegro",
+      "La Corte IDH impuso sancion penal",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El texto recuerda que se acudió al sistema interamericano, lo que desembocó en la restitución del cargo a Petro.",
+      "En la situacion de clase descrita, el profesor debe explicar que se acudio al sistema interamericano de derechos humanos, lo que desemboco en la restitucion del cargo a Petro, demostrando la efectividad del bloque de convencionalidad.",
     topic: "Caso Petro - Sistema interamericano",
   },
   {
     id: 17,
     question:
-      "Lectura: ¿Qué decidió la Corte Constitucional en la Sentencia C-030 de 2023 respecto a las facultades de la Procuraduría (Ley 1952 de 2019, art. 1)?",
+      "Situacion\n\nUn procurador regional de Antioquia consulta a su equipo juridico sobre los limites de sus facultades sancionatorias despues de la Sentencia C-030 de 2023, especialmente respecto a funcionarios elegidos por voto popular.\n\nPregunta\n\nSegun la situacion descrita, ¿que decidio la Corte Constitucional en la Sentencia C-030 de 2023 respecto a las facultades de la Procuraduria?",
     options: [
-      "Ratificó que la Procuraduría ejerce funciones jurisdiccionales plenas",
-      "Declaró inexequibles las expresiones “jurisdiccionales” y condicionó que las sanciones de destitución/suspensión/inhabilidad a elegidos por voto popular corresponden al juez contencioso administrativo",
-      "Trasladó todas las investigaciones disciplinarias a la Fiscalía",
+      "Ratifico que la Procuraduria ejerce funciones jurisdiccionales plenas",
+      "Declaro inexequibles las expresiones 'jurisdiccionales' y condiciono que las sanciones de destitucion/suspension/inhabilidad a elegidos por voto popular corresponden al juez contencioso administrativo",
+      "Traslado todas las investigaciones disciplinarias a la Fiscalia",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "La sentencia limitó las facultades sancionatorias de la Procuraduría cuando afectan a funcionarios elegidos popularmente, siguiendo el estándar del bloque.",
+      "En esta consulta, el equipo juridico debe informar que la sentencia limito las facultades sancionatorias de la Procuraduria cuando afectan a funcionarios elegidos popularmente, trasladando la competencia final al juez contencioso administrativo, siguiendo el estandar del bloque.",
     topic: "Caso Petro - C-030/23",
   },
   {
     id: 18,
     question:
-      "Lectura: Según el artículo 23 de la CADH citado en el documento, ¿quién puede restringir derechos políticos?",
+      "Situacion\n\nUn defensor de derechos humanos en Antioquia asesora a un concejal que fue sancionado disciplinariamente con inhabilidad por la Procuraduria. El defensor cita el articulo 23 de la Convencion Americana sobre Derechos Humanos para sustentar la defensa.\n\nPregunta\n\nSegun el articulo 23 de la CADH citado en la situacion, ¿quien puede restringir derechos politicos?",
     options: [
       "Cualquier autoridad disciplinaria",
       "Un juez competente mediante condena en proceso penal",
-      "Un órgano administrativo con función sancionatoria",
+      "Un organo administrativo con funcion sancionatoria",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El art. 23.2 CADH establece que solo una sentencia penal dictada por juez competente puede restringir derechos políticos, estándar integrado al bloque.",
-    topic: "CADH - Derechos políticos",
+      "En el caso del concejal, el defensor tiene razon porque el articulo 23.2 de la CADH establece que solo una sentencia penal dictada por juez competente puede restringir derechos politicos, estandar integrado al bloque de constitucionalidad.",
+    topic: "CADH - Derechos politicos",
   },
   {
     id: 19,
     question:
-      "Lectura: En el control de convencionalidad del Consejo de Estado se advirtió que sin condena penal no puede mantenerse una sanción que restrinja derechos políticos. ¿Por qué?",
+      "Situacion\n\nEl Consejo de Estado revisa un caso de control de convencionalidad donde un funcionario elegido popularmente fue sancionado con inhabilidad sin que existiera condena penal previa. Los magistrados debaten si debe mantenerse la sancion.\n\nPregunta\n\nEn la situacion descrita, ¿por que el Consejo de Estado advirtio que no puede mantenerse una sancion que restrinja derechos politicos sin condena penal?",
     options: [
       "Porque basta con autoridad nacional",
-      "Porque lo contrario violaría el art. 23.2 CADH y el principio pacta sunt servanda",
-      "Porque una confirmación administrativa es suficiente",
+      "Porque lo contrario violaria el art. 23.2 CADH y el principio pacta sunt servanda",
+      "Porque una confirmacion administrativa es suficiente",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El Consejo de Estado sostuvo que sin condena penal mantener la sanción desconocería el pacto internacional y el principio de buena fe en el cumplimiento de tratados.",
+      "En este caso, el Consejo de Estado sostuvo que sin condena penal mantener la sancion desconoceria el pacto internacional (art. 23.2 CADH) y el principio de buena fe en el cumplimiento de tratados (pacta sunt servanda).",
     topic: "Control de convencionalidad",
   },
   {
     id: 20,
     question:
-      "Lectura: ¿Por qué el Consejo de Estado resaltó la importancia democrática del artículo 23.2 CADH?",
+      "Situacion\n\nDurante un foro sobre democracia y derechos humanos en la Universidad EAFIT, un magistrado del Consejo de Estado explica la importancia del articulo 23.2 de la CADH mas alla de la proteccion individual del sancionado. Los asistentes preguntan por que es tan relevante.\n\nPregunta\n\nSegun la situacion descrita, ¿por que el Consejo de Estado resalto la importancia democratica del articulo 23.2 CADH?",
     options: [
       "Solo protege al sancionado",
-      "Preserva el principio democrático y los derechos de los electores además del elegido",
+      "Preserva el principio democratico y los derechos de los electores ademas del elegido",
       "Evita acciones de tutela",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El fallo indicó que proteger los derechos políticos también resguarda la voluntad popular de los electores, eje democrático del bloque.",
+      "En el foro descrito, el magistrado explica que proteger los derechos politicos tambien resguarda la voluntad popular de los electores, siendo este un eje democratico fundamental del bloque de constitucionalidad.",
     topic: "CADH - Democracia",
   },
   {
     id: 21,
     question:
-      "Lectura: Se demanda una ley que regula estados de excepción desconociendo el DIH. ¿Cómo opera el bloque?",
+      "Situacion\n\nUn grupo de congresistas demanda ante la Corte Constitucional una ley que regula estados de excepcion, argumentando que desconoce normas del Derecho Internacional Humanitario. La Corte debe decidir si procede el control.\n\nPregunta\n\nEn la situacion descrita, ¿como opera el bloque de constitucionalidad para el control de la ley demandada?",
     options: [
       "No procede control por reserva legislativa",
       "Se ejerce control con base en el bloque (art. 214.2 y normas del DIH) y puede declararse inexequible",
@@ -334,90 +334,90 @@ const questions: Question[] = [
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El bloque incluye el DIH como parámetro de control en estados de excepción, permitiendo declarar inexequibles normas contrarias.",
-    topic: "Aplicación práctica",
+      "En este caso, el bloque incluye el DIH como parametro de control en estados de excepcion (art. 214.2), permitiendo a la Corte declarar inexequibles normas contrarias al Derecho Internacional Humanitario.",
+    topic: "Aplicacion practica",
   },
   {
     id: 22,
     question:
-      "Lectura: Una entidad territorial expide un decreto contrario a un tratado de DD. HH. prevalente. ¿Qué debe hacer el juez contencioso?",
+      "Situacion\n\nLa Alcaldia de Turbo expide un decreto que regula el acceso a servicios publicos de manera contraria a un tratado de derechos humanos prevalente ratificado por Colombia. Un ciudadano afectado demanda el decreto ante la jurisdiccion contencioso administrativa.\n\nPregunta\n\nEn la situacion descrita, ¿que debe hacer el juez contencioso administrativo respecto al decreto demandado?",
     options: [
       "Inaplicar el tratado por no ser ley",
-      "Aplicar el bloque como parámetro y anular el acto si es contrario",
-      "Remitir el caso a conciliación",
+      "Aplicar el bloque como parametro y anular el acto si es contrario",
+      "Remitir el caso a conciliacion",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El bloque vincula a todas las autoridades; por tanto, el juez contencioso aplica el tratado integrado al bloque y puede anular el acto incompatible.",
+      "En este caso, el bloque vincula a todas las autoridades, por tanto el juez contencioso debe aplicar el tratado integrado al bloque y puede anular el decreto si es incompatible con las obligaciones internacionales de derechos humanos.",
     topic: "Autoridades vinculadas",
   },
   {
     id: 23,
     question:
-      "Lectura: En una controversia laboral sobre asociación sindical, ¿qué fuente complementa la Constitución según el documento?",
+      "Situacion\n\nUn juez laboral de Caucasia conoce una demanda por violacion al derecho de asociacion sindical en una empresa privada. El trabajador demandante solicita que se apliquen fuentes internacionales ademas de la Constitucion.\n\nPregunta\n\nSegun el documento y la situacion descrita, ¿que fuente complementa la Constitucion en controversias sobre asociacion sindical?",
     options: [
-      "Únicamente el Código Sustantivo del Trabajo",
+      "Unicamente el Codigo Sustantivo del Trabajo",
       "Los convenios OIT 87 y 98, como parte del bloque",
       "Un reglamento interno de empresa",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El texto cita los convenios OIT 87 y 98 como referentes del bloque para proteger la libertad sindical en Colombia.",
+      "En la situacion del trabajador, el juez debe aplicar los convenios OIT 87 y 98 como referentes del bloque para proteger la libertad sindical, complementando las normas constitucionales y legales nacionales.",
     topic: "Convenios OIT",
   },
   {
     id: 24,
     question:
-      "Lectura: El legislador diseña una política criminal que desconoce la dignidad humana y la resocialización. ¿Qué control procede?",
+      "Situacion\n\nEl Congreso debate un proyecto de ley de politica criminal que establece penas que desconocen la dignidad humana y eliminan posibilidades de resocializacion. Un grupo de senadores advierte sobre su posible inconstitucionalidad.\n\nPregunta\n\nEn la situacion descrita, ¿que tipo de control procede contra el proyecto de ley si es aprobado?",
     options: [
-      "Solo control político",
+      "Solo control politico",
       "Control de constitucionalidad soportado en el bloque y las obligaciones internacionales",
       "Consulta no vinculante a la academia",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El bloque opera como parámetro para invalidar normas penales incompatibles con obligaciones internacionales y principios constitucionales.",
-    topic: "Política criminal y bloque",
+      "En este caso, los senadores advierten correctamente porque el bloque opera como parametro para invalidar normas penales incompatibles con obligaciones internacionales y principios constitucionales como la dignidad humana y la resocializacion.",
+    topic: "Politica criminal y bloque",
   },
   {
     id: 25,
     question:
-      "Situación: A María le niegan un procedimiento médico vital. ¿Cuál mecanismo procede para protección rápida?",
+      "Situacion\n\nMaria, una paciente de 45 anos en Medellin, requiere urgentemente un procedimiento quirurgico para salvar su vida. Su EPS le niega la autorizacion argumentando que el procedimiento no esta incluido en el plan de beneficios. Maria no tiene recursos para pagar de forma particular.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual mecanismo judicial procede para obtener proteccion rapida del derecho a la salud de Maria?",
     options: [
-      "Acción popular",
-      "Acción de cumplimiento",
-      "Acción de tutela",
-      "Acción de grupo",
+      "Accion popular",
+      "Accion de cumplimiento",
+      "Accion de tutela",
+      "Accion de grupo",
     ],
     correctAnswer: 2,
     points: 5,
     explanation:
-      "En la situación descrita, la acción de tutela es el mecanismo preferente y sumario para proteger de inmediato derechos fundamentales cuando no existe otro medio eficaz.",
+      "En la situacion de Maria, la accion de tutela es el mecanismo preferente y sumario para proteger de inmediato su derecho fundamental a la salud y a la vida, dado que no existe otro medio judicial eficaz ante la urgencia de su condicion medica.",
     topic: "Tutela en salud urgente",
   },
   {
     id: 26,
     question:
-      "Situación: Un juez encuentra conflicto entre una ley y la Convención Americana sobre DD. HH. en un caso de libertad de expresión. ¿Qué debe aplicar?",
+      "Situacion\n\nUn juez del circuito de Medellin conoce un caso donde un periodista demanda al Estado por censura previa de sus publicaciones. Al revisar la normativa aplicable, encuentra que una ley colombiana permite ciertas restricciones, pero la Convencion Americana sobre Derechos Humanos las prohibe expresamente.\n\nPregunta\n\nEn la situacion descrita, ante el conflicto entre la ley y la Convencion Americana, ¿que norma debe aplicar el juez?",
     options: [
       "La ley ordinaria",
       "El tratado de derechos humanos como parte del bloque de constitucionalidad",
-      "Ninguno, por falta de reglamentación",
+      "Ninguno, por falta de reglamentacion",
       "Una directiva administrativa",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El documento destaca que los tratados de derechos humanos integran el bloque de constitucionalidad, por lo que deben aplicarse con prevalencia frente a leyes contrarias.",
+      "En el caso del periodista, el juez debe aplicar la Convencion Americana sobre Derechos Humanos porque los tratados de derechos humanos integran el bloque de constitucionalidad y deben aplicarse con prevalencia frente a leyes contrarias.",
     topic: "Tratado internacional vs. ley",
   },
   {
     id: 27,
     question:
-      "Situación: El Congreso limita el derecho de reunión mediante ley ordinaria. ¿Qué problema principal se configura?",
+      "Situacion\n\nEl Congreso de la Republica aprueba una ley ordinaria que establece requisitos restrictivos para ejercer el derecho de reunion pacifica y manifestacion publica. Un grupo de ciudadanos la demanda ante la Corte Constitucional.\n\nPregunta\n\nSegun la situacion descrita, ¿cual es el principal problema constitucional de la ley demandada?",
     options: [
       "Falta de consulta previa",
       "Desconocer la reserva de ley estatutaria para derechos fundamentales",
@@ -427,29 +427,29 @@ const questions: Question[] = [
     correctAnswer: 1,
     points: 5,
     explanation:
-      "La regulación de derechos fundamentales como reunión y protesta está sometida a ley estatutaria; hacerlo por ley ordinaria viola esa reserva.",
+      "En esta situacion, el problema principal es que la regulacion de derechos fundamentales como reunion y protesta esta sometida a ley estatutaria. Hacerlo por ley ordinaria viola esa reserva constitucional.",
     topic: "Reserva de ley estatutaria",
   },
   {
     id: 28,
     question:
-      "Situación: El Gobierno decreta emergencia y suspende derechos fundamentales. Según el documento, esto es:",
+      "Situacion\n\nEl Gobierno Nacional declara estado de emergencia economica y social. Mediante decreto legislativo, suspende temporalmente varios derechos fundamentales argumentando la gravedad de la crisis. Un ciudadano cuestiona la constitucionalidad de esta medida.\n\nPregunta\n\nSegun el bloque de constitucionalidad, ¿es procedente la suspension de derechos fundamentales decretada en esta situacion?",
     options: [
-      "Válido por tres meses",
-      "Válido si lo avala un juez",
-      "Improcedente: los derechos fundamentales no pueden suspenderse en estados de excepción",
-      "Procede solo para derechos de segunda generación",
+      "Valido por tres meses",
+      "Valido si lo avala un juez",
+      "Improcedente: los derechos fundamentales no pueden suspenderse en estados de excepcion",
+      "Procede solo para derechos de segunda generacion",
     ],
     correctAnswer: 2,
     points: 5,
     explanation:
-      "Incluso en estados de excepción debe respetarse el bloque de constitucionalidad, que prohíbe la suspensión de los derechos fundamentales.",
-    topic: "Estados de excepción",
+      "En la situacion descrita, la suspension es improcedente porque incluso en estados de excepcion debe respetarse el bloque de constitucionalidad, que prohibe la suspension de los derechos fundamentales conforme a tratados internacionales.",
+    topic: "Estados de excepcion",
   },
   {
     id: 29,
     question:
-      "Situación: Una persona invoca el derecho al olvido digital. ¿Cómo podría reconocerse como fundamental?",
+      "Situacion\n\nUn ciudadano de Bello solicita a una plataforma digital que elimine informacion personal antigua y perjudicial que aparece en los resultados de busqueda. La plataforma se niega argumentando que el derecho al olvido digital no existe en la Constitucion colombiana.\n\nPregunta\n\nCon base en la situacion descrita, ¿como podria reconocerse el derecho al olvido digital como derecho fundamental?",
     options: [
       "Solo mediante reforma constitucional",
       "Por ser innominado o por conexidad con privacidad y dignidad",
@@ -459,13 +459,13 @@ const questions: Question[] = [
     correctAnswer: 1,
     points: 5,
     explanation:
-      "La Corte ha admitido derechos innominados y aquellos conectados con otros expresos —como privacidad y dignidad— dentro del catálogo fundamental.",
+      "En el caso del ciudadano de Bello, el derecho al olvido digital puede reconocerse como fundamental por ser un derecho innominado o por su conexidad con derechos expresos como la privacidad y la dignidad humana, segun lo ha admitido la Corte Constitucional.",
     topic: "Derechos innominados",
   },
   {
     id: 30,
     question:
-      "Situación: Una comunidad demanda por vertimientos que contaminan su río. ¿Qué generación de derechos se activa principalmente?",
+      "Situacion\n\nUna comunidad de pescadores del Uraba antioqueno demanda a una empresa minera que realiza vertimientos contaminantes al rio del cual dependen para su sustento y consumo de agua. La contaminacion afecta a mas de 500 familias de la zona.\n\nPregunta\n\nEn la situacion descrita, ¿que generacion de derechos se activa principalmente con la demanda de la comunidad?",
     options: [
       "Primera",
       "Segunda",
@@ -475,95 +475,95 @@ const questions: Question[] = [
     correctAnswer: 2,
     points: 5,
     explanation:
-      "La protección del ambiente y los intereses colectivos corresponde a los derechos de tercera generación o de solidaridad.",
-    topic: "Derechos de tercera generación",
+      "En el caso de la comunidad de pescadores, se activan los derechos de tercera generacion o de solidaridad, que incluyen la proteccion del ambiente sano y los intereses colectivos de la comunidad afectada.",
+    topic: "Derechos de tercera generacion",
   },
   {
     id: 31,
     question:
-      "Situación: Una plataforma capta huellas y rostros sin consentimiento. ¿Qué derecho resulta central?",
+      "Situacion\n\nUna empresa de tecnologia en Medellin implementa un sistema de control de acceso que capta y almacena huellas dactilares y reconocimiento facial de todos los visitantes sin informarles ni obtener su consentimiento previo.\n\nPregunta\n\nCon base en la situacion descrita, ¿que derecho fundamental resulta principalmente vulnerado?",
     options: [
-      "Libre asociación",
+      "Libre asociacion",
       "Sufragio",
-      "Privacidad y datos personales (cuarta generación)",
+      "Privacidad y datos personales (cuarta generacion)",
       "Trabajo",
     ],
     correctAnswer: 2,
     points: 5,
     explanation:
-      "La recopilación de datos biométricos sin autorización vulnera el derecho a la privacidad y la protección de datos personales, ubicados en la cuarta generación.",
-    topic: "Protección de datos biométricos",
+      "En la situacion de la empresa de tecnologia, la recopilacion de datos biometricos sin autorizacion vulnera principalmente el derecho a la privacidad y la proteccion de datos personales, ubicados en la cuarta generacion de derechos.",
+    topic: "Proteccion de datos biometricos",
   },
   {
     id: 32,
     question:
-      "Situación: Una autoridad exige a mujeres usar determinada vestimenta por normas religiosas. ¿Qué tensión ilustra el documento?",
+      "Situacion\n\nUna autoridad municipal en una zona rural de Antioquia emite un decreto que exige a las mujeres usar determinada vestimenta en espacios publicos, fundamentando la medida en tradiciones religiosas de la comunidad. Un grupo de mujeres protesta contra la norma.\n\nPregunta\n\nSegun el documento, ¿que tension ilustra la situacion descrita?",
     options: [
       "Entre derecho penal y civil",
-      "Entre enfoques culturales o religiosos y estándares de derechos humanos y dignidad",
+      "Entre enfoques culturales o religiosos y estandares de derechos humanos y dignidad",
       "Entre dos leyes ordinarias",
       "Entre municipios",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El texto subraya la tensión entre visiones culturales o religiosas y los estándares universales de dignidad y libertades individuales.",
+      "En la situacion de las mujeres afectadas, se ilustra la tension entre visiones culturales o religiosas y los estandares universales de dignidad y libertades individuales, que deben prevalecer segun el bloque de constitucionalidad.",
     topic: "Libertad religiosa y dignidad",
   },
   {
     id: 33,
     question:
-      "Situación: Una alcaldía impone toque de queda que restringe locomoción y reunión. ¿Qué límite debe respetar?",
+      "Situacion\n\nEl alcalde de un municipio del oriente antioqueno decreta toque de queda permanente de 6:00 p.m. a 6:00 a.m. alegando problemas de orden publico. La medida restringe severamente la locomocion y el derecho de reunion de los habitantes durante doce horas diarias.\n\nPregunta\n\nEn la situacion descrita, ¿que limite constitucional debe respetar el toque de queda decretado por el alcalde?",
     options: [
-      "Ninguno si hay alteración del orden público",
-      "El núcleo esencial de los derechos limitados",
+      "Ninguno si hay alteracion del orden publico",
+      "El nucleo esencial de los derechos limitados",
       "Solo aplicarlo en horario nocturno",
-      "Prohibición de multas",
+      "Prohibicion de multas",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "Cualquier limitación debe salvaguardar el núcleo esencial de los derechos; de lo contrario, se torna inconstitucional.",
-    topic: "Límites al poder de policía",
+      "En el caso del toque de queda, el alcalde debe respetar el nucleo esencial de los derechos de locomocion y reunion. Cualquier limitacion que anule este nucleo esencial se torna inconstitucional, sin importar la justificacion de orden publico.",
+    topic: "Limites al poder de policia",
   },
   {
     id: 34,
     question:
-      "Situación: Existe un vacío legal sobre un derecho y hay una sentencia de la Corte Constitucional que lo desarrolla. ¿Ese precedente integra el bloque?",
+      "Situacion\n\nUn juez de Rionegro debe resolver un caso sobre un derecho que no tiene desarrollo legal pero que la Corte Constitucional ha desarrollado ampliamente en su jurisprudencia. El demandado argumenta que sin ley no hay derecho exigible.\n\nPregunta\n\nCon base en la situacion descrita, ¿el precedente de la Corte Constitucional sobre el derecho integra el bloque de constitucionalidad?",
     options: [
       "No, solo cuenta el texto constitucional",
-      "Sí, la jurisprudencia de la Corte integra el bloque",
+      "Si, la jurisprudencia de la Corte integra el bloque",
       "Solo si la aprueba el Congreso",
       "Solo en materia penal",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "La doctrina constitucional hace parte del bloque y sirve como parámetro obligatorio de interpretación y control.",
+      "En el caso que resuelve el juez, la jurisprudencia de la Corte Constitucional si integra el bloque y sirve como parametro obligatorio de interpretacion y control, por lo que el derecho es exigible aunque no tenga desarrollo legal.",
     topic: "Precedente constitucional",
   },
   {
     id: 35,
     question:
-      "Situación: Una estudiante ve vulnerada su libertad de expresión por la universidad. ¿Qué rasgo de los derechos permite un remedio sin esperar reglamentación?",
+      "Situacion\n\nUna estudiante de una universidad privada en Medellin publica en redes sociales criticas a las directivas de la institucion. La universidad la sanciona con suspension academica argumentando dano a la imagen institucional. La estudiante no encuentra ley que regule especificamente esta situacion.\n\nPregunta\n\nEn la situacion descrita, ¿que caracteristica de los derechos fundamentales permite a la estudiante obtener proteccion sin esperar reglamentacion legal?",
     options: [
       "Principio de oportunidad",
-      "Aplicación inmediata",
+      "Aplicacion inmediata",
       "Legalidad estricta",
       "Cosa juzgada",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "Los derechos fundamentales tienen aplicación inmediata (art. 85 C.P.), por lo que pueden exigirse aun sin desarrollo legal.",
-    topic: "Aplicación inmediata",
+      "En el caso de la estudiante, puede exigir proteccion de su libertad de expresion gracias a la aplicacion inmediata de los derechos fundamentales (art. 85 C.P.), que permite su exigibilidad aun sin desarrollo legal especifico.",
+    topic: "Aplicacion inmediata",
   },
   {
     id: 36,
     question:
-      "Situación: A un joven le niegan matrícula en educación básica por falta de pago. ¿Qué generación de derechos se invoca en primer plano?",
+      "Situacion\n\nUn joven de 14 anos del municipio de La Ceja es rechazado para matricula en un colegio publico porque su familia tiene deudas pendientes de anos anteriores. El rector condiciona el acceso a educacion al pago de la deuda.\n\nPregunta\n\nCon base en la situacion descrita, ¿que generacion de derechos se invoca principalmente al reclamar el acceso a educacion del joven?",
     options: [
-      "Segunda (educación)",
+      "Segunda (educacion)",
       "Primera",
       "Tercera",
       "Cuarta",
@@ -571,39 +571,39 @@ const questions: Question[] = [
     correctAnswer: 0,
     points: 5,
     explanation:
-      "La educación es un derecho social de segunda generación que obliga al Estado a garantizar acceso efectivo, especialmente en básica.",
+      "En la situacion del joven de La Ceja, se invoca el derecho a la educacion como derecho social de segunda generacion, que obliga al Estado a garantizar acceso efectivo, especialmente en educacion basica, sin condicionarlo a pagos.",
     topic: "Derechos sociales",
   },
   {
     id: 37,
     question:
-      "Situación: Una autoridad clausura una emisora comunitaria sin orden judicial por críticas al alcalde. ¿Qué derecho y generación se afecta?",
+      "Situacion\n\nEl alcalde de un municipio del suroeste antioqueno ordena el cierre inmediato de una emisora comunitaria sin orden judicial previa, argumentando que sus programas son criticos de la administracion municipal y generan malestar en la comunidad.\n\nPregunta\n\nEn la situacion descrita, ¿que derecho fundamental y de que generacion resulta afectado con el cierre de la emisora?",
     options: [
       "Trabajo – segunda",
-      "Libertad de expresión – primera",
+      "Libertad de expresion – primera",
       "Ambiente – tercera",
       "Datos personales – cuarta",
     ],
     correctAnswer: 1,
     points: 5,
     explanation:
-      "El cierre arbitrario limita la libertad de expresión, derecho civil y político propio de la primera generación.",
-    topic: "Libertad de expresión",
+      "En el caso de la emisora comunitaria, el cierre arbitrario sin orden judicial afecta la libertad de expresion, que es un derecho civil y politico propio de la primera generacion, protegido contra la censura oficial.",
+    topic: "Libertad de expresion",
   },
   {
     id: 38,
     question:
-      "Situación: Se propone una reforma constitucional para reducir las garantías de la tutela. ¿Qué advierte el documento sobre modificar estos derechos?",
+      "Situacion\n\nUn grupo de congresistas propone una reforma constitucional para reducir el plazo de la accion de tutela de diez a tres dias y eliminar la posibilidad de tutela contra particulares. Organizaciones de derechos humanos advierten sobre los riesgos de esta propuesta.\n\nPregunta\n\nSegun el documento y la situacion descrita, ¿que advierte sobre modificar las garantias de derechos fundamentales como la tutela?",
     options: [
-      "Pueden cambiarse por mayoría simple",
+      "Pueden cambiarse por mayoria simple",
       "Basta un decreto legislativo",
-      "Requieren procedimientos más estrictos, con un plus de protección",
+      "Requieren procedimientos mas estrictos, con un plus de proteccion",
       "Solo necesita referendo municipal",
     ],
     correctAnswer: 2,
     points: 5,
     explanation:
-      "Los derechos fundamentales gozan de especial rigidez; su modificación demanda procedimientos reforzados y un control estricto.",
+      "En la situacion planteada, las organizaciones advierten correctamente que los derechos fundamentales y sus garantias como la tutela gozan de especial rigidez constitucional, por lo que su modificacion demanda procedimientos reforzados y un control estricto.",
     topic: "Rigidez constitucional",
   },
 ]
@@ -662,13 +662,13 @@ export function BloqueConstitucionalidadTest() {
             <CardHeader>
               <CardTitle className="text-lg">Bloque de Constitucionalidad en Colombia</CardTitle>
               <CardDescription>
-                Preguntas situacionales basadas en los documentos “Noción de Derechos Fundamentales” y “El Bloque de Constitucionalidad en Colombia”.
+                Preguntas situacionales basadas en los documentos "Nocion de Derechos Fundamentales" y "El Bloque de Constitucionalidad en Colombia".
               </CardDescription>
             </CardHeader>
             <CardContent className="text-sm text-muted-foreground space-y-2">
               <p>
-                Evalúa nociones de derechos fundamentales (tutela, generaciones, bloque de convencionalidad, límites a la autoridad) y los fundamentos, clasificación,
-                efectos y casos emblemáticos del bloque (convenios OIT, pena perpetua, caso Petro).
+                Evalua nociones de derechos fundamentales (tutela, generaciones, bloque de convencionalidad, limites a la autoridad) y los fundamentos, clasificacion,
+                efectos y casos emblematicos del bloque (convenios OIT, pena perpetua, caso Petro).
               </p>
               <Alert>
                 <AlertTitle className="flex items-center gap-2 font-semibold text-sm">
@@ -687,13 +687,13 @@ export function BloqueConstitucionalidadTest() {
             <CardHeader>
               <CardTitle>Indicaciones</CardTitle>
               <CardDescription>
-                Lee el escenario y selecciona la opción que reproduzca la posición institucional descrita en el documento.
+                Lee el escenario y selecciona la opcion que reproduzca la posicion institucional descrita en el documento.
               </CardDescription>
             </CardHeader>
             <CardContent className="text-sm text-muted-foreground space-y-2">
               <ul className="list-disc pl-5 space-y-1">
-                <li>El cronómetro asigna dos minutos por pregunta.</li>
-                <li>Podrás revisar la retroalimentación al finalizar.</li>
+                <li>El cronometro asigna dos minutos por pregunta.</li>
+                <li>Podras revisar la retroalimentacion al finalizar.</li>
               </ul>
             </CardContent>
           </Card>
@@ -736,7 +736,7 @@ export function BloqueConstitucionalidadTest() {
               <CardDescription>Tema: {question.topic}</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
-              <p className="font-medium leading-relaxed">{question.question}</p>
+              <p className="font-medium leading-relaxed whitespace-pre-line">{question.question}</p>
               <RadioGroup
                 value={selected?.toString()}
                 onValueChange={(value) => handleAnswerChange(question.id, Number(value))}
@@ -782,7 +782,7 @@ export function BloqueConstitucionalidadTest() {
         ) : (
           <>
             <Button onClick={() => setShowFeedback((prev) => !prev)} variant="outline" className="min-w-[200px]">
-              {showFeedback ? "Ocultar retroalimentación" : "Mostrar retroalimentación"}
+              {showFeedback ? "Ocultar retroalimentacion" : "Mostrar retroalimentacion"}
             </Button>
             <Button onClick={handleReset} variant="secondary" className="min-w-[200px]">
               Reiniciar prueba

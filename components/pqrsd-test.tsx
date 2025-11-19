@@ -25,7 +25,7 @@ const questionsV1: Question[] = [
   // DERECHO DE PETICIÓN (8 preguntas)
   {
     id: 1,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El derecho de petición en Colombia está regulado principalmente por:",
+    question: "Situacion\n\nUn ciudadano acude a la Alcaldia de Medellin y presenta una peticion escrita solicitando informacion sobre los requisitos para obtener una licencia de construccion. El funcionario de ventanilla debe orientarlo sobre el marco legal que regula este tipo de solicitudes y los plazos aplicables.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual es la norma principal que regula el derecho de peticion en Colombia?",
     options: [
       "Únicamente la Constitución Política",
       "El Código Civil",
@@ -34,12 +34,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "La Ley 1755 de 2015 regula el derecho de petición ante autoridades. Se fundamenta en el artículo 23 de la Constitución Política y desarrolla procedimientos, plazos, requisitos y consecuencias del silencio administrativo. Aplica a entidades públicas y particulares que prestan servicios públicos o ejercen funciones públicas.",
+    explanation: "En la situacion descrita, el funcionario debe informar al ciudadano que la Ley 1755 de 2015 regula el derecho de peticion ante autoridades. Esta ley se fundamenta en el articulo 23 de la Constitucion Politica y desarrolla procedimientos, plazos, requisitos y consecuencias del silencio administrativo. Aplica a entidades publicas y particulares que prestan servicios publicos o ejercen funciones publicas.",
     topic: "Marco normativo del derecho de petición"
   },
   {
     id: 2,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Toda persona tiene derecho a presentar peticiones respetuosas a las autoridades por motivos de:",
+    question: "Situacion\n\nEn la oficina de atencion al ciudadano de la Gobernacion de Antioquia, una persona solicita orientacion porque desea presentar una peticion relacionada con el estado de las vias de su vereda, que afectan a toda la comunidad. El funcionario debe explicarle quien tiene derecho a presentar peticiones.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿quienes pueden presentar peticiones respetuosas a las autoridades y por que motivos?",
     options: [
       "Solo interés general",
       "Interés general o particular, y a obtener pronta resolución",
@@ -48,12 +48,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el artículo 23 de la Constitución Política garantiza que toda persona puede presentar peticiones respetuosas por motivos de interés general o particular, y a obtener pronta resolución. No requiere condición especial, es un derecho fundamental de todos los habitantes del territorio nacional.",
+    explanation: "En la situacion descrita, el funcionario debe informar al ciudadano que el articulo 23 de la Constitucion Politica garantiza que toda persona puede presentar peticiones respetuosas por motivos de interes general o particular, y a obtener pronta resolucion. No requiere condicion especial, es un derecho fundamental de todos los habitantes del territorio nacional.",
     topic: "Naturaleza del derecho de petición"
   },
   {
     id: 3,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El término general para resolver una petición de información es de:",
+    question: "Situacion\n\nUn ciudadano radica en la Secretaria de Planeacion Municipal una peticion solicitando informacion sobre el Plan de Ordenamiento Territorial y sus restricciones de uso de suelo para un predio especifico. El funcionario responsable debe determinar el plazo legal para responder.\n\nPregunta\n\nSegun la situacion descrita, ¿en cuanto tiempo debe la entidad resolver esta peticion de informacion?",
     options: [
       "30 días hábiles",
       "10 días hábiles",
@@ -62,12 +62,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, según el artículo 14 de la Ley 1755/2015, las peticiones de información deben resolverse en 10 días hábiles contados desde su recibo. Este es uno de los plazos más breves. Si la información está en otra dependencia, el término se amplía a 10 días adicionales.",
+    explanation: "En la situacion descrita, segun el articulo 14 de la Ley 1755/2015, las peticiones de informacion como la del ciudadano sobre el POT deben resolverse en 10 dias habiles contados desde su recibo. Este es uno de los plazos mas breves. Si la informacion esta en otra dependencia, el termino se amplia a 10 dias adicionales.",
     topic: "Plazos para responder peticiones"
   },
   {
     id: 4,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Las peticiones en interés general deben resolverse dentro de:",
+    question: "Situacion\n\nUna organizacion comunitaria presenta ante la Alcaldia una peticion solicitando informacion sobre el presupuesto destinado a programas de alimentacion escolar en todo el municipio y su ejecucion. Esta peticion beneficia a toda la comunidad educativa.\n\nPregunta\n\nCon base en la situacion planteada, ¿en cuanto tiempo debe resolverse esta peticion de interes general?",
     options: [
       "5 días hábiles",
       "10 días hábiles",
@@ -76,12 +76,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "En la situación descrita, el artículo 14 de la Ley 1755/2015 establece que las peticiones de interés general se resuelven en 15 días hábiles. Esto incluye peticiones sobre políticas públicas, rendición de cuentas colectiva, o que benefician a una comunidad o grupo amplio de personas.",
+    explanation: "En la situacion descrita, el articulo 14 de la Ley 1755/2015 establece que las peticiones de interes general, como la solicitud de la organizacion comunitaria sobre presupuesto de alimentacion escolar que beneficia a toda la comunidad, se resuelven en 15 dias habiles. Esto incluye peticiones sobre politicas publicas, rendicion de cuentas colectiva, o que benefician a una comunidad o grupo amplio de personas.",
     topic: "Plazos para interés general"
   },
   {
     id: 5,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Una petición de consulta debe resolverse en:",
+    question: "Situacion\n\nUn abogado presenta ante la Secretaria Juridica del Departamento una peticion de consulta solicitando un concepto sobre la interpretacion de una norma departamental relacionada con tasas de valorizacion y su aplicacion a predios rurales. El funcionario debe determinar el plazo aplicable.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿cual es el termino para resolver esta peticion de consulta?",
     options: [
       "30 días hábiles prorrogables por otros 30",
       "10 días hábiles",
@@ -90,12 +90,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, las peticiones de consulta (artículo 14 Ley 1755/2015) requieren concepto, interpretación jurídica o aplicación de normas a casos específicos. El plazo es de 30 días hábiles, prorrogables por 30 días más cuando se requiere consulta a otras dependencias o análisis complejo. La prórroga debe informarse antes del vencimiento.",
+    explanation: "En la situacion descrita, la peticion del abogado solicitando concepto sobre interpretacion normativa es una peticion de consulta segun el articulo 14 Ley 1755/2015, que requiere concepto, interpretacion juridica o aplicacion de normas a casos especificos. El plazo es de 30 dias habiles, prorrogables por 30 dias mas cuando se requiere consulta a otras dependencias o analisis complejo. La prorroga debe informarse antes del vencimiento.",
     topic: "Peticiones de consulta"
   },
   {
     id: 6,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Si una petición está incompleta, la autoridad debe:",
+    question: "Situacion\n\nUn ciudadano radica una peticion ante la Secretaria de Movilidad solicitando informacion sobre comparendos a su nombre, pero no adjunta copia de su documento de identidad ni especifica el periodo de tiempo que desea consultar. El funcionario revisa la peticion y detecta que esta incompleta.\n\nPregunta\n\nSegun la situacion planteada, ¿como debe proceder la autoridad ante esta peticion incompleta?",
     options: [
       "Rechazarla inmediatamente sin más trámite",
       "Requerir al peticionario dentro de los 10 días siguientes para que la complete en el término de un mes",
@@ -104,12 +104,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el artículo 17 de la Ley 1755/2015 obliga a la entidad a formular el requerimiento de información faltante dentro de los 10 días siguientes al recibo. El peticionario tiene un mes para completarla. Si no lo hace, se archiva la petición. La entidad no puede rechazar de plano sin dar oportunidad de completar.",
+    explanation: "En la situacion descrita, el articulo 17 de la Ley 1755/2015 obliga a la entidad a formular el requerimiento de informacion faltante al ciudadano dentro de los 10 dias siguientes al recibo. El peticionario tiene un mes para completarla con la copia del documento y especificar el periodo. Si no lo hace, se archiva la peticion. La entidad no puede rechazar de plano sin dar oportunidad de completar.",
     topic: "Peticiones incompletas"
   },
   {
     id: 7,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El silencio administrativo positivo opera cuando:",
+    question: "Situacion\n\nUna empresa constructora presento ante Curaduria Urbana una solicitud de licencia de construccion hace 45 dias habiles y no ha recibido respuesta. El representante legal consulta con su abogado sobre las consecuencias juridicas de este silencio por parte de la autoridad.\n\nPregunta\n\nCon base en la situacion descrita, ¿cuando opera el silencio administrativo positivo?",
     options: [
       "En cualquier petición no contestada",
       "La petición no se resuelve en los términos legales y la ley expresamente lo establece (ej: licencias, autorizaciones)",
@@ -118,12 +118,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el silencio administrativo positivo (artículo 40 CPACA) significa que la petición se entiende aprobada si la autoridad no responde en el plazo legal. Solo opera cuando una norma específica lo establece (ej: licencias de construcción, algunas autorizaciones). No aplica a todas las peticiones automáticamente. El negativo es más común.",
+    explanation: "En la situacion descrita, el silencio administrativo positivo (articulo 40 CPACA) significa que la solicitud de licencia de construccion de la empresa se entiende aprobada si la autoridad no responde en el plazo legal. Solo opera cuando una norma especifica lo establece (como en licencias de construccion y algunas autorizaciones). No aplica a todas las peticiones automaticamente. El negativo es mas comun.",
     topic: "Silencio administrativo positivo"
   },
   {
     id: 8,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Los requisitos mínimos de una petición escrita son:",
+    question: "Situacion\n\nEn la ventanilla de correspondencia de la Alcaldia, un funcionario recibe una peticion escrita de un ciudadano que contiene el nombre completo, numero de cedula y la solicitud de expedicion de un certificado de estratificacion, pero no incluye direccion de notificacion ni firma. El funcionario debe verificar si cumple los requisitos.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿cuales son los requisitos minimos de una peticion escrita?",
     options: [
       "Solo el nombre del peticionario",
       "Designación de la autoridad, nombres del peticionario, objeto de la petición, razones, dirección para notificaciones, y firma si es escrita",
@@ -132,14 +132,14 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el artículo 16 de la Ley 1755/2015 exige: 1) Designación de la autoridad a quien va dirigida; 2) Nombres y apellidos completos del peticionario e identificación; 3) Objeto de la petición; 4) Razones en que se apoya; 5) Relación de documentos anexos; 6) Firma (escrita o electrónica si aplica). Las peticiones verbales son posibles en algunos casos.",
+    explanation: "En la situacion descrita, la peticion del ciudadano esta incompleta. El articulo 16 de la Ley 1755/2015 exige: 1) Designacion de la autoridad a quien va dirigida; 2) Nombres y apellidos completos del peticionario e identificacion; 3) Objeto de la peticion; 4) Razones en que se apoya; 5) Relacion de documentos anexos; 6) Firma (escrita o electronica si aplica). Las peticiones verbales son posibles en algunos casos.",
     topic: "Requisitos de la petición"
   },
 
   // TIPOS DE PETICIONES (5 preguntas)
   {
     id: 9,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Una Queja es:",
+    question: "Situacion\n\nUna ciudadana se acerca a la oficina de PQRSD de la Secretaria de Salud para manifestar su inconformidad porque un funcionario del hospital publico la atendio de manera grosera y negligente durante una cita medica, generandole angustia y demora innecesaria.\n\nPregunta\n\nSegun la situacion descrita, ¿como debe clasificarse esta manifestacion de la ciudadana?",
     options: [
       "Una solicitud de información",
       "La manifestación de protesta, censura, inconformidad o descontento del peticionario respecto de una presunta irregularidad en la prestación del servicio o conducta de un servidor",
@@ -148,12 +148,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la queja expresa inconformidad por presuntas irregularidades, mal servicio, o conducta indebida de servidores públicos. No busca una prestación específica sino señalar una situación irregular. La autoridad debe investigar y tomar medidas correctivas. Se diferencia del reclamo que sí busca una prestación insatisfecha.",
+    explanation: "En la situacion descrita, la manifestacion de la ciudadana es una queja porque expresa inconformidad por presuntas irregularidades, mal servicio, o conducta indebida del funcionario del hospital. No busca una prestacion especifica sino senalar una situacion irregular. La autoridad debe investigar y tomar medidas correctivas. Se diferencia del reclamo que si busca una prestacion insatisfecha.",
     topic: "Queja"
   },
   {
     id: 10,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Un Reclamo es:",
+    question: "Situacion\n\nUn pensionado acude a la oficina de atencion al ciudadano del fondo de pensiones publico para exigir el pago de tres mesadas pensionales que no le han sido consignadas a pesar de tener resolucion de reconocimiento de pension en firme desde hace cuatro meses.\n\nPregunta\n\nCon base en la situacion planteada, ¿como debe clasificarse esta solicitud del pensionado?",
     options: [
       "Una petición de información general",
       "La manifestación con la cual el peticionario exige a la entidad el reconocimiento de un derecho o el cumplimiento de una obligación legal o contractual incumplida",
@@ -162,12 +162,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el reclamo busca que la entidad cumpla una obligación legal, reglamentaria o contractual que ha incumplido, o que reconozca un derecho del peticionario. Ejemplo: reclamo por pago no realizado, servicio no prestado, prestación debida. Requiere respuesta de fondo sobre la procedencia de lo reclamado.",
+    explanation: "En la situacion descrita, la solicitud del pensionado es un reclamo porque busca que la entidad cumpla una obligacion legal que ha incumplido: el pago de las mesadas pensionales reconocidas. Requiere respuesta de fondo sobre la procedencia de lo reclamado y las acciones para cumplir con el pago adeudado.",
     topic: "Reclamo"
   },
   {
     id: 11,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Una Sugerencia es:",
+    question: "Situacion\n\nUn usuario frecuente del Centro de Atencion al Ciudadano envia un correo electronico proponiendo que se implemente un sistema de turnos digital con notificacion por mensaje de texto, para evitar que los ciudadanos tengan que esperar largas horas en la fila fisica.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿como debe clasificarse esta comunicacion del usuario?",
     options: [
       "Una obligación que debe acatar la entidad inmediatamente",
       "Una propuesta, recomendación o idea presentada por el peticionario para mejorar el servicio o la gestión de la entidad",
@@ -176,12 +176,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la sugerencia es una manifestación constructiva del ciudadano orientada a mejorar procesos, servicios, atención, o gestión institucional. No exige una prestación específica sino que aporta ideas de mejora. La entidad debe analizarla, responder sobre su viabilidad, y considerarla en la mejora continua.",
+    explanation: "En la situacion descrita, la comunicacion del usuario es una sugerencia porque es una manifestacion constructiva orientada a mejorar el proceso de atencion al ciudadano. No exige una prestacion especifica sino que aporta ideas de mejora. La entidad debe analizarla, responder sobre su viabilidad, y considerarla en la mejora continua de sus servicios.",
     topic: "Sugerencia"
   },
   {
     id: 12,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Una Denuncia es:",
+    question: "Situacion\n\nUn contratista que trabaja en una obra publica municipal envia un correo anonimo a la oficina de control interno informando que el supervisor de la obra esta solicitando dinero a los proveedores a cambio de aprobar las actas de pago, aunque el denunciante no tiene interes personal en el asunto.\n\nPregunta\n\nSegun la situacion planteada, ¿como debe clasificarse esta comunicacion anonima?",
     options: [
       "Una petición de información",
       "La puesta en conocimiento de la autoridad de hechos que podrían constituir una posible conducta irregular, delictiva, o de corrupción, sin que el denunciante tenga interés directo",
@@ -190,12 +190,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la denuncia pone en conocimiento de la autoridad competente hechos irregulares, posiblemente delictivos o de corrupción, sin que el denunciante tenga un interés personal o particular en el asunto (a diferencia de la queja o reclamo). Puede ser anónima. Genera obligación de investigar por parte de la entidad (control interno, disciplinaria, o penal según el caso).",
+    explanation: "En la situacion descrita, la comunicacion del contratista es una denuncia porque pone en conocimiento de la autoridad competente hechos irregulares y posiblemente delictivos de corrupcion, sin que el denunciante tenga un interes personal o particular en el asunto. Puede ser anonima. Genera obligacion de investigar por parte de la entidad (control interno, disciplinaria, o penal segun el caso).",
     topic: "Denuncia"
   },
   {
     id: 13,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Las peticiones de información deben distinguirse de:",
+    question: "Situacion\n\nUn investigador universitario presenta una solicitud ante el Instituto de Desarrollo Urbano requiriendo datos estadisticos sobre el numero de licencias de construccion aprobadas en los ultimos cinco anos. El funcionario debe determinar si esta es una peticion de informacion o una solicitud de acceso a documentos publicos.\n\nPregunta\n\nCon base en la situacion descrita, ¿de que deben distinguirse las peticiones de informacion?",
     options: [
       "No tienen diferencia con otros tipos",
       "Las solicitudes de acceso a documentos públicos (Ley 1712/2014 de Transparencia), que tienen procedimiento específico",
@@ -204,14 +204,14 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la petición de información (Ley 1755) solicita datos o informes a la entidad (plazo: 10 días). El acceso a documentos públicos (Ley 1712/2014) solicita copia de documentos específicos existentes (plazo: 10 días hábiles, máximo 20 si requiere búsqueda). La Ley 1712 tiene causales de reserva y clasificación especiales.",
+    explanation: "En la situacion descrita, la solicitud del investigador es una peticion de informacion (Ley 1755) porque solicita datos e informes a la entidad (plazo: 10 dias). Se distingue del acceso a documentos publicos (Ley 1712/2014) que solicita copia de documentos especificos existentes (plazo: 10 dias habiles, maximo 20 si requiere busqueda). La Ley 1712 tiene causales de reserva y clasificacion especiales.",
     topic: "Petición de información vs acceso a documentos"
   },
 
   // TRANSPARENCIA Y ACCESO A LA INFORMACIÓN (7 preguntas)
   {
     id: 14,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. La Ley 1712 de 2014 regula:",
+    question: "Situacion\n\nUn periodista solicita ante la oficina juridica de la Gobernacion acceso a los contratos de consultoria suscritos en el ultimo ano, invocando su derecho a acceder a informacion publica. El funcionario debe determinar cual norma regula este tipo de solicitudes.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿que regula la Ley 1712 de 2014?",
     options: [
       "Solo el derecho de petición",
       "El derecho de acceso a la información pública, transparencia activa y pasiva, y excepciones de acceso",
@@ -220,12 +220,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la Ley 1712 de 2014 (Ley de Transparencia y Acceso a la Información Pública) desarrolla el artículo 20 constitucional. Regula: derecho de acceso a información y documentos públicos, obligaciones de transparencia activa (publicar proactivamente), procedimiento de acceso (transparencia pasiva - a solicitud), excepciones y reserva legal, y mecanismos de control.",
+    explanation: "En la situacion descrita, la solicitud del periodista se tramita segun la Ley 1712 de 2014 (Ley de Transparencia y Acceso a la Informacion Publica) que desarrolla el articulo 20 constitucional. Regula: derecho de acceso a informacion y documentos publicos, obligaciones de transparencia activa (publicar proactivamente), procedimiento de acceso (transparencia pasiva - a solicitud), excepciones y reserva legal, y mecanismos de control.",
     topic: "Ley 1712 de 2014"
   },
   {
     id: 15,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. La información pública es:",
+    question: "Situacion\n\nUn ciudadano solicita a la Secretaria de Educacion copia de los estudios previos de un contrato de suministro de refrigerios escolares. El funcionario debe determinar si estos documentos son informacion publica y pueden ser entregados al solicitante.\n\nPregunta\n\nSegun la situacion descrita, ¿que se considera informacion publica?",
     options: [
       "Solo la que está en internet",
       "Toda información en posesión, bajo control o custodia de un sujeto obligado (entidades públicas y ciertos particulares)",
@@ -234,12 +234,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, artículo 6 Ley 1712: información pública es toda la que genera, obtiene, adquiere, transforma o controla un sujeto obligado. Incluye cualquier formato: escrito, digital, audiovisual, etc. Abarca documentos, bases de datos, comunicaciones, estudios. La regla es máxima publicidad; la reserva es excepcional y taxativa.",
+    explanation: "En la situacion descrita, los estudios previos solicitados por el ciudadano son informacion publica segun el articulo 6 Ley 1712: informacion publica es toda la que genera, obtiene, adquiere, transforma o controla un sujeto obligado. Incluye cualquier formato: escrito, digital, audiovisual. La regla es maxima publicidad; la reserva es excepcional y taxativa.",
     topic: "Concepto de información pública"
   },
   {
     id: 16,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. La información clasificada y reservada puede exceptuarse del acceso público por razones de:",
+    question: "Situacion\n\nUn solicitante pide a la Fiscalia General copia del expediente de una investigacion penal en curso contra un funcionario publico por presuntos actos de corrupcion. El fiscal a cargo debe evaluar si puede entregar esta informacion o si aplica alguna excepcion.\n\nPregunta\n\nCon base en la situacion planteada, ¿por que razones puede exceptuarse la informacion clasificada y reservada del acceso publico?",
     options: [
       "Cualquier decisión discrecional del funcionario",
       "Defensa y seguridad nacional, relaciones internacionales, protección de datos personales (Ley 1581/2012), secretos comerciales/industriales, orden público, debido proceso, o cuando la ley lo establezca",
@@ -248,12 +248,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el artículo 18 de la Ley 1712 establece las excepciones al derecho de acceso: información que afecte defensa y seguridad, relaciones internacionales, datos personales (Habeas Data - Ley 1581/2012), secreto comercial de terceros, debido proceso en etapa de indagación, o que ponga en riesgo derechos. Debe motivarse la reserva; es temporal y revisable.",
+    explanation: "En la situacion descrita, el expediente de la investigacion penal en curso puede ser reservado por el fiscal invocando proteccion del debido proceso en etapa de indagacion. El articulo 18 de la Ley 1712 establece las excepciones: informacion que afecte defensa y seguridad, relaciones internacionales, datos personales (Habeas Data), secreto comercial, debido proceso, o que ponga en riesgo derechos. Debe motivarse la reserva; es temporal y revisable.",
     topic: "Excepciones al acceso"
   },
   {
     id: 17,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. La transparencia activa se refiere a:",
+    question: "Situacion\n\nUn ciudadano ingresa al sitio web de la Alcaldia buscando informacion sobre la estructura organizacional, el presupuesto vigente y los contratos celebrados, pero no encuentra estos datos publicados. Presenta una queja por falta de transparencia.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿a que se refiere la transparencia activa?",
     options: [
       "Responder peticiones de acceso",
       "La obligación de las entidades de publicar proactivamente información mínima obligatoria sin esperar solicitud (estructura, funciones, contratación, presupuesto, instrumentos de gestión)",
@@ -262,12 +262,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, transparencia activa (art. 9-11 Ley 1712): obligación de publicar de oficio, sin que medie solicitud, información mínima como: estructura orgánica, funciones, normas, directorio, escalas salariales, presupuesto, contratación, planeación, control, trámites, informes de gestión, datos abiertos. Debe estar en sitios web accesibles y actualizados.",
+    explanation: "En la situacion descrita, la queja del ciudadano es procedente porque la Alcaldia esta incumpliendo la transparencia activa (art. 9-11 Ley 1712): obligacion de publicar de oficio, sin que medie solicitud, informacion minima como: estructura organica, funciones, normas, directorio, escalas salariales, presupuesto, contratacion, planeacion, control, tramites, informes de gestion, datos abiertos. Debe estar en sitios web accesibles y actualizados.",
     topic: "Transparencia activa"
   },
   {
     id: 18,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El término para entregar información pública solicitada es de:",
+    question: "Situacion\n\nUn estudiante de derecho solicita a la Personeria Municipal copia de todas las actas de las visitas administrativas realizadas a establecimientos comerciales durante el semestre anterior. El funcionario debe informarle el plazo para entregar esta informacion.\n\nPregunta\n\nSegun la situacion planteada, ¿cual es el termino para entregar informacion publica solicitada?",
     options: [
       "5 días calendario",
       "10 días hábiles, prorrogables hasta 10 días más si la búsqueda es compleja",
@@ -276,12 +276,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, artículo 13 Ley 1712: la información solicitada debe entregarse en 10 días hábiles desde la solicitud. Si es necesaria búsqueda en diferentes dependencias, análisis de volumen considerable, o requiere recolección en lugares distintos, se puede prorrogar hasta 10 días adicionales, informando al solicitante antes del vencimiento del plazo inicial.",
+    explanation: "En la situacion descrita, segun el articulo 13 Ley 1712, las actas solicitadas por el estudiante deben entregarse en 10 dias habiles desde la solicitud. Si es necesaria busqueda en diferentes dependencias, analisis de volumen considerable, o requiere recoleccion en lugares distintos, se puede prorrogar hasta 10 dias adicionales, informando al solicitante antes del vencimiento del plazo inicial.",
     topic: "Plazo de entrega de información pública"
   },
   {
     id: 19,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Si la entidad niega el acceso a información pública, debe:",
+    question: "Situacion\n\nUna veeduria ciudadana solicita acceso a los informes de interventoria de un contrato de obra publica. La entidad niega el acceso argumentando que contienen informacion reservada, pero solo envia un oficio diciendo \"se niega por ser reservada\" sin mayor explicacion.\n\nPregunta\n\nCon base en la situacion descrita, ¿como debe proceder la entidad si niega el acceso a informacion publica?",
     options: [
       "Solo decir 'no' sin justificación",
       "Motivar la negativa indicando la causal de reserva legal, normatividad aplicable, y advertir sobre recursos disponibles",
@@ -290,12 +290,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, toda negativa de acceso (art. 15 Ley 1712) debe ser expresa, escrita y motivada, indicando: 1) Causal legal de reserva que aplica; 2) Norma que la sustenta; 3) Razones de aplicación al caso; 4) Recursos disponibles (reposición y apelación). La carga de probar que la información es reservada es de la entidad, aplicando test de daño y principio de proporcionalidad.",
+    explanation: "En la situacion descrita, la entidad actuo incorrectamente. Toda negativa de acceso (art. 15 Ley 1712) debe ser expresa, escrita y motivada, indicando: 1) Causal legal de reserva que aplica; 2) Norma que la sustenta; 3) Razones de aplicacion al caso; 4) Recursos disponibles (reposicion y apelacion). La carga de probar que la informacion es reservada es de la entidad, aplicando test de dano y principio de proporcionalidad.",
     topic: "Negativa de acceso a información"
   },
   {
     id: 20,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El Índice de Información Clasificada y Reservada es:",
+    question: "Situacion\n\nDurante una auditoria, la Contraloria Departamental solicita a una entidad el listado de toda la informacion que ha sido clasificada como reservada, con sus justificaciones y plazos. El jefe de archivo debe ubicar este registro.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿que es el Indice de Informacion Clasificada y Reservada?",
     options: [
       "Un documento secreto que nadie puede ver",
       "Un registro público que deben llevar las entidades con la información clasificada, justificación, plazo de reserva y responsable",
@@ -304,14 +304,14 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, artículo 21 Ley 1712: toda entidad debe elaborar y actualizar semestralmente el Índice de Información Clasificada y Reservada, publicándolo en su sitio web. Debe contener: información clasificada, causal de reserva, fundamento legal, plazo de reserva (máximo 15 años, prorrogables en casos excepcionales), y funcionario responsable. Permite control ciudadano.",
+    explanation: "En la situacion descrita, la entidad debe entregar el Indice de Informacion Clasificada y Reservada segun el articulo 21 Ley 1712: toda entidad debe elaborar y actualizar semestralmente este registro, publicandolo en su sitio web. Debe contener: informacion clasificada, causal de reserva, fundamento legal, plazo de reserva (maximo 15 anos, prorrogables en casos excepcionales), y funcionario responsable. Permite control ciudadano.",
     topic: "Índice de Información Reservada"
   },
 
   // GESTIÓN DOCUMENTAL (5 preguntas)
   {
     id: 21,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. La gestión documental en entidades públicas está regulada por:",
+    question: "Situacion\n\nLa nueva directora de la oficina de PQRSD de un municipio desea organizar el archivo de peticiones de los ultimos 10 anos y necesita conocer el marco normativo aplicable para la gestion de documentos en entidades publicas.\n\nPregunta\n\nSegun la situacion descrita, ¿cual es la normativa que regula la gestion documental en entidades publicas?",
     options: [
       "No hay regulación específica",
       "La Ley 594 de 2000 (Ley General de Archivos) y normatividad del Archivo General de la Nación",
@@ -320,12 +320,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la Ley 594 de 2000 (Ley General de Archivos) regula la función archivística, administración de documentos públicos, conservación del patrimonio documental, y gestión de archivos. El Archivo General de la Nación (AGN) emite directrices técnicas mediante acuerdos: tablas de retención documental (TRD), organización de archivos, transferencias, digitalización.",
+    explanation: "En la situacion descrita, la directora debe aplicar la Ley 594 de 2000 (Ley General de Archivos) que regula la funcion archivistica, administracion de documentos publicos, conservacion del patrimonio documental, y gestion de archivos. El Archivo General de la Nacion (AGN) emite directrices tecnicas mediante acuerdos: tablas de retencion documental (TRD), organizacion de archivos, transferencias, digitalizacion.",
     topic: "Normatividad de gestión documental"
   },
   {
     id: 22,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Las Tablas de Retención Documental (TRD) determinan:",
+    question: "Situacion\n\nEl coordinador de archivo de una Secretaria Departamental debe determinar cuanto tiempo conservar los expedientes de PQRSD cerrados y si deben transferirse al archivo central o eliminarse. Consulta las Tablas de Retencion Documental de la entidad.\n\nPregunta\n\nCon base en la situacion planteada, ¿que determinan las Tablas de Retencion Documental (TRD)?",
     options: [
       "Solo quién puede acceder a archivos",
       "Los documentos que produce cada área, tiempo de permanencia en cada archivo (gestión, central, histórico), y disposición final (conservación total, eliminación, selección)",
@@ -334,12 +334,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, las TRD (Acuerdo AGN 004/2019) son instrumento archivístico que identifica: series documentales por dependencia, tiempos de retención en archivo de gestión (oficina), tiempos en archivo central (entidad), disposición final (CT=conservación total, E=eliminación, S=selección, M=microfilmación/digitalización). Fundamenta transferencias documentales y depuración de archivos.",
+    explanation: "En la situacion descrita, el coordinador encontrara en las TRD (Acuerdo AGN 004/2019) la informacion que necesita: las TRD son instrumento archivistico que identifica series documentales por dependencia, tiempos de retencion en archivo de gestion (oficina), tiempos en archivo central (entidad), disposicion final (CT=conservacion total, E=eliminacion, S=seleccion, M=microfilmacion/digitalizacion). Fundamenta transferencias documentales y depuracion de archivos.",
     topic: "Tablas de Retención Documental"
   },
   {
     id: 23,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El radicado de documentos en entidades públicas debe:",
+    question: "Situacion\n\nUn ciudadano entrega personalmente una peticion en la ventanilla de correspondencia de la Alcaldia a las 3:45 pm del viernes. El funcionario debe asignarle un numero de radicado y entregarle copia como constancia de recibido.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que caracteristicas debe tener el radicado de documentos en entidades publicas?",
     options: [
       "Ser aleatorio sin control",
       "Asignar número consecutivo único, fecha y hora de recibo, garantizando trazabilidad y control de documentos entrantes, salientes e internos",
@@ -348,12 +348,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el radicado (Decreto 2609/2012, antes 2150/1995) asigna número consecutivo único e irrepetible a comunicaciones oficiales. Incluye: fecha y hora exacta de recibo/envío, origen/destino, nombre del remitente/destinatario, asunto, número de folios, anexos. Permite trazabilidad completa. Se clasifican en: entrada, salida, internos. Facilita consulta y respuesta oportuna.",
+    explanation: "En la situacion descrita, el funcionario debe aplicar el radicado segun el Decreto 2609/2012: asignar numero consecutivo unico e irrepetible a la peticion del ciudadano. Incluye: fecha y hora exacta de recibo (3:45 pm del viernes), origen/destino, nombre del remitente/destinatario, asunto, numero de folios, anexos. Permite trazabilidad completa. Se clasifican en: entrada, salida, internos. Facilita consulta y respuesta oportuna.",
     topic: "Radicación de documentos"
   },
   {
     id: 24,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. La digitalización de documentos públicos debe cumplir:",
+    question: "Situacion\n\nLa oficina de PQRSD inicia un proyecto para digitalizar todos los expedientes de peticiones de los ultimos 5 anos y eliminar los documentos fisicos para liberar espacio. El jefe de archivo debe verificar que se cumplan los requisitos tecnicos.\n\nPregunta\n\nSegun la situacion planteada, ¿que requisitos debe cumplir la digitalizacion de documentos publicos?",
     options: [
       "Cualquier método sin requisitos",
       "Lineamientos técnicos del AGN (Acuerdo 006/2014): resolución adecuada, formato estándar, metadatos, firma electrónica, hash, y garantizar autenticidad, integridad y accesibilidad",
@@ -362,12 +362,12 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la digitalización con fines de conservación y consulta (Acuerdo AGN 006/2014) requiere: resolución mínima (200-300 dpi según tipo), formatos estándar (PDF/A, TIFF), metadatos descriptivos, técnicos y administrativos, almacenamiento seguro con copias de respaldo, firma electrónica y hash para autenticidad, y cumplir protocolo de digitalización certificada. Los documentos digitalizados tienen validez probatoria.",
+    explanation: "En la situacion descrita, la digitalizacion de los expedientes debe cumplir el Acuerdo AGN 006/2014: resolucion minima (200-300 dpi segun tipo), formatos estandar (PDF/A, TIFF), metadatos descriptivos, tecnicos y administrativos, almacenamiento seguro con copias de respaldo, firma electronica y hash para autenticidad, y cumplir protocolo de digitalizacion certificada. Los documentos digitalizados tienen validez probatoria.",
     topic: "Digitalización de documentos"
   },
   {
     id: 25,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El principio de procedencia archivística significa que:",
+    question: "Situacion\n\nDurante la organizacion del archivo historico municipal, un auxiliar propone mezclar los documentos de la antigua Secretaria de Obras con los de la nueva Secretaria de Infraestructura para facilitar la consulta tematica. El archivista debe explicarle por que esto viola los principios archivisticos.\n\nPregunta\n\nCon base en la situacion planteada, ¿que significa el principio de procedencia archivistica?",
     options: [
       "Los documentos pueden mezclarse de cualquier entidad",
       "Los documentos deben conservarse agrupados en el fondo de la entidad que los produjo, sin mezclar con fondos de otras entidades",
@@ -376,7 +376,7 @@ const questionsV1: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el principio de procedencia o respeto de los fondos establece que los documentos generados por una institución deben mantenerse agrupados en su fondo documental, sin mezclarlos con documentos de otras entidades. Preserva el contexto de producción. Se complementa con el principio de orden original (mantener la organización original dada por la entidad productora).",
+    explanation: "En la situacion descrita, la propuesta del auxiliar es incorrecta porque viola el principio de procedencia o respeto de los fondos: los documentos generados por una institucion (la antigua Secretaria de Obras) deben mantenerse agrupados en su fondo documental, sin mezclarlos con documentos de otras entidades (la nueva Secretaria de Infraestructura). Preserva el contexto de produccion. Se complementa con el principio de orden original.",
     topic: "Principios archivísticos"
   }
 ]
@@ -385,7 +385,7 @@ const questionsV2: Question[] = [
   // DERECHO DE PETICIÓN - AVANZADO (6 preguntas)
   {
     id: 26,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El silencio administrativo negativo permite al peticionario:",
+    question: "Situacion\n\nUn ciudadano presento hace 20 dias habiles una peticion ante la Secretaria de Hacienda solicitando la devolucion de un pago en exceso por impuesto predial. No ha recibido respuesta y consulta con un abogado sobre sus opciones legales ante este silencio de la administracion.\n\nPregunta\n\nSegun la situacion descrita, ¿que permite al peticionario el silencio administrativo negativo?",
     options: [
       "No tener ninguna consecuencia",
       "Interponer acciones judiciales (nulidad, nulidad y restablecimiento, tutela subsidiaria) como si hubiera respuesta negativa expresa",
@@ -394,12 +394,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el silencio administrativo negativo (artículo 83 CPACA) opera cuando vencido el plazo legal no hay respuesta. Se presume negativa la petición, permitiendo al interesado acudir a la jurisdicción (acción de nulidad y restablecimiento del derecho, tutela si hay vulneración de derechos fundamentales). No exime a la autoridad de responder.",
+    explanation: "En la situacion descrita, el silencio administrativo negativo (articulo 83 CPACA) opera porque vencio el plazo legal de 15 dias sin respuesta. Se presume negativa la peticion de devolucion, permitiendo al ciudadano acudir a la jurisdiccion (accion de nulidad y restablecimiento del derecho, tutela si hay vulneracion de derechos fundamentales). No exime a la autoridad de responder.",
     topic: "Silencio administrativo negativo"
   },
   {
     id: 27,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Cuando una petición se dirige a entidad incompetente, esta debe:",
+    question: "Situacion\n\nUn ciudadano presenta ante la Alcaldia Municipal una peticion solicitando informacion sobre una obra de la Gobernacion Departamental que se ejecuta en su barrio. El funcionario determina que la Alcaldia no es competente para responder sobre obras departamentales.\n\nPregunta\n\nCon base en la situacion planteada, ¿como debe proceder la autoridad cuando una peticion se dirige a entidad incompetente?",
     options: [
       "Rechazarla inmediatamente",
       "Remitirla de oficio a la entidad competente dentro de los 5 días siguientes, informando al peticionario, sin que este deba presentarla nuevamente",
@@ -408,12 +408,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, artículo 15 Ley 1755/2015: si la petición se dirige a entidad incompetente, esta debe remitirla de oficio a la competente dentro de los 5 días siguientes e informar al peticionario. El término para resolver empieza a correr desde el recibo en la entidad competente. Facilita acceso al ciudadano sin exigirle conocimiento técnico de competencias.",
+    explanation: "En la situacion descrita, segun el articulo 15 Ley 1755/2015, la Alcaldia debe remitir la peticion de oficio a la Gobernacion dentro de los 5 dias siguientes e informar al ciudadano. El termino para resolver empieza a correr desde el recibo en la entidad competente. Facilita acceso al ciudadano sin exigirle conocimiento tecnico de competencias.",
     topic: "Remisión por incompetencia"
   },
   {
     id: 28,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Las peticiones respetuosas ante particulares que prestan servicios públicos o ejercen funciones públicas deben resolverse en:",
+    question: "Situacion\n\nUn usuario presenta una peticion ante la empresa de acueducto y alcantarillado (empresa de servicios publicos domiciliarios) solicitando revision de su factura por cobro excesivo. Han pasado 18 dias habiles sin respuesta y el usuario quiere saber si aplican los mismos plazos que para entidades publicas.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿en cuanto tiempo deben resolverse las peticiones ante particulares que prestan servicios publicos?",
     options: [
       "No tienen obligación de responder",
       "15 días hábiles, aplicando las mismas reglas que las entidades públicas",
@@ -422,12 +422,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el artículo 14 Ley 1755/2015 establece 15 días hábiles para peticiones ante particulares que ejercen funciones administrativas, prestan servicios públicos, o están sometidos a régimen de servicios públicos domiciliarios (empresas de servicios públicos, concesionarios, etc.). Aplican los mismos derechos y garantías que ante entidades estatales.",
+    explanation: "En la situacion descrita, el articulo 14 Ley 1755/2015 establece 15 dias habiles para peticiones ante particulares que ejercen funciones administrativas o prestan servicios publicos, como la empresa de acueducto. La empresa ya incumplio el plazo legal. Aplican los mismos derechos y garantias que ante entidades estatales.",
     topic: "Peticiones ante particulares"
   },
   {
     id: 29,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. La petición de copias de documentos públicos debe resolverse en:",
+    question: "Situacion\n\nUn abogado necesita obtener copias autenticas del expediente de un proceso disciplinario ya archivado contra un funcionario publico. Presenta la solicitud ante la Procuraduria Provincial y necesita saber el plazo para obtener las copias.\n\nPregunta\n\nSegun la situacion planteada, ¿en cuanto tiempo debe resolverse la peticion de copias de documentos publicos?",
     options: [
       "30 días hábiles",
       "10 días hábiles",
@@ -436,12 +436,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, según el artículo 14 de la Ley 1755/2015, las peticiones de copias de documentos se resuelven en 10 días hábiles. El peticionario debe asumir el costo de las copias (no puede ser superior al comercial). Si los documentos están clasificados o reservados (Ley 1712/2014), aplica el procedimiento de acceso con causales de restricción.",
+    explanation: "En la situacion descrita, segun el articulo 14 de la Ley 1755/2015, las peticiones de copias del expediente disciplinario se resuelven en 10 dias habiles. El abogado debe asumir el costo de las copias autenticas (no puede ser superior al comercial). Si los documentos estan clasificados o reservados (Ley 1712/2014), aplica el procedimiento de acceso con causales de restriccion.",
     topic: "Peticiones de copias"
   },
   {
     id: 30,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Si la respuesta a una petición es desfavorable, la entidad debe:",
+    question: "Situacion\n\nLa Secretaria de Educacion resuelve negativamente la peticion de un docente que solicitaba reconocimiento de tiempo de servicio para efectos de ascenso en el escalafon. La respuesta simplemente dice \"No procede\" sin mayor explicacion. El docente quiere impugnar esta decision.\n\nPregunta\n\nCon base en la situacion descrita, ¿como debe proceder la entidad si la respuesta a una peticion es desfavorable?",
     options: [
       "Solo decir 'se niega'",
       "Expresar los motivos de hecho y de derecho, citar las normas aplicadas, y advertir sobre los recursos procedentes (reposición y apelación)",
@@ -450,12 +450,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, artículo 31 CPACA: toda decisión que resuelva una petición debe motivarse indicando razones de hecho y de derecho. Las negativas deben fundamentarse, citar normatividad aplicable, e informar sobre recursos (reposición ante quien profirió el acto, apelación ante superior jerárquico). La falta de motivación vicia el acto administrativo.",
+    explanation: "En la situacion descrita, la respuesta de la Secretaria es incorrecta. Segun el articulo 31 CPACA, toda decision que resuelva una peticion debe motivarse indicando razones de hecho y de derecho. La negativa al docente debe fundamentarse, citar normatividad aplicable sobre escalafon docente, e informar sobre recursos (reposicion y apelacion). La falta de motivacion vicia el acto administrativo.",
     topic: "Motivación de decisiones"
   },
   {
     id: 31,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El término para interponer el recurso de reposición contra un acto administrativo es de:",
+    question: "Situacion\n\nUn ciudadano recibe notificacion de una resolucion que le niega una solicitud de subsidio de vivienda. Considera que la decision es injusta y quiere impugnarla ante la misma entidad. Necesita saber cuanto tiempo tiene para interponer el recurso.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿cual es el termino para interponer el recurso de reposicion contra un acto administrativo?",
     options: [
       "30 días hábiles",
       "10 días hábiles siguientes a su notificación",
@@ -464,14 +464,14 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los recursos de reposición (ante quien profirió el acto) y apelación (ante el superior jerárquico) se interponen dentro de los 10 días hábiles siguientes a la notificación del acto (artículo 76 CPACA). Pueden interponerse simultáneamente (subsidiariedad). La entidad tiene 15 días para resolverlos. Agotan la vía gubernativa.",
+    explanation: "En la situacion descrita, el ciudadano tiene 10 dias habiles siguientes a la notificacion de la resolucion para interponer los recursos de reposicion (ante quien profirio el acto) y apelacion (ante el superior jerarquico), segun el articulo 76 CPACA. Pueden interponerse simultaneamente (subsidiariedad). La entidad tiene 15 dias para resolverlos. Agotan la via gubernativa.",
     topic: "Recursos contra actos administrativos"
   },
 
   // TIPOS DE PETICIONES - CASOS ESPECIALES (4 preguntas)
   {
     id: 32,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Las peticiones entre autoridades (entidades públicas entre sí) deben atenderse con:",
+    question: "Situacion\n\nLa Secretaria de Planeacion Municipal envia una comunicacion a la Corporacion Autonoma Regional solicitando un concepto tecnico ambiental urgente para resolver una solicitud de licencia urbanistica de un ciudadano. El termino de respuesta al ciudadano esta proximo a vencerse.\n\nPregunta\n\nSegun la situacion descrita, ¿como deben atenderse las peticiones entre autoridades?",
     options: [
       "Los mismos plazos que al ciudadano",
       "Prelación y diligencia especial, facilitando la coordinación interinstitucional",
@@ -480,12 +480,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el artículo 19 Ley 1755/2015 dispone que las peticiones entre autoridades deben atenderse con especial diligencia y prelación. Esto facilita la coordinación administrativa y eficiencia del Estado. Los plazos aplican pero debe priorizarse. Incluye solicitudes de informes, conceptos, documentos, o apoyo interinstitucional.",
+    explanation: "En la situacion descrita, el articulo 19 Ley 1755/2015 dispone que la solicitud de concepto de la Secretaria de Planeacion a la CAR debe atenderse con especial diligencia y prelacion. Esto facilita la coordinacion administrativa y eficiencia del Estado para responder oportunamente al ciudadano. Los plazos aplican pero debe priorizarse.",
     topic: "Peticiones entre autoridades"
   },
   {
     id: 33,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Una petición anónima (sin identificar al peticionario):",
+    question: "Situacion\n\nLa linea anticorrupcion de la Contraloria recibe una llamada anonima denunciando que el alcalde de un municipio esta adjudicando contratos a familiares. El denunciante no quiere identificarse por temor a represalias. El funcionario debe determinar si puede tramitar esta denuncia.\n\nPregunta\n\nCon base en la situacion planteada, ¿como debe tratarse una peticion anonima?",
     options: [
       "Nunca debe ser atendida",
       "Puede ser atendida si involucra interés general, denuncia de corrupción, o afecta derechos de terceros, aunque no genera obligación de respuesta personal",
@@ -494,12 +494,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, las peticiones anónimas no generan obligación de respuesta personal al peticionario (no hay dirección de notificación). Sin embargo, si contienen denuncias de corrupción, riesgos para la comunidad, o información de interés general, la entidad debe darles trámite investigativo o correctivo. La denuncia anónima de irregularidades es válida y debe investigarse.",
+    explanation: "En la situacion descrita, la denuncia anonima sobre posible corrupcion del alcalde debe tramitarse. Las peticiones anonimas no generan obligacion de respuesta personal (no hay direccion de notificacion), pero si contienen denuncias de corrupcion como esta, la entidad debe darles tramite investigativo. La denuncia anonima de irregularidades es valida y debe investigarse.",
     topic: "Peticiones anónimas"
   },
   {
     id: 34,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. La petición verbal procede en:",
+    question: "Situacion\n\nUn adulto mayor que no sabe leer ni escribir acude a la oficina de atencion al ciudadano para solicitar informacion sobre los requisitos para acceder al programa Colombia Mayor. El funcionario debe determinar como atender esta solicitud.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿en que casos procede la peticion verbal?",
     options: [
       "Nunca, todas deben ser escritas",
       "Asuntos de trámite sencillo que puedan resolverse de inmediato, o cuando el peticionario no sepa o no pueda escribir",
@@ -508,12 +508,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el artículo 16 Ley 1755/2015 permite peticiones verbales cuando: 1) el asunto sea de trámite inmediato (información simple, orientación); 2) el peticionario no sepa o no pueda escribir. La entidad debe dejar constancia escrita del trámite. Para asuntos complejos o que requieren decisión, debe constar por escrito.",
+    explanation: "En la situacion descrita, el articulo 16 Ley 1755/2015 permite que el adulto mayor presente su peticion verbalmente porque no sabe escribir. Tambien procede cuando el asunto sea de tramite inmediato (como informacion simple sobre requisitos). La entidad debe dejar constancia escrita del tramite y la respuesta brindada.",
     topic: "Peticiones verbales"
   },
   {
     id: 35,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Cuando un ciudadano presenta una petición irrespetuosa (con insultos o amenazas):",
+    question: "Situacion\n\nUn ciudadano presenta un escrito ante la Secretaria de Gobierno que contiene insultos contra el alcalde y amenazas contra el funcionario que firmo una resolucion que lo afecto. El funcionario receptor debe determinar como proceder.\n\nPregunta\n\nSegun la situacion planteada, ¿como debe manejarse una peticion irrespetuosa?",
     options: [
       "Se rechaza sin más trámite",
       "La autoridad debe invitar al peticionario a reformularla respetuosamente; si insiste en términos irrespetuosos, puede abstenerse de responder pero debe explicar el motivo",
@@ -522,14 +522,14 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el derecho de petición es para peticiones 'respetuosas' (art. 23 Constitución). Si contiene injurias, amenazas o términos irrespetuosos, la autoridad debe requerir al peticionario para que la reformule (artículo 18 Ley 1755). Si persiste, puede no responder de fondo pero debe motivar la decisión. El lenguaje respetuoso no significa subordinación, sino ausencia de insultos/amenazas.",
+    explanation: "En la situacion descrita, dado que el escrito contiene insultos y amenazas, la autoridad debe requerir al ciudadano para que lo reformule respetuosamente (articulo 18 Ley 1755). El derecho de peticion es para peticiones 'respetuosas' (art. 23 Constitucion). Si persiste, puede no responder de fondo pero debe motivar la decision. El lenguaje respetuoso significa ausencia de insultos y amenazas.",
     topic: "Peticiones irrespetuosas"
   },
 
   // TRANSPARENCIA - CASOS ESPECIALES (8 preguntas)
   {
     id: 36,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Los datos personales están protegidos por la Ley 1581 de 2012 (Habeas Data), que establece:",
+    question: "Situacion\n\nUn ciudadano solicita a la Registraduria Nacional copia de la base de datos completa del censo electoral con nombres, cedulas y direcciones de todos los votantes de su municipio. El funcionario debe evaluar si esta informacion puede entregarse.\n\nPregunta\n\nCon base en la situacion planteada, ¿que establece la Ley 1581 de 2012 sobre proteccion de datos personales?",
     options: [
       "Que todos los datos son públicos",
       "Principios de finalidad, libertad, veracidad, transparencia, acceso, seguridad; y derechos de conocer, actualizar, rectificar y suprimir datos personales",
@@ -538,12 +538,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la Ley 1581/2012 (Habeas Data) desarrolla el artículo 15 constitucional. Principios: finalidad (uso para el fin autorizado), libertad (consentimiento), veracidad (datos completos y actualizados), transparencia (información al titular), acceso (consulta), seguridad (protección contra acceso no autorizado). Derechos ARCO: Acceso, Rectificación, Cancelación, Oposición.",
+    explanation: "En la situacion descrita, la solicitud del ciudadano no puede atenderse porque la base de datos del censo electoral contiene datos personales protegidos por la Ley 1581/2012 (Habeas Data). Esta ley establece principios como finalidad (uso para el fin autorizado) y derechos ARCO (Acceso, Rectificacion, Cancelacion, Oposicion). Las direcciones y datos de contacto de los votantes son datos personales.",
     topic: "Ley de Habeas Data"
   },
   {
     id: 37,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. La información pública de naturaleza tributaria, aduanera o financiera de las personas está:",
+    question: "Situacion\n\nUn periodista solicita a la DIAN copia de las declaraciones de renta de los ultimos cinco anos de un candidato a la alcaldia, argumentando interes publico por tratarse de un aspirante a cargo de eleccion popular.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿cual es el tratamiento de la informacion publica de naturaleza tributaria de las personas?",
     options: [
       "Siempre disponible para cualquiera",
       "Sujeta a reserva legal, salvo cuando sea solicitada por autoridad competente o cuando la ley expresamente autorice su divulgación",
@@ -552,12 +552,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el artículo 24 de la Ley 1712 establece que la información tributaria, aduanera y financiera de las personas está reservada (Estatuto Tributario art. 583: reserva tributaria). Solo pueden acceder: el contribuyente, autoridades fiscales y de control, jueces en procesos, o cuando el titular autorice. Las sanciones tributarias firmes pueden publicarse.",
+    explanation: "En la situacion descrita, la DIAN debe negar la solicitud porque el articulo 24 de la Ley 1712 establece que la informacion tributaria esta reservada (Estatuto Tributario art. 583: reserva tributaria). Solo pueden acceder: el contribuyente, autoridades fiscales y de control, jueces en procesos, o cuando el titular autorice. El interes periodistico no levanta la reserva tributaria.",
     topic: "Reserva de información financiera"
   },
   {
     id: 38,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El test de daño para clasificar información reservada requiere demostrar que la divulgación:",
+    question: "Situacion\n\nLa Policia Nacional niega a un periodista el acceso a un informe de inteligencia sobre operaciones contra el narcotrafico, argumentando que su divulgacion pondria en riesgo la seguridad nacional. El periodista impugna la decision solicitando que se aplique el test de dano.\n\nPregunta\n\nSegun la situacion planteada, ¿que debe demostrar la entidad al aplicar el test de dano para clasificar informacion reservada?",
     options: [
       "Simplemente es incómoda para el funcionario",
       "Causa daño real, concreto y específico a los intereses protegidos por la ley (seguridad, debido proceso, etc.), y que el daño es mayor que el interés público en conocer",
@@ -566,12 +566,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el test de daño (art. 19 Ley 1712, Decreto 103/2015) exige que la entidad pruebe que divulgar la información causaría: 1) Daño a un interés legalmente protegido; 2) El daño debe ser específico, concreto y cierto (no hipotético); 3) El daño es mayor que el beneficio de divulgar. Invierte la carga de la prueba: quien niega debe justificar y probar.",
+    explanation: "En la situacion descrita, la Policia debe aplicar el test de dano (art. 19 Ley 1712, Decreto 103/2015) probando que divulgar el informe causaria: 1) Dano a un interes legalmente protegido (seguridad nacional); 2) El dano debe ser especifico, concreto y cierto (identificar operaciones, agentes en riesgo); 3) El dano es mayor que el beneficio de divulgar. Invierte la carga de la prueba.",
     topic: "Test de daño"
   },
   {
     id: 39,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Los datos abiertos son:",
+    question: "Situacion\n\nUn emprendedor tecnologico solicita al DANE acceso a los microdatos del ultimo censo nacional en formato que pueda procesar con sus algoritmos para desarrollar una aplicacion de analisis demografico. El funcionario debe determinar como entregar esta informacion.\n\nPregunta\n\nCon base en la situacion planteada, ¿que son los datos abiertos?",
     options: [
       "Solo información en PDF",
       "Datos públicos primarios u originales en formatos reutilizables (CSV, JSON, XML), de libre acceso sin restricciones, que pueden ser usados, reutilizados y redistribuidos",
@@ -580,12 +580,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los datos abiertos (art. 7 Ley 1712, Directiva Presidencial 02/2012) son datos públicos en formatos abiertos, estructurados, procesables por máquinas (CSV, JSON, XML, no solo PDF), sin restricciones legales, técnicas o financieras para su uso. Deben publicarse en www.datos.gov.co. Principios: completos, primarios, oportunos, accesibles, procesables, no discriminatorios, sin licencia, permanentes.",
+    explanation: "En la situacion descrita, el emprendedor tiene derecho a recibir los microdatos en formatos de datos abiertos (art. 7 Ley 1712). Los datos abiertos son datos publicos en formatos abiertos, estructurados, procesables por maquinas (CSV, JSON, XML, no solo PDF), sin restricciones legales, tecnicas o financieras para su uso. Deben publicarse en www.datos.gov.co. Principios: completos, primarios, oportunos, accesibles, procesables.",
     topic: "Datos abiertos"
   },
   {
     id: 40,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El plazo máximo de reserva de información clasificada es de:",
+    question: "Situacion\n\nUna entidad clasifico como reservada cierta informacion sobre un proceso de negociacion internacional hace 14 anos. Se acerca el vencimiento del plazo de reserva y el jefe juridico debe determinar si puede prorrogarse o debe desclasificarse.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿cual es el plazo maximo de reserva de informacion clasificada?",
     options: [
       "Indefinido",
       "15 años, prorrogables excepcionalmente por periodos adicionales cuando persistan las causas de reserva",
@@ -594,12 +594,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el artículo 20 de la Ley 1712 establece plazo máximo de 15 años para la reserva. Puede prorrogarse por periodos adicionales si persisten las razones que justifican la clasificación, mediante acto motivado. La reserva no es perpetua. Vencido el plazo sin prórroga, la información debe desclasificarse y publicarse. Excepción: información del sistema de inteligencia (Ley 1621/2013) puede tener reserva mayor.",
+    explanation: "En la situacion descrita, el articulo 20 de la Ley 1712 establece plazo maximo de 15 anos para la reserva. Como la informacion lleva 14 anos, si persisten las razones de la negociacion internacional, puede prorrogarse por periodos adicionales mediante acto motivado. La reserva no es perpetua. Vencido el plazo sin prorroga, la informacion debe desclasificarse y publicarse.",
     topic: "Plazo de reserva"
   },
   {
     id: 41,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. La información sobre contratación pública debe:",
+    question: "Situacion\n\nUna veeduria ciudadana quiere hacer seguimiento a un contrato de obra publica desde su planeacion hasta su liquidacion. Solicita acceso a todos los documentos del proceso contractual. El funcionario debe informarle donde puede encontrar esta informacion.\n\nPregunta\n\nSegun la situacion planteada, ¿como debe manejarse la informacion sobre contratacion publica?",
     options: [
       "Mantenerse reservada hasta finalizar el contrato",
       "Publicarse durante todas las etapas del proceso contractual en SECOP y sitio web de la entidad (principio de publicidad)",
@@ -608,12 +608,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los artículos 9 y 11 de la Ley 1712 y el Estatuto de Contratación obligan a publicar toda la información contractual: estudios previos, pliegos, adendas, ofertas, informes de evaluación, contratos, modificaciones, pagos, informes de supervisión/interventoría, actas de liquidación. Se publica en SECOP (www.colombiacompra.gov.co) y sitio web de la entidad. Principio de transparencia contractual.",
+    explanation: "En la situacion descrita, la veeduria puede acceder a toda la informacion contractual segun los articulos 9 y 11 de la Ley 1712 y el Estatuto de Contratacion: estudios previos, pliegos, adendas, ofertas, informes de evaluacion, contratos, modificaciones, pagos, informes de supervision/interventoria, actas de liquidacion. Se publica en SECOP (www.colombiacompra.gov.co) y sitio web de la entidad. Principio de transparencia contractual.",
     topic: "Publicidad en contratación"
   },
   {
     id: 42,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Las sesiones de corporaciones públicas (concejos, asambleas, congreso) son:",
+    question: "Situacion\n\nUn grupo de ciudadanos quiere asistir a la sesion del Concejo Municipal donde se discutira el presupuesto del proximo ano. El presidente del Concejo les informa que la sesion sera a puerta cerrada por decision de la mesa directiva.\n\nPregunta\n\nCon base en la situacion planteada, ¿cual es la regla sobre las sesiones de corporaciones publicas?",
     options: [
       "Siempre secretas",
       "Públicas por regla general, salvo casos excepcionales de reserva expresamente establecidos en la ley",
@@ -622,12 +622,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el artículo 133 de la Constitución establece que las sesiones de corporaciones públicas son públicas. Los ciudadanos pueden asistir. Solo pueden ser reservadas por motivos expresamente señalados en reglamentos (ej: sesiones de seguridad, evaluación de funcionarios). Las actas y votaciones deben ser públicas (transparencia legislativa).",
+    explanation: "En la situacion descrita, la decision del presidente del Concejo es incorrecta. El articulo 133 de la Constitucion establece que las sesiones de corporaciones publicas son publicas. Los ciudadanos pueden asistir a la sesion sobre presupuesto. Solo pueden ser reservadas por motivos expresamente senalados en reglamentos (ej: sesiones de seguridad, evaluacion de funcionarios). La discusion presupuestal no es causal de reserva.",
     topic: "Publicidad de sesiones"
   },
   {
     id: 43,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El monitoreo y evaluación del cumplimiento de la Ley 1712 lo realiza:",
+    question: "Situacion\n\nLa Procuraduria Regional adelanta una investigacion contra una Alcaldia por presunto incumplimiento sistematico de la Ley 1712, al no publicar informacion obligatoria ni responder solicitudes de acceso. El alcalde alega que ninguna entidad lo vigila en este tema.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿quien realiza el monitoreo y evaluacion del cumplimiento de la Ley 1712?",
     options: [
       "Cada entidad autónomamente sin control",
       "El Ministerio Público (Procuraduría), órganos de control (Contraloría, Auditoría General), y la ciudadanía mediante seguimiento y denuncias",
@@ -636,14 +636,14 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el artículo 30 de la Ley 1712 establece el monitoreo por: Procuraduría General de la Nación (vigila cumplimiento), Ministerio Público (investiga violaciones), órganos de control fiscal, y ciudadanía (denuncias). Además, se aplican indicadores de transparencia (ITA - Índice de Transparencia y Acceso a la Información de Transparencia por Colombia). El incumplimiento genera faltas disciplinarias.",
+    explanation: "En la situacion descrita, el alcalde esta equivocado. El articulo 30 de la Ley 1712 establece el monitoreo por: Procuraduria General de la Nacion (vigila cumplimiento), Ministerio Publico (investiga violaciones), organos de control fiscal, y ciudadania (denuncias). Ademas, se aplican indicadores de transparencia (ITA). El incumplimiento genera faltas disciplinarias que la Procuraduria puede sancionar.",
     topic: "Control de cumplimiento"
   },
 
   // GESTIÓN DOCUMENTAL - AVANZADO (7 preguntas)
   {
     id: 44,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El Programa de Gestión Documental (PGD) debe contener:",
+    question: "Situacion\n\nEl Archivo General de la Nacion realiza una visita de inspeccion a un municipio y solicita el Programa de Gestion Documental. El secretario general desconoce que debe contener este documento y necesita orientacion urgente.\n\nPregunta\n\nSegun la situacion planteada, ¿que debe contener el Programa de Gestion Documental (PGD)?",
     options: [
       "Solo las TRD",
       "Planeación estratégica archivística, procesos de gestión documental, TRD, plan institucional de archivos (PINAR), políticas, recursos y responsables",
@@ -652,12 +652,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el PGD (Acuerdo AGN 002/2014, Decreto 1080/2015) es el instrumento que formula y documenta la función archivística. Incluye: política archivística institucional, planeación estratégica, procesos de gestión documental (producción, recepción, distribución, trámite, organización, consulta, conservación, disposición final), TRD aprobadas, plan institucional de archivos (PINAR), recursos, responsables, y cronograma.",
+    explanation: "En la situacion descrita, el secretario debe saber que el PGD (Acuerdo AGN 002/2014, Decreto 1080/2015) es el instrumento que formula y documenta la funcion archivistica. Incluye: politica archivistica institucional, planeacion estrategica, procesos de gestion documental (produccion, recepcion, distribucion, tramite, organizacion, consulta, conservacion, disposicion final), TRD aprobadas, plan institucional de archivos (PINAR), recursos, responsables, y cronograma.",
     topic: "Programa de Gestión Documental"
   },
   {
     id: 45,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El ciclo vital del documento contempla las fases:",
+    question: "Situacion\n\nEl jefe de archivo de una entidad debe organizar las transferencias documentales del ano y explicar a los funcionarios de las oficinas productoras el ciclo de vida de los documentos y por que deben transferir sus expedientes cerrados al archivo central.\n\nPregunta\n\nCon base en la situacion planteada, ¿cuales son las fases que contempla el ciclo vital del documento?",
     options: [
       "Solo creación y archivo",
       "Archivo de gestión (trámite y consulta frecuente), archivo central (consulta esporádica, precautoria y jurídica), y archivo histórico (conservación permanente por valor cultural)",
@@ -666,12 +666,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el ciclo vital del documento (teoría de las tres edades) comprende: 1) Archivo de Gestión (oficina productora, documentos activos, consulta frecuente); 2) Archivo Central (documentos semi-activos, consulta ocasional, conservación precautoria); 3) Archivo Histórico (documentos inactivos con valor histórico, cultural, científico, conservación permanente). Las TRD establecen tiempos en cada fase.",
+    explanation: "En la situacion descrita, el jefe de archivo debe explicar el ciclo vital del documento (teoria de las tres edades): 1) Archivo de Gestion (oficina productora, documentos activos, consulta frecuente); 2) Archivo Central (documentos semi-activos, consulta ocasional, conservacion precautoria); 3) Archivo Historico (documentos inactivos con valor historico, cultural, cientifico, conservacion permanente). Las TRD establecen tiempos en cada fase.",
     topic: "Ciclo vital del documento"
   },
   {
     id: 46,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. Las transferencias documentales primarias son:",
+    question: "Situacion\n\nLa coordinadora del archivo de gestion de la Secretaria de Salud debe preparar la transferencia de los expedientes de PQRSD del ano 2020 al archivo central, ya que cumplieron el tiempo de retencion establecido en las TRD. Necesita saber el procedimiento correcto.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que son las transferencias documentales primarias?",
     options: [
       "Cualquier movimiento de documentos",
       "El traslado de documentos del archivo de gestión al archivo central, una vez cumplido el tiempo de retención en gestión establecido en las TRD",
@@ -680,12 +680,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, las transferencias primarias (Acuerdo AGN 004/2019) trasladan documentos de archivo de gestión (oficinas) a archivo central (entidad), según tiempos de retención en TRD. Las transferencias secundarias son de archivo central a archivo histórico. Deben elaborarse inventarios documentales (formato único de inventario - FUI), verificar organización, y documentar la entrega.",
+    explanation: "En la situacion descrita, la coordinadora debe realizar una transferencia primaria (Acuerdo AGN 004/2019): traslado de los expedientes de PQRSD 2020 del archivo de gestion al archivo central, segun tiempos de retencion en TRD. Debe elaborar inventarios documentales (formato unico de inventario - FUI), verificar organizacion, y documentar la entrega.",
     topic: "Transferencias documentales"
   },
   {
     id: 47,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. La valoración documental determina:",
+    question: "Situacion\n\nEl comite de archivo de una entidad debe revisar las Tablas de Retencion Documental para determinar cuales series documentales deben conservarse permanentemente y cuales pueden eliminarse una vez cumplan sus tiempos de retencion. Necesitan aplicar criterios de valoracion documental.\n\nPregunta\n\nSegun la situacion planteada, ¿que determina la valoracion documental?",
     options: [
       "Solo el precio de los documentos",
       "Los valores primarios (administrativo, legal, fiscal, contable) y secundarios (histórico, cultural, científico) para establecer tiempos de retención y disposición final",
@@ -694,12 +694,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la valoración documental identifica valores: Primarios (administrativo, jurídico-legal, fiscal-contable, técnico) que justifican retención durante trámite y precaución; Secundarios (histórico, científico, cultural) que justifican conservación permanente. La valoración fundamenta las TRD: documentos con solo valores primarios se eliminan tras cumplir plazos; documentos con valores secundarios se conservan.",
+    explanation: "En la situacion descrita, el comite debe aplicar la valoracion documental que identifica valores: Primarios (administrativo, juridico-legal, fiscal-contable, tecnico) que justifican retencion durante tramite y precaucion; Secundarios (historico, cientifico, cultural) que justifican conservacion permanente. Documentos con solo valores primarios se eliminan tras cumplir plazos; documentos con valores secundarios se conservan.",
     topic: "Valoración documental"
   },
   {
     id: 48,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El foliado de documentos consiste en:",
+    question: "Situacion\n\nUn auxiliar de archivo esta organizando un expediente de PQRSD que contiene 45 documentos en diferentes formatos. El coordinador de archivo le indica que debe foliar correctamente el expediente antes de transferirlo. El auxiliar necesita conocer la tecnica correcta.\n\nPregunta\n\nCon base en la situacion planteada, ¿en que consiste el foliado de documentos?",
     options: [
       "Solo contar las hojas",
       "Numerar secuencialmente los folios (hojas) de un expediente en la esquina superior derecha del recto, con numeración única por expediente",
@@ -708,12 +708,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el foliado (Acuerdo AGN 027/2006) numera consecutivamente cada folio (hoja) del expediente. Se escribe con lápiz (permite corrección) en la esquina superior derecha del recto (cara frontal), de manera legible, sin enmendaduras. No se numera el verso. Los anexos (CD, planos) van en sobre identificado e inventariado. Garantiza integridad y orden del expediente.",
+    explanation: "En la situacion descrita, el auxiliar debe aplicar el foliado segun el Acuerdo AGN 027/2006: numerar consecutivamente cada folio (hoja) del expediente de PQRSD. Se escribe con lapiz (permite correccion) en la esquina superior derecha del recto (cara frontal), de manera legible, sin enmendaduras. No se numera el verso. Los anexos (CD, planos) van en sobre identificado e inventariado. Garantiza integridad y orden del expediente.",
     topic: "Foliado"
   },
   {
     id: 49,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. La eliminación de documentos debe:",
+    question: "Situacion\n\nEl jefe de archivo debe eliminar 500 cajas de documentos que cumplieron su tiempo de retencion y tienen disposicion final \"E\" (eliminacion) en las TRD. Un funcionario sugiere simplemente botarlas en la basura para ahorrar tiempo y costos.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿como debe realizarse la eliminacion de documentos?",
     options: [
       "Hacerse discrecionalmente por cualquier funcionario",
       "Estar autorizada en TRD aprobadas, previa selección por comité evaluador de documentos, con acta que registre la eliminación y métodos que garanticen destrucción irreversible",
@@ -722,12 +722,12 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la eliminación (Acuerdo AGN 004/2019) solo procede para documentos que: 1) Tienen disposición final 'E' en TRD aprobada; 2) Cumplieron tiempos de retención; 3) No tienen valores secundarios; 4) Fueron evaluados por comité. Requiere acta de eliminación firmada (responsable, fechas, series, cantidad). Métodos: trituración, incineración controlada, o reciclaje con destrucción previa garantizada.",
+    explanation: "En la situacion descrita, la sugerencia del funcionario es incorrecta. La eliminacion (Acuerdo AGN 004/2019) solo procede para documentos que: 1) Tienen disposicion final 'E' en TRD aprobada; 2) Cumplieron tiempos de retencion; 3) Fueron evaluados por comite. Requiere acta de eliminacion firmada (responsable, fechas, series, cantidad). Metodos: trituracion, incineracion controlada, o reciclaje con destruccion previa garantizada.",
     topic: "Eliminación documental"
   },
   {
     id: 50,
-    question: "Lectura: La oficina de PQRSD enfrenta un aumento de solicitudes y debe asegurar respuesta oportuna y trazabilidad. El sistema de gestión de documentos electrónicos de archivo (SGDEA) debe garantizar:",
+    question: "Situacion\n\nLa entidad implementara un nuevo sistema de gestion documental electronica para tramitar todas las PQRSD de manera digital. El comite de archivo debe definir los requisitos tecnicos que debe cumplir el sistema para garantizar la validez de los documentos electronicos.\n\nPregunta\n\nSegun la situacion planteada, ¿que debe garantizar el sistema de gestion de documentos electronicos de archivo (SGDEA)?",
     options: [
       "Solo almacenar archivos en computador",
       "Autenticidad, integridad, fiabilidad, disponibilidad y trazabilidad de documentos electrónicos durante todo su ciclo de vida, cumpliendo estándares como ISO 15489 y normas AGN",
@@ -736,7 +736,7 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El SGDEA debe cumplir (Acuerdo AGN 003/2015, ISO 15489, MoReq): Autenticidad (garantía de que el documento es lo que dice ser), Integridad (completo sin alteraciones), Fiabilidad (representación fiel de transacciones), Disponibilidad (localizable y accesible), y Trazabilidad (registro de operaciones). Incluye: metadatos, firma electrónica, timestamping, logs de auditoría, preservación digital a largo plazo.",
+    explanation: "En la situacion descrita, el SGDEA para PQRSD debe cumplir (Acuerdo AGN 003/2015, ISO 15489, MoReq): Autenticidad (garantia de que el documento es lo que dice ser), Integridad (completo sin alteraciones), Fiabilidad (representacion fiel de transacciones), Disponibilidad (localizable y accesible), y Trazabilidad (registro de operaciones). Incluye: metadatos, firma electronica, timestamping, logs de auditoria, preservacion digital a largo plazo.",
     topic: "Gestión documental electrónica"
   }
 ]
@@ -822,7 +822,7 @@ export function PqrsdTest() {
             <Card key={q.id} className="border-blue-200">
               <CardHeader>
                 <CardTitle className="text-lg flex items-start justify-between">
-                  <span className="flex-1">
+                  <span className="flex-1 whitespace-pre-line">
                     {q.id}. {q.question}
                   </span>
                   <span className="text-sm font-normal text-muted-foreground ml-2">
@@ -880,7 +880,7 @@ export function PqrsdTest() {
             <Card key={q.id} className="border-blue-200">
               <CardHeader>
                 <CardTitle className="text-lg flex items-start justify-between">
-                  <span className="flex-1">
+                  <span className="flex-1 whitespace-pre-line">
                     {q.id}. {q.question}
                   </span>
                   <span className="text-sm font-normal text-muted-foreground ml-2">

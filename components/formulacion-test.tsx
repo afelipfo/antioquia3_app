@@ -25,355 +25,355 @@ const questionsV1: Question[] = [
   // Ciclo del proyecto
   {
     id: 1,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El ciclo de vida de un proyecto público en Colombia comprende las siguientes fases:",
+    question: "Situacion\n\nEl equipo de planeacion del municipio de Envigado esta iniciando la estructuracion de un proyecto de infraestructura vial. El director de planeacion solicita al equipo que identifique claramente las fases que atravesara el proyecto desde su concepcion hasta su operacion.\n\nPregunta\n\nSegun la situacion descrita, ¿cuales son las fases que comprende el ciclo de vida de un proyecto publico en Colombia?",
     options: [
-      "Solo formulación y ejecución",
-      "Pre-inversión, inversión y operación",
-      "Identificación, diseño y construcción",
-      "Planeación, contratación y entrega"
+      "Solo formulacion y ejecucion",
+      "Pre-inversion, inversion y operacion",
+      "Identificacion, diseno y construccion",
+      "Planeacion, contratacion y entrega"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El ciclo de vida de un proyecto público comprende: Pre-inversión (identificación, formulación y evaluación ex-ante), Inversión (ejecución y seguimiento) y Operación (funcionamiento, evaluación ex-post y sostenibilidad).",
+    explanation: "En la situacion del municipio de Envigado, el ciclo de vida del proyecto de infraestructura vial comprende: Pre-inversion (identificacion, formulacion y evaluacion ex-ante), Inversion (ejecucion y seguimiento) y Operacion (funcionamiento, evaluacion ex-post y sostenibilidad). Esta estructura permite al equipo planificar cada etapa adecuadamente.",
     topic: "Ciclo del proyecto"
   },
   {
     id: 2,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La fase de pre-inversión de un proyecto incluye:",
+    question: "Situacion\n\nLa Secretaria de Planeacion de Medellin esta evaluando un proyecto de mejoramiento de parques urbanos. Antes de solicitar recursos al Concejo Municipal, necesitan completar todos los estudios y analisis previos que sustenten la viabilidad del proyecto.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿que incluye la fase de pre-inversion del proyecto?",
     options: [
-      "Solo la ejecución de obras",
-      "La identificación del problema, formulación de alternativas, evaluación ex-ante y estructuración técnica, legal y financiera",
-      "Únicamente la consecución de recursos financieros",
-      "Solo la contratación de consultores"
+      "Solo la ejecucion de obras",
+      "La identificacion del problema, formulacion de alternativas, evaluacion ex-ante y estructuracion tecnica, legal y financiera",
+      "Unicamente la consecucion de recursos financieros",
+      "Solo la contratacion de consultores"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la fase de pre-inversión comprende la identificación del problema o necesidad, formulación de alternativas de solución, evaluación ex-ante de viabilidad técnica, económica, social y ambiental, y la estructuración del proyecto.",
-    topic: "Fase de pre-inversión"
+    explanation: "En la situacion de la Secretaria de Planeacion de Medellin, la fase de pre-inversion comprende la identificacion del problema o necesidad de mejoramiento de parques, formulacion de alternativas de solucion, evaluacion ex-ante de viabilidad tecnica, economica, social y ambiental, y la estructuracion del proyecto antes de presentarlo al Concejo.",
+    topic: "Fase de pre-inversion"
   },
   {
     id: 3,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El diagnóstico del problema en la formulación de un proyecto debe incluir:",
+    question: "Situacion\n\nUn equipo tecnico del municipio de Rionegro esta formulando un proyecto para mejorar el acueducto rural de la vereda El Tablazo. El coordinador del proyecto indica que primero deben realizar un diagnostico completo de la problematica antes de proponer soluciones.\n\nPregunta\n\nCon base en la situacion descrita, ¿que debe incluir el diagnostico del problema?",
     options: [
-      "Solo la descripción general de la situación",
-      "La identificación del problema central, sus causas directas e indirectas, efectos, población afectada, magnitud y localización geográfica",
-      "Únicamente las quejas de la comunidad",
-      "Solo estadísticas generales del sector"
+      "Solo la descripcion general de la situacion",
+      "La identificacion del problema central, sus causas directas e indirectas, efectos, poblacion afectada, magnitud y localizacion geografica",
+      "Unicamente las quejas de la comunidad",
+      "Solo estadisticas generales del sector"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el diagnóstico debe identificar el problema central (situación negativa), sus causas directas e indirectas (árbol de causas), efectos, población y área afectada, magnitud cuantitativa y cualitativa, y localización geográfica precisa.",
-    topic: "Diagnóstico del problema"
+    explanation: "En la situacion del acueducto rural de El Tablazo, el diagnostico debe identificar el problema central (deficiencia en el servicio de agua), sus causas directas e indirectas (infraestructura obsoleta, fugas, baja presion), efectos (enfermedades, escasez), poblacion afectada (habitantes de la vereda), magnitud cuantitativa y localizacion geografica precisa.",
+    topic: "Diagnostico del problema"
   },
   {
     id: 4,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Las alternativas de solución en un proyecto deben:",
+    question: "Situacion\n\nLa Gobernacion de Antioquia esta formulando un proyecto de construccion de un centro de salud en el municipio de Sonson. El equipo tecnico ha identificado el problema y ahora debe proponer diferentes formas de solucionarlo para seleccionar la mas adecuada.\n\nPregunta\n\nSegun la situacion planteada, ¿como deben manejarse las alternativas de solucion en el proyecto?",
     options: [
-      "Presentar solo una única opción predefinida",
-      "Considerar mínimo dos alternativas viables, comparándolas técnica, económica y ambientalmente para seleccionar la óptima",
-      "Elegirse al azar sin análisis previo",
-      "Basarse únicamente en el menor costo"
+      "Presentar solo una unica opcion predefinida",
+      "Considerar minimo dos alternativas viables, comparandolas tecnica, economica y ambientalmente para seleccionar la optima",
+      "Elegirse al azar sin analisis previo",
+      "Basarse unicamente en el menor costo"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, se deben formular y evaluar mínimo dos alternativas de solución técnicamente viables, comparándolas en aspectos técnicos, económicos, sociales, ambientales e institucionales, para seleccionar la alternativa óptima mediante criterios objetivos.",
-    topic: "Formulación de alternativas"
+    explanation: "En la situacion del centro de salud de Sonson, se deben formular y evaluar minimo dos alternativas de solucion tecnicamente viables (por ejemplo, construir nuevo vs. ampliar existente), comparandolas en aspectos tecnicos, economicos, sociales, ambientales e institucionales, para seleccionar la alternativa optima mediante criterios objetivos.",
+    topic: "Formulacion de alternativas"
   },
   {
     id: 5,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Los estudios de pre-factibilidad de un proyecto de infraestructura deben incluir:",
+    question: "Situacion\n\nEl municipio de Bello esta desarrollando un proyecto de construccion de un puente vehicular sobre la quebrada La Garcia. El ingeniero lider del proyecto necesita sustentar tecnicamente la viabilidad antes de avanzar a la fase de factibilidad.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que deben incluir los estudios de pre-factibilidad del proyecto?",
     options: [
       "Solo el presupuesto estimado",
-      "Estudios topográficos, geotécnicos, hidrológicos, ambientales, de demanda, técnicos y financieros que sustenten la viabilidad del proyecto",
-      "Únicamente el cronograma de ejecución",
-      "Solo la aprobación de la comunidad"
+      "Estudios topograficos, geotecnicos, hidrologicos, ambientales, de demanda, tecnicos y financieros que sustenten la viabilidad del proyecto",
+      "Unicamente el cronograma de ejecucion",
+      "Solo la aprobacion de la comunidad"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los estudios de pre-factibilidad deben incluir: levantamientos topográficos, estudios geotécnicos y de suelos, análisis hidrológicos, estudios de impacto ambiental, análisis de demanda, diseños preliminares, costos estimados y evaluación financiera.",
+    explanation: "En la situacion del puente sobre la quebrada La Garcia, los estudios de pre-factibilidad deben incluir: levantamientos topograficos del sitio, estudios geotecnicos y de suelos, analisis hidrologicos de la quebrada, estudios de impacto ambiental, analisis de demanda vehicular, disenos preliminares, costos estimados y evaluacion financiera.",
     topic: "Estudios de pre-factibilidad"
   },
   {
     id: 6,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La evaluación ex-ante de un proyecto busca:",
+    question: "Situacion\n\nLa Secretaria de Educacion de Itagui ha formulado un proyecto para construir una nueva institucion educativa en el barrio Santa Maria. Antes de incluirlo en el presupuesto, el Comite de Proyectos debe verificar si el proyecto merece ser ejecutado con recursos publicos.\n\nPregunta\n\nCon base en la situacion planteada, ¿que busca la evaluacion ex-ante del proyecto?",
     options: [
       "Solo cumplir un requisito formal",
-      "Determinar la viabilidad técnica, económica, social, ambiental e institucional del proyecto antes de su ejecución, y comparar los beneficios con los costos",
-      "Únicamente justificar el gasto público",
-      "Aprobar automáticamente todos los proyectos"
+      "Determinar la viabilidad tecnica, economica, social, ambiental e institucional del proyecto antes de su ejecucion, y comparar los beneficios con los costos",
+      "Unicamente justificar el gasto publico",
+      "Aprobar automaticamente todos los proyectos"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la evaluación ex-ante determina si el proyecto es viable técnica, económica, social, ambiental e institucionalmente, compara beneficios esperados con costos, y establece si el proyecto merece ser ejecutado con recursos públicos.",
-    topic: "Evaluación ex-ante"
+    explanation: "En la situacion de la institucion educativa de Santa Maria, la evaluacion ex-ante determina si el proyecto es viable tecnica, economica, social, ambiental e institucionalmente, compara los beneficios esperados (cobertura educativa, calidad) con los costos de construccion y operacion, estableciendo si merece ser ejecutado con recursos publicos.",
+    topic: "Evaluacion ex-ante"
   },
-  // MGA - Metodología General Ajustada
+  // MGA - Metodologia General Ajustada
   {
     id: 7,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La Metodología General Ajustada (MGA) es:",
+    question: "Situacion\n\nUn funcionario recien contratado en la oficina de planeacion del municipio de Caldas debe registrar un proyecto de alcantarillado en el sistema oficial. Su jefe le indica que debe utilizar la herramienta establecida por el DNP para la formulacion de proyectos publicos.\n\nPregunta\n\nSegun la situacion descrita, ¿que es la Metodologia General Ajustada (MGA)?",
     options: [
-      "Una guía opcional para formular proyectos privados",
-      "La herramienta oficial del DNP para formular, registrar y evaluar proyectos de inversión pública en Colombia",
+      "Una guia opcional para formular proyectos privados",
+      "La herramienta oficial del DNP para formular, registrar y evaluar proyectos de inversion publica en Colombia",
       "Un software de contabilidad gubernamental",
-      "Una metodología exclusiva para proyectos internacionales"
+      "Una metodologia exclusiva para proyectos internacionales"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la MGA es la herramienta metodológica del Departamento Nacional de Planeación (DNP) para identificar, formular, registrar y evaluar proyectos de inversión pública en Colombia. Es de uso obligatorio para proyectos financiados con recursos públicos.",
+    explanation: "En la situacion del municipio de Caldas, la MGA es la herramienta metodologica del Departamento Nacional de Planeacion (DNP) para identificar, formular, registrar y evaluar proyectos de inversion publica en Colombia. Es de uso obligatorio para el proyecto de alcantarillado ya que sera financiado con recursos publicos.",
     topic: "MGA - Concepto"
   },
   {
     id: 8,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El Banco de Programas y Proyectos de Inversión Nacional (BPIN) es:",
+    question: "Situacion\n\nEl Departamento de Antioquia ha aprobado un proyecto de mejoramiento de vias terciarias financiado con recursos del Presupuesto General de la Nacion. El coordinador del proyecto debe asegurarse de que este debidamente registrado en el sistema de informacion correspondiente.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿que es el Banco de Programas y Proyectos de Inversion Nacional (BPIN)?",
     options: [
       "Un banco comercial que financia proyectos",
-      "El sistema de información donde se registran, clasifican y reportan los proyectos de inversión pública que son financiados con recursos del Presupuesto General de la Nación",
+      "El sistema de informacion donde se registran, clasifican y reportan los proyectos de inversion publica que son financiados con recursos del Presupuesto General de la Nacion",
       "Una base de datos de contratistas del Estado",
-      "Un archivo de normas sobre inversión pública"
+      "Un archivo de normas sobre inversion publica"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el BPIN es el sistema de información donde se registran, clasifican, programan y reportan los proyectos de inversión pública financiados con recursos del Presupuesto General de la Nación. Todo proyecto de inversión nacional debe estar registrado en el BPIN.",
+    explanation: "En la situacion del proyecto de vias terciarias de Antioquia, el BPIN es el sistema de informacion donde se registran, clasifican, programan y reportan los proyectos de inversion publica financiados con recursos del Presupuesto General de la Nacion. El proyecto de vias debe estar registrado obligatoriamente en el BPIN.",
     topic: "BPIN"
   },
   {
     id: 9,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Los módulos principales de la MGA Web son:",
+    question: "Situacion\n\nUna profesional de la oficina de proyectos del municipio de La Estrella esta capacitando a su equipo en el uso de la MGA Web. Necesita explicarles la estructura general de la herramienta y los modulos que deben diligenciar para formular correctamente un proyecto.\n\nPregunta\n\nCon base en la situacion descrita, ¿cuales son los modulos principales de la MGA Web?",
     options: [
-      "Solo identificación y presupuesto",
-      "Identificación, preparación (componentes técnicos, localización, costos), programación y seguimiento",
-      "Únicamente diagnóstico y conclusiones",
+      "Solo identificacion y presupuesto",
+      "Identificacion, preparacion (componentes tecnicos, localizacion, costos), programacion y seguimiento",
+      "Unicamente diagnostico y conclusiones",
       "Solo cronograma y presupuesto"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la MGA Web comprende los módulos de: Identificación (problema, objetivos, alternativas, población), Preparación (componentes técnicos, localización, costos, ingresos, fuentes de financiación, indicadores), Programación y Seguimiento de la ejecución.",
-    topic: "Módulos de la MGA"
+    explanation: "En la situacion de la capacitacion en La Estrella, la MGA Web comprende los modulos de: Identificacion (problema, objetivos, alternativas, poblacion), Preparacion (componentes tecnicos, localizacion, costos, ingresos, fuentes de financiacion, indicadores), Programacion y Seguimiento de la ejecucion. Estos modulos guian la formulacion completa del proyecto.",
+    topic: "Modulos de la MGA"
   },
   {
     id: 10,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. En el módulo de identificación de la MGA, se debe:",
+    question: "Situacion\n\nEl equipo de planeacion de Copacabana esta iniciando el registro de un proyecto de vivienda de interes social en la MGA. El profesional a cargo debe completar el primer modulo de la herramienta con toda la informacion relacionada con la identificacion del problema y la solucion propuesta.\n\nPregunta\n\nSegun la situacion planteada, ¿que se debe incluir en el modulo de identificacion de la MGA?",
     options: [
       "Solo nombrar el proyecto",
-      "Describir el problema central, sus causas y efectos, definir el objetivo general y específicos, identificar la población afectada y beneficiaria, y plantear alternativas de solución",
-      "Únicamente estimar costos generales",
+      "Describir el problema central, sus causas y efectos, definir el objetivo general y especificos, identificar la poblacion afectada y beneficiaria, y plantear alternativas de solucion",
+      "Unicamente estimar costos generales",
       "Solo definir el cronograma"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el módulo de identificación requiere: descripción del problema central con sus causas y efectos (árbol de problemas), definición del objetivo general y específicos (árbol de objetivos), identificación de población afectada y beneficiaria, y planteamiento de alternativas de solución.",
-    topic: "Módulo de identificación - MGA"
+    explanation: "En la situacion del proyecto de vivienda en Copacabana, el modulo de identificacion requiere: descripcion del problema central de deficit habitacional con sus causas y efectos (arbol de problemas), definicion del objetivo general y especificos (arbol de objetivos), identificacion de familias afectadas y beneficiarias, y planteamiento de alternativas de solucion.",
+    topic: "Modulo de identificacion - MGA"
   },
   {
     id: 11,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Al registrar un proyecto en la MGA, la clasificación sectorial se refiere a:",
+    question: "Situacion\n\nUn profesional del municipio de Girardota esta registrando un proyecto de ampliacion de la planta de tratamiento de aguas residuales en la MGA. Al momento de clasificar el proyecto, debe indicar a que sector pertenece para efectos de seguimiento y reporte.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿a que se refiere la clasificacion sectorial en la MGA?",
     options: [
       "El tipo de contrato a utilizar",
-      "El sector económico o social al que pertenece el proyecto: educación, salud, transporte, agua potable, vivienda, etc.",
+      "El sector economico o social al que pertenece el proyecto: educacion, salud, transporte, agua potable, vivienda, etc.",
       "Solo el presupuesto asignado",
-      "La región geográfica del proyecto"
+      "La region geografica del proyecto"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la clasificación sectorial identifica el sector económico o social al que pertenece el proyecto según el Sistema General de Regalías: educación, salud, transporte, agua potable y saneamiento básico, vivienda, agricultura, etc.",
-    topic: "Clasificación sectorial - MGA"
+    explanation: "En la situacion del proyecto de la planta de tratamiento en Girardota, la clasificacion sectorial identifica que el proyecto pertenece al sector de agua potable y saneamiento basico. Esta clasificacion es importante para el seguimiento, reporte estadistico y asignacion de recursos segun el Sistema General de Regalias.",
+    topic: "Clasificacion sectorial - MGA"
   },
   {
     id: 12,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La definición de componentes y actividades en la MGA implica:",
+    question: "Situacion\n\nLa Secretaria de Obras Publicas de Sabaneta esta formulando un proyecto de construccion de escenarios deportivos. El ingeniero encargado debe estructurar el proyecto desagregando las obras principales y las tareas necesarias para ejecutar cada una de ellas.\n\nPregunta\n\nCon base en la situacion planteada, ¿que implica la definicion de componentes y actividades en la MGA?",
     options: [
       "Listar tareas sin estructura",
-      "Desagregar el proyecto en componentes (productos), cada uno con sus actividades específicas, responsables, cronograma y costos",
+      "Desagregar el proyecto en componentes (productos), cada uno con sus actividades especificas, responsables, cronograma y costos",
       "Solo mencionar el objetivo final",
       "Copiar componentes de otros proyectos"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los componentes son los productos o resultados específicos del proyecto. Cada componente se desagrega en actividades con sus respectivos responsables, cronograma de ejecución, costos detallados y metas cuantificables.",
+    explanation: "En la situacion del proyecto de escenarios deportivos en Sabaneta, los componentes son los productos especificos (cancha de futbol, pista atletica, graderia). Cada componente se desagrega en actividades (excavacion, cimentacion, estructura) con sus respectivos responsables, cronograma de ejecucion, costos detallados y metas cuantificables.",
     topic: "Componentes y actividades - MGA"
   },
   {
     id: 13,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La localización geográfica en la MGA debe especificar:",
+    question: "Situacion\n\nEl municipio de Barbosa esta formulando un proyecto de construccion de un centro de acopio agricola. Al diligenciar la MGA, el profesional debe indicar con precision el sitio exacto donde se ejecutara la obra para facilitar el seguimiento y la evaluacion.\n\nPregunta\n\nSegun la situacion descrita, ¿que debe especificar la localizacion geografica en la MGA?",
     options: [
       "Solo el nombre del municipio",
-      "El departamento, municipio, zona urbana o rural, coordenadas geográficas y dirección específica donde se ejecutará el proyecto",
-      "Únicamente la región del país",
-      "Solo la dirección postal"
+      "El departamento, municipio, zona urbana o rural, coordenadas geograficas y direccion especifica donde se ejecutara el proyecto",
+      "Unicamente la region del pais",
+      "Solo la direccion postal"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la localización geográfica debe ser precisa: departamento, municipio, área urbana o rural, coordenadas geográficas (latitud y longitud), dirección específica o descripción del sitio de intervención, para facilitar el seguimiento y evaluación.",
-    topic: "Localización geográfica - MGA"
+    explanation: "En la situacion del centro de acopio en Barbosa, la localizacion geografica debe ser precisa: departamento (Antioquia), municipio (Barbosa), area rural, coordenadas geograficas (latitud y longitud del predio), direccion especifica o descripcion del sitio de intervencion, para facilitar el seguimiento y evaluacion del proyecto.",
+    topic: "Localizacion geografica - MGA"
   },
   {
     id: 14,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Las fuentes de financiación de un proyecto en la MGA pueden incluir:",
+    question: "Situacion\n\nEl municipio de Guarne esta formulando un proyecto de mejoramiento de instituciones educativas rurales. El proyecto sera financiado con diferentes fuentes de recursos, por lo que el profesional debe identificar claramente cada una de ellas en la MGA.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿cuales pueden ser las fuentes de financiacion de un proyecto en la MGA?",
     options: [
       "Solo recursos del presupuesto nacional",
-      "Presupuesto nacional, regalías, SGP (Sistema General de Participaciones), recursos propios, crédito, cooperación internacional y cofinanciación",
-      "Únicamente donaciones",
-      "Solo créditos bancarios"
+      "Presupuesto nacional, regalias, SGP (Sistema General de Participaciones), recursos propios, credito, cooperacion internacional y cofinanciacion",
+      "Unicamente donaciones",
+      "Solo creditos bancarios"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, las fuentes de financiación pueden ser: recursos del Presupuesto General de la Nación, regalías, SGP, recursos propios de la entidad territorial, crédito interno o externo, cooperación internacional, cofinanciación con otras entidades, entre otras.",
-    topic: "Fuentes de financiación - MGA"
+    explanation: "En la situacion del proyecto educativo en Guarne, las fuentes de financiacion pueden ser: recursos del Presupuesto General de la Nacion, regalias, SGP (componente educacion), recursos propios del municipio, credito interno o externo, cooperacion internacional, cofinanciacion con el Departamento o la Nacion, entre otras.",
+    topic: "Fuentes de financiacion - MGA"
   },
-  // Marco lógico
+  // Marco logico
   {
     id: 15,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La Matriz de Marco Lógico (MML) es una herramienta que:",
+    question: "Situacion\n\nEl equipo de formulacion de proyectos del municipio de El Carmen de Viboral necesita presentar de manera estructurada un proyecto de fortalecimiento de cadenas productivas. El director solicita utilizar una herramienta que muestre claramente la logica del proyecto y como se medira su exito.\n\nPregunta\n\nCon base en la situacion descrita, ¿que es la Matriz de Marco Logico (MML)?",
     options: [
       "Solo sirve para elaborar presupuestos",
-      "Presenta de forma sistemática y lógica los objetivos, resultados, actividades, indicadores, medios de verificación y supuestos del proyecto",
-      "Únicamente lista las actividades del proyecto",
+      "Presenta de forma sistematica y logica los objetivos, resultados, actividades, indicadores, medios de verificacion y supuestos del proyecto",
+      "Unicamente lista las actividades del proyecto",
       "Solo se usa en proyectos internacionales"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la MML es una herramienta de planificación que presenta de manera sistemática y lógica: los objetivos del proyecto (fin, propósito), los resultados esperados (componentes), las actividades, indicadores verificables, medios de verificación y supuestos críticos.",
-    topic: "Matriz de Marco Lógico"
+    explanation: "En la situacion del proyecto de cadenas productivas en El Carmen de Viboral, la MML es una herramienta de planificacion que presenta de manera sistematica y logica: los objetivos del proyecto (fin, proposito), los resultados esperados (componentes), las actividades, indicadores verificables, medios de verificacion y supuestos criticos.",
+    topic: "Matriz de Marco Logico"
   },
   {
     id: 16,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. En la Matriz de Marco Lógico, el 'Fin' se refiere a:",
+    question: "Situacion\n\nLa oficina de planeacion del municipio de Marinilla esta elaborando la Matriz de Marco Logico para un proyecto de agua potable rural. Al definir el primer nivel de la matriz, deben establecer el objetivo de desarrollo de largo plazo al cual contribuira el proyecto.\n\nPregunta\n\nSegun la situacion planteada, ¿a que se refiere el 'Fin' en la Matriz de Marco Logico?",
     options: [
-      "La terminación del proyecto",
+      "La terminacion del proyecto",
       "El objetivo de desarrollo de largo plazo al cual contribuye el proyecto, es decir, el impacto esperado en la sociedad o sector",
       "El presupuesto final del proyecto",
       "La fecha de entrega del proyecto"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el 'Fin' es el objetivo de desarrollo de largo plazo al cual el proyecto contribuye. Representa el impacto esperado en términos de desarrollo económico, social o ambiental. El proyecto por sí solo no alcanza el Fin, sino que contribuye a él.",
-    topic: "Fin - Marco Lógico"
+    explanation: "En la situacion del proyecto de agua potable en Marinilla, el 'Fin' es el objetivo de desarrollo de largo plazo: 'Mejorar la calidad de vida y la salud de la poblacion rural del municipio'. El proyecto por si solo no alcanza el Fin, pero contribuye a el junto con otras intervenciones en salud, saneamiento y educacion.",
+    topic: "Fin - Marco Logico"
   },
   {
     id: 17,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El 'Propósito' en la Matriz de Marco Lógico representa:",
+    question: "Situacion\n\nEl equipo tecnico del municipio de El Retiro esta construyendo la Matriz de Marco Logico para un proyecto de pavimentacion de vias urbanas. Necesitan definir el cambio directo que se espera lograr en los beneficiarios una vez finalice el proyecto.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que representa el 'Proposito' en la Matriz de Marco Logico?",
     options: [
       "Las actividades del proyecto",
-      "El efecto directo esperado al finalizar el proyecto, es decir, el cambio que se logrará en la población objetivo",
+      "El efecto directo esperado al finalizar el proyecto, es decir, el cambio que se lograra en la poblacion objetivo",
       "Los recursos disponibles",
       "El nombre del proyecto"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el 'Propósito' es el efecto directo o cambio esperado como resultado de utilizar los componentes (productos) del proyecto. Describe el beneficio que recibirá la población objetivo una vez concluido el proyecto exitosamente.",
-    topic: "Propósito - Marco Lógico"
+    explanation: "En la situacion del proyecto de pavimentacion en El Retiro, el 'Proposito' es el efecto directo esperado: 'Los habitantes del sector cuentan con vias urbanas en buen estado que mejoran su movilidad y acceso a servicios'. Describe el beneficio que recibira la poblacion objetivo una vez concluido el proyecto.",
+    topic: "Proposito - Marco Logico"
   },
   {
     id: 18,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Los 'Componentes' en la Matriz de Marco Lógico son:",
+    question: "Situacion\n\nLa Secretaria de Desarrollo Economico del municipio de La Ceja esta formulando un proyecto de apoyo al emprendimiento local. Al elaborar la Matriz de Marco Logico, deben identificar los productos concretos que entregara el proyecto durante su ejecucion.\n\nPregunta\n\nCon base en la situacion planteada, ¿que son los 'Componentes' en la Matriz de Marco Logico?",
     options: [
       "Los problemas identificados",
-      "Los productos, obras, servicios o resultados específicos que debe generar el proyecto durante su ejecución",
-      "Los obstáculos del proyecto",
-      "Las fuentes de financiación"
+      "Los productos, obras, servicios o resultados especificos que debe generar el proyecto durante su ejecucion",
+      "Los obstaculos del proyecto",
+      "Las fuentes de financiacion"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los 'Componentes' son los productos, obras, bienes, servicios o resultados específicos que el proyecto debe generar y entregar durante su ejecución. Son necesarios y suficientes para lograr el Propósito del proyecto.",
-    topic: "Componentes - Marco Lógico"
+    explanation: "En la situacion del proyecto de emprendimiento en La Ceja, los 'Componentes' son los productos especificos que se entregaran: 'Emprendedores capacitados', 'Capital semilla entregado', 'Asesoria tecnica brindada'. Son los bienes, servicios o resultados necesarios y suficientes para lograr el Proposito del proyecto.",
+    topic: "Componentes - Marco Logico"
   },
   {
     id: 19,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El árbol de problemas sirve para:",
+    question: "Situacion\n\nUn equipo de la oficina de planeacion del municipio de San Vicente Ferrer esta iniciando la formulacion de un proyecto de seguridad alimentaria. El coordinador les indica que primero deben construir el arbol de problemas para entender la problematica y sus relaciones causales.\n\nPregunta\n\nSegun la situacion descrita, ¿para que sirve el arbol de problemas?",
     options: [
       "Decorar la oficina de proyectos",
-      "Identificar y analizar el problema central, sus causas (raíces) y sus efectos (ramas), estableciendo relaciones de causalidad",
-      "Solo listar problemas sin relación",
+      "Identificar y analizar el problema central, sus causas (raices) y sus efectos (ramas), estableciendo relaciones de causalidad",
+      "Solo listar problemas sin relacion",
       "Copiar problemas de otros proyectos"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el árbol de problemas es una técnica que permite identificar y analizar el problema central (tronco), sus causas directas e indirectas (raíces) y sus efectos directos e indirectos (ramas), estableciendo relaciones causa-efecto para comprender la problemática.",
-    topic: "Árbol de problemas"
+    explanation: "En la situacion del proyecto de seguridad alimentaria en San Vicente Ferrer, el arbol de problemas permite identificar y analizar el problema central 'Inseguridad alimentaria en familias vulnerables' (tronco), sus causas directas e indirectas como 'baja produccion agricola' y 'escaso acceso a credito' (raices), y sus efectos como 'desnutricion infantil' (ramas).",
+    topic: "Arbol de problemas"
   },
   {
     id: 20,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El árbol de objetivos se construye:",
+    question: "Situacion\n\nDespues de construir el arbol de problemas para un proyecto de primera infancia, el equipo tecnico del municipio de Concepcion debe transformar los problemas identificados en objetivos positivos para definir la solucion del proyecto.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿como se construye el arbol de objetivos?",
     options: [
-      "De forma independiente al árbol de problemas",
-      "Convirtiendo los problemas (situaciones negativas) del árbol de problemas en objetivos (situaciones positivas deseadas)",
+      "De forma independiente al arbol de problemas",
+      "Convirtiendo los problemas (situaciones negativas) del arbol de problemas en objetivos (situaciones positivas deseadas)",
       "Solo con metas financieras",
       "Listando deseos sin fundamento"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el árbol de objetivos se construye transformando las situaciones negativas del árbol de problemas en situaciones positivas deseadas. El problema central se convierte en el objetivo central, las causas en medios y los efectos en fines.",
-    topic: "Árbol de objetivos"
+    explanation: "En la situacion del proyecto de primera infancia en Concepcion, el arbol de objetivos se construye transformando las situaciones negativas en positivas: el problema central 'Bajo desarrollo integral de la primera infancia' se convierte en el objetivo 'Mejorar el desarrollo integral de la primera infancia', las causas se transforman en medios y los efectos en fines.",
+    topic: "Arbol de objetivos"
   },
-  // Presupuesto y financiación
+  // Presupuesto y financiacion
   {
     id: 21,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La estructura presupuestal de un proyecto debe incluir:",
+    question: "Situacion\n\nEl municipio de Tamesis esta formulando un proyecto de construccion de un centro cultural. El profesional financiero debe estructurar el presupuesto del proyecto de manera detallada para presentarlo ante el Banco de Proyectos y solicitar la aprobacion de recursos.\n\nPregunta\n\nCon base en la situacion descrita, ¿que debe incluir la estructura presupuestal de un proyecto?",
     options: [
       "Solo el costo total estimado",
-      "Costos desagregados por componentes y actividades, inversión y operación, fuentes de financiación, cronograma de desembolsos y flujo de caja",
-      "Únicamente los salarios del personal",
+      "Costos desagregados por componentes y actividades, inversion y operacion, fuentes de financiacion, cronograma de desembolsos y flujo de caja",
+      "Unicamente los salarios del personal",
       "Solo los costos de materiales"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la estructura presupuestal debe detallar: costos por componentes y actividades, costos de inversión y operación, fuentes de financiación identificadas, cronograma de desembolsos anual o mensual, y flujo de caja del proyecto.",
+    explanation: "En la situacion del centro cultural de Tamesis, la estructura presupuestal debe detallar: costos por componentes (obra civil, dotacion) y actividades, costos de inversion y operacion futura, fuentes de financiacion identificadas (recursos propios, SGP cultura, cofinanciacion departamental), cronograma de desembolsos y flujo de caja del proyecto.",
     topic: "Estructura presupuestal"
   },
   {
     id: 22,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El cronograma de inversión de un proyecto indica:",
+    question: "Situacion\n\nLa Secretaria de Hacienda del municipio de Jardin necesita programar los recursos financieros para un proyecto de restauracion del patrimonio arquitectonico. El tesorero solicita un documento que indique cuando se requieren los recursos y en que montos para cada etapa.\n\nPregunta\n\nSegun la situacion planteada, ¿que indica el cronograma de inversion de un proyecto?",
     options: [
       "Solo la fecha de inicio",
-      "La programación temporal de los recursos financieros necesarios, especificando montos y periodos de desembolso para cada actividad o componente",
-      "Únicamente el presupuesto total",
+      "La programacion temporal de los recursos financieros necesarios, especificando montos y periodos de desembolso para cada actividad o componente",
+      "Unicamente el presupuesto total",
       "Solo las fechas de reuniones"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el cronograma de inversión programa temporalmente los recursos financieros, especificando montos requeridos y periodos de desembolso para cada actividad o componente, permitiendo planificar la ejecución presupuestal del proyecto.",
-    topic: "Cronograma de inversión"
+    explanation: "En la situacion del proyecto de patrimonio en Jardin, el cronograma de inversion programa temporalmente los recursos financieros, especificando que en el primer trimestre se requieren recursos para estudios y disenos, en el segundo para inicio de obras, y asi sucesivamente, permitiendo planificar la ejecucion presupuestal.",
+    topic: "Cronograma de inversion"
   },
   {
     id: 23,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El análisis costo-beneficio de un proyecto busca:",
+    question: "Situacion\n\nEl Comite de Proyectos del municipio de Andes esta evaluando la viabilidad economica de un proyecto de electrificacion rural. El evaluador debe determinar si los beneficios que genera el proyecto justifican la inversion de recursos publicos.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que busca el analisis costo-beneficio del proyecto?",
     options: [
       "Solo sumar los costos",
-      "Comparar los beneficios sociales y económicos esperados del proyecto con sus costos, calculando indicadores como VPN, TIR y relación beneficio/costo",
-      "Únicamente estimar gastos administrativos",
-      "Solo calcular el costo de construcción"
+      "Comparar los beneficios sociales y economicos esperados del proyecto con sus costos, calculando indicadores como VPN, TIR y relacion beneficio/costo",
+      "Unicamente estimar gastos administrativos",
+      "Solo calcular el costo de construccion"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el análisis costo-beneficio compara los beneficios sociales y económicos del proyecto con sus costos de inversión y operación, calculando indicadores como Valor Presente Neto (VPN), Tasa Interna de Retorno (TIR) y relación beneficio/costo para determinar la viabilidad económica.",
-    topic: "Análisis costo-beneficio"
+    explanation: "En la situacion del proyecto de electrificacion en Andes, el analisis costo-beneficio compara los beneficios sociales y economicos (mayor productividad, calidad de vida, acceso a servicios) con los costos de inversion y operacion, calculando indicadores como Valor Presente Neto (VPN), Tasa Interna de Retorno (TIR) y relacion beneficio/costo.",
+    topic: "Analisis costo-beneficio"
   },
   {
     id: 24,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La línea base de un proyecto es:",
+    question: "Situacion\n\nAntes de iniciar un proyecto de mejoramiento de la red de alcantarillado, el municipio de Ciudad Bolivar necesita medir la situacion actual del servicio para poder comparar despues de la intervencion y evaluar los cambios generados por el proyecto.\n\nPregunta\n\nCon base en la situacion planteada, ¿que es la linea base de un proyecto?",
     options: [
-      "El diseño arquitectónico de las obras",
-      "La medición inicial de los indicadores del proyecto antes de su ejecución, que sirve de punto de comparación para evaluar los cambios o impactos generados",
+      "El diseno arquitectonico de las obras",
+      "La medicion inicial de los indicadores del proyecto antes de su ejecucion, que sirve de punto de comparacion para evaluar los cambios o impactos generados",
       "Solo el presupuesto inicial",
       "El cronograma de actividades"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la línea base es la medición inicial (situación sin proyecto) de los indicadores relevantes antes de ejecutar el proyecto. Sirve como punto de referencia o comparación para medir los cambios, resultados e impactos del proyecto durante y después de su ejecución.",
-    topic: "Línea base"
+    explanation: "En la situacion del alcantarillado de Ciudad Bolivar, la linea base es la medicion inicial de indicadores como cobertura actual del servicio (70%), frecuencia de desbordamientos (5 al mes), hogares conectados (800). Estos datos sirven de referencia para medir los cambios e impactos del proyecto despues de su ejecucion.",
+    topic: "Linea base"
   },
   {
     id: 25,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Las metas de un proyecto deben ser:",
+    question: "Situacion\n\nEl equipo de planeacion del municipio de Turbo esta formulando un proyecto de fortalecimiento de la pesca artesanal. Al definir las metas del proyecto, el coordinador indica que deben ser claras y medibles para poder verificar su cumplimiento.\n\nPregunta\n\nSegun la situacion descrita, ¿como deben ser las metas de un proyecto?",
     options: [
       "Generales y ambiguas",
-      "Específicas, Medibles, Alcanzables, Relevantes y con Tiempo definido (criterio SMART)",
-      "Imposibles de lograr para exigir más esfuerzo",
-      "Copiadas de otros proyectos sin adaptación"
+      "Especificas, Medibles, Alcanzables, Relevantes y con Tiempo definido (criterio SMART)",
+      "Imposibles de lograr para exigir mas esfuerzo",
+      "Copiadas de otros proyectos sin adaptacion"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las metas del proyecto deben cumplir el criterio SMART: Específicas (claras y precisas), Medibles (cuantificables), Alcanzables (realistas), Relevantes (alineadas con los objetivos) y con Tiempo definido (plazo establecido para su cumplimiento).",
+    explanation: "En la situacion del proyecto de pesca en Turbo, las metas deben cumplir el criterio SMART: Especificas ('Capacitar a 150 pescadores artesanales'), Medibles (numero de pescadores), Alcanzables (recursos y tiempo disponibles), Relevantes (contribuyen al objetivo) y con Tiempo definido ('durante los primeros 6 meses del proyecto').",
     topic: "Metas del proyecto"
   }
 ]
@@ -382,356 +382,356 @@ const questionsV2: Question[] = [
   // Ciclo del proyecto
   {
     id: 1,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La evaluación ex-post de un proyecto se realiza:",
+    question: "Situacion\n\nHace dos anos, el municipio de Apartado construyo un centro de desarrollo infantil con recursos del SGP. El director de planeacion solicita realizar una evaluacion para medir si se alcanzaron los objetivos propuestos y cuales fueron los impactos reales en la poblacion beneficiaria.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿cuando se realiza la evaluacion ex-post de un proyecto?",
     options: [
       "Antes de iniciar el proyecto",
-      "Durante la fase de operación, después de finalizada la ejecución, para medir los resultados e impactos reales alcanzados",
-      "Solo en la fase de formulación",
-      "Únicamente durante la construcción"
+      "Durante la fase de operacion, despues de finalizada la ejecucion, para medir los resultados e impactos reales alcanzados",
+      "Solo en la fase de formulacion",
+      "Unicamente durante la construccion"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La evaluación ex-post se realiza durante la fase de operación, una vez finalizada la ejecución del proyecto, para verificar si se alcanzaron los objetivos, medir los resultados e impactos reales, identificar lecciones aprendidas y determinar la sostenibilidad.",
-    topic: "Evaluación ex-post"
+    explanation: "En la situacion del centro de desarrollo infantil de Apartado, la evaluacion ex-post se realiza durante la fase de operacion, una vez finalizada la construccion, para verificar si se alcanzaron los objetivos de cobertura y calidad, medir los impactos reales en los ninos y familias, identificar lecciones aprendidas y determinar la sostenibilidad.",
+    topic: "Evaluacion ex-post"
   },
   {
     id: 2,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La sostenibilidad de un proyecto se refiere a:",
+    question: "Situacion\n\nEl municipio de Chigorodo construyo una planta de tratamiento de agua potable. El Concejo Municipal esta preocupado por garantizar que los beneficios del proyecto se mantengan en el tiempo despues de que termine la inversion inicial.\n\nPregunta\n\nCon base en la situacion planteada, ¿a que se refiere la sostenibilidad de un proyecto?",
     options: [
-      "Solo su duración física",
-      "La capacidad del proyecto para mantener sus beneficios en el tiempo después de finalizar la inversión inicial, considerando aspectos financieros, institucionales, técnicos, sociales y ambientales",
-      "Únicamente su rentabilidad financiera",
+      "Solo su duracion fisica",
+      "La capacidad del proyecto para mantener sus beneficios en el tiempo despues de finalizar la inversion inicial, considerando aspectos financieros, institucionales, tecnicos, sociales y ambientales",
+      "Unicamente su rentabilidad financiera",
       "Solo la resistencia de las obras construidas"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la sostenibilidad es la capacidad del proyecto para mantener y continuar generando los beneficios esperados después de finalizar la inversión, considerando sostenibilidad financiera, institucional, técnica, social y ambiental a largo plazo.",
+    explanation: "En la situacion de la planta de tratamiento en Chigorodo, la sostenibilidad se refiere a la capacidad de mantener el suministro de agua potable despues de finalizar la inversion, considerando: sostenibilidad financiera (tarifas adecuadas), institucional (empresa operadora), tecnica (mantenimiento), social (aceptacion comunitaria) y ambiental (proteccion de fuentes).",
     topic: "Sostenibilidad del proyecto"
   },
   {
     id: 3,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. En la fase de inversión, el seguimiento del proyecto incluye:",
+    question: "Situacion\n\nEl municipio de Necocli esta ejecutando un proyecto de construccion de un hospital de segundo nivel. El supervisor del contrato debe realizar el monitoreo continuo del avance de las obras y la ejecucion presupuestal para detectar posibles desviaciones.\n\nPregunta\n\nSegun la situacion descrita, ¿que incluye el seguimiento del proyecto en la fase de inversion?",
     options: [
-      "Solo revisar el presupuesto una vez al año",
-      "Monitoreo continuo del avance físico, financiero y de gestión, comparando lo ejecutado con lo planeado, identificando desviaciones y tomando acciones correctivas",
-      "Únicamente esperar la terminación del proyecto",
+      "Solo revisar el presupuesto una vez al ano",
+      "Monitoreo continuo del avance fisico, financiero y de gestion, comparando lo ejecutado con lo planeado, identificando desviaciones y tomando acciones correctivas",
+      "Unicamente esperar la terminacion del proyecto",
       "Solo verificar la asistencia del personal"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el seguimiento en la fase de inversión implica monitoreo continuo del avance físico (obras y actividades), financiero (ejecución presupuestal) y de gestión (cumplimiento de cronogramas e indicadores), identificando desviaciones y tomando acciones correctivas oportunas.",
-    topic: "Seguimiento en fase de inversión"
+    explanation: "En la situacion del hospital de Necocli, el seguimiento en la fase de inversion implica monitoreo continuo del avance fisico (metros cuadrados construidos, acabados instalados), financiero (recursos ejecutados vs. programados) y de gestion (cumplimiento de cronogramas), identificando desviaciones y tomando acciones correctivas oportunas.",
+    topic: "Seguimiento en fase de inversion"
   },
   {
     id: 4,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El análisis de riesgos en la formulación de un proyecto busca:",
+    question: "Situacion\n\nLa Secretaria de Infraestructura de Carepa esta formulando un proyecto de construccion de un puente sobre el rio Leon. El ingeniero lider indica que deben identificar los eventos que podrian afectar la ejecucion del proyecto y establecer estrategias para manejarlos.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿que busca el analisis de riesgos en la formulacion de un proyecto?",
     options: [
       "Ignorar los problemas potenciales",
-      "Identificar, evaluar y establecer estrategias de mitigación para los eventos que podrían afectar negativamente el cumplimiento de los objetivos del proyecto",
-      "Solo listar obstáculos sin soluciones",
+      "Identificar, evaluar y establecer estrategias de mitigacion para los eventos que podrian afectar negativamente el cumplimiento de los objetivos del proyecto",
+      "Solo listar obstaculos sin soluciones",
       "Cancelar el proyecto ante cualquier riesgo"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el análisis de riesgos busca identificar eventos potenciales que podrían afectar el proyecto (técnicos, financieros, sociales, ambientales, institucionales), evaluar su probabilidad e impacto, y establecer estrategias de prevención, mitigación o contingencia.",
-    topic: "Análisis de riesgos"
+    explanation: "En la situacion del puente sobre el rio Leon en Carepa, el analisis de riesgos busca identificar eventos potenciales como crecientes del rio, retrasos en permisos ambientales, variaciones de precios, evaluar su probabilidad e impacto, y establecer estrategias de prevencion (estudios hidrologicos completos), mitigacion (seguros) o contingencia (presupuesto adicional).",
+    topic: "Analisis de riesgos"
   },
   {
     id: 5,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Los estudios de impacto ambiental de un proyecto de infraestructura deben:",
+    question: "Situacion\n\nEl municipio de Mutata esta formulando un proyecto de construccion de una via que atravesara una zona de reserva natural. El profesional ambiental debe elaborar los estudios que permitan identificar y manejar los impactos del proyecto sobre el medio ambiente.\n\nPregunta\n\nCon base en la situacion descrita, ¿que deben hacer los estudios de impacto ambiental del proyecto?",
     options: [
       "Presentarse solo si la comunidad lo solicita",
-      "Identificar, predecir y evaluar los impactos ambientales del proyecto, y proponer medidas de prevención, mitigación, corrección y compensación",
-      "Únicamente mencionar que el proyecto es ambientalmente viable",
-      "Solo cumplir un trámite formal sin análisis real"
+      "Identificar, predecir y evaluar los impactos ambientales del proyecto, y proponer medidas de prevencion, mitigacion, correccion y compensacion",
+      "Unicamente mencionar que el proyecto es ambientalmente viable",
+      "Solo cumplir un tramite formal sin analisis real"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los estudios de impacto ambiental deben identificar, predecir, valorar y comunicar los efectos del proyecto sobre el medio ambiente (físico, biótico y social), y proponer el Plan de Manejo Ambiental con medidas de prevención, mitigación, corrección y compensación.",
+    explanation: "En la situacion de la via en Mutata que atraviesa zona de reserva, los estudios de impacto ambiental deben identificar efectos sobre fauna, flora, fuentes hidricas y comunidades, predecir su magnitud, valorar su importancia, y proponer el Plan de Manejo Ambiental con medidas de prevencion, mitigacion, correccion y compensacion.",
     topic: "Impacto ambiental"
   },
   {
     id: 6,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La población objetivo de un proyecto es:",
+    question: "Situacion\n\nEl municipio de San Pedro de Uraba esta formulando un proyecto de mejoramiento nutricional infantil. El equipo tecnico debe identificar con precision el grupo de personas que sera beneficiado directamente con la ejecucion del proyecto.\n\nPregunta\n\nSegun la situacion planteada, ¿que es la poblacion objetivo de un proyecto?",
     options: [
-      "Toda la población del país",
-      "El grupo poblacional afectado por el problema y que será beneficiado directamente con la ejecución del proyecto",
-      "Solo los funcionarios públicos",
-      "Únicamente los políticos de la región"
+      "Toda la poblacion del pais",
+      "El grupo poblacional afectado por el problema y que sera beneficiado directamente con la ejecucion del proyecto",
+      "Solo los funcionarios publicos",
+      "Unicamente los politicos de la region"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la población objetivo es el grupo específico de personas, hogares o entidades afectadas por el problema identificado y que recibirán los beneficios directos del proyecto una vez ejecutado. Debe ser cuantificada y caracterizada con precisión.",
-    topic: "Población objetivo"
+    explanation: "En la situacion del proyecto nutricional en San Pedro de Uraba, la poblacion objetivo son los ninos menores de 5 anos con desnutricion o riesgo nutricional del municipio. Este grupo especifico sera cuantificado (350 ninos) y caracterizado (edad, grado de desnutricion, zona de residencia) para recibir los beneficios directos del proyecto.",
+    topic: "Poblacion objetivo"
   },
   // MGA
   {
     id: 7,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La ficha de Estadísticas Básicas de Inversión (EBI) en el BPIN contiene:",
+    question: "Situacion\n\nEl coordinador de proyectos del municipio de Arboletes necesita consultar la informacion resumida de un proyecto de vivienda que fue registrado en el BPIN. Requiere un documento que contenga los datos principales del proyecto para presentarlo en una reunion con el Ministerio.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que contiene la ficha de Estadisticas Basicas de Inversion (EBI) en el BPIN?",
     options: [
       "Solo el nombre del proyecto",
-      "Información resumida del proyecto: nombre, objetivo, localización, población beneficiada, costo total, fuentes de financiación, plazo de ejecución y clasificación sectorial",
-      "Únicamente el presupuesto",
+      "Informacion resumida del proyecto: nombre, objetivo, localizacion, poblacion beneficiada, costo total, fuentes de financiacion, plazo de ejecucion y clasificacion sectorial",
+      "Unicamente el presupuesto",
       "Solo la fecha de registro"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la ficha EBI contiene información resumida del proyecto registrado en el BPIN: identificación, objetivo general, localización, población beneficiada, costo total, fuentes de financiación, plazo de ejecución, sector, clasificación presupuestal y estado del proyecto.",
+    explanation: "En la situacion del proyecto de vivienda de Arboletes, la ficha EBI contiene informacion resumida: nombre del proyecto, objetivo general de construccion de viviendas, localizacion en el municipio, 200 familias beneficiadas, costo total de $5.000 millones, fuentes (regalias 60%, nacion 40%), 18 meses de ejecucion y sector vivienda.",
     topic: "Ficha EBI - BPIN"
   },
   {
     id: 8,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Para registrar un proyecto en el Banco de Proyectos de Inversión Municipal o Departamental, se requiere:",
+    question: "Situacion\n\nEl alcalde del municipio de San Juan de Uraba quiere registrar un proyecto de electrificacion rural en el Banco de Proyectos Municipal para solicitar recursos de cofinanciacion departamental. El secretario de planeacion le explica los requisitos necesarios.\n\nPregunta\n\nCon base en la situacion planteada, ¿que se requiere para registrar un proyecto en el Banco de Proyectos de Inversion Municipal o Departamental?",
     options: [
-      "Solo la aprobación verbal del alcalde",
-      "Formulación completa según la MGA, concepto favorable de viabilidad técnica de la oficina de planeación, y disponibilidad presupuestal",
-      "Únicamente el acta de reunión comunitaria",
+      "Solo la aprobacion verbal del alcalde",
+      "Formulacion completa segun la MGA, concepto favorable de viabilidad tecnica de la oficina de planeacion, y disponibilidad presupuestal",
+      "Unicamente el acta de reunion comunitaria",
       "Solo el nombre y costo estimado"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el registro requiere: formulación completa del proyecto según la MGA territorial, concepto de viabilidad técnica, financiera y socioambiental de la oficina de planeación, certificado de disponibilidad presupuestal, y cumplimiento de requisitos normativos específicos.",
+    explanation: "En la situacion del proyecto de electrificacion en San Juan de Uraba, el registro requiere: formulacion completa del proyecto segun la MGA territorial con todos los modulos diligenciados, concepto de viabilidad tecnica, financiera y socioambiental de la oficina de planeacion, certificado de disponibilidad presupuestal para contrapartida, y cumplimiento de requisitos normativos.",
     topic: "Registro en bancos territoriales"
   },
   {
     id: 9,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El costo de oportunidad en la evaluación de proyectos representa:",
+    question: "Situacion\n\nEl Comite de Inversiones del municipio de Vigia del Fuerte debe decidir entre financiar un proyecto de mejoramiento de escuelas o uno de pavimentacion de vias. El evaluador debe analizar el valor de la alternativa a la que se renuncia al elegir uno de los proyectos.\n\nPregunta\n\nSegun la situacion descrita, ¿que representa el costo de oportunidad en la evaluacion de proyectos?",
     options: [
       "El precio de mercado de los materiales",
       "El valor de la mejor alternativa a la que se renuncia al destinar recursos a un proyecto en lugar de otro",
       "Solo el costo financiero del proyecto",
-      "Únicamente los gastos administrativos"
+      "Unicamente los gastos administrativos"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el costo de oportunidad representa el valor de la mejor alternativa de inversión a la que se renuncia al asignar recursos escasos a un proyecto determinado. Es fundamental en la evaluación económica para tomar decisiones de inversión pública eficientes.",
+    explanation: "En la situacion de Vigia del Fuerte, el costo de oportunidad representa el valor del proyecto de pavimentacion (beneficios de mejor movilidad y comercio) si se elige el proyecto educativo, o viceversa. Es fundamental en la evaluacion economica para tomar decisiones de inversion publica eficientes con recursos escasos.",
     topic: "Costo de oportunidad"
   },
   {
     id: 10,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Los indicadores de producto en la MGA miden:",
+    question: "Situacion\n\nEl municipio de Murindo esta ejecutando un proyecto de construccion de un centro de salud. El interventor debe verificar el cumplimiento de las metas fisicas del proyecto midiendo los productos concretos que se estan entregando.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿que miden los indicadores de producto en la MGA?",
     options: [
       "Solo el presupuesto gastado",
-      "Los bienes, servicios u obras entregadas por el proyecto durante su ejecución (kilómetros de vía construidos, escuelas dotadas, personas capacitadas, etc.)",
-      "Únicamente el tiempo transcurrido",
-      "Solo la satisfacción de los funcionarios"
+      "Los bienes, servicios u obras entregadas por el proyecto durante su ejecucion (kilometros de via construidos, escuelas dotadas, personas capacitadas, etc.)",
+      "Unicamente el tiempo transcurrido",
+      "Solo la satisfaccion de los funcionarios"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los indicadores de producto miden los bienes, servicios u obras que entrega directamente el proyecto durante su ejecución (outputs). Ejemplos: km de vía pavimentados, número de viviendas construidas, personas capacitadas, equipos instalados.",
+    explanation: "En la situacion del centro de salud en Murindo, los indicadores de producto miden los bienes y obras que entrega directamente el proyecto: metros cuadrados construidos (1.200 m2), consultorios habilitados (8), camas hospitalarias instaladas (20), equipos medicos adquiridos (25). Son los outputs directos de la ejecucion.",
     topic: "Indicadores de producto - MGA"
   },
   {
     id: 11,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La tasa de descuento en la evaluación económica de proyectos públicos en Colombia es definida por:",
+    question: "Situacion\n\nEl equipo de evaluacion del municipio de Frontino esta calculando el Valor Presente Neto de un proyecto de mejoramiento de acueducto. Necesitan conocer la tasa oficial establecida por el gobierno nacional para descontar los flujos futuros del proyecto.\n\nPregunta\n\nCon base en la situacion descrita, ¿quien define la tasa de descuento en la evaluacion economica de proyectos publicos en Colombia?",
     options: [
       "Cada alcalde libremente",
-      "El Departamento Nacional de Planeación (DNP), actualmente establecida en el 9% para proyectos sociales",
+      "El Departamento Nacional de Planeacion (DNP), actualmente establecida en el 9% para proyectos sociales",
       "Los bancos comerciales",
       "El contratista del proyecto"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el DNP establece la tasa social de descuento oficial para la evaluación de proyectos públicos en Colombia, que actualmente es del 9% para proyectos de inversión social. Esta tasa se utiliza para calcular el VPN y evaluar la rentabilidad social del proyecto.",
+    explanation: "En la situacion del acueducto de Frontino, el DNP establece la tasa social de descuento oficial del 9% para la evaluacion de proyectos publicos en Colombia. Esta tasa se utiliza para calcular el VPN y evaluar la rentabilidad social del proyecto, permitiendo comparar beneficios y costos en diferentes momentos del tiempo.",
     topic: "Tasa de descuento"
   },
   {
     id: 12,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La participación comunitaria en la formulación de proyectos implica:",
+    question: "Situacion\n\nEl municipio de Caicedo esta formulando un proyecto de construccion de un parque recreativo. El equipo social indica que la comunidad debe participar activamente en las diferentes etapas del proyecto para garantizar que responda a sus necesidades reales.\n\nPregunta\n\nSegun la situacion planteada, ¿que implica la participacion comunitaria en la formulacion de proyectos?",
     options: [
       "Solo informar al final del proyecto",
-      "Involucrar a la comunidad desde el diagnóstico, priorización de necesidades, diseño de alternativas y validación de soluciones, garantizando pertinencia y apropiación",
-      "Únicamente recolectar firmas de apoyo",
-      "Solo convocar a una reunión informativa"
+      "Involucrar a la comunidad desde el diagnostico, priorizacion de necesidades, diseno de alternativas y validacion de soluciones, garantizando pertinencia y apropiacion",
+      "Unicamente recolectar firmas de apoyo",
+      "Solo convocar a una reunion informativa"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la participación comunitaria efectiva implica involucrar a la comunidad desde la identificación del problema, priorización de necesidades, diseño de alternativas de solución, toma de decisiones y validación, garantizando pertinencia, apropiación y sostenibilidad del proyecto.",
-    topic: "Participación comunitaria"
+    explanation: "En la situacion del parque en Caicedo, la participacion comunitaria efectiva implica involucrar a la comunidad desde la identificacion del problema (que espacios recreativos necesitan), priorizacion (que zona, que edades), diseno de alternativas (juegos infantiles, canchas, zonas verdes) y validacion, garantizando pertinencia y apropiacion del proyecto.",
+    topic: "Participacion comunitaria"
   },
   {
     id: 13,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El enfoque diferencial en proyectos públicos busca:",
+    question: "Situacion\n\nEl municipio de Urrao esta formulando un proyecto de fortalecimiento de productores agricolas. El profesional social indica que el proyecto debe reconocer las necesidades especificas de los diferentes grupos poblacionales como mujeres cabeza de hogar, adultos mayores y comunidades indigenas.\n\nPregunta\n\nDe acuerdo con la situacion descrita, ¿que busca el enfoque diferencial en proyectos publicos?",
     options: [
-      "Tratar a todos exactamente igual sin distinción",
-      "Reconocer y atender las necesidades específicas de grupos poblacionales vulnerables o con características particulares (niños, adultos mayores, discapacidad, género, etnia)",
+      "Tratar a todos exactamente igual sin distincion",
+      "Reconocer y atender las necesidades especificas de grupos poblacionales vulnerables o con caracteristicas particulares (ninos, adultos mayores, discapacidad, genero, etnia)",
       "Solo cumplir requisitos legales sin impacto real",
       "Excluir grupos minoritarios"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el enfoque diferencial reconoce que existen grupos poblacionales con necesidades, condiciones y características particulares (niños, adultos mayores, personas con discapacidad, grupos étnicos, género), y diseña intervenciones específicas para garantizar equidad y no discriminación.",
+    explanation: "En la situacion del proyecto agricola en Urrao, el enfoque diferencial reconoce que las mujeres cabeza de hogar necesitan horarios flexibles de capacitacion, los adultos mayores requieren asistencia tecnica personalizada, y las comunidades indigenas tienen conocimientos tradicionales que deben integrarse, disenando intervenciones especificas para garantizar equidad.",
     topic: "Enfoque diferencial"
   },
   {
     id: 14,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Los términos de referencia de los estudios técnicos de un proyecto deben especificar:",
+    question: "Situacion\n\nEl municipio de Betania necesita contratar los estudios y disenos de un proyecto de construccion de una planta de sacrificio animal. El profesional de contratacion debe elaborar el documento que especifique claramente que debe entregar el consultor.\n\nPregunta\n\nCon base en la situacion planteada, ¿que deben especificar los terminos de referencia de los estudios tecnicos de un proyecto?",
     options: [
       "Solo el presupuesto disponible",
-      "El objeto del estudio, alcance, productos esperados, metodología, plazo de ejecución, requisitos del contratista y criterios de evaluación",
-      "Únicamente el nombre del consultor",
+      "El objeto del estudio, alcance, productos esperados, metodologia, plazo de ejecucion, requisitos del contratista y criterios de evaluacion",
+      "Unicamente el nombre del consultor",
       "Solo la fecha de entrega"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los términos de referencia deben especificar: objeto y justificación del estudio, alcance técnico y geográfico, productos y entregables esperados, metodología a aplicar, plazo de ejecución, requisitos del consultor (experiencia, equipo), y criterios de evaluación de las propuestas.",
-    topic: "Términos de referencia"
+    explanation: "En la situacion de la planta de sacrificio en Betania, los terminos de referencia deben especificar: objeto (estudios y disenos de planta de sacrificio), alcance tecnico (diseno arquitectonico, estructural, sanitario), productos (planos, memorias, presupuesto), metodologia, plazo (90 dias), requisitos del consultor (experiencia en plantas similares) y criterios de evaluacion.",
+    topic: "Terminos de referencia"
   },
-  // Marco lógico
+  // Marco logico
   {
     id: 15,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Los indicadores de la Matriz de Marco Lógico deben ser:",
+    question: "Situacion\n\nEl equipo de monitoreo del municipio de Hispania esta revisando la Matriz de Marco Logico de un proyecto de mejoramiento educativo. Necesitan verificar que los indicadores establecidos permitan medir objetivamente el logro de los objetivos.\n\nPregunta\n\nSegun la situacion descrita, ¿como deben ser los indicadores de la Matriz de Marco Logico?",
     options: [
       "Generales y subjetivos",
-      "Específicos, Medibles, Alcanzables, Relevantes y con Tiempo definido (SMART), permitiendo verificar objetivamente el logro de objetivos",
+      "Especificos, Medibles, Alcanzables, Relevantes y con Tiempo definido (SMART), permitiendo verificar objetivamente el logro de objetivos",
       "Imposibles de medir",
-      "Copiados de otros proyectos sin adaptación"
+      "Copiados de otros proyectos sin adaptacion"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los indicadores deben cumplir el criterio SMART: Específicos (claros y precisos), Medibles (cuantificables), Alcanzables (realistas), Relevantes (relacionados con los objetivos) y con Tiempo definido (plazo de medición), para verificar objetivamente el logro de resultados.",
-    topic: "Indicadores - Marco Lógico"
+    explanation: "En la situacion del proyecto educativo en Hispania, los indicadores deben cumplir el criterio SMART: 'Porcentaje de estudiantes que mejoran sus competencias en matematicas' es Especifico (competencias en matematicas), Medible (porcentaje), Alcanzable (con las intervenciones planteadas), Relevante (relacionado con el objetivo) y con Tiempo definido (al finalizar el ano escolar).",
+    topic: "Indicadores - Marco Logico"
   },
   {
     id: 16,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Los medios de verificación en la Matriz de Marco Lógico son:",
+    question: "Situacion\n\nEl evaluador de proyectos del municipio de Pueblo Rico esta verificando la Matriz de Marco Logico de un proyecto de seguridad alimentaria. Necesita identificar de donde se obtendran los datos para calcular y verificar los indicadores del proyecto.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿que son los medios de verificacion en la Matriz de Marco Logico?",
     options: [
       "Opiniones personales sin respaldo",
-      "Las fuentes de información donde se puede obtener los datos para calcular y verificar los indicadores (encuestas, registros, informes, estudios, estadísticas)",
+      "Las fuentes de informacion donde se puede obtener los datos para calcular y verificar los indicadores (encuestas, registros, informes, estudios, estadisticas)",
       "Solo rumores de la comunidad",
-      "Únicamente las actas de reunión"
+      "Unicamente las actas de reunion"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los medios de verificación identifican las fuentes de información donde se obtendrán los datos necesarios para calcular y verificar los indicadores: encuestas, registros administrativos, informes técnicos, estudios, bases de datos, estadísticas oficiales, documentos de proyecto.",
-    topic: "Medios de verificación - Marco Lógico"
+    explanation: "En la situacion del proyecto de seguridad alimentaria en Pueblo Rico, los medios de verificacion identifican las fuentes: encuestas nutricionales del ICBF para medir desnutricion infantil, registros de entrega de complementos alimentarios, informes mensuales del operador, estadisticas del SISBEN sobre poblacion vulnerable, bases de datos de beneficiarios.",
+    topic: "Medios de verificacion - Marco Logico"
   },
   {
     id: 17,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Los supuestos en la Matriz de Marco Lógico representan:",
+    question: "Situacion\n\nEl equipo de formulacion del municipio de Santafe de Antioquia esta elaborando la Matriz de Marco Logico para un proyecto de turismo sostenible. Deben identificar los factores externos que estan fuera del control del proyecto pero que son necesarios para su exito.\n\nPregunta\n\nCon base en la situacion planteada, ¿que representan los supuestos en la Matriz de Marco Logico?",
     options: [
-      "Garantías absolutas de éxito",
-      "Condiciones o factores externos importantes que están fuera del control del proyecto, pero que son necesarios para el logro de los objetivos",
-      "Obstáculos insuperables",
+      "Garantias absolutas de exito",
+      "Condiciones o factores externos importantes que estan fuera del control del proyecto, pero que son necesarios para el logro de los objetivos",
+      "Obstaculos insuperables",
       "Solo especulaciones sin fundamento"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los supuestos son condiciones o factores externos (políticos, sociales, ambientales, económicos) que están fuera del control directo del proyecto, pero cuyo cumplimiento es necesario para alcanzar los objetivos. Si los supuestos no se cumplen, el proyecto puede fallar.",
-    topic: "Supuestos - Marco Lógico"
+    explanation: "En la situacion del proyecto de turismo en Santafe de Antioquia, los supuestos son factores externos como: 'Se mantiene la seguridad en la region', 'No ocurren desastres naturales que afecten los atractivos turisticos', 'Las politicas departamentales de turismo continuan'. Si estos supuestos no se cumplen, el proyecto puede no alcanzar sus objetivos.",
+    topic: "Supuestos - Marco Logico"
   },
   {
     id: 18,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La relación lógica vertical en la Matriz de Marco Lógico establece que:",
+    question: "Situacion\n\nEl profesional de proyectos del municipio de Yolombo esta explicando a su equipo la logica interna de la Matriz de Marco Logico de un proyecto de emprendimiento. Necesita mostrar como las actividades conducen a los componentes, estos al proposito y finalmente al fin.\n\nPregunta\n\nSegun la situacion descrita, ¿que establece la relacion logica vertical en la Matriz de Marco Logico?",
     options: [
-      "No existe relación entre los niveles",
-      "Si se realizan las Actividades se logran los Componentes; si se logran los Componentes se alcanza el Propósito; si se alcanza el Propósito se contribuye al Fin",
+      "No existe relacion entre los niveles",
+      "Si se realizan las Actividades se logran los Componentes; si se logran los Componentes se alcanza el Proposito; si se alcanza el Proposito se contribuye al Fin",
       "Solo importa el presupuesto",
-      "Los niveles son independientes entre sí"
+      "Los niveles son independientes entre si"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la lógica vertical establece la relación causa-efecto: Actividades → Componentes → Propósito → Fin. Si se ejecutan las actividades, se logran los componentes (productos); si se entregan los componentes, se alcanza el propósito (objetivo); si se logra el propósito, se contribuye al fin (impacto).",
-    topic: "Lógica vertical - Marco Lógico"
+    explanation: "En la situacion del proyecto de emprendimiento en Yolombo, la logica vertical establece: si se ejecutan las actividades (capacitaciones, asesorias), se logran los componentes (emprendedores capacitados, planes de negocio elaborados); si se entregan los componentes, se alcanza el proposito (emprendimientos funcionando); si se logra el proposito, se contribuye al fin (desarrollo economico local).",
+    topic: "Logica vertical - Marco Logico"
   },
   {
     id: 19,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Un indicador de gestión (proceso) mide:",
+    question: "Situacion\n\nEl interventor del municipio de Amaga esta realizando el seguimiento a un proyecto de construccion de un centro de integracion ciudadana. Necesita medir la eficiencia en el uso de los recursos y el cumplimiento del cronograma durante la ejecucion.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿que mide un indicador de gestion (proceso)?",
     options: [
       "Solo el impacto final del proyecto",
-      "La eficiencia en el uso de recursos y la ejecución de actividades durante la implementación del proyecto (% ejecución presupuestal, cumplimiento cronograma)",
-      "Únicamente la satisfacción del contratista",
+      "La eficiencia en el uso de recursos y la ejecucion de actividades durante la implementacion del proyecto (% ejecucion presupuestal, cumplimiento cronograma)",
+      "Unicamente la satisfaccion del contratista",
       "Solo los resultados de largo plazo"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los indicadores de gestión o proceso miden la eficiencia y eficacia en la ejecución del proyecto: porcentaje de ejecución presupuestal, cumplimiento del cronograma, personal contratado vs. planeado, actividades ejecutadas, uso de recursos.",
-    topic: "Indicadores de gestión"
+    explanation: "En la situacion del centro de integracion en Amaga, los indicadores de gestion miden la eficiencia y eficacia en la ejecucion: porcentaje de ejecucion presupuestal (75% ejecutado de lo programado), cumplimiento del cronograma (2 semanas de atraso), personal contratado vs. planeado (8 de 10), actividades ejecutadas (12 de 15).",
+    topic: "Indicadores de gestion"
   },
   {
     id: 20,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. Un indicador de resultado mide:",
+    question: "Situacion\n\nEl municipio de Angelopolis finalizo un proyecto de mejoramiento de vias terciarias. El equipo de evaluacion necesita medir los cambios directos logrados en la poblacion beneficiaria como resultado de la intervencion.\n\nPregunta\n\nCon base en la situacion planteada, ¿que mide un indicador de resultado?",
     options: [
       "Solo los gastos realizados",
-      "Los cambios o efectos directos logrados en la población objetivo al finalizar el proyecto (cobertura alcanzada, beneficiarios atendidos, mejoras en servicios)",
-      "Únicamente el número de reuniones realizadas",
+      "Los cambios o efectos directos logrados en la poblacion objetivo al finalizar el proyecto (cobertura alcanzada, beneficiarios atendidos, mejoras en servicios)",
+      "Unicamente el numero de reuniones realizadas",
       "Solo la cantidad de documentos producidos"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los indicadores de resultado miden los cambios o efectos directos logrados en la población objetivo al concluir el proyecto: cobertura de servicios alcanzada, beneficiarios directos atendidos, mejoras en calidad, acceso o disponibilidad de servicios.",
+    explanation: "En la situacion de las vias terciarias en Angelopolis, los indicadores de resultado miden los cambios directos: reduccion del tiempo de desplazamiento de productores al casco urbano (de 2 horas a 45 minutos), aumento de vehiculos que transitan la via (de 20 a 80 diarios), disminucion del costo de transporte de productos agricolas (30% menos).",
     topic: "Indicadores de resultado"
   },
-  // Presupuesto y financiación
+  // Presupuesto y financiacion
   {
     id: 21,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El Valor Presente Neto (VPN) de un proyecto es:",
+    question: "Situacion\n\nEl profesional financiero del municipio de Tarso esta evaluando un proyecto de construccion de infraestructura deportiva. Necesita calcular si los beneficios futuros del proyecto, traidos a valor presente, superan los costos de inversion.\n\nPregunta\n\nSegun la situacion descrita, ¿que es el Valor Presente Neto (VPN) de un proyecto?",
     options: [
       "El costo total del proyecto",
-      "El valor actual de los flujos futuros de beneficios netos del proyecto, descontados a una tasa específica; un VPN positivo indica viabilidad económica",
+      "El valor actual de los flujos futuros de beneficios netos del proyecto, descontados a una tasa especifica; un VPN positivo indica viabilidad economica",
       "Solo el presupuesto inicial",
-      "Únicamente los ingresos esperados"
+      "Unicamente los ingresos esperados"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el VPN es el valor presente de los flujos de beneficios netos futuros (beneficios menos costos) del proyecto, descontados con la tasa social de descuento. Un VPN > 0 indica que el proyecto es económicamente viable y genera valor social neto positivo.",
+    explanation: "En la situacion del proyecto deportivo de Tarso, el VPN es el valor presente de los flujos de beneficios netos futuros (beneficios sociales como mejor salud, recreacion, cohesion social, menos costos de inversion y operacion) descontados con la tasa del 9%. Un VPN > 0 indica que el proyecto genera valor social neto positivo y es economicamente viable.",
     topic: "Valor Presente Neto (VPN)"
   },
   {
     id: 22,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La Tasa Interna de Retorno (TIR) de un proyecto es:",
+    question: "Situacion\n\nEl Comite de Proyectos del municipio de Venecia esta evaluando la rentabilidad social de un proyecto de ampliacion del acueducto urbano. Necesitan calcular la tasa de rendimiento del proyecto para compararla con la tasa social de descuento.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿que es la Tasa Interna de Retorno (TIR) de un proyecto?",
     options: [
-      "La tasa de interés bancaria",
+      "La tasa de interes bancaria",
       "La tasa de descuento que hace que el VPN del proyecto sea igual a cero; si la TIR supera la tasa de descuento social, el proyecto es viable",
-      "Solo la inflación anual",
-      "Únicamente el costo de oportunidad"
+      "Solo la inflacion anual",
+      "Unicamente el costo de oportunidad"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la TIR es la tasa de descuento que hace que el VPN del proyecto sea igual a cero. Si la TIR es mayor que la tasa social de descuento (9%), el proyecto es económicamente viable. La TIR representa la rentabilidad social del proyecto.",
+    explanation: "En la situacion del acueducto de Venecia, la TIR es la tasa de descuento que hace que el VPN del proyecto sea igual a cero. Si la TIR calculada (por ejemplo 12%) es mayor que la tasa social de descuento (9%), el proyecto es economicamente viable. La TIR representa la rentabilidad social del proyecto de ampliacion.",
     topic: "Tasa Interna de Retorno (TIR)"
   },
   {
     id: 23,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. La relación Beneficio/Costo (B/C) indica:",
+    question: "Situacion\n\nEl evaluador de proyectos del municipio de Titiribi esta analizando la viabilidad economica de un proyecto de construccion de un centro de acopio. Necesita determinar cuantas unidades de beneficio genera el proyecto por cada unidad de costo invertida.\n\nPregunta\n\nCon base en la situacion planteada, ¿que indica la relacion Beneficio/Costo (B/C)?",
     options: [
       "Solo los gastos del proyecto",
-      "El valor presente de los beneficios dividido por el valor presente de los costos; una relación B/C mayor a 1 indica que los beneficios superan los costos",
-      "Únicamente el tiempo de ejecución",
-      "Solo el número de beneficiarios"
+      "El valor presente de los beneficios dividido por el valor presente de los costos; una relacion B/C mayor a 1 indica que los beneficios superan los costos",
+      "Unicamente el tiempo de ejecucion",
+      "Solo el numero de beneficiarios"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la relación B/C es el cociente entre el valor presente de los beneficios y el valor presente de los costos del proyecto. Una relación B/C > 1 indica que los beneficios superan los costos, por lo tanto el proyecto es económicamente conveniente.",
-    topic: "Relación Beneficio/Costo"
+    explanation: "En la situacion del centro de acopio en Titiribi, la relacion B/C es el cociente entre el valor presente de los beneficios (mejores precios para productores, reduccion de perdidas postcosecha) y el valor presente de los costos (construccion, operacion). Una relacion B/C de 1.5 indica que por cada peso invertido se generan 1.5 pesos de beneficio social.",
+    topic: "Relacion Beneficio/Costo"
   },
   {
     id: 24,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El flujo de caja de un proyecto muestra:",
+    question: "Situacion\n\nEl profesional financiero del municipio de Valparaiso esta elaborando el estudio de factibilidad de un proyecto de construccion de una plaza de mercado. Necesita proyectar los ingresos y egresos del proyecto en el tiempo para evaluar su liquidez.\n\nPregunta\n\nSegun la situacion descrita, ¿que muestra el flujo de caja de un proyecto?",
     options: [
       "Solo los ingresos iniciales",
       "Los ingresos, egresos y saldo neto de efectivo del proyecto en cada periodo de tiempo (mensual o anual), permitiendo evaluar la liquidez y viabilidad financiera",
-      "Únicamente los gastos de personal",
+      "Unicamente los gastos de personal",
       "Solo el presupuesto aprobado"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el flujo de caja proyecta los ingresos, egresos y saldo neto de efectivo del proyecto en cada periodo (mensual o anual), permitiendo evaluar la liquidez, identificar necesidades de financiamiento, y calcular indicadores de viabilidad financiera como VPN y TIR.",
+    explanation: "En la situacion de la plaza de mercado en Valparaiso, el flujo de caja proyecta los ingresos (arriendos de locales, tarifas de parqueadero), egresos (construccion, mantenimiento, servicios publicos, personal) y saldo neto en cada periodo, permitiendo evaluar la liquidez, identificar necesidades de financiamiento y calcular VPN y TIR.",
     topic: "Flujo de caja"
   },
   {
     id: 25,
-    question: "Lectura: El equipo de planeación prepara un nuevo plan de desarrollo y debe estructurar proyectos alineados con las metas institucionales. El análisis de sensibilidad en la evaluación de proyectos consiste en:",
+    question: "Situacion\n\nEl evaluador del municipio de Abriaqui esta analizando un proyecto de mejoramiento de infraestructura escolar. Debido a la incertidumbre en los costos de materiales, necesita evaluar como cambiaria la viabilidad del proyecto si los costos aumentan un 10% o 20%.\n\nPregunta\n\nDe acuerdo con la situacion planteada, ¿en que consiste el analisis de sensibilidad en la evaluacion de proyectos?",
     options: [
       "Solo presentar el escenario optimista",
-      "Evaluar cómo cambian los indicadores de viabilidad (VPN, TIR, B/C) ante variaciones en variables críticas como costos, beneficios, demanda o tasa de descuento",
-      "Únicamente calcular el costo total",
+      "Evaluar como cambian los indicadores de viabilidad (VPN, TIR, B/C) ante variaciones en variables criticas como costos, beneficios, demanda o tasa de descuento",
+      "Unicamente calcular el costo total",
       "Solo duplicar el presupuesto"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El análisis de sensibilidad evalúa cómo varían los indicadores de viabilidad (VPN, TIR, B/C) cuando cambian variables críticas del proyecto (costos de inversión, beneficios esperados, demanda, tasa de descuento), identificando riesgos y robustez de la decisión de inversión.",
-    topic: "Análisis de sensibilidad"
+    explanation: "En la situacion del proyecto escolar en Abriaqui, el analisis de sensibilidad evalua como cambian el VPN y la TIR si los costos de materiales aumentan 10% o 20%, si la tasa de descuento cambia, o si los beneficios son menores. Esto permite identificar riesgos financieros y la robustez de la decision de inversion.",
+    topic: "Analisis de sensibilidad"
   }
 ]
 
@@ -786,8 +786,8 @@ export function FormulacionTest() {
     <div className="space-y-6">
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
         <TabsList className="grid w-full grid-cols-2">
-          <TabsTrigger value="v1">Versión 1</TabsTrigger>
-          <TabsTrigger value="v2">Versión 2</TabsTrigger>
+          <TabsTrigger value="v1">Version 1</TabsTrigger>
+          <TabsTrigger value="v2">Version 2</TabsTrigger>
         </TabsList>
 
         <TabsContent value="v1" className="space-y-6 mt-6">
@@ -823,7 +823,7 @@ export function FormulacionTest() {
             <CardContent className="space-y-4">
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <p className="text-sm text-muted-foreground">Puntuación</p>
+                  <p className="text-sm text-muted-foreground">Puntuacion</p>
                   <p className="text-3xl font-bold text-primary">
                     {score} / {totalPoints}
                   </p>
@@ -842,9 +842,9 @@ export function FormulacionTest() {
                 </div>
                 <p className="text-sm text-center text-muted-foreground">
                   {percentage >= 80
-                    ? "¡Excelente! Dominas la formulación de proyectos públicos."
+                    ? "Excelente! Dominas la formulacion de proyectos publicos."
                     : percentage >= 60
-                    ? "Buen trabajo. Continúa estudiando la metodología MGA."
+                    ? "Buen trabajo. Continua estudiando la metodologia MGA."
                     : "Sigue practicando. Revisa el DNP y la normativa de proyectos."}
                 </p>
               </div>
@@ -886,7 +886,7 @@ export function FormulacionTest() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="font-medium leading-relaxed">{question.question}</p>
+                <p className="font-medium leading-relaxed whitespace-pre-line">{question.question}</p>
 
                 <RadioGroup
                   value={answers[question.id]?.toString()}
@@ -924,7 +924,7 @@ export function FormulacionTest() {
                 {showFeedback && answers[question.id] !== undefined && (
                   <Alert className={answers[question.id] === question.correctAnswer ? "border-green-500 bg-green-50" : "border-orange-500 bg-orange-50"}>
                     <AlertTitle className="font-semibold">
-                      {answers[question.id] === question.correctAnswer ? "¡Correcto!" : "Incorrecto"}
+                      {answers[question.id] === question.correctAnswer ? "Correcto!" : "Incorrecto"}
                     </AlertTitle>
                     <AlertDescription className="text-sm mt-2 leading-relaxed">
                       {question.explanation}

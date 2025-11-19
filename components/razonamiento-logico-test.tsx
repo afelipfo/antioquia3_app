@@ -24,7 +24,7 @@ interface Question {
 const questions: Question[] = [
   {
     id: 1,
-    question: "Lectura: 'Todos los mamíferos son animales. El perro es mamífero'. ¿Qué conclusión deductiva es válida?",
+    question: "Situacion\n\nDurante una capacitacion sobre logica formal, un funcionario de la Gobernacion debe analizar el siguiente silogismo: 'Todos los mamiferos son animales. El perro es mamifero'. El capacitador le pide identificar la conclusion valida.\n\nPregunta\n\nCon base en el silogismo presentado, ¿que conclusion deductiva es valida?",
     options: [
       "Algunos perros son animales",
       "El perro es un animal",
@@ -33,177 +33,164 @@ const questions: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El silogismo clásico permite concluir que el perro es un animal.",
-    topic: "Deducción",
+    explanation: "En la situacion descrita, el silogismo clasico permite concluir que el perro es un animal, ya que al ser mamifero y estar todos los mamiferos incluidos en el conjunto de animales, el perro necesariamente pertenece a dicho conjunto.",
+    topic: "Deduccion",
   },
   {
     id: 2,
-    question: "Lectura: 'Si un número es par, entonces es divisible entre 2. 18 es par'. ¿Conclusión correcta?",
+    question: "Situacion\n\nUn analista del area de planeacion esta revisando un informe sobre divisibilidad de numeros para un proyecto educativo. Encuentra la siguiente afirmacion: 'Si un numero es par, entonces es divisible entre 2. 18 es par'.\n\nPregunta\n\nSegun el enunciado condicional presentado, ¿cual es la conclusion correcta?",
     options: ["18 no es divisible entre 2", "18 es primo", "18 es divisible entre 2", "18 es impar"],
     correctAnswer: 2,
     points: 5,
-    explanation: "Aplicar la regla general implica que 18 es divisible entre 2.",
-    topic: "Deducción",
+    explanation: "En esta situacion, aplicar la regla general (modus ponens) implica que si 18 cumple la condicion de ser par, entonces necesariamente es divisible entre 2.",
+    topic: "Deduccion",
   },
   {
     id: 3,
-    question:
-      "Lectura: 'Todas las frutas contienen vitaminas. La naranja es una fruta'. ¿Qué conclusión se sigue?",
+    question: "Situacion\n\nEn una jornada de formacion sobre nutricion para funcionarios del programa de seguridad alimentaria, se presenta el siguiente razonamiento: 'Todas las frutas contienen vitaminas. La naranja es una fruta'.\n\nPregunta\n\nA partir de las premisas presentadas, ¿que conclusion se sigue logicamente?",
     options: ["La naranja contiene vitaminas", "La naranja no contiene agua", "Todas las vitaminas son naranjas", "La naranja no es comestible"],
     correctAnswer: 0,
     points: 5,
-    explanation: "La conclusión necesaria es que la naranja contiene vitaminas.",
-    topic: "Deducción",
+    explanation: "Dada la situacion, la conclusion necesaria es que la naranja contiene vitaminas, pues al ser fruta hereda la propiedad que todas las frutas poseen segun la premisa mayor.",
+    topic: "Deduccion",
   },
   {
     id: 4,
-    question:
-      "Lectura: Reglamento: redistribuir cargas priorizando urgentes en excepciones. Lluvia impide salida de técnicos; hay postquirúrgicos diarios. ¿Qué acción deduce la norma?",
+    question: "Situacion\n\nEn el servicio de salud domiciliaria, el reglamento establece que en excepciones se deben redistribuir las cargas priorizando los casos urgentes. Hoy hay una fuerte lluvia que impide la salida de varios tecnicos, pero hay pacientes postquirurgicos que requieren visita diaria.\n\nPregunta\n\nSegun la norma vigente y la situacion descrita, ¿que accion se deduce que debe tomarse?",
     options: [
       "Cancelar todas las visitas",
       "Exigir salida de todo el personal",
-      "Redistribuir entre disponibles priorizando postquirúrgicos y reprogramar lo no urgente",
+      "Redistribuir entre disponibles priorizando postquirurgicos y reprogramar lo no urgente",
       "Atender solo pacientes nuevos",
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "La regla ordena priorizar urgencias y redistribuir cuando hay personal reducido.",
-    topic: "Deducción aplicada",
+    explanation: "En esta situacion excepcional, la regla ordena priorizar urgencias (postquirurgicos) y redistribuir la carga entre el personal disponible, reprogramando los casos no urgentes.",
+    topic: "Deduccion aplicada",
   },
   {
     id: 5,
-    question:
-      "Lectura: Norma emergencias: todo incidente se informa de inmediato y por escrito aunque ya se retiró. Se retiró carro que obstruía pasillo. ¿Qué procede?",
+    question: "Situacion\n\nUn funcionario de mantenimiento encuentra un carro de suministros obstruyendo parcialmente el pasillo de emergencias del edificio administrativo. Retira el carro inmediatamente. La norma de emergencias establece que todo incidente debe informarse de inmediato y documentarse por escrito, aunque la situacion ya se haya resuelto.\n\nPregunta\n\nDe acuerdo con la norma y la situacion descrita, ¿que debe hacer el funcionario?",
     options: [
-      "No reportar porque no pasó nada",
+      "No reportar porque no paso nada",
       "Esperar al final del turno",
       "Informar de inmediato y radicar informe escrito",
       "Llamar a archivo para decidir",
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "La norma exige reporte inmediato y documentación escrita aun sin daños.",
-    topic: "Deducción aplicada",
+    explanation: "Segun la situacion presentada, la norma exige reporte inmediato y documentacion escrita aun cuando no haya ocurrido dano, pues el incidente existio y fue mitigado.",
+    topic: "Deduccion aplicada",
   },
   {
     id: 6,
-    question:
-      "Lectura: 'En excepciones se redistribuye priorizando urgentes; hoy hay técnicos ausentes y postquirúrgicos'. ¿Cuáles son premisa mayor y menor?",
+    question: "Situacion\n\nDurante un taller de logica aplicada, un facilitador presenta el siguiente caso: 'La norma dice que en excepciones se redistribuye priorizando urgentes; hoy hay tecnicos ausentes por lluvia y hay pacientes postquirurgicos pendientes'. Pide a los participantes identificar la estructura del razonamiento.\n\nPregunta\n\nEn el caso presentado, ¿cuales son la premisa mayor y la premisa menor del silogismo?",
     options: [
-      "Mayor: hoy llueve; Menor: hay postquirúrgicos",
-      "Mayor: hay técnicos disponibles; Menor: no hay urgencias",
-      "Mayor: norma de redistribución; Menor: situación concreta (ausentes + postquirúrgicos)",
-      "Mayor: postquirúrgicos son leves; Menor: se atienden últimos",
+      "Mayor: hoy llueve; Menor: hay postquirurgicos",
+      "Mayor: hay tecnicos disponibles; Menor: no hay urgencias",
+      "Mayor: norma de redistribucion; Menor: situacion concreta (ausentes + postquirurgicos)",
+      "Mayor: postquirurgicos son leves; Menor: se atienden ultimos",
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "La premisa mayor es la norma y la menor la situación actual descrita.",
-    topic: "Estructura deducción",
+    explanation: "En esta situacion de analisis logico, la premisa mayor es la norma general de redistribucion y la premisa menor es la situacion concreta que se presenta (tecnicos ausentes y pacientes urgentes).",
+    topic: "Estructura deduccion",
   },
   {
     id: 7,
-    question:
-      "Lectura: El equipo separa el proceso en pasos (turno, verificación, radicación) para entender demoras. ¿Qué eje aplica?",
-    options: ["Categorial", "Analítico", "Intuitivo", "Retórico"],
+    question: "Situacion\n\nEl equipo de mejora continua de una secretaria esta analizando por que los tramites tardan tanto. Deciden separar el proceso en pasos individuales: asignacion de turno, verificacion de documentos, radicacion en sistema, para identificar donde ocurren las demoras.\n\nPregunta\n\nSegun la metodologia utilizada por el equipo, ¿que eje de pensamiento estan aplicando?",
+    options: ["Categorial", "Analitico", "Intuitivo", "Retorico"],
     correctAnswer: 1,
     points: 5,
-    explanation: "Analítico implica descomponer el proceso en sus partes.",
+    explanation: "En la situacion descrita, el equipo aplica el eje analitico porque descompone el proceso complejo en sus partes constitutivas para entender mejor cada etapa.",
     topic: "Ejes de pensamiento",
   },
   {
     id: 8,
-    question:
-      "Lectura: En PQRSD se separan peticiones, quejas, reclamos, sugerencias y denuncias. ¿Qué eje se usa?",
-    options: ["Analítico", "Categorial", "Hipotético", "Axiológico"],
+    question: "Situacion\n\nUn funcionario del area de atencion al ciudadano esta organizando el sistema de PQRSD. Para ello, separa las solicitudes en categorias definidas: peticiones, quejas, reclamos, sugerencias y denuncias, cada una con sus caracteristicas propias.\n\nPregunta\n\nAl clasificar las solicitudes de esta manera, ¿que eje de pensamiento esta utilizando el funcionario?",
+    options: ["Analitico", "Categorial", "Hipotetico", "Axiologico"],
     correctAnswer: 1,
     points: 5,
-    explanation: "Categorial significa clasificar en categorías definidas.",
+    explanation: "En esta situacion, el funcionario aplica el eje categorial porque agrupa los elementos en categorias claramente definidas segun sus caracteristicas distintivas.",
     topic: "Ejes de pensamiento",
   },
   {
     id: 9,
-    question:
-      "Lectura: La mayoría de usuarios que se quejan por demora no trae documentos completos. ¿Qué conclusión inductiva es razonable?",
+    question: "Situacion\n\nEl coordinador de atencion al usuario ha observado que la mayoria de los ciudadanos que presentan quejas por demora en sus tramites no traian sus documentos completos al momento de radicar. Ha documentado este patron en los ultimos tres meses.\n\nPregunta\n\nCon base en las observaciones del coordinador, ¿que conclusion inductiva es razonable formular?",
     options: [
       "Toda queja es por falta de documentos",
       "No se puede concluir nada",
-      "En la mayoría de casos, la documentación incompleta retrasa la atención",
+      "En la mayoria de casos, la documentacion incompleta retrasa la atencion",
       "Las demoras solo ocurren los lunes",
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "Inducción sugiere que, generalmente, la falta de documentos retrasa el trámite.",
-    topic: "Inducción",
+    explanation: "Dada la situacion observada, la induccion permite sugerir que, generalmente, la falta de documentos completos es un factor que contribuye a retrasar los tramites.",
+    topic: "Induccion",
   },
   {
     id: 10,
-    question:
-      "Lectura: 'Calentar agua a 100 °C produce ebullición' (depende de presión). ¿Qué caracteriza esta inferencia?",
+    question: "Situacion\n\nEn una clase de fisica para tecnicos de laboratorio, el profesor explica que 'calentar agua a 100 °C produce ebullicion'. Un estudiante pregunta si esto siempre es cierto, y el profesor aclara que depende de la presion atmosferica del lugar.\n\nPregunta\n\nSegun la aclaracion del profesor, ¿que caracteriza esta inferencia sobre el punto de ebullicion?",
     options: [
-      "Es cierta sin excepción",
+      "Es cierta sin excepcion",
       "Generaliza observaciones y es probable (depende de condiciones)",
-      "Es un silogismo categórico",
-      "Es una definición",
+      "Es un silogismo categorico",
+      "Es una definicion",
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La inducción depende de condiciones como la presión atmosférica.",
-    topic: "Inducción",
+    explanation: "En esta situacion educativa, se evidencia que la induccion generaliza observaciones pero su validez depende de condiciones especificas como la presion atmosferica.",
+    topic: "Induccion",
   },
   {
     id: 11,
-    question:
-      "Lectura: Tras observar 10 cisnes blancos luego conoces que existen negros. ¿Qué enseña sobre la inducción?",
+    question: "Situacion\n\nUn investigador observo 10 cisnes en diferentes lagos de Europa y todos resultaron ser blancos. Concluyo que todos los cisnes son blancos. Tiempo despues, en un viaje a Australia, descubrio que existen cisnes negros.\n\nPregunta\n\nA partir de la experiencia del investigador, ¿que ensenanza se obtiene sobre la naturaleza de la induccion?",
     options: [
-      "Toda inducción es falsa",
-      "La conclusión es probable, puede haber contraejemplos",
+      "Toda induccion es falsa",
+      "La conclusion es probable, puede haber contraejemplos",
       "Ver 10 casos prueba una ley universal",
-      "Inducción equivale a deducción",
+      "Induccion equivale a deduccion",
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las generalizaciones inductivas no son necesarias; pueden existir casos contrarios.",
-    topic: "Inducción",
+    explanation: "La situacion del investigador ilustra que las generalizaciones inductivas no son necesarias ni absolutas; siempre pueden existir casos contrarios que refuten la conclusion.",
+    topic: "Induccion",
   },
   {
     id: 12,
-    question:
-      "Lectura: Cinco trámites con información completa se resolvieron más rápido. ¿Qué conclusión inductiva favorece la gestión?",
+    question: "Situacion\n\nUn analista de gestion documental reviso cinco tramites recientes que fueron resueltos en tiempo record. En todos los casos, los ciudadanos habian entregado informacion completa y bien organizada desde el inicio.\n\nPregunta\n\nCon base en el analisis de estos casos, ¿que conclusion inductiva favorece la mejora de la gestion?",
     options: [
-      "La información no influye",
-      "Dar información clara generalmente agiliza la resolución",
+      "La informacion no influye",
+      "Dar informacion clara generalmente agiliza la resolucion",
       "Solo importan recursos humanos",
-      "La conclusión es cierta siempre",
+      "La conclusion es cierta siempre",
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La inducción respalda que información completa tiende a agilizar trámites.",
-    topic: "Inducción",
+    explanation: "En la situacion analizada, la induccion respalda que entregar informacion completa y organizada tiende a agilizar la resolucion de los tramites.",
+    topic: "Induccion",
   },
   {
     id: 13,
-    question:
-      "Lectura: Oraciones: i) 'Bogotá es la capital de Colombia'; ii) '2+2=5'; iii) '¿Qué hora es?'. ¿Cuáles son proposiciones?",
+    question: "Situacion\n\nEn un curso de logica proposicional para funcionarios, el instructor presenta tres oraciones para analizar: i) 'Bogota es la capital de Colombia'; ii) '2+2=5'; iii) '¿Que hora es?'. Pide identificar cuales son proposiciones.\n\nPregunta\n\nSegun los criterios de la logica proposicional, ¿cuales de las oraciones presentadas son proposiciones?",
     options: ["Solo i", "i y ii", "i y ii; iii no lo es", "Todas"],
     correctAnswer: 2,
     points: 5,
-    explanation: "Las proposiciones son enunciados con valor de verdad; una pregunta no es proposición.",
+    explanation: "En esta situacion de formacion, las proposiciones son enunciados que pueden ser verdaderos o falsos. Las oraciones i y ii tienen valor de verdad, mientras que iii es una pregunta y por tanto no es una proposicion.",
     topic: "Proposiciones",
   },
   {
     id: 14,
-    question:
-      "Lectura: 'Bogotá es la capital' (V); '2+2=5' (F). ¿Qué emparejamiento es correcto?",
+    question: "Situacion\n\nDurante un ejercicio de evaluacion logica, un funcionario debe asignar valores de verdad a dos proposiciones: 'Bogota es la capital de Colombia' y '2+2=5'. Debe determinar el emparejamiento correcto.\n\nPregunta\n\nSegun el valor de verdad de cada proposicion, ¿cual es el emparejamiento correcto?",
     options: ["V,V", "F,V", "V,F", "F,F"],
     correctAnswer: 2,
     points: 5,
-    explanation: "La primera es verdadera, la segunda falsa.",
+    explanation: "En la situacion presentada, la primera proposicion es verdadera (Bogota si es la capital) y la segunda es falsa (2+2 no es igual a 5), por lo que el emparejamiento correcto es V,F.",
     topic: "Valores de verdad",
   },
   {
     id: 15,
-    question:
-      "Lectura: Protocolo PQRSD: verificar identidad ∧ registrar. ¿Qué opción cumple V ∧ V?",
+    question: "Situacion\n\nUn funcionario de ventanilla recibe a un ciudadano que desea radicar una peticion. Segun el protocolo PQRSD, debe cumplir dos condiciones obligatorias expresadas como conjuncion logica: verificar identidad Y registrar en el sistema (V ∧ V).\n\nPregunta\n\nPara que la conjuncion sea verdadera, ¿que opcion debe ejecutar el funcionario?",
     options: [
       "Verificar identidad y registrar",
       "Exigir recibo y remitir",
@@ -212,43 +199,40 @@ const questions: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la conjunción ambas acciones deben cumplirse.",
-    topic: "Conjunción",
+    explanation: "En la situacion descrita, la conjuncion logica requiere que ambas acciones se cumplan: verificar la identidad del ciudadano y registrar la peticion en el sistema.",
+    topic: "Conjuncion",
   },
   {
     id: 16,
-    question:
-      "Lectura: 'Adultos mayores o con discapacidad tienen atención preferente'. Llega usuario con ambas condiciones. ¿Qué opción respeta la disyunción?",
+    question: "Situacion\n\nA la ventanilla de atencion llega un usuario que es adulto mayor y ademas tiene una discapacidad visual leve. El protocolo establece que 'adultos mayores O personas con discapacidad tienen derecho a atencion preferente' (disyuncion).\n\nPregunta\n\nDada la situacion del usuario, ¿que opcion respeta correctamente la disyuncion del protocolo?",
     options: [
-      "Otorgar atención preferente o remitir si falta info",
+      "Otorgar atencion preferente o remitir si falta info",
       "Leer en voz alta sus datos",
       "Negar prioridad",
       "Exigir documentos no requeridos",
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "La disyunción indica que basta una condición para otorgar prioridad y brindar apoyo.",
-    topic: "Disyunción",
+    explanation: "En esta situacion, la disyuncion indica que basta con que se cumpla una de las condiciones para otorgar atencion preferente. El usuario cumple ambas, por lo que definitivamente tiene derecho a prioridad.",
+    topic: "Disyuncion",
   },
   {
     id: 17,
-    question:
-      "Lectura: 'Debes proteger datos personales (¬ leer información sensible en voz alta)'. ¿Qué conducta respeta la negación?",
+    question: "Situacion\n\nUn funcionario atiende a una ciudadana que presenta documentos con informacion personal sensible (direccion, telefono, datos de salud). El protocolo de proteccion de datos establece que se debe aplicar la negacion: NO leer informacion sensible en voz alta.\n\nPregunta\n\nPara respetar la negacion establecida en el protocolo, ¿que conducta debe adoptar el funcionario?",
     options: [
       "Orientar sin verbalizar datos",
       "Leer el documento en voz alta",
-      "Repetir dirección frente a todos",
-      "Mostrar datos en pantalla pública",
+      "Repetir direccion frente a todos",
+      "Mostrar datos en pantalla publica",
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "La negación ordena no divulgar; orientar sin verbalizar protege la información.",
-    topic: "Negación",
+    explanation: "En la situacion presentada, la negacion ordena no divulgar informacion sensible verbalmente. Orientar sin verbalizar los datos protege la informacion personal del ciudadano.",
+    topic: "Negacion",
   },
   {
     id: 18,
-    question:
-      "Lectura: 'Si no tienes toda la información, remite al área competente'. ¿Qué acción cumple p → q?",
+    question: "Situacion\n\nUn ciudadano llega a la ventanilla con una consulta sobre licencias de construccion, pero el funcionario no tiene toda la informacion necesaria para responder. El protocolo establece el condicional: 'Si no tienes toda la informacion, entonces remite al area competente' (p → q).\n\nPregunta\n\nPara cumplir correctamente el condicional del protocolo, ¿que accion debe tomar el funcionario?",
     options: [
       "Falta info y no remites",
       "Falta info y remites",
@@ -257,13 +241,12 @@ const questions: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El condicional se satisface cuando la antecedente ocurre y se ejecuta la consecuente.",
+    explanation: "En esta situacion, el condicional se satisface cuando se cumple la antecedente (falta informacion) y se ejecuta la consecuente (remitir al area competente).",
     topic: "Condicional",
   },
   {
     id: 19,
-    question:
-      "Lectura: p ↔ q es verdadero cuando p y q tienen mismo valor. ¿Cuál ejemplo es correcto?",
+    question: "Situacion\n\nEn una capacitacion sobre logica, el instructor explica el bicondicional (p ↔ q) y senala que es verdadero cuando ambas proposiciones tienen el mismo valor de verdad. Pide a los participantes identificar un ejemplo correcto.\n\nPregunta\n\nSegun la definicion del bicondicional, ¿cual ejemplo muestra correctamente cuando p ↔ q es verdadero?",
     options: [
       "p V, q F",
       "p F, q V",
@@ -272,28 +255,26 @@ const questions: Question[] = [
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "El bicondicional requiere igualdad de valor de verdad para ser verdadero.",
+    explanation: "En la situacion de capacitacion, el bicondicional requiere que ambas proposiciones tengan el mismo valor de verdad. Cuando p es verdadera y q es verdadera, el bicondicional es verdadero.",
     topic: "Bicondicional",
   },
   {
     id: 20,
-    question:
-      "Lectura: 'Todos los mamíferos son animales; todos los animales son perros; luego todas las naranjas son mamíferos'. ¿Qué ocurre?",
+    question: "Situacion\n\nDurante un examen de logica, un estudiante presenta el siguiente razonamiento: 'Todos los mamiferos son animales; todos los animales son perros; luego todas las naranjas son mamiferos'. El evaluador debe determinar si es valido.\n\nPregunta\n\nAl analizar el razonamiento del estudiante, ¿que conclusion puede establecer el evaluador?",
     options: [
-      "Silogismo válido",
-      "Conclusión no se sigue de las premisas",
-      "Inducción correcta",
-      "Equivalencia lógica",
+      "Silogismo valido",
+      "Conclusion no se sigue de las premisas",
+      "Induccion correcta",
+      "Equivalencia logica",
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "El razonamiento es inválido; las premisas no conducen a la conclusión.",
+    explanation: "En esta situacion de evaluacion, el razonamiento es claramente invalido porque la conclusion sobre las naranjas no tiene ninguna conexion logica con las premisas sobre mamiferos y animales.",
     topic: "Falacias",
   },
   {
     id: 21,
-    question:
-      "Lectura: Ciudadano llega con cédula (ok) y sin recibo (no requisito). ¿Qué acción cumple la conjunción exigida?",
+    question: "Situacion\n\nUn ciudadano llega a radicar una peticion presentando su cedula de ciudadania vigente, pero sin traer recibo de servicios publicos. El protocolo PQRSD exige verificar identidad (cedula) y registrar en sistema. El recibo no es un requisito establecido.\n\nPregunta\n\nSegun los requisitos del protocolo y la documentacion presentada, ¿que accion cumple la conjuncion exigida?",
     options: [
       "Verificar y registrar",
       "Exigir recibo y remitir",
@@ -302,13 +283,12 @@ const questions: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "La norma exige verificar identidad y registrar en el sistema.",
+    explanation: "En la situacion descrita, la norma solo exige verificar identidad (cedula presentada) y registrar en el sistema. El recibo no es requisito, por lo que se debe proceder con el tramite.",
     topic: "PQRSD",
   },
   {
     id: 22,
-    question:
-      "Lectura: Adulto mayor con discapacidad leve solicita ayuda para formato. ¿Qué actuación respeta el protocolo?",
+    question: "Situacion\n\nUna persona de la tercera edad con discapacidad visual leve se acerca a la ventanilla solicitando ayuda para diligenciar un formato de peticion. No puede leer bien el documento y necesita asistencia para completarlo correctamente.\n\nPregunta\n\nDe acuerdo con el protocolo de atencion preferente, ¿que actuacion debe realizar el funcionario?",
     options: [
       "Dar prioridad y apoyar el diligenciamiento",
       "Leer datos en voz alta",
@@ -317,13 +297,12 @@ const questions: Question[] = [
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "El protocolo combina atención preferente y apoyo en diligenciamiento.",
+    explanation: "En esta situacion, el protocolo exige combinar la atencion preferente (por ser adulto mayor y tener discapacidad) con el apoyo en el diligenciamiento del formato.",
     topic: "PQRSD",
   },
   {
     id: 23,
-    question:
-      "Lectura: Obstrucción retirada en emergencias sin daños. ¿Qué conducta exige la norma?",
+    question: "Situacion\n\nDurante la ronda de seguridad, un vigilante encuentra una caja de suministros obstruyendo parcialmente la salida de emergencias del sotano. Inmediatamente retira la caja y despeja la ruta. No hubo heridos ni danos.\n\nPregunta\n\nSegun la norma de emergencias, ¿que conducta debe seguir el vigilante despues de retirar la obstruccion?",
     options: [
       "No reportar",
       "Informar de inmediato y elaborar informe",
@@ -332,13 +311,12 @@ const questions: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Siempre se reporta e informa por escrito, aunque el riesgo se haya mitigado.",
+    explanation: "En la situacion descrita, la norma exige que siempre se reporte de inmediato y se elabore un informe escrito, aunque el riesgo ya se haya mitigado y no haya ocurrido dano.",
     topic: "Emergencias",
   },
   {
     id: 24,
-    question:
-      "Lectura: Falta personal por lluvia; hay postquirúrgicos urgentes. ¿Qué decisión alinea norma y lógica?",
+    question: "Situacion\n\nEn el servicio de salud domiciliaria, una fuerte tormenta impide que varios tecnicos salgan a realizar visitas programadas. Sin embargo, hay pacientes postquirurgicos que requieren atencion urgente ese dia. El coordinador debe tomar una decision.\n\nPregunta\n\nConsiderando la norma de redistribucion y la logica de priorizacion, ¿que decision debe tomar el coordinador?",
     options: [
       "Suspender agenda",
       "Redistribuir disponibles priorizando urgentes y optimizando rutas",
@@ -347,7 +325,7 @@ const questions: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La norma manda redistribuir priorizando urgencias y reorganizar rutas.",
+    explanation: "En esta situacion de emergencia climatica, la norma manda redistribuir el personal disponible priorizando los casos urgentes (postquirurgicos) y reorganizar las rutas para optimizar la cobertura.",
     topic: "Salud domiciliaria",
   },
 ]
@@ -406,12 +384,12 @@ export function RazonamientoLogicoTest() {
             <CardHeader>
               <CardTitle>Razonamiento deductivo e inductivo</CardTitle>
               <CardDescription>
-                Banco basado en la presentación de razonamiento lógico y casos de PQRSD, salud y emergencias.
+                Banco basado en la presentacion de razonamiento logico y casos de PQRSD, salud y emergencias.
               </CardDescription>
             </CardHeader>
             <CardContent className="text-sm text-muted-foreground space-y-2">
               <p>
-                Practica silogismos, ejes analítico/categorial, inducción, lógica proposicional y aplicaciones institucionales con 24 preguntas
+                Practica silogismos, ejes analitico/categorial, induccion, logica proposicional y aplicaciones institucionales con 24 preguntas
                 situacionales.
               </p>
               <Alert>
@@ -428,7 +406,7 @@ export function RazonamientoLogicoTest() {
           <Card className="border bg-card/70 shadow-sm">
             <CardHeader>
               <CardTitle>Indicaciones</CardTitle>
-              <CardDescription>Lee la lectura, identifica el tipo de razonamiento y elige la opción coherente.</CardDescription>
+              <CardDescription>Lee la situacion, identifica el tipo de razonamiento y elige la opcion coherente.</CardDescription>
             </CardHeader>
             <CardContent className="text-sm text-muted-foreground space-y-2">
               <ul className="list-disc pl-5 space-y-1">
@@ -476,7 +454,7 @@ export function RazonamientoLogicoTest() {
               <CardDescription>Tema: {question.topic}</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
-              <p className="font-medium leading-relaxed">{question.question}</p>
+              <p className="font-medium leading-relaxed whitespace-pre-line">{question.question}</p>
               <RadioGroup
                 value={selected?.toString()}
                 onValueChange={(value) => handleAnswerChange(question.id, Number(value))}
@@ -522,7 +500,7 @@ export function RazonamientoLogicoTest() {
         ) : (
           <>
             <Button onClick={() => setShowFeedback((prev) => !prev)} variant="outline" className="min-w-[200px]">
-              {showFeedback ? "Ocultar retroalimentación" : "Mostrar retroalimentación"}
+              {showFeedback ? "Ocultar retroalimentacion" : "Mostrar retroalimentacion"}
             </Button>
             <Button onClick={handleReset} variant="secondary" className="min-w-[200px]">
               Reiniciar prueba

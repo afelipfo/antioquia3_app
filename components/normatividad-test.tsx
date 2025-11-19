@@ -24,282 +24,282 @@ interface Question {
 const questionsV1: Question[] = [
   {
     id: 1,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Según Libardo Rodríguez, el derecho administrativo es:",
+    question: "Situacion\n\nEn la Alcaldia Municipal de Rionegro, el equipo juridico revisa las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Un pasante pregunta por la definicion del derecho administrativo segun la doctrina colombiana.\n\nPregunta\n\nCon base en la situacion descrita, segun Libardo Rodriguez, el derecho administrativo es:",
     options: [
       "Una rama del derecho privado que regula los contratos entre particulares",
-      "Una rama del derecho público que regula la organización, actividad y control de la administración pública y la relación Estado-ciudadano por fuera del ámbito contractual o penal",
-      "Un conjunto de normas penales aplicables a los servidores públicos",
-      "Una disciplina económica encargada de distribuir los recursos estatales"
+      "Una rama del derecho publico que regula la organizacion, actividad y control de la administracion publica y la relacion Estado-ciudadano por fuera del ambito contractual o penal",
+      "Un conjunto de normas penales aplicables a los servidores publicos",
+      "Una disciplina economica encargada de distribuir los recursos estatales"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Libardo Rodríguez define el derecho administrativo como una rama del derecho público que regula organización, actividad y control de la administración pública y la relación Estado-ciudadano fuera del ámbito contractual o penal.",
+    explanation: "En la situacion descrita, el pasante debe entender que Libardo Rodriguez define el derecho administrativo como una rama del derecho publico que regula organizacion, actividad y control de la administracion publica y la relacion Estado-ciudadano fuera del ambito contractual o penal.",
     topic: "Concepto del derecho administrativo"
   },
   {
     id: 2,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. ¿Cuál de las siguientes es una función del derecho administrativo?",
+    question: "Situacion\n\nDurante una capacitacion en la Gobernacion de Antioquia, un funcionario de carrera administrativa explica a los nuevos contratistas las funciones basicas del derecho administrativo en el contexto de las entidades territoriales.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual de las siguientes es una funcion del derecho administrativo?",
     options: [
-      "Regular la relación entre administrados y la administración",
-      "Definir la política monetaria del país",
+      "Regular la relacion entre administrados y la administracion",
+      "Definir la politica monetaria del pais",
       "Celebrar tratados internacionales",
       "Legislar en materia penal"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, entre las funciones del derecho administrativo está regular la relación entre la administración y los administrados, además de organizar internamente la administración y poner límites al ejercicio del poder.",
+    explanation: "En la situacion descrita, el funcionario debe explicar que entre las funciones del derecho administrativo esta regular la relacion entre la administracion y los administrados, ademas de organizar internamente la administracion y poner limites al ejercicio del poder.",
     topic: "Funciones del derecho administrativo"
   },
   {
     id: 3,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de igualdad exige que las autoridades:",
+    question: "Situacion\n\nEn la oficina de atencion al ciudadano del municipio de Envigado, se presenta una queja porque un funcionario atendio primero a un conocido personal en lugar de respetar el orden de llegada. El jefe de la dependencia debe resolver la situacion aplicando los principios constitucionales.\n\nPregunta\n\nCon base en la situacion descrita, el principio de igualdad exige que las autoridades:",
     options: [
-      "Favorezcan a grupos específicos para acelerar los trámites",
+      "Favorezcan a grupos especificos para acelerar los tramites",
       "Seleccionen discrecionalmente a los usuarios que deben atender",
       "Traten de forma rigurosamente imparcial a todos los administrados sin favorecer a individuos ni grupos",
-      "Otorguen beneficios automáticos a quienes presenten mayores recursos"
+      "Otorguen beneficios automaticos a quienes presenten mayores recursos"
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "En la situación descrita, el principio de igualdad obliga a las autoridades a tratar de forma imparcial a todos los administrados, evitando favoritismos o discriminaciones.",
-    topic: "Principios del artículo 209 - Igualdad"
+    explanation: "En la situacion descrita, el jefe de dependencia debe recordar que el principio de igualdad obliga a las autoridades a tratar de forma imparcial a todos los administrados, evitando favoritismos o discriminaciones como la que se presento.",
+    topic: "Principios del articulo 209 - Igualdad"
   },
   {
     id: 4,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de moralidad implica que los servidores públicos deben:",
+    question: "Situacion\n\nUn servidor publico de la Secretaria de Hacienda del departamento de Antioquia recibe una oferta de un contratista para agilizar un tramite a cambio de una comision. El servidor consulta con su superior sobre como debe actuar conforme a los principios de la funcion administrativa.\n\nPregunta\n\nCon base en la situacion descrita, el principio de moralidad implica que los servidores publicos deben:",
     options: [
-      "Actuar con honestidad y desinterés, respetando incompatibilidades y prohibiciones",
-      "Priorizar decisiones que favorezcan a sus superiores jerárquicos",
+      "Actuar con honestidad y desinteres, respetando incompatibilidades y prohibiciones",
+      "Priorizar decisiones que favorezcan a sus superiores jerarquicos",
       "Delegar sus funciones en particulares sin controles",
-      "Tomar decisiones basadas únicamente en criterios políticos"
+      "Tomar decisiones basadas unicamente en criterios politicos"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, la moralidad exige que los servidores actúen con honestidad, desinterés y respeto por las normas que regulan sus obligaciones, incompatibilidades y prohibiciones.",
-    topic: "Principios del artículo 209 - Moralidad"
+    explanation: "En la situacion descrita, el servidor debe rechazar la oferta porque la moralidad exige que los servidores actuen con honestidad, desinteres y respeto por las normas que regulan sus obligaciones, incompatibilidades y prohibiciones.",
+    topic: "Principios del articulo 209 - Moralidad"
   },
   {
     id: 5,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. La primacía del interés general significa que:",
+    question: "Situacion\n\nEl Concejo Municipal de Medellin debate un proyecto de acuerdo que beneficiaria a un grupo empresarial especifico pero afectaria negativamente a la mayoria de los ciudadanos. Un concejal argumenta que debe prevalecer el interes de la comunidad.\n\nPregunta\n\nCon base en la situacion descrita, la primacia del interes general significa que:",
     options: [
       "Los intereses individuales prevalecen sobre las decisiones administrativas",
       "Cualquier particular puede suspender un acto administrativo",
-      "Las actuaciones administrativas deben orientarse al bienestar común, privilegiando el interés colectivo sobre los individuales",
-      "El interés general se determina por votación de los administrados"
+      "Las actuaciones administrativas deben orientarse al bienestar comun, privilegiando el interes colectivo sobre los individuales",
+      "El interes general se determina por votacion de los administrados"
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "En la situación descrita, el principio de primacía del interés general establece que la actividad administrativa debe buscar el bienestar común, la supremacía del interés colectivo y la consecución del bien común.",
-    topic: "Principios del artículo 209 - Interés general"
+    explanation: "En la situacion descrita, el concejal tiene razon porque el principio de primacia del interes general establece que la actividad administrativa debe buscar el bienestar comun, la supremacia del interes colectivo y la consecucion del bien comun.",
+    topic: "Principios del articulo 209 - Interes general"
   },
   {
     id: 6,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de legalidad impone que la administración:",
+    question: "Situacion\n\nEl secretario de planeacion de un municipio de Antioquia recibe instrucciones verbales de su superior para expedir un permiso sin cumplir todos los requisitos legales. El funcionario duda sobre como proceder conforme al ordenamiento juridico.\n\nPregunta\n\nCon base en la situacion descrita, el principio de legalidad impone que la administracion:",
     options: [
-      "Actúe únicamente de acuerdo con las órdenes verbales del superior",
-      "Ejerza sus funciones al margen de la Constitución",
-      "Se ciña al ordenamiento jurídico jerarquizado y responda por infracciones, extralimitaciones u omisiones",
-      "Actúe sin controles para garantizar eficiencia"
+      "Actue unicamente de acuerdo con las ordenes verbales del superior",
+      "Ejerza sus funciones al margen de la Constitucion",
+      "Se cina al ordenamiento juridico jerarquizado y responda por infracciones, extralimitaciones u omisiones",
+      "Actue sin controles para garantizar eficiencia"
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "En la situación descrita, el principio de legalidad obliga a que la actividad administrativa se ajuste a la Constitución y la ley, haciendo responsables a los funcionarios por infracciones o extralimitaciones.",
-    topic: "Principios del artículo 209 - Legalidad"
+    explanation: "En la situacion descrita, el secretario debe negarse a la instruccion ilegal porque el principio de legalidad obliga a que la actividad administrativa se ajuste a la Constitucion y la ley, haciendo responsables a los funcionarios por infracciones o extralimitaciones.",
+    topic: "Principios del articulo 209 - Legalidad"
   },
   {
     id: 7,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de eficacia y economía exige que los procedimientos:",
+    question: "Situacion\n\nEn la Alcaldia de Itagui, un ciudadano se queja porque su solicitud de licencia de construccion lleva seis meses en tramite debido a multiples requisitos adicionales que le han exigido. El alcalde ordena revisar el procedimiento aplicando los principios de la funcion administrativa.\n\nPregunta\n\nCon base en la situacion descrita, el principio de eficacia y economia exige que los procedimientos:",
     options: [
-      "Se prolonguen para asegurar un mayor número de controles",
-      "Eviten decisiones inhibitorias y logren su finalidad con el menor tiempo, trámites y gastos posibles",
+      "Se prolonguen para asegurar un mayor numero de controles",
+      "Eviten decisiones inhibitorias y logren su finalidad con el menor tiempo, tramites y gastos posibles",
       "Incluyan etapas adicionales aunque no sean necesarias",
-      "Exijan toda la documentación disponible sin excepción"
+      "Exijan toda la documentacion disponible sin excepcion"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la eficacia y economía implican que los procedimientos deben alcanzar su finalidad con celeridad, evitando trámites innecesarios, decisiones inhibitorias y gastos injustificados.",
-    topic: "Principios del artículo 209 - Eficacia y economía"
+    explanation: "En la situacion descrita, el alcalde debe corregir el procedimiento porque la eficacia y economia implican que los procedimientos deben alcanzar su finalidad con celeridad, evitando tramites innecesarios, decisiones inhibitorias y gastos injustificados.",
+    topic: "Principios del articulo 209 - Eficacia y economia"
   },
   {
     id: 8,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de celeridad se refleja en:",
+    question: "Situacion\n\nLa oficina de catastro municipal recibe diariamente cientos de solicitudes de certificados. El jefe de la dependencia implementa un sistema de formularios estandarizados y elimina requisitos redundantes para agilizar la atencion sin descuidar la calidad del servicio.\n\nPregunta\n\nCon base en la situacion descrita, el principio de celeridad se refleja en:",
     options: [
       "Detener los procedimientos hasta analizar nuevos requisitos",
-      "Impulsar oficiosamente los trámites, eliminar formalidades innecesarias y usar formularios para actuaciones en serie sin descuidar las pruebas",
-      "Impedir que los administrados aporten pruebas extemporáneas",
-      "Conceder términos indefinidos para responder"
+      "Impulsar oficiosamente los tramites, eliminar formalidades innecesarias y usar formularios para actuaciones en serie sin descuidar las pruebas",
+      "Impedir que los administrados aporten pruebas extemporaneas",
+      "Conceder terminos indefinidos para responder"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la celeridad implica el impulso oficioso del procedimiento, la supresión de trámites innecesarios y el uso de formularios sin sacrificar el análisis completo de los argumentos.",
-    topic: "Principios del artículo 209 - Celeridad"
+    explanation: "En la situacion descrita, la medida implementada por el jefe de dependencia es correcta porque la celeridad implica el impulso oficioso del procedimiento, la supresion de tramites innecesarios y el uso de formularios sin sacrificar el analisis completo de los argumentos.",
+    topic: "Principios del articulo 209 - Celeridad"
   },
   {
     id: 9,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de imparcialidad obliga a la administración a:",
+    question: "Situacion\n\nEn la ventanilla de la Secretaria de Gobierno departamental, un ciudadano denuncia que un funcionario resolvio primero la solicitud de un politico local que llego despues que el. El secretario debe aplicar correctamente los principios de la funcion administrativa.\n\nPregunta\n\nCon base en la situacion descrita, el principio de imparcialidad obliga a la administracion a:",
     options: [
-      "Priorizar a quienes tengan preferencia política",
-      "Garantizar los derechos de todas las personas sin discriminación, respetando el orden de actuación",
-      "Resolver primero las solicitudes de mayor cuantía",
+      "Priorizar a quienes tengan preferencia politica",
+      "Garantizar los derechos de todas las personas sin discriminacion, respetando el orden de actuacion",
+      "Resolver primero las solicitudes de mayor cuantia",
       "Atender exclusivamente a los ciudadanos de la capital"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la imparcialidad implica asegurar los derechos de todas las personas sin discriminación y dar idéntico tratamiento a quienes actúan, respetando el orden de llegada.",
-    topic: "Principios del artículo 209 - Imparcialidad"
+    explanation: "En la situacion descrita, el funcionario violo el principio de imparcialidad que implica asegurar los derechos de todas las personas sin discriminacion y dar identico tratamiento a quienes actuan, respetando el orden de llegada.",
+    topic: "Principios del articulo 209 - Imparcialidad"
   },
   {
     id: 10,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de publicidad obliga a las autoridades a:",
+    question: "Situacion\n\nLa alcaldia municipal expidio una resolucion que afecta los derechos de varios comerciantes del sector, pero no la publico ni notifico a los interesados. Los comerciantes se enteraron por comentarios de terceros y acuden a reclamar.\n\nPregunta\n\nCon base en la situacion descrita, el principio de publicidad obliga a las autoridades a:",
     options: [
-      "Reservar toda la información contractual",
+      "Reservar toda la informacion contractual",
       "Comunicar, notificar o publicar sus decisiones conforme lo ordene la ley para garantizar su conocimiento",
-      "Publicar únicamente los actos favorables",
-      "Informar decisiones solo al superior jerárquico"
+      "Publicar unicamente los actos favorables",
+      "Informar decisiones solo al superior jerarquico"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la publicidad exige dar a conocer las decisiones administrativas mediante comunicaciones, notificaciones o publicaciones que ordene la ley.",
-    topic: "Principios del artículo 209 - Publicidad"
+    explanation: "En la situacion descrita, la alcaldia incumplio el principio de publicidad que exige dar a conocer las decisiones administrativas mediante comunicaciones, notificaciones o publicaciones que ordene la ley.",
+    topic: "Principios del articulo 209 - Publicidad"
   },
   {
     id: 11,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Según el artículo 5 de la Ley 489 de 1998, la competencia administrativa debe ejercerse:",
+    question: "Situacion\n\nEn la Secretaria de Educacion departamental, un funcionario nuevo consulta si puede compartir sus funciones con otra dependencia o si debe esperar autorizacion judicial para ejercer su competencia. Su jefe le explica el alcance de la competencia administrativa.\n\nPregunta\n\nCon base en la situacion descrita, segun el articulo 5 de la Ley 489 de 1998, la competencia administrativa debe ejercerse:",
     options: [
       "De forma compartida con cualquier otra entidad",
-      "Solo cuando medie autorización judicial",
+      "Solo cuando medie autorizacion judicial",
       "Con exclusividad, de manera directa e inmediata sobre los asuntos asignados expresamente",
-      "Por delegación automática en cualquier servidor"
+      "Por delegacion automatica en cualquier servidor"
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "En la situación descrita, la norma establece que los organismos y entidades ejercen sus competencias de manera directa, inmediata y exclusiva respecto de los asuntos asignados expresamente por la ley o reglamento.",
-    topic: "Actuación administrativa - Competencia"
+    explanation: "En la situacion descrita, el jefe debe explicar que la norma establece que los organismos y entidades ejercen sus competencias de manera directa, inmediata y exclusiva respecto de los asuntos asignados expresamente por la ley o reglamento.",
+    topic: "Actuacion administrativa - Competencia"
   },
   {
     id: 12,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El principio de coordinación del artículo 6 de la Ley 489 de 1998 exige que las autoridades:",
+    question: "Situacion\n\nDos secretarias de la Gobernacion de Antioquia trabajan en proyectos similares pero no comparten informacion, lo que genera duplicidad de esfuerzos y contradicciones en las politicas publicas. El gobernador convoca una reunion para resolver el problema.\n\nPregunta\n\nCon base en la situacion descrita, el principio de coordinacion del articulo 6 de la Ley 489 de 1998 exige que las autoridades:",
     options: [
-      "Actúen de forma aislada y autónoma frente a otras entidades",
-      "Eviten compartir información para proteger la discrecionalidad",
-      "Garanticen armonía, colaboren y no obstaculicen el cumplimiento de funciones de otras entidades",
+      "Actuen de forma aislada y autonoma frente a otras entidades",
+      "Eviten compartir informacion para proteger la discrecionalidad",
+      "Garanticen armonia, colaboren y no obstaculicen el cumplimiento de funciones de otras entidades",
       "Trasladen sus responsabilidades a particulares"
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "En la situación descrita, el principio de coordinación ordena a las autoridades colaborar y armonizar sus actuaciones, absteniéndose de impedir o entorpecer las funciones de otras entidades.",
-    topic: "Actuación administrativa - Coordinación"
+    explanation: "En la situacion descrita, el gobernador debe recordar que el principio de coordinacion ordena a las autoridades colaborar y armonizar sus actuaciones, absteniendose de impedir o entorpecer las funciones de otras entidades.",
+    topic: "Actuacion administrativa - Coordinacion"
   },
   {
     id: 13,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Una característica de la desconcentración es que:",
+    question: "Situacion\n\nEl Ministerio del Interior asigna mediante decreto a sus direcciones regionales la funcion de expedir pasaportes, sin crear nuevas entidades ni otorgarles personeria juridica propia. Un ciudadano pregunta que tipo de organizacion administrativa es esta.\n\nPregunta\n\nCon base en la situacion descrita, una caracteristica de la desconcentracion es que:",
     options: [
       "Se otorga mediante acto administrativo particular del titular",
-      "Transfiere competencias a órganos subordinados sin personería jurídica ni presupuesto propio mediante normas legales o reglamentarias",
-      "Genera nuevas personas jurídicas autónomas",
-      "El superior jerárquico puede reasumir la competencia en cualquier momento sin norma que lo autorice"
+      "Transfiere competencias a organos subordinados sin personeria juridica ni presupuesto propio mediante normas legales o reglamentarias",
+      "Genera nuevas personas juridicas autonomas",
+      "El superior jerarquico puede reasumir la competencia en cualquier momento sin norma que lo autorice"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la desconcentración transfiere competencias a órganos inferiores dentro de la misma entidad, sin crear nuevas personas jurídicas, y se establece por ley o decreto.",
-    topic: "Organización administrativa - Desconcentración"
+    explanation: "En la situacion descrita, se trata de desconcentracion porque esta figura transfiere competencias a organos inferiores dentro de la misma entidad, sin crear nuevas personas juridicas, y se establece por ley o decreto.",
+    topic: "Organizacion administrativa - Desconcentracion"
   },
   {
     id: 14,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Un elemento constitutivo de la delegación es:",
+    question: "Situacion\n\nEl alcalde de Bello decide mediante resolucion delegar en el secretario de gobierno la funcion de firmar contratos menores. Posteriormente, el alcalde considera revocar esa delegacion porque necesita retomar el control directo de la contratacion.\n\nPregunta\n\nCon base en la situacion descrita, un elemento constitutivo de la delegacion es:",
     options: [
-      "La creación de una entidad con autonomía presupuestal",
-      "La transferencia de funciones mediante acto administrativo expedido por el titular, con autorización legal y posibilidad de reasumir la competencia",
-      "La asignación automática por la Constitución sin necesidad de acto",
-      "La imposibilidad de revocar la decisión una vez delegada"
+      "La creacion de una entidad con autonomia presupuestal",
+      "La transferencia de funciones mediante acto administrativo expedido por el titular, con autorizacion legal y posibilidad de reasumir la competencia",
+      "La asignacion automatica por la Constitucion sin necesidad de acto",
+      "La imposibilidad de revocar la decision una vez delegada"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la delegación supone que el órgano titular transfiere funciones mediante acto administrativo, requiere autorización legal y puede ser revocada por el delegante.",
-    topic: "Organización administrativa - Delegación"
+    explanation: "En la situacion descrita, el alcalde puede revocar la delegacion porque esta supone que el organo titular transfiere funciones mediante acto administrativo, requiere autorizacion legal y puede ser revocada por el delegante.",
+    topic: "Organizacion administrativa - Delegacion"
   },
   {
     id: 15,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. La diferencia fundamental entre desconcentración y delegación es que:",
+    question: "Situacion\n\nEn un seminario de derecho administrativo, un estudiante pregunta cual es la diferencia fundamental entre la desconcentracion (que se hace por decreto) y la delegacion (que hace el alcalde por resolucion). El profesor explica los criterios distintivos.\n\nPregunta\n\nCon base en la situacion descrita, la diferencia fundamental entre desconcentracion y delegacion es que:",
     options: [
-      "La desconcentración se otorga por acto administrativo particular y la delegación por ley",
-      "La desconcentración crea nuevas personas jurídicas mientras la delegación mantiene la misma entidad",
-      "La desconcentración se establece y revoca por normas generales, mientras la delegación se concede y revoca por actos administrativos particulares del titular",
-      "La delegación impide al superior ejercer supervisión sobre el delegado"
+      "La desconcentracion se otorga por acto administrativo particular y la delegacion por ley",
+      "La desconcentracion crea nuevas personas juridicas mientras la delegacion mantiene la misma entidad",
+      "La desconcentracion se establece y revoca por normas generales, mientras la delegacion se concede y revoca por actos administrativos particulares del titular",
+      "La delegacion impide al superior ejercer supervision sobre el delegado"
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "En la situación descrita, la desconcentración nace de normas generales (ley o decreto) y asigna competencias de forma permanente, mientras la delegación se otorga y revoca mediante actos del titular.",
-    topic: "Organización administrativa - Desconcentración vs delegación"
+    explanation: "En la situacion descrita, el profesor debe explicar que la desconcentracion nace de normas generales (ley o decreto) y asigna competencias de forma permanente, mientras la delegacion se otorga y revoca mediante actos del titular.",
+    topic: "Organizacion administrativa - Desconcentracion vs delegacion"
   },
   {
     id: 16,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Una característica esencial de la descentralización administrativa es:",
+    question: "Situacion\n\nEl Congreso aprueba una ley que crea el Instituto Departamental de Deportes como entidad con personeria juridica propia, patrimonio independiente y autonomia administrativa. La Asamblea Departamental discute las implicaciones de esta figura.\n\nPregunta\n\nCon base en la situacion descrita, una caracteristica esencial de la descentralizacion administrativa es:",
     options: [
-      "La ausencia de autonomía presupuestal",
-      "La creación de una nueva persona jurídico-pública con autonomía y traslado de competencias no recuperable",
-      "La reasunción automática de competencias por parte del nivel central",
+      "La ausencia de autonomia presupuestal",
+      "La creacion de una nueva persona juridico-publica con autonomia y traslado de competencias no recuperable",
+      "La reasuncion automatica de competencias por parte del nivel central",
       "La inexistencia de patrimonio propio"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la descentralización distribuye funciones entre el nivel central y entidades autónomas con personería jurídica y autonomía presupuestal; las competencias trasladadas no se recuperan automáticamente.",
-    topic: "Organización administrativa - Descentralización"
+    explanation: "En la situacion descrita, el Instituto corresponde a la descentralizacion porque esta distribuye funciones entre el nivel central y entidades autonomas con personeria juridica y autonomia presupuestal; las competencias trasladadas no se recuperan automaticamente.",
+    topic: "Organizacion administrativa - Descentralizacion"
   },
   {
     id: 17,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. ¿Cuál de las siguientes entidades hace parte del sector descentralizado territorialmente?",
+    question: "Situacion\n\nUn estudiante de administracion publica realiza su practica en la Gobernacion de Antioquia y debe clasificar las diferentes entidades del Estado colombiano. Su tutor le pide identificar cuales hacen parte del sector descentralizado territorialmente.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual de las siguientes entidades hace parte del sector descentralizado territorialmente?",
     options: [
       "Los ministerios y departamentos administrativos",
       "Las entidades territoriales como departamentos, distritos y municipios",
-      "La Presidencia de la República",
-      "Las unidades administrativas especiales sin personería jurídica"
+      "La Presidencia de la Republica",
+      "Las unidades administrativas especiales sin personeria juridica"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el sector descentralizado territorial incluye entidades territoriales como departamentos, distritos y municipios, además de entidades administrativas especiales de orden territorial.",
-    topic: "Estructura de la administración pública"
+    explanation: "En la situacion descrita, el estudiante debe identificar que el sector descentralizado territorial incluye entidades territoriales como departamentos, distritos y municipios, ademas de entidades administrativas especiales de orden territorial.",
+    topic: "Estructura de la administracion publica"
   },
   {
     id: 18,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. ¿Cuál de los siguientes organismos se clasifica como órgano de control?",
+    question: "Situacion\n\nEn una clase de derecho constitucional, el profesor explica la estructura del Estado y menciona los diferentes tipos de organismos. Un estudiante pregunta especificamente cuales son los organos de control en Colombia.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual de los siguientes organismos se clasifica como organo de control?",
     options: [
-      "Banco de la República",
-      "Procuraduría General de la Nación",
+      "Banco de la Republica",
+      "Procuraduria General de la Nacion",
       "Agencias estatales especializadas",
-      "Comisión Nacional del Servicio Civil"
+      "Comision Nacional del Servicio Civil"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los órganos de control incluyen la Procuraduría, la Contraloría, la Personería y la Defensoría del Pueblo.",
-    topic: "Estructura de la administración pública - Órganos de control"
+    explanation: "En la situacion descrita, el profesor debe explicar que los organos de control incluyen la Procuraduria, la Contraloria, la Personeria y la Defensoria del Pueblo.",
+    topic: "Estructura de la administracion publica - Organos de control"
   },
   {
     id: 19,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Los trabajadores oficiales se vinculan a la administración mediante:",
+    question: "Situacion\n\nLa oficina de talento humano de un municipio antioqueno debe vincular personal para el area de mantenimiento y servicios generales. El jefe de personal consulta cual es la forma de vinculacion apropiada para trabajadores oficiales.\n\nPregunta\n\nCon base en la situacion descrita, los trabajadores oficiales se vinculan a la administracion mediante:",
     options: [
-      "Elección popular",
+      "Eleccion popular",
       "Nombramiento en carrera administrativa",
       "Contrato laboral",
       "Acto administrativo de periodo fijo"
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "En la situación descrita, los trabajadores oficiales se vinculan mediante contrato laboral, a diferencia de los empleados públicos que se vinculan por nombramiento.",
-    topic: "Servidores públicos - Formas de vinculación"
+    explanation: "En la situacion descrita, el jefe de personal debe saber que los trabajadores oficiales se vinculan mediante contrato laboral, a diferencia de los empleados publicos que se vinculan por nombramiento.",
+    topic: "Servidores publicos - Formas de vinculacion"
   },
   {
     id: 20,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Según la Corte Constitucional, un acto administrativo es:",
+    question: "Situacion\n\nDurante una audiencia en el Tribunal Administrativo de Antioquia, un abogado cita jurisprudencia de la Corte Constitucional para definir que es un acto administrativo. El magistrado le pide precisar el concepto segun la doctrina reconocida.\n\nPregunta\n\nCon base en la situacion descrita, segun la Corte Constitucional, un acto administrativo es:",
     options: [
-      "Cualquier contrato celebrado por la administración",
-      "Una declaración de voluntad, juicio, conocimiento o deseo de la administración en ejercicio de potestad administrativa distinta de la reglamentaria",
-      "Un simple hecho material que produce efectos jurídicos sin voluntad previa",
-      "Una operación destinada únicamente a ejecutar decisiones previas"
+      "Cualquier contrato celebrado por la administracion",
+      "Una declaracion de voluntad, juicio, conocimiento o deseo de la administracion en ejercicio de potestad administrativa distinta de la reglamentaria",
+      "Un simple hecho material que produce efectos juridicos sin voluntad previa",
+      "Una operacion destinada unicamente a ejecutar decisiones previas"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Siguiendo a García de Enterría, el acto administrativo es la declaración de voluntad, juicio, conocimiento o deseo de la administración en ejercicio de potestad administrativa distinta de la reglamentaria.",
+    explanation: "En la situacion descrita, el abogado debe precisar que siguiendo a Garcia de Enterria, el acto administrativo es la declaracion de voluntad, juicio, conocimiento o deseo de la administracion en ejercicio de potestad administrativa distinta de la reglamentaria.",
     topic: "Acto administrativo - Concepto"
   }
 ]
@@ -307,287 +307,287 @@ const questionsV1: Question[] = [
 const questionsV2: Question[] = [
   {
     id: 1,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. ¿Cuál de las siguientes actuaciones NO constituye un acto administrativo?",
+    question: "Situacion\n\nEn la oficina juridica de la Alcaldia de Sabaneta, un funcionario revisa diferentes actuaciones administrativas para determinar cuales pueden ser demandadas ante la jurisdiccion contencioso administrativa. Encuentra una orden de demolicion ya ejecutada.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual de las siguientes actuaciones NO constituye un acto administrativo?",
     options: [
-      "Una resolución que impone una sanción",
-      "Una operación administrativa que ejecuta una decisión previa",
+      "Una resolucion que impone una sancion",
+      "Una operacion administrativa que ejecuta una decision previa",
       "Un acto que otorga una licencia",
-      "Una resolución que declara un derecho"
+      "Una resolucion que declara un derecho"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las operaciones administrativas son actos de ejecución que materializan decisiones previamente adoptadas y, por sí mismas, no constituyen actos administrativos.",
+    explanation: "En la situacion descrita, la demolicion ya ejecutada es una operacion administrativa. Las operaciones administrativas son actos de ejecucion que materializan decisiones previamente adoptadas y, por si mismas, no constituyen actos administrativos.",
     topic: "Acto administrativo - Actuaciones excluidas"
   },
   {
     id: 2,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El acto ficto o presunto se entiende configurado cuando:",
+    question: "Situacion\n\nUn ciudadano presento una peticion ante la Secretaria de Movilidad hace cuatro meses solicitando un permiso especial de parqueo. No ha recibido ninguna respuesta y consulta con un abogado sobre sus opciones legales.\n\nPregunta\n\nCon base en la situacion descrita, el acto ficto o presunto se entiende configurado cuando:",
     options: [
-      "La administración resuelve favorablemente antes del vencimiento del término",
-      "La administración guarda silencio y, por regla general, se presume la negativa a la solicitud después de tres meses",
-      "La autoridad dicta una resolución expresa dentro del término legal",
+      "La administracion resuelve favorablemente antes del vencimiento del termino",
+      "La administracion guarda silencio y, por regla general, se presume la negativa a la solicitud despues de tres meses",
+      "La autoridad dicta una resolucion expresa dentro del termino legal",
       "Cualquier ciudadano interpone un recurso contra un acto general"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, por regla general, el silencio administrativo negativo se configura si la administración no responde en tres meses; excepcionalmente la ley puede otorgarle efectos positivos.",
+    explanation: "En la situacion descrita, dado que han transcurrido mas de tres meses sin respuesta, por regla general el silencio administrativo negativo se configura si la administracion no responde en tres meses; excepcionalmente la ley puede otorgarle efectos positivos.",
     topic: "Acto administrativo - Acto ficto o presunto"
   },
   {
     id: 3,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El elemento competencia de un acto administrativo se refiere a:",
+    question: "Situacion\n\nEl inspector de policia de un municipio del oriente antioqueno sanciona a un establecimiento comercial ubicado en otro municipio, argumentando que su actuacion tiene cobertura departamental. El sancionado impugna la decision.\n\nPregunta\n\nCon base en la situacion descrita, el elemento competencia de un acto administrativo se refiere a:",
     options: [
-      "La conveniencia política de la decisión",
-      "El poder jurídico de una autoridad para emitir un acto respecto de materia, territorio o tiempo determinados",
-      "La motivación económica del acto",
-      "La opinión de los particulares sobre la decisión"
+      "La conveniencia politica de la decision",
+      "El poder juridico de una autoridad para emitir un acto respecto de materia, territorio o tiempo determinados",
+      "La motivacion economica del acto",
+      "La opinion de los particulares sobre la decision"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la competencia es el poder jurídico asignado a una autoridad para actuar en materias, territorios o tiempos específicos; es irrenunciable e indelegable salvo autorización legal.",
+    explanation: "En la situacion descrita, el inspector carece de competencia territorial. La competencia es el poder juridico asignado a una autoridad para actuar en materias, territorios o tiempos especificos; es irrenunciable e indelegable salvo autorizacion legal.",
     topic: "Acto administrativo - Elementos"
   },
   {
     id: 4,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El vicio de competencia se configura cuando:",
+    question: "Situacion\n\nUna autoridad ambiental de Antioquia expide una resolucion sancionatoria contra una empresa por contaminacion, pero la empresa esta ubicada en jurisdiccion de otra corporacion autonoma regional. La empresa demanda el acto.\n\nPregunta\n\nCon base en la situacion descrita, el vicio de competencia se configura cuando:",
     options: [
-      "La autoridad motiva ampliamente su decisión",
-      "La autoridad actúa fuera del ámbito que le fue conferido legalmente",
+      "La autoridad motiva ampliamente su decision",
+      "La autoridad actua fuera del ambito que le fue conferido legalmente",
       "Se publica el acto en el Diario Oficial",
-      "Se notifica oportunamente la decisión"
+      "Se notifica oportunamente la decision"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, existe vicio de competencia cuando la autoridad actúa sin estar habilitada para ello, por ejemplo, cuando decide sobre asuntos fuera de su jurisdicción territorial o material.",
+    explanation: "En la situacion descrita, existe vicio de competencia porque la autoridad ambiental actuo sin estar habilitada para ello, decidiendo sobre asuntos fuera de su jurisdiccion territorial.",
     topic: "Acto administrativo - Vicios"
   },
   {
     id: 5,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Respecto del objeto del acto administrativo es correcto afirmar que:",
+    question: "Situacion\n\nLa Secretaria de Planeacion municipal expide una licencia de construccion que autoriza edificar en una zona declarada de alto riesgo no mitigable donde esta prohibido construir. El propietario del predio vecino impugna la decision.\n\nPregunta\n\nCon base en la situacion descrita, respecto del objeto del acto administrativo es correcto afirmar que:",
     options: [
-      "Puede ser imposible o ilícito si beneficia al administrado",
-      "Debe ser cierto, posible y lícito",
+      "Puede ser imposible o ilicito si beneficia al administrado",
+      "Debe ser cierto, posible y licito",
       "Solo importa la forma del acto y no su contenido",
       "Puede consistir en obligaciones no previstas por la ley"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el objeto es el contenido del acto y debe ser cierto, posible y conforme al ordenamiento jurídico; un objeto ilícito o imposible vicia el acto.",
+    explanation: "En la situacion descrita, la licencia tiene un objeto ilicito porque autoriza lo prohibido. El objeto es el contenido del acto y debe ser cierto, posible y conforme al ordenamiento juridico; un objeto ilicito o imposible vicia el acto.",
     topic: "Acto administrativo - Elementos"
   },
   {
     id: 6,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. La finalidad del acto administrativo está relacionada con:",
+    question: "Situacion\n\nEl alcalde de un municipio expide un acto administrativo que formalmente busca proteger el medio ambiente, pero en realidad su proposito es perjudicar economicamente a un opositor politico que tiene negocios en la zona afectada.\n\nPregunta\n\nCon base en la situacion descrita, la finalidad del acto administrativo esta relacionada con:",
     options: [
-      "El interés particular del funcionario que firma el acto",
-      "El objetivo de interés general que la ley asigna a la competencia ejercida",
+      "El interes particular del funcionario que firma el acto",
+      "El objetivo de interes general que la ley asigna a la competencia ejercida",
       "La conveniencia fiscal del administrado",
       "La cantidad de recursos presupuestales ejecutados"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la finalidad se orienta al interés general previsto por la ley para cada competencia; su desviación configura desviación de poder.",
+    explanation: "En la situacion descrita, hay desviacion de poder porque la finalidad real difiere de la legal. La finalidad se orienta al interes general previsto por la ley para cada competencia; su desviacion configura desviacion de poder.",
     topic: "Acto administrativo - Finalidad"
   },
   {
     id: 7,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. La causa y el motivo del acto administrativo se entienden como:",
+    question: "Situacion\n\nUn funcionario de control interno revisa un acto administrativo sancionatorio y encuentra que menciona la norma que habilita la sancion pero no describe los hechos que la justifican. Debe evaluar si el acto esta debidamente motivado.\n\nPregunta\n\nCon base en la situacion descrita, la causa y el motivo del acto administrativo se entienden como:",
     options: [
-      "La norma habilitante y las circunstancias de hecho que sustentan la decisión",
-      "La opinión pública y la motivación política del acto",
-      "La conveniencia fiscal y la aprobación del superior",
-      "El aval del Ministerio Público y la firma del contratista"
+      "La norma habilitante y las circunstancias de hecho que sustentan la decision",
+      "La opinion publica y la motivacion politica del acto",
+      "La conveniencia fiscal y la aprobacion del superior",
+      "El aval del Ministerio Publico y la firma del contratista"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, la causa corresponde a la razón jurídica o norma habilitante, mientras que el motivo atiende a las circunstancias fácticas que justifican la decisión adoptada.",
+    explanation: "En la situacion descrita, el acto esta incompleto porque falta el motivo. La causa corresponde a la razon juridica o norma habilitante, mientras que el motivo atiende a las circunstancias facticas que justifican la decision adoptada.",
     topic: "Acto administrativo - Elementos"
   },
   {
     id: 8,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Una finalidad del procedimiento administrativo, según la Ley 1437 de 2011, es:",
+    question: "Situacion\n\nDurante una jornada de capacitacion sobre la Ley 1437 de 2011 en la Personeria Municipal, un funcionario pregunta cuales son los propositos fundamentales que persigue el procedimiento administrativo en Colombia.\n\nPregunta\n\nCon base en la situacion descrita, una finalidad del procedimiento administrativo, segun la Ley 1437 de 2011, es:",
     options: [
       "Concentrar el poder en una sola autoridad sin controles",
-      "Proteger derechos y libertades, defender el interés general y sujetar a las autoridades a la Constitución y la ley",
-      "Evitar la participación ciudadana en las actuaciones administrativas",
-      "Otorgar discrecionalidad absoluta a los servidores públicos"
+      "Proteger derechos y libertades, defender el interes general y sujetar a las autoridades a la Constitucion y la ley",
+      "Evitar la participacion ciudadana en las actuaciones administrativas",
+      "Otorgar discrecionalidad absoluta a los servidores publicos"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el procedimiento administrativo busca proteger derechos, defender los intereses generales, someter a las autoridades al ordenamiento y cumplir los fines del Estado.",
+    explanation: "En la situacion descrita, el funcionario debe entender que el procedimiento administrativo busca proteger derechos, defender los intereses generales, someter a las autoridades al ordenamiento y cumplir los fines del Estado.",
     topic: "Procedimiento administrativo - Finalidades"
   },
   {
     id: 9,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. ¿Cuál de las siguientes es una forma de iniciación del procedimiento administrativo?",
+    question: "Situacion\n\nUn grupo de vecinos quiere que la administracion municipal adelante una actuacion para controlar el ruido excesivo de un establecimiento nocturno. Consultan como pueden iniciar el procedimiento administrativo correspondiente.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual de las siguientes es una forma de iniciacion del procedimiento administrativo?",
     options: [
       "Solo por orden judicial",
-      "Derecho de petición en interés general o particular, cumplimiento de obligación legal o iniciativa oficiosa de la autoridad",
-      "Únicamente a solicitud verbal del interesado",
+      "Derecho de peticion en interes general o particular, cumplimiento de obligacion legal o iniciativa oficiosa de la autoridad",
+      "Unicamente a solicitud verbal del interesado",
       "Exclusivamente mediante recursos administrativos"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, el procedimiento puede iniciarse por derecho de petición, en cumplimiento de un deber legal o por oficio cuando la autoridad actúa de manera oficiosa.",
-    topic: "Procedimiento administrativo - Iniciación"
+    explanation: "En la situacion descrita, los vecinos pueden presentar un derecho de peticion en interes general. El procedimiento puede iniciarse por derecho de peticion, en cumplimiento de un deber legal o por oficio cuando la autoridad actua de manera oficiosa.",
+    topic: "Procedimiento administrativo - Iniciacion"
   },
   {
     id: 10,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Cuando una petición está incompleta, la autoridad debe:",
+    question: "Situacion\n\nUn ciudadano radica una solicitud de subsidio de vivienda en la Secretaria de Desarrollo Social pero no adjunta todos los documentos requeridos. El funcionario receptor debe decidir como proceder con la peticion incompleta.\n\nPregunta\n\nCon base en la situacion descrita, cuando una peticion esta incompleta, la autoridad debe:",
     options: [
-      "Rechazarla de inmediato sin explicación",
-      "Requerir al interesado dentro de los diez días para que complete la solicitud, otorgándole hasta un mes para hacerlo por una sola vez",
-      "Resolverla con la información disponible",
+      "Rechazarla de inmediato sin explicacion",
+      "Requerir al interesado dentro de los diez dias para que complete la solicitud, otorgandole hasta un mes para hacerlo por una sola vez",
+      "Resolverla con la informacion disponible",
       "Archivarla definitivamente sin notificar"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la autoridad requiere al interesado dentro de los diez días siguientes para completar la petición y le concede hasta un mes para subsanar una única vez.",
+    explanation: "En la situacion descrita, el funcionario debe requerir al ciudadano dentro de los diez dias siguientes para completar la peticion y le concede hasta un mes para subsanar una unica vez.",
     topic: "Procedimiento administrativo - Peticiones incompletas"
   },
   {
     id: 11,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Los términos para resolver peticiones son, respectivamente, para peticiones en general, de información y consultas:",
+    question: "Situacion\n\nUn abogado asesora a un cliente que presento tres tipos diferentes de peticiones a la misma entidad: una solicitud general, una peticion de copias de documentos y una consulta tecnica. El cliente pregunta cuanto tiempo tiene la entidad para responder cada una.\n\nPregunta\n\nCon base en la situacion descrita, los terminos para resolver peticiones son, respectivamente, para peticiones en general, de informacion y consultas:",
     options: [
-      "10, 15 y 30 días hábiles",
-      "15, 10 y 30 días hábiles",
-      "30, 15 y 10 días hábiles",
-      "5, 10 y 15 días hábiles"
+      "10, 15 y 30 dias habiles",
+      "15, 10 y 30 dias habiles",
+      "30, 15 y 10 dias habiles",
+      "5, 10 y 15 dias habiles"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la Ley 1437 fija 15 días hábiles para peticiones en general, 10 para información y documentos, y 30 para consultas.",
-    topic: "Procedimiento administrativo - Términos"
+    explanation: "En la situacion descrita, el abogado debe informar que la Ley 1437 fija 15 dias habiles para peticiones en general, 10 para informacion y documentos, y 30 para consultas.",
+    topic: "Procedimiento administrativo - Terminos"
   },
   {
     id: 12,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. La autoridad puede otorgar plazos adicionales para resolver peticiones siempre que:",
+    question: "Situacion\n\nLa Secretaria de Educacion debe resolver una peticion compleja que requiere estudios tecnicos adicionales. Faltan tres dias para vencer el termino legal y el funcionario encargado evalua si puede solicitar una prorroga.\n\nPregunta\n\nCon base en la situacion descrita, la autoridad puede otorgar plazos adicionales para resolver peticiones siempre que:",
     options: [
-      "Se informe antes del vencimiento del término y el nuevo plazo no exceda el doble del inicial",
-      "Exista autorización del interesado por escrito",
+      "Se informe antes del vencimiento del termino y el nuevo plazo no exceda el doble del inicial",
+      "Exista autorizacion del interesado por escrito",
       "El plazo adicional sea indefinido",
       "No se justifique la demora"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, la autoridad puede ampliar el término informando antes de su vencimiento y sin exceder el doble del plazo inicial.",
-    topic: "Procedimiento administrativo - Prórrogas"
+    explanation: "En la situacion descrita, la autoridad puede ampliar el termino informando antes de su vencimiento y sin exceder el doble del plazo inicial.",
+    topic: "Procedimiento administrativo - Prorrogas"
   },
   {
     id: 13,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. ¿Cuál de los siguientes documentos se considera reservado según el artículo 24 de la Ley 1437 de 2011?",
+    question: "Situacion\n\nUn periodista solicita a la Gobernacion de Antioquia acceso a documentos relacionados con operaciones de inteligencia militar en la region. La oficina de atencion al ciudadano debe determinar si puede entregar esa informacion.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual de los siguientes documentos se considera reservado segun el articulo 24 de la Ley 1437 de 2011?",
     options: [
-      "Las peticiones de información pública",
+      "Las peticiones de informacion publica",
       "Documentos relacionados con la defensa o seguridad nacionales",
-      "Los actos administrativos de carácter general",
-      "Los informes de gestión publicados en la web"
+      "Los actos administrativos de caracter general",
+      "Los informes de gestion publicados en la web"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la reserva cobija, entre otros, documentos sobre defensa o seguridad nacionales, secretos comerciales, información protegida por secreto profesional y datos sobre privacidad.",
-    topic: "Procedimiento administrativo - Reserva de información"
+    explanation: "En la situacion descrita, los documentos sobre operaciones de inteligencia militar estan protegidos porque la reserva cobija, entre otros, documentos sobre defensa o seguridad nacionales, secretos comerciales, informacion protegida por secreto profesional y datos sobre privacidad.",
+    topic: "Procedimiento administrativo - Reserva de informacion"
   },
   {
     id: 14,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Los terceros pueden intervenir en una actuación administrativa cuando:",
+    question: "Situacion\n\nLa alcaldia inicia una actuacion administrativa para revocar una licencia ambiental. El vecino del predio afectado, quien habia denunciado la contaminacion, solicita ser admitido como parte en el procedimiento para aportar pruebas adicionales.\n\nPregunta\n\nCon base en la situacion descrita, los terceros pueden intervenir en una actuacion administrativa cuando:",
     options: [
-      "La actuación se inicia en interés general, sus derechos puedan verse afectados o hayan sido denunciantes o afectados",
-      "Así lo solicite cualquier ciudadano sin relación con el asunto",
-      "El funcionario lo considere para dilatar el trámite",
+      "La actuacion se inicia en interes general, sus derechos puedan verse afectados o hayan sido denunciantes o afectados",
+      "Asi lo solicite cualquier ciudadano sin relacion con el asunto",
+      "El funcionario lo considere para dilatar el tramite",
       "Se trate de actuaciones reservadas de seguridad nacional"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, los terceros intervienen cuando la actuación afecta sus derechos, fue iniciada en interés general o pueden aportar pruebas por su rol de denunciantes o afectados.",
-    topic: "Procedimiento administrativo - Intervención de terceros"
+    explanation: "En la situacion descrita, el vecino puede intervenir como denunciante. Los terceros intervienen cuando la actuacion afecta sus derechos, fue iniciada en interes general o pueden aportar pruebas por su rol de denunciantes o afectados.",
+    topic: "Procedimiento administrativo - Intervencion de terceros"
   },
   {
     id: 15,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Los gastos de práctica de pruebas en el procedimiento administrativo:",
+    question: "Situacion\n\nEn un procedimiento administrativo sancionatorio, tres comerciantes afectados solicitan conjuntamente la practica de un peritaje tecnico costoso. El funcionario instructor debe determinar quien asume los gastos de la prueba.\n\nPregunta\n\nCon base en la situacion descrita, los gastos de practica de pruebas en el procedimiento administrativo:",
     options: [
       "Los asume siempre la autoridad",
       "Se distribuyen proporcionalmente entre los interesados y recaen en quien las solicite",
-      "Se cargan a quien resulte vencido en la actuación",
-      "Son asumidos por el Ministerio Público"
+      "Se cargan a quien resulte vencido en la actuacion",
+      "Son asumidos por el Ministerio Publico"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, los gastos de pruebas corren por cuenta de quien las solicita; si hay varios interesados se distribuyen en cuotas iguales.",
+    explanation: "En la situacion descrita, los tres comerciantes deben asumir los gastos en partes iguales. Los gastos de pruebas corren por cuenta de quien las solicita; si hay varios interesados se distribuyen en cuotas iguales.",
     topic: "Procedimiento administrativo - Pruebas"
   },
   {
     id: 16,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Para notificar un acto administrativo particular, la autoridad primero debe:",
+    question: "Situacion\n\nLa Secretaria de Hacienda expide una resolucion que liquida un impuesto adicional a un contribuyente. El funcionario encargado de las notificaciones debe realizar el procedimiento correcto para que el acto sea oponible.\n\nPregunta\n\nCon base en la situacion descrita, para notificar un acto administrativo particular, la autoridad primero debe:",
     options: [
       "Publicarlo en el Diario Oficial",
-      "Citar al interesado para que comparezca dentro de cinco días hábiles y realizar notificación personal",
-      "Enviar un correo electrónico a cualquier dirección",
+      "Citar al interesado para que comparezca dentro de cinco dias habiles y realizar notificacion personal",
+      "Enviar un correo electronico a cualquier direccion",
       "Expedir un edicto de manera inmediata"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la notificación personal inicia con la citación para comparecer dentro de cinco días hábiles; si el interesado acude, se realiza la notificación personal.",
+    explanation: "En la situacion descrita, el funcionario debe primero citar al contribuyente. La notificacion personal inicia con la citacion para comparecer dentro de cinco dias habiles; si el interesado acude, se realiza la notificacion personal.",
     topic: "Notificaciones - Actos particulares"
   },
   {
     id: 17,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Si el interesado no comparece tras la citación para notificación personal, la autoridad debe:",
+    question: "Situacion\n\nLa alcaldia envio citacion para notificacion personal a un ciudadano sancionado, pero este no se presento dentro del termino de cinco dias habiles. El funcionario debe continuar con el procedimiento de notificacion.\n\nPregunta\n\nCon base en la situacion descrita, si el interesado no comparece tras la citacion para notificacion personal, la autoridad debe:",
     options: [
       "Archivar el expediente",
-      "Notificar por aviso enviando copia íntegra del acto",
-      "Repetir indefinidamente la citación",
-      "Solicitar autorización judicial"
+      "Notificar por aviso enviando copia integra del acto",
+      "Repetir indefinidamente la citacion",
+      "Solicitar autorizacion judicial"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, si no hay comparecencia, la autoridad notifica por aviso y envía copia del acto, cumpliendo con el procedimiento previsto.",
+    explanation: "En la situacion descrita, el funcionario debe notificar por aviso. Si no hay comparecencia, la autoridad notifica por aviso y envia copia del acto, cumpliendo con el procedimiento previsto.",
     topic: "Notificaciones - Actos particulares"
   },
   {
     id: 18,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. La revocatoria directa procede cuando:",
+    question: "Situacion\n\nUna resolucion que otorgo una pension de invalidez fue expedida con base en documentos falsos. La entidad descubre el fraude y evalua la posibilidad de revocar directamente el acto sin acudir a la jurisdiccion.\n\nPregunta\n\nCon base en la situacion descrita, la revocatoria directa procede cuando:",
     options: [
       "El acto es ajustado a la ley y produce efectos favorables",
-      "El acto es contrario a la Constitución o la ley, no se ajusta al bienestar común o atenta injustificadamente contra bienes o integridad de una persona",
-      "El interesado desea cambiar de opinión sin fundamento",
-      "Han transcurrido más de diez años desde la expedición del acto"
+      "El acto es contrario a la Constitucion o la ley, no se ajusta al bienestar comun o atenta injustificadamente contra bienes o integridad de una persona",
+      "El interesado desea cambiar de opinion sin fundamento",
+      "Han transcurrido mas de diez anos desde la expedicion del acto"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En la situación descrita, la Ley 1437 permite revocar directamente actos que sean contrarios a la Constitución o ley, afecten el bienestar común o atenten injustificadamente contra bienes o integridad de una persona.",
+    explanation: "En la situacion descrita, procede la revocatoria porque el acto fue expedido contrario a la ley. La Ley 1437 permite revocar directamente actos que sean contrarios a la Constitucion o ley, afecten el bienestar comun o atenten injustificadamente contra bienes o integridad de una persona.",
     topic: "Procedimiento administrativo - Revocatoria directa"
   },
   {
     id: 19,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. ¿Cuáles son los recursos principales que proceden contra actos administrativos definitivos?",
+    question: "Situacion\n\nUn ciudadano recibe una resolucion que niega su solicitud de pension y quiere impugnarla en sede administrativa antes de acudir a la jurisdiccion. Consulta con un abogado sobre los recursos disponibles.\n\nPregunta\n\nCon base en la situacion descrita, ¿cuales son los recursos principales que proceden contra actos administrativos definitivos?",
     options: [
-      "Reposición, apelación y queja",
-      "Reposición, casación y revisión",
-      "Apelación, tutela y revisión",
-      "Reposición, reconsideración y súplica"
+      "Reposicion, apelacion y queja",
+      "Reposicion, casacion y revision",
+      "Apelacion, tutela y revision",
+      "Reposicion, reconsideracion y suplica"
     ],
     correctAnswer: 0,
     points: 5,
-    explanation: "En la situación descrita, los recursos administrativos principales son reposición, apelación y queja; la apelación suele ser necesaria para acudir a la jurisdicción contencioso-administrativa.",
+    explanation: "En la situacion descrita, el abogado debe informar que los recursos administrativos principales son reposicion, apelacion y queja; la apelacion suele ser necesaria para acudir a la jurisdiccion contencioso-administrativa.",
     topic: "Procedimiento administrativo - Recursos"
   },
   {
     id: 20,
-    question: "Lectura: En la Alcaldía Municipal se revisan las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. El término para interponer los recursos de reposición y apelación es:",
+    question: "Situacion\n\nUn servidor publico fue sancionado disciplinariamente y quiere interponer recursos contra la decision. Fue notificado personalmente hace ocho dias habiles y pregunta si todavia esta a tiempo.\n\nPregunta\n\nCon base en la situacion descrita, el termino para interponer los recursos de reposicion y apelacion es:",
     options: [
-      "Cinco días hábiles contados desde la ejecutoria",
-      "Diez días hábiles siguientes a la notificación o al acto presunto, pudiendo interponerse en cualquier tiempo contra actos presuntos",
-      "Treinta días calendario contados desde la comunicación",
-      "Un mes contado desde la publicación en la página web"
+      "Cinco dias habiles contados desde la ejecutoria",
+      "Diez dias habiles siguientes a la notificacion o al acto presunto, pudiendo interponerse en cualquier tiempo contra actos presuntos",
+      "Treinta dias calendario contados desde la comunicacion",
+      "Un mes contado desde la publicacion en la pagina web"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La reposición y la apelación se interponen al momento de la notificación o dentro de los diez días hábiles siguientes; contra actos presuntos pueden presentarse en cualquier tiempo.",
-    topic: "Procedimiento administrativo - Recursos y términos"
+    explanation: "En la situacion descrita, el servidor todavia tiene tiempo porque la reposicion y la apelacion se interponen al momento de la notificacion o dentro de los diez dias habiles siguientes; contra actos presuntos pueden presentarse en cualquier tiempo.",
+    topic: "Procedimiento administrativo - Recursos y terminos"
   },
   {
     id: 21,
-    question: "Situación: El Presidente entra en incapacidad temporal durante una visita oficial. ¿Quién debe asumir el despacho?",
+    question: "Situacion\n\nEl Presidente de la Republica viaja a una cumbre internacional y durante el vuelo sufre una emergencia medica que lo incapacita temporalmente. El equipo de gobierno debe determinar quien asume las funciones presidenciales.\n\nPregunta\n\nCon base en la situacion descrita, ¿quien debe asumir el despacho presidencial?",
     options: [
       "El Presidente del Congreso",
       "El Vicepresidente",
@@ -596,208 +596,208 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "La Constitución dispone que el Vicepresidente es el primer llamado a reemplazar temporal o definitivamente al Presidente cuando se presenta una falta.",
-    topic: "Organización del Estado - Reemplazo presidencial"
+    explanation: "En la situacion descrita, la Constitucion dispone que el Vicepresidente es el primer llamado a reemplazar temporal o definitivamente al Presidente cuando se presenta una falta.",
+    topic: "Organizacion del Estado - Reemplazo presidencial"
   },
   {
     id: 22,
-    question: "Situación: Se debe formular una nueva política nacional de salud preventiva. ¿Qué entidad lidera su diseño?",
+    question: "Situacion\n\nEl Gobierno Nacional decide implementar un programa masivo de vacunacion contra una nueva enfermedad. Se requiere definir la politica publica, los protocolos y la coordinacion del sector. Se discute que entidad debe liderar el proceso.\n\nPregunta\n\nCon base en la situacion descrita, ¿que entidad lidera el diseno de la politica nacional de salud?",
     options: [
       "La Superintendencia Nacional de Salud",
-      "El Ministerio de Salud y Protección Social",
-      "El Instituto Nacional de Metrología",
+      "El Ministerio de Salud y Proteccion Social",
+      "El Instituto Nacional de Metrologia",
       "La UGPP"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Los ministerios dirigen el sector administrativo correspondiente y tienen a su cargo la formulación de políticas, planes y programas en su área.",
-    topic: "Organización del Estado - Ministerios"
+    explanation: "En la situacion descrita, el Ministerio de Salud y Proteccion Social debe liderar porque los ministerios dirigen el sector administrativo correspondiente y tienen a su cargo la formulacion de politicas, planes y programas en su area.",
+    topic: "Organizacion del Estado - Ministerios"
   },
   {
     id: 23,
-    question: "Situación: Se nombrará un nuevo director del DANE, que es un departamento administrativo. ¿Quién realiza la designación?",
+    question: "Situacion\n\nEl director del DANE presenta su renuncia y debe nombrarse un reemplazo. El equipo de transicion consulta sobre la autoridad competente para realizar esta designacion, considerando que el DANE es un departamento administrativo.\n\nPregunta\n\nCon base en la situacion descrita, ¿quien realiza la designacion del nuevo director?",
     options: [
-      "El Senado de la República",
+      "El Senado de la Republica",
       "La Corte Constitucional",
-      "El Presidente de la República",
+      "El Presidente de la Republica",
       "Los alcaldes de capitales departamentales"
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "Los departamentos administrativos dependen directamente del Presidente, quien nombra a sus directores mediante decreto.",
-    topic: "Organización del Estado - Departamentos administrativos"
+    explanation: "En la situacion descrita, el Presidente de la Republica debe nombrar al nuevo director porque los departamentos administrativos dependen directamente del Presidente, quien nombra a sus directores mediante decreto.",
+    topic: "Organizacion del Estado - Departamentos administrativos"
   },
   {
     id: 24,
-    question: "Situación: Una entidad financiera incumple normas prudenciales. ¿Qué tipo de organismo aplica control y supervisión?",
+    question: "Situacion\n\nUn banco comercial esta presentando problemas de liquidez y hay quejas de los ahorradores porque no pueden retirar sus depositos. Se requiere una intervencion estatal para proteger a los usuarios del sistema financiero.\n\nPregunta\n\nCon base en la situacion descrita, ¿que tipo de organismo aplica control y supervision sobre la entidad financiera?",
     options: [
       "Un ministerio del sector",
       "Una superintendencia",
       "Una empresa industrial y comercial del Estado",
-      "Un establecimiento público"
+      "Un establecimiento publico"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las superintendencias ejercen inspección, vigilancia y control sobre actores de sectores económicos específicos para garantizar el cumplimiento regulatorio.",
-    topic: "Organización del Estado - Superintendencias"
+    explanation: "En la situacion descrita, debe intervenir la Superintendencia Financiera porque las superintendencias ejercen inspeccion, vigilancia y control sobre actores de sectores economicos especificos para garantizar el cumplimiento regulatorio.",
+    topic: "Organizacion del Estado - Superintendencias"
   },
   {
     id: 25,
-    question: "Situación: El Gobierno requiere una figura con autonomía administrativa para gestionar pensiones y parafiscales con agilidad. ¿Cuál encaja mejor?",
+    question: "Situacion\n\nEl Gobierno necesita crear una entidad que gestione de manera agil y especializada el recaudo de aportes a la seguridad social y parafiscales, con autonomia tecnica pero sin crear una empresa con animo de lucro.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual figura juridica encaja mejor para esta necesidad?",
     options: [
-      "Establecimiento público",
+      "Establecimiento publico",
       "Unidad Administrativa Especial (UAE)",
-      "Sociedad pública",
+      "Sociedad publica",
       "Empresa industrial y comercial del Estado"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las unidades administrativas especiales cuentan con autonomía técnica y operativa para misiones estratégicas, como la gestión de aportes parafiscales.",
-    topic: "Organización del Estado - Unidades administrativas especiales"
+    explanation: "En la situacion descrita, una UAE es la figura adecuada porque las unidades administrativas especiales cuentan con autonomia tecnica y operativa para misiones estrategicas, como la gestion de aportes parafiscales.",
+    topic: "Organizacion del Estado - Unidades administrativas especiales"
   },
   {
     id: 26,
-    question: "Situación: Se ejecutará un plan vial municipal. ¿Quién es la cabeza del Ejecutivo local que debe liderar la actuación?",
+    question: "Situacion\n\nEl municipio de Copacabana va a ejecutar un ambicioso plan de mejoramiento vial que incluye pavimentacion de vias secundarias y construccion de ciclorrutas. Se debate quien debe liderar politicamente la actuacion.\n\nPregunta\n\nCon base en la situacion descrita, ¿quien es la cabeza del Ejecutivo local que debe liderar la actuacion?",
     options: [
       "El Gobernador",
       "El Alcalde",
       "El Ministro de Transporte",
-      "El Director de INVÍAS"
+      "El Director de INVIAS"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En cada municipio, el alcalde es el jefe de la administración y dirige la ejecución del plan de desarrollo y las obras públicas locales.",
-    topic: "Gobierno territorial - Alcaldías"
+    explanation: "En la situacion descrita, el Alcalde de Copacabana debe liderar porque en cada municipio, el alcalde es el jefe de la administracion y dirige la ejecucion del plan de desarrollo y las obras publicas locales.",
+    topic: "Gobierno territorial - Alcaldias"
   },
   {
     id: 27,
-    question: "Situación: Un barrio quiere priorizar intervenciones de espacio público ante la Alcaldía. ¿Qué instancia lo representa ante la administración local?",
+    question: "Situacion\n\nLos habitantes de un barrio de la comuna 13 de Medellin quieren que la administracion priorice la construccion de un parque y el mejoramiento del alumbrado publico en su sector. Necesitan una instancia que los represente formalmente.\n\nPregunta\n\nCon base en la situacion descrita, ¿que instancia representa al barrio ante la administracion local?",
     options: [
       "El concejo departamental",
       "Una asamblea ciudadana nacional",
       "La Junta Administradora Local (JAL)",
-      "La Defensoría Regional"
+      "La Defensoria Regional"
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "Las Juntas Administradoras Locales, integradas por ediles, representan a las comunidades ante la alcaldía local y promueven la participación en la definición de inversiones.",
-    topic: "Participación territorial - JAL"
+    explanation: "En la situacion descrita, la JAL es la instancia apropiada porque las Juntas Administradoras Locales, integradas por ediles, representan a las comunidades ante la alcaldia local y promueven la participacion en la definicion de inversiones.",
+    topic: "Participacion territorial - JAL"
   },
   {
     id: 28,
-    question: "Situación: Cinco municipios conurbados necesitan coordinar la planeación de transporte y vivienda. ¿Qué figura facilita esa articulación?",
+    question: "Situacion\n\nLos municipios de Medellin, Bello, Envigado, Itagui y Sabaneta necesitan coordinar la planeacion del sistema de transporte masivo y las politicas de vivienda debido a su conurbacion y problemas comunes de movilidad.\n\nPregunta\n\nCon base en la situacion descrita, ¿que figura administrativa facilita esa articulacion entre municipios?",
     options: [
       "Provincia administrativa",
-      "Región geográfica",
-      "Área metropolitana",
+      "Region geografica",
+      "Area metropolitana",
       "Distrito especial"
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "Las áreas metropolitanas articulan la planeación y la prestación de servicios entre municipios integrados alrededor de una ciudad núcleo.",
-    topic: "Organización regional - Áreas metropolitanas"
+    explanation: "En la situacion descrita, estos municipios conforman el Area Metropolitana del Valle de Aburra. Las areas metropolitanas articulan la planeacion y la prestacion de servicios entre municipios integrados alrededor de una ciudad nucleo.",
+    topic: "Organizacion regional - Areas metropolitanas"
   },
   {
     id: 29,
-    question: "Situación: Una ciudad con funciones capitales requiere mayor autonomía que un municipio ordinario. ¿Cuál categoría es la indicada?",
+    question: "Situacion\n\nBarranquilla, como ciudad portuaria y capital departamental, requiere un regimen especial con mayor autonomia fiscal y administrativa para atender sus funciones estrategicas de comercio exterior y desarrollo regional.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual categoria territorial es la indicada para esta ciudad?",
     options: [
       "Municipio certificado",
       "Distrito especial",
       "Departamento",
-      "Región Andina"
+      "Region Andina"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Los distritos especiales cuentan con régimen político y fiscal reforzado para atender funciones estratégicas, como sucede con capitales departamentales y portuarias.",
-    topic: "Organización territorial - Distritos especiales"
+    explanation: "En la situacion descrita, Barranquilla es un Distrito Especial porque los distritos especiales cuentan con regimen politico y fiscal reforzado para atender funciones estrategicas, como sucede con capitales departamentales y portuarias.",
+    topic: "Organizacion territorial - Distritos especiales"
   },
   {
     id: 30,
-    question: "Situación: Una comunidad indígena define el uso de su territorio y recursos. ¿Qué reconoce el ordenamiento?",
+    question: "Situacion\n\nUna comunidad indigena del Choco ejerce gobierno propio sobre su resguardo y toma decisiones autonomas sobre el uso del territorio y los recursos naturales segun sus tradiciones ancestrales.\n\nPregunta\n\nCon base en la situacion descrita, ¿que reconoce el ordenamiento juridico colombiano respecto a esta situacion?",
     options: [
       "Su pertenencia al Ministerio del Interior",
-      "Un régimen idéntico al de los municipios",
-      "Territorios indígenas con reconocimiento legal y autonomía decisoria",
-      "Que debe convertirse en área metropolitana"
+      "Un regimen identico al de los municipios",
+      "Territorios indigenas con reconocimiento legal y autonomia decisoria",
+      "Que debe convertirse en area metropolitana"
     ],
     correctAnswer: 2,
     points: 5,
-    explanation: "La Constitución reconoce los territorios indígenas con autonomía para decidir sobre sus recursos y formas de gobierno, respetando sus culturas.",
-    topic: "Organización territorial - Territorios indígenas"
+    explanation: "En la situacion descrita, la Constitucion reconoce los territorios indigenas con autonomia para decidir sobre sus recursos y formas de gobierno, respetando sus culturas.",
+    topic: "Organizacion territorial - Territorios indigenas"
   },
   {
     id: 31,
-    question: "Situación: Un municipio debe operar servicios hospitalarios públicos y fortalecer la atención primaria. ¿Qué figura estatal presta estos servicios?",
+    question: "Situacion\n\nEl municipio de La Ceja necesita operar el hospital local para prestar servicios de salud de primer nivel a la poblacion. Debe crear una entidad publica que preste estos servicios dentro del sistema de seguridad social.\n\nPregunta\n\nCon base en la situacion descrita, ¿que figura estatal es la apropiada para prestar estos servicios hospitalarios?",
     options: [
       "Empresa industrial y comercial del Estado (EICE)",
       "Empresa Social del Estado (ESE)",
-      "Sociedad de economía mixta",
+      "Sociedad de economia mixta",
       "Superintendencia de Salud"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las Empresas Sociales del Estado integran la red pública hospitalaria y prestan servicios de salud bajo el sistema general de seguridad social.",
+    explanation: "En la situacion descrita, debe crearse una ESE porque las Empresas Sociales del Estado integran la red publica hospitalaria y prestan servicios de salud bajo el sistema general de seguridad social.",
     topic: "Sector salud - ESE"
   },
   {
     id: 32,
-    question: "Situación: El Estado quiere participar en el sector energético con enfoque empresarial y generación de utilidades. ¿Qué figura corresponde?",
+    question: "Situacion\n\nEl Estado colombiano decide participar directamente en la generacion y comercializacion de energia electrica, compitiendo en el mercado con empresas privadas y buscando generar utilidades para financiar proyectos sociales.\n\nPregunta\n\nCon base en la situacion descrita, ¿que figura juridica corresponde para esta actividad empresarial del Estado?",
     options: [
-      "Establecimiento público",
+      "Establecimiento publico",
       "Empresa Industrial y Comercial del Estado (EICE)",
       "Empresa Social del Estado",
       "Junta Administradora Local"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las EICE se constituyen para desarrollar actividades industriales o comerciales en competencia, con patrimonio propio y autonomía administrativa y financiera.",
+    explanation: "En la situacion descrita, corresponde una EICE porque las Empresas Industriales y Comerciales del Estado se constituyen para desarrollar actividades industriales o comerciales en competencia, con patrimonio propio y autonomia administrativa y financiera.",
     topic: "Empresas estatales - EICE"
   },
   {
     id: 33,
-    question: "Situación: Una empresa de acueducto requiere aprobación tarifaria y control de calidad. ¿Quién ejerce la regulación sectorial?",
+    question: "Situacion\n\nUna empresa de acueducto y alcantarillado presenta una propuesta de aumento tarifario. Antes de aplicar las nuevas tarifas, requiere la aprobacion de la entidad que regula los servicios publicos domiciliarios.\n\nPregunta\n\nCon base en la situacion descrita, ¿quien ejerce la regulacion sectorial y aprueba las tarifas?",
     options: [
       "El Ministerio de Vivienda",
-      "Las comisiones de regulación (por ejemplo, CRA o CREG)",
+      "Las comisiones de regulacion (por ejemplo, CRA o CREG)",
       "Una Empresa Social del Estado",
-      "El Departamento Nacional de Planeación"
+      "El Departamento Nacional de Planeacion"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Las comisiones de regulación fijan reglas técnicas, tarifas y estándares de calidad para los servicios públicos domiciliarios y vigilan su cumplimiento.",
-    topic: "Servicios públicos - Regulación"
+    explanation: "En la situacion descrita, la Comision de Regulacion de Agua Potable (CRA) debe aprobar las tarifas porque las comisiones de regulacion fijan reglas tecnicas, tarifas y estandares de calidad para los servicios publicos domiciliarios y vigilan su cumplimiento.",
+    topic: "Servicios publicos - Regulacion"
   },
   {
     id: 34,
-    question: "Situación: El Estado mantiene control mayoritario de una empresa pero vincula capital privado para apalancar inversiones. ¿Qué figura jurídica es?",
+    question: "Situacion\n\nEl departamento de Antioquia quiere desarrollar un proyecto de infraestructura portuaria. Para financiarlo, decide mantener el control mayoritario pero permitir la participacion de inversionistas privados como accionistas minoritarios.\n\nPregunta\n\nCon base en la situacion descrita, ¿que figura juridica permite esta combinacion de capital publico y privado?",
     options: [
-      "Sociedad pública",
-      "Sociedad de economía mixta",
-      "Establecimiento público",
+      "Sociedad publica",
+      "Sociedad de economia mixta",
+      "Establecimiento publico",
       "Unidad Administrativa Especial"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En las sociedades de economía mixta el Estado conserva participación mayoritaria, pero admite accionistas privados para financiar proyectos estratégicos.",
-    topic: "Empresas estatales - Sociedades de economía mixta"
+    explanation: "En la situacion descrita, corresponde una sociedad de economia mixta porque en estas el Estado conserva participacion mayoritaria, pero admite accionistas privados para financiar proyectos estrategicos.",
+    topic: "Empresas estatales - Sociedades de economia mixta"
   },
   {
     id: 35,
-    question: "Situación: Un ministerio quiere desarrollar tecnología para monitoreo costero con apoyo académico. ¿Qué tipo de entidad pública puede liderar el I+D?",
+    question: "Situacion\n\nEl Ministerio de Ambiente necesita desarrollar tecnologia para el monitoreo de ecosistemas marinos y costeros. Requiere una entidad publica especializada que pueda realizar investigacion cientifica con apoyo de universidades.\n\nPregunta\n\nCon base en la situacion descrita, ¿que tipo de entidad publica puede liderar el desarrollo de I+D?",
     options: [
       "Una superintendencia",
-      "Un instituto de investigación científica y tecnológica",
+      "Un instituto de investigacion cientifica y tecnologica",
       "Una Junta Administradora Local",
       "Una empresa industrial y comercial del Estado"
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "Los institutos de investigación científica y tecnológica son entidades estatales especializadas que coordinan proyectos de I+D y trabajan con la academia y la industria.",
-    topic: "Organización del Estado - Institutos científicos"
+    explanation: "En la situacion descrita, se requiere un instituto de investigacion cientifica y tecnologica porque son entidades estatales especializadas que coordinan proyectos de I+D y trabajan con la academia y la industria.",
+    topic: "Organizacion del Estado - Institutos cientificos"
   },
   {
     id: 36,
-    question: "Situación: Debe formularse un plan de ordenamiento territorial a escala departamental. ¿Quién lidera políticamente el proceso?",
+    question: "Situacion\n\nEl departamento de Antioquia debe formular un nuevo plan de ordenamiento territorial que articule los 125 municipios. Se requiere definir quien lidera politicamente este proceso de planeacion a escala departamental.\n\nPregunta\n\nCon base en la situacion descrita, ¿quien lidera politicamente el proceso de ordenamiento territorial departamental?",
     options: [
       "El Alcalde",
       "El Gobernador",
@@ -806,7 +806,7 @@ const questionsV2: Question[] = [
     ],
     correctAnswer: 1,
     points: 5,
-    explanation: "En el nivel departamental, el gobernador es el jefe del Ejecutivo y coordina la planificación territorial conforme al plan de desarrollo y a las competencias del departamento.",
+    explanation: "En la situacion descrita, el Gobernador de Antioquia lidera el proceso porque en el nivel departamental, el gobernador es el jefe del Ejecutivo y coordina la planificacion territorial conforme al plan de desarrollo y a las competencias del departamento.",
     topic: "Gobierno territorial - Gobernaciones"
   }
 ]
@@ -886,30 +886,30 @@ export function NormatividadTest() {
         <AlertDescription>
           Esta prueba contiene {questions.length} preguntas sobre normatividad de las entidades territoriales y derecho administrativo.
           Total de puntos disponibles: {questions.reduce((sum, q) => sum + q.points, 0)} puntos.
-          Basada en el compendio de derecho administrativo y en “Organización del Estado: estructura y competencias”.
+          Basada en el compendio de derecho administrativo y en "Organizacion del Estado: estructura y competencias".
         </AlertDescription>
       </Alert>
 
       <Card>
         <CardHeader>
-          <CardTitle className="text-lg">Selecciona la versión de la prueba</CardTitle>
+          <CardTitle className="text-lg">Selecciona la version de la prueba</CardTitle>
           <CardDescription>
-            La Versión 1 reúne {questionsV1.length} preguntas sobre organización del Estado y derecho administrativo; la Versión 2 conserva {questionsV2.length} preguntas centradas en acto y procedimiento administrativo.
+            La Version 1 reune {questionsV1.length} preguntas sobre organizacion del Estado y derecho administrativo; la Version 2 conserva {questionsV2.length} preguntas centradas en acto y procedimiento administrativo.
           </CardDescription>
         </CardHeader>
         <CardContent>
           <Tabs value={selectedVersion} onValueChange={handleVersionChange} className="w-full">
             <TabsList className="grid w-full grid-cols-2">
               <TabsTrigger value="v1" disabled={showResults}>
-                Versión 1
+                Version 1
               </TabsTrigger>
               <TabsTrigger value="v2" disabled={showResults}>
-                Versión 2
+                Version 2
               </TabsTrigger>
             </TabsList>
           </Tabs>
           {showResults && (
-            <p className="mt-3 text-sm text-muted-foreground">Reinicia la prueba para cambiar de versión.</p>
+            <p className="mt-3 text-sm text-muted-foreground">Reinicia la prueba para cambiar de version.</p>
           )}
         </CardContent>
       </Card>
@@ -959,7 +959,7 @@ export function NormatividadTest() {
             <CardDescription className="text-sm text-muted-foreground">Tema: {question.topic}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
-            <p className="font-medium leading-relaxed">{question.question}</p>
+            <p className="font-medium leading-relaxed whitespace-pre-line">{question.question}</p>
 
             <RadioGroup
               value={answers[question.id]?.toString()}
@@ -1004,7 +1004,7 @@ export function NormatividadTest() {
                 </AlertTitle>
                 <AlertDescription className="mt-2 space-y-2">
                   <p>
-                    <strong>Explicación:</strong> {question.explanation}
+                    <strong>Explicacion:</strong> {question.explanation}
                   </p>
                   {answers[question.id] !== question.correctAnswer && (
                     <p className="text-sm">
@@ -1036,7 +1036,7 @@ export function NormatividadTest() {
               size="lg"
               className="min-w-[200px]"
             >
-              {showFeedback ? "Ocultar" : "Mostrar"} Retroalimentación
+              {showFeedback ? "Ocultar" : "Mostrar"} Retroalimentacion
             </Button>
             <Button onClick={handleReset} variant="secondary" size="lg" className="min-w-[200px]">
               Reiniciar Prueba

@@ -20,365 +20,363 @@ type Question = {
 }
 
 const questionsV1: Question[] = [
-  // Ejemplo inicial
+  // Pregunta 1
   {
     id: 1,
-    scenario: "Un funcionario de atención al público en una oficina gubernamental recibe a un ciudadano muy molesto porque su trámite ha sido rechazado varias veces y exige hablar con un superior.",
-    question: "Lectura: Un funcionario de atención al público recibe a un ciudadano muy molesto porque su trámite ha sido rechazado varias veces y exige hablar con un superior. ¿Qué debería hacer el funcionario?",
+    question: "Situacion\n\nUn funcionario de atencion al publico en una oficina gubernamental recibe a un ciudadano muy molesto porque su tramite ha sido rechazado varias veces. El ciudadano levanta la voz y exige hablar con un superior inmediatamente.\n\nPregunta\n\nCon base en la situacion descrita, ¿que deberia hacer el funcionario?",
     options: [
       { id: "a", text: "Ignorar al ciudadano y continuar con su trabajo." },
-      { id: "b", text: "Llamar inmediatamente a un superior para que se encargue de la situación." },
+      { id: "b", text: "Llamar inmediatamente a un superior para que se encargue de la situacion." },
       { id: "c", text: "Escuchar al ciudadano con calma, explicarle las razones del rechazo y ofrecerle ayuda para resolver el problema." },
-      { id: "d", text: "Pedirle al ciudadano que se calme y que vuelva otro día cuando esté más tranquilo." },
+      { id: "d", text: "Pedirle al ciudadano que se calme y que vuelva otro dia cuando este mas tranquilo." },
     ],
     correct: "c",
-    explanation: "La mejor práctica en atención al ciudadano es escuchar con calma, explicar las razones y ofrecer ayuda para resolver el problema. Esto demuestra empatía, profesionalismo y orientación al servicio.",
+    explanation: "En la situacion descrita, la mejor practica en atencion al ciudadano es escuchar con calma, explicar las razones del rechazo y ofrecer ayuda para resolver el problema. Esto demuestra empatia, profesionalismo y orientacion al servicio, permitiendo calmar al ciudadano molesto mientras se busca una solucion efectiva.",
     points: 5,
   },
-  // Ejemplo 2
+  // Pregunta 2
   {
     id: 2,
-    scenario: "Eres supervisor en una oficina de registro civil. Uno de tus empleados llega tarde repetidamente y su rendimiento ha disminuido; otros empleados empiezan a quejarse.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo abordarías esta situación?",
+    question: "Situacion\n\nEres supervisor en una oficina de registro civil. Uno de tus empleados ha llegado tarde repetidamente durante las ultimas dos semanas y su rendimiento ha disminuido notablemente. Otros empleados del equipo han comenzado a quejarse de la situacion.\n\nPregunta\n\nCon base en la situacion descrita, ¿como abordarias esta situacion con el empleado?",
     options: [
       { id: "a", text: "Ignorar el problema y esperar que se resuelva solo." },
-      { id: "b", text: "Regañar al empleado frente a sus compañeros para que sirva de ejemplo." },
-      { id: "c", text: "Hablar en privado con el empleado para entender las razones de su comportamiento y buscar una solución conjunta." },
+      { id: "b", text: "Reganar al empleado frente a sus companeros para que sirva de ejemplo." },
+      { id: "c", text: "Hablar en privado con el empleado para entender las razones de su comportamiento y buscar una solucion conjunta." },
       { id: "d", text: "Informar al departamento de recursos humanos para que tomen medidas disciplinarias." },
     ],
     correct: "c",
-    explanation: "En la situación descrita, hablar en privado con el empleado demuestra respeto, permite entender las causas del problema y buscar soluciones constructivas. Es la mejor práctica de gestión de personas.",
+    explanation: "En la situacion descrita, hablar en privado con el empleado demuestra respeto por su dignidad, permite entender las causas del problema (que podrian ser personales o laborales) y buscar soluciones constructivas. Es la mejor practica de gestion de personas antes de escalar a medidas disciplinarias.",
     points: 5,
   },
-  // Ejemplo 3
+  // Pregunta 3
   {
     id: 3,
-    scenario: "Estás a cargo de un proyecto con plazo ajustado. Un miembro clave del equipo solicita una semana de licencia por motivos personales.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué harías en esta situación?",
+    question: "Situacion\n\nEstas a cargo de un proyecto importante con plazo de entrega en dos semanas. Un miembro clave del equipo solicita una semana de licencia por motivos personales urgentes, lo cual podria comprometer el cronograma establecido.\n\nPregunta\n\nCon base en la situacion descrita, ¿que harias para manejar esta solicitud?",
     options: [
       { id: "a", text: "Negar la solicitud de licencia y exigir que el miembro se quede para cumplir con el plazo." },
       { id: "b", text: "Aceptar la solicitud de licencia sin ajustar el plan del proyecto." },
-      { id: "c", text: "Aceptar la solicitud de licencia y redistribuir las tareas entre los demás miembros para asegurar que el proyecto se complete a tiempo." },
+      { id: "c", text: "Aceptar la solicitud de licencia y redistribuir las tareas entre los demas miembros para asegurar que el proyecto se complete a tiempo." },
       { id: "d", text: "Pedir al miembro del equipo que trabaje desde casa durante su licencia." },
     ],
     correct: "c",
-    explanation: "En la situación descrita, aceptar la licencia y redistribuir tareas demuestra flexibilidad, respeto por el bienestar del equipo y capacidad de adaptación para cumplir objetivos.",
+    explanation: "En la situacion descrita, aceptar la licencia y redistribuir tareas demuestra flexibilidad, respeto por el bienestar del equipo y capacidad de adaptacion para cumplir objetivos. Equilibra las necesidades personales del empleado con las responsabilidades del proyecto.",
     points: 5,
   },
-  // Ejemplo 4
+  // Pregunta 4
   {
     id: 4,
-    scenario: "Eres responsable de implementar un nuevo sistema de gestión. Algunos empleados se resisten al cambio y continúan utilizando el sistema antiguo.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo manejarías esta resistencia al cambio?",
+    question: "Situacion\n\nEres responsable de implementar un nuevo sistema de gestion documental en tu dependencia. Despues de la capacitacion inicial, observas que varios empleados se resisten al cambio y continuan utilizando el sistema antiguo, alegando que es mas facil de usar.\n\nPregunta\n\nCon base en la situacion descrita, ¿como manejarias esta resistencia al cambio?",
     options: [
-      { id: "a", text: "Ignorar a los empleados que se resisten y seguir adelante con la implementación." },
+      { id: "a", text: "Ignorar a los empleados que se resisten y seguir adelante con la implementacion." },
       { id: "b", text: "Forzar a los empleados a usar el nuevo sistema bajo amenaza de sanciones." },
-      { id: "c", text: "Organizar sesiones de capacitación adicionales y explicar los beneficios del nuevo sistema para obtener su aceptación." },
-      { id: "d", text: "Permitir que los empleados elijan qué sistema quieren usar." },
+      { id: "c", text: "Organizar sesiones de capacitacion adicionales y explicar los beneficios del nuevo sistema para obtener su aceptacion." },
+      { id: "d", text: "Permitir que los empleados elijan que sistema quieren usar." },
     ],
     correct: "c",
-    explanation: "En la situación descrita, organizar capacitaciones y explicar beneficios es la mejor estrategia para gestionar la resistencia al cambio, generando comprensión y aceptación.",
+    explanation: "En la situacion descrita, organizar capacitaciones adicionales y explicar beneficios es la mejor estrategia para gestionar la resistencia al cambio. Esto genera comprension del valor del nuevo sistema y facilita la aceptacion gradual por parte de los empleados.",
     points: 5,
   },
-  // Ejemplo 5
+  // Pregunta 5
   {
     id: 5,
-    scenario: "Un ciudadano presenta una queja formal sobre el comportamiento de un colega, alegando trato irrespetuoso y discriminatorio.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál sería tu curso de acción?",
+    question: "Situacion\n\nUn ciudadano presenta una queja formal en tu oficina sobre el comportamiento de uno de tus colegas, alegando que recibio trato irrespetuoso y comentarios discriminatorios durante la atencion de su tramite la semana pasada.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual seria tu curso de accion mas apropiado?",
     options: [
       { id: "a", text: "Ignorar la queja y continuar con tus tareas." },
-      { id: "b", text: "Informar inmediatamente a tu superior y solicitar una investigación interna." },
-      { id: "c", text: "Hablar directamente con el colega acusado para escuchar su versión de los hechos." },
+      { id: "b", text: "Informar inmediatamente a tu superior y solicitar una investigacion interna." },
+      { id: "c", text: "Hablar directamente con el colega acusado para escuchar su version de los hechos." },
       { id: "d", text: "Pedir al ciudadano que retire la queja para evitar problemas." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, ante una queja formal por trato irrespetuoso o discriminatorio, el protocolo correcto es informar al superior y solicitar investigación formal para garantizar imparcialidad.",
+    explanation: "En la situacion descrita, ante una queja formal por trato irrespetuoso o discriminatorio, el protocolo correcto es informar al superior y solicitar una investigacion formal. Esto garantiza imparcialidad en el proceso y protege tanto al ciudadano como a la institucion.",
     points: 5,
   },
-  // Actividad 1 - Desarrollo sostenible
+  // Pregunta 6 - Desarrollo sostenible
   {
     id: 6,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál es el objetivo principal del desarrollo sostenible?",
+    question: "Situacion\n\nTe encuentras en una reunion de planeacion donde se discute la asignacion de recursos para el proximo ano. Varios funcionarios proponen proyectos que priorizan el crecimiento economico inmediato, mientras otros insisten en la proteccion ambiental estricta.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual es el objetivo principal que deberia guiar las decisiones de desarrollo sostenible?",
     options: [
-      { id: "a", text: "Incrementar el crecimiento económico." },
+      { id: "a", text: "Incrementar el crecimiento economico." },
       { id: "b", text: "Satisfacer las necesidades del presente sin comprometer el futuro." },
       { id: "c", text: "Proteger el medio ambiente a cualquier costo." },
-      { id: "d", text: "Aumentar la inclusión social." },
+      { id: "d", text: "Aumentar la inclusion social." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, el desarrollo sostenible busca satisfacer las necesidades del presente sin comprometer la capacidad de las futuras generaciones, equilibrando economía, inclusión social y medio ambiente.",
+    explanation: "En la situacion descrita, el desarrollo sostenible busca satisfacer las necesidades del presente sin comprometer la capacidad de las futuras generaciones. Esto requiere equilibrar crecimiento economico, inclusion social y proteccion ambiental en la toma de decisiones.",
     points: 5,
   },
+  // Pregunta 7
   {
     id: 7,
-    scenario: "Eres asesor de políticas públicas y debes explicar la importancia del desarrollo sostenible a un grupo de empresarios preocupados por los costos.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo lo explicarías?",
+    question: "Situacion\n\nEres asesor de politicas publicas y debes presentar la importancia del desarrollo sostenible a un grupo de empresarios que estan preocupados por los costos adicionales que implican las practicas sostenibles para sus negocios.\n\nPregunta\n\nCon base en la situacion descrita, ¿como explicarias la relevancia del desarrollo sostenible a este grupo?",
     options: [
-      { id: "a", text: "Enfatizando solo los beneficios económicos." },
-      { id: "b", text: "Mostrando cómo la sostenibilidad puede mejorar la reputación y atraer inversiones." },
+      { id: "a", text: "Enfatizando solo los beneficios economicos." },
+      { id: "b", text: "Mostrando como la sostenibilidad puede mejorar la reputacion y atraer inversiones." },
       { id: "c", text: "Ignorando las preocupaciones ambientales." },
-      { id: "d", text: "Focalizándote únicamente en la inclusión social." },
+      { id: "d", text: "Focalizandote unicamente en la inclusion social." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, mostrar cómo la sostenibilidad mejora la reputación y atrae inversiones conecta los valores ambientales con los intereses empresariales de forma estratégica.",
+    explanation: "En la situacion descrita, mostrar como la sostenibilidad mejora la reputacion corporativa y atrae inversiones responsables conecta los valores ambientales con los intereses empresariales de forma estrategica y convincente.",
     points: 5,
   },
-  // Actividad 2 - Tecnología y redes sociales
+  // Pregunta 8 - Tecnologia y redes sociales
   {
     id: 8,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. Según los avances del siglo XXI, ¿qué ha permitido la tecnología?",
+    question: "Situacion\n\nEn una capacitacion sobre transformacion digital para funcionarios publicos, surge un debate sobre los efectos de la tecnologia en la sociedad actual. Algunos participantes cuestionan si realmente ha generado beneficios significativos.\n\nPregunta\n\nCon base en la situacion descrita, segun los avances del siglo XXI, ¿que ha permitido principalmente la tecnologia?",
     options: [
-      { id: "a", text: "Una desconexión global." },
-      { id: "b", text: "Una conexión instantánea y global." },
+      { id: "a", text: "Una desconexion global." },
+      { id: "b", text: "Una conexion instantanea y global." },
       { id: "c", text: "Una mejora en la privacidad." },
-      { id: "d", text: "Una reducción en la seguridad." },
+      { id: "d", text: "Una reduccion en la seguridad." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, la tecnología ha permitido una conexión instantánea y global, transformando la forma en que nos comunicamos, aunque presenta desafíos de privacidad y seguridad.",
+    explanation: "En la situacion descrita, es importante reconocer que la tecnologia ha permitido una conexion instantanea y global, transformando la forma en que nos comunicamos y accedemos a informacion, aunque presenta desafios de privacidad y seguridad que deben gestionarse.",
     points: 5,
   },
+  // Pregunta 9
   {
     id: 9,
-    scenario: "Eres experto en ciberseguridad y das una charla a estudiantes sobre redes sociales.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo abordarías los desafíos de privacidad y seguridad?",
+    question: "Situacion\n\nEres experto en ciberseguridad y has sido invitado a dar una charla a estudiantes de secundaria sobre el uso seguro de redes sociales. Los jovenes son usuarios activos pero desconocen los riesgos asociados.\n\nPregunta\n\nCon base en la situacion descrita, ¿como abordarias los desafios de privacidad y seguridad en tu presentacion?",
     options: [
       { id: "a", text: "Minimizando los riesgos." },
-      { id: "b", text: "Enfatizando la importancia de la privacidad y ofreciendo consejos prácticos." },
+      { id: "b", text: "Enfatizando la importancia de la privacidad y ofreciendo consejos practicos." },
       { id: "c", text: "Ignorando los problemas de seguridad." },
-      { id: "d", text: "Focalizándote solo en los aspectos positivos de las redes sociales." },
+      { id: "d", text: "Focalizandote solo en los aspectos positivos de las redes sociales." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, enfatizar la importancia de la privacidad y ofrecer consejos prácticos es la mejor forma de educar sobre ciberseguridad de manera efectiva y útil.",
+    explanation: "En la situacion descrita, enfatizar la importancia de la privacidad y ofrecer consejos practicos es la mejor forma de educar a los jovenes sobre ciberseguridad de manera efectiva y util, empoderándolos para protegerse.",
     points: 5,
   },
-  // Actividad 3 - Cambio climático
+  // Pregunta 10 - Cambio climatico
   {
     id: 10,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál es uno de los efectos del cambio climático?",
+    question: "Situacion\n\nDurante una reunion de planeacion territorial, se discuten los riesgos ambientales que enfrenta la region. Algunos funcionarios minimizan los efectos del cambio climatico argumentando que son exagerados por los medios.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual es uno de los efectos documentados del cambio climatico que deberia considerarse?",
     options: [
-      { id: "a", text: "La reducción de las temperaturas globales." },
+      { id: "a", text: "La reduccion de las temperaturas globales." },
       { id: "b", text: "El aumento de las temperaturas globales." },
       { id: "c", text: "La estabilidad de los glaciares." },
-      { id: "d", text: "La disminución de fenómenos meteorológicos extremos." },
+      { id: "d", text: "La disminucion de fenomenos meteorologicos extremos." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, el cambio climático causa el aumento de las temperaturas globales, el derretimiento de glaciares y mayor frecuencia de fenómenos meteorológicos extremos.",
+    explanation: "En la situacion descrita, es fundamental reconocer que el cambio climatico causa el aumento de las temperaturas globales, el derretimiento de glaciares y mayor frecuencia de fenomenos meteorologicos extremos. Esta evidencia cientifica debe guiar la planeacion territorial.",
     points: 5,
   },
+  // Pregunta 11
   {
     id: 11,
-    scenario: "Eres científico ambiental y debes presentar un informe a políticos sobre el cambio climático.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo destacarías la urgencia de abordar el cambio climático?",
+    question: "Situacion\n\nEres cientifico ambiental y debes presentar un informe sobre cambio climatico a un grupo de politicos que tienen agendas diversas. Algunos son escepticos sobre la urgencia del tema y otros lo consideran prioritario.\n\nPregunta\n\nCon base en la situacion descrita, ¿como destacarias la urgencia de abordar el cambio climatico de manera efectiva?",
     options: [
       { id: "a", text: "Presentando datos alarmantes sin soluciones." },
       { id: "b", text: "Ofreciendo datos claros y proponiendo medidas concretas." },
-      { id: "c", text: "Ignorando las evidencias científicas." },
-      { id: "d", text: "Focalizándote solo en los aspectos económicos." },
+      { id: "c", text: "Ignorando las evidencias cientificas." },
+      { id: "d", text: "Focalizandote solo en los aspectos economicos." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, ofrecer datos claros y proponer medidas concretas es la forma más efectiva de comunicar la urgencia del cambio climático a tomadores de decisiones.",
+    explanation: "En la situacion descrita, ofrecer datos claros respaldados cientificamente y proponer medidas concretas y viables es la forma mas efectiva de comunicar la urgencia del cambio climatico a tomadores de decisiones con diferentes perspectivas.",
     points: 5,
   },
-  // Actividad 4 - Biodiversidad
+  // Pregunta 12 - Biodiversidad
   {
     id: 12,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Por qué es esencial la biodiversidad?",
+    question: "Situacion\n\nEn una mesa de trabajo sobre ordenamiento territorial, un contratista propone un proyecto de desarrollo que afectaria un ecosistema local con especies endemicas. Argumenta que el progreso economico es mas importante.\n\nPregunta\n\nCon base en la situacion descrita, ¿por que es esencial considerar la biodiversidad en estas decisiones?",
     options: [
-      { id: "a", text: "Para el desarrollo tecnológico." },
+      { id: "a", text: "Para el desarrollo tecnologico." },
       { id: "b", text: "Para el equilibrio de los ecosistemas." },
-      { id: "c", text: "Para la urbanización." },
-      { id: "d", text: "Para la globalización." },
+      { id: "c", text: "Para la urbanizacion." },
+      { id: "d", text: "Para la globalizacion." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, la biodiversidad es esencial para el equilibrio de los ecosistemas. La pérdida de especies puede afectar negativamente el medio ambiente, la economía y la salud humana.",
+    explanation: "En la situacion descrita, la biodiversidad es esencial para el equilibrio de los ecosistemas. La perdida de especies puede afectar negativamente el medio ambiente, la economia local y la salud humana, por lo que debe considerarse en proyectos de desarrollo.",
     points: 5,
   },
+  // Pregunta 13
   {
     id: 13,
-    scenario: "Eres biólogo y debes explicar la importancia de la biodiversidad a un público general.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué enfoque usarías?",
+    question: "Situacion\n\nEres biologo y has sido invitado a explicar la importancia de la biodiversidad a un publico general en un evento comunitario. Los asistentes no tienen formacion cientifica pero estan interesados en temas ambientales.\n\nPregunta\n\nCon base en la situacion descrita, ¿que enfoque usarias para comunicar este tema efectivamente?",
     options: [
-      { id: "a", text: "Usar términos técnicos sin explicación." },
+      { id: "a", text: "Usar terminos tecnicos sin explicacion." },
       { id: "b", text: "Utilizar ejemplos concretos y accesibles." },
-      { id: "c", text: "Ignorar la relación con la economía y la salud." },
-      { id: "d", text: "Focalizarse solo en los aspectos científicos." },
+      { id: "c", text: "Ignorar la relacion con la economia y la salud." },
+      { id: "d", text: "Focalizarse solo en los aspectos cientificos." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, utilizar ejemplos concretos y accesibles es la mejor forma de comunicar conceptos científicos complejos a un público general.",
+    explanation: "En la situacion descrita, utilizar ejemplos concretos y accesibles, como servicios ecosistemicos locales o especies conocidas, es la mejor forma de comunicar conceptos cientificos complejos a un publico general sin formacion tecnica.",
     points: 5,
   },
-  // Actividad 5 - Derecho a la educación
+  // Pregunta 14 - Derecho a la educacion
   {
     id: 14,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué se afirma sobre la educación?",
+    question: "Situacion\n\nEn una reunion sobre politicas educativas, algunos participantes sugieren que la educacion deberia priorizarse solo para quienes puedan pagarla, argumentando que los recursos publicos son limitados.\n\nPregunta\n\nCon base en la situacion descrita, ¿que se afirma sobre la naturaleza de la educacion en el marco de derechos?",
     options: [
       { id: "a", text: "Es un privilegio." },
       { id: "b", text: "Es un derecho fundamental." },
       { id: "c", text: "Es un lujo." },
-      { id: "d", text: "Es una opción." },
+      { id: "d", text: "Es una opcion." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, la educación es un derecho fundamental que debe ser accesible para todos, aunque millones de niños en el mundo no tienen acceso a una educación de calidad.",
+    explanation: "En la situacion descrita, es fundamental recordar que la educacion es un derecho fundamental que debe ser accesible para todos, independientemente de su capacidad economica. Este principio debe guiar las politicas educativas.",
     points: 5,
   },
+  // Pregunta 15
   {
     id: 15,
-    scenario: "Como activista por la educación, debes convencer a donantes para financiar programas educativos.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué enfoque tomarías?",
+    question: "Situacion\n\nComo activista por la educacion, tienes una reunion con potenciales donantes para solicitar financiamiento para programas educativos en comunidades vulnerables. Los donantes quieren ver resultados tangibles antes de comprometer recursos.\n\nPregunta\n\nCon base en la situacion descrita, ¿que enfoque tomarias para convencer a los donantes?",
     options: [
       { id: "a", text: "Enfatizar solo las necesidades sin mostrar resultados." },
-      { id: "b", text: "Mostrar el impacto positivo de la educación y los beneficios a largo plazo." },
-      { id: "c", text: "Ignorar las estadísticas." },
+      { id: "b", text: "Mostrar el impacto positivo de la educacion y los beneficios a largo plazo." },
+      { id: "c", text: "Ignorar las estadisticas." },
       { id: "d", text: "Focalizarse solo en los problemas." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, mostrar el impacto positivo y los beneficios a largo plazo es la estrategia más efectiva para obtener apoyo financiero para programas educativos.",
+    explanation: "En la situacion descrita, mostrar el impacto positivo documentado de programas similares y los beneficios a largo plazo para las comunidades es la estrategia mas efectiva para obtener apoyo financiero de donantes orientados a resultados.",
     points: 5,
   },
-  // Actividad 6 - Globalización
+  // Pregunta 16 - Globalizacion
   {
     id: 16,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué ha permitido la globalización?",
+    question: "Situacion\n\nDurante un foro sobre desarrollo economico regional, surge un debate sobre los efectos de la globalizacion. Algunos participantes la ven como una amenaza a la industria local, mientras otros destacan oportunidades de expansion.\n\nPregunta\n\nCon base en la situacion descrita, ¿que ha permitido principalmente la globalizacion segun la evidencia?",
     options: [
-      { id: "a", text: "Una menor interconexión entre los países." },
-      { id: "b", text: "Una mayor interconexión entre los países." },
-      { id: "c", text: "Una reducción del comercio." },
-      { id: "d", text: "Una disminución del intercambio cultural." },
+      { id: "a", text: "Una menor interconexion entre los paises." },
+      { id: "b", text: "Una mayor interconexion entre los paises." },
+      { id: "c", text: "Una reduccion del comercio." },
+      { id: "d", text: "Una disminucion del intercambio cultural." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, la globalización ha permitido una mayor interconexión entre los países, facilitando el comercio y el intercambio cultural, aunque también ha generado desigualdades.",
+    explanation: "En la situacion descrita, es importante reconocer que la globalizacion ha permitido una mayor interconexion entre los paises, facilitando el comercio y el intercambio cultural. Sin embargo, tambien ha generado desigualdades que requieren politicas de mitigacion.",
     points: 5,
   },
+  // Pregunta 17
   {
     id: 17,
-    scenario: "Eres economista y presentas un informe sobre globalización.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo abordarías las desigualdades generadas?",
+    question: "Situacion\n\nEres economista y debes presentar un informe sobre globalizacion a funcionarios de desarrollo economico. El informe debe abordar tanto los beneficios como las preocupaciones sobre desigualdad que han expresado comunidades locales.\n\nPregunta\n\nCon base en la situacion descrita, ¿como abordarias las desigualdades generadas por la globalizacion en tu informe?",
     options: [
       { id: "a", text: "Ignorar los aspectos negativos." },
-      { id: "b", text: "Proponer políticas para mitigar las desigualdades." },
-      { id: "c", text: "Enfatizar solo los beneficios económicos." },
+      { id: "b", text: "Proponer politicas para mitigar las desigualdades." },
+      { id: "c", text: "Enfatizar solo los beneficios economicos." },
       { id: "d", text: "Focalizarse solo en los intercambios culturales." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, proponer políticas para mitigar las desigualdades es la forma más responsable y efectiva de abordar los efectos negativos de la globalización.",
+    explanation: "En la situacion descrita, proponer politicas especificas para mitigar las desigualdades es la forma mas responsable y efectiva de abordar los efectos negativos de la globalizacion, respondiendo a las preocupaciones de las comunidades afectadas.",
     points: 5,
   },
-  // Actividad 7 - Inteligencia artificial
+  // Pregunta 18 - Inteligencia artificial
   {
     id: 18,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué está revolucionando la inteligencia artificial?",
+    question: "Situacion\n\nEn una jornada de actualizacion tecnologica para funcionarios publicos, se discute el potencial de la inteligencia artificial. Algunos temen que solo beneficie al sector tecnologico, mientras otros ven aplicaciones mas amplias.\n\nPregunta\n\nCon base en la situacion descrita, ¿que esta revolucionando la inteligencia artificial segun las tendencias actuales?",
     options: [
       { id: "a", text: "Solo la industria de la medicina." },
       { id: "b", text: "Diversas industrias." },
       { id: "c", text: "Solo la agricultura." },
-      { id: "d", text: "Solo la industria tecnológica." },
+      { id: "d", text: "Solo la industria tecnologica." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, la inteligencia artificial está revolucionando diversas industrias, desde la medicina hasta la agricultura, aunque plantea desafíos éticos y de privacidad.",
+    explanation: "En la situacion descrita, es importante entender que la inteligencia artificial esta revolucionando diversas industrias, desde la medicina hasta la agricultura y el servicio publico, aunque plantea desafios eticos y de privacidad que deben abordarse.",
     points: 5,
   },
+  // Pregunta 19
   {
     id: 19,
-    scenario: "Como experto en IA, vas a hablar sobre los desafíos éticos en una conferencia.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué enfoque tomarías?",
+    question: "Situacion\n\nComo experto en inteligencia artificial, has sido invitado a hablar sobre los desafios eticos de la IA en una conferencia internacional. El publico incluye desarrolladores, reguladores y ciudadanos preocupados por el impacto social.\n\nPregunta\n\nCon base en la situacion descrita, ¿que enfoque tomarias para abordar este tema ante una audiencia tan diversa?",
     options: [
-      { id: "a", text: "Ignorar los desafíos éticos." },
-      { id: "b", text: "Abordar los desafíos éticos y proponer soluciones." },
-      { id: "c", text: "Enfatizar solo los beneficios tecnológicos." },
+      { id: "a", text: "Ignorar los desafios eticos." },
+      { id: "b", text: "Abordar los desafios eticos y proponer soluciones." },
+      { id: "c", text: "Enfatizar solo los beneficios tecnologicos." },
       { id: "d", text: "Focalizarse solo en la privacidad." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, abordar los desafíos éticos y proponer soluciones es esencial para el desarrollo responsable de la inteligencia artificial.",
+    explanation: "En la situacion descrita, abordar los desafios eticos de manera integral y proponer soluciones colaborativas es esencial para el desarrollo responsable de la inteligencia artificial y para responder a las preocupaciones de los diferentes grupos presentes.",
     points: 5,
   },
-  // Actividad 8 - Turismo sostenible
+  // Pregunta 20 - Turismo sostenible
   {
     id: 20,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué busca el turismo sostenible?",
+    question: "Situacion\n\nDurante la formulacion del plan de desarrollo turistico regional, surge tension entre operadores que quieren maximizar visitantes y comunidades locales preocupadas por el impacto ambiental y cultural de un turismo masivo.\n\nPregunta\n\nCon base en la situacion descrita, ¿que busca principalmente el enfoque de turismo sostenible?",
     options: [
       { id: "a", text: "Maximizar el impacto negativo en el medio ambiente." },
       { id: "b", text: "Minimizar el impacto negativo en el medio ambiente." },
       { id: "c", text: "Ignorar las comunidades locales." },
-      { id: "d", text: "Promover prácticas irresponsables." },
+      { id: "d", text: "Promover practicas irresponsables." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, el turismo sostenible busca minimizar el impacto negativo en el medio ambiente y las comunidades locales, promoviendo prácticas responsables y beneficiosas.",
+    explanation: "En la situacion descrita, el turismo sostenible busca minimizar el impacto negativo en el medio ambiente y las comunidades locales, promoviendo practicas responsables que generen beneficios economicos sin comprometer los recursos naturales y culturales.",
     points: 5,
   },
+  // Pregunta 21 - Proposito de pruebas de juicio situacional
   {
     id: 21,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál es el propósito principal de las pruebas de juicio situacional en procesos de selección?",
+    question: "Situacion\n\nEres candidato a un cargo publico y te informan que parte del proceso de seleccion incluye una prueba de juicio situacional. Algunos companeros candidatos cuestionan la utilidad de este tipo de evaluaciones.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual es el proposito principal de las pruebas de juicio situacional en procesos de seleccion?",
     options: [
-      { id: "a", text: "Evaluar únicamente conocimientos teóricos mediante preguntas memorísticas." },
-      { id: "b", text: "Medir competencias como toma de decisiones, ética y resolución de problemas en contextos laborales." },
+      { id: "a", text: "Evaluar unicamente conocimientos teoricos mediante preguntas memoristicas." },
+      { id: "b", text: "Medir competencias como toma de decisiones, etica y resolucion de problemas en contextos laborales." },
       { id: "c", text: "Determinar la velocidad de respuesta ante cualquier pregunta." },
       { id: "d", text: "Reemplazar completamente las entrevistas personales con pruebas automatizadas." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, las pruebas de juicio situacional evalúan competencias clave como toma de decisiones, ética profesional y resolución de problemas a través de escenarios laborales realistas que reflejan situaciones del puesto.",
+    explanation: "En la situacion descrita, las pruebas de juicio situacional evaluan competencias clave como toma de decisiones, etica profesional y resolucion de problemas a traves de escenarios laborales realistas que reflejan situaciones del puesto al que se aspira.",
     points: 5,
   },
+  // Pregunta 22
   {
     id: 22,
-    scenario: "Al responder una pregunta de juicio situacional, te encuentras con dos opciones que parecen igualmente correctas.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué estrategia deberías aplicar para seleccionar la mejor respuesta?",
+    question: "Situacion\n\nAl responder una pregunta de juicio situacional durante tu evaluacion, te encuentras con dos opciones que parecen igualmente correctas y razonables. El tiempo avanza y debes tomar una decision.\n\nPregunta\n\nCon base en la situacion descrita, ¿que estrategia deberias aplicar para seleccionar la mejor respuesta?",
     options: [
-      { id: "a", text: "Elegir al azar entre ambas opciones sin analizar más." },
-      { id: "b", text: "Analizar cuál opción refleja mejor los valores del servicio público, la ética profesional y el mayor beneficio para todos los involucrados." },
-      { id: "c", text: "Seleccionar la opción más breve para ahorrar tiempo de lectura." },
-      { id: "d", text: "Buscar la opción que favorezca únicamente tus intereses personales." },
+      { id: "a", text: "Elegir al azar entre ambas opciones sin analizar mas." },
+      { id: "b", text: "Analizar cual opcion refleja mejor los valores del servicio publico, la etica profesional y el mayor beneficio para todos los involucrados." },
+      { id: "c", text: "Seleccionar la opcion mas breve para ahorrar tiempo de lectura." },
+      { id: "d", text: "Buscar la opcion que favorezca unicamente tus intereses personales." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, la mejor estrategia es analizar cuál opción refleja mejor los principios del servicio público, la ética profesional y genera el mayor beneficio para la organización, los ciudadanos y los involucrados.",
+    explanation: "En la situacion descrita, la mejor estrategia es analizar cual opcion refleja mejor los principios del servicio publico, la etica profesional y genera el mayor beneficio para la organizacion, los ciudadanos y todos los involucrados en el escenario.",
     points: 5,
   },
+  // Pregunta 23 - Competencias evaluadas
   {
     id: 23,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué competencias se evalúan principalmente en las pruebas de juicio situacional del sector público?",
+    question: "Situacion\n\nUn aspirante a funcionario publico te pregunta sobre que tipo de habilidades evaluan las pruebas de juicio situacional del sector publico, ya que quiere prepararse adecuadamente para el proceso de seleccion.\n\nPregunta\n\nCon base en la situacion descrita, ¿que competencias se evaluan principalmente en estas pruebas?",
     options: [
-      { id: "a", text: "Solo habilidades técnicas específicas del cargo." },
-      { id: "b", text: "Orientación al servicio, ética, trabajo en equipo, toma de decisiones y resolución de conflictos." },
-      { id: "c", text: "Únicamente capacidad de memorización de normativas." },
-      { id: "d", text: "Habilidades artísticas y deportivas." },
+      { id: "a", text: "Solo habilidades tecnicas especificas del cargo." },
+      { id: "b", text: "Orientacion al servicio, etica, trabajo en equipo, toma de decisiones y resolucion de conflictos." },
+      { id: "c", text: "Unicamente capacidad de memorizacion de normativas." },
+      { id: "d", text: "Habilidades artisticas y deportivas." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, las pruebas de juicio situacional en el sector público evalúan competencias comportamentales como orientación al servicio, ética profesional, trabajo en equipo, toma de decisiones y resolución de conflictos, no solo conocimientos técnicos.",
+    explanation: "En la situacion descrita, es importante informar que las pruebas de juicio situacional evaluan competencias comportamentales como orientacion al servicio, etica profesional, trabajo en equipo, toma de decisiones y resolucion de conflictos, no solo conocimientos tecnicos.",
     points: 5,
   },
+  // Pregunta 24
   {
     id: 24,
-    scenario: "Recibes una solicitud de un ciudadano que requiere tramitar un documento urgente, pero falta un requisito menor que podría resolverse en pocos minutos con una llamada telefónica a otra dependencia.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál acción refleja mejor las competencias del servicio público?",
+    question: "Situacion\n\nRecibes una solicitud de un ciudadano que requiere tramitar un documento urgente para una cita medica el dia siguiente. Al revisar, notas que falta un requisito menor que podria verificarse en pocos minutos con una llamada a otra dependencia.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual accion refleja mejor las competencias del servicio publico?",
     options: [
       { id: "a", text: "Rechazar la solicitud estrictamente porque falta el requisito, sin ofrecer alternativas." },
-      { id: "b", text: "Realizar la llamada para verificar el requisito y ayudar al ciudadano a completar el trámite de manera ágil." },
-      { id: "c", text: "Ignorar el requisito faltante y procesar el documento sin verificación." },
-      { id: "d", text: "Pedirle al ciudadano que regrese otro día con el requisito completo sin más orientación." },
+      { id: "b", text: "Realizar la llamada para verificar el requisito y ayudar al ciudadano a completar el tramite de manera agil." },
+      { id: "c", text: "Ignorar el requisito faltante y procesar el documento sin verificacion." },
+      { id: "d", text: "Pedirle al ciudadano que regrese otro dia con el requisito completo sin mas orientacion." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, la orientación al servicio implica facilitar la gestión del ciudadano dentro del marco normativo. Realizar la verificación telefónica demuestra proactividad, eficiencia y compromiso con el servicio, sin comprometer el cumplimiento de requisitos.",
+    explanation: "En la situacion descrita, la orientacion al servicio implica facilitar la gestion del ciudadano dentro del marco normativo. Realizar la verificacion telefonica demuestra proactividad, eficiencia y compromiso con el servicio, atendiendo la urgencia sin comprometer el cumplimiento de requisitos.",
     points: 5,
   },
+  // Pregunta 25 - Respuesta efectiva
   {
     id: 25,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué caracteriza una respuesta efectiva en una pregunta de juicio situacional?",
+    question: "Situacion\n\nDurante la preparacion para una prueba de juicio situacional, un companero te pregunta como identificar la respuesta correcta entre varias opciones que parecen razonables.\n\nPregunta\n\nCon base en la situacion descrita, ¿que caracteriza una respuesta efectiva en una pregunta de juicio situacional?",
     options: [
-      { id: "a", text: "La opción más larga y detallada siempre es la correcta." },
-      { id: "b", text: "Aquella que equilibra el cumplimiento normativo, la ética profesional y el impacto positivo en los involucrados." },
-      { id: "c", text: "La primera opción que mencione alguna normativa específica." },
-      { id: "d", text: "Cualquier respuesta que evite tomar una decisión concreta." },
+      { id: "a", text: "La opcion mas larga y detallada siempre es la correcta." },
+      { id: "b", text: "Aquella que equilibra el cumplimiento normativo, la etica profesional y el impacto positivo en los involucrados." },
+      { id: "c", text: "La primera opcion que mencione alguna normativa especifica." },
+      { id: "d", text: "Cualquier respuesta que evite tomar una decision concreta." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, una respuesta efectiva equilibra el cumplimiento de normas, los principios éticos del servicio público y genera el mayor impacto positivo para la organización y los ciudadanos, demostrando competencias integrales.",
+    explanation: "En la situacion descrita, una respuesta efectiva equilibra el cumplimiento de normas, los principios eticos del servicio publico y genera el mayor impacto positivo para la organizacion y los ciudadanos, demostrando competencias integrales de gestion publica.",
     points: 5,
   },
 ]
 
 const questionsV2: Question[] = [
+  // Pregunta 21 - Turismo sostenible
   {
     id: 21,
-    scenario: "Eres consultor de turismo sostenible y buscas convencer a una empresa turística para que adopte prácticas sostenibles.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué enfoque usarías?",
+    question: "Situacion\n\nEres consultor de turismo sostenible y tienes una reunion con el gerente de una empresa turistica que opera en una zona de alto valor ecologico. La empresa busca aumentar sus ganancias pero tu detectas practicas que podrian danar el entorno.\n\nPregunta\n\nCon base en la situacion descrita, ¿que enfoque usarias para convencer a la empresa de adoptar practicas sostenibles?",
     options: [
       { id: "a", text: "Enfatizar solo los costos." },
       { id: "b", text: "Mostrar los beneficios a largo plazo y el impacto positivo en la comunidad." },
@@ -386,428 +384,416 @@ const questionsV2: Question[] = [
       { id: "d", text: "Focalizarse solo en las ganancias inmediatas." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, mostrar beneficios a largo plazo y el impacto positivo en la comunidad es la estrategia más efectiva para promover prácticas sostenibles.",
+    explanation: "En la situacion descrita, mostrar los beneficios economicos a largo plazo y el impacto positivo en la comunidad local es la estrategia mas efectiva para promover practicas sostenibles, alineando los intereses empresariales con la responsabilidad ambiental.",
     points: 5,
   },
-  // Actividad 9 - Salud mental
+  // Pregunta 22 - Salud mental
   {
     id: 22,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué se afirma sobre la salud mental?",
+    question: "Situacion\n\nEn una reunion de bienestar laboral, algunos funcionarios argumentan que los problemas de salud mental son personales y no deberian ser responsabilidad de la entidad. Otros piden mas apoyo institucional.\n\nPregunta\n\nCon base en la situacion descrita, ¿que se afirma sobre la importancia de la salud mental en el ambito laboral?",
     options: [
-      { id: "a", text: "Es menos importante que la salud física." },
-      { id: "b", text: "Es tan importante como la salud física." },
+      { id: "a", text: "Es menos importante que la salud fisica." },
+      { id: "b", text: "Es tan importante como la salud fisica." },
       { id: "c", text: "No es importante." },
       { id: "d", text: "Es un lujo." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, la salud mental es tan importante como la salud física, aunque muchas personas no buscan ayuda debido al estigma asociado a los trastornos mentales.",
+    explanation: "En la situacion descrita, es fundamental reconocer que la salud mental es tan importante como la salud fisica. Las organizaciones tienen responsabilidad en crear entornos que promuevan el bienestar integral de sus colaboradores.",
     points: 5,
   },
+  // Pregunta 23
   {
     id: 23,
-    scenario: "Trabajas en recursos humanos y notas que varios empleados muestran signos de estrés y agotamiento.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué acción tomarías para abordar la salud mental en el equipo?",
+    question: "Situacion\n\nTrabajas en recursos humanos de una entidad publica y durante las ultimas semanas has notado que varios empleados muestran signos de estres y agotamiento: llegan tarde, tienen conflictos frecuentes y su productividad ha bajado significativamente.\n\nPregunta\n\nCon base en la situacion descrita, ¿que accion tomarias para abordar la salud mental en el equipo?",
     options: [
-      { id: "a", text: "Ignorar la situación esperando que mejore por sí sola." },
-      { id: "b", text: "Implementar programas de bienestar y ofrecer acceso a servicios de apoyo psicológico." },
+      { id: "a", text: "Ignorar la situacion esperando que mejore por si sola." },
+      { id: "b", text: "Implementar programas de bienestar y ofrecer acceso a servicios de apoyo psicologico." },
       { id: "c", text: "Aumentar la carga laboral para mantener la productividad." },
       { id: "d", text: "Sancionar a los empleados que muestren bajo rendimiento." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, implementar programas de bienestar y ofrecer apoyo psicológico demuestra compromiso con la salud integral de los empleados y previene problemas mayores.",
+    explanation: "En la situacion descrita, implementar programas de bienestar y ofrecer acceso a servicios de apoyo psicologico demuestra compromiso institucional con la salud integral de los empleados y previene problemas mayores de clima laboral y productividad.",
     points: 5,
   },
-  // Escenarios adicionales de juicio situacional
+  // Pregunta 24 - Error en documento oficial
   {
     id: 24,
-    scenario: "En tu oficina se ha detectado un error en un documento oficial que ya fue publicado. El error podría generar confusión en los ciudadanos.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál es la mejor acción a tomar?",
+    question: "Situacion\n\nEn tu oficina se ha detectado un error significativo en un documento oficial que ya fue publicado y distribuido a los ciudadanos. El error en las fechas podria generar confusion sobre plazos importantes de un programa social.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual es la mejor accion a tomar?",
     options: [
-      { id: "a", text: "Esperar a que alguien más note el error y lo reporte." },
-      { id: "b", text: "Emitir inmediatamente una corrección oficial y comunicar el error de manera transparente." },
+      { id: "a", text: "Esperar a que alguien mas note el error y lo reporte." },
+      { id: "b", text: "Emitir inmediatamente una correccion oficial y comunicar el error de manera transparente." },
       { id: "c", text: "Ocultar el error para evitar problemas con los superiores." },
       { id: "d", text: "Culpar a otro departamento del error." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, la transparencia y la corrección inmediata son fundamentales en el servicio público para mantener la confianza ciudadana y corregir información errónea.",
+    explanation: "En la situacion descrita, la transparencia y la correccion inmediata son fundamentales en el servicio publico. Emitir una correccion oficial y comunicar el error mantiene la confianza ciudadana y previene que las personas tomen decisiones erroneas basadas en informacion incorrecta.",
     points: 5,
   },
+  // Pregunta 25 - Tramite irregular
   {
     id: 25,
-    scenario: "Un colega te pide que apruebes un trámite que no cumple con todos los requisitos, argumentando que es urgente y que 'siempre se ha hecho así'.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo deberías responder?",
+    question: "Situacion\n\nUn colega de tu dependencia te pide que apruebes un tramite que no cumple con todos los requisitos documentales, argumentando que es para un familiar que lo necesita urgentemente y que 'siempre se ha hecho asi' en casos especiales.\n\nPregunta\n\nCon base en la situacion descrita, ¿como deberias responder a esta solicitud?",
     options: [
-      { id: "a", text: "Aprobar el trámite para mantener buenas relaciones con el colega." },
-      { id: "b", text: "Rechazar el trámite explicando los requisitos faltantes y ofreciendo orientación para completarlos correctamente." },
-      { id: "c", text: "Aprobar el trámite esta vez pero advertir que no se repetirá." },
+      { id: "a", text: "Aprobar el tramite para mantener buenas relaciones con el colega." },
+      { id: "b", text: "Rechazar el tramite explicando los requisitos faltantes y ofreciendo orientacion para completarlos correctamente." },
+      { id: "c", text: "Aprobar el tramite esta vez pero advertir que no se repetira." },
       { id: "d", text: "Transferir la responsabilidad a un supervisor." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, mantener la integridad del proceso es esencial. Rechazar el trámite y ofrecer orientación asegura el cumplimiento normativo y ayuda a corregir malas prácticas.",
+    explanation: "En la situacion descrita, mantener la integridad del proceso es esencial para la funcion publica. Rechazar el tramite y ofrecer orientacion clara asegura el cumplimiento normativo, evita conflictos de interes y ayuda a corregir malas practicas institucionales.",
     points: 5,
   },
+  // Pregunta 26 - Conflicto entre colegas
   {
     id: 26,
-    scenario: "Durante una reunión de equipo, surge un desacuerdo fuerte entre dos colegas sobre cómo abordar un proyecto.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál sería tu rol más constructivo?",
+    question: "Situacion\n\nDurante una reunion de equipo para planificar un proyecto importante, surge un desacuerdo fuerte entre dos colegas sobre la metodologia a utilizar. La discusion se vuelve tensa y el resto del equipo se siente incomodo.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual seria tu rol mas constructivo para manejar esta situacion?",
     options: [
-      { id: "a", text: "Tomar partido por la persona con más antigüedad." },
-      { id: "b", text: "Facilitar un diálogo constructivo para que ambas partes expongan sus argumentos y buscar un consenso." },
+      { id: "a", text: "Tomar partido por la persona con mas antiguedad." },
+      { id: "b", text: "Facilitar un dialogo constructivo para que ambas partes expongan sus argumentos y buscar un consenso." },
       { id: "c", text: "Dejar que resuelvan el conflicto solos sin intervenir." },
-      { id: "d", text: "Proponer tu propia solución sin escuchar las opiniones de los demás." },
+      { id: "d", text: "Proponer tu propia solucion sin escuchar las opiniones de los demas." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, facilitar el diálogo constructivo y buscar consenso demuestra habilidades de mediación y trabajo en equipo, aprovechando diferentes perspectivas.",
+    explanation: "En la situacion descrita, facilitar el dialogo constructivo y buscar consenso demuestra habilidades de mediacion y trabajo en equipo. Esto permite aprovechar las diferentes perspectivas para encontrar la mejor solucion y restablecer un ambiente de trabajo positivo.",
     points: 5,
   },
+  // Pregunta 27 - Proyecto nuevo
   {
     id: 27,
-    scenario: "Te asignan liderar un proyecto en un área en la que tienes poca experiencia, pero el plazo es corto.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué estrategia seguirías?",
+    question: "Situacion\n\nTe asignan liderar un proyecto de implementacion tecnologica en un area en la que tienes poca experiencia tecnica. El plazo de entrega es de un mes y la alta direccion tiene altas expectativas sobre los resultados.\n\nPregunta\n\nCon base en la situacion descrita, ¿que estrategia seguirias para abordar este desafio?",
     options: [
       { id: "a", text: "Rechazar el proyecto por falta de experiencia." },
-      { id: "b", text: "Aceptar el reto, buscar asesoría de expertos y capacitarte rápidamente en el tema." },
+      { id: "b", text: "Aceptar el reto, buscar asesoria de expertos y capacitarte rapidamente en el tema." },
       { id: "c", text: "Aceptar pero delegar toda la responsabilidad a otros miembros del equipo." },
-      { id: "d", text: "Procrastinar esperando recibir más orientación." },
+      { id: "d", text: "Procrastinar esperando recibir mas orientacion." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, aceptar el reto, buscar asesoría y capacitarse demuestra aprendizaje continuo, adaptabilidad y compromiso con el desarrollo profesional.",
+    explanation: "En la situacion descrita, aceptar el reto, buscar asesoria de expertos y capacitarte demuestra aprendizaje continuo, adaptabilidad y compromiso con el desarrollo profesional. Estas competencias son valoradas en el servicio publico y permiten crecer profesionalmente.",
     points: 5,
   },
+  // Pregunta 28 - Solicitud de informacion
   {
     id: 28,
-    scenario: "Un ciudadano solicita información que es pública, pero entregarla requeriría varias horas de trabajo de búsqueda y compilación.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo manejarías esta solicitud?",
+    question: "Situacion\n\nUn ciudadano presenta una solicitud de acceso a informacion publica sobre contratos de los ultimos cinco anos. La informacion existe pero esta dispersa en varios archivos y compilarla requeriria varias horas de trabajo de tu equipo.\n\nPregunta\n\nCon base en la situacion descrita, ¿como manejarias esta solicitud?",
     options: [
       { id: "a", text: "Negar la solicitud porque requiere mucho tiempo." },
-      { id: "b", text: "Aceptar la solicitud, establecer un plazo razonable y cumplir con la entrega de la información." },
-      { id: "c", text: "Dar información incompleta para ahorrar tiempo." },
-      { id: "d", text: "Sugerir al ciudadano que busque la información por su cuenta." },
+      { id: "b", text: "Aceptar la solicitud, establecer un plazo razonable y cumplir con la entrega de la informacion." },
+      { id: "c", text: "Dar informacion incompleta para ahorrar tiempo." },
+      { id: "d", text: "Sugerir al ciudadano que busque la informacion por su cuenta." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, el derecho de acceso a la información pública debe respetarse. Establecer un plazo razonable permite cumplir con la obligación legal de manera organizada.",
+    explanation: "En la situacion descrita, el derecho de acceso a la informacion publica es fundamental y debe respetarse. Aceptar la solicitud y establecer un plazo razonable permite cumplir con la obligacion legal de manera organizada sin comprometer otras responsabilidades.",
     points: 5,
   },
+  // Pregunta 29 - Proceso ineficiente
   {
     id: 29,
-    scenario: "Observas que un proceso administrativo en tu área es ineficiente y causa demoras constantes.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué deberías hacer?",
+    question: "Situacion\n\nObservas que un proceso administrativo de atencion al ciudadano en tu area es ineficiente: requiere multiples firmas innecesarias, genera demoras de hasta dos semanas y causa quejas frecuentes. Tu jefe parece no estar al tanto del problema.\n\nPregunta\n\nCon base en la situacion descrita, ¿que deberias hacer ante esta situacion?",
     options: [
-      { id: "a", text: "Continuar con el proceso tal como está porque 'así se ha hecho siempre'." },
+      { id: "a", text: "Continuar con el proceso tal como esta porque 'asi se ha hecho siempre'." },
       { id: "b", text: "Analizar el proceso, identificar mejoras y proponer cambios a tu supervisor." },
-      { id: "c", text: "Quejarte del proceso con tus colegas pero no tomar acción." },
+      { id: "c", text: "Quejarte del proceso con tus colegas pero no tomar accion." },
       { id: "d", text: "Cambiar el proceso por tu cuenta sin consultar." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, analizar procesos y proponer mejoras demuestra iniciativa, orientación a resultados y compromiso con la eficiencia institucional.",
+    explanation: "En la situacion descrita, analizar procesos y proponer mejoras formalmente demuestra iniciativa, orientacion a resultados y compromiso con la eficiencia institucional. Presentar la propuesta al supervisor sigue los canales apropiados para implementar cambios.",
     points: 5,
   },
+  // Pregunta 30 - Critica en redes sociales
   {
     id: 30,
-    scenario: "Durante un evento público, un ciudadano hace comentarios negativos sobre la gestión de la entidad en redes sociales.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. Como funcionario presente, ¿cómo deberías responder?",
+    question: "Situacion\n\nDurante un evento publico de rendicion de cuentas, un ciudadano hace comentarios criticos sobre la gestion de tu entidad en redes sociales, incluyendo informacion inexacta. Los comentarios se estan viralizando rapidamente.\n\nPregunta\n\nCon base en la situacion descrita, como funcionario presente, ¿como deberias responder a esta situacion?",
     options: [
       { id: "a", text: "Ignorar los comentarios completamente." },
-      { id: "b", text: "Responder profesionalmente, ofreciendo información objetiva y canales formales para presentar inquietudes." },
-      { id: "c", text: "Entrar en una discusión defendiendo agresivamente a la entidad." },
+      { id: "b", text: "Responder profesionalmente, ofreciendo informacion objetiva y canales formales para presentar inquietudes." },
+      { id: "c", text: "Entrar en una discusion defendiendo agresivamente a la entidad." },
       { id: "d", text: "Bloquear al ciudadano en redes sociales." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, responder profesionalmente con información objetiva y canales formales mantiene la imagen institucional y orienta al ciudadano hacia mecanismos constructivos.",
+    explanation: "En la situacion descrita, responder profesionalmente con informacion objetiva y orientar hacia canales formales mantiene la imagen institucional, corrige la desinformacion y demuestra apertura al dialogo constructivo con la ciudadania.",
     points: 5,
   },
+  // Pregunta 31 - Capacitacion vs tareas
   {
     id: 31,
-    scenario: "Te ofrecen una capacitación en horario laboral que mejoraría tus habilidades, pero tienes tareas pendientes con plazos cercanos.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué decisión tomarías?",
+    question: "Situacion\n\nTe ofrecen participar en una capacitacion especializada en horario laboral que mejoraria significativamente tus habilidades para el cargo. Sin embargo, tienes varias tareas pendientes con plazos cercanos esta semana.\n\nPregunta\n\nCon base en la situacion descrita, ¿que decision tomarias para manejar esta situacion?",
     options: [
-      { id: "a", text: "Rechazar la capacitación para cumplir con las tareas pendientes." },
-      { id: "b", text: "Asistir a la capacitación y reorganizar tus tareas o solicitar apoyo para cumplir con los plazos." },
-      { id: "c", text: "Asistir a la capacitación ignorando las tareas pendientes." },
+      { id: "a", text: "Rechazar la capacitacion para cumplir con las tareas pendientes." },
+      { id: "b", text: "Asistir a la capacitacion y reorganizar tus tareas o solicitar apoyo para cumplir con los plazos." },
+      { id: "c", text: "Asistir a la capacitacion ignorando las tareas pendientes." },
       { id: "d", text: "Pedir a un colega que asista en tu lugar." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, el aprendizaje continuo es valioso. Asistir a la capacitación y reorganizar tareas demuestra gestión del tiempo y compromiso con el desarrollo profesional.",
+    explanation: "En la situacion descrita, el aprendizaje continuo es valioso para el desarrollo profesional. Asistir a la capacitacion y reorganizar tareas o pedir apoyo demuestra gestion del tiempo, priorizacion y compromiso tanto con las responsabilidades actuales como con el crecimiento profesional.",
     points: 5,
   },
+  // Pregunta 32 - Regalo de proveedor
   {
     id: 32,
-    scenario: "Un proveedor externo te ofrece un regalo de considerable valor después de adjudicarse un contrato con la entidad.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cuál es la acción correcta?",
+    question: "Situacion\n\nUn proveedor externo que acaba de ganar un contrato importante con tu entidad te visita en tu oficina y te ofrece un regalo de considerable valor como 'agradecimiento por la buena colaboracion durante el proceso'.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual es la accion correcta que debes tomar?",
     options: [
-      { id: "a", text: "Aceptar el regalo ya que el contrato ya está adjudicado." },
-      { id: "b", text: "Rechazar cortésmente el regalo y reportar la situación según los protocolos de ética institucional." },
-      { id: "c", text: "Aceptar el regalo pero no contárselo a nadie." },
+      { id: "a", text: "Aceptar el regalo ya que el contrato ya esta adjudicado." },
+      { id: "b", text: "Rechazar cortesmente el regalo y reportar la situacion segun los protocolos de etica institucional." },
+      { id: "c", text: "Aceptar el regalo pero no contarselo a nadie." },
       { id: "d", text: "Aceptar el regalo y compartirlo con todo el equipo." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, rechazar regalos de valor y reportar la situación protege la integridad, evita conflictos de interés y cumple con los códigos de ética del servicio público.",
+    explanation: "En la situacion descrita, rechazar regalos de valor de proveedores y reportar la situacion protege tu integridad profesional, evita conflictos de interes reales o percibidos, y cumple con los codigos de etica del servicio publico.",
     points: 5,
   },
+  // Pregunta 33 - Objetivo del juicio situacional
   {
     id: 33,
-    scenario:
-      "La metodología de juicio situacional utiliza escenarios vinculados al trabajo para evaluar competencias como toma de decisiones, resolución de problemas, ética profesional y manejo de conflictos, analizando cómo las respuestas inciden en el entorno laboral.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué enunciado resume el objetivo de esta metodología?",
+    question: "Situacion\n\nUn compañero de trabajo que se prepara para un concurso de meritos te pregunta sobre el proposito de las pruebas de juicio situacional. Quiere entender que buscan evaluar los examinadores con este tipo de metodologia.\n\nPregunta\n\nCon base en la situacion descrita, ¿que enunciado resume mejor el objetivo de esta metodologia de evaluacion?",
     options: [
-      { id: "a", text: "Medir únicamente conocimientos normativos mediante preguntas cerradas." },
+      { id: "a", text: "Medir unicamente conocimientos normativos mediante preguntas cerradas." },
       {
         id: "b",
         text: "Valorar competencias clave a partir de escenarios laborales simulados, observando el impacto de las decisiones en el contexto institucional.",
       },
-      { id: "c", text: "Reemplazar entrevistas individuales por pruebas psicométricas automatizadas." },
+      { id: "c", text: "Reemplazar entrevistas individuales por pruebas psicometricas automatizadas." },
       { id: "d", text: "Calificar solo la rapidez con la que se elige una alternativa." },
     ],
     correct: "b",
-    explanation:
-      "En la situación descrita, el juicio situacional busca evaluar cómo las personas aplican competencias en situaciones laborales simuladas y cómo sus decisiones afectan al entorno y a los involucrados.",
+    explanation: "En la situacion descrita, debes explicar que el juicio situacional busca evaluar como las personas aplican competencias en situaciones laborales simuladas y como sus decisiones afectan al entorno institucional y a los ciudadanos.",
     points: 5,
   },
+  // Pregunta 34 - Distincion de las pruebas
   {
     id: 34,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué distingue las pruebas de juicio situacional de otros tipos de evaluación en selección de personal?",
+    question: "Situacion\n\nDurante una sesion informativa sobre procesos de seleccion, un aspirante pregunta que diferencia a las pruebas de juicio situacional de otros tipos de evaluacion como los examenes de conocimientos tecnicos.\n\nPregunta\n\nCon base en la situacion descrita, ¿que distingue las pruebas de juicio situacional de otros tipos de evaluacion?",
     options: [
-      { id: "a", text: "Se enfocan exclusivamente en conocimientos técnicos memorizados." },
-      { id: "b", text: "Presentan escenarios realistas del contexto laboral para evaluar competencias aplicadas en situaciones prácticas." },
-      { id: "c", text: "Evalúan únicamente la capacidad de lectura rápida del candidato." },
-      { id: "d", text: "Miden solamente habilidades matemáticas básicas." },
+      { id: "a", text: "Se enfocan exclusivamente en conocimientos tecnicos memorizados." },
+      { id: "b", text: "Presentan escenarios realistas del contexto laboral para evaluar competencias aplicadas en situaciones practicas." },
+      { id: "c", text: "Evaluan unicamente la capacidad de lectura rapida del candidato." },
+      { id: "d", text: "Miden solamente habilidades matematicas basicas." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, las pruebas de juicio situacional se distinguen por presentar escenarios realistas del contexto laboral que permiten evaluar cómo los candidatos aplican sus competencias en situaciones prácticas similares a las que enfrentarán en el puesto.",
+    explanation: "En la situacion descrita, es importante aclarar que las pruebas de juicio situacional se distinguen por presentar escenarios realistas del contexto laboral que permiten evaluar como los candidatos aplican sus competencias en situaciones practicas similares a las del puesto.",
     points: 5,
   },
+  // Pregunta 35 - Opciones ambiguas
   {
     id: 35,
-    scenario: "Estás tomando una prueba de juicio situacional y encuentras un escenario donde todas las opciones tienen aspectos positivos y negativos.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Cómo deberías proceder para seleccionar la mejor respuesta?",
+    question: "Situacion\n\nEstas tomando una prueba de juicio situacional y encuentras un escenario complejo donde todas las opciones tienen aspectos positivos y negativos. No hay una respuesta claramente perfecta y el tiempo de la prueba avanza.\n\nPregunta\n\nCon base en la situacion descrita, ¿como deberias proceder para seleccionar la mejor respuesta?",
     options: [
-      { id: "a", text: "Seleccionar al azar sin analizar las consecuencias de cada opción." },
-      { id: "b", text: "Identificar cuál opción minimiza riesgos, maximiza beneficios y se alinea mejor con los valores institucionales." },
-      { id: "c", text: "Elegir siempre la opción más conservadora que implique no tomar ninguna acción." },
-      { id: "d", text: "Buscar la opción que beneficie únicamente tus metas personales." },
+      { id: "a", text: "Seleccionar al azar sin analizar las consecuencias de cada opcion." },
+      { id: "b", text: "Identificar cual opcion minimiza riesgos, maximiza beneficios y se alinea mejor con los valores institucionales." },
+      { id: "c", text: "Elegir siempre la opcion mas conservadora que implique no tomar ninguna accion." },
+      { id: "d", text: "Buscar la opcion que beneficie unicamente tus metas personales." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, la mejor estrategia es analizar las consecuencias de cada opción, identificando cuál minimiza riesgos, maximiza beneficios para todos los involucrados y se alinea mejor con los valores y objetivos de la institución pública.",
+    explanation: "En la situacion descrita, la mejor estrategia es analizar las consecuencias de cada opcion, identificando cual minimiza riesgos, maximiza beneficios para todos los involucrados y se alinea mejor con los valores y objetivos de la institucion publica.",
     points: 5,
   },
+  // Pregunta 36 - Toma de decisiones
   {
     id: 36,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. En el contexto de las pruebas de juicio situacional, ¿qué significa demostrar competencia en toma de decisiones?",
+    question: "Situacion\n\nDurante una evaluacion de desempeno, tu supervisor te indica que debes mejorar tu competencia de toma de decisiones. Te pide que reflexiones sobre que significa demostrar esta competencia en el contexto del servicio publico.\n\nPregunta\n\nCon base en la situacion descrita, ¿que significa demostrar competencia en toma de decisiones en el sector publico?",
     options: [
-      { id: "a", text: "Tomar decisiones rápidas sin considerar las consecuencias." },
-      { id: "b", text: "Analizar el contexto, evaluar alternativas, considerar impactos y elegir la opción más adecuada según principios éticos y organizacionales." },
+      { id: "a", text: "Tomar decisiones rapidas sin considerar las consecuencias." },
+      { id: "b", text: "Analizar el contexto, evaluar alternativas, considerar impactos y elegir la opcion mas adecuada segun principios eticos y organizacionales." },
       { id: "c", text: "Delegar todas las decisiones a otras personas para evitar responsabilidad." },
-      { id: "d", text: "Elegir siempre la opción más popular sin análisis crítico." },
+      { id: "d", text: "Elegir siempre la opcion mas popular sin analisis critico." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, la competencia en toma de decisiones implica analizar el contexto, evaluar alternativas considerando sus impactos, y elegir la opción más adecuada basándose en principios éticos, normativos y objetivos organizacionales.",
+    explanation: "En la situacion descrita, la competencia en toma de decisiones implica analizar el contexto completo, evaluar alternativas considerando sus impactos en diferentes actores, y elegir la opcion mas adecuada basandose en principios eticos, normativos y objetivos organizacionales.",
     points: 5,
   },
+  // Pregunta 37 - Manejo de conflictos
   {
     id: 37,
-    scenario: "Durante un proceso de selección, enfrentas una pregunta de juicio situacional sobre manejo de conflictos entre compañeros de trabajo.",
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué enfoque refleja mejor las competencias esperadas en el servicio público?",
+    question: "Situacion\n\nDurante un proceso de seleccion, enfrentas una pregunta de juicio situacional sobre manejo de conflictos entre dos compañeros de trabajo que no se hablan desde hace una semana por un malentendido sobre responsabilidades.\n\nPregunta\n\nCon base en la situacion descrita, ¿que enfoque refleja mejor las competencias esperadas en el servicio publico para resolver este conflicto?",
     options: [
       { id: "a", text: "Ignorar el conflicto esperando que se resuelva solo con el tiempo." },
-      { id: "b", text: "Facilitar el diálogo entre las partes, buscar puntos comunes y promover una solución constructiva que beneficie el ambiente laboral." },
-      { id: "c", text: "Tomar partido por uno de los compañeros según preferencias personales." },
+      { id: "b", text: "Facilitar el dialogo entre las partes, buscar puntos comunes y promover una solucion constructiva que beneficie el ambiente laboral." },
+      { id: "c", text: "Tomar partido por uno de los companeros segun preferencias personales." },
       { id: "d", text: "Reportar inmediatamente a ambos empleados sin intentar mediar primero." },
     ],
     correct: "b",
-    explanation: "En la situación descrita, el manejo efectivo de conflictos en el servicio público implica facilitar el diálogo, buscar puntos comunes y promover soluciones constructivas que beneficien el ambiente laboral y la productividad organizacional.",
+    explanation: "En la situacion descrita, el manejo efectivo de conflictos en el servicio publico implica facilitar el dialogo entre las partes, buscar puntos comunes y promover soluciones constructivas que beneficien el ambiente laboral y la productividad del equipo.",
     points: 5,
   },
+  // Pregunta 38 - Elementos del analisis
   {
     id: 38,
-    question: "Lectura: Durante una intervención territorial surgen dilemas operativos que requieren decisiones inmediatas y éticas. ¿Qué elementos se deben considerar al analizar un escenario de juicio situacional en el contexto público?",
+    question: "Situacion\n\nUn mentor te esta preparando para pruebas de juicio situacional y te pregunta que elementos consideras importantes al analizar un escenario presentado en el contexto del servicio publico.\n\nPregunta\n\nCon base en la situacion descrita, ¿que elementos se deben considerar al analizar un escenario de juicio situacional?",
     options: [
-      { id: "a", text: "Solo el beneficio personal que se puede obtener de la situación." },
-      { id: "b", text: "El marco normativo aplicable, los principios éticos del servicio público, el impacto en ciudadanos y la misión institucional." },
-      { id: "c", text: "Únicamente la opinión personal sin considerar normas ni consecuencias." },
-      { id: "d", text: "Solo el tiempo que tomará resolver la situación." },
+      { id: "a", text: "Solo el beneficio personal que se puede obtener de la situacion." },
+      { id: "b", text: "El marco normativo aplicable, los principios eticos del servicio publico, el impacto en ciudadanos y la mision institucional." },
+      { id: "c", text: "Unicamente la opinion personal sin considerar normas ni consecuencias." },
+      { id: "d", text: "Solo el tiempo que tomara resolver la situacion." },
     ],
     correct: "b",
-    explanation: "Al analizar escenarios en el contexto público se debe considerar el marco normativo, los principios éticos (honestidad, respeto, diligencia, justicia, compromiso), el impacto en los ciudadanos y la alineación con la misión institucional.",
+    explanation: "En la situacion descrita, al analizar escenarios en el contexto publico se debe considerar el marco normativo vigente, los principios eticos (honestidad, respeto, diligencia, justicia, compromiso), el impacto en los ciudadanos y la alineacion con la mision institucional.",
     points: 5,
   },
+  // Pregunta 39 - Accesibilidad
   {
     id: 39,
-    question:
-      "Lectura: Un ciudadano con discapacidad visual solicita radicar verbalmente su petición y la ventanilla exige un formato escrito con firma. ¿Qué procede según el enfoque de accesibilidad?",
+    question: "Situacion\n\nUn ciudadano con discapacidad visual llega a la ventanilla de radicacion y solicita presentar su peticion de manera verbal porque no puede leer ni firmar el formato escrito. Tu dependencia normalmente exige formularios impresos con firma.\n\nPregunta\n\nCon base en la situacion descrita, ¿que procede segun el enfoque de accesibilidad en el servicio publico?",
     options: [
-      { id: "a", text: "Recibirla por el medio más accesible para el peticionario y registrar la radicación verbal." },
+      { id: "a", text: "Recibirla por el medio mas accesible para el peticionario y registrar la radicacion verbal." },
       { id: "b", text: "Mantener el formato escrito y ofrecer ayuda posterior." },
       { id: "c", text: "Rechazarla hasta que cumpla las reglas internas." },
-      { id: "d", text: "Sugerir que vuelva con un acompañante que firme por él." },
+      { id: "d", text: "Sugerir que vuelva con un acompanante que firme por el." },
     ],
     correct: "a",
-    explanation:
-      "El derecho de petición admite medios verbales, telefónicos o audiovisuales; exigir un único formato desconoce los ajustes razonables y constituye barrera injustificada para la población con discapacidad.",
+    explanation: "En la situacion descrita, el derecho de peticion admite medios verbales, telefonicos o audiovisuales. Exigir un unico formato escrito desconoce los ajustes razonables y constituye una barrera injustificada para la poblacion con discapacidad, vulnerando sus derechos.",
     points: 5,
   },
+  // Pregunta 40 - Igualdad material
   {
     id: 40,
-    question:
-      "Lectura: La entidad sostiene que \"tratar a todos por igual\" significa exigir el mismo formato escrito, incluso a quien tiene discapacidad. ¿Es válido?",
+    question: "Situacion\n\nEn una reunion de estandarizacion de procesos, un funcionario argumenta que 'tratar a todos por igual' significa exigir el mismo formato escrito a todos los ciudadanos, incluyendo aquellos con discapacidad, para mantener la uniformidad de procedimientos.\n\nPregunta\n\nCon base en la situacion descrita, ¿es valido este argumento desde el enfoque de igualdad material?",
     options: [
-      { id: "a", text: "Sí, porque garantiza uniformidad." },
-      { id: "b", text: "No; la igualdad real exige ajustes razonables y atención diferencial para garantizar el acceso efectivo." },
+      { id: "a", text: "Si, porque garantiza uniformidad." },
+      { id: "b", text: "No; la igualdad real exige ajustes razonables y atencion diferencial para garantizar el acceso efectivo." },
       { id: "c", text: "Solo se aceptan medios digitales certificados." },
       { id: "d", text: "Depende del volumen de solicitudes." },
     ],
     correct: "b",
-    explanation:
-      "La igualdad material implica adaptar los canales a las condiciones del ciudadano; rechazar ajustes razonables vulnera el enfoque diferencial y la Ley 1755 de 2015.",
+    explanation: "En la situacion descrita, la igualdad material implica adaptar los canales a las condiciones del ciudadano para garantizar acceso efectivo. Rechazar ajustes razonables vulnera el enfoque diferencial establecido en la Ley 1755 de 2015 y los principios de inclusion.",
     points: 5,
   },
+  // Pregunta 41 - Terminos de respuesta
   {
     id: 41,
-    question:
-      "Lectura: Han pasado veinte días hábiles sin respuesta ni prórroga a una petición. La oficina alega \"altísima carga operativa\". ¿Cuál es la lectura correcta?",
+    question: "Situacion\n\nHan pasado veinte dias habiles sin que tu oficina responda una peticion ciudadana ni comunique una prorroga. Cuando el ciudadano reclama, el jefe de la dependencia alega que hay 'altisima carga operativa' y que eso justifica la demora.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual es la lectura correcta de esta situacion?",
     options: [
-      { id: "a", text: "Se vulnera el derecho de petición porque la prórroga debía motivarse y comunicarse antes del vencimiento." },
-      { id: "b", text: "La carga operativa es causal automática para extender el término." },
-      { id: "c", text: "Si la petición no es urgente, la entidad gestiona libremente los tiempos." },
-      { id: "d", text: "El silencio administrativo es válido siempre que se informe después." },
+      { id: "a", text: "Se vulnera el derecho de peticion porque la prorroga debia motivarse y comunicarse antes del vencimiento." },
+      { id: "b", text: "La carga operativa es causal automatica para extender el termino." },
+      { id: "c", text: "Si la peticion no es urgente, la entidad gestiona libremente los tiempos." },
+      { id: "d", text: "El silencio administrativo es valido siempre que se informe despues." },
     ],
     correct: "a",
-    explanation:
-      "Los 15 días hábiles solo pueden ampliarse mediante prórroga motivada y notificada antes del vencimiento; la carga interna no excusa el incumplimiento.",
+    explanation: "En la situacion descrita, los 15 dias habiles establecidos por ley solo pueden ampliarse mediante prorroga motivada y notificada al ciudadano antes del vencimiento. La carga operativa interna no excusa el incumplimiento del termino legal.",
     points: 5,
   },
+  // Pregunta 42 - Respuesta parcial
   {
     id: 42,
-    question:
-      "Lectura: La entidad envía una respuesta parcial con promesa de completarla “cuando haya tiempo”. ¿Qué núcleo preocupan estas prácticas?",
+    question: "Situacion\n\nTu dependencia envia una respuesta parcial a una peticion ciudadana, incluyendo solo parte de la informacion solicitada, con la promesa de completarla 'cuando haya tiempo disponible' sin establecer una fecha concreta.\n\nPregunta\n\nCon base en la situacion descrita, ¿que nucleo del derecho de peticion se ve afectado por esta practica?",
     options: [
       { id: "a", text: "El incumplimiento del deber de respuesta oportuna, clara y de fondo." },
       { id: "b", text: "Ninguno, porque ya hubo respuesta." },
       { id: "c", text: "Solo afecta la imagen institucional." },
-      { id: "d", text: "Se cumple el núcleo esencial si hay intención de contestar." },
+      { id: "d", text: "Se cumple el nucleo esencial si hay intencion de contestar." },
     ],
     correct: "a",
-    explanation:
-      "El núcleo del derecho de petición exige respuestas completas, congruentes y oportunas; fragmentarlas sin justificación vulnera la confianza legítima del ciudadano.",
+    explanation: "En la situacion descrita, el nucleo del derecho de peticion exige respuestas completas, congruentes con lo solicitado y oportunas. Fragmentar las respuestas sin justificacion ni plazos claros vulnera la confianza legitima del ciudadano y su derecho a obtener informacion completa.",
     points: 5,
   },
+  // Pregunta 43 - Respuesta insuficiente
   {
     id: 43,
-    question:
-      "Lectura: Una ciudadana recibe una contestación que no resuelve lo solicitado. Antes de acudir a la tutela, ¿qué camino institucional corresponde?",
+    question: "Situacion\n\nUna ciudadana recibe una contestacion oficial a su peticion, pero al revisarla encuentra que no resuelve lo que solicito: la respuesta trata temas diferentes y omite la informacion especifica que requeria.\n\nPregunta\n\nCon base en la situacion descrita, antes de acudir a la tutela, ¿que camino institucional corresponde seguir?",
     options: [
-      { id: "a", text: "Solicitar a la Procuraduría que rehaga la respuesta." },
-      { id: "b", text: "Presentar acción de tutela inmediata." },
-      { id: "c", text: "Interponer los recursos administrativos procedentes (insistencia, reposición o apelación) para agotar la vía gubernativa." },
-      { id: "d", text: "Esperar una respuesta espontánea." },
+      { id: "a", text: "Solicitar a la Procuraduria que rehaga la respuesta." },
+      { id: "b", text: "Presentar accion de tutela inmediata." },
+      { id: "c", text: "Interponer los recursos administrativos procedentes (insistencia, reposicion o apelacion) para agotar la via gubernativa." },
+      { id: "d", text: "Esperar una respuesta espontanea." },
     ],
     correct: "c",
-    explanation:
-      "La tutela es subsidiaria; primero deben agotarse los recursos administrativos previstos para corregir la respuesta insuficiente.",
+    explanation: "En la situacion descrita, la tutela es subsidiaria y debe usarse como ultimo recurso. Primero deben agotarse los recursos administrativos previstos (insistencia, reposicion o apelacion) para corregir la respuesta insuficiente a traves de la via gubernativa.",
     points: 5,
   },
+  // Pregunta 44 - Prorroga valida
   {
     id: 44,
-    question:
-      "Lectura: ¿Cuándo es válida la prórroga del término para responder una petición de información general?",
+    question: "Situacion\n\nTu dependencia recibe una peticion de informacion que requiere compilar datos de multiples fuentes. El jefe considera necesario solicitar mas tiempo pero no esta seguro de cuando ni como comunicar la prorroga al ciudadano.\n\nPregunta\n\nCon base en la situacion descrita, ¿cuando es valida la prorroga del termino para responder una peticion de informacion general?",
     options: [
       { id: "a", text: "En cualquier momento, por carga operativa." },
-      { id: "b", text: "Antes del vencimiento, con motivación y comunicación expresa al peticionario." },
+      { id: "b", text: "Antes del vencimiento, con motivacion y comunicacion expresa al peticionario." },
       { id: "c", text: "Solo si el tema no es urgente." },
       { id: "d", text: "Cuando se registra en el sistema, sin informar al ciudadano." },
     ],
     correct: "b",
-    explanation:
-      "La Ley 1755 regula que la prórroga debe motivarse y comunicarse antes de vencer el término; después de vencido no puede alegarse.",
+    explanation: "En la situacion descrita, la Ley 1755 establece que la prorroga debe motivarse explicando las razones y comunicarse expresamente al ciudadano antes de que venza el termino legal. Una prorroga despues del vencimiento no es valida.",
     points: 5,
   },
+  // Pregunta 45 - Libertad de expresion
   {
     id: 45,
-    question:
-      "Lectura: En un evento institucional se restringen consignas políticas de jóvenes y luego se publica un comunicado que afecta su imagen. ¿Qué núcleo se afecta principalmente?",
+    question: "Situacion\n\nDurante un evento institucional de participacion ciudadana, funcionarios de seguridad restringen a un grupo de jovenes que portaban consignas politicas criticas. Posteriormente, la entidad publica un comunicado que cuestiona el comportamiento de los jovenes.\n\nPregunta\n\nCon base en la situacion descrita, ¿que nucleo de derechos fundamentales se afecta principalmente?",
     options: [
       { id: "a", text: "La intimidad u honor personal." },
-      { id: "b", text: "El pluralismo democrático y la libertad de expresión política." },
+      { id: "b", text: "El pluralismo democratico y la libertad de expresion politica." },
       { id: "c", text: "El debido proceso sancionatorio." },
-      { id: "d", text: "La libertad económica." },
+      { id: "d", text: "La libertad economica." },
     ],
     correct: "b",
-    explanation:
-      "La censura de manifestaciones políticas en espacios institucionales vulnera la libertad de expresión y el pluralismo democrático, aun sin sanción formal.",
+    explanation: "En la situacion descrita, la censura de manifestaciones politicas en espacios institucionales de participacion ciudadana vulnera la libertad de expresion y el pluralismo democratico, aun cuando no se impongan sanciones formales a los participantes.",
     points: 5,
   },
+  // Pregunta 46 - Delegacion de funciones
   {
     id: 46,
-    question:
-      "Lectura: El alcalde quiere delegar funciones para agilizar la gestión. ¿Qué requisitos mínimos debe cumplir la delegación?",
+    question: "Situacion\n\nEl alcalde de tu municipio quiere delegar algunas funciones administrativas en secretarios de despacho para agilizar la gestion y reducir cuellos de botella en la toma de decisiones. Te consulta sobre los requisitos legales.\n\nPregunta\n\nCon base en la situacion descrita, ¿que requisitos minimos debe cumplir la delegacion de funciones?",
     options: [
       { id: "a", text: "Basta un lineamiento interno sin formalidad." },
       { id: "b", text: "Expedir acto administrativo expreso, identificar funciones delegables, verificar la competencia del delegado y asegurar trazabilidad y control." },
-      { id: "c", text: "Solicitar concepto de la gobernación y acta de gabinete." },
-      { id: "d", text: "Enviar un correo informal anunciando la delegación." },
+      { id: "c", text: "Solicitar concepto de la gobernacion y acta de gabinete." },
+      { id: "d", text: "Enviar un correo informal anunciando la delegacion." },
     ],
     correct: "b",
-    explanation:
-      "El artículo 211 de la Constitución y la Ley 489/1998 exigen acto formal, claridad sobre funciones delegadas, competencia del delegado y mecanismos de seguimiento.",
+    explanation: "En la situacion descrita, el articulo 211 de la Constitucion y la Ley 489/1998 exigen acto administrativo formal, claridad sobre las funciones delegadas, verificacion de la competencia del delegado y establecimiento de mecanismos de seguimiento y control.",
     points: 5,
   },
+  // Pregunta 47 - Funciones indelegables
   {
     id: 47,
-    question:
-      "Lectura: ¿Cuál de las siguientes funciones no puede delegarse?",
+    question: "Situacion\n\nEl alcalde elabora una lista de funciones que quiere delegar para mejorar la eficiencia administrativa. Te pide que revises la lista para identificar cuales funciones pueden delegarse legalmente y cuales no.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual de las siguientes funciones no puede delegarse?",
     options: [
-      { id: "a", text: "Trámite de certificaciones técnicas." },
-      { id: "b", text: "Dirección política y representación legal de la entidad." },
-      { id: "c", text: "Firma de oficios de mero trámite." },
-      { id: "d", text: "Coordinación operativa de un proyecto." },
+      { id: "a", text: "Tramite de certificaciones tecnicas." },
+      { id: "b", text: "Direccion politica y representacion legal de la entidad." },
+      { id: "c", text: "Firma de oficios de mero tramite." },
+      { id: "d", text: "Coordinacion operativa de un proyecto." },
     ],
     correct: "b",
-    explanation:
-      "Las funciones de dirección y representación legal son indelegables por su naturaleza estratégica y por recaer directamente en la autoridad electa.",
+    explanation: "En la situacion descrita, debes indicar al alcalde que las funciones de direccion politica y representacion legal son indelegables por su naturaleza estrategica y por recaer directamente en la autoridad electa por voto popular.",
     points: 5,
   },
+  // Pregunta 48 - POT y Plan de Desarrollo
   {
     id: 48,
-    question:
-      "Lectura: Planeación pretende tratar el POT como un simple anexo informativo del Plan Departamental de Desarrollo. ¿Es correcto?",
+    question: "Situacion\n\nLa oficina de Planeacion propone simplificar la documentacion del nuevo Plan Departamental de Desarrollo tratando el Plan de Ordenamiento Territorial (POT) como un simple anexo informativo, sin integracion tecnica detallada.\n\nPregunta\n\nCon base en la situacion descrita, ¿es correcta esta propuesta de simplificacion?",
     options: [
-      { id: "a", text: "Sí, porque simplifica el documento." },
-      { id: "b", text: "No; la articulación exige coordinación técnica y normativa, participación y coherencia territorial." },
-      { id: "c", text: "Depende del tamaño del municipio." },
+      { id: "a", text: "Si, porque simplifica el documento." },
+      { id: "b", text: "No; la articulacion exige coordinacion tecnica y normativa, participacion y coherencia territorial." },
+      { id: "c", text: "Depende del tamano del municipio." },
       { id: "d", text: "Solo cuando ya existe un POT adoptado." },
     ],
     correct: "b",
-    explanation:
-      "El POT no es un anexo; requiere articulación real con los planes territoriales para evitar fragmentación y garantizar coherencia en la gestión del suelo.",
+    explanation: "En la situacion descrita, el POT no puede tratarse como un simple anexo. Requiere articulacion tecnica real con los planes de desarrollo para garantizar coherencia territorial en la gestion del suelo, los recursos y el desarrollo sostenible.",
     points: 5,
   },
+  // Pregunta 49 - Canal telefonico
   {
     id: 49,
-    question:
-      "Lectura: Una persona mayor con limitaciones tecnológicas pide radicar su petición por teléfono. ¿Corresponde habilitar ese canal?",
+    question: "Situacion\n\nUna persona mayor con limitaciones tecnologicas y de movilidad llama a tu entidad solicitando radicar una peticion por telefono. El sistema actual solo acepta radicaciones presenciales o por plataforma web.\n\nPregunta\n\nCon base en la situacion descrita, ¿corresponde habilitar el canal telefonico para esta radicacion?",
     options: [
       { id: "a", text: "No, solo radicaciones presenciales o web." },
-      { id: "b", text: "Sí, el medio debe adaptarse a las condiciones del peticionario para garantizar accesibilidad." },
+      { id: "b", text: "Si, el medio debe adaptarse a las condiciones del peticionario para garantizar accesibilidad." },
       { id: "c", text: "Solo si ya estaba registrado en el sistema." },
       { id: "d", text: "Depende del tipo de asunto." },
     ],
     correct: "b",
-    explanation:
-      "El principio de accesibilidad permite radicar por canales telefónicos o audiovisuales cuando facilitan el ejercicio del derecho de petición, especialmente para población vulnerable.",
+    explanation: "En la situacion descrita, el principio de accesibilidad permite y exige habilitar canales telefonicos o audiovisuales cuando facilitan el ejercicio del derecho de peticion, especialmente para poblacion vulnerable con limitaciones tecnologicas o de movilidad.",
     points: 5,
   },
+  // Pregunta 50 - Nucleo del derecho de peticion
   {
     id: 50,
-    question:
-      "Lectura: ¿Qué práctica preserva el núcleo del derecho de petición y la confianza ciudadana?",
+    question: "Situacion\n\nTu dependencia esta revisando sus protocolos de atencion al ciudadano y te piden identificar cual practica mejor preserva el nucleo del derecho de peticion y mantiene la confianza de los ciudadanos en la institucion.\n\nPregunta\n\nCon base en la situacion descrita, ¿que practica preserva mejor el nucleo del derecho de peticion y la confianza ciudadana?",
     options: [
-      { id: "a", text: "Responder parcialmente y anunciar que se completará después." },
-      { id: "b", text: "Emitir respuesta de fondo, clara, congruente y dentro del término legal." },
+      { id: "a", text: "Responder parcialmente y anunciar que se completara despues." },
+      { id: "b", text: "Emitir respuesta de fondo, clara, congruente y dentro del termino legal." },
       { id: "c", text: "Posponer la respuesta cuando hay carga operativa." },
       { id: "d", text: "Enviar un acuse de recibo y responder en la siguiente vigencia." },
     ],
     correct: "b",
-    explanation:
-      "El núcleo esencial del derecho exige respuestas completas y oportunas; cualquier práctica que dilate o fragmente la respuesta vulnera la confianza legítima del ciudadano.",
+    explanation: "En la situacion descrita, el nucleo esencial del derecho de peticion exige respuestas completas, claras, congruentes con lo solicitado y dentro de los terminos legales. Cualquier practica que dilate, fragmente o desvie la respuesta vulnera la confianza legitima del ciudadano.",
     points: 5,
   },
 ]
@@ -875,12 +861,12 @@ export function JuicioSituacionalTest() {
   const performanceMessage = (() => {
     if (!showResults) return ""
     if (percentage >= 90) {
-      return "Excelente capacidad de juicio situacional. Demuestras toma de decisiones acertadas y orientación a buenas prácticas."
+      return "Excelente capacidad de juicio situacional. Demuestras toma de decisiones acertadas y orientacion a buenas practicas."
     }
     if (percentage >= 70) {
-      return "Buen nivel de juicio situacional. Revisa la retroalimentación para fortalecer áreas específicas."
+      return "Buen nivel de juicio situacional. Revisa la retroalimentacion para fortalecer areas especificas."
     }
-    return "Es necesario reforzar las competencias de juicio situacional. Revisa cuidadosamente la retroalimentación y practica con más escenarios."
+    return "Es necesario reforzar las competencias de juicio situacional. Revisa cuidadosamente la retroalimentacion y practica con mas escenarios."
   })()
 
   const unansweredCount = questions.length - Object.keys(answers).length
@@ -899,45 +885,45 @@ export function JuicioSituacionalTest() {
         <CardHeader>
           <CardTitle className="text-2xl font-semibold text-balance">Juicio Situacional</CardTitle>
           <CardDescription className="text-balance leading-relaxed">
-            Evalúa tu capacidad para tomar decisiones efectivas ante situaciones laborales complejas en el contexto
-            del servicio público.
+            Evalua tu capacidad para tomar decisiones efectivas ante situaciones laborales complejas en el contexto
+            del servicio publico.
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4 text-sm text-muted-foreground">
           <Alert className="border-primary/30 bg-primary/10">
             <AlertCircle className="h-4 w-4 text-primary" />
             <AlertDescription>
-              Esta prueba presenta escenarios reales del ámbito público. Selecciona la respuesta que mejor refleje las
-              buenas prácticas de gestión pública, ética profesional y orientación al servicio.
+              Esta prueba presenta escenarios reales del ambito publico. Selecciona la respuesta que mejor refleje las
+              buenas practicas de gestion publica, etica profesional y orientacion al servicio.
             </AlertDescription>
           </Alert>
           <p>
-            Cada pregunta presenta una situación y varias opciones de respuesta. Analiza cuidadosamente cada escenario
-            y selecciona la opción que consideres más apropiada según los principios del servicio público.
+            Cada pregunta presenta una situacion y varias opciones de respuesta. Analiza cuidadosamente cada escenario
+            y selecciona la opcion que consideres mas apropiada segun los principios del servicio publico.
           </p>
         </CardContent>
       </Card>
 
       <Card className="border-white/30 bg-white/80 shadow-lg shadow-primary/15 backdrop-blur">
         <CardHeader>
-          <CardTitle className="text-lg">Selecciona la versión de la prueba</CardTitle>
+          <CardTitle className="text-lg">Selecciona la version de la prueba</CardTitle>
           <CardDescription>
-            Cada versión contiene diferentes escenarios y preguntas de juicio situacional
+            Cada version contiene diferentes escenarios y preguntas de juicio situacional
           </CardDescription>
         </CardHeader>
         <CardContent>
           <Tabs value={selectedVersion} onValueChange={handleVersionChange} className="w-full">
             <TabsList className="grid w-full grid-cols-2">
               <TabsTrigger value="v1" disabled={showResults}>
-                Versión 1 ({questionsV1.length} preguntas)
+                Version 1 ({questionsV1.length} preguntas)
               </TabsTrigger>
               <TabsTrigger value="v2" disabled={showResults}>
-                Versión 2 ({questionsV2.length} preguntas)
+                Version 2 ({questionsV2.length} preguntas)
               </TabsTrigger>
             </TabsList>
           </Tabs>
           {showResults && (
-            <p className="text-sm text-muted-foreground mt-3">Reinicia la prueba para cambiar de versión</p>
+            <p className="text-sm text-muted-foreground mt-3">Reinicia la prueba para cambiar de version</p>
           )}
         </CardContent>
       </Card>
@@ -968,14 +954,7 @@ export function JuicioSituacionalTest() {
                     {question.points} pts
                   </span>
                 </div>
-                {question.scenario && (
-                  <div className="rounded-xl border border-primary/20 bg-primary/5 px-4 py-3">
-                    <p className="text-sm leading-relaxed text-foreground">
-                      <span className="font-semibold text-primary">Escenario:</span> {question.scenario}
-                    </p>
-                  </div>
-                )}
-                <CardTitle className="text-lg font-semibold leading-relaxed text-balance">
+                <CardTitle className="text-lg font-semibold leading-relaxed text-balance whitespace-pre-line">
                   {question.question}
                 </CardTitle>
               </CardHeader>
@@ -1042,7 +1021,7 @@ export function JuicioSituacionalTest() {
           onClick={() => setShowFeedback((prev) => !prev)}
         >
           <Info className="h-4 w-4" />
-          {showFeedback ? "Ocultar" : "Ver"} Retroalimentación
+          {showFeedback ? "Ocultar" : "Ver"} Retroalimentacion
         </Button>
         <Button type="button" variant="ghost" className="gap-2" onClick={handleReset}>
           <RefreshCw className="h-4 w-4" />
@@ -1053,7 +1032,7 @@ export function JuicioSituacionalTest() {
       {unansweredCount > 0 && !showResults && (
         <div className="rounded-2xl border border-amber-400/60 bg-amber-50/80 px-4 py-3 text-sm text-amber-700">
           Debes responder {unansweredCount} {unansweredCount === 1 ? "pregunta" : "preguntas"} para habilitar la
-          calificación.
+          calificacion.
         </div>
       )}
 
@@ -1067,7 +1046,7 @@ export function JuicioSituacionalTest() {
           </div>
           <p className="text-sm text-primary/80 leading-relaxed">{performanceMessage}</p>
           <p className="text-xs uppercase tracking-wide text-primary/70">
-            Usa la retroalimentación para comprender las mejores prácticas en cada situación.
+            Usa la retroalimentacion para comprender las mejores practicas en cada situacion.
           </p>
         </div>
       )}

@@ -350,7 +350,7 @@ const questionsV1: Question[] = [
     id: 1,
     category: "Identificación de Idea Central",
     context: "Al masticar chicle se estimulan las glándulas salivares. (2) Estas glándulas envían señales al cerebro. (3) El cerebro, al recibir la señal de que viene alimento, ordena al estómago prepararse. (4) El estómago entonces produce ácidos digestivos. (5) Como no llega alimento real, estos ácidos atacan la pared estomacal. (6) Con el tiempo, esto daña la mucosa gástrica. (7) El resultado es la aparición de gastritis. (8) Por eso no se recomienda masticar chicle con el estómago vacío.",
-    question: "La idea central del párrafo anterior está contenida en:",
+    question: "Situacion\n\nDurante una capacitacion sobre habitos saludables en la Gobernacion de Antioquia, el nutricionista presenta un parrafo informativo sobre los efectos de masticar chicle con el estomago vacio. Los participantes deben identificar cual oracion contiene la idea central del texto.\n\nPregunta\n\nCon base en la situacion descrita, la idea central del parrafo anterior esta contenida en:",
     options: [
       { id: "a", text: "La oración 1" },
       { id: "b", text: "La oración 7" },
@@ -359,14 +359,14 @@ const questionsV1: Question[] = [
       { id: "e", text: "La oración 8" },
     ],
     correct: "b",
-    explanation: "La oración 7 'El resultado es la aparición de gastritis' contiene la idea central del párrafo, que es explicar cómo masticar chicle causa gastritis. Las demás oraciones son detalles del proceso.",
+    explanation: "En la situacion descrita, en la situacion de la capacitacion, la oracion 7 'El resultado es la aparicion de gastritis' contiene la idea central del parrafo, que es explicar como masticar chicle causa gastritis. Las demas oraciones son detalles del proceso que el nutricionista usa para fundamentar esta conclusion.",
     points: 5,
   },
   {
     id: 2,
     category: "Identificación de Idea Central",
     context: "(1) Una persona necesita entre 1,500 y 1,800 calorías diarias para el metabolismo basal. (2) Este es el mínimo de energía para mantener las funciones vitales en reposo. (3) Las actividades físicas requieren calorías adicionales. (4) Una actividad sedentaria necesita 500 calorías extra. (5) Un trabajo moderado requiere 1,000 calorías adicionales. (6) El trabajo pesado puede demandar hasta 1,500 calorías más.",
-    question: "La idea central del párrafo anterior está contenida en:",
+    question: "Situacion\n\nEn un taller de bienestar laboral organizado por la Secretaria de Salud, se presenta informacion sobre requerimientos caloricos. El facilitador pide a los funcionarios que identifiquen la idea principal del texto para comprender mejor sus necesidades nutricionales segun su tipo de trabajo.\n\nPregunta\n\nCon base en la situacion descrita, la idea central del parrafo anterior esta contenida en:",
     options: [
       { id: "a", text: "La oración 3" },
       { id: "b", text: "La oración 1" },
@@ -375,14 +375,14 @@ const questionsV1: Question[] = [
       { id: "e", text: "La oración 5" },
     ],
     correct: "b",
-    explanation: "La oración 1 presenta la idea principal sobre el requerimiento calórico basal, que es el tema central. Las demás oraciones desarrollan información complementaria sobre actividades adicionales.",
+    explanation: "En el contexto del taller de bienestar laboral, la oracion 1 presenta la idea principal sobre el requerimiento calorico basal, que es el tema central que los funcionarios deben entender primero. Las demas oraciones desarrollan informacion complementaria sobre actividades adicionales.",
     points: 5,
   },
   {
     id: 3,
     category: "Identificación de Idea Central",
     context: "(1) La cantidad de energía necesaria para mantener un animal vivo en reposo se llama metabolismo basal. (2) Para medirlo se determina el consumo de oxígeno tras varias horas sin comer. (3) Este consumo se mide en condiciones controladas de temperatura. (4) La tasa metabólica basal varía según el peso del animal. (5) Un elefante tiene mayor metabolismo basal que un ratón. (6) Sin embargo, por metro cuadrado de superficie corporal, la tasa es semejante en todos los mamíferos.",
-    question: "La idea central del párrafo anterior está contenida en:",
+    question: "Situacion\n\nUn funcionario de la Secretaria de Medio Ambiente prepara material educativo sobre fisiologia animal para una campana de conservacion. Necesita identificar la idea central del texto para destacarla en el material divulgativo.\n\nPregunta\n\nCon base en la situacion descrita, la idea central del parrafo anterior esta contenida en:",
     options: [
       { id: "a", text: "La oración 1" },
       { id: "b", text: "La oración 2" },
@@ -391,7 +391,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "La oración 6" },
     ],
     correct: "a",
-    explanation: "La oración 1 define el concepto de metabolismo basal, que es el tema principal del párrafo. Las demás oraciones explican cómo se mide y sus variaciones.",
+    explanation: "En la situacion descrita, para el material educativo que prepara el funcionario, la oracion 1 define el concepto de metabolismo basal, que es el tema principal del parrafo y debe ser destacado. Las demas oraciones explican como se mide y sus variaciones, sirviendo como informacion complementaria.",
     points: 5,
   },
   // Ordenamiento de párrafos
@@ -399,7 +399,7 @@ const questionsV1: Question[] = [
     id: 4,
     category: "Ordenamiento de Párrafos",
     context: "Ordene las siguientes oraciones para formar un texto coherente:\n\n1. Un cuerpo de investigadores rusos\n2. cifra que supera a la del Cañón de la Muerte en Estados Unidos\n3. de seguro que pensaría en el Sahara u otro desierto\n4. el lugar más soleado del mundo es la Antártida\n5. o a la del Sahara mismo\n6. luego de años de estudios y mediciones\n7. Si a usted le preguntaran cuál es el lugar más soleado del mundo\n8. cuyas radiaciones solares son de 1.81 calorías por minuto en cm²\n9. llegó a esta sorprendente conclusión",
-    question: "El orden más adecuado para las anteriores secuencias es:",
+    question: "Situacion\n\nEn una prueba de seleccion para auxiliares administrativos de la Gobernacion de Antioquia, se evalua la capacidad de organizar informacion de manera logica y coherente. El evaluador presenta oraciones desordenadas sobre un descubrimiento cientifico.\n\nPregunta\n\nCon base en la situacion descrita, el orden mas adecuado para las anteriores secuencias es:",
     options: [
       { id: "a", text: "1 – 6 – 9 – 4 – 8 – 2 – 5 – 7 – 3" },
       { id: "b", text: "7 – 3 – 1 – 9 – 6 – 4 – 8 – 2 – 5" },
@@ -407,14 +407,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "1 – 9 – 6 – 4 – 8 – 2 – 5 – 7 – 3" },
     ],
     correct: "c",
-    explanation: "El orden lógico comienza con la pregunta hipotética (7), la respuesta común (3), introduce a los investigadores (1), su trabajo (6), la conclusión (9), el resultado (4), los datos (8) y las comparaciones (2, 5).",
+    explanation: "En la situacion descrita, en la prueba de seleccion, el orden logico que demuestra capacidad de organizacion comienza con la pregunta hipotetica (7), la respuesta comun (3), introduce a los investigadores (1), su trabajo (6), la conclusion (9), el resultado (4), los datos (8) y las comparaciones (2, 5).",
     points: 5,
   },
   {
     id: 5,
     category: "Ordenamiento de Párrafos",
     context: "Ordene las siguientes oraciones:\n\n1. La hulla es el carbón mineral más abundante de la naturaleza\n2. A partir de ella se obtienen, por destilación, el gas del alumbrado público, aguas amoniacales y el coque\n3. Para obtenerlo hay que someter la hulla a una destilación seca, eliminando impurezas\n4. Así se logra un residuo compacto y resistente, adecuado para mezclar con el mineral de hierro en el alto horno\n5. Desde el punto de vista químico e industrial, tiene el mayor número de aplicaciones\n6. Este residuo es un recurso indispensable para la metalurgia del hierro",
-    question: "El orden más adecuado es:",
+    question: "Situacion\n\nUn tecnico de la Secretaria de Minas debe organizar informacion tecnica sobre la hulla para un informe dirigido a la comunidad. Las oraciones estan desordenadas y debe establecer una secuencia logica que facilite la comprension del lector.\n\nPregunta\n\nCon base en la situacion descrita, el orden mas adecuado es:",
     options: [
       { id: "a", text: "1 – 2 – 3 – 6 – 5 – 4" },
       { id: "b", text: "5 – 1 – 2 – 6 – 3 – 4" },
@@ -422,14 +422,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "1 – 3 – 2 – 5 – 4 – 6" },
     ],
     correct: "c",
-    explanation: "Se presenta primero la hulla (1), sus aplicaciones (5), los productos obtenidos (2), el residuo importante (6), el proceso para obtenerlo (3) y sus usos (4).",
+    explanation: "En la situacion descrita, para el informe del tecnico, se presenta primero la hulla (1), sus aplicaciones (5), los productos obtenidos (2), el residuo importante (6), el proceso para obtenerlo (3) y sus usos (4), creando una secuencia logica y comprensible.",
     points: 5,
   },
   // Sinonimia
   {
     id: 6,
     category: "Sinonimia",
-    question: "Seleccione el sinónimo más adecuado para BALADÍ:",
+    question: "Situacion\n\nDurante la revision de un documento oficial en la Secretaria de Gobierno, un funcionario encuentra la palabra BALADI y necesita reemplazarla por un sinonimo mas comun para facilitar la comprension del texto por parte de la ciudadania.\n\nPregunta\n\nCon base en la situacion descrita, seleccione el sinonimo mas adecuado para BALADI:",
     options: [
       { id: "a", text: "pobre" },
       { id: "b", text: "confuso" },
@@ -438,13 +438,13 @@ const questionsV1: Question[] = [
       { id: "e", text: "anegado" },
     ],
     correct: "d",
-    explanation: "BALADÍ significa insignificante, de poca importancia o trivial. Es sinónimo de algo que no tiene valor o trascendencia.",
+    explanation: "En el contexto de la revision del documento oficial, BALADI significa insignificante, de poca importancia o trivial. Es sinonimo de algo que no tiene valor o trascendencia, por lo que el funcionario debe usar 'insignificante' para mayor claridad.",
     points: 5,
   },
   {
     id: 7,
     category: "Sinonimia",
-    question: "Seleccione el sinónimo más adecuado para ADULTERAR:",
+    question: "Situacion\n\nEn una investigacion disciplinaria, el abogado de la Oficina de Control Interno debe redactar un informe donde aparece el termino ADULTERAR. Para evitar ambiguedades juridicas, necesita identificar el sinonimo mas preciso.\n\nPregunta\n\nCon base en la situacion descrita, seleccione el sinonimo mas adecuado para ADULTERAR:",
     options: [
       { id: "a", text: "glosar" },
       { id: "b", text: "parafrasear" },
@@ -453,13 +453,13 @@ const questionsV1: Question[] = [
       { id: "e", text: "retorcer" },
     ],
     correct: "c",
-    explanation: "ADULTERAR significa falsear, alterar o corromper algo. El término más cercano es falsear.",
+    explanation: "En la situacion descrita, para el informe disciplinario, ADULTERAR significa falsear, alterar o corromper algo. El termino mas cercano y juridicamente apropiado es falsear.",
     points: 5,
   },
   {
     id: 8,
     category: "Sinonimia",
-    question: "Seleccione el sinónimo más adecuado para DOMEÑAR:",
+    question: "Situacion\n\nUn comunicador de la Gobernacion prepara un boletin de prensa y encuentra el verbo DOMENAR en el texto original. Debe sustituirlo por un sinonimo mas accesible para el publico general.\n\nPregunta\n\nCon base en la situacion descrita, seleccione el sinonimo mas adecuado para DOMENAR:",
     options: [
       { id: "a", text: "lesión" },
       { id: "b", text: "someter" },
@@ -468,13 +468,13 @@ const questionsV1: Question[] = [
       { id: "e", text: "custodiando" },
     ],
     correct: "b",
-    explanation: "DOMEÑAR significa someter, dominar o controlar algo o a alguien.",
+    explanation: "En la situacion descrita, para el boletin de prensa, DOMENAR significa someter, dominar o controlar algo o a alguien. El comunicador debe usar 'someter' para que el mensaje sea claro.",
     points: 5,
   },
   {
     id: 9,
     category: "Sinonimia",
-    question: "Seleccione el sinónimo más adecuado para TENEBROSO:",
+    question: "Situacion\n\nEn la elaboracion de un informe de seguridad para la Secretaria del Interior, se utiliza el adjetivo TENEBROSO para describir una zona. El supervisor solicita un sinonimo mas neutral y descriptivo.\n\nPregunta\n\nCon base en la situacion descrita, seleccione el sinonimo mas adecuado para TENEBROSO:",
     options: [
       { id: "a", text: "triste" },
       { id: "b", text: "oscuro" },
@@ -483,14 +483,14 @@ const questionsV1: Question[] = [
       { id: "e", text: "enemigo" },
     ],
     correct: "b",
-    explanation: "TENEBROSO significa oscuro, lúgubre o siniestro. Su sinónimo más directo es oscuro.",
+    explanation: "En la situacion descrita, en el informe de seguridad, TENEBROSO significa oscuro, lugubre o siniestro. Su sinonimo mas directo y neutral es oscuro, que describe objetivamente la condicion de la zona.",
     points: 5,
   },
   // Antonimia
   {
     id: 10,
     category: "Antonimia",
-    question: "Seleccione el antónimo de AYUDAR:",
+    question: "Situacion\n\nEn un taller de comunicacion asertiva para servidores publicos, el facilitador presenta ejercicios de antonimos para mejorar la precision del lenguaje. Se pide identificar el antonimo de AYUDAR.\n\nPregunta\n\nCon base en la situacion descrita, seleccione el antonimo de AYUDAR:",
     options: [
       { id: "a", text: "impedido" },
       { id: "b", text: "dificultar" },
@@ -499,13 +499,13 @@ const questionsV1: Question[] = [
       { id: "e", text: "secundar" },
     ],
     correct: "b",
-    explanation: "AYUDAR significa prestar asistencia. Su antónimo es DIFICULTAR, que significa poner obstáculos o hacer más difícil algo.",
+    explanation: "En la situacion descrita, en el taller de comunicacion asertiva, AYUDAR significa prestar asistencia. Su antonimo es DIFICULTAR, que significa poner obstaculos o hacer mas dificil algo, siendo importante esta distincion para la comunicacion efectiva.",
     points: 5,
   },
   {
     id: 11,
     category: "Antonimia",
-    question: "Seleccione el antónimo de ÓPTIMO:",
+    question: "Situacion\n\nEn la revision de un informe de gestion de la Secretaria de Planeacion, el coordinador encuentra el termino OPTIMO para describir los resultados. Para mejorar la claridad del documento, necesita identificar el antonimo correcto de esta palabra.\n\nPregunta\n\nCon base en la situacion descrita, seleccione el antonimo de OPTIMO:",
     options: [
       { id: "a", text: "bueno" },
       { id: "b", text: "pésimo" },
@@ -514,13 +514,13 @@ const questionsV1: Question[] = [
       { id: "e", text: "pobre" },
     ],
     correct: "b",
-    explanation: "ÓPTIMO es el superlativo de bueno (lo mejor posible). Su antónimo es PÉSIMO, que es el superlativo de malo (lo peor posible).",
+    explanation: "En el contexto de la revision del informe, OPTIMO es el superlativo de bueno (lo mejor posible). Su antonimo es PESIMO, que es el superlativo de malo (lo peor posible), lo cual ayuda al coordinador a entender el rango completo de evaluacion.",
     points: 5,
   },
   {
     id: 12,
     category: "Antonimia",
-    question: "Seleccione el antónimo de LACÓNICO:",
+    question: "Situacion\n\nDurante un taller de redaccion para funcionarios de la Gobernacion, el instructor explica que los informes deben evitar ser LACONICOS cuando se requiere detalle. Un participante pregunta por el antonimo de esta palabra.\n\nPregunta\n\nCon base en la situacion descrita, seleccione el antonimo de LACONICO:",
     options: [
       { id: "a", text: "silencioso" },
       { id: "b", text: "parco" },
@@ -529,14 +529,14 @@ const questionsV1: Question[] = [
       { id: "e", text: "callado" },
     ],
     correct: "c",
-    explanation: "LACÓNICO significa breve, conciso en el hablar. Su antónimo es HABLADOR, que indica a quien habla mucho o es verboso.",
+    explanation: "En el contexto del taller de redaccion, LACONICO significa breve, conciso en el hablar o escribir. Su antonimo es HABLADOR, que indica a quien se expresa de manera extensa y detallada.",
     points: 5,
   },
   // Analogías
   {
     id: 13,
     category: "Analogías",
-    question: "PANADERO es a PAN, como _____ es a _____:",
+    question: "Situacion\n\nEn una evaluacion de competencias logicas para aspirantes a la Secretaria de Educacion, se presenta un ejercicio de analogias para medir la capacidad de identificar relaciones entre conceptos.\n\nPregunta\n\nCon base en la situacion descrita, PANADERO es a PAN, como _____ es a _____:",
     options: [
       { id: "a", text: "obra : autor" },
       { id: "b", text: "agricultor : tierra" },
@@ -545,13 +545,13 @@ const questionsV1: Question[] = [
       { id: "e", text: "artista : escultura" },
     ],
     correct: "c",
-    explanation: "La relación es de productor a producto. El panadero produce pan, así como el pintor produce cuadro. Es una relación de agente-resultado.",
+    explanation: "En la situacion descrita, en el ejercicio de analogias, la relacion es de productor a producto. El panadero produce pan, asi como el pintor produce cuadro. Es una relacion de agente-resultado que evalua el razonamiento logico del aspirante.",
     points: 5,
   },
   {
     id: 14,
     category: "Analogías",
-    question: "ÁRBOL es a BOSQUE, como _____ es a _____:",
+    question: "Situacion\n\nDurante la capacitacion de nuevos servidores publicos en la Gobernacion de Antioquia, el facilitador utiliza ejercicios de analogias para desarrollar habilidades de pensamiento relacional y logico.\n\nPregunta\n\nCon base en la situacion descrita, ARBOL es a BOSQUE, como _____ es a _____:",
     options: [
       { id: "a", text: "soldado : ejército" },
       { id: "b", text: "facultad : universidad" },
@@ -560,13 +560,13 @@ const questionsV1: Question[] = [
       { id: "e", text: "mil : tres mil" },
     ],
     correct: "a",
-    explanation: "La relación es de parte a todo o elemento a conjunto. Un árbol forma parte de un bosque, así como un soldado forma parte de un ejército.",
+    explanation: "En el contexto de la capacitacion, la relacion es de parte a todo o elemento a conjunto. Un arbol forma parte de un bosque, asi como un soldado forma parte de un ejercito, demostrando comprension de estructuras jerarquicas.",
     points: 5,
   },
   {
     id: 15,
     category: "Analogías",
-    question: "PALOMA es a PAZ, como _____ es a _____:",
+    question: "Situacion\n\nEn un taller de comunicacion institucional de la Secretaria de Cultura, se analizan simbolos y sus significados para mejorar las campanas de comunicacion publica.\n\nPregunta\n\nCon base en la situacion descrita, PALOMA es a PAZ, como _____ es a _____:",
     options: [
       { id: "a", text: "París : luz" },
       { id: "b", text: "antorcha : libertad" },
@@ -575,13 +575,13 @@ const questionsV1: Question[] = [
       { id: "e", text: "rojo : atención" },
     ],
     correct: "d",
-    explanation: "Es una relación simbólica. La paloma simboliza la paz, así como la balanza simboliza la justicia. Ambos son símbolos de conceptos abstractos.",
+    explanation: "En la situacion descrita, en el taller de comunicacion, se identifica una relacion simbolica. La paloma simboliza la paz, asi como la balanza simboliza la justicia. Ambos son simbolos universales de conceptos abstractos utiles en comunicacion institucional.",
     points: 5,
   },
   {
     id: 16,
     category: "Analogías",
-    question: "COMPRAR es a VENDER, como _____ es a _____:",
+    question: "Situacion\n\nEn una prueba de razonamiento verbal para el concurso de meritos de la CNSC, se evalua la capacidad de identificar relaciones logicas entre pares de palabras.\n\nPregunta\n\nCon base en la situacion descrita, COMPRAR es a VENDER, como _____ es a _____:",
     options: [
       { id: "a", text: "yegua : caballo" },
       { id: "b", text: "bandera : país" },
@@ -590,14 +590,14 @@ const questionsV1: Question[] = [
       { id: "e", text: "pulmones : oxígeno" },
     ],
     correct: "d",
-    explanation: "Es una relación de acciones recíprocas u opuestas complementarias. Comprar es lo opuesto a vender, así como dar es lo opuesto a recibir.",
+    explanation: "En la situacion descrita, en la prueba de razonamiento, se identifica una relacion de acciones reciprocas u opuestas complementarias. Comprar es lo opuesto a vender, asi como dar es lo opuesto a recibir.",
     points: 5,
   },
   // Completación de oraciones
   {
     id: 17,
     category: "Completación de Oraciones",
-    question: "La sumisión a un hombre débil es disciplina. La sumisión a un hombre fuerte es solo ______",
+    question: "Situacion\n\nEn un seminario de liderazgo para directivos de la Gobernacion de Antioquia, el conferencista presenta una reflexion sobre el poder y la autoridad. Lee la siguiente frase para que los participantes la completen.\n\nPregunta\n\nCon base en la situacion descrita, complete: La sumision a un hombre debil es disciplina. La sumision a un hombre fuerte es solo ______",
     options: [
       { id: "a", text: "servilismo" },
       { id: "b", text: "capricho" },
@@ -606,13 +606,13 @@ const questionsV1: Question[] = [
       { id: "e", text: "orden" },
     ],
     correct: "a",
-    explanation: "SERVILISMO es la palabra correcta porque contrasta con 'disciplina'. La sumisión a quien es fuerte (y podría abusar) se degrada a servilismo, que es sumisión excesiva y degradante.",
+    explanation: "En el contexto del seminario de liderazgo, SERVILISMO es la palabra correcta porque contrasta con 'disciplina'. La sumision a quien es fuerte (y podria abusar) se degrada a servilismo, que es sumision excesiva y degradante.",
     points: 5,
   },
   {
     id: 18,
     category: "Completación de Oraciones",
-    question: "Si hallas un camino sin ________ quizás no te lleve a ninguna parte",
+    question: "Situacion\n\nDurante una jornada de desarrollo personal para funcionarios de la Secretaria de Desarrollo Social, el facilitador presenta frases reflexivas para analizar su significado profundo.\n\nPregunta\n\nCon base en la situacion descrita, complete: Si hallas un camino sin ________ quizas no te lleve a ninguna parte",
     options: [
       { id: "a", text: "fronteras" },
       { id: "b", text: "sentidos" },
@@ -621,13 +621,13 @@ const questionsV1: Question[] = [
       { id: "e", text: "obstáculos" },
     ],
     correct: "e",
-    explanation: "OBSTÁCULOS es correcto porque la frase sugiere que un camino demasiado fácil (sin obstáculos) puede no conducir a logros valiosos. Los desafíos dan valor al destino.",
+    explanation: "En la situacion descrita, en la jornada de desarrollo personal, OBSTACULOS es correcto porque la frase sugiere que un camino demasiado facil (sin obstaculos) puede no conducir a logros valiosos. Los desafios dan valor al destino.",
     points: 5,
   },
   {
     id: 19,
     category: "Completación de Oraciones",
-    question: "Es demasiado ________ en sus escritos: escribe una página cuando es suficiente con una oración",
+    question: "Situacion\n\nEl coordinador de comunicaciones de la Gobernacion revisa los informes de su equipo y encuentra que algunos funcionarios escriben de manera excesivamente extensa. Utiliza una frase para ilustrar el problema.\n\nPregunta\n\nCon base en la situacion descrita, complete: Es demasiado ________ en sus escritos: escribe una pagina cuando es suficiente con una oracion",
     options: [
       { id: "a", text: "prolijo" },
       { id: "b", text: "lacónico" },
@@ -636,7 +636,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "agradable" },
     ],
     correct: "a",
-    explanation: "PROLIJO significa extenso en exceso, que se extiende demasiado. Describe perfectamente a quien escribe más de lo necesario.",
+    explanation: "En el contexto de la revision de informes, PROLIJO significa extenso en exceso, que se extiende demasiado. Describe perfectamente a quien escribe mas de lo necesario, algo que el coordinador busca corregir.",
     points: 5,
   },
   // Conectores
@@ -644,7 +644,7 @@ const questionsV1: Question[] = [
     id: 20,
     category: "Conectores Lógicos",
     context: "A mi modo de ver, escribir es tanto como componer. ______, es reunir varias piezas en un todo, de manera que cada parte se relacione armónicamente con las demás. ________, la escritura es un trabajo artesanal de trato, de lucha con las palabras. __________, escribir es un trabajo en el sentido de esfuerzo, de transpiración. _________ la inspiración solo es un motivo de inicio, mas no por ello se recomienda confiar demasiado en ella.",
-    question: "Complete el texto con los conectores adecuados:",
+    question: "Situacion\n\nUn funcionario de la Secretaria de Comunicaciones debe revisar un ensayo sobre el proceso de escritura para una publicacion institucional. El texto presenta espacios en blanco que deben completarse con conectores logicos apropiados para garantizar la coherencia del mensaje.\n\nPregunta\n\nCon base en la situacion descrita, complete el texto con los conectores adecuados:",
     options: [
       { id: "a", text: "Es decir / De hecho / En contraste / Por ello" },
       { id: "b", text: "En primer lugar / En segundo lugar / En tercer lugar / Por último" },
@@ -653,7 +653,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "En otras palabras / Según lo anterior / En definitiva / Esto significa que" },
     ],
     correct: "e",
-    explanation: "'En otras palabras' explica lo que significa componer; 'Según lo anterior' continúa la idea; 'En definitiva' sintetiza; 'Esto significa que' concluye el razonamiento.",
+    explanation: "En el contexto de la revision del ensayo, 'En otras palabras' explica lo que significa componer; 'Segun lo anterior' continua la idea; 'En definitiva' sintetiza; 'Esto significa que' concluye el razonamiento, permitiendo al funcionario mantener la coherencia del texto.",
     points: 5,
   },
   // Comprensión Lectora
@@ -661,7 +661,7 @@ const questionsV1: Question[] = [
     id: 21,
     category: "Comprensión Lectora",
     context: "La comprensión lectora es la capacidad de entender lo que se lee, permitiendo captar los postulados del autor e interpretar sus argumentos principales. Tener buena comprensión implica concentración, dejar de lado distracciones y utilizar herramientas y estrategias, no solo inteligencia, para leer de forma más efectiva. La comprensión integral exige dominar varios niveles: literal, interpretativa, inferencial y comparativa, cada uno enfocado en distintos procesos cognitivos.",
-    question: "Según el texto, ¿qué implica tener buena comprensión lectora?",
+    question: "Situacion\n\nDurante una capacitacion sobre tecnicas de estudio para aspirantes a cargos publicos en la Gobernacion de Antioquia, el facilitador presenta un texto explicativo sobre comprension lectora. Los participantes deben analizar el contenido para mejorar sus habilidades de lectura en las pruebas de seleccion.\n\nPregunta\n\nCon base en la situacion descrita, segun el texto, que implica tener buena comprension lectora?",
     options: [
       { id: "a", text: "Únicamente tener alta inteligencia" },
       { id: "b", text: "Concentración, evitar distracciones y usar estrategias de lectura" },
@@ -670,14 +670,14 @@ const questionsV1: Question[] = [
       { id: "e", text: "Leer en voz alta para mejor retención" },
     ],
     correct: "b",
-    explanation: "El texto indica explícitamente que la buena comprensión 'implica concentración, dejar de lado distracciones y utilizar herramientas y estrategias, no solo inteligencia'.",
+    explanation: "En el contexto de la capacitacion, el texto indica que la buena comprension 'implica concentracion, dejar de lado distracciones y utilizar herramientas y estrategias, no solo inteligencia', competencias esenciales para los aspirantes.",
     points: 5,
   },
   {
     id: 22,
     category: "Comprensión Lectora",
     context: "Los textos descriptivos se caracterizan por presentar caracterizaciones y contextualizaciones detalladas. En este tipo de texto, las ideas principales suelen girar alrededor de las descripciones del contenido. Por otro lado, en textos argumentativos, las ideas principales generalmente están al inicio o al final de los párrafos, siguiendo los postulados del autor. Los textos dialógicos requieren localizar contraargumentos en el enunciado y analizar cómo influyen en los postulados expuestos.",
-    question: "¿Dónde se localizan típicamente las ideas principales en un texto argumentativo?",
+    question: "Situacion\n\nEn un taller de redaccion de documentos oficiales para funcionarios de la Secretaria de Planeacion, el instructor explica las diferencias entre tipos de textos. Los participantes deben aplicar este conocimiento para identificar ideas principales en los informes que redactan.\n\nPregunta\n\nCon base en la situacion descrita, donde se localizan tipicamente las ideas principales en un texto argumentativo?",
     options: [
       { id: "a", text: "En la mitad de cada párrafo" },
       { id: "b", text: "Distribuidas uniformemente en todo el texto" },
@@ -686,14 +686,14 @@ const questionsV1: Question[] = [
       { id: "e", text: "En los contraargumentos del texto" },
     ],
     correct: "c",
-    explanation: "El texto establece claramente que 'en textos argumentativos, las ideas principales generalmente están al inicio o al final de los párrafos, siguiendo los postulados del autor'.",
+    explanation: "En el contexto del taller de redaccion, el texto establece que 'en textos argumentativos, las ideas principales generalmente estan al inicio o al final de los parrafos', informacion clave para que los funcionarios estructuren mejor sus informes.",
     points: 5,
   },
   {
     id: 23,
     category: "Comprensión Lectora",
     context: "Para comprender un texto efectivamente, se recomienda seguir cinco pasos fundamentales: (1) Atención selectiva: mantener una actividad continua sin distraerse por estímulos externos. (2) Análisis secuencial: asociar significados de palabras y dar sentido global mediante relaciones causa-efecto. (3) Síntesis textual: reducir el texto identificando ideas principales y palabras clave. (4) Memoria a corto plazo: asociar y recordar el texto siguiendo su secuencia. (5) Memoria a largo plazo: vincular nuevos contenidos con aprendizajes previos.",
-    question: "Según el texto, ¿qué proceso implica el análisis secuencial?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion prepara material didactico sobre comprension lectora para docentes del departamento. Revisa un texto que describe los cinco pasos fundamentales para comprender textos efectivamente y debe explicar cada proceso a los educadores.\n\nPregunta\n\nCon base en la situacion descrita, segun el texto, que proceso implica el analisis secuencial?",
     options: [
       { id: "a", text: "Mantener concentración sin distracciones externas" },
       { id: "b", text: "Asociar significados de palabras y establecer relaciones causa-efecto" },
@@ -702,7 +702,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Vincular nuevos contenidos con conocimientos previos" },
     ],
     correct: "b",
-    explanation: "El análisis secuencial se define explícitamente en el texto como 'asociar significados de palabras y dar sentido global mediante relaciones causa-efecto'.",
+    explanation: "En el contexto del material didactico, el analisis secuencial se define como 'asociar significados de palabras y dar sentido global mediante relaciones causa-efecto', concepto que el profesional debe transmitir a los docentes.",
     points: 5,
   },
   // Análisis de Gráficos
@@ -710,7 +710,7 @@ const questionsV1: Question[] = [
     id: 24,
     category: "Análisis de Gráficos",
     context: "Un gráfico representa visual o numéricamente relaciones entre datos mediante figuras, tablas, mapas, fotografías o pictogramas. Se usa para sintetizar, clarificar y resaltar información importante. Para leer correctamente una tabla, se deben seguir estos pasos: leer el título, revisar subtítulos de columnas y filas, observar el cuerpo de la tabla, considerar notas al pie e inferir lo expresado a partir del conjunto.",
-    question: "Según el texto, ¿cuál es el primer paso para leer correctamente una tabla?",
+    question: "Situacion\n\nUn analista de la Secretaria de Hacienda debe capacitar a su equipo en la interpretacion de tablas de datos presupuestales. Presenta un texto metodologico que explica los pasos para leer graficos y tablas correctamente, informacion esencial para el analisis financiero de la entidad.\n\nPregunta\n\nCon base en la situacion descrita, segun el texto, cual es el primer paso para leer correctamente una tabla?",
     options: [
       { id: "a", text: "Observar el cuerpo de la tabla" },
       { id: "b", text: "Considerar las notas al pie" },
@@ -719,14 +719,14 @@ const questionsV1: Question[] = [
       { id: "e", text: "Inferir las conclusiones generales" },
     ],
     correct: "c",
-    explanation: "El texto establece claramente el orden de pasos para leer una tabla, siendo el primero 'leer el título'.",
+    explanation: "En el contexto de la capacitacion del equipo de Hacienda, el texto establece que el primer paso para leer una tabla es 'leer el titulo', lo cual permite al analista orientar correctamente la interpretacion de los datos presupuestales.",
     points: 5,
   },
   {
     id: 25,
     category: "Análisis de Gráficos",
     context: "Para leer un gráfico lineal efectivamente, se deben seguir cuatro pasos: (1) Leer el título del gráfico. (2) Identificar la abscisa (eje horizontal) y la ordenada (eje vertical). (3) Observar la tendencia de la línea: si es ascendente, descendente o horizontal. (4) Inferir lo que expresa el gráfico a partir de toda la información.",
-    question: "¿Qué información proporciona observar si la línea es ascendente, descendente u horizontal en un gráfico lineal?",
+    question: "Situacion\n\nEn la Oficina de Estadisticas de la Gobernacion de Antioquia, un tecnico debe interpretar graficos lineales sobre indicadores sociales para un informe de gestion. Consulta un manual metodologico que describe los pasos para analizar este tipo de representaciones graficas.\n\nPregunta\n\nCon base en la situacion descrita, que informacion proporciona observar si la linea es ascendente, descendente u horizontal en un grafico lineal?",
     options: [
       { id: "a", text: "El título del gráfico" },
       { id: "b", text: "Los valores exactos de cada punto" },
@@ -735,14 +735,14 @@ const questionsV1: Question[] = [
       { id: "e", text: "Las unidades de medida utilizadas" },
     ],
     correct: "c",
-    explanation: "Observar la tendencia de la línea (ascendente, descendente, horizontal) permite identificar el comportamiento y la dirección de los datos representados en el gráfico.",
+    explanation: "En el contexto del informe de gestion, observar la tendencia de la linea (ascendente, descendente, horizontal) permite al tecnico identificar el comportamiento y direccion de los indicadores sociales representados.",
     points: 5,
   },
   {
     id: 26,
     category: "Análisis de Gráficos",
     context: "En un gráfico de barras, es importante: (1) Leer el título. (2) Identificar la abscisa (variable independiente) y la ordenada (variable dependiente). (3) Asociar los colores con su significado. (4) Comparar alturas entre barras de distinto y mismo color. (5) Inferir lo expresado. Por ejemplo, en un gráfico sobre escolaridad por año con categorías Primaria, Secundaria y Universitaria, se pueden comparar variaciones por periodo.",
-    question: "¿Qué permite comparar las alturas de las barras en un gráfico de barras?",
+    question: "Situacion\n\nUn analista de la Secretaria de Educacion debe interpretar graficos de barras sobre cobertura educativa por municipio. Durante una capacitacion, se le presenta un ejercicio sobre los elementos fundamentales para leer correctamente este tipo de graficos.\n\nPregunta\n\nCon base en la situacion descrita, que permite comparar las alturas de las barras en un grafico de barras?",
     options: [
       { id: "a", text: "El título del gráfico únicamente" },
       { id: "b", text: "Las diferencias y similitudes entre las variables representadas" },
@@ -751,7 +751,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Las notas al pie del gráfico" },
     ],
     correct: "b",
-    explanation: "Comparar las alturas de las barras permite identificar diferencias y similitudes entre las variables representadas, tanto de distinto como del mismo color.",
+    explanation: "En la situacion descrita, comparar las alturas de las barras permite al analista identificar diferencias y similitudes entre las variables representadas, tanto de distinto como del mismo color.",
     points: 5,
   },
   // Estrategias de Lectura
@@ -759,7 +759,7 @@ const questionsV1: Question[] = [
     id: 27,
     category: "Estrategias de Lectura",
     context: "Para resolver ítems de selección múltiple efectivamente, se recomienda: identificar el tipo de pregunta (literal, inferencial, argumentativa), repetir la pregunta con tus propias palabras, tener cuidado con negaciones ('no', 'excepto', 'no es correcto'), detectar palabras clave comunes entre texto, enunciado y opciones, y descartar opciones descabelladas si no se sabe la respuesta.",
-    question: "¿Por qué es importante tener cuidado con las negaciones en las preguntas?",
+    question: "Situacion\n\nDurante un taller de preparacion para concursos publicos, un facilitador de la ESAP capacita a aspirantes sobre estrategias para resolver items de seleccion multiple. Les presenta un texto con recomendaciones metodologicas para mejorar su desempeno en las pruebas.\n\nPregunta\n\nCon base en la situacion descrita, por que es importante tener cuidado con las negaciones en las preguntas?",
     options: [
       { id: "a", text: "Porque hacen la pregunta más larga" },
       { id: "b", text: "Porque invierten el criterio de selección" },
@@ -768,14 +768,14 @@ const questionsV1: Question[] = [
       { id: "e", text: "Porque facilitan encontrar la respuesta" },
     ],
     correct: "b",
-    explanation: "El texto advierte que las negaciones 'invierten el criterio de selección', lo que puede confundir al lector si no se identifica correctamente.",
+    explanation: "En la situacion descrita, el texto advierte que las negaciones 'invierten el criterio de seleccion', lo que puede confundir al aspirante si no se identifica correctamente.",
     points: 5,
   },
   {
     id: 28,
     category: "Estrategias de Lectura",
     context: "Las palabras clave facilitan reconocer estructura, argumentos y conclusiones, y sirven como guía para localizar la información pertinente. Se recomienda detectar palabras clave comunes entre texto, enunciado y opciones, ya que la respuesta correcta suele compartir términos núcleo con el contenido base. Además, identificar las ideas principales ayuda a resaltar lo relevante y no distraerse con lo intrascendente.",
-    question: "¿Qué ventaja tiene identificar palabras clave comunes entre el texto y las opciones de respuesta?",
+    question: "Situacion\n\nEn una sesion de estudio para un concurso de meritos, un grupo de aspirantes analiza tecnicas de lectura eficiente. El coordinador les presenta un texto sobre la importancia de identificar palabras clave para mejorar la precision en las respuestas.\n\nPregunta\n\nCon base en la situacion descrita, que ventaja tiene identificar palabras clave comunes entre el texto y las opciones de respuesta?",
     options: [
       { id: "a", text: "Hace el texto más difícil de comprender" },
       { id: "b", text: "La respuesta correcta suele compartir términos núcleo con el contenido" },
@@ -784,14 +784,14 @@ const questionsV1: Question[] = [
       { id: "e", text: "Reduce el número de opciones a una sola" },
     ],
     correct: "b",
-    explanation: "El texto indica que 'la respuesta correcta suele compartir términos núcleo con el contenido base', por lo que identificar palabras clave comunes es una estrategia efectiva.",
+    explanation: "En la situacion descrita, el texto indica que 'la respuesta correcta suele compartir terminos nucleo con el contenido base', por lo que identificar palabras clave comunes es una estrategia efectiva para los aspirantes.",
     points: 5,
   },
   {
     id: 29,
     category: "Estrategias de Lectura",
     context: "La estructura de los ítems en pruebas CNSC incluye: (1) Contexto: puede ser texto, imagen o gráfica; actúa como referencia o información indirecta. (2) Enunciado: plantea la problemática a resolver de manera clara y suficiente. (3) Opciones de respuesta: son posibles soluciones con distractores plausibles. (4) Clave: opción correcta que se distingue por su contenido, no por sutilezas lingüísticas.",
-    question: "¿Cómo se distingue la clave (respuesta correcta) de las demás opciones?",
+    question: "Situacion\n\nDurante una orientacion sobre la estructura de las pruebas CNSC, un asesor del area de Gestion Humana explica a los funcionarios que planean participar en concursos internos como identificar la respuesta correcta entre las opciones presentadas.\n\nPregunta\n\nCon base en la situacion descrita, como se distingue la clave (respuesta correcta) de las demas opciones?",
     options: [
       { id: "a", text: "Por sutilezas lingüísticas y gramática compleja" },
       { id: "b", text: "Por ser siempre la opción más larga" },
@@ -800,14 +800,14 @@ const questionsV1: Question[] = [
       { id: "e", text: "Por usar palabras más complejas" },
     ],
     correct: "c",
-    explanation: "El texto establece claramente que la clave 'se distingue por su contenido, no por sutilezas lingüísticas'.",
+    explanation: "En la situacion descrita, el texto establece claramente que la clave 'se distingue por su contenido, no por sutilezas linguisticas', informacion clave para los funcionarios.",
     points: 5,
   },
   {
     id: 30,
     category: "Estrategias de Lectura",
     context: "Se recomienda leer primero todas las preguntas con opciones, cuando sea conveniente, para saber qué identificar en el texto, ganar velocidad y reconocer respuestas conocidas durante la lectura. Antes de atribuir fallas a quien redacta las preguntas o al texto, conviene preguntarse: ¿analizo bien la pregunta?, ¿leo en el orden más provechoso?, ¿sé identificar la información relevante?",
-    question: "¿Cuál es la principal ventaja de leer las preguntas antes del texto cuando sea conveniente?",
+    question: "Situacion\n\nEn un taller de tecnicas de lectura rapida para profesionales de la Gobernacion que presentaran pruebas de ascenso, el instructor comparte estrategias para optimizar el tiempo durante el examen. Explica diferentes enfoques de lectura segun el tipo de prueba.\n\nPregunta\n\nCon base en la situacion descrita, cual es la principal ventaja de leer las preguntas antes del texto cuando sea conveniente?",
     options: [
       { id: "a", text: "Permite omitir la lectura del texto completo" },
       { id: "b", text: "Saber qué identificar en el texto y ganar velocidad" },
@@ -816,7 +816,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Reduce el número de preguntas a responder" },
     ],
     correct: "b",
-    explanation: "El texto indica que leer las preguntas primero ayuda 'para saber qué identificar en el texto, ganar velocidad y reconocer respuestas conocidas durante la lectura'.",
+    explanation: "En la situacion descrita, el texto indica que leer las preguntas primero ayuda 'para saber que identificar en el texto, ganar velocidad y reconocer respuestas conocidas durante la lectura', optimizando el tiempo del profesional.",
     points: 5,
   },
   {
@@ -824,7 +824,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El documento \"Presentación Juicio Situacional\", elaborado por Juan David Mejía Balvín, se organiza en módulos como \"Comprensión de lectura en 5 pasos\", \"La comprensión de lectura con base en análisis de gráficos\", \"Comprensión de lectura aplicada a la resolución de pruebas\" y \"La práctica de la comprensión lectora en la estructura de los ítems\". Su propósito es ofrecer estrategias entrenables para convocatorias públicas de la CNSC, enfocadas en leer con atención, identificar ideas principales y elegir respuestas correctas.",
-    question: "¿Cuál es el propósito central del material presentado por Juan David Mejía Balvín?",
+    question: "Situacion\n\nUn coordinador de capacitacion de la Gobernacion de Antioquia recibe material didactico para preparar a funcionarios que presentaran concursos publicos. Revisa el documento de Juan David Mejia Balvin para determinar si es util incluirlo en el programa de formacion.\n\nPregunta\n\nCon base en la situacion descrita, cual es el proposito central del material presentado por Juan David Mejia Balvin?",
     options: [
       { id: "a", text: "Resumir exclusivamente la trayectoria profesional del autor." },
       {
@@ -837,7 +837,7 @@ const questionsV1: Question[] = [
     ],
     correct: "b",
     explanation:
-      "El texto resalta que la presentación busca compartir estrategias entrenables para leer con atención, identificar ideas principales y acertar en los ítems siguiendo metodologías de la CNSC.",
+      "En la situacion descrita, el texto resalta que la presentacion busca compartir estrategias entrenables para leer con atencion, identificar ideas principales y acertar en los items siguiendo metodologias de la CNSC, lo que seria util para el programa de capacitacion.",
     points: 5,
   },
   {
@@ -845,7 +845,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El logro integral en comprensión se alcanza aplicando niveles complementarios: literal, interpretativa, inferencial y comparativa. El nivel literal aborda información local, estructura y vocabulario; el interpretativo busca el sentido global con apoyo de conocimientos previos; el inferencial deduce información implícita; y el comparativo enlaza el texto con otros previamente leídos.",
-    question: "¿Qué caracteriza al nivel comparativa de comprensión lectora?",
+    question: "Situacion\n\nUn docente de la Secretaria de Educacion prepara una guia metodologica sobre niveles de comprension lectora para capacitar a otros profesionales. Revisa un documento tecnico que explica los diferentes niveles y sus caracteristicas especificas.\n\nPregunta\n\nCon base en la situacion descrita, que caracteriza al nivel comparativa de comprension lectora?",
     options: [
       { id: "a", text: "Se limita a definir vocabulario y estructuras gramaticales básicas." },
       { id: "b", text: "Busca el sentido global del texto apoyándose en conocimientos previos." },
@@ -855,7 +855,7 @@ const questionsV1: Question[] = [
     ],
     correct: "c",
     explanation:
-      "El documento indica que la comprensión comparativa enlaza el texto actual con otros previamente leídos, estableciendo relaciones intertextuales.",
+      "En la situacion descrita, el documento indica que la comprension comparativa enlaza el texto actual con otros previamente leidos, estableciendo relaciones intertextuales que el docente debe explicar en su guia.",
     points: 5,
   },
   {
@@ -863,7 +863,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "La comprensión se modela con cinco procesos encadenados: Atención selectiva, Análisis secuencial, Síntesis textual, Memoria a corto plazo y Memoria a largo plazo. La Síntesis textual implica reducir el texto identificando ideas principales y palabras clave, comparando detalles y detectando relaciones causa–efecto para deducir los componentes esenciales.",
-    question: "¿Cuál es el objetivo de la etapa de Síntesis textual en los cinco pasos de comprensión?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es el objetivo de la etapa de Síntesis textual en los cinco pasos de comprensión?",
     options: [
       { id: "a", text: "Mantener la concentración sin distraerse con estímulos externos." },
       { id: "b", text: "Asociar significados palabra a palabra para otorgar claridad global." },
@@ -872,8 +872,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Relacionar nuevos contenidos con aprendizajes previos de largo plazo." },
     ],
     correct: "c",
-    explanation:
-      "La Síntesis textual busca condensar la información destacando ideas principales, palabras clave y relaciones causa–efecto, lo que permite quedarse con lo esencial.",
+    explanation: "En la situacion descrita, la Síntesis textual busca condensar la información destacando ideas principales, palabras clave y relaciones causa–efecto, lo que permite quedarse con lo esencial.",
     points: 5,
   },
   {
@@ -881,7 +880,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El paso de Atención selectiva propone entrenar la concentración para sostener la lectura sin distraerse. El documento sugiere practicar con estímulos como música, internet o conversaciones, fortaleciendo la capacidad de mantener el foco en la lectura a pesar de los distractores.",
-    question: "¿Cómo recomienda el documento entrenar la atención selectiva?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cómo recomienda el documento entrenar la atención selectiva?",
     options: [
       { id: "a", text: "Evitar toda práctica de lectura hasta el día de la prueba." },
       {
@@ -893,8 +892,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Depender únicamente de la inspiración del día del examen." },
     ],
     correct: "b",
-    explanation:
-      "El documento sugiere practicar la lectura mientras se gestionan estímulos distractores, de modo que la concentración se fortalezca y se sostenga la atención en el texto.",
+    explanation: "En la situacion descrita, el documento sugiere practicar la lectura mientras se gestionan estímulos distractores, de modo que la concentración se fortalezca y se sostenga la atención en el texto.",
     points: 5,
   },
   {
@@ -902,7 +900,7 @@ const questionsV1: Question[] = [
     category: "Análisis de Gráficos",
     context:
       "En el ejemplo \"Rendimiento de un estudiante en un curso\", el gráfico lineal presenta en el eje vertical (ordenada) la puntuación de 0 a 10 y en el eje horizontal (abscisa) el número de lección entre 0 y 10, lo que permite observar la variación del desempeño a lo largo del curso.",
-    question: "En el gráfico lineal del ejemplo citado, ¿qué representa la abscisa?",
+    question: "Situacion\n\nUn analista de la Oficina de Planeacion debe interpretar graficos estadisticos para un informe de gestion. Revisa material metodologico sobre lectura de representaciones graficas.\n\nPregunta\n\nCon base en la situacion descrita, en el gráfico lineal del ejemplo citado, ¿qué representa la abscisa?",
     options: [
       { id: "a", text: "La puntuación obtenida por el estudiante." },
       { id: "b", text: "El número de lección dentro del curso." },
@@ -911,8 +909,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "El porcentaje de asistencia a las sesiones." },
     ],
     correct: "b",
-    explanation:
-      "La abscisa corresponde al eje horizontal, donde el ejemplo ubica el número de lección para seguir la evolución del rendimiento a lo largo del curso.",
+    explanation: "En la situacion descrita, la abscisa corresponde al eje horizontal, donde el ejemplo ubica el número de lección para seguir la evolución del rendimiento a lo largo del curso.",
     points: 5,
   },
   {
@@ -920,7 +917,7 @@ const questionsV1: Question[] = [
     category: "Análisis de Gráficos",
     context:
       "El ejemplo de tabla \"Competencias evaluadas a los concursantes nivel profesional – Convocatoria 429 de 2016 – Antioquia\" incluye una nota al pie que contextualiza la información presentada en columnas de Código OPEC y Nivel.",
-    question: "¿Qué señala la nota al pie incluida en la tabla del ejemplo?",
+    question: "Situacion\n\nUn analista de la Oficina de Planeacion debe interpretar graficos estadisticos para un informe de gestion. Revisa material metodologico sobre lectura de representaciones graficas.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué señala la nota al pie incluida en la tabla del ejemplo?",
     options: [
       { id: "a", text: "Que la tabla corresponde a la convocatoria 2023 sin ajustes previos." },
       { id: "b", text: "Que las competencias fueron modificadas por el acuerdo N° 00047628293 de 2017." },
@@ -929,8 +926,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Que los datos registrados son estimaciones sin soporte documental." },
     ],
     correct: "b",
-    explanation:
-      "La nota al pie indica expresamente que las competencias fueron modificadas por el acuerdo N° 00047628293 de 2017, información necesaria para interpretar la tabla.",
+    explanation: "En la situacion descrita, la nota al pie indica expresamente que las competencias fueron modificadas por el acuerdo N° 00047628293 de 2017, información necesaria para interpretar la tabla.",
     points: 5,
   },
   {
@@ -938,7 +934,7 @@ const questionsV1: Question[] = [
     category: "Estrategias de Lectura",
     context:
       "Entre los tips para resolver ítems, el documento recomienda repetir la pregunta con tus palabras para clarificar redacciones técnicas o 'cáscaras' que elevan la dificultad aparente y para asegurarse de comprender lo solicitado antes de revisar las opciones.",
-    question: "¿Cuál es la finalidad principal de repetir la pregunta con tus propias palabras?",
+    question: "Situacion\n\nDurante una capacitacion para aspirantes a concursos publicos, el facilitador presenta estrategias efectivas para resolver items de seleccion multiple y optimizar el tiempo de lectura.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la finalidad principal de repetir la pregunta con tus propias palabras?",
     options: [
       { id: "a", text: "Ganar tiempo sin necesidad de leer el texto base." },
       {
@@ -950,8 +946,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Recordar las notas al pie sin volver al enunciado." },
     ],
     correct: "b",
-    explanation:
-      "Repetir la pregunta con palabras propias ayuda a despejar términos técnicos o trampas, confirmando qué se solicita antes de contrastar las opciones.",
+    explanation: "En la situacion descrita, repetir la pregunta con palabras propias ayuda a despejar términos técnicos o trampas, confirmando qué se solicita antes de contrastar las opciones.",
     points: 5,
   },
   {
@@ -959,7 +954,7 @@ const questionsV1: Question[] = [
     category: "Estrategias de Lectura",
     context:
       "La recomendación clave del documento plantea que, antes de atribuir fallas a redactores o textos, conviene cuestionar la propia estrategia: analizar si se comprende bien la pregunta, qué conviene leer primero, si se identificó la información relevante y por qué persisten dudas entre opciones.",
-    question: "Según la recomendación clave, ¿qué debe hacer el aspirante antes de culpar al enunciado o al redactor?",
+    question: "Situacion\n\nDurante una capacitacion para aspirantes a concursos publicos, el facilitador presenta estrategias efectivas para resolver items de seleccion multiple y optimizar el tiempo de lectura.\n\nPregunta\n\nCon base en la situacion descrita, según la recomendación clave, ¿qué debe hacer el aspirante antes de culpar al enunciado o al redactor?",
     options: [
       { id: "a", text: "Solicitar la anulación del ítem sin análisis previo." },
       { id: "b", text: "Cuestionar su propio análisis, orden de lectura e identificación de información relevante." },
@@ -968,8 +963,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Suspender la prueba hasta recibir confirmación oficial." },
     ],
     correct: "b",
-    explanation:
-      "El documento propone una revisión metacognitiva que incluye evaluar cómo se analizó la pregunta, el orden de lectura y la identificación de información antes de responsabilizar al enunciado.",
+    explanation: "En la situacion descrita, el documento propone una revisión metacognitiva que incluye evaluar cómo se analizó la pregunta, el orden de lectura y la identificación de información antes de responsabilizar al enunciado.",
     points: 5,
   },
   {
@@ -977,7 +971,7 @@ const questionsV1: Question[] = [
     category: "Estrategias de Lectura",
     context:
       "Los procesos cognitivos que sustentan la comprensión se agrupan en recuerdo (ideas, conceptos, modelos, principios, teorías), comprensión (parafrasear, interpretar, reorganizar, extrapolar) y aplicación (transferir información y resolver problemas), incorporando conocimiento mediante inteligencia, atención, memoria y lenguaje.",
-    question: "¿Qué acciones describe el enfoque de comprensión dentro de los procesos cognitivos mencionados?",
+    question: "Situacion\n\nDurante una capacitacion para aspirantes a concursos publicos, el facilitador presenta estrategias efectivas para resolver items de seleccion multiple y optimizar el tiempo de lectura.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué acciones describe el enfoque de comprensión dentro de los procesos cognitivos mencionados?",
     options: [
       { id: "a", text: "Recordar datos y definiciones sin analizarlos." },
       { id: "b", text: "Parafrasear, interpretar, reorganizar y extrapolar la información leída." },
@@ -986,8 +980,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Reducir la lectura a identificar la longitud de cada párrafo." },
     ],
     correct: "b",
-    explanation:
-      "El enfoque de comprensión implica transformar la información: parafrasear, interpretar, reorganizar y extrapolar, a diferencia del simple recuerdo o de la aplicación directa.",
+    explanation: "En la situacion descrita, el enfoque de comprensión implica transformar la información: parafrasear, interpretar, reorganizar y extrapolar, a diferencia del simple recuerdo o de la aplicación directa.",
     points: 5,
   },
   {
@@ -995,7 +988,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "La presentación \"Sistema de Gestión en Seguridad y Salud en el Trabajo\" fue elaborada por Estefany Fierro Carbonell, especialista en SST, e incluye una diapositiva final de agradecimiento y espacio para preguntas.",
-    question: "¿Quién lidera la presentación sobre el Sistema de Gestión en Seguridad y Salud en el Trabajo?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Quién lidera la presentación sobre el Sistema de Gestión en Seguridad y Salud en el Trabajo?",
     options: [
       { id: "a", text: "Juan David Mejía Balvín, especialista en convocatorias públicas." },
       { id: "b", text: "Estefany Fierro Carbonell, especialista en SST." },
@@ -1004,8 +997,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Carlos Mario Estrada, director del SENA." },
     ],
     correct: "b",
-    explanation:
-      "El documento identifica a Estefany Fierro Carbonell, especialista en SST, como responsable de la presentación sobre el SG-SST.",
+    explanation: "En la situacion descrita, el documento identifica a Estefany Fierro Carbonell, especialista en SST, como responsable de la presentación sobre el SG-SST.",
     points: 5,
   },
   {
@@ -1013,7 +1005,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El objetivo de la presentación es orientar a los servidores públicos sobre sus responsabilidades en Seguridad y Salud en el Trabajo dentro del Sistema de Gestión Integrado y de la regulación del SG-SST, aclarando qué exige la norma y qué obligaciones recaen en cada actor.",
-    question: "¿Cuál es el propósito operativo del material descrito?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es el propósito operativo del material descrito?",
     options: [
       { id: "a", text: "Difundir estadísticas de accidentalidad sin recomendaciones." },
       {
@@ -1025,8 +1017,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Anunciar cambios en la nómina institucional para 2025." },
     ],
     correct: "b",
-    explanation:
-      "La presentación busca que los servidores comprendan las exigencias normativas, la estructura del sistema y las responsabilidades de cada actor en el SG-SST.",
+    explanation: "En la situacion descrita, la presentación busca que los servidores comprendan las exigencias normativas, la estructura del sistema y las responsabilidades de cada actor en el SG-SST.",
     points: 5,
   },
   {
@@ -1034,7 +1025,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El contenido se organiza en tres bloques: Fundamentos conceptuales y reglamentarios, Estructura del SG-SST y Obligaciones del SG-SST. Además, se inicia con la diapositiva \"¿Qué sabemos del SG-SST?\" para activar conocimientos previos.",
-    question: "¿Cómo se estructura el contenido principal de la presentación?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cómo se estructura el contenido principal de la presentación?",
     options: [
       { id: "a", text: "Política económica, análisis financiero y cierre contable." },
       { id: "b", text: "Diagnóstico de clientes, marketing institucional y evaluación comercial." },
@@ -1046,8 +1037,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Gestión del talento humano, planeación de nómina y bienestar recreativo." },
     ],
     correct: "c",
-    explanation:
-      "La presentación organiza el estudio en tres bloques centrales: fundamentos, estructura y obligaciones del SG-SST.",
+    explanation: "En la situacion descrita, la presentación organiza el estudio en tres bloques centrales: fundamentos, estructura y obligaciones del SG-SST.",
     points: 5,
   },
   {
@@ -1055,7 +1045,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El Sistema de Seguridad Social Integral articula los subsistemas de salud, pensiones y riesgos laborales, así como las prestaciones familiares, a través de entidades como EPS, AFP, ARL y Cajas de Compensación Familiar para cubrir contingencias como enfermedad, invalidez, vejez y accidentes de trabajo.",
-    question: "¿Qué describe el material como marco de referencia del SG-SST?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué describe el material como marco de referencia del SG-SST?",
     options: [
       { id: "a", text: "Exclusivamente la red hospitalaria pública." },
       {
@@ -1067,8 +1057,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "La Superintendencia de Industria y Comercio." },
     ],
     correct: "b",
-    explanation:
-      "La presentación ubica al SG-SST dentro del Sistema de Seguridad Social Integral, integrando salud, pensiones, riesgos laborales y prestaciones familiares.",
+    explanation: "En la situacion descrita, la presentación ubica al SG-SST dentro del Sistema de Seguridad Social Integral, integrando salud, pensiones, riesgos laborales y prestaciones familiares.",
     points: 5,
   },
   {
@@ -1076,7 +1065,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "La responsabilidad legal en Seguridad y Salud en el Trabajo se clasifica en ámbitos laboral, civil, penal y administrativo, resaltando el deber del empleador de proteger a los trabajadores y afiliarse al sistema de riesgos laborales.",
-    question: "¿Qué ámbitos componen la responsabilidad legal en SST según la presentación?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué ámbitos componen la responsabilidad legal en SST según la presentación?",
     options: [
       { id: "a", text: "Laboral, civil, penal y administrativa." },
       { id: "b", text: "Mercantil, tributaria, aduanera y ambiental." },
@@ -1085,8 +1074,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Académica, disciplinaria, pedagógica y social." },
     ],
     correct: "a",
-    explanation:
-      "El documento enfatiza que la responsabilidad en SST se aborda en cuatro frentes: laboral, civil, penal y administrativa.",
+    explanation: "En la situacion descrita, el documento enfatiza que la responsabilidad en SST se aborda en cuatro frentes: laboral, civil, penal y administrativa.",
     points: 5,
   },
   {
@@ -1094,7 +1082,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "La responsabilidad laboral del empleador abarca regímenes objetivo y subjetivo. La objetiva se origina en el riesgo laboral y no admite eximentes, mientras que la subjetiva exige probar culpa y conlleva indemnización plena de perjuicios.",
-    question: "¿Qué caracteriza la responsabilidad objetiva del empleador en SST?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué caracteriza la responsabilidad objetiva del empleador en SST?",
     options: [
       { id: "a", text: "Se basa en la culpa comprobada del trabajador." },
       { id: "b", text: "Permite eximir al empleador si delega la tarea a un contratista." },
@@ -1106,8 +1094,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Se limita a daños materiales sobre maquinaria." },
     ],
     correct: "c",
-    explanation:
-      "La responsabilidad objetiva nace de la materialización del riesgo laboral y obliga al empleador incluso sin necesidad de demostrar culpa.",
+    explanation: "En la situacion descrita, la responsabilidad objetiva nace de la materialización del riesgo laboral y obliga al empleador incluso sin necesidad de demostrar culpa.",
     points: 5,
   },
   {
@@ -1115,7 +1102,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "La línea normativa del SG-SST incluye antecedentes como la Ley 9 de 1979 y la Resolución 1016 de 1989, y bases vigentes como la Ley 1562 de 2012, el Decreto 1072 de 2015, el Decreto 472 de 2015 y la Resolución 312 de 2019.",
-    question: "¿Cuál de las siguientes normas hace parte de la base normativa vigente del SG-SST mencionada?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál de las siguientes normas hace parte de la base normativa vigente del SG-SST mencionada?",
     options: [
       { id: "a", text: "Ley 152 de 1994 de planes de desarrollo." },
       { id: "b", text: "Ley 1562 de 2012 sobre riesgos laborales." },
@@ -1124,8 +1111,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Resolución 1151 de 2022 de conectividad digital." },
     ],
     correct: "b",
-    explanation:
-      "La Ley 1562 de 2012 es parte del conjunto normativo vigente que fundamenta el SG-SST en Colombia.",
+    explanation: "En la situacion descrita, la Ley 1562 de 2012 es parte del conjunto normativo vigente que fundamenta el SG-SST en Colombia.",
     points: 5,
   },
   {
@@ -1133,7 +1119,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Entre las actualizaciones normativas de 2025 se encuentra la Circular 009 sobre autoevaluación de estándares mínimos 2024, el Decreto 0405 sobre multas por despido de denunciantes de acoso sexual y la Resolución 1843 sobre evaluaciones médicas ocupacionales, entre otras disposiciones emitidas por los ministerios de Trabajo y de Salud.",
-    question: "¿Qué establece la Circular 009 de 2025 mencionada en la presentación?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué establece la Circular 009 de 2025 mencionada en la presentación?",
     options: [
       { id: "a", text: "El cierre definitivo de empresas reincidentes en incumplimientos." },
       { id: "b", text: "El manual de señalización de ambientes 100% libres de humo." },
@@ -1145,8 +1131,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "La adopción de la Política Nacional de Salud Mental 2025-2034." },
     ],
     correct: "c",
-    explanation:
-      "La Circular 009 de 2025 fija el plazo para reportar la autoevaluación de estándares mínimos del SG-SST del año 2024.",
+    explanation: "En la situacion descrita, la Circular 009 de 2025 fija el plazo para reportar la autoevaluación de estándares mínimos del SG-SST del año 2024.",
     points: 5,
   },
   {
@@ -1154,7 +1139,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El SG-SST aplica a todos los empleadores públicos y privados, contratantes civiles, comerciales o administrativos, organizaciones de economía solidaria, empresas de servicios temporales y trabajadores dependientes, contratistas, cooperados y en misión.",
-    question: "¿A quiénes se aplica obligatoriamente el SG-SST según el documento?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿A quiénes se aplica obligatoriamente el SG-SST según el documento?",
     options: [
       { id: "a", text: "Solo a empresas privadas con más de 50 trabajadores." },
       {
@@ -1166,8 +1151,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Solo a empresas con capital extranjero." },
     ],
     correct: "b",
-    explanation:
-      "El alcance del SG-SST cubre a todos los empleadores y contratantes, así como a trabajadores dependientes, contratistas y cooperados que desarrollan actividades bajo su control.",
+    explanation: "En la situacion descrita, el alcance del SG-SST cubre a todos los empleadores y contratantes, así como a trabajadores dependientes, contratistas y cooperados que desarrollan actividades bajo su control.",
     points: 5,
   },
   {
@@ -1175,7 +1159,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "La Seguridad y Salud en el Trabajo se define como la disciplina que previene lesiones y enfermedades causadas por las condiciones laborales, promueve la salud del trabajador y busca mantener el bienestar físico, mental y social en todas las ocupaciones.",
-    question: "¿Qué describe la definición de Seguridad y Salud en el Trabajo incluida en la presentación?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué describe la definición de Seguridad y Salud en el Trabajo incluida en la presentación?",
     options: [
       { id: "a", text: "Un programa recreativo para familias de servidores públicos." },
       { id: "b", text: "Una estrategia de mercadeo para empresas de seguros privados." },
@@ -1187,8 +1171,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Un esquema voluntario de certificación empresarial sin implicaciones legales." },
     ],
     correct: "c",
-    explanation:
-      "La presentación define la SST como la disciplina que previene lesiones, protege la salud y asegura el bienestar integral de las personas en el trabajo.",
+    explanation: "En la situacion descrita, la presentación define la SST como la disciplina que previene lesiones, protege la salud y asegura el bienestar integral de las personas en el trabajo.",
     points: 5,
   },
   {
@@ -1196,7 +1179,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El ciclo PHVA (Planear, Hacer, Verificar y Actuar) se presenta como la columna vertebral del SG-SST para lograr la mejora continua mediante la planificación, la implementación, la comprobación y las acciones correctivas.",
-    question: "¿Qué papel cumple el ciclo PHVA dentro del SG-SST?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué papel cumple el ciclo PHVA dentro del SG-SST?",
     options: [
       { id: "a", text: "Sustituir el cumplimiento normativo por auditorías externas." },
       { id: "b", text: "Definir los planes de mercadeo de las entidades públicas." },
@@ -1208,16 +1191,15 @@ const questionsV1: Question[] = [
       { id: "e", text: "Delimitar las sanciones económicas aplicables al empleador." },
     ],
     correct: "c",
-    explanation:
-      "El ciclo PHVA es el esquema de mejora continua que integra las etapas de planeación, ejecución, verificación y actuación en el SG-SST.",
+    explanation: "En la situacion descrita, el ciclo PHVA es el esquema de mejora continua que integra las etapas de planeación, ejecución, verificación y actuación en el SG-SST.",
     points: 5,
   },
   {
     id: 51,
     category: "Comprensión Lectora",
     context:
-      "La fase de planificación del SG-SST comprende la evaluación inicial, la identificación de peligros y valoración de riesgos, la definición de políticas y objetivos, el plan de trabajo, la capacitación, los indicadores y la comunicación/documentación.",
-    question: "¿Cuál de las siguientes actividades pertenece a la fase de planificación del SG-SST?",
+      "Situación\n\nUna empresa de manufactura está implementando su Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST). El coordinador de SST debe identificar qué actividades corresponden a cada fase del ciclo PHVA. La fase de planificación comprende la evaluación inicial, la identificación de peligros y valoración de riesgos, la definición de políticas y objetivos, el plan de trabajo, la capacitación, los indicadores y la comunicación/documentación.\n\nPregunta\n\n¿Cuál de las siguientes actividades pertenece a la fase de planificación del SG-SST?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál de las siguientes actividades pertenece a la fase de planificación del SG-SST?",
     options: [
       { id: "a", text: "Realizar la auditoría de investigación de accidentes laborales." },
       { id: "b", text: "Responder a emergencias en campo mediante brigadas." },
@@ -1226,8 +1208,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Cerrar temporalmente instalaciones por orden de autoridad." },
     ],
     correct: "c",
-    explanation:
-      "La planificación del SG-SST incluye la elaboración del plan de trabajo con objetivos, indicadores y acciones formativas.",
+    explanation: "En la situacion descrita, la planificación del SG-SST incluye la elaboración del plan de trabajo con objetivos, indicadores y acciones formativas.",
     points: 5,
   },
   {
@@ -1235,7 +1216,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Los actores clave del SG-SST identificados son el empleador, los trabajadores, la ARL y los comités y brigadas de apoyo que acompañan la gestión.",
-    question: "¿Quiénes se reconocen como actores principales del SG-SST?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Quiénes se reconocen como actores principales del SG-SST?",
     options: [
       { id: "a", text: "El Congreso de la República y las altas cortes." },
       { id: "b", text: "Los proveedores externos de bienes y los clientes finales." },
@@ -1244,8 +1225,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Las empresas de vigilancia privada y los sindicatos internacionales." },
     ],
     correct: "c",
-    explanation:
-      "La presentación destaca al empleador, los trabajadores, la ARL y los comités o brigadas como actores esenciales del SG-SST.",
+    explanation: "En la situacion descrita, la presentación destaca al empleador, los trabajadores, la ARL y los comités o brigadas como actores esenciales del SG-SST.",
     points: 5,
   },
   {
@@ -1253,7 +1233,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Entre las obligaciones del empleador se encuentran definir, firmar y divulgar la política SST, implementar el plan anual, gestionar riesgos, asegurar la participación de los trabajadores, asignar responsabilidades, garantizar capacitación dentro de la jornada y reportar resultados a la alta dirección.",
-    question: "¿Cuál es una obligación específica del empleador dentro del SG-SST?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es una obligación específica del empleador dentro del SG-SST?",
     options: [
       { id: "a", text: "Solicitar a los trabajadores que costeen su capacitación en horario extra laboral." },
       {
@@ -1265,8 +1245,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Reducir la inversión en SST cuando no se presenten accidentes." },
     ],
     correct: "b",
-    explanation:
-      "El empleador debe formular y divulgar la política SST, integrar el sistema a la gestión corporativa y garantizar recursos y participación.",
+    explanation: "En la situacion descrita, el empleador debe formular y divulgar la política SST, integrar el sistema a la gestión corporativa y garantizar recursos y participación.",
     points: 5,
   },
   {
@@ -1274,7 +1253,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Las ARL deben capacitar al COPASST o vigía SST, prestar asesoría y asistencia técnica a las empresas afiliadas y ejercer la vigilancia delegada del cumplimiento del SG-SST.",
-    question: "¿Qué obligación recae sobre la ARL según la presentación?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué obligación recae sobre la ARL según la presentación?",
     options: [
       { id: "a", text: "Diseñar y aprobar la nómina de todos los contratistas de una entidad." },
       { id: "b", text: "Capacitar al COPASST o vigía SST y brindar asistencia técnica a las empresas afiliadas." },
@@ -1283,8 +1262,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Emitir sanciones penales a los trabajadores infractores." },
     ],
     correct: "b",
-    explanation:
-      "El documento señala que las ARL deben capacitar al COPASST o vigía y ofrecer asesoría técnica y vigilancia sobre el SG-SST.",
+    explanation: "En la situacion descrita, el documento señala que las ARL deben capacitar al COPASST o vigía y ofrecer asesoría técnica y vigilancia sobre el SG-SST.",
     points: 5,
   },
   {
@@ -1292,7 +1270,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El trabajador debe cuidar su salud, entregar información clara y veraz, cumplir normas e instrucciones del SG-SST, reportar peligros y participar en actividades de capacitación para aportar al logro de los objetivos del sistema.",
-    question: "¿Qué deber específico tiene el trabajador dentro del SG-SST?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué deber específico tiene el trabajador dentro del SG-SST?",
     options: [
       { id: "a", text: "Determinar la política institucional de SST." },
       { id: "b", text: "Aprobar la contratación de la ARL para la empresa." },
@@ -1304,8 +1282,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Autorizar las auditorías externas de la entidad." },
     ],
     correct: "c",
-    explanation:
-      "El trabajador tiene la obligación de cuidar su salud, reportar riesgos, cumplir las normas y asistir a las capacitaciones del SG-SST.",
+    explanation: "En la situacion descrita, el trabajador tiene la obligación de cuidar su salud, reportar riesgos, cumplir las normas y asistir a las capacitaciones del SG-SST.",
     points: 5,
   },
   {
@@ -1313,7 +1290,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Los comités y brigadas cumplen funciones de vigilancia, capacitación, coordinación, auditoría, prevención, inspecciones, investigación, gestión de quejas, preparación y respuesta a emergencias, análisis y mejora, e incluso articulan frentes como el Comité de Seguridad Vial.",
-    question: "¿Qué funciones se asignan a los comités y brigadas que apoyan el SG-SST?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué funciones se asignan a los comités y brigadas que apoyan el SG-SST?",
     options: [
       { id: "a", text: "Gestionar únicamente las vacaciones y licencias de los trabajadores." },
       {
@@ -1325,8 +1302,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Elaborar los estados financieros certificados de la organización." },
     ],
     correct: "b",
-    explanation:
-      "El documento señala que los comités y brigadas tienen roles integrales de vigilancia, formación, inspección, prevención e intervención ante emergencias.",
+    explanation: "En la situacion descrita, el documento señala que los comités y brigadas tienen roles integrales de vigilancia, formación, inspección, prevención e intervención ante emergencias.",
     points: 5,
   },
   {
@@ -1334,7 +1310,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El Decreto 472 de 2015, compilado en el Decreto 1072 de 2015, fija criterios sancionatorios del SG-SST según tamaño, número de trabajadores y activos, contemplando multas hasta de 1000 salarios mínimos y cierres temporales o definitivos.",
-    question: "¿Qué tipo de sanciones contempla la normativa mencionada para incumplimientos del SG-SST?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué tipo de sanciones contempla la normativa mencionada para incumplimientos del SG-SST?",
     options: [
       { id: "a", text: "Únicamente llamados de atención verbales por parte del supervisor." },
       { id: "b", text: "Suspensión indefinida del contrato de la ARL sin multas." },
@@ -1346,8 +1322,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Pérdida de ciudadanía laboral sin consecuencias económicas." },
     ],
     correct: "c",
-    explanation:
-      "El régimen sancionatorio prevé multas significativas y cierres temporales o definitivos, modulados por el tamaño y activos de la empresa.",
+    explanation: "En la situacion descrita, el régimen sancionatorio prevé multas significativas y cierres temporales o definitivos, modulados por el tamaño y activos de la empresa.",
     points: 5,
   },
   {
@@ -1355,7 +1330,7 @@ const questionsV1: Question[] = [
     category: "Competencias de Comprensión",
     context:
       "La habilidad es una capacidad específica para ejecutar una tarea concreta, mientras que la competencia integra conocimientos, habilidades, actitudes y valores para resolver problemas en contextos variados. La competencia implica un desempeño complejo y adaptativo.",
-    question: "¿Qué diferencia esencial existe entre habilidad y competencia?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué diferencia esencial existe entre habilidad y competencia?",
     options: [
       { id: "a", text: "La habilidad es más compleja que la competencia." },
       { id: "b", text: "La competencia integra conocimientos, habilidades y actitudes en contextos variados." },
@@ -1364,8 +1339,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "La competencia se limita a tareas mecánicas específicas." },
     ],
     correct: "b",
-    explanation:
-      "La competencia es un concepto más amplio que integra conocimientos, habilidades, actitudes y valores para resolver problemas en diversos contextos, mientras que la habilidad es una capacidad específica.",
+    explanation: "En la situacion descrita, la competencia es un concepto más amplio que integra conocimientos, habilidades, actitudes y valores para resolver problemas en diversos contextos, mientras que la habilidad es una capacidad específica.",
     points: 5,
   },
   {
@@ -1373,7 +1347,7 @@ const questionsV1: Question[] = [
     category: "Estructura de Preguntas",
     context:
       "Una pregunta de selección múltiple se compone de tres elementos: el enunciado (plantea la situación), las opciones de respuesta (incluyen la clave correcta y los distractores), y los distractores (opciones incorrectas pero verosímiles que evalúan comprensión).",
-    question: "¿Cuál es la función principal de los distractores en una pregunta de selección múltiple?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la función principal de los distractores en una pregunta de selección múltiple?",
     options: [
       { id: "a", text: "Confundir deliberadamente al evaluado sin propósito pedagógico." },
       { id: "b", text: "Presentar opciones incorrectas pero verosímiles que evalúan la comprensión." },
@@ -1382,8 +1356,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Reducir el número de respuestas posibles." },
     ],
     correct: "b",
-    explanation:
-      "Los distractores son opciones incorrectas pero verosímiles que permiten evaluar si el candidato comprende realmente el contenido, diferenciando el conocimiento superficial del profundo.",
+    explanation: "En la situacion descrita, los distractores son opciones incorrectas pero verosímiles que permiten evaluar si el candidato comprende realmente el contenido, diferenciando el conocimiento superficial del profundo.",
     points: 5,
   },
   {
@@ -1391,7 +1364,7 @@ const questionsV1: Question[] = [
     category: "Competencias de Comprensión",
     context:
       "La competencia interpretativa identifica y comprende información explícita e implícita. La competencia argumentativa establece razones y justificaciones para sustentar posiciones. La competencia propositiva genera soluciones, alternativas y propuestas creativas ante problemas.",
-    question: "¿Qué caracteriza a la competencia propositiva?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué caracteriza a la competencia propositiva?",
     options: [
       { id: "a", text: "Identificar información explícita en un texto." },
       { id: "b", text: "Establecer razones para justificar una posición." },
@@ -1400,8 +1373,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Resumir literalmente lo leído." },
     ],
     correct: "c",
-    explanation:
-      "La competencia propositiva se caracteriza por la capacidad de generar soluciones, alternativas y propuestas creativas ante problemas o situaciones planteadas.",
+    explanation: "En la situacion descrita, la competencia propositiva se caracteriza por la capacidad de generar soluciones, alternativas y propuestas creativas ante problemas o situaciones planteadas.",
     points: 5,
   },
   {
@@ -1409,7 +1381,7 @@ const questionsV1: Question[] = [
     category: "Niveles de Información",
     context:
       "La información local se encuentra en fragmentos específicos del texto (palabras, oraciones). La información global requiere integrar múltiples partes del texto para obtener el sentido general. La información intertextual relaciona el texto actual con otros textos o conocimientos previos.",
-    question: "¿Qué implica trabajar con información global en un texto?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué implica trabajar con información global en un texto?",
     options: [
       { id: "a", text: "Identificar el significado de una palabra específica." },
       { id: "b", text: "Integrar múltiples partes del texto para obtener el sentido general." },
@@ -1418,8 +1390,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Memorizar cada párrafo sin analizarlo." },
     ],
     correct: "b",
-    explanation:
-      "La información global requiere integrar y sintetizar múltiples partes del texto para comprender el sentido general o la idea principal, no solo fragmentos aislados.",
+    explanation: "En la situacion descrita, la información global requiere integrar y sintetizar múltiples partes del texto para comprender el sentido general o la idea principal, no solo fragmentos aislados.",
     points: 5,
   },
   {
@@ -1427,7 +1398,7 @@ const questionsV1: Question[] = [
     category: "Estrategias de Respuesta",
     context:
       "Para resolver ítems de comprensión se recomienda: leer primero la pregunta para saber qué buscar, subrayar palabras clave en el enunciado, eliminar opciones claramente incorrectas, y verificar que la respuesta seleccionada responde exactamente lo preguntado.",
-    question: "¿Por qué es útil leer primero la pregunta antes del texto completo?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Por qué es útil leer primero la pregunta antes del texto completo?",
     options: [
       { id: "a", text: "Para evitar leer el texto completo y ahorrar tiempo." },
       { id: "b", text: "Para saber qué información buscar y hacer una lectura enfocada." },
@@ -1436,8 +1407,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Para reducir la concentración en detalles importantes." },
     ],
     correct: "b",
-    explanation:
-      "Leer primero la pregunta permite identificar qué información específica se necesita buscar en el texto, haciendo la lectura más estratégica y enfocada.",
+    explanation: "En la situacion descrita, leer primero la pregunta permite identificar qué información específica se necesita buscar en el texto, haciendo la lectura más estratégica y enfocada.",
     points: 5,
   },
   {
@@ -1445,7 +1415,7 @@ const questionsV1: Question[] = [
     category: "Competencias de Comprensión",
     context:
       "En el siguiente fragmento: 'Los índices de desempleo aumentaron un 2% el último trimestre, lo cual demuestra que las políticas económicas implementadas no han sido efectivas para generar empleo.' La primera parte presenta un hecho (competencia interpretativa), mientras que la segunda establece una conclusión basada en ese hecho (competencia argumentativa).",
-    question: "¿Qué competencia se evidencia al establecer que el aumento del desempleo demuestra inefectividad de las políticas?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué competencia se evidencia al establecer que el aumento del desempleo demuestra inefectividad de las políticas?",
     options: [
       { id: "a", text: "Competencia interpretativa, al identificar datos numéricos." },
       { id: "b", text: "Competencia argumentativa, al establecer una relación causal y justificar una conclusión." },
@@ -1454,8 +1424,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Competencia memorística, al recordar porcentajes." },
     ],
     correct: "b",
-    explanation:
-      "La segunda parte del enunciado establece una relación causal y justifica una conclusión basándose en el hecho presentado, lo cual caracteriza la competencia argumentativa.",
+    explanation: "En la situacion descrita, la segunda parte del enunciado establece una relación causal y justifica una conclusión basándose en el hecho presentado, lo cual caracteriza la competencia argumentativa.",
     points: 5,
   },
   {
@@ -1463,7 +1432,7 @@ const questionsV1: Question[] = [
     category: "Estructura de Preguntas",
     context:
       "Los conectores lógicos (sin embargo, por lo tanto, además, en consecuencia) son esenciales para establecer relaciones entre ideas. Identificar correctamente estos conectores permite comprender la estructura argumentativa del texto y anticipar el tipo de información que seguirá.",
-    question: "¿Cuál es la importancia de identificar conectores lógicos en un texto?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la importancia de identificar conectores lógicos en un texto?",
     options: [
       { id: "a", text: "Son irrelevantes para la comprensión del texto." },
       { id: "b", text: "Permiten comprender la estructura argumentativa y relaciones entre ideas." },
@@ -1472,8 +1441,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Solo se usan en textos literarios, no en pruebas." },
     ],
     correct: "b",
-    explanation:
-      "Los conectores lógicos establecen relaciones entre ideas (contraste, consecuencia, adición, etc.) y permiten comprender la estructura argumentativa del texto.",
+    explanation: "En la situacion descrita, los conectores lógicos establecen relaciones entre ideas (contraste, consecuencia, adición, etc.) y permiten comprender la estructura argumentativa del texto.",
     points: 5,
   },
   {
@@ -1481,7 +1449,7 @@ const questionsV1: Question[] = [
     category: "Niveles de Información",
     context:
       "Un estudiante lee un artículo sobre calentamiento global y lo relaciona con un documental que vio previamente sobre el deshielo polar, estableciendo conexiones entre ambas fuentes para construir una comprensión más completa del fenómeno.",
-    question: "¿Qué nivel de información está utilizando el estudiante al relacionar el artículo con el documental?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué nivel de información está utilizando el estudiante al relacionar el artículo con el documental?",
     options: [
       { id: "a", text: "Información local, al enfocarse en datos específicos." },
       { id: "b", text: "Información global, al integrar partes del artículo." },
@@ -1490,8 +1458,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Información memorística, al recordar el documental." },
     ],
     correct: "c",
-    explanation:
-      "La información intertextual se caracteriza por relacionar el texto actual con otros textos, fuentes o conocimientos previos para construir una comprensión más completa.",
+    explanation: "En la situacion descrita, la información intertextual se caracteriza por relacionar el texto actual con otros textos, fuentes o conocimientos previos para construir una comprensión más completa.",
     points: 5,
   },
   {
@@ -1499,7 +1466,7 @@ const questionsV1: Question[] = [
     category: "Estrategias de Respuesta",
     context:
       "Al enfrentar opciones de respuesta similares, se recomienda identificar las palabras o frases que las diferencian, analizar si esas diferencias son sustanciales o superficiales, y contrastar cada variación con la pregunta original para determinar cuál responde con mayor precisión.",
-    question: "¿Cuál es la mejor estrategia para elegir entre opciones de respuesta muy similares?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la mejor estrategia para elegir entre opciones de respuesta muy similares?",
     options: [
       { id: "a", text: "Seleccionar la primera que parezca correcta sin analizar las demás." },
       { id: "b", text: "Identificar las diferencias clave y contrastarlas con la pregunta original." },
@@ -1508,8 +1475,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Seleccionar la opción más larga, pues suele ser correcta." },
     ],
     correct: "b",
-    explanation:
-      "La estrategia más efectiva es identificar las diferencias específicas entre opciones similares y contrastarlas con exactitud con lo que pregunta el enunciado.",
+    explanation: "En la situacion descrita, la estrategia más efectiva es identificar las diferencias específicas entre opciones similares y contrastarlas con exactitud con lo que pregunta el enunciado.",
     points: 5,
   },
   {
@@ -1517,7 +1483,7 @@ const questionsV1: Question[] = [
     category: "Competencias de Comprensión",
     context:
       "Ante el problema de alta rotación de personal en una empresa, un analista propone: implementar un programa de mentorías, flexibilizar horarios laborales, mejorar el plan de beneficios, y crear oportunidades de desarrollo profesional. Esta propuesta integra múltiples soluciones para abordar el problema.",
-    question: "¿Qué competencia demuestra el analista al proponer múltiples soluciones integradas?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué competencia demuestra el analista al proponer múltiples soluciones integradas?",
     options: [
       { id: "a", text: "Competencia interpretativa, al entender el problema." },
       { id: "b", text: "Competencia argumentativa, al justificar la rotación." },
@@ -1526,8 +1492,7 @@ const questionsV1: Question[] = [
       { id: "e", text: "Competencia memorística, al recordar estrategias conocidas." },
     ],
     correct: "c",
-    explanation:
-      "El analista demuestra competencia propositiva al generar múltiples soluciones creativas e integradas para abordar un problema complejo, no solo identificándolo o argumentando sobre él.",
+    explanation: "En la situacion descrita, el analista demuestra competencia propositiva al generar múltiples soluciones creativas e integradas para abordar un problema complejo, no solo identificándolo o argumentando sobre él.",
     points: 5,
   },
   {
@@ -1535,7 +1500,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El libro es uno de los inventos más asombrosos de la humanidad. A diferencia de otros instrumentos —como el microscopio, el telescopio, el teléfono o el arado— que son extensiones de la vista, la voz o el brazo, el libro es una extensión de la memoria y de la imaginación. Mientras que un periódico o un disco se consumen 'para el olvido', un libro se lee 'para la memoria'. Los antiguos desconfiaban de la palabra escrita, pues la consideraban muerta; por eso Pitágoras se negó a escribir y Platón recurrió al diálogo. Las bibliotecas son 'gabinetes mágicos' donde reposan los mejores espíritus de la humanidad que esperan ser despertados. Un libro cerrado es apenas un objeto, pero al leerlo conectamos con el tiempo transcurrido entre su escritura y nuestra lectura.",
-    question: "Tras comparar el culto a la oralidad de los antiguos con el culto a los libros actual, ¿cuál afirmación es correcta?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, tras comparar el culto a la oralidad de los antiguos con el culto a los libros actual, ¿cuál afirmación es correcta?",
     options: [
       { id: "a", text: "Son dos formas de pensamiento determinadas por necesidades culturales diferentes." },
       { id: "b", text: "Los antiguos tenían razón, pues gracias a la escritura hoy conocemos su cultura." },
@@ -1543,8 +1508,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "Los antiguos tenían razón, pues hoy se ha perdido la capacidad de escuchar y memorizar." },
     ],
     correct: "a",
-    explanation:
-      "El texto establece que el culto a la oralidad de los antiguos y el culto al libro moderno son dos formas de pensamiento determinadas por necesidades culturales diferentes de cada época.",
+    explanation: "En la situacion descrita, el texto establece que el culto a la oralidad de los antiguos y el culto al libro moderno son dos formas de pensamiento determinadas por necesidades culturales diferentes de cada época.",
     points: 5,
   },
   {
@@ -1552,7 +1516,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El libro es uno de los inventos más asombrosos de la humanidad. A diferencia de otros instrumentos —como el microscopio, el telescopio, el teléfono o el arado— que son extensiones de la vista, la voz o el brazo, el libro es una extensión de la memoria y de la imaginación. Mientras que un periódico o un disco se consumen 'para el olvido', un libro se lee 'para la memoria'. Los antiguos desconfiaban de la palabra escrita, pues la consideraban muerta; por eso Pitágoras se negó a escribir y Platón recurrió al diálogo.",
-    question: "En el texto se afirma que un periódico 'se lee para el olvido'. ¿A qué alude esa expresión?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, en el texto se afirma que un periódico 'se lee para el olvido'. ¿A qué alude esa expresión?",
     options: [
       { id: "a", text: "A la naturaleza efímera y cotidiana de dicha publicación." },
       { id: "b", text: "A la naturaleza caótica y dispersa de dicha publicación." },
@@ -1560,8 +1524,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "A la abundante información escrita en nuestros días." },
     ],
     correct: "a",
-    explanation:
-      "La expresión 'se lee para el olvido' alude a la naturaleza efímera y cotidiana del periódico, que contrasta con el libro que se lee 'para la memoria'.",
+    explanation: "En la situacion descrita, la expresión 'se lee para el olvido' alude a la naturaleza efímera y cotidiana del periódico, que contrasta con el libro que se lee 'para la memoria'.",
     points: 5,
   },
   {
@@ -1569,7 +1532,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Los antiguos desconfiaban de la palabra escrita, pues la consideraban muerta; por eso Pitágoras se negó a escribir y Platón recurrió al diálogo. El texto contrapone la oralidad antigua —que confiaba en la memoria viva de discípulos y maestros— con el culto al libro de la modernidad. Las bibliotecas se presentan como 'gabinetes mágicos' donde reposan los mejores espíritus de la humanidad que esperan ser despertados.",
-    question: "De la relación planteada entre oralidad y escritura se deduce que:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, de la relación planteada entre oralidad y escritura se deduce que:",
     options: [
       { id: "a", text: "El pasado se conoce gracias a la escritura y el futuro gracias a la oralidad." },
       { id: "b", text: "La memoria está determinada por la oralidad y el olvido por la escritura." },
@@ -1577,8 +1540,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "Lo antiguo estuvo determinado por la oralidad y lo moderno por la escritura." },
     ],
     correct: "d",
-    explanation:
-      "El texto establece claramente que lo antiguo se caracterizó por el culto a la oralidad (Pitágoras, Platón) y lo moderno por el culto a la escritura y los libros.",
+    explanation: "En la situacion descrita, el texto establece claramente que lo antiguo se caracterizó por el culto a la oralidad (Pitágoras, Platón) y lo moderno por el culto a la escritura y los libros.",
     points: 5,
   },
   {
@@ -1586,7 +1548,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El libro es uno de los inventos más asombrosos de la humanidad. A diferencia de otros instrumentos —como el microscopio, el telescopio, el teléfono o el arado— que son extensiones de la vista, la voz o el brazo, el libro es una extensión de la memoria y de la imaginación. Un libro cerrado es apenas un objeto, pero al leerlo conectamos con el tiempo transcurrido entre su escritura y nuestra lectura. La lectura mantiene viva la búsqueda de felicidad y sabiduría.",
-    question: "Al señalar que el libro es una extensión de la memoria y la imaginación, ¿qué implica ello?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, al señalar que el libro es una extensión de la memoria y la imaginación, ¿qué implica ello?",
     options: [
       { id: "a", text: "Que los libros se encuentran más allá del pasado de la humanidad." },
       { id: "b", text: "Que amplían la historia y las fantasías de la humanidad." },
@@ -1594,8 +1556,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "Que promueven y estimulan los distintos avances." },
     ],
     correct: "b",
-    explanation:
-      "Al ser una extensión de la memoria (historia) y la imaginación (fantasías), el libro amplía ambas dimensiones de la experiencia humana.",
+    explanation: "En la situacion descrita, al ser una extensión de la memoria (historia) y la imaginación (fantasías), el libro amplía ambas dimensiones de la experiencia humana.",
     points: 5,
   },
   {
@@ -1603,7 +1564,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "La retórica amorosa del siglo XII describe un esquema en el que el amor está siempre acompañado por un obstáculo. El deseo se dirige hacia un objeto que nunca se poseerá plenamente en el 'goce'. Según la retórica cortés, el obstáculo amoroso está significado por la condena virtual contra el matrimonio, porque implica un derecho de posesión. La inmanencia del obstáculo se manifiesta en la exigencia del secreto: revelar el amor lo destruiría. La retórica del siglo XII reposa sobre una doble afirmación: el deseo se identifica con su expresión, y quien canta merece el amor.",
-    question: "En el pasaje sobre el amor cortés, ¿por qué se cuestiona la idea del matrimonio como limitante del amor?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, en el pasaje sobre el amor cortés, ¿por qué se cuestiona la idea del matrimonio como limitante del amor?",
     options: [
       { id: "a", text: "Responde al interés de la sociedad medieval por comprender el deseo." },
       { id: "b", text: "Contradice la necesidad de los amantes de mantener su secreto." },
@@ -1611,8 +1572,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "Es un obstáculo para la creación de metáforas en el siglo XII." },
     ],
     correct: "c",
-    explanation:
-      "El texto indica que la concepción del matrimonio como obstáculo corresponde a la retórica y forma de pensar características de la sociedad del siglo XII.",
+    explanation: "En la situacion descrita, el texto indica que la concepción del matrimonio como obstáculo corresponde a la retórica y forma de pensar características de la sociedad del siglo XII.",
     points: 5,
   },
   {
@@ -1620,7 +1580,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Según la retórica cortés del siglo XII, el obstáculo amoroso está significado por la condena virtual contra el matrimonio, porque implica un derecho de posesión. El deseo se dirige hacia un objeto que nunca se poseerá plenamente. La inmanencia del obstáculo se manifiesta en la exigencia del secreto: revelar el amor lo destruiría.",
-    question: "El texto señala que el matrimonio implica un 'derecho de posesión'. ¿Por qué?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el texto señala que el matrimonio implica un 'derecho de posesión'. ¿Por qué?",
     options: [
       { id: "a", text: "Porque cuando se revela el secreto amoroso el amor muere." },
       { id: "b", text: "Porque en la voz hablada del deseo interfiere el obstáculo." },
@@ -1628,8 +1588,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "Porque este sentimiento mata la manifestación del amor." },
     ],
     correct: "c",
-    explanation:
-      "El texto explica que la concepción del matrimonio como derecho de posesión proviene del simbolismo cortés primitivo, que veía en ello un obstáculo para el amor ideal.",
+    explanation: "En la situacion descrita, el texto explica que la concepción del matrimonio como derecho de posesión proviene del simbolismo cortés primitivo, que veía en ello un obstáculo para el amor ideal.",
     points: 5,
   },
   {
@@ -1637,7 +1596,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "La retórica del siglo XII reposa sobre una doble afirmación: el deseo se identifica con su expresión, y quien canta merece el amor. Se observa así una profunda confianza en la eficacia de la palabra: amar es cantar y expresar el sentimiento. El deseo que poseo y me posee refleja la experiencia personal de quien experimenta esta posesión mutua.",
-    question: "La frase 'el deseo que poseo y me posee' se clasifica como:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la frase 'el deseo que poseo y me posee' se clasifica como:",
     options: [
       { id: "a", text: "Afirmación general referida a la experiencia personal de quien experimenta la posesión." },
       { id: "b", text: "Afirmación particular referida a una situación general propia de la retórica del siglo XII." },
@@ -1645,8 +1604,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "Afirmación personal porque existe un 'yo' que experimenta un sentimiento de posesión." },
     ],
     correct: "d",
-    explanation:
-      "La frase es una afirmación personal porque implica la existencia de un 'yo' (quien posee) que experimenta personalmente el sentimiento de posesión mutua con el deseo.",
+    explanation: "En la situacion descrita, la frase es una afirmación personal porque implica la existencia de un 'yo' (quien posee) que experimenta personalmente el sentimiento de posesión mutua con el deseo.",
     points: 5,
   },
   {
@@ -1654,7 +1612,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "La retórica amorosa del siglo XII describe un esquema imaginativo y lingüístico en el que el amor está siempre acompañado por un obstáculo. La retórica cortés presenta una doble afirmación: el deseo se identifica con su expresión, y quien canta merece el amor. Se observa una profunda confianza en la eficacia de la palabra. Este discurso se inscribe en la estética, la historia y la cultura medievales.",
-    question: "¿A qué ámbitos se refieren las informaciones y discursos del texto sobre la retórica del siglo XII?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿A qué ámbitos se refieren las informaciones y discursos del texto sobre la retórica del siglo XII?",
     options: [
       { id: "a", text: "A la estética, la historia y la cultura medievales." },
       { id: "b", text: "A la cultura, ya que describen la sociedad medieval." },
@@ -1662,8 +1620,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "A la moral, la crítica y la religión medievales." },
     ],
     correct: "a",
-    explanation:
-      "El texto aborda información relacionada con la estética (retórica y expresión artística), la historia (siglo XII) y la cultura (prácticas sociales) medievales.",
+    explanation: "En la situacion descrita, el texto aborda información relacionada con la estética (retórica y expresión artística), la historia (siglo XII) y la cultura (prácticas sociales) medievales.",
     points: 5,
   },
   {
@@ -1671,7 +1628,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "La retórica amorosa del siglo XII describe un esquema en el que el amor está siempre acompañado por un obstáculo. El deseo se dirige hacia un objeto que nunca se poseerá plenamente en el 'goce'. Según la retórica cortés, el obstáculo amoroso está significado por la condena virtual contra el matrimonio, porque implica un derecho de posesión. La inmanencia del obstáculo se manifiesta en la exigencia del secreto.",
-    question: "¿Cuál es el tema central del texto sobre la retórica medieval?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es el tema central del texto sobre la retórica medieval?",
     options: [
       { id: "a", text: "El obstáculo inminente a todo amor." },
       { id: "b", text: "El matrimonio que implica un derecho de posesión." },
@@ -1679,8 +1636,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "La fe casi mágica en la eficacia de la palabra." },
     ],
     correct: "a",
-    explanation:
-      "El tema central del texto es el obstáculo inminente a todo amor en la retórica cortés del siglo XII, del cual el matrimonio y la imposibilidad de posesión son manifestaciones específicas.",
+    explanation: "En la situacion descrita, el tema central del texto es el obstáculo inminente a todo amor en la retórica cortés del siglo XII, del cual el matrimonio y la imposibilidad de posesión son manifestaciones específicas.",
     points: 5,
   },
   {
@@ -1688,7 +1644,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Gene Roddenberry, creador de la serie Star Trek, fue piloto de bombardero B-17 durante la Segunda Guerra Mundial y guionista de series del Oeste. Sus ideas en la serie posibilitaron los viajes espaciales a velocidades lumínicas, la teletransportación, los teléfonos celulares y la primera generación de máquinas inteligentes. Sin embargo, su nombre es poco recordado en la comunidad científica, que lo considera 'un discreto y redondo cero a la izquierda'. La serie se estrenó en 1966 y se convirtió en un éxito global y una 'mina de oro' para Paramount Pictures.",
-    question: "¿Cuál es la intención del autor del artículo sobre Star Trek?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la intención del autor del artículo sobre Star Trek?",
     options: [
       { id: "a", text: "Señalar los percances que tuvo la serie Viaje a las estrellas para ser transmitida." },
       { id: "b", text: "Demostrar que con poco dinero no se puede hacer un buen trabajo." },
@@ -1696,8 +1652,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "Criticar el trabajo hecho por Gene Roddenberry en cine y televisión." },
     ],
     correct: "c",
-    explanation:
-      "La intención del autor es informar sobre el éxito monetario y cultural de la serie Star Trek, destacando cómo se convirtió en una 'mina de oro' a pesar de las limitaciones presupuestales.",
+    explanation: "En la situacion descrita, la intención del autor es informar sobre el éxito monetario y cultural de la serie Star Trek, destacando cómo se convirtió en una 'mina de oro' a pesar de las limitaciones presupuestales.",
     points: 5,
   },
   {
@@ -1705,7 +1660,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El artículo sobre Gene Roddenberry y Star Trek reseña cómo la serie se estrenó en 1966 con el episodio The Man Trap y celebró treinta años en 1996. Fue producida con restricciones presupuestales: la nave U.S.S. Enterprise nunca aterrizaba porque no había dinero para construir escenarios de descenso. A pesar de utilizar escenarios de cartón, miniaturas y uniformes sencillos, la serie se convirtió en un éxito global.",
-    question: "¿Con qué tipo de texto se presenta la información sobre Viaje a las estrellas?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Con qué tipo de texto se presenta la información sobre Viaje a las estrellas?",
     options: [
       { id: "a", text: "Periodístico, porque reseña la creación y éxito de la serie." },
       { id: "b", text: "Descriptivo, porque detalla hechos irreales sucedidos en la nave Enterprise." },
@@ -1713,8 +1668,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "Informativo, porque muestra la historia del creador de la serie." },
     ],
     correct: "a",
-    explanation:
-      "El texto es de tipo periodístico porque reseña la creación, desarrollo y éxito de la serie Star Trek, presentando información de manera objetiva sobre un fenómeno cultural.",
+    explanation: "En la situacion descrita, el texto es de tipo periodístico porque reseña la creación, desarrollo y éxito de la serie Star Trek, presentando información de manera objetiva sobre un fenómeno cultural.",
     points: 5,
   },
   {
@@ -1722,7 +1676,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Gene Roddenberry, creador de Star Trek, posibilitó con sus ideas los viajes espaciales a velocidades lumínicas, la teletransportación, los teléfonos celulares y la primera generación de máquinas inteligentes. Pese a ello, su nombre es poco recordado en la comunidad científica, que lo considera 'un discreto y redondo cero a la izquierda'. Sin embargo, sus innovaciones generaron enormes ganancias económicas y culto entre los aficionados a la ciencia ficción.",
-    question: "La expresión 'un discreto y redondo cero a la izquierda' refiere a:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la expresión 'un discreto y redondo cero a la izquierda' refiere a:",
     options: [
       { id: "a", text: "Nunca fue científico y, por lo tanto, no aportó al desarrollo de la ciencia." },
       { id: "b", text: "Hizo muchos descubrimientos en el espacio que no fueron aceptados por la comunidad científica." },
@@ -1730,8 +1684,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "Consiguió su prestigio con base en falsos descubrimientos que nunca fueron aceptados por los científicos." },
     ],
     correct: "a",
-    explanation:
-      "La expresión 'un discreto y redondo cero a la izquierda' indica que Roddenberry no fue científico y por tanto la comunidad científica no lo considera un aporte al desarrollo de la ciencia, a pesar de su impacto cultural.",
+    explanation: "En la situacion descrita, la expresión 'un discreto y redondo cero a la izquierda' indica que Roddenberry no fue científico y por tanto la comunidad científica no lo considera un aporte al desarrollo de la ciencia, a pesar de su impacto cultural.",
     points: 5,
   },
   {
@@ -1739,7 +1692,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "La serie Star Trek se estrenó en 1966 con el episodio The Man Trap y celebró treinta años en 1996. Durante ese tiempo, los viajes de la nave Enterprise captaron la imaginación de millones de espectadores y la serie se convirtió en un fenómeno cultural global. El título 'El futuro cumple 30 años' hace referencia a este aniversario.",
-    question: "El título 'El futuro cumple 30 años' se refiere a:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el título 'El futuro cumple 30 años' se refiere a:",
     options: [
       { id: "a", text: "Los viajes que ha realizado la nave Enterprise a otros planetas durante treinta años." },
       { id: "b", text: "El recorrido que ha realizado la nave por el espacio." },
@@ -1747,8 +1700,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "La cantidad de años que lleva la serie Viaje a las Estrellas, con su nave Enterprise, al aire." },
     ],
     correct: "d",
-    explanation:
-      "El título se refiere a los treinta años (de 1966 a 1996) que lleva la serie Star Trek al aire, representando una visión futurista que cumple tres décadas desde su estreno.",
+    explanation: "En la situacion descrita, el título se refiere a los treinta años (de 1966 a 1996) que lleva la serie Star Trek al aire, representando una visión futurista que cumple tres décadas desde su estreno.",
     points: 5,
   },
   {
@@ -1756,7 +1708,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Star Trek fue producida con restricciones presupuestales significativas. La nave U.S.S. Enterprise nunca aterrizaba porque no había dinero para construir escenarios de descenso. Los guionistas asumieron que la mayoría de los planetas visitados tenían atmósferas respirables para ahorrar en trajes espaciales. A pesar de utilizar escenarios de cartón, miniaturas y uniformes sencillos, la serie se convirtió en un éxito global. La frase 'hecha con las uñas' describe estas condiciones de producción.",
-    question: "La frase 'hecha con las uñas' indica que la producción de la serie se realizó:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la frase 'hecha con las uñas' indica que la producción de la serie se realizó:",
     options: [
       { id: "a", text: "Manualmente, porque la tecnología no estaba desarrollada lo suficiente." },
       { id: "b", text: "Con insuficiente publicidad, porque no se sabía cómo promocionarla." },
@@ -1764,8 +1716,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "Con escaso dinero, porque no se esperaba que tuviera tanto éxito." },
     ],
     correct: "d",
-    explanation:
-      "La expresión 'hecha con las uñas' indica que la serie se produjo con escaso dinero y recursos limitados, sin esperar el enorme éxito que finalmente alcanzó.",
+    explanation: "En la situacion descrita, la expresión 'hecha con las uñas' indica que la serie se produjo con escaso dinero y recursos limitados, sin esperar el enorme éxito que finalmente alcanzó.",
     points: 5,
   },
   {
@@ -1773,7 +1724,7 @@ const questionsV1: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Gene Roddenberry creó Star Trek partiendo de sus imaginaciones sobre los viajes espaciales. Sus ideas sobre velocidades lumínicas, teletransportación, comunicadores (que inspiraron los teléfonos celulares) y computadoras inteligentes se convirtieron en la base de una serie futurista que capturó la imaginación de millones. Aunque no era científico, sus visiones imaginativas terminaron influyendo en el desarrollo tecnológico posterior.",
-    question: "¿Qué pretendía Gene Roddenberry con su creación de la nave Enterprise?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué pretendía Gene Roddenberry con su creación de la nave Enterprise?",
     options: [
       { id: "a", text: "Obtener reconocimiento y dinero a base de la ingenuidad de los televidentes." },
       { id: "b", text: "Indicar que podría haber vida en otros planetas y ayudar a descubrirla." },
@@ -1781,15 +1732,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "Explorar el espacio con una nueva tecnología y aportar este conocimiento al mundo científico." },
     ],
     correct: "c",
-    explanation:
-      "Roddenberry pretendía plasmar sus imaginaciones sobre los viajes espaciales, y estas visiones creativas se convirtieron en la base de la serie futurista Star Trek.",
+    explanation: "En la situacion descrita, roddenberry pretendía plasmar sus imaginaciones sobre los viajes espaciales, y estas visiones creativas se convirtieron en la base de la serie futurista Star Trek.",
     points: 5,
   },
   // La lámpara maravillosa - William Ospina (IDs 83-91)
   {
     id: 83,
     category: "Comprensión Lectora",
-    question: "¿Cuál es la tipología textual del fragmento de La lámpara maravillosa?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la tipología textual del fragmento de La lámpara maravillosa?",
     options: [
       { id: "a", text: "Narrativo" },
       { id: "b", text: "Expositivo" },
@@ -1797,14 +1747,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Descriptivo" },
     ],
     correct: "c",
-    explanation:
-      "El texto es argumentativo porque el autor presenta una tesis sobre la importancia de la experiencia y la imaginación, y la desarrolla con argumentos y ejemplos para convencer al lector.",
+    explanation: "En la situacion descrita, el texto es argumentativo porque el autor presenta una tesis sobre la importancia de la experiencia y la imaginación, y la desarrolla con argumentos y ejemplos para convencer al lector.",
     points: 5,
   },
   {
     id: 84,
     category: "Comprensión Lectora",
-    question: "¿Cuál es el propósito del autor en este fragmento?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es el propósito del autor en este fragmento?",
     options: [
       { id: "a", text: "Narrar su propia experiencia con los libros" },
       { id: "b", text: "Describir diferentes tipos de libros" },
@@ -1812,14 +1761,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Criticar a quienes no leen" },
     ],
     correct: "c",
-    explanation:
-      "El propósito central del autor es establecer y explicar cómo se relacionan la experiencia, la imaginación y la lectura como recursos fundamentales para navegar la vida.",
+    explanation: "En la situacion descrita, el propósito central del autor es establecer y explicar cómo se relacionan la experiencia, la imaginación y la lectura como recursos fundamentales para navegar la vida.",
     points: 5,
   },
   {
     id: 85,
     category: "Comprensión Lectora",
-    question: "¿Cuál es la idea central del segundo párrafo?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la idea central del segundo párrafo?",
     options: [
       { id: "a", text: "Los libros son un paraíso que permite vivir experiencias ajenas" },
       { id: "b", text: "La imaginación ahonda lo que la experiencia enseña" },
@@ -1827,14 +1775,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Borges era un gran escritor" },
     ],
     correct: "a",
-    explanation:
-      "El segundo párrafo desarrolla la idea de que los libros constituyen un paraíso donde podemos 'escarmentar por cabeza ajena' y vivir lo no vivido, experimentando memorias, aventuras y pensamientos de otros.",
+    explanation: "En la situacion descrita, el segundo párrafo desarrolla la idea de que los libros constituyen un paraíso donde podemos 'escarmentar por cabeza ajena' y vivir lo no vivido, experimentando memorias, aventuras y pensamientos de otros.",
     points: 5,
   },
   {
     id: 86,
     category: "Comprensión Lectora",
-    question: "Según la ubicación de la idea central en el segundo párrafo, este es un párrafo:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, según la ubicación de la idea central en el segundo párrafo, este es un párrafo:",
     options: [
       { id: "a", text: "Deductivo" },
       { id: "b", text: "Inductivo" },
@@ -1842,14 +1789,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Paralelo" },
     ],
     correct: "c",
-    explanation:
-      "El párrafo es inductivo-deductivo porque presenta la idea central al inicio ('Por fortuna existe el paraíso de los libros'), la desarrolla con ejemplos y argumentos en el medio, y la refuerza al final con ejemplos literarios concretos.",
+    explanation: "En la situacion descrita, el párrafo es inductivo-deductivo porque presenta la idea central al inicio ('Por fortuna existe el paraíso de los libros'), la desarrolla con ejemplos y argumentos en el medio, y la refuerza al final con ejemplos literarios concretos.",
     points: 5,
   },
   {
     id: 87,
     category: "Comprensión Lectora",
-    question: "¿Cuál es la idea central del tercer párrafo (que empieza con 'Una de las experiencias inevitables...')?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la idea central del tercer párrafo (que empieza con 'Una de las experiencias inevitables...')?",
     options: [
       { id: "a", text: "La soledad es inevitable en la vida" },
       { id: "b", text: "Borges era un gran autor" },
@@ -1857,14 +1803,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Los libros narran historias de escarabajos" },
     ],
     correct: "c",
-    explanation:
-      "La idea central plantea que la relación con los libros es única porque en ella convergen simultáneamente tres experiencias fundamentales de la vida: la soledad, la amistad y la felicidad.",
+    explanation: "En la situacion descrita, la idea central plantea que la relación con los libros es única porque en ella convergen simultáneamente tres experiencias fundamentales de la vida: la soledad, la amistad y la felicidad.",
     points: 5,
   },
   {
     id: 88,
     category: "Comprensión Lectora",
-    question: "Los deícticos 'uno' y 'otro' (en 'Uno nos cuenta...', 'otro nos relata...') se refieren a:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, los deícticos 'uno' y 'otro' (en 'Uno nos cuenta...', 'otro nos relata...') se refieren a:",
     options: [
       { id: "a", text: "Los autores de libros" },
       { id: "b", text: "Los amigos que se encuentran en los libros" },
@@ -1872,14 +1817,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Los lectores diferentes" },
     ],
     correct: "b",
-    explanation:
-      "Los deícticos 'uno' y 'otro' se refieren a 'los amigos' mencionados anteriormente en la frase 'el hallazgo de una legión de amigos que puede ser inagotable', es decir, los libros como amigos.",
+    explanation: "En la situacion descrita, los deícticos 'uno' y 'otro' se refieren a 'los amigos' mencionados anteriormente en la frase 'el hallazgo de una legión de amigos que puede ser inagotable', es decir, los libros como amigos.",
     points: 5,
   },
   {
     id: 89,
     category: "Comprensión Lectora",
-    question: "Un sinónimo de 'escarmentar' en el contexto del texto sería:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, un sinónimo de 'escarmentar' en el contexto del texto sería:",
     options: [
       { id: "a", text: "Sufrir" },
       { id: "b", text: "Aprender" },
@@ -1894,7 +1838,7 @@ const questionsV1: Question[] = [
   {
     id: 90,
     category: "Comprensión Lectora",
-    question: "La relación semántica entre 'bendición' y 'tormento' es de:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la relación semántica entre 'bendición' y 'tormento' es de:",
     options: [
       { id: "a", text: "Sinonimia" },
       { id: "b", text: "Causa-efecto" },
@@ -1902,14 +1846,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Parte-todo" },
     ],
     correct: "c",
-    explanation:
-      "Los términos 'bendición' y 'tormento' son antónimos que expresan una relación de oposición, representando los aspectos positivos y negativos de la vida.",
+    explanation: "En la situacion descrita, los términos 'bendición' y 'tormento' son antónimos que expresan una relación de oposición, representando los aspectos positivos y negativos de la vida.",
     points: 5,
   },
   {
     id: 91,
     category: "Comprensión Lectora",
-    question: "La alusión a 'lo alto del día' y 'lo alto de la noche' se refiere a:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la alusión a 'lo alto del día' y 'lo alto de la noche' se refiere a:",
     options: [
       { id: "a", text: "Las montañas y el cielo" },
       { id: "b", text: "El sol y la luna" },
@@ -1917,15 +1860,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "Los árboles y las estrellas" },
     ],
     correct: "b",
-    explanation:
-      "'Lo alto del día' alude al sol (que no se debe mirar directamente) y 'lo alto de la noche' a la luna o las estrellas (que siempre queremos mirar otra vez).",
+    explanation: "En la situacion descrita, 'Lo alto del día' alude al sol (que no se debe mirar directamente) y 'lo alto de la noche' a la luna o las estrellas (que siempre queremos mirar otra vez).",
     points: 5,
   },
   // La insoportable levedad del ser - Milan Kundera (IDs 92-105)
   {
     id: 92,
     category: "Comprensión Lectora",
-    question: "El fragmento de Kundera es un texto predominantemente:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el fragmento de Kundera es un texto predominantemente:",
     options: [
       { id: "a", text: "Narrativo" },
       { id: "b", text: "Expositivo" },
@@ -1933,14 +1875,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Instructivo" },
     ],
     correct: "b",
-    explanation:
-      "El texto es expositivo porque explica y desarrolla el concepto filosófico del eterno retorno de Nietzsche, presentando información de manera objetiva y estructurada.",
+    explanation: "En la situacion descrita, el texto es expositivo porque explica y desarrolla el concepto filosófico del eterno retorno de Nietzsche, presentando información de manera objetiva y estructurada.",
     points: 5,
   },
   {
     id: 93,
     category: "Comprensión Lectora",
-    question: "¿Cuál es la estructura del texto expositivo de Kundera?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la estructura del texto expositivo de Kundera?",
     options: [
       { id: "a", text: "Planteamiento, nudo, desenlace" },
       { id: "b", text: "Tesis, argumentos, conclusión" },
@@ -1948,14 +1889,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Causa, efecto, consecuencias" },
     ],
     correct: "c",
-    explanation:
-      "El texto sigue la estructura clásica de un texto expositivo: introduce el concepto del eterno retorno (párrafos 1-2), lo desarrolla con ejemplos (párrafos 3-5), y concluye con reflexiones personales (párrafos 6-7).",
+    explanation: "En la situacion descrita, el texto sigue la estructura clásica de un texto expositivo: introduce el concepto del eterno retorno (párrafos 1-2), lo desarrolla con ejemplos (párrafos 3-5), y concluye con reflexiones personales (párrafos 6-7).",
     points: 5,
   },
   {
     id: 94,
     category: "Comprensión Lectora",
-    question: "¿Qué significa la expresión latina 'per negationem'?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué significa la expresión latina 'per negationem'?",
     options: [
       { id: "a", text: "Por afirmación" },
       { id: "b", text: "Por negación" },
@@ -1963,14 +1903,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Por contradicción" },
     ],
     correct: "b",
-    explanation:
-      "'Per negationem' es una expresión latina que significa 'por negación', indicando que el concepto se define a través de su opuesto.",
+    explanation: "En la situacion descrita, 'Per negationem' es una expresión latina que significa 'por negación', indicando que el concepto se define a través de su opuesto.",
     points: 5,
   },
   {
     id: 95,
     category: "Comprensión Lectora",
-    question: "¿Cómo se podría sintetizar la definición del eterno retorno según el texto?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cómo se podría sintetizar la definición del eterno retorno según el texto?",
     options: [
       { id: "a", text: "Todo se repite exactamente igual infinitamente" },
       { id: "b", text: "La historia nunca se repite" },
@@ -1978,14 +1917,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "El tiempo es circular" },
     ],
     correct: "a",
-    explanation:
-      "El eterno retorno de Nietzsche plantea que alguna vez todo habrá de repetirse tal como lo hemos vivido ya, y que incluso esa repetición habrá de repetirse hasta el infinito.",
+    explanation: "En la situacion descrita, el eterno retorno de Nietzsche plantea que alguna vez todo habrá de repetirse tal como lo hemos vivido ya, y que incluso esa repetición habrá de repetirse hasta el infinito.",
     points: 5,
   },
   {
     id: 96,
     category: "Comprensión Lectora",
-    question: "¿Qué función cumple el tercer párrafo en el texto?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué función cumple el tercer párrafo en el texto?",
     options: [
       { id: "a", text: "Presenta la conclusión del texto" },
       { id: "b", text: "Introduce el tema principal" },
@@ -1993,14 +1931,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Resume todo lo anterior" },
     ],
     correct: "c",
-    explanation:
-      "El tercer párrafo es un párrafo de transición que mediante una pregunta retórica conecta la definición del concepto con sus implicaciones prácticas y ejemplos concretos.",
+    explanation: "En la situacion descrita, el tercer párrafo es un párrafo de transición que mediante una pregunta retórica conecta la definición del concepto con sus implicaciones prácticas y ejemplos concretos.",
     points: 5,
   },
   {
     id: 97,
     category: "Comprensión Lectora",
-    question: "El referente de 'se vuelven más ligeros que una pluma' es:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el referente de 'se vuelven más ligeros que una pluma' es:",
     options: [
       { id: "a", text: "Los historiadores franceses (metonimia)" },
       { id: "b", text: "Los años sangrientos de la Revolución francesa (símil)" },
@@ -2008,14 +1945,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Las teorías sobre la historia (hipérbole)" },
     ],
     correct: "b",
-    explanation:
-      "El referente es 'los años sangrientos' de la Revolución francesa, y la comparación 'más ligeros que una pluma' es un símil que expresa cómo la falta de repetición disminuye el peso moral de los eventos.",
+    explanation: "En la situacion descrita, el referente es 'los años sangrientos' de la Revolución francesa, y la comparación 'más ligeros que una pluma' es un símil que expresa cómo la falta de repetición disminuye el peso moral de los eventos.",
     points: 5,
   },
   {
     id: 98,
     category: "Comprensión Lectora",
-    question: "Un sinónimo de 'perplejos' es, EXCEPTO:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, un sinónimo de 'perplejos' es, EXCEPTO:",
     options: [
       { id: "a", text: "Confundidos" },
       { id: "b", text: "Desconcertados" },
@@ -2023,14 +1959,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Sorprendidos" },
     ],
     correct: "c",
-    explanation:
-      "'Resueltos' NO es sinónimo de 'perplejos'. Por el contrario, es un antónimo, ya que 'perplejos' significa confundidos o desconcertados, mientras que 'resueltos' implica determinación y claridad.",
+    explanation: "En la situacion descrita, 'Resueltos' NO es sinónimo de 'perplejos'. Por el contrario, es un antónimo, ya que 'perplejos' significa confundidos o desconcertados, mientras que 'resueltos' implica determinación y claridad.",
     points: 5,
   },
   {
     id: 99,
     category: "Comprensión Lectora",
-    question: "¿Qué refrán o frase se relaciona con la idea del no-retorno mencionada en el texto?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué refrán o frase se relaciona con la idea del no-retorno mencionada en el texto?",
     options: [
       { id: "a", text: "El que no conoce la historia está condenado a repetirla" },
       { id: "b", text: "Todo tiempo pasado fue mejor" },
@@ -2038,14 +1973,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "A quien madruga, Dios lo ayuda" },
     ],
     correct: "a",
-    explanation:
-      "El refrán 'El que no conoce la historia está condenado a repetirla' se relaciona irónicamente con la idea del texto: Kundera sugiere que la historia NO se repite, y esa ausencia de retorno es lo que hace que los eventos pierdan peso moral.",
+    explanation: "En la situacion descrita, el refrán 'El que no conoce la historia está condenado a repetirla' se relaciona irónicamente con la idea del texto: Kundera sugiere que la historia NO se repite, y esa ausencia de retorno es lo que hace que los eventos pierdan peso moral.",
     points: 5,
   },
   {
     id: 100,
     category: "Comprensión Lectora",
-    question: "¿Qué se puede inferir de la frase 'El crepúsculo de la desaparición lo baña todo con la magia de la nostalgia'?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué se puede inferir de la frase 'El crepúsculo de la desaparición lo baña todo con la magia de la nostalgia'?",
     options: [
       { id: "a", text: "La nostalgia solo existe al atardecer" },
       { id: "b", text: "El paso del tiempo y la certeza de que todo desaparecerá genera nostalgia que suaviza nuestra percepción de los eventos" },
@@ -2053,14 +1987,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "La desaparición es siempre dolorosa" },
     ],
     correct: "b",
-    explanation:
-      "La frase metafórica sugiere que el carácter transitorio e irrepetible de los eventos (su desaparición inevitable) los envuelve en nostalgia, lo cual suaviza y embellece nuestra percepción de ellos, incluso de eventos terribles.",
+    explanation: "En la situacion descrita, la frase metafórica sugiere que el carácter transitorio e irrepetible de los eventos (su desaparición inevitable) los envuelve en nostalgia, lo cual suaviza y embellece nuestra percepción de ellos, incluso de eventos terribles.",
     points: 5,
   },
   {
     id: 101,
     category: "Comprensión Lectora",
-    question: "¿En qué párrafos se expresa más claramente la idea de que vivimos en un mundo de no-retorno?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿En qué párrafos se expresa más claramente la idea de que vivimos en un mundo de no-retorno?",
     options: [
       { id: "a", text: "Párrafos 1 y 3" },
       { id: "b", text: "Párrafos 2 y 7" },
@@ -2068,14 +2001,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Párrafos 1 y 6" },
     ],
     correct: "b",
-    explanation:
-      "Los párrafos 2 y 7 expresan claramente la idea del no-retorno: el párrafo 2 explica que nuestra vida 'desaparece de una vez para siempre', y el párrafo 7 concluye con 'un mundo basado esencialmente en la inexistencia del retorno'.",
+    explanation: "En la situacion descrita, los párrafos 2 y 7 expresan claramente la idea del no-retorno: el párrafo 2 explica que nuestra vida 'desaparece de una vez para siempre', y el párrafo 7 concluye con 'un mundo basado esencialmente en la inexistencia del retorno'.",
     points: 5,
   },
   {
     id: 102,
     category: "Comprensión Lectora",
-    question: "Un sinónimo de 'demencial' es, EXCEPTO:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, un sinónimo de 'demencial' es, EXCEPTO:",
     options: [
       { id: "a", text: "Descabellado" },
       { id: "b", text: "Absurdo" },
@@ -2083,14 +2015,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Irracional" },
     ],
     correct: "c",
-    explanation:
-      "'Razonable' NO es sinónimo de 'demencial', sino su antónimo. 'Demencial' significa que carece de razón o lógica, mientras que 'razonable' implica sensatez y lógica.",
+    explanation: "En la situacion descrita, 'Razonable' NO es sinónimo de 'demencial', sino su antónimo. 'Demencial' significa que carece de razón o lógica, mientras que 'razonable' implica sensatez y lógica.",
     points: 5,
   },
   {
     id: 103,
     category: "Comprensión Lectora",
-    question: "Según el texto, si Robespierre y sus acciones se repitieran eternamente:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, según el texto, si Robespierre y sus acciones se repitieran eternamente:",
     options: [
       { id: "a", text: "La historiografía francesa estaría más orgullosa" },
       { id: "b", text: "La historiografía francesa estaría menos orgullosa" },
@@ -2098,14 +2029,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Robespierre sería olvidado" },
     ],
     correct: "b",
-    explanation:
-      "El texto afirma que 'Si la Revolución francesa tuviera que repetirse eternamente, la historiografía francesa estaría menos orgullosa de Robespierre', porque el horror de sus acciones tendría más peso si se repitiera infinitamente.",
+    explanation: "En la situacion descrita, el texto afirma que 'Si la Revolución francesa tuviera que repetirse eternamente, la historiografía francesa estaría menos orgullosa de Robespierre', porque el horror de sus acciones tendría más peso si se repitiera infinitamente.",
     points: 5,
   },
   {
     id: 104,
     category: "Comprensión Lectora",
-    question: "¿Qué personas gramaticales utiliza el autor en el texto?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué personas gramaticales utiliza el autor en el texto?",
     options: [
       { id: "a", text: "Primera persona en todo el texto" },
       { id: "b", text: "Tercera persona en todo el texto" },
@@ -2113,14 +2043,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Segunda persona en todo el texto" },
     ],
     correct: "c",
-    explanation:
-      "En los párrafos 1-5, el autor usa la tercera persona para exponer objetivamente el concepto. En los párrafos 6-7, cambia a primera persona ('No hace mucho me sorprendí a mí mismo') para compartir una experiencia personal que ilustra el concepto.",
+    explanation: "En la situacion descrita, en los párrafos 1-5, el autor usa la tercera persona para exponer objetivamente el concepto. En los párrafos 6-7, cambia a primera persona ('No hace mucho me sorprendí a mí mismo') para compartir una experiencia personal que ilustra el concepto.",
     points: 5,
   },
   {
     id: 105,
     category: "Comprensión Lectora",
-    question: "La expresión 'perversión moral' en el último párrafo es un juicio:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la expresión 'perversión moral' en el último párrafo es un juicio:",
     options: [
       { id: "a", text: "Objetivo y neutral" },
       { id: "b", text: "Subjetivo y valorativo" },
@@ -2128,15 +2057,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "Histórico" },
     ],
     correct: "b",
-    explanation:
-      "'Perversión moral' es un juicio subjetivo y valorativo del autor sobre las implicaciones éticas de vivir en un mundo sin retorno, donde todo está perdonado de antemano.",
+    explanation: "En la situacion descrita, 'Perversión moral' es un juicio subjetivo y valorativo del autor sobre las implicaciones éticas de vivir en un mundo sin retorno, donde todo está perdonado de antemano.",
     points: 5,
   },
   // La llama doble - Octavio Paz (IDs 106-115)
   {
     id: 106,
     category: "Comprensión Lectora",
-    question: "¿Cuál es la idea central del párrafo de Octavio Paz?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la idea central del párrafo de Octavio Paz?",
     options: [
       { id: "a", text: "La poesía es superior al erotismo" },
       { id: "b", text: "La relación entre erotismo y poesía es de oposición complementaria, ambos transfiguran su materia mediante la imaginación" },
@@ -2144,14 +2072,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Góngora era un gran poeta" },
     ],
     correct: "b",
-    explanation:
-      "La idea central es que erotismo y poesía están íntimamente relacionados: el erotismo es poética corporal, la poesía es erótica verbal, y ambos transfiguran su materia (sexo y lenguaje) mediante la imaginación.",
+    explanation: "En la situacion descrita, la idea central es que erotismo y poesía están íntimamente relacionados: el erotismo es poética corporal, la poesía es erótica verbal, y ambos transfiguran su materia (sexo y lenguaje) mediante la imaginación.",
     points: 5,
   },
   {
     id: 107,
     category: "Comprensión Lectora",
-    question: "El texto de Octavio Paz es principalmente:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el texto de Octavio Paz es principalmente:",
     options: [
       { id: "a", text: "Narrativo" },
       { id: "b", text: "Descriptivo" },
@@ -2159,14 +2086,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Instructivo" },
     ],
     correct: "c",
-    explanation:
-      "El texto es argumentativo porque presenta una tesis sobre la relación entre erotismo y poesía, y la defiende mediante argumentos, ejemplos y razonamientos lógicos.",
+    explanation: "En la situacion descrita, el texto es argumentativo porque presenta una tesis sobre la relación entre erotismo y poesía, y la defiende mediante argumentos, ejemplos y razonamientos lógicos.",
     points: 5,
   },
   {
     id: 108,
     category: "Comprensión Lectora",
-    question: "¿Cuál es la intencionalidad del autor?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la intencionalidad del autor?",
     options: [
       { id: "a", text: "Narrar una historia de amor" },
       { id: "b", text: "Describir actos eróticos" },
@@ -2174,14 +2100,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Definir qué es la sexualidad animal" },
     ],
     correct: "c",
-    explanation:
-      "La intencionalidad principal es establecer y explicar la profunda relación conceptual entre erotismo y poesía, mostrando cómo ambos operan de manera similar mediante la transfiguración imaginativa.",
+    explanation: "En la situacion descrita, la intencionalidad principal es establecer y explicar la profunda relación conceptual entre erotismo y poesía, mostrando cómo ambos operan de manera similar mediante la transfiguración imaginativa.",
     points: 5,
   },
   {
     id: 109,
     category: "Comprensión Lectora",
-    question: "Las palabras 'fugitivo y evanescente' son:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, las palabras 'fugitivo y evanescente' son:",
     options: [
       { id: "a", text: "Sustantivos" },
       { id: "b", text: "Verbos" },
@@ -2189,14 +2114,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Adverbios" },
     ],
     correct: "c",
-    explanation:
-      "'Fugitivo' y 'evanescente' son adjetivos que califican a 'la sensación', describiendo su carácter pasajero y efímero.",
+    explanation: "En la situacion descrita, 'Fugitivo' y 'evanescente' son adjetivos que califican a 'la sensación', describiendo su carácter pasajero y efímero.",
     points: 5,
   },
   {
     id: 110,
     category: "Comprensión Lectora",
-    question: "Según el texto, la poesía es todo lo siguiente, EXCEPTO:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, según el texto, la poesía es todo lo siguiente, EXCEPTO:",
     options: [
       { id: "a", text: "Una erótica verbal" },
       { id: "b", text: "Erotización del lenguaje y el mundo" },
@@ -2204,14 +2128,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Abrazo de realidades opuestas" },
     ],
     correct: "c",
-    explanation:
-      "'Poética corporal' NO es la poesía, sino el erotismo. El texto establece que 'el erotismo es una poética corporal y la poesía es una erótica verbal'.",
+    explanation: "En la situacion descrita, 'Poética corporal' NO es la poesía, sino el erotismo. El texto establece que 'el erotismo es una poética corporal y la poesía es una erótica verbal'.",
     points: 5,
   },
   {
     id: 111,
     category: "Comprensión Lectora",
-    question: "Según el texto, el erotismo es todo lo siguiente, EXCEPTO:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, según el texto, el erotismo es todo lo siguiente, EXCEPTO:",
     options: [
       { id: "a", text: "Poética corporal" },
       { id: "b", text: "Sexualidad transfigurada" },
@@ -2219,14 +2142,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Ceremonia y representación" },
     ],
     correct: "c",
-    explanation:
-      "'Erótica verbal' NO es el erotismo, sino la poesía. El texto establece claramente que 'la poesía es una erótica verbal', mientras que el erotismo es 'poética corporal'.",
+    explanation: "En la situacion descrita, 'Erótica verbal' NO es el erotismo, sino la poesía. El texto establece claramente que 'la poesía es una erótica verbal', mientras que el erotismo es 'poética corporal'.",
     points: 5,
   },
   {
     id: 112,
     category: "Comprensión Lectora",
-    question: "¿Qué se puede inferir de la afirmación 'El erotismo es sexualidad transfigurada: metáfora'?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué se puede inferir de la afirmación 'El erotismo es sexualidad transfigurada: metáfora'?",
     options: [
       { id: "a", text: "El erotismo es igual que la sexualidad animal" },
       { id: "b", text: "El erotismo tiene carácter poético" },
@@ -2234,14 +2156,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "El erotismo es puramente físico" },
     ],
     correct: "b",
-    explanation:
-      "Al definir el erotismo como 'sexualidad transfigurada: metáfora', el autor establece que el erotismo tiene un carácter esencialmente poético, pues opera como una metáfora que transforma la sexualidad básica en algo más elevado.",
+    explanation: "En la situacion descrita, al definir el erotismo como 'sexualidad transfigurada: metáfora', el autor establece que el erotismo tiene un carácter esencialmente poético, pues opera como una metáfora que transforma la sexualidad básica en algo más elevado.",
     points: 5,
   },
   {
     id: 113,
     category: "Comprensión Lectora",
-    question: "Las palabras 'ceremonia y representación' son:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, las palabras 'ceremonia y representación' son:",
     options: [
       { id: "a", text: "Verbos de acción" },
       { id: "b", text: "Adjetivos calificativos" },
@@ -2249,14 +2170,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Sustantivos concretos" },
     ],
     correct: "c",
-    explanation:
-      "'Ceremonia' y 'representación' son sustantivos abstractos que designan conceptos inmateriales relacionados con actos simbólicos y rituales.",
+    explanation: "En la situacion descrita, 'Ceremonia' y 'representación' son sustantivos abstractos que designan conceptos inmateriales relacionados con actos simbólicos y rituales.",
     points: 5,
   },
   {
     id: 114,
     category: "Comprensión Lectora",
-    question: "Según el texto, ¿qué potencia transfigura al sexo en ceremonia y rito?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, según el texto, ¿qué potencia transfigura al sexo en ceremonia y rito?",
     options: [
       { id: "a", text: "El amor" },
       { id: "b", text: "La razón" },
@@ -2264,14 +2184,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "La cultura" },
     ],
     correct: "c",
-    explanation:
-      "El texto afirma explícitamente que 'El agente que mueve lo mismo al acto erótico que al poético es la imaginación. Es la potencia que transfigura al sexo en ceremonia y rito'.",
+    explanation: "En la situacion descrita, el texto afirma explícitamente que 'El agente que mueve lo mismo al acto erótico que al poético es la imaginación. Es la potencia que transfigura al sexo en ceremonia y rito'.",
     points: 5,
   },
   {
     id: 115,
     category: "Comprensión Lectora",
-    question: "Un sinónimo de 'incorpóreas' es:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, un sinónimo de 'incorpóreas' es:",
     options: [
       { id: "a", text: "Materiales" },
       { id: "b", text: "Físicas" },
@@ -2279,15 +2198,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "Corpóreas" },
     ],
     correct: "c",
-    explanation:
-      "'Incorpóreas' significa sin cuerpo o materia, por lo tanto 'intangibles' es su sinónimo, refiriéndose a las ideas que no tienen forma física.",
+    explanation: "En la situacion descrita, 'Incorpóreas' significa sin cuerpo o materia, por lo tanto 'intangibles' es su sinónimo, refiriéndose a las ideas que no tienen forma física.",
     points: 5,
   },
   // Boca que busca la boca - Juan Manuel Roca (IDs 116-120)
   {
     id: 116,
     category: "Comprensión Lectora",
-    question: "¿Qué coincidencia existe entre los textos de Octavio Paz y Juan Manuel Roca sobre el erotismo?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué coincidencia existe entre los textos de Octavio Paz y Juan Manuel Roca sobre el erotismo?",
     options: [
       { id: "a", text: "Ambos lo consideran puramente físico" },
       { id: "b", text: "Ambos lo conciben como ritual o ceremonia" },
@@ -2295,14 +2213,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Ambos hablan solo de sexualidad animal" },
     ],
     correct: "b",
-    explanation:
-      "Tanto Paz como Roca conciben el erotismo como ceremonia, ritual y representación, más allá de la mera sexualidad física, enfatizando su dimensión simbólica y cultural.",
+    explanation: "En la situacion descrita, tanto Paz como Roca conciben el erotismo como ceremonia, ritual y representación, más allá de la mera sexualidad física, enfatizando su dimensión simbólica y cultural.",
     points: 5,
   },
   {
     id: 117,
     category: "Comprensión Lectora",
-    question: "La expresión 'despojo de potestades' significa:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la expresión 'despojo de potestades' significa:",
     options: [
       { id: "a", text: "Aumento del poder de una parte" },
       { id: "b", text: "Ausencia de poderes o autoridad de las partes" },
@@ -2310,14 +2227,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Mantenimiento de jerarquías" },
     ],
     correct: "b",
-    explanation:
-      "'Despojo de potestades' indica que en el encuentro erótico ambas partes abandonan sus poderes y autoridades, creando un espacio de libertad e igualdad sin jerarquías.",
+    explanation: "En la situacion descrita, 'Despojo de potestades' indica que en el encuentro erótico ambas partes abandonan sus poderes y autoridades, creando un espacio de libertad e igualdad sin jerarquías.",
     points: 5,
   },
   {
     id: 118,
     category: "Comprensión Lectora",
-    question: "La figura literaria en 'la boca es cáliz' es:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la figura literaria en 'la boca es cáliz' es:",
     options: [
       { id: "a", text: "Metáfora" },
       { id: "b", text: "Hipérbole" },
@@ -2325,14 +2241,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Personificación" },
     ],
     correct: "c",
-    explanation:
-      "'La boca es cáliz' es un símil (comparación explícita usando 'es') que establece una analogía entre la boca en el contexto erótico y un cáliz religioso, sugiriendo su carácter sagrado y ritual.",
+    explanation: "En la situacion descrita, 'La boca es cáliz' es un símil (comparación explícita usando 'es') que establece una analogía entre la boca en el contexto erótico y un cáliz religioso, sugiriendo su carácter sagrado y ritual.",
     points: 5,
   },
   {
     id: 119,
     category: "Comprensión Lectora",
-    question: "Las palabras 'ornamentos rituales' corresponden a las categorías gramaticales:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, las palabras 'ornamentos rituales' corresponden a las categorías gramaticales:",
     options: [
       { id: "a", text: "Verbo y adverbio" },
       { id: "b", text: "Sustantivo y adjetivo" },
@@ -2340,14 +2255,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Pronombre y verbo" },
     ],
     correct: "b",
-    explanation:
-      "'Ornamentos' es un sustantivo y 'rituales' funciona como adjetivo que califica a 'ornamentos', formando una construcción sustantivo + adjetivo.",
+    explanation: "En la situacion descrita, 'Ornamentos' es un sustantivo y 'rituales' funciona como adjetivo que califica a 'ornamentos', formando una construcción sustantivo + adjetivo.",
     points: 5,
   },
   {
     id: 120,
     category: "Comprensión Lectora",
-    question: "El sujeto de la oración 'Las palabras de amor correspondidas son plegarias escuchadas' es:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el sujeto de la oración 'Las palabras de amor correspondidas son plegarias escuchadas' es:",
     options: [
       { id: "a", text: "Amor" },
       { id: "b", text: "Las palabras de amor correspondidas" },
@@ -2355,15 +2269,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "Plegarias escuchadas" },
     ],
     correct: "b",
-    explanation:
-      "El sujeto completo es 'Las palabras de amor correspondidas', que es aquello de lo que se predica que 'son plegarias escuchadas'.",
+    explanation: "En la situacion descrita, el sujeto completo es 'Las palabras de amor correspondidas', que es aquello de lo que se predica que 'son plegarias escuchadas'.",
     points: 5,
   },
   // Delirio - Laura Restrepo (IDs 121-130)
   {
     id: 121,
     category: "Comprensión Lectora",
-    question: "Según Aguilar, ¿cuál fue la causa del estado mental de Agustina?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, según Aguilar, ¿cuál fue la causa del estado mental de Agustina?",
     options: [
       { id: "a", text: "Un accidente durante su ausencia" },
       { id: "b", text: "Las premoniciones que ella siempre tenía" },
@@ -2371,14 +2284,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "El viaje de trabajo de Aguilar" },
     ],
     correct: "b",
-    explanation:
-      "Aguilar menciona que lo único que podría haber anunciado lo sucedido eran 'sus propias premoniciones', aunque él nunca las tomaba en serio. El texto sugiere que Agustina siempre pronosticaba calamidades.",
+    explanation: "En la situacion descrita, aguilar menciona que lo único que podría haber anunciado lo sucedido eran 'sus propias premoniciones', aunque él nunca las tomaba en serio. El texto sugiere que Agustina siempre pronosticaba calamidades.",
     points: 5,
   },
   {
     id: 122,
     category: "Comprensión Lectora",
-    question: "El texto de Laura Restrepo es predominantemente:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el texto de Laura Restrepo es predominantemente:",
     options: [
       { id: "a", text: "Descriptivo" },
       { id: "b", text: "Narrativo" },
@@ -2386,14 +2298,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Expositivo" },
     ],
     correct: "b",
-    explanation:
-      "El texto es narrativo porque relata los acontecimientos que llevaron a Aguilar a encontrar a su esposa en un estado mental alterado, usando técnicas narrativas como narrador, personajes y secuencia temporal.",
+    explanation: "En la situacion descrita, el texto es narrativo porque relata los acontecimientos que llevaron a Aguilar a encontrar a su esposa en un estado mental alterado, usando técnicas narrativas como narrador, personajes y secuencia temporal.",
     points: 5,
   },
   {
     id: 123,
     category: "Comprensión Lectora",
-    question: "El uso de mayúsculas en 'Aguilar' tiene la función de:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el uso de mayúsculas en 'Aguilar' tiene la función de:",
     options: [
       { id: "a", text: "Indicar que es un nombre propio" },
       { id: "b", text: "Dar énfasis a la palabra" },
@@ -2401,14 +2312,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Corregir un error ortográfico" },
     ],
     correct: "c",
-    explanation:
-      "El uso de mayúsculas en 'Aguilar' junto con expresiones como 'dice Aguilar' introduce la voz del personaje en estilo indirecto libre, mezclando la narración con los pensamientos y palabras del personaje.",
+    explanation: "En la situacion descrita, el uso de mayúsculas en 'Aguilar' junto con expresiones como 'dice Aguilar' introduce la voz del personaje en estilo indirecto libre, mezclando la narración con los pensamientos y palabras del personaje.",
     points: 5,
   },
   {
     id: 124,
     category: "Comprensión Lectora",
-    question: "¿Qué sentido tiene la expresión 'La mujer que amo se ha perdido dentro de su propia cabeza'?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué sentido tiene la expresión 'La mujer que amo se ha perdido dentro de su propia cabeza'?",
     options: [
       { id: "a", text: "Agustina tiene amnesia" },
       { id: "b", text: "Agustina sufre un trastorno mental que la desconecta de la realidad" },
@@ -2416,14 +2326,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Agustina no quiere hablar con Aguilar" },
     ],
     correct: "b",
-    explanation:
-      "La metáfora 'perdida dentro de su propia cabeza' indica que Agustina sufre un trastorno mental que la ha desconectado de la realidad y de su identidad previa, haciéndola inaccesible emocionalmente.",
+    explanation: "En la situacion descrita, la metáfora 'perdida dentro de su propia cabeza' indica que Agustina sufre un trastorno mental que la ha desconectado de la realidad y de su identidad previa, haciéndola inaccesible emocionalmente.",
     points: 5,
   },
   {
     id: 125,
     category: "Comprensión Lectora",
-    question: "El 'don de los ojos' al que se refiere Agustina es:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el 'don de los ojos' al que se refiere Agustina es:",
     options: [
       { id: "a", text: "Su belleza física" },
       { id: "b", text: "Su capacidad de ver bien" },
@@ -2431,14 +2340,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Su habilidad para pintar" },
     ],
     correct: "c",
-    explanation:
-      "El texto explica que Agustina llama 'don de los ojos' a su capacidad de tener 'visión de lo venidero', es decir, premoniciones sobre eventos futuros.",
+    explanation: "En la situacion descrita, el texto explica que Agustina llama 'don de los ojos' a su capacidad de tener 'visión de lo venidero', es decir, premoniciones sobre eventos futuros.",
     points: 5,
   },
   {
     id: 126,
     category: "Comprensión Lectora",
-    question: "Un sinónimo de 'tarascadas' es, EXCEPTO:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, un sinónimo de 'tarascadas' es, EXCEPTO:",
     options: [
       { id: "a", text: "Mordidas" },
       { id: "b", text: "Dentelladas" },
@@ -2446,14 +2354,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Mordiscos" },
     ],
     correct: "c",
-    explanation:
-      "'Ladrido' NO es sinónimo de 'tarascadas'. Las tarascadas son mordidas o dentelladas, mientras que el ladrido es el sonido que hace un perro. Aunque ambos aparecen en la metáfora del perro, son acciones diferentes.",
+    explanation: "En la situacion descrita, 'Ladrido' NO es sinónimo de 'tarascadas'. Las tarascadas son mordidas o dentelladas, mientras que el ladrido es el sonido que hace un perro. Aunque ambos aparecen en la metáfora del perro, son acciones diferentes.",
     points: 5,
   },
   {
     id: 127,
     category: "Comprensión Lectora",
-    question: "¿Qué sentido tiene la comparación 'Agustina es un perro famélico y malherido que quisiera volver a casa y no lo logra'?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué sentido tiene la comparación 'Agustina es un perro famélico y malherido que quisiera volver a casa y no lo logra'?",
     options: [
       { id: "a", text: "Agustina se comporta como un animal" },
       { id: "b", text: "Agustina está físicamente herida" },
@@ -2461,14 +2368,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Agustina está perdida en la calle" },
     ],
     correct: "c",
-    explanation:
-      "La metáfora del perro famélico y malherido expresa la condición de Agustina: está sufriendo (famélico, malherido), desea recuperarse ('volver a casa'), pero no puede lograrlo por sí misma debido a su trastorno mental.",
+    explanation: "En la situacion descrita, la metáfora del perro famélico y malherido expresa la condición de Agustina: está sufriendo (famélico, malherido), desea recuperarse ('volver a casa'), pero no puede lograrlo por sí misma debido a su trastorno mental.",
     points: 5,
   },
   {
     id: 128,
     category: "Comprensión Lectora",
-    question: "¿Qué personas gramaticales predominan en el texto?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué personas gramaticales predominan en el texto?",
     options: [
       { id: "a", text: "Solo tercera persona" },
       { id: "b", text: "Primera persona de Aguilar y tercera persona del narrador" },
@@ -2476,14 +2382,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Segunda persona dirigiéndose al lector" },
     ],
     correct: "b",
-    explanation:
-      "El texto alterna entre la tercera persona del narrador que cuenta la historia ('dice Aguilar', 'intenta explicar') y la primera persona de Aguilar en estilo indirecto libre ('mi mujer', 'me fui', 'la dejé').",
+    explanation: "En la situacion descrita, el texto alterna entre la tercera persona del narrador que cuenta la historia ('dice Aguilar', 'intenta explicar') y la primera persona de Aguilar en estilo indirecto libre ('mi mujer', 'me fui', 'la dejé').",
     points: 5,
   },
   {
     id: 129,
     category: "Comprensión Lectora",
-    question: "Un sinónimo de 'premoniciones' es:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, un sinónimo de 'premoniciones' es:",
     options: [
       { id: "a", text: "Recuerdos" },
       { id: "b", text: "Presagios" },
@@ -2491,14 +2396,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Ilusiones" },
     ],
     correct: "b",
-    explanation:
-      "'Presagios' es sinónimo de 'premoniciones', ambas palabras se refieren a intuiciones o anticipaciones de eventos futuros.",
+    explanation: "En la situacion descrita, 'Presagios' es sinónimo de 'premoniciones', ambas palabras se refieren a intuiciones o anticipaciones de eventos futuros.",
     points: 5,
   },
   {
     id: 130,
     category: "Comprensión Lectora",
-    question: "En la metáfora 'un perro que me tira tarascadas', ¿a qué se refiere 'el perro'?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, en la metáfora 'un perro que me tira tarascadas', ¿a qué se refiere 'el perro'?",
     options: [
       { id: "a", text: "La personalidad violenta de Agustina" },
       { id: "b", text: "La razón trastornada de Agustina" },
@@ -2506,15 +2410,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "Los recuerdos de Agustina" },
     ],
     correct: "b",
-    explanation:
-      "El texto aclara explícitamente: 'La trastornada razón de mi mujer es un perro que me tira tarascadas', indicando que el perro es una metáfora de la mente alterada de Agustina.",
+    explanation: "En la situacion descrita, el texto aclara explícitamente: 'La trastornada razón de mi mujer es un perro que me tira tarascadas', indicando que el perro es una metáfora de la mente alterada de Agustina.",
     points: 5,
   },
   // La loca de la casa - Rosa Montero (IDs 131-140)
   {
     id: 131,
     category: "Comprensión Lectora",
-    question: "¿Por qué el texto de Rosa Montero puede considerarse argumentativo?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Por qué el texto de Rosa Montero puede considerarse argumentativo?",
     options: [
       { id: "a", text: "Porque narra una historia" },
       { id: "b", text: "Porque defiende una tesis sobre la naturaleza de la escritura mediante ejemplos y argumentos" },
@@ -2522,14 +2425,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Porque solo da información objetiva" },
     ],
     correct: "b",
-    explanation:
-      "El texto es argumentativo porque presenta una tesis ('escribir es estar habitado por fantasías que son don y castigo') y la defiende mediante argumentos y ejemplos concretos.",
+    explanation: "En la situacion descrita, el texto es argumentativo porque presenta una tesis ('escribir es estar habitado por fantasías que son don y castigo') y la defiende mediante argumentos y ejemplos concretos.",
     points: 5,
   },
   {
     id: 132,
     category: "Comprensión Lectora",
-    question: "¿Cuál es la estructura del párrafo?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la estructura del párrafo?",
     options: [
       { id: "a", text: "Introducción, nudo, desenlace" },
       { id: "b", text: "Tesis, argumentos, ejemplos, conclusión" },
@@ -2537,14 +2439,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Causa y efecto" },
     ],
     correct: "b",
-    explanation:
-      "El párrafo sigue la estructura: tesis inicial (la compulsión fabuladora es don y castigo), argumentos (cómo funciona la fantasía), ejemplos concretos (Argelia, el puente), y conclusión implícita sobre las consecuencias.",
+    explanation: "En la situacion descrita, el párrafo sigue la estructura: tesis inicial (la compulsión fabuladora es don y castigo), argumentos (cómo funciona la fantasía), ejemplos concretos (Argelia, el puente), y conclusión implícita sobre las consecuencias.",
     points: 5,
   },
   {
     id: 133,
     category: "Comprensión Lectora",
-    question: "La figura literaria en 'perezosas como las lentas ensoñaciones de una siesta estival' es:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la figura literaria en 'perezosas como las lentas ensoñaciones de una siesta estival' es:",
     options: [
       { id: "a", text: "Metáfora" },
       { id: "b", text: "Hipérbole" },
@@ -2552,14 +2453,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Metonimia" },
     ],
     correct: "c",
-    explanation:
-      "Es un símil porque usa la palabra comparativa 'como' para establecer una comparación explícita entre las fantasías perezosas y las ensoñaciones de una siesta estival.",
+    explanation: "En la situacion descrita, es un símil porque usa la palabra comparativa 'como' para establecer una comparación explícita entre las fantasías perezosas y las ensoñaciones de una siesta estival.",
     points: 5,
   },
   {
     id: 134,
     category: "Comprensión Lectora",
-    question: "¿Cuál es la idea central del párrafo?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la idea central del párrafo?",
     options: [
       { id: "a", text: "Los novelistas sufren enfermedades mentales" },
       { id: "b", text: "La compulsión fabuladora del escritor es tanto un don como un castigo que hace que su mente funcione automáticamente" },
@@ -2567,14 +2467,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Las noticias de Argelia son muy tristes" },
     ],
     correct: "b",
-    explanation:
-      "La idea central es que la mente del novelista está poseída por una compulsión fabuladora que opera automáticamente, y esta capacidad es simultáneamente un don (para crear) y un castigo (genera sufrimiento innecesario).",
+    explanation: "En la situacion descrita, la idea central es que la mente del novelista está poseída por una compulsión fabuladora que opera automáticamente, y esta capacidad es simultáneamente un don (para crear) y un castigo (genera sufrimiento innecesario).",
     points: 5,
   },
   {
     id: 135,
     category: "Comprensión Lectora",
-    question: "El sentido de 'compulsión fabuladora' es:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el sentido de 'compulsión fabuladora' es:",
     options: [
       { id: "a", text: "Mentir compulsivamente" },
       { id: "b", text: "Tendencia irresistible a inventar, imaginar y crear historias" },
@@ -2582,14 +2481,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Escribir muy rápido" },
     ],
     correct: "b",
-    explanation:
-      "'Compulsión fabuladora' se refiere a la tendencia irresistible e involuntaria a fabular, es decir, a inventar e imaginar historias constantemente, característica de la mente del novelista.",
+    explanation: "En la situacion descrita, 'Compulsión fabuladora' se refiere a la tendencia irresistible e involuntaria a fabular, es decir, a inventar e imaginar historias constantemente, característica de la mente del novelista.",
     points: 5,
   },
   {
     id: 136,
     category: "Comprensión Lectora",
-    question: "Un sinónimo de 'oprobio' es:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, un sinónimo de 'oprobio' es:",
     options: [
       { id: "a", text: "Honor" },
       { id: "b", text: "Alegría" },
@@ -2597,14 +2495,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Orgullo" },
     ],
     correct: "c",
-    explanation:
-      "'Oprobio' significa vergüenza, deshonra o humillación. En el contexto, se refiere a la vergüenza de caerse de manera poco elegante en el arroyo.",
+    explanation: "En la situacion descrita, 'Oprobio' significa vergüenza, deshonra o humillación. En el contexto, se refiere a la vergüenza de caerse de manera poco elegante en el arroyo.",
     points: 5,
   },
   {
     id: 137,
     category: "Comprensión Lectora",
-    question: "La expresión 'Voilà' es un:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la expresión 'Voilà' es un:",
     options: [
       { id: "a", text: "Anglicismo" },
       { id: "b", text: "Italianismo" },
@@ -2612,14 +2509,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Germanismo" },
     ],
     correct: "c",
-    explanation:
-      "'Voilà' es un galicismo (préstamo del francés) que significa 'he aquí' o 'ya está', usado para presentar o concluir algo.",
+    explanation: "En la situacion descrita, 'Voilà' es un galicismo (préstamo del francés) que significa 'he aquí' o 'ya está', usado para presentar o concluir algo.",
     points: 5,
   },
   {
     id: 138,
     category: "Comprensión Lectora",
-    question: "La palabra 'chasquido' corresponde a:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la palabra 'chasquido' corresponde a:",
     options: [
       { id: "a", text: "Una metáfora" },
       { id: "b", text: "Una onomatopeya" },
@@ -2627,14 +2523,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Una hipérbole" },
     ],
     correct: "b",
-    explanation:
-      "'Chasquido' es una onomatopeya que imita el sonido seco y repentino, en este caso del quebrarse de los huesos.",
+    explanation: "En la situacion descrita, 'Chasquido' es una onomatopeya que imita el sonido seco y repentino, en este caso del quebrarse de los huesos.",
     points: 5,
   },
   {
     id: 139,
     category: "Comprensión Lectora",
-    question: "¿A qué se refiere 'a veces es un don y en otras ocasiones es un castigo'?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿A qué se refiere 'a veces es un don y en otras ocasiones es un castigo'?",
     options: [
       { id: "a", text: "La lectura de noticias" },
       { id: "b", text: "Cruzar puentes de madera" },
@@ -2642,14 +2537,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Vivir en Argelia" },
     ],
     correct: "c",
-    explanation:
-      "Se refiere a la compulsión fabuladora del novelista: es un don cuando permite crear literatura, pero es un castigo cuando obliga a imaginar horrores o anticipar caídas ridículas.",
+    explanation: "En la situacion descrita, se refiere a la compulsión fabuladora del novelista: es un don cuando permite crear literatura, pero es un castigo cuando obliga a imaginar horrores o anticipar caídas ridículas.",
     points: 5,
   },
   {
     id: 140,
     category: "Comprensión Lectora",
-    question: "¿Cuál de los siguientes NO es un ejemplo de cómo marcha la cabeza del novelista por sí sola?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál de los siguientes NO es un ejemplo de cómo marcha la cabeza del novelista por sí sola?",
     options: [
       { id: "a", text: "Recrear instantáneamente una noticia atroz sobre niños descuartizados" },
       { id: "b", text: "Imaginar detalladamente una caída al cruzar un puente" },
@@ -2657,15 +2551,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "Visualizar con todos los pormenores una situación antes de que ocurra" },
     ],
     correct: "c",
-    explanation:
-      "'Leer tranquilamente el periódico sin que se dispare la imaginación' NO es un ejemplo de la compulsión fabuladora. Por el contrario, el texto muestra que la imaginación del novelista se dispara involuntariamente al leer el periódico.",
+    explanation: "En la situacion descrita, 'Leer tranquilamente el periódico sin que se dispare la imaginación' NO es un ejemplo de la compulsión fabuladora. Por el contrario, el texto muestra que la imaginación del novelista se dispara involuntariamente al leer el periódico.",
     points: 5,
   },
   // Módulo 1: Rosa Montero - Construcción de textos y ortografía
   {
     id: 199,
     category: "Construcción de textos y ortografía",
-    question: "¿Qué tipo de texto es el fragmento de Rosa Montero?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué tipo de texto es el fragmento de Rosa Montero?",
     options: [
       { id: "a", text: "Narrativo" },
       { id: "b", text: "Argumentativo" },
@@ -2673,14 +2566,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Expositivo" },
     ],
     correct: "b",
-    explanation:
-      "El texto es argumentativo porque la autora presenta una tesis ('escribir es estar habitado por un revoltijo de fantasías') y la sustenta con argumentos y ejemplos.",
+    explanation: "En la situacion descrita, el texto es argumentativo porque la autora presenta una tesis ('escribir es estar habitado por un revoltijo de fantasías') y la sustenta con argumentos y ejemplos.",
     points: 5,
   },
   {
     id: 200,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál es la estructura del párrafo?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la estructura del párrafo?",
     options: [
       { id: "a", text: "Introducción, desarrollo y cierre" },
       { id: "b", text: "Tesis, argumentos, ejemplos y conclusión" },
@@ -2688,14 +2580,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Causa y efecto" },
     ],
     correct: "b",
-    explanation:
-      "El texto argumentativo presenta una tesis inicial, luego argumentos que la sustentan, ejemplos que la ilustran y una conclusión final.",
+    explanation: "En la situacion descrita, el texto argumentativo presenta una tesis inicial, luego argumentos que la sustentan, ejemplos que la ilustran y una conclusión final.",
     points: 5,
   },
   {
     id: 201,
     category: "Construcción de textos y ortografía",
-    question: "¿Qué figura literaria predomina en 'a veces perezosas como las lentas ensoñaciones de una siesta estival, a veces agitadas y enfebrecidas como el delirio de un loco'?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué figura literaria predomina en 'a veces perezosas como las lentas ensoñaciones de una siesta estival, a veces agitadas y enfebrecidas como el delirio de un loco'?",
     options: [
       { id: "a", text: "Metáfora" },
       { id: "b", text: "Símil" },
@@ -2703,14 +2594,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Personificación" },
     ],
     correct: "b",
-    explanation:
-      "Predomina el símil, pues la escritora compara las fantasías con otros fenómenos (ensoñaciones, delirio) usando 'como'.",
+    explanation: "En la situacion descrita, predomina el símil, pues la escritora compara las fantasías con otros fenómenos (ensoñaciones, delirio) usando 'como'.",
     points: 5,
   },
   {
     id: 202,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál oración resume la idea central del párrafo?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál oración resume la idea central del párrafo?",
     options: [
       { id: "a", text: "Escribir, en fin, es estar habitado por un revoltijo de fantasías" },
       { id: "b", text: "La cabeza del novelista marcha por sí sola" },
@@ -2718,14 +2608,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Una enojosa tendencia a despanzurrarme en todos los vados" },
     ],
     correct: "a",
-    explanation:
-      "La oración inicial contiene la tesis y resume la idea central que todo el párrafo desarrolla y ejemplifica.",
+    explanation: "En la situacion descrita, la oración inicial contiene la tesis y resume la idea central que todo el párrafo desarrolla y ejemplifica.",
     points: 5,
   },
   {
     id: 203,
     category: "Construcción de textos y ortografía",
-    question: "¿A qué se refiere la expresión 'compulsión fabuladora'?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿A qué se refiere la expresión 'compulsión fabuladora'?",
     options: [
       { id: "a", text: "A una enfermedad mental" },
       { id: "b", text: "A una posesión demoníaca" },
@@ -2733,14 +2622,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "A una experiencia que atraviesa la cabeza de los novelistas" },
     ],
     correct: "d",
-    explanation:
-      "La 'compulsión fabuladora' se refiere a la experiencia involuntaria que atraviesa la cabeza de los novelistas, haciendo que su imaginación se dispare automáticamente.",
+    explanation: "En la situacion descrita, la 'compulsión fabuladora' se refiere a la experiencia involuntaria que atraviesa la cabeza de los novelistas, haciendo que su imaginación se dispare automáticamente.",
     points: 5,
   },
   {
     id: 204,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál es el sinónimo de 'oprobio' en el contexto del texto?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es el sinónimo de 'oprobio' en el contexto del texto?",
     options: [
       { id: "a", text: "Vergüenza" },
       { id: "b", text: "Dolor" },
@@ -2755,7 +2643,7 @@ const questionsV1: Question[] = [
   {
     id: 205,
     category: "Construcción de textos y ortografía",
-    question: "El extranjerismo 'voilà' es un:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, el extranjerismo 'voilà' es un:",
     options: [
       { id: "a", text: "Anglicismo" },
       { id: "b", text: "Italianismo" },
@@ -2763,14 +2651,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Galicismo" },
     ],
     correct: "d",
-    explanation:
-      "'Voilà' es una palabra que proviene del francés, por lo tanto es un galicismo.",
+    explanation: "En la situacion descrita, 'Voilà' es una palabra que proviene del francés, por lo tanto es un galicismo.",
     points: 5,
   },
   {
     id: 206,
     category: "Construcción de textos y ortografía",
-    question: "La palabra 'chasquido' es un ejemplo de:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, la palabra 'chasquido' es un ejemplo de:",
     options: [
       { id: "a", text: "Metáfora" },
       { id: "b", text: "Onomatopeya" },
@@ -2778,14 +2665,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Hipérbaton" },
     ],
     correct: "b",
-    explanation:
-      "La palabra 'chasquido' imita el sonido de los huesos al quebrarse, por lo que es una onomatopeya.",
+    explanation: "En la situacion descrita, la palabra 'chasquido' imita el sonido de los huesos al quebrarse, por lo que es una onomatopeya.",
     points: 5,
   },
   {
     id: 207,
     category: "Construcción de textos y ortografía",
-    question: "'A veces es un don y en otras ocasiones es un castigo' se refiere a:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, 'A veces es un don y en otras ocasiones es un castigo' se refiere a:",
     options: [
       { id: "a", text: "La forma en que la cabeza del novelista marcha por sí sola" },
       { id: "b", text: "El acto de escribir en general" },
@@ -2793,14 +2679,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "La lectura del periódico" },
     ],
     correct: "a",
-    explanation:
-      "Esta frase alude directamente a la 'compulsión fabuladora' y cómo la cabeza del novelista marcha por sí sola, lo cual puede ser tanto beneficioso como problemático.",
+    explanation: "En la situacion descrita, esta frase alude directamente a la 'compulsión fabuladora' y cómo la cabeza del novelista marcha por sí sola, lo cual puede ser tanto beneficioso como problemático.",
     points: 5,
   },
   {
     id: 208,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál de las siguientes opciones NO es un ejemplo de cómo marcha la cabeza del novelista?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál de las siguientes opciones NO es un ejemplo de cómo marcha la cabeza del novelista?",
     options: [
       { id: "a", text: "Recrear instantáneamente una noticia atroz" },
       { id: "b", text: "Imaginar detalladamente una caída al cruzar un puente" },
@@ -2808,15 +2693,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "Visualizar con todos los pormenores el choque frío del agua" },
     ],
     correct: "c",
-    explanation:
-      "La opción C describe la situación general, no es un ejemplo específico. Las opciones A, B y D reproducen los ejemplos concretos dados en el texto.",
+    explanation: "En la situacion descrita, la opción C describe la situación general, no es un ejemplo específico. Las opciones A, B y D reproducen los ejemplos concretos dados en el texto.",
     points: 5,
   },
   // Módulo 2: Poemas y gramática - Construcción de textos y ortografía
   {
     id: 209,
     category: "Construcción de textos y ortografía",
-    question: "Del poema 'Ahora escribo pájaros' de Julio Cortázar, las palabras agudas son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, del poema 'Ahora escribo pájaros' de Julio Cortázar, las palabras agudas son:",
     context: "Ahora escribo pájaros. / No los veo venir, no los elijo, / de golpe están ahí, son esto, / una bandada de palabras / posándose / una / a / una / en los alambres de la página, / chirriando, picoteando, lluvia de alas / y yo sin pan que darles, solamente / dejándolos venir. Tal vez / sea eso un árbol / o tal vez / el amor.",
     options: [
       { id: "a", text: "Pájaros, alambres, página" },
@@ -2825,14 +2709,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Lluvia, árbol, amor" },
     ],
     correct: "b",
-    explanation:
-      "Las palabras agudas llevan el acento en la última sílaba. En el poema, las agudas son están, pan y ahí.",
+    explanation: "En la situacion descrita, las palabras agudas llevan el acento en la última sílaba. En el poema, las agudas son están, pan y ahí.",
     points: 5,
   },
   {
     id: 210,
     category: "Construcción de textos y ortografía",
-    question: "Del poema 'Ratoncito, pelusa...' de Julio Cortázar, ¿cuáles palabras NO son graves?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, del poema 'Ratoncito, pelusa...' de Julio Cortázar, ¿cuáles palabras NO son graves?",
     context: "Ratoncito, pelusa, medialuna, / caleidoscopio, barco en la botella, / musgo, campana, diáspora, / palingenesia, helecho, / eso y el dulce de zapallo, / el bandoneón de Troilo y dos o tres / zonas de piel en donde / hace nido el alción, / son las palabras que contienen / tu cruel definición inalcanzable, / son las cosas que guardan las sustancias / de que estás hecha para que alguien / beba y posea y arda convencida / de conocerte entera, / de que sólo eres Cris.",
     options: [
       { id: "a", text: "Ratoncito, pelusa, medialuna" },
@@ -2841,14 +2724,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Cruel, sustancias, entera" },
     ],
     correct: "c",
-    explanation:
-      "Las palabras graves llevan el acento en la penúltima sílaba. La opción C contiene dos agudas (definición, bandoneón) y una esdrújula (diáspora), por lo que es la correcta.",
+    explanation: "En la situacion descrita, las palabras graves llevan el acento en la penúltima sílaba. La opción C contiene dos agudas (definición, bandoneón) y una esdrújula (diáspora), por lo que es la correcta.",
     points: 5,
   },
   {
     id: 211,
     category: "Construcción de textos y ortografía",
-    question: "Del poema 'La lenta máquina del desamor' de Julio Cortázar, las palabras esdrújulas son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, del poema 'La lenta máquina del desamor' de Julio Cortázar, las palabras esdrújulas son:",
     context: "La lenta máquina del desamor, / los engranajes del reflujo, / los cuerpos que abandonan las almohadas, / las sábanas, los besos, / y de pie ante el espejo interrogándose / cada uno a sí mismo, / ya no mirándose entre ellos, / ya no desnudos para el otro, / ya no te amo, / mi amor.",
     options: [
       { id: "a", text: "Lenta, cuerpos, espejo" },
@@ -2857,14 +2739,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Engranajes, mirándose, amor" },
     ],
     correct: "c",
-    explanation:
-      "Las palabras esdrújulas llevan el acento en la antepenúltima sílaba. En este poema son máquina, interrogándose y sábanas.",
+    explanation: "En la situacion descrita, las palabras esdrújulas llevan el acento en la antepenúltima sílaba. En este poema son máquina, interrogándose y sábanas.",
     points: 5,
   },
   {
     id: 212,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál de las siguientes palabras está escrita correctamente?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál de las siguientes palabras está escrita correctamente?",
     options: [
       { id: "a", text: "Óvalo" },
       { id: "b", text: "Pán" },
@@ -2872,14 +2753,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Guíon" },
     ],
     correct: "a",
-    explanation:
-      "La única forma correcta es 'Óvalo'. Las demás tienen tildes erróneas: 'pan' es monosílaba y no lleva tilde, 'arado' es grave terminada en vocal y no lleva tilde, 'guion' es monosílaba según la RAE y no lleva tilde.",
+    explanation: "En la situacion descrita, la única forma correcta es 'Óvalo'. Las demás tienen tildes erróneas: 'pan' es monosílaba y no lleva tilde, 'arado' es grave terminada en vocal y no lleva tilde, 'guion' es monosílaba según la RAE y no lleva tilde.",
     points: 5,
   },
   {
     id: 213,
     category: "Construcción de textos y ortografía",
-    question: "Complete la frase: 'Miró hacia la ___ y me dijo: ___ tráigame la ___ para hacer un postre'",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, complete la frase: 'Miró hacia la ___ y me dijo: ___ tráigame la ___ para hacer un postre'",
     options: [
       { id: "a", text: "Baya, valla, vaya" },
       { id: "b", text: "Vaya, baya, valla" },
@@ -2887,14 +2767,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Valla, vaya, baya" },
     ],
     correct: "d",
-    explanation:
-      "La secuencia correcta es: valla (cartelera/cerca), vaya (del verbo ir en subjuntivo), baya (fruto).",
+    explanation: "En la situacion descrita, la secuencia correcta es: valla (cartelera/cerca), vaya (del verbo ir en subjuntivo), baya (fruto).",
     points: 5,
   },
   {
     id: 214,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál lista NO contiene sustantivos abstractos (intangibles)?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál lista NO contiene sustantivos abstractos (intangibles)?",
     options: [
       { id: "a", text: "Amor, esperanza, tristeza" },
       { id: "b", text: "Belleza, justicia, libertad" },
@@ -2902,14 +2781,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Felicidad, bondad, valentía" },
     ],
     correct: "c",
-    explanation:
-      "La opción C contiene sustantivos concretos y tangibles: morada (casa), silueta (contorno visible), riachuelo (cuerpo de agua). Las demás opciones contienen sustantivos abstractos.",
+    explanation: "En la situacion descrita, la opción C contiene sustantivos concretos y tangibles: morada (casa), silueta (contorno visible), riachuelo (cuerpo de agua). Las demás opciones contienen sustantivos abstractos.",
     points: 5,
   },
   {
     id: 215,
     category: "Construcción de textos y ortografía",
-    question: "En '¿Quién viene caminando esta mañana por la plaza? Es ella...', los pronombres personales son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en '¿Quién viene caminando esta mañana por la plaza? Es ella...', los pronombres personales son:",
     options: [
       { id: "a", text: "Ella, él, algunos" },
       { id: "b", text: "Quién, esta, es" },
@@ -2917,14 +2795,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Mañana, plaza, ella" },
     ],
     correct: "a",
-    explanation:
-      "Los pronombres personales identifican personas sin nombrarlas directamente. En el enunciado completo, los pronombres personales son ella, él y algunos.",
+    explanation: "En la situacion descrita, los pronombres personales identifican personas sin nombrarlas directamente. En el enunciado completo, los pronombres personales son ella, él y algunos.",
     points: 5,
   },
   {
     id: 216,
     category: "Construcción de textos y ortografía",
-    question: "En 'Su madre dijo que la verdad era suya...', los pronombres posesivos son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'Su madre dijo que la verdad era suya...', los pronombres posesivos son:",
     options: [
       { id: "a", text: "Su, la, que" },
       { id: "b", text: "Madre, verdad, era" },
@@ -2932,14 +2809,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Dijo, era, su" },
     ],
     correct: "c",
-    explanation:
-      "Los pronombres posesivos indican pertenencia. En el enunciado completo, los posesivos son suya, mía y vuestra.",
+    explanation: "En la situacion descrita, los pronombres posesivos indican pertenencia. En el enunciado completo, los posesivos son suya, mía y vuestra.",
     points: 5,
   },
   {
     id: 217,
     category: "Construcción de textos y ortografía",
-    question: "Las funciones de los adjetivos son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, las funciones de los adjetivos son:",
     options: [
       { id: "a", text: "Solo calificar al sustantivo" },
       { id: "b", text: "Calificar y determinar al sustantivo" },
@@ -2947,14 +2823,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Conectar oraciones" },
     ],
     correct: "b",
-    explanation:
-      "Los adjetivos no solo califican (grande, azul) sino que también determinan al sustantivo indicando género, número, cercanía, etc. (este, aquella, dos).",
+    explanation: "En la situacion descrita, los adjetivos no solo califican (grande, azul) sino que también determinan al sustantivo indicando género, número, cercanía, etc. (este, aquella, dos).",
     points: 5,
   },
   {
     id: 218,
     category: "Construcción de textos y ortografía",
-    question: "En cuál oración 'este' funciona como adjetivo demostrativo:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en cuál oración 'este' funciona como adjetivo demostrativo:",
     options: [
       { id: "a", text: "Éste es mi libro favorito" },
       { id: "b", text: "Éste llegó primero" },
@@ -2962,14 +2837,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Este encantamiento pareciera durar una eternidad" },
     ],
     correct: "d",
-    explanation:
-      "En la opción D, 'este' acompaña al sustantivo 'encantamiento' y funciona como adjetivo demostrativo. En las demás opciones, 'éste' funciona como pronombre (aunque la tilde ya no es obligatoria según la RAE).",
+    explanation: "En la situacion descrita, en la opción D, 'este' acompaña al sustantivo 'encantamiento' y funciona como adjetivo demostrativo. En las demás opciones, 'éste' funciona como pronombre (aunque la tilde ya no es obligatoria según la RAE).",
     points: 5,
   },
   {
     id: 219,
     category: "Construcción de textos y ortografía",
-    question: "Del poema 'El mal del siglo' de José Asunción Silva, las palabras que son verbos son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, del poema 'El mal del siglo' de José Asunción Silva, las palabras que son verbos son:",
     context: "El paciente: Doctor, un desaliento de la vida / que en lo íntimo de mí se arraiga y nace, / el mal del siglo… / Un cansancio de todo, un absoluto / desprecio por lo humano… un incesante / renegar de lo vil de la existencia / El médico: Eso es cuestión de régimen: camine / de mañanita; duerma largo, báñese; / beba bien; coma bien; cuídese mucho, / ¡Lo que usted tiene es hambre!",
     options: [
       { id: "a", text: "Desaliento, cansancio, desprecio" },
@@ -2978,14 +2852,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Doctor, régimen, hambre" },
     ],
     correct: "c",
-    explanation:
-      "Los verbos indican acciones o estados. En el poema, las palabras que son verbos son aumenta, arraiga y nace.",
+    explanation: "En la situacion descrita, los verbos indican acciones o estados. En el poema, las palabras que son verbos son aumenta, arraiga y nace.",
     points: 5,
   },
   {
     id: 220,
     category: "Construcción de textos y ortografía",
-    question: "Los pronombres enclíticos en el poema 'El mal del siglo' están en:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, los pronombres enclíticos en el poema 'El mal del siglo' están en:",
     options: [
       { id: "a", text: "Báñese, cuídese" },
       { id: "b", text: "Camine, duerma" },
@@ -2993,14 +2866,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Arraiga, nace" },
     ],
     correct: "a",
-    explanation:
-      "Los pronombres enclíticos (me, te, se, le) se unen al final del verbo. En el poema, 'Báñese' y 'cuídese' contienen el pronombre enclítico 'se'.",
+    explanation: "En la situacion descrita, los pronombres enclíticos (me, te, se, le) se unen al final del verbo. En el poema, 'Báñese' y 'cuídese' contienen el pronombre enclítico 'se'.",
     points: 5,
   },
   {
     id: 221,
     category: "Construcción de textos y ortografía",
-    question: "Del poema 'Verdor' de Elkin Restrepo, los deícticos personales son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, del poema 'Verdor' de Elkin Restrepo, los deícticos personales son:",
     context: "No son de animal salvaje / las pisadas / que rodean tu casa / esta mañana. / Cerca no hay gamos / ni osos / ni el bosque / se arrimaría hasta aquí. / Sin embargo, / alguien en la oscuridad / estuvo en vela / mientras / tú dormías. / alguien que pudo / sacar provecho / de tu fragilidad / y no lo hizo. / El rastro aún está fresco. / ¡Nadie hubiera podido con fuerza tal! / Lo prueba / el violento verdor / que salta allí / donde Él estuvo.",
     options: [
       { id: "a", text: "Casa, bosque, rastro" },
@@ -3009,14 +2881,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Mañana, oscuridad, fuerza" },
     ],
     correct: "c",
-    explanation:
-      "Los deícticos personales señalan personas sin nombrarlas. En el poema son: alguien, nadie y él.",
+    explanation: "En la situacion descrita, los deícticos personales señalan personas sin nombrarlas. En el poema son: alguien, nadie y él.",
     points: 5,
   },
   {
     id: 222,
     category: "Construcción de textos y ortografía",
-    question: "Del poema 'Verdor', los deícticos espaciales (de lugar) son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, del poema 'Verdor', los deícticos espaciales (de lugar) son:",
     options: [
       { id: "a", text: "Aquí, allí, cerca" },
       { id: "b", text: "Esta, mañana, aún" },
@@ -3024,14 +2895,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "No, ni, mientras" },
     ],
     correct: "a",
-    explanation:
-      "Los deícticos espaciales indican ubicación. En el poema son los adverbios de lugar: aquí, allí y cerca.",
+    explanation: "En la situacion descrita, los deícticos espaciales indican ubicación. En el poema son los adverbios de lugar: aquí, allí y cerca.",
     points: 5,
   },
   {
     id: 223,
     category: "Construcción de textos y ortografía",
-    question: "Del poema de Ángel González, los deícticos temporales son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, del poema de Ángel González, los deícticos temporales son:",
     context: "¡Futuro mío…! Corazón lejano / que lo dictaste ayer: / no te avergüences. / Hoy es el resultado de tu sangre, / dolor que reconozco, luz que admito, / sufrimiento que asumo, / amor que intento. / Pero nada es aún definitivo. / Mañana he decidido ir adelante, / y avanzaré, / mañana me dispongo a estar contento, / mañana te amaré, mañana / y tarde.",
     options: [
       { id: "a", text: "Futuro, corazón, amor" },
@@ -3040,15 +2910,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "Ayer, hoy, mañana" },
     ],
     correct: "d",
-    explanation:
-      "Los deícticos temporales indican tiempo. En el poema son los adverbios: ayer, hoy y mañana.",
+    explanation: "En la situacion descrita, los deícticos temporales indican tiempo. En el poema son los adverbios: ayer, hoy y mañana.",
     points: 5,
   },
   // Módulo 3: Estructura de oraciones - Construcción de textos y ortografía
   {
     id: 224,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál de las siguientes opciones NO es una oración?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál de las siguientes opciones NO es una oración?",
     options: [
       { id: "a", text: "El sol brilla intensamente" },
       { id: "b", text: "El bello rinoceronte" },
@@ -3056,14 +2925,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Llegaron tarde" },
     ],
     correct: "b",
-    explanation:
-      "Una oración contiene al menos un verbo en forma personal. 'El bello rinoceronte' es una frase nominal sin verbo, por lo tanto no es una oración.",
+    explanation: "En la situacion descrita, una oración contiene al menos un verbo en forma personal. 'El bello rinoceronte' es una frase nominal sin verbo, por lo tanto no es una oración.",
     points: 5,
   },
   {
     id: 225,
     category: "Construcción de textos y ortografía",
-    question: "En 'El portero de la empresa grande tuvo un conflicto ayer', el sujeto es:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'El portero de la empresa grande tuvo un conflicto ayer', el sujeto es:",
     options: [
       { id: "a", text: "El portero" },
       { id: "b", text: "La empresa grande" },
@@ -3071,14 +2939,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Un conflicto ayer" },
     ],
     correct: "c",
-    explanation:
-      "El sujeto completo incluye el núcleo (portero) y todos sus modificadores (el, de la empresa grande). Por lo tanto, el sujeto es 'El portero de la empresa grande'.",
+    explanation: "En la situacion descrita, el sujeto completo incluye el núcleo (portero) y todos sus modificadores (el, de la empresa grande). Por lo tanto, el sujeto es 'El portero de la empresa grande'.",
     points: 5,
   },
   {
     id: 226,
     category: "Construcción de textos y ortografía",
-    question: "En 'Viniste en aquel crucero', el tipo de sujeto es:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'Viniste en aquel crucero', el tipo de sujeto es:",
     options: [
       { id: "a", text: "Sujeto expreso" },
       { id: "b", text: "Sujeto tácito" },
@@ -3086,14 +2953,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Sujeto complejo" },
     ],
     correct: "b",
-    explanation:
-      "El sujeto no está explícito en la oración, pero se infiere del verbo conjugado (tú viniste). Es un sujeto tácito o implícito.",
+    explanation: "En la situacion descrita, el sujeto no está explícito en la oración, pero se infiere del verbo conjugado (tú viniste). Es un sujeto tácito o implícito.",
     points: 5,
   },
   {
     id: 227,
     category: "Construcción de textos y ortografía",
-    question: "En 'Juan, Tomás y Julio, mis mejores amigos, fueron a viajar al extranjero', los núcleos del sujeto son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'Juan, Tomás y Julio, mis mejores amigos, fueron a viajar al extranjero', los núcleos del sujeto son:",
     options: [
       { id: "a", text: "Mis mejores amigos" },
       { id: "b", text: "Juan y Tomás" },
@@ -3101,14 +2967,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Fueron a viajar" },
     ],
     correct: "c",
-    explanation:
-      "El sujeto tiene tres núcleos (Juan, Tomás, Julio), lo que lo convierte en un sujeto compuesto. La frase 'mis mejores amigos' es un complemento del sujeto.",
+    explanation: "En la situacion descrita, el sujeto tiene tres núcleos (Juan, Tomás, Julio), lo que lo convierte en un sujeto compuesto. La frase 'mis mejores amigos' es un complemento del sujeto.",
     points: 5,
   },
   {
     id: 228,
     category: "Construcción de textos y ortografía",
-    question: "En 'La música alimenta y llena el espíritu', el predicado es:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'La música alimenta y llena el espíritu', el predicado es:",
     options: [
       { id: "a", text: "Alimenta y llena el espíritu" },
       { id: "b", text: "La música" },
@@ -3116,14 +2981,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Alimenta y llena" },
     ],
     correct: "a",
-    explanation:
-      "El predicado es todo lo que se dice del sujeto. En este caso, 'alimenta y llena el espíritu' es el predicado completo.",
+    explanation: "En la situacion descrita, el predicado es todo lo que se dice del sujeto. En este caso, 'alimenta y llena el espíritu' es el predicado completo.",
     points: 5,
   },
   {
     id: 229,
     category: "Construcción de textos y ortografía",
-    question: "En 'Ellas están en la casa de Julián', el tipo de predicado es:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'Ellas están en la casa de Julián', el tipo de predicado es:",
     options: [
       { id: "a", text: "Predicado nominal" },
       { id: "b", text: "Predicado verbal" },
@@ -3131,14 +2995,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Predicado sustantivo" },
     ],
     correct: "b",
-    explanation:
-      "Aunque usa el verbo 'estar', en este caso indica ubicación (no un estado con adjetivo), por lo que el predicado es verbal, no nominal.",
+    explanation: "En la situacion descrita, aunque usa el verbo 'estar', en este caso indica ubicación (no un estado con adjetivo), por lo que el predicado es verbal, no nominal.",
     points: 5,
   },
   {
     id: 230,
     category: "Construcción de textos y ortografía",
-    question: "En 'Los niños y las niñas jugaron y cantaron durante la jornada recreativa', los núcleos del predicado son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'Los niños y las niñas jugaron y cantaron durante la jornada recreativa', los núcleos del predicado son:",
     options: [
       { id: "a", text: "Los niños y las niñas" },
       { id: "b", text: "Jugaron y cantaron" },
@@ -3146,14 +3009,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Durante la jornada" },
     ],
     correct: "b",
-    explanation:
-      "Los núcleos del predicado son siempre verbos. En este caso, hay dos núcleos: 'jugaron' y 'cantaron'.",
+    explanation: "En la situacion descrita, los núcleos del predicado son siempre verbos. En este caso, hay dos núcleos: 'jugaron' y 'cantaron'.",
     points: 5,
   },
   {
     id: 231,
     category: "Construcción de textos y ortografía",
-    question: "En 'El psicólogo entregó una remisión al psiquiatra', el complemento directo (CD) y el complemento indirecto (CI) son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'El psicólogo entregó una remisión al psiquiatra', el complemento directo (CD) y el complemento indirecto (CI) son:",
     options: [
       { id: "a", text: "CD: psicólogo, CI: psiquiatra" },
       { id: "b", text: "CD: al psiquiatra, CI: una remisión" },
@@ -3161,14 +3023,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "CD: entregó, CI: remisión" },
     ],
     correct: "c",
-    explanation:
-      "El complemento directo es aquello que se entrega (remisión). El complemento indirecto es a quien se le entrega (psiquiatra).",
+    explanation: "En la situacion descrita, el complemento directo es aquello que se entrega (remisión). El complemento indirecto es a quien se le entrega (psiquiatra).",
     points: 5,
   },
   {
     id: 232,
     category: "Construcción de textos y ortografía",
-    question: "En 'Camila tuvo un accidente ayer en la mañana', el complemento directo (CD) y el complemento circunstancial (CC) son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'Camila tuvo un accidente ayer en la mañana', el complemento directo (CD) y el complemento circunstancial (CC) son:",
     options: [
       { id: "a", text: "CD: accidente, CC: ayer en la mañana" },
       { id: "b", text: "CD: Camila, CC: accidente" },
@@ -3176,14 +3037,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "CD: tuvo, CC: accidente" },
     ],
     correct: "a",
-    explanation:
-      "El complemento directo es 'accidente' (lo que tuvo). El complemento circunstancial de tiempo es 'ayer en la mañana' (cuándo ocurrió).",
+    explanation: "En la situacion descrita, el complemento directo es 'accidente' (lo que tuvo). El complemento circunstancial de tiempo es 'ayer en la mañana' (cuándo ocurrió).",
     points: 5,
   },
   {
     id: 233,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál de las siguientes oraciones es desiderativa (expresa deseo)?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál de las siguientes oraciones es desiderativa (expresa deseo)?",
     options: [
       { id: "a", text: "¿Vendrás mañana?" },
       { id: "b", text: "No quiero estar en casa hasta las dos" },
@@ -3191,14 +3051,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "El auto es rojo" },
     ],
     correct: "b",
-    explanation:
-      "Las oraciones desiderativas expresan un deseo. 'No quiero estar en casa hasta las dos' manifiesta claramente un deseo del hablante.",
+    explanation: "En la situacion descrita, las oraciones desiderativas expresan un deseo. 'No quiero estar en casa hasta las dos' manifiesta claramente un deseo del hablante.",
     points: 5,
   },
   {
     id: 234,
     category: "Construcción de textos y ortografía",
-    question: "En cuál oración 'la' NO funciona como artículo:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en cuál oración 'la' NO funciona como artículo:",
     options: [
       { id: "a", text: "La había llamado ayer" },
       { id: "b", text: "La casa es grande" },
@@ -3206,14 +3065,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "La niña juega" },
     ],
     correct: "a",
-    explanation:
-      "En 'La había llamado ayer', 'la' funciona como pronombre de complemento directo (la llamó a ella), no como artículo.",
+    explanation: "En la situacion descrita, en 'La había llamado ayer', 'la' funciona como pronombre de complemento directo (la llamó a ella), no como artículo.",
     points: 5,
   },
   {
     id: 235,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál lista NO contiene sustantivos?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál lista NO contiene sustantivos?",
     options: [
       { id: "a", text: "Casa, árbol, perro" },
       { id: "b", text: "Felicidad, amor, justicia" },
@@ -3221,14 +3079,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Juan, María, Colombia" },
     ],
     correct: "c",
-    explanation:
-      "La opción C contiene solo adjetivos: 'verde' (color), 'feo' (cualidad), 'interesante' (cualidad). Las demás opciones contienen sustantivos.",
+    explanation: "En la situacion descrita, la opción C contiene solo adjetivos: 'verde' (color), 'feo' (cualidad), 'interesante' (cualidad). Las demás opciones contienen sustantivos.",
     points: 5,
   },
   {
     id: 236,
     category: "Construcción de textos y ortografía",
-    question: "Para nombrar una cualidad de un sustantivo se utiliza:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, para nombrar una cualidad de un sustantivo se utiliza:",
     options: [
       { id: "a", text: "Adjetivo" },
       { id: "b", text: "Verbo" },
@@ -3236,14 +3093,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Preposición" },
     ],
     correct: "a",
-    explanation:
-      "Los adjetivos son las palabras que califican o determinan a los sustantivos, indicando sus cualidades o características.",
+    explanation: "En la situacion descrita, los adjetivos son las palabras que califican o determinan a los sustantivos, indicando sus cualidades o características.",
     points: 5,
   },
   {
     id: 237,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuáles de las siguientes palabras son adjetivos?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuáles de las siguientes palabras son adjetivos?",
     options: [
       { id: "a", text: "Correr, saltar, nadar" },
       { id: "b", text: "Rápidamente, lentamente, bien" },
@@ -3251,14 +3107,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Pero, aunque, porque" },
     ],
     correct: "c",
-    explanation:
-      "Los adjetivos califican a los sustantivos. 'Ágil', 'atentos' y 'rígidas' son adjetivos que indican cualidades.",
+    explanation: "En la situacion descrita, los adjetivos califican a los sustantivos. 'Ágil', 'atentos' y 'rígidas' son adjetivos que indican cualidades.",
     points: 5,
   },
   {
     id: 238,
     category: "Construcción de textos y ortografía",
-    question: "En 'Ella se comió la torta que dejó aquella que vino esta mañana. Su sabor era rico, pero le gustó más la que le daba su madre', los pronombres son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'Ella se comió la torta que dejó aquella que vino esta mañana. Su sabor era rico, pero le gustó más la que le daba su madre', los pronombres son:",
     options: [
       { id: "a", text: "Aquella, se, le" },
       { id: "b", text: "Torta, sabor, madre" },
@@ -3266,15 +3121,14 @@ const questionsV1: Question[] = [
       { id: "d", text: "Rico, más, su" },
     ],
     correct: "a",
-    explanation:
-      "Los pronombres sustituyen o hacen referencia a sustantivos. En el texto, 'aquella' (demostrativo), 'se' (reflexivo) y 'le' (personal) son pronombres.",
+    explanation: "En la situacion descrita, los pronombres sustituyen o hacen referencia a sustantivos. En el texto, 'aquella' (demostrativo), 'se' (reflexivo) y 'le' (personal) son pronombres.",
     points: 5,
   },
   // Módulo 4: Textos y ortografía avanzada - Construcción de textos y ortografía
   {
     id: 239,
     category: "Construcción de textos y ortografía",
-    question: "Del poema 'Verdor' de Elkin Restrepo, los verbos son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, del poema 'Verdor' de Elkin Restrepo, los verbos son:",
     context: "No son de animal salvaje / las pisadas / que rodean tu casa / esta mañana. / Cerca no hay gamos / ni osos / ni el bosque / se arrimaría hasta aquí. / Sin embargo, / alguien en la oscuridad / estuvo en vela / mientras / tú dormías. / El rastro aún está fresco. / ¡Nadie hubiera podido con fuerza tal! / Lo prueba / el violento verdor / que salta allí / donde Él estuvo.",
     options: [
       { id: "a", text: "Pisadas, gamos, rastro" },
@@ -3283,14 +3137,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Arrimaría, salta, está" },
     ],
     correct: "d",
-    explanation:
-      "Los verbos indican acciones o estados. En el poema, las palabras que son verbos incluyen arrimaría, salta y está.",
+    explanation: "En la situacion descrita, los verbos indican acciones o estados. En el poema, las palabras que son verbos incluyen arrimaría, salta y está.",
     points: 5,
   },
   {
     id: 240,
     category: "Construcción de textos y ortografía",
-    question: "Los adverbios de lugar en el poema 'Verdor' son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, los adverbios de lugar en el poema 'Verdor' son:",
     options: [
       { id: "a", text: "Aquí, cerca, allí" },
       { id: "b", text: "Mañana, mientras, aún" },
@@ -3298,14 +3151,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Alguien, nadie, él" },
     ],
     correct: "a",
-    explanation:
-      "Los adverbios de lugar indican dónde ocurre la acción. En el poema son: aquí, cerca y allí.",
+    explanation: "En la situacion descrita, los adverbios de lugar indican dónde ocurre la acción. En el poema son: aquí, cerca y allí.",
     points: 5,
   },
   {
     id: 241,
     category: "Construcción de textos y ortografía",
-    question: "En el relato 'Zapato Zapata', la expresión 'clandestinidad urbana' está formada por:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en el relato 'Zapato Zapata', la expresión 'clandestinidad urbana' está formada por:",
     context: "Zapato Zapata fue un zapatito que un lunes cualquiera decidió fugarse de la zapatería y salir a predicar de vitrina en vitrina, de almacén en almacén, pidiendo a zapatos, chanclas, sandalias, zuecos, pantuflas, tenis y botas que se fugaran como él de la vida ciudadana y se fueran al monte o a la clandestinidad urbana.",
     options: [
       { id: "a", text: "Verbo y sustantivo" },
@@ -3314,14 +3166,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Dos sustantivos" },
     ],
     correct: "b",
-    explanation:
-      "La expresión está formada por 'clandestinidad' (sustantivo) y 'urbana' (adjetivo que modifica al sustantivo).",
+    explanation: "En la situacion descrita, la expresión está formada por 'clandestinidad' (sustantivo) y 'urbana' (adjetivo que modifica al sustantivo).",
     points: 5,
   },
   {
     id: 242,
     category: "Construcción de textos y ortografía",
-    question: "En 'pidiendo a zapatos, chanclas, sandalias, zuecos, pantuflas, tenis y botas', la categoría gramatical predominante es:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'pidiendo a zapatos, chanclas, sandalias, zuecos, pantuflas, tenis y botas', la categoría gramatical predominante es:",
     options: [
       { id: "a", text: "Verbo" },
       { id: "b", text: "Adjetivo" },
@@ -3329,14 +3180,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Sustantivo" },
     ],
     correct: "d",
-    explanation:
-      "La categoría predominante en este fragmento es el sustantivo: zapatos, chanclas, sandalias, zuecos, pantuflas, tenis y botas son todos sustantivos.",
+    explanation: "En la situacion descrita, la categoría predominante en este fragmento es el sustantivo: zapatos, chanclas, sandalias, zuecos, pantuflas, tenis y botas son todos sustantivos.",
     points: 5,
   },
   {
     id: 243,
     category: "Construcción de textos y ortografía",
-    question: "En 'se viera forzada a poner los pies en la tierra', la palabra 'forzada' funciona como:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'se viera forzada a poner los pies en la tierra', la palabra 'forzada' funciona como:",
     options: [
       { id: "a", text: "Sustantivo" },
       { id: "b", text: "Verbo conjugado" },
@@ -3344,14 +3194,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Adverbio de modo" },
     ],
     correct: "d",
-    explanation:
-      "En este contexto, 'forzada' funciona como adverbio de modo que acompaña al verbo 'se viera', indicando la manera en que se vería.",
+    explanation: "En la situacion descrita, en este contexto, 'forzada' funciona como adverbio de modo que acompaña al verbo 'se viera', indicando la manera en que se vería.",
     points: 5,
   },
   {
     id: 244,
     category: "Construcción de textos y ortografía",
-    question: "De las siguientes palabras, ¿cuál tiene acento prosódico (sin tilde)?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, de las siguientes palabras, ¿cuál tiene acento prosódico (sin tilde)?",
     options: [
       { id: "a", text: "Eléctrico" },
       { id: "b", text: "Cúpula" },
@@ -3359,14 +3208,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Estético" },
     ],
     correct: "c",
-    explanation:
-      "'Conciso' es palabra grave terminada en vocal y no lleva tilde, por lo que solo tiene acento prosódico. Las demás palabras llevan tilde (acento ortográfico).",
+    explanation: "En la situacion descrita, 'Conciso' es palabra grave terminada en vocal y no lleva tilde, por lo que solo tiene acento prosódico. Las demás palabras llevan tilde (acento ortográfico).",
     points: 5,
   },
   {
     id: 245,
     category: "Construcción de textos y ortografía",
-    question: "En cuál oración 'se' NO lleva tilde diacrítica:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en cuál oración 'se' NO lleva tilde diacrítica:",
     options: [
       { id: "a", text: "Sé que vendrás mañana" },
       { id: "b", text: "Sé amable con todos" },
@@ -3374,14 +3222,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Se dirigió a mí" },
     ],
     correct: "d",
-    explanation:
-      "En 'Se dirigió a mí', 'se' funciona como pronombre personal y no lleva tilde. En las demás opciones, 'sé' lleva tilde por ser del verbo saber o del imperativo de ser.",
+    explanation: "En la situacion descrita, en 'Se dirigió a mí', 'se' funciona como pronombre personal y no lleva tilde. En las demás opciones, 'sé' lleva tilde por ser del verbo saber o del imperativo de ser.",
     points: 5,
   },
   {
     id: 246,
     category: "Construcción de textos y ortografía",
-    question: "Del fragmento de 'Cien años de soledad', las palabras agudas son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, del fragmento de 'Cien años de soledad', las palabras agudas son:",
     context: "Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo. Macondo era entonces una aldea de veinte casas de barro y cañabrava construidas a la orilla de un río de aguas diáfanas.",
     options: [
       { id: "a", text: "Después, coronel, llevó" },
@@ -3390,14 +3237,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Padre, hielo, río" },
     ],
     correct: "a",
-    explanation:
-      "Las palabras agudas llevan el acento en la última sílaba. En el fragmento son: después, coronel y llevó.",
+    explanation: "En la situacion descrita, las palabras agudas llevan el acento en la última sílaba. En el fragmento son: después, coronel y llevó.",
     points: 5,
   },
   {
     id: 247,
     category: "Construcción de textos y ortografía",
-    question: "Del relato 'Ya era tiempo', ¿cuál opción contiene palabras agudas?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, del relato 'Ya era tiempo', ¿cuál opción contiene palabras agudas?",
     context: "Nadie en la relojería pudo entender que las aspiraciones de aquel relojito humilde fueran las de llegar a ser reloj despertador, y las de aprender alpinismo, para así subirse al pico más alto de los Andes.",
     options: [
       { id: "a", text: "Nadie, relojería, humilde" },
@@ -3406,14 +3252,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Pudo, entender, fueran" },
     ],
     correct: "b",
-    explanation:
-      "La opción B contiene palabras agudas (llevan acento en la última sílaba): llegar, más, aquel, reloj. Las demás opciones contienen principalmente palabras graves.",
+    explanation: "En la situacion descrita, la opción B contiene palabras agudas (llevan acento en la última sílaba): llegar, más, aquel, reloj. Las demás opciones contienen principalmente palabras graves.",
     points: 5,
   },
   {
     id: 248,
     category: "Construcción de textos y ortografía",
-    question: "Del relato 'Entre lápices', las palabras esdrújulas son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, del relato 'Entre lápices', las palabras esdrújulas son:",
     context: "En una fábrica de lápices para la exportación, dos lápices conversaban un día: —¿Y por qué fabrican aquellos colegas sin borrador? —Es que esos van para la América Latina.",
     options: [
       { id: "a", text: "Exportación, conversaban, América" },
@@ -3422,14 +3267,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Fabrican, Latina" },
     ],
     correct: "c",
-    explanation:
-      "Las palabras esdrújulas llevan el acento en la antepenúltima sílaba. En el texto son: fábrica y lápices.",
+    explanation: "En la situacion descrita, las palabras esdrújulas llevan el acento en la antepenúltima sílaba. En el texto son: fábrica y lápices.",
     points: 5,
   },
   {
     id: 249,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál oración tiene uso incorrecto de la coma?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál oración tiene uso incorrecto de la coma?",
     options: [
       { id: "a", text: "María, mi hermana, llegó tarde" },
       { id: "b", text: "Compré manzanas, peras, uvas y naranjas" },
@@ -3437,14 +3281,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Hoy, sin embargo, no iré al trabajo" },
     ],
     correct: "c",
-    explanation:
-      "Falta una coma después de 'Mi madre' para separar el inciso explicativo 'mujer amorosa'. Debería ser: 'Mi madre, mujer amorosa, odia las injusticias'.",
+    explanation: "En la situacion descrita, falta una coma después de 'Mi madre' para separar el inciso explicativo 'mujer amorosa'. Debería ser: 'Mi madre, mujer amorosa, odia las injusticias'.",
     points: 5,
   },
   {
     id: 250,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál oración usa correctamente el punto seguido?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál oración usa correctamente el punto seguido?",
     options: [
       { id: "a", text: "Recibí un correo. Era de mi mejor amiga" },
       { id: "b", text: "Me gusta. El chocolate" },
@@ -3452,14 +3295,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Voy a. La tienda" },
     ],
     correct: "a",
-    explanation:
-      "El punto seguido separa oraciones relacionadas dentro de un párrafo. La opción A lo usa correctamente: dos oraciones completas y relacionadas.",
+    explanation: "En la situacion descrita, el punto seguido separa oraciones relacionadas dentro de un párrafo. La opción A lo usa correctamente: dos oraciones completas y relacionadas.",
     points: 5,
   },
   {
     id: 251,
     category: "Construcción de textos y ortografía",
-    question: "Complete: 'Ella no habla nunca del ___ de su tristeza. Calla ___ debe aprender sola. ¿___ habría de decir lo que piensa?'",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, complete: 'Ella no habla nunca del ___ de su tristeza. Calla ___ debe aprender sola. ¿___ habría de decir lo que piensa?'",
     options: [
       { id: "a", text: "Porque, porqué, por qué" },
       { id: "b", text: "Porqué, porque, por qué" },
@@ -3467,14 +3309,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Porque, por qué, porqué" },
     ],
     correct: "b",
-    explanation:
-      "La secuencia correcta es: porqué (sustantivo = motivo), porque (conjunción causal), por qué (pregunta).",
+    explanation: "En la situacion descrita, la secuencia correcta es: porqué (sustantivo = motivo), porque (conjunción causal), por qué (pregunta).",
     points: 5,
   },
   {
     id: 252,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál palabra está escrita correctamente?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál palabra está escrita correctamente?",
     options: [
       { id: "a", text: "Inospitalario" },
       { id: "b", text: "Aprendízaje" },
@@ -3482,14 +3323,13 @@ const questionsV1: Question[] = [
       { id: "d", text: "Arbol" },
     ],
     correct: "c",
-    explanation:
-      "La única palabra correcta es 'Inútil' (palabra grave con tilde). Las formas correctas de las demás son: inhospitalario (con h), aprendizaje (sin tilde), árbol (con tilde).",
+    explanation: "En la situacion descrita, la única palabra correcta es 'Inútil' (palabra grave con tilde). Las formas correctas de las demás son: inhospitalario (con h), aprendizaje (sin tilde), árbol (con tilde).",
     points: 5,
   },
   {
     id: 253,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál palabra está mal escrita?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál palabra está mal escrita?",
     options: [
       { id: "a", text: "Obvio" },
       { id: "b", text: "Cambio" },
@@ -3497,8 +3337,7 @@ const questionsV1: Question[] = [
       { id: "d", text: "Ejecutivo" },
     ],
     correct: "c",
-    explanation:
-      "La palabra 'Ábito' está mal escrita. La forma correcta es 'hábito' (con h inicial y tilde).",
+    explanation: "En la situacion descrita, la palabra 'Ábito' está mal escrita. La forma correcta es 'hábito' (con h inicial y tilde).",
     points: 5,
   },
 ]
@@ -3509,7 +3348,7 @@ const questionsV2: Question[] = [
     id: 21,
     category: "Identificación de Idea Central",
     context: "(1) Las plantas producen su propio alimento mediante fotosíntesis. (2) Los animales, en cambio, deben ingerirlo del exterior. (3) Los herbívoros se alimentan exclusivamente de vegetales. (4) Los carnívoros consumen carne de otros animales. (5) Los omnívoros combinan ambos tipos de alimento. (6) Todas las plantas y animales necesitan un suministro adecuado de alimento para sobrevivir.",
-    question: "La idea central del párrafo anterior está contenida en:",
+    question: "Situacion\n\nDurante un taller de comprension lectora, un grupo de funcionarios analiza diferentes parrafos para identificar cual oracion contiene la idea central de cada texto.\n\nPregunta\n\nCon base en la situacion descrita, la idea central del párrafo anterior está contenida en:",
     options: [
       { id: "a", text: "La oración 1" },
       { id: "b", text: "La oración 4" },
@@ -3518,7 +3357,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "La oración 6" },
     ],
     correct: "c",
-    explanation: "La oración 2 establece la diferencia fundamental entre plantas y animales respecto a la alimentación, que es el tema central. Las demás oraciones detallan tipos de animales.",
+    explanation: "En la situacion descrita, la oración 2 establece la diferencia fundamental entre plantas y animales respecto a la alimentación, que es el tema central. Las demás oraciones detallan tipos de animales.",
     points: 5,
   },
   // Ordenamiento V2
@@ -3526,7 +3365,7 @@ const questionsV2: Question[] = [
     id: 22,
     category: "Ordenamiento de Párrafos",
     context: "Ordene las siguientes oraciones:\n\n1. Desde entonces se comportaron como si él fuera la progenitora\n2. Konrad Lorenz descubrió en 1930 un tipo de aprendizaje de una sola experiencia en aves\n3. El científico quedó fijado en la experiencia de los polluelos como su 'madre'\n4. La mayoría de formas de aprendizaje requiere más de una experiencia\n5. Pero los gansos nacidos en incubadora siguieron al Dr. Lorenz\n6. Normalmente esa figura es su madre\n7. Los gansos, por ejemplo, siguen lo primero que ven moverse después del nacimiento",
-    question: "El orden más adecuado es:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el orden más adecuado es:",
     options: [
       { id: "a", text: "4 – 2 – 7 – 6 – 5 – 3 – 1" },
       { id: "b", text: "4 – 5 – 1 – 7 – 6 – 3 – 2" },
@@ -3534,14 +3373,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "4 – 2 – 1 – 3 – 6 – 5 – 7" },
     ],
     correct: "a",
-    explanation: "Comienza con el contraste (4), introduce a Lorenz (2), explica el comportamiento de gansos (7), lo normal (6), el experimento (5), el resultado (3) y la conclusión (1).",
+    explanation: "En la situacion descrita, comienza con el contraste (4), introduce a Lorenz (2), explica el comportamiento de gansos (7), lo normal (6), el experimento (5), el resultado (3) y la conclusión (1).",
     points: 5,
   },
   {
     id: 23,
     category: "Ordenamiento de Párrafos",
     context: "Ordene las oraciones:\n\n1. Pavlov se intrigó por si otro tipo de estímulos podría producir la respuesta\n2. Pavlov encontró que tras someter al animal a la experiencia, bastaba hacer sonar una campana para que salivara\n3. La transferencia de una respuesta refleja de un estímulo a otro se denomina 'condicionamiento'\n4. El ruso P. Pavlov (1849-1936) se interesó por el funcionamiento del sistema nervioso de los mamíferos\n5. Antes de ofrecer carne al perro, hacía sonar una campana; repitió este proceso muchas veces\n6. Comenzó a estudiar los reflejos envueltos en la elaboración de saliva y descubrió que el olor o la vista de carne iniciaban la salivación",
-    question: "El orden correcto es:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el orden correcto es:",
     options: [
       { id: "a", text: "4 – 6 – 3 – 5 – 2 – 1" },
       { id: "b", text: "4 – 6 – 1 – 5 – 2 – 3" },
@@ -3549,14 +3388,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "4 – 1 – 5 – 2 – 3 – 6" },
     ],
     correct: "b",
-    explanation: "Introduce a Pavlov (4), su descubrimiento inicial (6), su curiosidad (1), el experimento (5), el resultado (2) y la definición del concepto (3).",
+    explanation: "En la situacion descrita, introduce a Pavlov (4), su descubrimiento inicial (6), su curiosidad (1), el experimento (5), el resultado (2) y la definición del concepto (3).",
     points: 5,
   },
   // Sinonimia V2
   {
     id: 24,
     category: "Sinonimia",
-    question: "Seleccione el sinónimo más adecuado para REPUDIO:",
+    question: "Situacion\n\nEn la revision de un documento oficial, un funcionario de la Gobernacion encuentra un termino complejo y necesita identificar un sinonimo apropiado para facilitar la comprension del texto.\n\nPregunta\n\nCon base en la situacion descrita, seleccione el sinónimo más adecuado para REPUDIO:",
     options: [
       { id: "a", text: "incapacidad" },
       { id: "b", text: "dificultad" },
@@ -3565,13 +3404,13 @@ const questionsV2: Question[] = [
       { id: "e", text: "encarcelamiento" },
     ],
     correct: "d",
-    explanation: "REPUDIO significa rechazo, negación o desaprobación de algo o alguien.",
+    explanation: "En la situacion descrita, rEPUDIO significa rechazo, negación o desaprobación de algo o alguien.",
     points: 5,
   },
   {
     id: 25,
     category: "Sinonimia",
-    question: "Seleccione el sinónimo más adecuado para DESFALCO:",
+    question: "Situacion\n\nEn la revision de un documento oficial, un funcionario de la Gobernacion encuentra un termino complejo y necesita identificar un sinonimo apropiado para facilitar la comprension del texto.\n\nPregunta\n\nCon base en la situacion descrita, seleccione el sinónimo más adecuado para DESFALCO:",
     options: [
       { id: "a", text: "blasfemia" },
       { id: "b", text: "malversación" },
@@ -3580,14 +3419,14 @@ const questionsV2: Question[] = [
       { id: "e", text: "adverso" },
     ],
     correct: "b",
-    explanation: "DESFALCO significa malversación de fondos, apropiación indebida de dinero o bienes confiados a alguien.",
+    explanation: "En la situacion descrita, dESFALCO significa malversación de fondos, apropiación indebida de dinero o bienes confiados a alguien.",
     points: 5,
   },
   // Antonimia V2
   {
     id: 26,
     category: "Antonimia",
-    question: "Seleccione el antónimo de SOSLAYAR:",
+    question: "Situacion\n\nDurante un ejercicio de vocabulario en un taller de redaccion administrativa, se solicita identificar antonimos para mejorar la precision del lenguaje institucional.\n\nPregunta\n\nCon base en la situacion descrita, seleccione el antónimo de SOSLAYAR:",
     options: [
       { id: "a", text: "ganar" },
       { id: "b", text: "afrontar" },
@@ -3596,13 +3435,13 @@ const questionsV2: Question[] = [
       { id: "e", text: "perder" },
     ],
     correct: "b",
-    explanation: "SOSLAYAR significa eludir, evitar algo. Su antónimo es AFRONTAR, que significa enfrentar directamente algo.",
+    explanation: "En la situacion descrita, sOSLAYAR significa eludir, evitar algo. Su antónimo es AFRONTAR, que significa enfrentar directamente algo.",
     points: 5,
   },
   {
     id: 27,
     category: "Antonimia",
-    question: "Seleccione el antónimo de PUSILÁNIME:",
+    question: "Situacion\n\nDurante un ejercicio de vocabulario en un taller de redaccion administrativa, se solicita identificar antonimos para mejorar la precision del lenguaje institucional.\n\nPregunta\n\nCon base en la situacion descrita, seleccione el antónimo de PUSILÁNIME:",
     options: [
       { id: "a", text: "miedoso" },
       { id: "b", text: "temerario" },
@@ -3611,13 +3450,13 @@ const questionsV2: Question[] = [
       { id: "e", text: "asustado" },
     ],
     correct: "b",
-    explanation: "PUSILÁNIME significa cobarde, falto de ánimo. Su antónimo es TEMERARIO, que significa audaz, osado, valiente en exceso.",
+    explanation: "En la situacion descrita, pUSILÁNIME significa cobarde, falto de ánimo. Su antónimo es TEMERARIO, que significa audaz, osado, valiente en exceso.",
     points: 5,
   },
   {
     id: 28,
     category: "Antonimia",
-    question: "Seleccione el antónimo de SOSEGADO:",
+    question: "Situacion\n\nDurante un ejercicio de vocabulario en un taller de redaccion administrativa, se solicita identificar antonimos para mejorar la precision del lenguaje institucional.\n\nPregunta\n\nCon base en la situacion descrita, seleccione el antónimo de SOSEGADO:",
     options: [
       { id: "a", text: "alocado" },
       { id: "b", text: "moderado" },
@@ -3626,14 +3465,14 @@ const questionsV2: Question[] = [
       { id: "e", text: "atolondrar" },
     ],
     correct: "a",
-    explanation: "SOSEGADO significa tranquilo, calmado. Su antónimo es ALOCADO, que significa imprudente, irreflexivo o agitado.",
+    explanation: "En la situacion descrita, sOSEGADO significa tranquilo, calmado. Su antónimo es ALOCADO, que significa imprudente, irreflexivo o agitado.",
     points: 5,
   },
   // Analogías V2
   {
     id: 29,
     category: "Analogías",
-    question: "MÉDICO es a PACIENTE, como _____ es a _____:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, mÉDICO es a PACIENTE, como _____ es a _____:",
     options: [
       { id: "a", text: "profesor : alumno" },
       { id: "b", text: "palomo : volar" },
@@ -3642,13 +3481,13 @@ const questionsV2: Question[] = [
       { id: "e", text: "Márquez : Nobel" },
     ],
     correct: "a",
-    explanation: "Es una relación de agente-beneficiario o profesional-cliente. El médico atiende al paciente, así como el profesor enseña al alumno.",
+    explanation: "En la situacion descrita, es una relación de agente-beneficiario o profesional-cliente. El médico atiende al paciente, así como el profesor enseña al alumno.",
     points: 5,
   },
   {
     id: 30,
     category: "Analogías",
-    question: "ROSA es a FLORES, como _____ es a _____:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, rOSA es a FLORES, como _____ es a _____:",
     options: [
       { id: "a", text: "papel : cuaderno" },
       { id: "b", text: "enseñar : aprender" },
@@ -3657,13 +3496,13 @@ const questionsV2: Question[] = [
       { id: "e", text: "paloma : ave" },
     ],
     correct: "e",
-    explanation: "Es una relación de especie a género. La rosa es un tipo de flor, así como la paloma es un tipo de ave.",
+    explanation: "En la situacion descrita, es una relación de especie a género. La rosa es un tipo de flor, así como la paloma es un tipo de ave.",
     points: 5,
   },
   {
     id: 31,
     category: "Analogías",
-    question: "YEGUA es a CABALLO, como _____ es a _____:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, yEGUA es a CABALLO, como _____ es a _____:",
     options: [
       { id: "a", text: "vaca : toro" },
       { id: "b", text: "gato : perro" },
@@ -3672,13 +3511,13 @@ const questionsV2: Question[] = [
       { id: "e", text: "cuido : gallina" },
     ],
     correct: "a",
-    explanation: "Es una relación de género (hembra-macho de la misma especie). Yegua es la hembra del caballo, así como vaca es la hembra del toro.",
+    explanation: "En la situacion descrita, es una relación de género (hembra-macho de la misma especie). Yegua es la hembra del caballo, así como vaca es la hembra del toro.",
     points: 5,
   },
   {
     id: 32,
     category: "Analogías",
-    question: "REGLA es a LÍNEA, como _____ es a _____:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, rEGLA es a LÍNEA, como _____ es a _____:",
     options: [
       { id: "a", text: "clases : estudiante" },
       { id: "b", text: "alumno : grupo" },
@@ -3687,13 +3526,13 @@ const questionsV2: Question[] = [
       { id: "e", text: "tabaco : anciano" },
     ],
     correct: "d",
-    explanation: "Es una relación de instrumento a resultado. La regla sirve para trazar líneas, así como el compás sirve para trazar círculos.",
+    explanation: "En la situacion descrita, es una relación de instrumento a resultado. La regla sirve para trazar líneas, así como el compás sirve para trazar círculos.",
     points: 5,
   },
   {
     id: 33,
     category: "Analogías",
-    question: "APÁTICO es a ENTUSIASTA, como _____ es a _____:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, aPÁTICO es a ENTUSIASTA, como _____ es a _____:",
     options: [
       { id: "a", text: "humildad : notable" },
       { id: "b", text: "ignorancia : hábil" },
@@ -3702,14 +3541,14 @@ const questionsV2: Question[] = [
       { id: "e", text: "seriedad : estricto" },
     ],
     correct: "d",
-    explanation: "Es una relación de antonimia. Apático es opuesto a entusiasta, así como alocado es opuesto a sereno.",
+    explanation: "En la situacion descrita, es una relación de antonimia. Apático es opuesto a entusiasta, así como alocado es opuesto a sereno.",
     points: 5,
   },
   // Completación V2
   {
     id: 34,
     category: "Completación de Oraciones",
-    question: "La ________ no logra jamás persuadir a los hombres, solo logra hacerlos _________",
+    question: "Situacion\n\nEn una jornada de desarrollo de habilidades verbales, un grupo de funcionarios practica completar oraciones para mejorar su capacidad de razonamiento logico y comprension contextual.\n\nPregunta\n\nCon base en la situacion descrita, la ________ no logra jamás persuadir a los hombres, solo logra hacerlos _________",
     options: [
       { id: "a", text: "fuerza – injustos" },
       { id: "b", text: "justicia – elocuentes" },
@@ -3718,13 +3557,13 @@ const questionsV2: Question[] = [
       { id: "e", text: "mujer – machistas" },
     ],
     correct: "a",
-    explanation: "FUERZA e INJUSTOS completan el sentido: la fuerza no persuade (convence por razón), solo obliga, y eso genera injusticia o hace a las personas injustas.",
+    explanation: "En la situacion descrita, fUERZA e INJUSTOS completan el sentido: la fuerza no persuade (convence por razón), solo obliga, y eso genera injusticia o hace a las personas injustas.",
     points: 5,
   },
   {
     id: 35,
     category: "Completación de Oraciones",
-    question: "La reconocida rectitud de su _________ permitió descartar toda posibilidad de _______",
+    question: "Situacion\n\nEn una jornada de desarrollo de habilidades verbales, un grupo de funcionarios practica completar oraciones para mejorar su capacidad de razonamiento logico y comprension contextual.\n\nPregunta\n\nCon base en la situacion descrita, la reconocida rectitud de su _________ permitió descartar toda posibilidad de _______",
     options: [
       { id: "a", text: "discurso – sospecha" },
       { id: "b", text: "biografía – desprendimiento" },
@@ -3733,13 +3572,13 @@ const questionsV2: Question[] = [
       { id: "e", text: "propósito – sacrificio" },
     ],
     correct: "c",
-    explanation: "CONDUCTA y CULPA: la rectitud en la conducta (comportamiento) permite descartar la culpa (responsabilidad en algo negativo).",
+    explanation: "En la situacion descrita, cONDUCTA y CULPA: la rectitud en la conducta (comportamiento) permite descartar la culpa (responsabilidad en algo negativo).",
     points: 5,
   },
   {
     id: 36,
     category: "Completación de Oraciones",
-    question: "Si arde un ______ en un cuarto se produce gases ______ que pueden causar la muerte",
+    question: "Situacion\n\nEn una jornada de desarrollo de habilidades verbales, un grupo de funcionarios practica completar oraciones para mejorar su capacidad de razonamiento logico y comprension contextual.\n\nPregunta\n\nCon base en la situacion descrita, si arde un ______ en un cuarto se produce gases ______ que pueden causar la muerte",
     options: [
       { id: "a", text: "veneno – venenoso" },
       { id: "b", text: "televisor – vitales" },
@@ -3748,13 +3587,13 @@ const questionsV2: Question[] = [
       { id: "e", text: "material – lúgubres" },
     ],
     correct: "d",
-    explanation: "COMBUSTIBLE y DELETÉREOS (tóxicos, mortales): un combustible al arder produce gases deletéreos que pueden causar la muerte.",
+    explanation: "En la situacion descrita, cOMBUSTIBLE y DELETÉREOS (tóxicos, mortales): un combustible al arder produce gases deletéreos que pueden causar la muerte.",
     points: 5,
   },
   {
     id: 37,
     category: "Completación de Oraciones",
-    question: "Mientras corría, no se dio cuenta del ______ intenso, que ya le había insensibilizado la nariz y le ______ las orejas",
+    question: "Situacion\n\nEn una jornada de desarrollo de habilidades verbales, un grupo de funcionarios practica completar oraciones para mejorar su capacidad de razonamiento logico y comprension contextual.\n\nPregunta\n\nCon base en la situacion descrita, mientras corría, no se dio cuenta del ______ intenso, que ya le había insensibilizado la nariz y le ______ las orejas",
     options: [
       { id: "a", text: "aguacero – mojaba" },
       { id: "b", text: "calor – quemaba" },
@@ -3763,7 +3602,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "granizo – hería" },
     ],
     correct: "d",
-    explanation: "FRÍO y CONGELABA: el frío intenso insensibiliza (entumece) la nariz y congela las orejas, lo cual es coherente con la descripción.",
+    explanation: "En la situacion descrita, fRÍO y CONGELABA: el frío intenso insensibiliza (entumece) la nariz y congela las orejas, lo cual es coherente con la descripción.",
     points: 5,
   },
   // Conectores V2
@@ -3771,7 +3610,7 @@ const questionsV2: Question[] = [
     id: 38,
     category: "Conectores Lógicos",
     context: "¿Qué es o en qué consiste la familiaridad con las palabras? ____________, es un trabajo de acercamiento, de intimidad con el lenguaje. Mirar sus características –si es un adverbio o una conjunción, si es una preposición o un verbo reflexivo–; reconocer su genealogía, su etimología y su procedencia; indagar, ___________, la fisonomía y la descriptiva de las palabras. ____________, la familiaridad con el lenguaje consiste en ir creando un cierto hábito, una cierta aclimatación. __________ disponer de un tiempo para adaptarse o darse alguna confianza con las palabras.",
-    question: "Complete con los conectores adecuados:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, complete con los conectores adecuados:",
     options: [
       { id: "a", text: "En primer lugar / En otras palabras / Luego / Sin embargo" },
       { id: "b", text: "En principio / Es decir / En segundo lugar / Es tanto como" },
@@ -3780,14 +3619,14 @@ const questionsV2: Question[] = [
       { id: "e", text: "Esto significa que / Pero / Aunque / A diferencia de" },
     ],
     correct: "b",
-    explanation: "'En principio' inicia la explicación; 'Es decir' reformula; 'En segundo lugar' introduce otro aspecto; 'Es tanto como' equipara los conceptos.",
+    explanation: "En la situacion descrita, 'En principio' inicia la explicación; 'Es decir' reformula; 'En segundo lugar' introduce otro aspecto; 'Es tanto como' equipara los conceptos.",
     points: 5,
   },
   {
     id: 39,
     category: "Conectores Lógicos",
     context: "___________ la inspiración sirva de motivo o de inicio de un escrito, ______ nunca podrá reemplazar el ejercicio de composición y de encuadre, elaborado (por lo general) con lentitud y con sumo cuidado. _______, solo en ciertas circunstancias de la escritura, en determinados momentos, la 'inspiración' realmente contribuye a un logro en la redacción; en la mayoría de veces, __________, es la causante de la desorganización, del caos o de la falta de ilación en lo que escribimos.",
-    question: "Complete el texto:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, complete el texto:",
     options: [
       { id: "a", text: "Es posible que / Pero / Es más / Por el contrario" },
       { id: "b", text: "Seguramente / Sin embargo / Empero / Asimismo" },
@@ -3796,14 +3635,14 @@ const questionsV2: Question[] = [
       { id: "e", text: "Así mismo / De ahí que / En concreto / Para finalizar" },
     ],
     correct: "a",
-    explanation: "'Es posible que' concede un punto; 'Pero' introduce contraste; 'Es más' añade énfasis; 'Por el contrario' marca oposición.",
+    explanation: "En la situacion descrita, 'Es posible que' concede un punto; 'Pero' introduce contraste; 'Es más' añade énfasis; 'Por el contrario' marca oposición.",
     points: 5,
   },
   {
     id: 40,
     category: "Conectores Lógicos",
     context: "Como ya lo hice notar, escribir es una actividad artesanal. Es oportuno, ________, decir ahora algunas cosas sobre la materia con la cual trabaja el escritor: las palabras. Esos signos son escurridizos, ambiguos, inciertos. ________, dada esas características de las palabras, escribir se convierte en una continua tarea de talla, de escultura con y sobre el lenguaje. Escribir es como ir esculpiendo. Difícil, cierto, ________ si uno se propone establecer un trato con las palabras; si comienza a reconocerlas; si inicia una relación o una convivencia con ellas. __________, aprender a escribir es, también, aprender a familiarizarse con las palabras.",
-    question: "Seleccione los conectores correctos:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, seleccione los conectores correctos:",
     options: [
       { id: "a", text: "Por lo demás / No obstante / No solo / Sino que también" },
       { id: "b", text: "Por ejemplo / Por ello / Sin embargo / Por todo lo anterior" },
@@ -3812,7 +3651,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "Por eso / Luego / En contraste / Como conclusión" },
     ],
     correct: "d",
-    explanation: "'A propósito' introduce un tema relacionado; 'Entonces' conecta consecuencia; 'Pero no tanto' matiza; 'En cierto sentido' concluye reflexivamente.",
+    explanation: "En la situacion descrita, 'A propósito' introduce un tema relacionado; 'Entonces' conecta consecuencia; 'Pero no tanto' matiza; 'En cierto sentido' concluye reflexivamente.",
     points: 5,
   },
   // Comprensión Lectora V2
@@ -3820,7 +3659,7 @@ const questionsV2: Question[] = [
     id: 41,
     category: "Comprensión Lectora",
     context: "El nivel literal de comprensión se centra en información local como estructura y vocabulario presente en el texto. La comprensión interpretativa extrae sentido global con base en conocimientos previos del lector. El nivel inferencial deduce información implícita que no está explícitamente escrita. La comprensión comparativa enlaza el texto leído con otros textos previamente estudiados, estableciendo relaciones intertextuales.",
-    question: "¿Qué caracteriza al nivel inferencial de comprensión lectora?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué caracteriza al nivel inferencial de comprensión lectora?",
     options: [
       { id: "a", text: "Se centra en la estructura y vocabulario del texto" },
       { id: "b", text: "Extrae sentido global usando conocimientos previos" },
@@ -3829,14 +3668,14 @@ const questionsV2: Question[] = [
       { id: "e", text: "Identifica únicamente las palabras clave del texto" },
     ],
     correct: "c",
-    explanation: "El texto define el nivel inferencial como aquel que 'deduce información implícita' que no está explícitamente escrita en el texto.",
+    explanation: "En la situacion descrita, el texto define el nivel inferencial como aquel que 'deduce información implícita' que no está explícitamente escrita en el texto.",
     points: 5,
   },
   {
     id: 42,
     category: "Comprensión Lectora",
     context: "En textos dialógicos se deben localizar contraargumentos en el enunciado y analizar cómo influyen en los postulados expuestos. Este tipo de texto presenta diferentes voces o perspectivas que dialogan entre sí, por lo que es fundamental identificar no solo los argumentos principales sino también aquellos que los contradicen o matizan.",
-    question: "¿Qué característica es fundamental analizar en textos dialógicos?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué característica es fundamental analizar en textos dialógicos?",
     options: [
       { id: "a", text: "Las descripciones y caracterizaciones detalladas" },
       { id: "b", text: "Las ideas principales solo al inicio de párrafos" },
@@ -3845,14 +3684,14 @@ const questionsV2: Question[] = [
       { id: "e", text: "Solo la conclusión final del texto" },
     ],
     correct: "c",
-    explanation: "El texto establece que en textos dialógicos se deben 'localizar contraargumentos en el enunciado y analizar cómo influyen en los postulados expuestos'.",
+    explanation: "En la situacion descrita, el texto establece que en textos dialógicos se deben 'localizar contraargumentos en el enunciado y analizar cómo influyen en los postulados expuestos'.",
     points: 5,
   },
   {
     id: 43,
     category: "Comprensión Lectora",
     context: "La memoria a largo plazo permite vincular nuevos contenidos con aprendizajes previos para fortalecer la comprensión, asociando temas actuales con conocimientos de épocas anteriores. Este proceso cognitivo es esencial para construir conocimiento significativo y duradero, ya que conecta la nueva información con estructuras mentales ya existentes.",
-    question: "¿Cuál es la función principal de la memoria a largo plazo en la comprensión lectora?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la función principal de la memoria a largo plazo en la comprensión lectora?",
     options: [
       { id: "a", text: "Mantener concentración sin distracciones" },
       { id: "b", text: "Recordar el texto en su secuencia original" },
@@ -3861,7 +3700,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "Reducir el texto a palabras clave" },
     ],
     correct: "c",
-    explanation: "El texto define la memoria a largo plazo como la que 'permite vincular nuevos contenidos con aprendizajes previos para fortalecer la comprensión'.",
+    explanation: "En la situacion descrita, el texto define la memoria a largo plazo como la que 'permite vincular nuevos contenidos con aprendizajes previos para fortalecer la comprensión'.",
     points: 5,
   },
   // Análisis de Gráficos V2
@@ -3869,7 +3708,7 @@ const questionsV2: Question[] = [
     id: 44,
     category: "Análisis de Gráficos",
     context: "Un gráfico circular representa datos mediante particiones de un círculo. Para leerlo correctamente se debe: (1) Leer el título. (2) Identificar cada partición con su denominación y participación sobre el total. (3) Asociar las particiones con su significado. (4) Inferir lo expresado. Por ejemplo, un gráfico sobre 'Distribución de habitantes por edad' podría mostrar 50% adultos, 30% jóvenes y 20% niños.",
-    question: "¿Qué representa cada partición en un gráfico circular?",
+    question: "Situacion\n\nUn analista de la Oficina de Planeacion debe interpretar graficos estadisticos para un informe de gestion. Revisa material metodologico sobre lectura de representaciones graficas.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué representa cada partición en un gráfico circular?",
     options: [
       { id: "a", text: "La tendencia ascendente o descendente de datos" },
       { id: "b", text: "La relación entre variable independiente y dependiente" },
@@ -3878,14 +3717,14 @@ const questionsV2: Question[] = [
       { id: "e", text: "Las columnas y filas de una tabla de datos" },
     ],
     correct: "c",
-    explanation: "En un gráfico circular, cada partición representa 'su denominación y participación sobre el total', mostrando qué porcentaje del total corresponde a cada categoría.",
+    explanation: "En la situacion descrita, en un gráfico circular, cada partición representa 'su denominación y participación sobre el total', mostrando qué porcentaje del total corresponde a cada categoría.",
     points: 5,
   },
   {
     id: 45,
     category: "Análisis de Gráficos",
     context: "Para analizar tablas correctamente, después de leer el título y los subtítulos de columnas y filas, se debe observar el cuerpo de la tabla y considerar las notas al pie. Las notas al pie pueden contener información crucial como aclaraciones, excepciones o modificaciones a los datos presentados. Finalmente, se debe inferir lo expresado a partir del conjunto completo de información.",
-    question: "¿Por qué son importantes las notas al pie en una tabla?",
+    question: "Situacion\n\nUn analista de la Oficina de Planeacion debe interpretar graficos estadisticos para un informe de gestion. Revisa material metodologico sobre lectura de representaciones graficas.\n\nPregunta\n\nCon base en la situacion descrita, ¿Por qué son importantes las notas al pie en una tabla?",
     options: [
       { id: "a", text: "Solo sirven para decoración del gráfico" },
       { id: "b", text: "Contienen aclaraciones, excepciones o modificaciones cruciales" },
@@ -3894,14 +3733,14 @@ const questionsV2: Question[] = [
       { id: "e", text: "Muestran la tendencia de los datos" },
     ],
     correct: "b",
-    explanation: "Las notas al pie 'pueden contener información crucial como aclaraciones, excepciones o modificaciones a los datos presentados', siendo esenciales para la comprensión completa.",
+    explanation: "En la situacion descrita, las notas al pie 'pueden contener información crucial como aclaraciones, excepciones o modificaciones a los datos presentados', siendo esenciales para la comprensión completa.",
     points: 5,
   },
   {
     id: 46,
     category: "Análisis de Gráficos",
     context: "Los gráficos se usan para sintetizar, clarificar y resaltar información importante mediante representaciones visuales o numéricas. Pueden presentarse como figuras, tablas, mapas, fotografías o pictogramas. La lectura comprensiva de gráficos es una habilidad fundamental en contextos académicos y profesionales.",
-    question: "¿Cuál es el propósito principal de usar gráficos?",
+    question: "Situacion\n\nUn analista de la Oficina de Planeacion debe interpretar graficos estadisticos para un informe de gestion. Revisa material metodologico sobre lectura de representaciones graficas.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es el propósito principal de usar gráficos?",
     options: [
       { id: "a", text: "Hacer los documentos más extensos y complejos" },
       { id: "b", text: "Sustituir completamente el texto escrito" },
@@ -3910,7 +3749,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "Decorar las páginas de documentos académicos" },
     ],
     correct: "c",
-    explanation: "El texto establece que los gráficos 'se usan para sintetizar, clarificar y resaltar información importante', facilitando la comprensión de datos complejos.",
+    explanation: "En la situacion descrita, el texto establece que los gráficos 'se usan para sintetizar, clarificar y resaltar información importante', facilitando la comprensión de datos complejos.",
     points: 5,
   },
   // Estrategias de Lectura V2
@@ -3918,7 +3757,7 @@ const questionsV2: Question[] = [
     id: 47,
     category: "Estrategias de Lectura",
     context: "Identificar el tipo de texto es fundamental porque la distribución de ideas centrales cambia según la tipología (descriptivo, argumentativo, dialógico) y afecta dónde buscar lo esencial. Cada tipo de texto tiene una estructura característica que determina la ubicación y presentación de la información relevante.",
-    question: "¿Por qué es importante identificar el tipo de texto al leer?",
+    question: "Situacion\n\nDurante una capacitacion para aspirantes a concursos publicos, el facilitador presenta estrategias efectivas para resolver items de seleccion multiple y optimizar el tiempo de lectura.\n\nPregunta\n\nCon base en la situacion descrita, ¿Por qué es importante identificar el tipo de texto al leer?",
     options: [
       { id: "a", text: "Para saber cuántas páginas tiene el documento" },
       { id: "b", text: "Porque determina dónde buscar las ideas centrales según su estructura" },
@@ -3927,14 +3766,14 @@ const questionsV2: Question[] = [
       { id: "e", text: "Para memorizar mejor el vocabulario técnico" },
     ],
     correct: "b",
-    explanation: "El texto indica que identificar el tipo 'afecta dónde buscar lo esencial' porque 'la distribución de ideas centrales cambia según la tipología'.",
+    explanation: "En la situacion descrita, el texto indica que identificar el tipo 'afecta dónde buscar lo esencial' porque 'la distribución de ideas centrales cambia según la tipología'.",
     points: 5,
   },
   {
     id: 48,
     category: "Estrategias de Lectura",
     context: "Se recomienda identificar qué hay de nuevo en cada párrafo, asumiendo que cada uno desarrolla al menos una idea con ventajas, desventajas, argumentos y contraargumentos que deben ser considerados. Esta estrategia permite seguir el desarrollo lógico del texto y captar el aporte específico de cada sección.",
-    question: "¿Qué estrategia facilita seguir el desarrollo lógico de un texto?",
+    question: "Situacion\n\nDurante una capacitacion para aspirantes a concursos publicos, el facilitador presenta estrategias efectivas para resolver items de seleccion multiple y optimizar el tiempo de lectura.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué estrategia facilita seguir el desarrollo lógico de un texto?",
     options: [
       { id: "a", text: "Leer solo el primer y último párrafo" },
       { id: "b", text: "Identificar qué hay de nuevo en cada párrafo" },
@@ -3943,14 +3782,14 @@ const questionsV2: Question[] = [
       { id: "e", text: "Leer en voz alta sin pausas" },
     ],
     correct: "b",
-    explanation: "El texto recomienda 'identificar qué hay de nuevo en cada párrafo', asumiendo que cada uno desarrolla al menos una idea que aporta al desarrollo lógico.",
+    explanation: "En la situacion descrita, el texto recomienda 'identificar qué hay de nuevo en cada párrafo', asumiendo que cada uno desarrolla al menos una idea que aporta al desarrollo lógico.",
     points: 5,
   },
   {
     id: 49,
     category: "Estrategias de Lectura",
     context: "Los procesos cognitivos implicados en la comprensión incluyen: recuerdo (aprendizajes basados en memoria de ideas y teorías), comprensión (parafrasear, interpretar, reorganizar, extrapolar) y aplicación (transferir información a condiciones distintas y resolver problemas). Estos procesos incorporan conocimiento mediante inteligencia, atención, memoria y lenguaje.",
-    question: "¿Qué proceso cognitivo implica transferir información a condiciones distintas y resolver problemas?",
+    question: "Situacion\n\nDurante una capacitacion para aspirantes a concursos publicos, el facilitador presenta estrategias efectivas para resolver items de seleccion multiple y optimizar el tiempo de lectura.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué proceso cognitivo implica transferir información a condiciones distintas y resolver problemas?",
     options: [
       { id: "a", text: "Recuerdo de ideas y teorías memorizadas" },
       { id: "b", text: "Parafraseo e interpretación de textos" },
@@ -3959,14 +3798,14 @@ const questionsV2: Question[] = [
       { id: "e", text: "Extrapolación de conclusiones únicamente" },
     ],
     correct: "c",
-    explanation: "El texto define 'aplicación' como el proceso de 'transferir información a condiciones distintas y resolver problemas', más allá del simple recuerdo o comprensión.",
+    explanation: "En la situacion descrita, el texto define 'aplicación' como el proceso de 'transferir información a condiciones distintas y resolver problemas', más allá del simple recuerdo o comprensión.",
     points: 5,
   },
   {
     id: 50,
     category: "Estrategias de Lectura",
     context: "Para analizar preguntas de prueba efectivamente, se debe: conocer su estructura y contenido (cómo inicia, si hay continuidad con las opciones), comparar opciones con el enunciado (verificar si son acordes, coherentes y complementarias), y contrastar cada respuesta con el enunciado (evaluar si son contradictorias, verdaderas o falsas, y si algunas son claramente discordantes).",
-    question: "¿Qué se debe verificar al comparar opciones con el enunciado de una pregunta?",
+    question: "Situacion\n\nDurante una capacitacion para aspirantes a concursos publicos, el facilitador presenta estrategias efectivas para resolver items de seleccion multiple y optimizar el tiempo de lectura.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué se debe verificar al comparar opciones con el enunciado de una pregunta?",
     options: [
       { id: "a", text: "Solo si las opciones son largas o cortas" },
       { id: "b", text: "Únicamente el número de palabras en cada opción" },
@@ -3975,14 +3814,14 @@ const questionsV2: Question[] = [
       { id: "e", text: "Exclusivamente el tipo de letra utilizado" },
     ],
     correct: "c",
-    explanation: "El texto establece que al comparar opciones con el enunciado se debe 'verificar si son acordes con la pregunta, si su contenido es coherente y si resultan complementarias a lo planteado'.",
+    explanation: "En la situacion descrita, el texto establece que al comparar opciones con el enunciado se debe 'verificar si son acordes con la pregunta, si su contenido es coherente y si resultan complementarias a lo planteado'.",
     points: 5,
   },
   {
     id: 89,
     category: "Comprensión Lectora",
     context: "El documento elaborado por Jaime Arbey Atehortúa Sánchez sintetiza conceptos y estrategias empleados en las pruebas de comprensión lectora y habilidad verbal de la CNSC. Explica el sentido de las habilidades evaluadas, describe la estructura de los ítems de selección múltiple y ofrece recomendaciones para responderlos con acierto.",
-    question: "¿Cuál es el propósito central del documento según la descripción anterior?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es el propósito central del documento según la descripción anterior?",
     options: [
       { id: "a", text: "Presentar exclusivamente ejercicios matemáticos ajenos a las pruebas de la CNSC." },
       { id: "b", text: "Explicar las habilidades evaluadas, detallar la estructura de las preguntas y brindar recomendaciones para contestarlas." },
@@ -3990,14 +3829,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Ofrecer biografías de autores colombianos sin relación con procesos evaluativos." },
     ],
     correct: "b",
-    explanation: "El documento se propone aclarar las habilidades evaluadas, describir la arquitectura de los ítems y orientar al participante con recomendaciones prácticas.",
+    explanation: "En la situacion descrita, el documento se propone aclarar las habilidades evaluadas, describir la arquitectura de los ítems y orientar al participante con recomendaciones prácticas.",
     points: 5,
   },
   {
     id: 90,
     category: "Comprensión Lectora",
     context: "La guía distingue entre habilidad y competencia: la habilidad es la capacidad demostrada ante problemas conocidos, mientras que la competencia implica enfrentar problemas desconocidos trasladando conocimientos a situaciones nuevas para resolverlas con éxito.",
-    question: "¿Cuál de las siguientes situaciones ejemplifica una competencia según el documento?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál de las siguientes situaciones ejemplifica una competencia según el documento?",
     options: [
       { id: "a", text: "Aplicar siempre el mismo algoritmo memorizado en un ejercicio idéntico al practicado." },
       { id: "b", text: "Trasladar conocimientos previos a un contexto novedoso para solucionar un problema no visto." },
@@ -4005,14 +3844,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Ejecutar de forma mecánica una tarea rutinaria sin variaciones." },
     ],
     correct: "b",
-    explanation: "Una competencia se demuestra cuando la persona logra resolver problemas desconocidos trasladando y adaptando su conocimiento previo a la nueva situación.",
+    explanation: "En la situacion descrita, una competencia se demuestra cuando la persona logra resolver problemas desconocidos trasladando y adaptando su conocimiento previo a la nueva situación.",
     points: 5,
   },
   {
     id: 91,
     category: "Comprensión Lectora",
     context: "El nivel de información local exige secuenciar datos, reconocer relaciones lógicas entre oraciones y detectar datos explícitos o implícitos dentro de fragmentos breves, atendiendo a sentidos puntuales y relaciones causales inmediatas.",
-    question: "Cuando una pregunta pide relacionar causa y efecto dentro de un párrafo específico, ¿qué nivel de información está evaluando?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, cuando una pregunta pide relacionar causa y efecto dentro de un párrafo específico, ¿qué nivel de información está evaluando?",
     options: [
       { id: "a", text: "Información local." },
       { id: "b", text: "Información global." },
@@ -4020,14 +3859,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Memoria de largo plazo." },
     ],
     correct: "a",
-    explanation: "Relacionar causa y efecto en un segmento puntual corresponde al nivel de información local, centrado en relaciones intrapárrafo y datos inmediatos.",
+    explanation: "En la situacion descrita, relacionar causa y efecto en un segmento puntual corresponde al nivel de información local, centrado en relaciones intrapárrafo y datos inmediatos.",
     points: 5,
   },
   {
     id: 92,
     category: "Comprensión Lectora",
     context: "El nivel de información global demanda reconocer proposiciones implícitas, sintetizar el tema, jerarquizar información, identificar subtemas y extraer conclusiones a partir del texto completo.",
-    question: "Identificar la idea principal de un texto y jerarquizar sus subtemas corresponde al nivel de información:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, identificar la idea principal de un texto y jerarquizar sus subtemas corresponde al nivel de información:",
     options: [
       { id: "a", text: "Local." },
       { id: "b", text: "Global." },
@@ -4035,14 +3874,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Lexical." },
     ],
     correct: "b",
-    explanation: "Jerarquizar subtemas y captar la idea central forma parte del nivel de información global, que integra el sentido del texto completo.",
+    explanation: "En la situacion descrita, jerarquizar subtemas y captar la idea central forma parte del nivel de información global, que integra el sentido del texto completo.",
     points: 5,
   },
   {
     id: 93,
     category: "Comprensión Lectora",
     context: "El nivel de información intertextual implica conectar información explícita e implícita y derivar nuevas ideas a partir de lo planteado en el texto o en otras situaciones comunicativas relacionadas con temas similares.",
-    question: "Una pregunta que exige vincular el texto con experiencias externas para proponer nuevas conclusiones evalúa información:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, una pregunta que exige vincular el texto con experiencias externas para proponer nuevas conclusiones evalúa información:",
     options: [
       { id: "a", text: "Local." },
       { id: "b", text: "Global." },
@@ -4050,14 +3889,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Literal." },
     ],
     correct: "c",
-    explanation: "Conectar el texto con otros contextos y derivar ideas nuevas se ubica en el nivel intertextual, que trasciende el contenido inmediato del escrito.",
+    explanation: "En la situacion descrita, conectar el texto con otros contextos y derivar ideas nuevas se ubica en el nivel intertextual, que trasciende el contenido inmediato del escrito.",
     points: 5,
   },
   {
     id: 94,
     category: "Comprensión Lectora",
     context: "El documento recuerda que la taxonomía de Bloom organiza los procesos cognitivos en la siguiente secuencia: recuerdo, comprensión, aplicación, análisis, síntesis y evaluación.",
-    question: "¿Cuál opción presenta los niveles de la taxonomía de Bloom en el orden ascendente correcto?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál opción presenta los niveles de la taxonomía de Bloom en el orden ascendente correcto?",
     options: [
       { id: "a", text: "Comprensión, recuerdo, aplicación, análisis, síntesis, evaluación." },
       { id: "b", text: "Recuerdo, comprensión, aplicación, análisis, síntesis, evaluación." },
@@ -4065,14 +3904,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Evaluación, síntesis, análisis, aplicación, comprensión, recuerdo." },
     ],
     correct: "b",
-    explanation: "La taxonomía progresa de recuerdo a comprensión, aplicación, análisis, síntesis y evaluación como niveles crecientes de complejidad.",
+    explanation: "En la situacion descrita, la taxonomía progresa de recuerdo a comprensión, aplicación, análisis, síntesis y evaluación como niveles crecientes de complejidad.",
     points: 5,
   },
   {
     id: 95,
     category: "Comprensión Lectora",
     context: "La competencia interpretativa mide la capacidad de comprender información otorgándole sentido; exige reconocer relaciones semánticas, sintácticas y pragmáticas, vincular tópicos locales y globales, inferir sentidos y reconocer intenciones comunicativas.",
-    question: "¿Cuál acción evidencia el desarrollo de la competencia interpretativa?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál acción evidencia el desarrollo de la competencia interpretativa?",
     options: [
       { id: "a", text: "Plantear una hipótesis novedosa sin apoyo en el texto." },
       { id: "b", text: "Explicar por qué se adopta una decisión utilizando teorías." },
@@ -4080,14 +3919,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Memorizar definiciones sin analizarlas." },
     ],
     correct: "c",
-    explanation: "La competencia interpretativa supone identificar relaciones semánticas y extraer el sentido global del texto, más allá de la simple memoria.",
+    explanation: "En la situacion descrita, la competencia interpretativa supone identificar relaciones semánticas y extraer el sentido global del texto, más allá de la simple memoria.",
     points: 5,
   },
   {
     id: 96,
     category: "Comprensión Lectora",
     context: "La competencia argumentativa se relaciona con fundamentar o sustentar planteamientos: explicitar las razones de una posición, articular teorías, vincular premisas y establecer relaciones de causalidad que respalden conclusiones.",
-    question: "¿Qué conducta corresponde a la competencia argumentativa descrita?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué conducta corresponde a la competencia argumentativa descrita?",
     options: [
       { id: "a", text: "Distinguir variables que responden a qué, dónde y cuándo." },
       { id: "b", text: "Plantear varias alternativas hipotéticas sin justificar su viabilidad." },
@@ -4095,14 +3934,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Describir literalmente los datos sin analizarlos." },
     ],
     correct: "c",
-    explanation: "Argumentar implica ofrecer razones y articular premisas que sustenten una conclusión o decisión tomada.",
+    explanation: "En la situacion descrita, argumentar implica ofrecer razones y articular premisas que sustenten una conclusión o decisión tomada.",
     points: 5,
   },
   {
     id: 97,
     category: "Comprensión Lectora",
     context: "La competencia propositiva examina la capacidad de plantear alternativas o establecer nuevas relaciones: formular soluciones, identificar regularidades, generar hipótesis y elaborar diseños que respondan al problema.",
-    question: "¿Cuál enunciado ilustra la competencia propositiva?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál enunciado ilustra la competencia propositiva?",
     options: [
       { id: "a", text: "Determinar si las premisas del texto son coherentes entre sí." },
       { id: "b", text: "Proponer una solución viable que articule las variables descritas en el caso." },
@@ -4110,14 +3949,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Explicar con citas textuales la opinión del autor." },
     ],
     correct: "b",
-    explanation: "La competencia propositiva se centra en plantear alternativas o soluciones fundamentadas ante la situación descrita.",
+    explanation: "En la situacion descrita, la competencia propositiva se centra en plantear alternativas o soluciones fundamentadas ante la situación descrita.",
     points: 5,
   },
   {
     id: 98,
     category: "Conectores Lógicos",
     context: "Los conectores propios de la competencia interpretativa incluyen expresiones como 'se deduce que', 'se infiere que', 'significa que', 'se plantea que' y 'está relacionado con'.",
-    question: "¿Cuál de los siguientes conectores anticipa una pregunta interpretativa?",
+    question: "Situacion\n\nUn editor de la Oficina de Comunicaciones revisa un documento institucional y debe completar los espacios con conectores logicos apropiados para garantizar la coherencia del texto.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál de los siguientes conectores anticipa una pregunta interpretativa?",
     options: [
       { id: "a", text: "Se infiere que" },
       { id: "b", text: "Esto se explica por" },
@@ -4125,14 +3964,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Desde el punto de vista de" },
     ],
     correct: "a",
-    explanation: "'Se infiere que' es uno de los conectores destacados para preguntas interpretativas según la guía.",
+    explanation: "En la situacion descrita, 'Se infiere que' es uno de los conectores destacados para preguntas interpretativas según la guía.",
     points: 5,
   },
   {
     id: 99,
     category: "Conectores Lógicos",
     context: "Entre los conectores argumentativos se destacan: 'Esto se explica por…', 'Esto no es pertinente porque…', 'La razón es que…', 'Se debe a que…' y formulaciones similares que solicitan justificar una posición.",
-    question: "¿Qué conector corresponde a un enfoque argumentativo?",
+    question: "Situacion\n\nUn editor de la Oficina de Comunicaciones revisa un documento institucional y debe completar los espacios con conectores logicos apropiados para garantizar la coherencia del texto.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué conector corresponde a un enfoque argumentativo?",
     options: [
       { id: "a", text: "El cuadro podría evolucionar a" },
       { id: "b", text: "Esto se explica por" },
@@ -4140,14 +3979,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Significa que" },
     ],
     correct: "b",
-    explanation: "'Esto se explica por…' es un conector típico de preguntas argumentativas que piden fundamentar con razones.",
+    explanation: "En la situacion descrita, 'Esto se explica por…' es un conector típico de preguntas argumentativas que piden fundamentar con razones.",
     points: 5,
   },
   {
     id: 100,
     category: "Conectores Lógicos",
     context: "Los conectores propositivos proponen alternativas o proyecciones, como 'Desde el punto de vista de…', 'Este problema podría solucionarse si…', 'De continuar esta tendencia…' o 'El cuadro podría evolucionar a…'.",
-    question: "¿Cuál conector introduce una pregunta de tipo propositivo?",
+    question: "Situacion\n\nUn editor de la Oficina de Comunicaciones revisa un documento institucional y debe completar los espacios con conectores logicos apropiados para garantizar la coherencia del texto.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál conector introduce una pregunta de tipo propositivo?",
     options: [
       { id: "a", text: "La razón es que" },
       { id: "b", text: "Se deduce que" },
@@ -4155,14 +3994,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Esto no es pertinente porque" },
     ],
     correct: "c",
-    explanation: "'Desde el punto de vista de…' dirige al examinando a plantear alternativas o proyecciones, rasgo propio de preguntas propositivas.",
+    explanation: "En la situacion descrita, 'Desde el punto de vista de…' dirige al examinando a plantear alternativas o proyecciones, rasgo propio de preguntas propositivas.",
     points: 5,
   },
   {
     id: 101,
     category: "Estrategias de Lectura",
     context: "Las opciones de respuesta incluyen distractores de varios tipos: el distractor tipo A parece sugerido por el enunciado pero no responde al conector; el tipo B podría responder al conector pero el enunciado no lo sugiere y se apoya en conocimientos generales; también hay respuestas erróneas que no atienden el conector aunque aparezcan en el texto, y respuestas contradictorias que van en contra de lo planteado.",
-    question: "¿Cómo se reconoce un distractor tipo A?",
+    question: "Situacion\n\nDurante una capacitacion para aspirantes a concursos publicos, el facilitador presenta estrategias efectivas para resolver items de seleccion multiple y optimizar el tiempo de lectura.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cómo se reconoce un distractor tipo A?",
     options: [
       { id: "a", text: "Es contradictorio con el enunciado principal." },
       { id: "b", text: "Parece sugerido por el contexto pero no responde al conector solicitado." },
@@ -4170,14 +4009,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Repite literalmente la clave correcta." },
     ],
     correct: "b",
-    explanation: "El distractor tipo A se presenta como plausible porque surge del enunciado, pero no atiende la relación pedida por el conector de la pregunta.",
+    explanation: "En la situacion descrita, el distractor tipo A se presenta como plausible porque surge del enunciado, pero no atiende la relación pedida por el conector de la pregunta.",
     points: 5,
   },
   {
     id: 102,
     category: "Estrategias de Lectura",
     context: "La clave correcta rara vez aparece literalmente en el texto, no siempre es la opción más extensa ni la de vocabulario rebuscado; se destaca por su mejor estructura y por representar cierto grado de dificultad al conectar de manera precisa con la pregunta.",
-    question: "Según la guía, ¿qué caracteriza a la clave de una pregunta de selección múltiple?",
+    question: "Situacion\n\nDurante una capacitacion para aspirantes a concursos publicos, el facilitador presenta estrategias efectivas para resolver items de seleccion multiple y optimizar el tiempo de lectura.\n\nPregunta\n\nCon base en la situacion descrita, según la guía, ¿qué caracteriza a la clave de una pregunta de selección múltiple?",
     options: [
       { id: "a", text: "Ser siempre la frase más corta y sencilla." },
       { id: "b", text: "Distinguirse por su contenido preciso y coherente con el conector, aunque no esté escrito literalmente en el texto." },
@@ -4185,14 +4024,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Utilizar términos técnicos incomprensibles." },
     ],
     correct: "b",
-    explanation: "La clave se reconoce por la exactitud con la que responde a la pregunta, más allá de su longitud o de aparecer literal en el texto.",
+    explanation: "En la situacion descrita, la clave se reconoce por la exactitud con la que responde a la pregunta, más allá de su longitud o de aparecer literal en el texto.",
     points: 5,
   },
   {
     id: 103,
     category: "Estrategias de Lectura",
     context: "Primer bloque de recomendaciones: (1) Ante generalidades, elige la respuesta más abarcadora. (2) Identifica claramente el sujeto y el objetivo de la pregunta. (3) Si varias acciones parecen correctas, selecciona la primera en orden consecutivo. (4) Detecta los señuelos y descarta lo que no cumple el objetivo. (5) Inclínate por la opción mejor elaborada. (6) Descarta opciones que no atiendan el objetivo. (7) Si las opciones tienen varias partes, analiza cada segmento. (8) Verifica la lógica temporal. (9) Comprende el contexto y satisface completamente la solicitud. (10) No violes las premisas globales. (11) Conocer al autor ayuda a intuir la intención de la pregunta.",
-    question: "¿Qué finalidad comparten las recomendaciones de este bloque?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué finalidad comparten las recomendaciones de este bloque?",
     options: [
       { id: "a", text: "Priorizar siempre la opción más breve sin importar el contexto." },
       { id: "b", text: "Alinear la elección con el alcance y las premisas de la pregunta para evitar distracciones aparentes." },
@@ -4200,14 +4039,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Reducir el tiempo de lectura ignorando el objetivo del enunciado." },
     ],
     correct: "b",
-    explanation: "Todas las pautas buscan mantener el foco en el propósito y las premisas de la pregunta, descartando alternativas que se apartan del objetivo o del contexto planteado.",
+    explanation: "En la situacion descrita, todas las pautas buscan mantener el foco en el propósito y las premisas de la pregunta, descartando alternativas que se apartan del objetivo o del contexto planteado.",
     points: 5,
   },
   {
     id: 104,
     category: "Estrategias de Lectura",
     context: "Segundo bloque de recomendaciones: (12) Identifica redundancias entre pregunta y opciones. (13) Detecta palabras clave y sus definiciones. (14) Asegura concordancia de número entre pregunta y respuesta. (15) Verifica cantidades, evitando aludir a varias situaciones cuando el caso habla de una sola. (16) Reconoce patrones en la redacción de las opciones. (17) Alinea el verbo de la respuesta con el del caso. (18) Sustituye términos de referencia por cada opción para comprobar cuál encaja.",
-    question: "¿Cuál estrategia aplica mejor este conjunto de recomendaciones?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál estrategia aplica mejor este conjunto de recomendaciones?",
     options: [
       { id: "a", text: "Elegir la alternativa con más tecnicismos aunque cambie el sentido." },
       { id: "b", text: "Verificar la coherencia lingüística entre la pregunta y cada opción antes de decidir." },
@@ -4215,14 +4054,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Responder con la opción más llamativa gráficamente." },
     ],
     correct: "b",
-    explanation: "Las recomendaciones insisten en comprobar la concordancia lingüística y semántica entre el enunciado y las opciones mediante palabras clave, números, verbos y patrones de redacción.",
+    explanation: "En la situacion descrita, las recomendaciones insisten en comprobar la concordancia lingüística y semántica entre el enunciado y las opciones mediante palabras clave, números, verbos y patrones de redacción.",
     points: 5,
   },
   {
     id: 105,
     category: "Estrategias de Lectura",
     context: "Tercer bloque de recomendaciones: (19) Evita palabras negativas en preguntas sobre conceptos; las opciones deben relacionarse con el concepto citado. (20) Atiende la condición del caso cuando todas las opciones parecen plausibles. (21) Sintetiza patrones buscando una palabra que aglutine características. (22) Elige la respuesta más completa cuando el caso ya está resuelto. (23) Sigue la secuencia lógica del caso reflejada en las opciones. (24) Identifica la acción sugerida y evita trampas. (25) Busca sinónimos compartidos entre texto y opciones. (26) Focaliza el objetivo y descarta lo que no lo cumple. (27) Considera simultáneamente el objetivo y la condición establecida. (28) Mantén la coherencia temporal entre pregunta y respuesta. (29) Identifica palabras clave que dan sentido al caso. (30) Reconoce las condiciones descritas para tomar la decisión correcta.",
-    question: "¿Cuál opción refleja la aplicación adecuada de estas recomendaciones finales?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál opción refleja la aplicación adecuada de estas recomendaciones finales?",
     options: [
       { id: "a", text: "Seleccionar la respuesta con palabras negativas para generar contraste." },
       { id: "b", text: "Escoger la alternativa que respeta la condición planteada, mantiene la secuencia lógica y responde por completo el objetivo." },
@@ -4230,14 +4069,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Ignorar la temporalidad del caso y cambiar el tiempo verbal si suena mejor." },
     ],
     correct: "b",
-    explanation: "Las pautas finales enfatizan cumplir la condición del caso, mantener sentido y temporalidad coherentes y elegir la alternativa que responde íntegramente al objetivo planteado.",
+    explanation: "En la situacion descrita, las pautas finales enfatizan cumplir la condición del caso, mantener sentido y temporalidad coherentes y elegir la alternativa que responde íntegramente al objetivo planteado.",
     points: 5,
   },
   {
     id: 68,
     category: "Comprensión Lectora",
     context: "De niño, Carl Sagan comentó a su abuelo que quería ser astrónomo y recibió la pregunta pragmática sobre cómo ganaría la vida. La anécdota subraya que una afición temprana puede orientar un proyecto vital.",
-    question: "¿Qué idea se infiere de la anécdota sobre Carl Sagan?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué idea se infiere de la anécdota sobre Carl Sagan?",
     options: [
       { id: "a", text: "Los pasatiempos infantiles siempre se abandonan al crecer." },
       { id: "b", text: "Un pasatiempo puede transformarse en proyecto de vida con dedicación." },
@@ -4245,14 +4084,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Ser astrónomo impide obtener ingresos suficientes." },
     ],
     correct: "b",
-    explanation: "El relato invita a inferir que una afición bien cultivada puede convertirse en el propósito profesional de una persona.",
+    explanation: "En la situacion descrita, el relato invita a inferir que una afición bien cultivada puede convertirse en el propósito profesional de una persona.",
     points: 5,
   },
   {
     id: 69,
     category: "Comprensión Lectora",
     context: "Un profesor lleva un frasco con agua y persuade a sus alumnos de que huele a perfume, demostrando cómo la influencia social puede moldear la percepción colectiva.",
-    question: "¿Qué conclusión sugiere la anécdota del frasco de perfume?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué conclusión sugiere la anécdota del frasco de perfume?",
     options: [
       { id: "a", text: "El olfato académico es superior al de la gente común." },
       { id: "b", text: "La sugestión colectiva puede alterar la percepción de las personas." },
@@ -4260,14 +4099,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "El agua destilada tiene olor a perfume." },
     ],
     correct: "b",
-    explanation: "El episodio evidencia cómo la influencia social lleva a las personas a percibir olores inexistentes.",
+    explanation: "En la situacion descrita, el episodio evidencia cómo la influencia social lleva a las personas a percibir olores inexistentes.",
     points: 5,
   },
   {
     id: 70,
     category: "Comprensión Lectora",
     context: "Un cruzado confía a su amigo la llave del cinturón de castidad de su esposa y el amigo lo alcanza más tarde diciendo que le dio la llave equivocada, revelando su indiscreción.",
-    question: "¿Qué revela la actitud del amigo en esta historia?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué revela la actitud del amigo en esta historia?",
     options: [
       { id: "a", text: "Su estricta lealtad con el cruzado." },
       { id: "b", text: "Su imprudencia y falta de fidelidad a la confianza recibida." },
@@ -4275,14 +4114,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Su desconocimiento del uso de cinturones de castidad." },
     ],
     correct: "b",
-    explanation: "Al probar la llave traiciona la confianza del amigo, mostrando imprudencia e infidelidad.",
+    explanation: "En la situacion descrita, al probar la llave traiciona la confianza del amigo, mostrando imprudencia e infidelidad.",
     points: 5,
   },
   {
     id: 71,
     category: "Comprensión Lectora",
     context: "Un anciano se queja de que solo puede caminar hasta la mitad del trayecto y regresar por el mismo camino, sin notar que recorre la distancia completa en cada intento.",
-    question: "¿Por qué la queja del anciano resulta absurda?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Por qué la queja del anciano resulta absurda?",
     options: [
       { id: "a", text: "Porque la mitad del camino es más difícil que el resto." },
       { id: "b", text: "Porque siempre recorre la distancia completa al ir y volver por el mismo trayecto." },
@@ -4290,14 +4129,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Porque olvida cuál es su destino final." },
     ],
     correct: "b",
-    explanation: "Aunque crea quedarse en la mitad, en realidad recorre el trayecto completo al retornar por el mismo camino.",
+    explanation: "En la situacion descrita, aunque crea quedarse en la mitad, en realidad recorre el trayecto completo al retornar por el mismo camino.",
     points: 5,
   },
   {
     id: 72,
     category: "Comprensión Lectora",
     context: "En la historia del emperador desnudo, la multitud aparenta admirar un traje inexistente hasta que un niño señala la verdad, evidenciando la hipocresía colectiva y el miedo al ridículo.",
-    question: "¿Qué fenómeno satiriza la anécdota del emperador desnudo?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué fenómeno satiriza la anécdota del emperador desnudo?",
     options: [
       { id: "a", text: "La obediencia ciega a la autoridad por miedo al ridículo." },
       { id: "b", text: "La eficacia de los sastres reales." },
@@ -4305,14 +4144,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "La importancia de seguir modas extravagantes." },
     ],
     correct: "a",
-    explanation: "La historia muestra cómo el temor a contradecir la opinión colectiva lleva a aceptar falacias evidentes.",
+    explanation: "En la situacion descrita, la historia muestra cómo el temor a contradecir la opinión colectiva lleva a aceptar falacias evidentes.",
     points: 5,
   },
   {
     id: 73,
     category: "Comprensión Lectora",
     context: "Un astrólogo sentencia que morirá tres días antes que el rey para evitar ser ejecutado, utilizando su predicción como salvaguarda astuta.",
-    question: "¿Qué resalta esta anécdota sobre el astrólogo?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué resalta esta anécdota sobre el astrólogo?",
     options: [
       { id: "a", text: "Su desconocimiento de la corte." },
       { id: "b", text: "Su rapidez mental para proteger su vida mediante una predicción conveniente." },
@@ -4320,14 +4159,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Su habilidad para curar enfermedades." },
     ],
     correct: "b",
-    explanation: "El astrólogo demuestra astucia al pronosticar una muerte que evita un castigo inmediato.",
+    explanation: "En la situacion descrita, el astrólogo demuestra astucia al pronosticar una muerte que evita un castigo inmediato.",
     points: 5,
   },
   {
     id: 74,
     category: "Comprensión Lectora",
     context: "El escritor Tomás Carrasquilla recibe un jarabe recetado como si fuera aguardiente y responde que prefiere beber aguardiente como si fuera jarabe, dejando ver su humor y preferencia.",
-    question: "¿Qué pone de manifiesto la respuesta de Carrasquilla?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué pone de manifiesto la respuesta de Carrasquilla?",
     options: [
       { id: "a", text: "Su rechazo absoluto a los medicamentos." },
       { id: "b", text: "Su ingenio para expresar que prefería el aguardiente al remedio." },
@@ -4335,14 +4174,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Su preocupación por el costo del tratamiento." },
     ],
     correct: "b",
-    explanation: "El autor usa el humor para insinuar que prefiere el aguardiente antes que el jarabe sugerido.",
+    explanation: "En la situacion descrita, el autor usa el humor para insinuar que prefiere el aguardiente antes que el jarabe sugerido.",
     points: 5,
   },
   {
     id: 75,
     category: "Comprensión Lectora",
     context: "Cuando Sigmund Freud, de siete años, se orina en el cuarto de sus padres, su padre le dice que nunca llegará a nada, lo que resalta el contraste entre la creatividad infantil y la falta de apoyo paterno.",
-    question: "¿Qué destaca este episodio sobre la valoración de Freud?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué destaca este episodio sobre la valoración de Freud?",
     options: [
       { id: "a", text: "Que su padre celebró su ingenio." },
       { id: "b", text: "Que la reacción paterna subestimó su originalidad." },
@@ -4350,14 +4189,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Que odiaba las normas familiares." },
     ],
     correct: "b",
-    explanation: "La anécdota enfatiza cómo, pese a su creatividad, fue desalentado por la crítica de su padre.",
+    explanation: "En la situacion descrita, la anécdota enfatiza cómo, pese a su creatividad, fue desalentado por la crítica de su padre.",
     points: 5,
   },
   {
     id: 76,
     category: "Comprensión Lectora",
     context: "Einstein permite que su chofer, que memorizó la conferencia de relatividad, la presente. Ante una pregunta compleja, Einstein —disfrazado de chofer— indica que 'su chofer' responderá, exhibiendo ingenio.",
-    question: "¿Qué pone de relieve esta anécdota sobre Einstein?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué pone de relieve esta anécdota sobre Einstein?",
     options: [
       { id: "a", text: "Su incapacidad para contestar preguntas complejas." },
       { id: "b", text: "Su astucia para salir airoso sin delatar el cambio con su chofer." },
@@ -4365,14 +4204,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Su deseo de abandonar las conferencias públicas." },
     ],
     correct: "b",
-    explanation: "El científico demuestra ingenio al mantener la farsa y revertir la situación con humor.",
+    explanation: "En la situacion descrita, el científico demuestra ingenio al mantener la farsa y revertir la situación con humor.",
     points: 5,
   },
   {
     id: 77,
     category: "Comprensión Lectora",
     context: "Una anciana cuestiona a Picasso por su estilo y le aconseja visitar al oculista; el humor surge del doble sentido entre la visión artística y la visión física.",
-    question: "¿En qué radica el humor de la anécdota con la anciana?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿En qué radica el humor de la anécdota con la anciana?",
     options: [
       { id: "a", text: "En que Picasso reconoce que no sabe dibujar." },
       { id: "b", text: "En la confusión entre la 'visión' artística y la visión oftalmológica." },
@@ -4380,14 +4219,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "En que la pintura realista es superior a la abstracta." },
     ],
     correct: "b",
-    explanation: "La señora interpreta 'ver el mundo' literalmente y sugiere un oculista, mientras Picasso hablaba de visión artística.",
+    explanation: "En la situacion descrita, la señora interpreta 'ver el mundo' literalmente y sugiere un oculista, mientras Picasso hablaba de visión artística.",
     points: 5,
   },
   {
     id: 78,
     category: "Comprensión Lectora",
     context: "En la galería, un desconocido pregunta si se cree en fantasmas y otro desaparece tras escuchar una respuesta afirmativa, mezclando fantasía y realidad.",
-    question: "¿Qué recurso sostiene la gracia del relato de los fantasmas?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué recurso sostiene la gracia del relato de los fantasmas?",
     options: [
       { id: "a", text: "La explicación científica de un fenómeno natural." },
       { id: "b", text: "La combinación entre respuesta realista y desenlace fantástico." },
@@ -4395,14 +4234,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "La referencia a teorías paranormales comprobadas." },
     ],
     correct: "b",
-    explanation: "La historia sorprende porque un interlocutor desaparece justo después de afirmar creer en fantasmas, uniendo realidad y fantasía.",
+    explanation: "En la situacion descrita, la historia sorprende porque un interlocutor desaparece justo después de afirmar creer en fantasmas, uniendo realidad y fantasía.",
     points: 5,
   },
   {
     id: 79,
     category: "Comprensión Lectora",
     context: "En un campeonato, Medellín ocupa el primer lugar, América el quinto y Nacional un puesto intermedio; Cali está por encima del América y Millonarios después del Nacional. Se busca determinar la segunda posición.",
-    question: "¿Qué equipo ocupa el segundo lugar conforme a la información dada?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué equipo ocupa el segundo lugar conforme a la información dada?",
     options: [
       { id: "a", text: "Nacional" },
       { id: "b", text: "Cali" },
@@ -4411,14 +4250,14 @@ const questionsV2: Question[] = [
       { id: "e", text: "Medellín" },
     ],
     correct: "b",
-    explanation: "Al estar Nacional en el lugar intermedio (tercero) y Millonarios después (cuarto), el puesto restante por encima de América (quinto) corresponde al Cali, que queda segundo.",
+    explanation: "En la situacion descrita, al estar Nacional en el lugar intermedio (tercero) y Millonarios después (cuarto), el puesto restante por encima de América (quinto) corresponde al Cali, que queda segundo.",
     points: 5,
   },
   {
     id: 80,
     category: "Comprensión Lectora",
     context: "Un texto sobre geografía afirma que es la ciencia de la ubicación y que ubicar implica ubicarse respecto a uno mismo, resaltando la importancia de situarse en el espacio.",
-    question: "¿Cuál es la idea central del fragmento sobre geografía?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la idea central del fragmento sobre geografía?",
     options: [
       { id: "a", text: "La geografía solo estudia mapas físicos." },
       { id: "b", text: "La esencia de la geografía radica en comprender la ubicación para orientarse en el mundo." },
@@ -4426,14 +4265,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Los geógrafos deben memorizar capitales sin contextualizarlas." },
     ],
     correct: "b",
-    explanation: "El texto destaca que la geografía consiste en saber ubicarse, pues la ubicación es clave para la experiencia humana.",
+    explanation: "En la situacion descrita, el texto destaca que la geografía consiste en saber ubicarse, pues la ubicación es clave para la experiencia humana.",
     points: 5,
   },
   {
     id: 81,
     category: "Comprensión Lectora",
     context: "Bordalove elogia a Fray Antonio porque su prédica hace que los ladrones devuelvan lo robado, pero al decirlo realza tanto el mérito propio como el del colega.",
-    question: "¿Qué sugiere la anécdota sobre el elogio de Bordalove?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué sugiere la anécdota sobre el elogio de Bordalove?",
     options: [
       { id: "a", text: "Que Fray Antonio carece de talento." },
       { id: "b", text: "Que Bordalove, al alabarlo, también destaca su propio impacto moral." },
@@ -4441,14 +4280,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Que devolver lo robado es señal de fracaso." },
     ],
     correct: "b",
-    explanation: "El comentario pondera al colega pero implícitamente resalta que sus propias prédicas tienen efectos extraordinarios.",
+    explanation: "En la situacion descrita, el comentario pondera al colega pero implícitamente resalta que sus propias prédicas tienen efectos extraordinarios.",
     points: 5,
   },
   {
     id: 82,
     category: "Comprensión Lectora",
     context: "Teodoro vende zapatos por $3.000, entrega el cambio de un billete de $5.000 falso y luego debe reembolsar la suma recibida, perdiendo también el producto.",
-    question: "¿Cuál es la pérdida total de Teodoro?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es la pérdida total de Teodoro?",
     options: [
       { id: "a", text: "$2.000" },
       { id: "b", text: "$3.000" },
@@ -4456,14 +4295,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "$8.000" },
     ],
     correct: "c",
-    explanation: "Pierde los $3.000 del par de zapatos y los $2.000 entregados como cambio, es decir, $5.000 en total.",
+    explanation: "En la situacion descrita, pierde los $3.000 del par de zapatos y los $2.000 entregados como cambio, es decir, $5.000 en total.",
     points: 5,
   },
   {
     id: 83,
     category: "Comprensión Lectora",
     context: "Durante un examen de conducción, la aspirante sube el auto al césped y el evaluador comenta en tono jocoso que así podrá almorzar a la sombra, buscando relajar la situación.",
-    question: "¿Qué efecto tiene el comentario del evaluador?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué efecto tiene el comentario del evaluador?",
     options: [
       { id: "a", text: "Ridiculizar a la aspirante para suspenderla." },
       { id: "b", text: "Introducir ironía para reducir la tensión del error cometido." },
@@ -4471,14 +4310,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Explicar los criterios técnicos de reprobación." },
     ],
     correct: "b",
-    explanation: "El comentario irónico funciona como un recurso amable para rebajar la tensión del tropiezo.",
+    explanation: "En la situacion descrita, el comentario irónico funciona como un recurso amable para rebajar la tensión del tropiezo.",
     points: 5,
   },
   {
     id: 84,
     category: "Comprensión Lectora",
     context: "En la playa, un niño pide a Picasso un dibujo firmado; el artista lo realiza sobre su piel para evitar que lo vendan y proteger su obra.",
-    question: "¿Qué buscaba Picasso al dibujar sobre la piel del niño?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué buscaba Picasso al dibujar sobre la piel del niño?",
     options: [
       { id: "a", text: "Aumentar el valor de reventa del dibujo." },
       { id: "b", text: "Impedir que la obra fuera comercializada, conservando control sobre ella." },
@@ -4486,14 +4325,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Salvar papel porque no tenía materiales." },
     ],
     correct: "b",
-    explanation: "Al dibujar sobre la piel, garantizó que el boceto no pudiera venderse, evidenciando su astucia.",
+    explanation: "En la situacion descrita, al dibujar sobre la piel, garantizó que el boceto no pudiera venderse, evidenciando su astucia.",
     points: 5,
   },
   {
     id: 85,
     category: "Comprensión Lectora",
     context: "Un futbolista es reprobado en matemáticas pese a la súplica del entrenador; cuando responde 'cuatro' a '¿cuánto son dos más dos?', el entrenador pide otra oportunidad, mostrando su turbación.",
-    question: "¿Dónde reside el humor de la escena del futbolista?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Dónde reside el humor de la escena del futbolista?",
     options: [
       { id: "a", text: "En que el jugador responde con brillantez." },
       { id: "b", text: "En la contradicción del entrenador, que pide otra oportunidad incluso tras una respuesta correcta evidente." },
@@ -4501,14 +4340,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "En que las matemáticas carecen de importancia." },
     ],
     correct: "b",
-    explanation: "El entrenador se muestra tan nervioso que insiste en otra oportunidad aunque el jugador respondió bien, lo que genera ironía.",
+    explanation: "En la situacion descrita, el entrenador se muestra tan nervioso que insiste en otra oportunidad aunque el jugador respondió bien, lo que genera ironía.",
     points: 5,
   },
   {
     id: 86,
     category: "Comprensión Lectora",
     context: "Thomas Jefferson afirma que quien no lee periódicos está mejor informado que quien sí lo hace, porque evita falsedades y errores difundidos.",
-    question: "¿Qué crítica formula Jefferson a la prensa?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué crítica formula Jefferson a la prensa?",
     options: [
       { id: "a", text: "Que siempre ofrece información precisa." },
       { id: "b", text: "Que difunde errores y falsedades, de modo que evitarlos puede dejar a la persona menos desinformada." },
@@ -4516,14 +4355,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Que solo trata temas triviales." },
     ],
     correct: "b",
-    explanation: "Jefferson ironiza al señalar que quien no lee la prensa evita errores y falsedades, quedando menos mal informado.",
+    explanation: "En la situacion descrita, jefferson ironiza al señalar que quien no lee la prensa evita errores y falsedades, quedando menos mal informado.",
     points: 5,
   },
   {
     id: 87,
     category: "Comprensión Lectora",
     context: "Tras quemar la cena, el cocinero de César se suicida cuando recibe el perdón del emperador porque percibe la indulgencia como humillante.",
-    question: "¿Por qué el cocinero opta por suicidarse pese al perdón?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Por qué el cocinero opta por suicidarse pese al perdón?",
     options: [
       { id: "a", text: "Porque César lo condenó de todos modos." },
       { id: "b", text: "Porque la indulgencia lo avergüenza más que un castigo abierto." },
@@ -4531,14 +4370,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Porque perdió la receta secreta." },
     ],
     correct: "b",
-    explanation: "La historia señala que la indulgencia imperial lo avergonzó al punto de preferir la muerte antes que la humillación.",
+    explanation: "En la situacion descrita, la historia señala que la indulgencia imperial lo avergonzó al punto de preferir la muerte antes que la humillación.",
     points: 5,
   },
   {
     id: 88,
     category: "Comprensión Lectora",
     context: "La maestra de párvulos Elma Tschumy organiza su fiesta de cumpleaños invitando únicamente a 263 exalumnos hombres, revelando su deseo de estar rodeada exclusivamente de varones.",
-    question: "¿Qué deja en evidencia la celebración planeada por Elma Tschumy?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué deja en evidencia la celebración planeada por Elma Tschumy?",
     options: [
       { id: "a", text: "Que desea un encuentro equilibrado entre hombres y mujeres." },
       { id: "b", text: "Que busca deliberadamente un entorno festivo compuesto solo por hombres." },
@@ -4546,7 +4385,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Que no quiere que asista ningún exalumno." },
     ],
     correct: "b",
-    explanation: "Al invitar únicamente a sus exalumnos hombres, muestra su interés por celebrar rodeada exclusivamente de ellos.",
+    explanation: "En la situacion descrita, al invitar únicamente a sus exalumnos hombres, muestra su interés por celebrar rodeada exclusivamente de ellos.",
     points: 5,
   },
   {
@@ -4554,7 +4393,7 @@ const questionsV2: Question[] = [
     category: "Competencias de Comprensión",
     context:
       "Mientras la destreza se refiere al dominio técnico en una actividad particular (como tocar piano o programar), la competencia abarca un conjunto más amplio que incluye conocimientos teóricos, habilidades prácticas, actitudes profesionales y capacidad de aplicación en diferentes contextos.",
-    question: "¿En qué se diferencia fundamentalmente una destreza de una competencia?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿En qué se diferencia fundamentalmente una destreza de una competencia?",
     options: [
       { id: "a", text: "La destreza es teórica mientras que la competencia es práctica." },
       { id: "b", text: "La competencia integra conocimientos, habilidades, actitudes y contextos variados." },
@@ -4563,8 +4402,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "La competencia es menos valiosa que la destreza." },
     ],
     correct: "b",
-    explanation:
-      "La competencia es un concepto integrador que combina conocimientos teóricos, habilidades prácticas, actitudes y capacidad de aplicación contextual, mientras que la destreza se enfoca en el dominio técnico específico.",
+    explanation: "En la situacion descrita, la competencia es un concepto integrador que combina conocimientos teóricos, habilidades prácticas, actitudes y capacidad de aplicación contextual, mientras que la destreza se enfoca en el dominio técnico específico.",
     points: 5,
   },
   {
@@ -4572,7 +4410,7 @@ const questionsV2: Question[] = [
     category: "Estructura de Preguntas",
     context:
       "En una pregunta bien construida, el enunciado debe ser claro y preciso, la opción correcta debe responder exactamente lo preguntado, y los distractores deben parecer plausibles pero contener errores conceptuales, información incompleta o generalizaciones incorrectas.",
-    question: "¿Qué características deben tener los distractores efectivos en una evaluación?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué características deben tener los distractores efectivos en una evaluación?",
     options: [
       { id: "a", text: "Deben ser absurdos para facilitar la identificación de la respuesta correcta." },
       { id: "b", text: "Deben parecer plausibles pero contener errores conceptuales o información incompleta." },
@@ -4581,8 +4419,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "No deben relacionarse con el tema evaluado." },
     ],
     correct: "b",
-    explanation:
-      "Los distractores efectivos son aquellos que parecen plausibles a quien no domina el tema, pero contienen errores conceptuales, información incompleta o generalizaciones incorrectas que los hacen incorrectos.",
+    explanation: "En la situacion descrita, los distractores efectivos son aquellos que parecen plausibles a quien no domina el tema, pero contienen errores conceptuales, información incompleta o generalizaciones incorrectas que los hacen incorrectos.",
     points: 5,
   },
   {
@@ -4590,7 +4427,7 @@ const questionsV2: Question[] = [
     category: "Competencias de Comprensión",
     context:
       "Un auditor revisa un informe financiero (competencia interpretativa), luego explica por qué ciertos gastos no están justificados adecuadamente según la normativa vigente (competencia argumentativa), y finalmente sugiere un nuevo procedimiento de control interno para prevenir futuros incumplimientos (competencia propositiva).",
-    question: "¿Qué competencia demuestra el auditor al sugerir un nuevo procedimiento de control interno?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué competencia demuestra el auditor al sugerir un nuevo procedimiento de control interno?",
     options: [
       { id: "a", text: "Competencia interpretativa, al revisar el informe." },
       { id: "b", text: "Competencia argumentativa, al explicar los incumplimientos." },
@@ -4599,8 +4436,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "Competencia descriptiva, al enumerar gastos." },
     ],
     correct: "c",
-    explanation:
-      "Al sugerir un nuevo procedimiento de control interno, el auditor está generando una propuesta de solución para prevenir problemas futuros, lo cual caracteriza la competencia propositiva.",
+    explanation: "En la situacion descrita, al sugerir un nuevo procedimiento de control interno, el auditor está generando una propuesta de solución para prevenir problemas futuros, lo cual caracteriza la competencia propositiva.",
     points: 5,
   },
   {
@@ -4608,7 +4444,7 @@ const questionsV2: Question[] = [
     category: "Niveles de Información",
     context:
       "La información local permite responder '¿cuándo ocurrió?', '¿quién participó?' o '¿dónde sucedió?'. La información global responde '¿cuál es el tema principal?' o '¿qué conclusión presenta el autor?'. La información intertextual requiere preguntas como '¿cómo se relaciona esto con lo planteado en el texto anterior?'",
-    question: "¿Qué tipo de pregunta requiere trabajar con información global?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué tipo de pregunta requiere trabajar con información global?",
     options: [
       { id: "a", text: "¿En qué año ocurrió el evento mencionado?" },
       { id: "b", text: "¿Cuál es el tema principal que desarrolla el autor?" },
@@ -4617,8 +4453,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "¿Quién es el personaje mencionado en la línea cinco?" },
     ],
     correct: "b",
-    explanation:
-      "Identificar el tema principal requiere integrar información de múltiples partes del texto para obtener el sentido general, lo cual caracteriza el trabajo con información global.",
+    explanation: "En la situacion descrita, identificar el tema principal requiere integrar información de múltiples partes del texto para obtener el sentido general, lo cual caracteriza el trabajo con información global.",
     points: 5,
   },
   {
@@ -4626,7 +4461,7 @@ const questionsV2: Question[] = [
     category: "Estrategias de Respuesta",
     context:
       "Las estrategias metacognitivas incluyen: planificar la lectura identificando el propósito, monitorear la comprensión pausando para verificar entendimiento, y evaluar si la respuesta seleccionada realmente contesta lo preguntado antes de confirmarla.",
-    question: "¿Cuál acción corresponde a una estrategia metacognitiva de monitoreo durante la lectura?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál acción corresponde a una estrategia metacognitiva de monitoreo durante la lectura?",
     options: [
       { id: "a", text: "Leer el texto completo sin detenerse en ningún momento." },
       { id: "b", text: "Pausar para verificar si se está comprendiendo lo leído." },
@@ -4635,8 +4470,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "Memorizar las primeras líneas de cada sección." },
     ],
     correct: "b",
-    explanation:
-      "El monitoreo metacognitivo implica pausar durante la lectura para verificar el nivel de comprensión y ajustar estrategias si es necesario, no simplemente leer de manera continua.",
+    explanation: "En la situacion descrita, el monitoreo metacognitivo implica pausar durante la lectura para verificar el nivel de comprensión y ajustar estrategias si es necesario, no simplemente leer de manera continua.",
     points: 5,
   },
   {
@@ -4644,7 +4478,7 @@ const questionsV2: Question[] = [
     category: "Competencias de Comprensión",
     context:
       "Al leer: 'El proyecto se retrasó tres meses debido a problemas logísticos, por lo tanto no cumplió con los plazos establecidos en el contrato', la primera parte identifica un hecho y su causa (interpretativa), mientras que 'por lo tanto' introduce una consecuencia lógica que argumenta sobre el incumplimiento contractual (argumentativa).",
-    question: "¿Qué función cumple la expresión 'por lo tanto' en la estructura argumentativa del enunciado?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué función cumple la expresión 'por lo tanto' en la estructura argumentativa del enunciado?",
     options: [
       { id: "a", text: "Introduce información adicional sin relación causal." },
       { id: "b", text: "Establece una consecuencia lógica y conecta la causa con el efecto." },
@@ -4653,8 +4487,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "Describe detalles técnicos del proyecto." },
     ],
     correct: "b",
-    explanation:
-      "'Por lo tanto' es un conector consecutivo que introduce una consecuencia lógica derivada de la premisa anterior, estableciendo una relación causal explícita entre el retraso y el incumplimiento.",
+    explanation: "En la situacion descrita, 'Por lo tanto' es un conector consecutivo que introduce una consecuencia lógica derivada de la premisa anterior, estableciendo una relación causal explícita entre el retraso y el incumplimiento.",
     points: 5,
   },
   {
@@ -4662,7 +4495,7 @@ const questionsV2: Question[] = [
     category: "Estructura de Preguntas",
     context:
       "Los conectores de contraste (sin embargo, no obstante, aunque) indican oposición entre ideas. Los de consecuencia (por lo tanto, en consecuencia, así que) muestran resultado. Los de adición (además, asimismo, también) agregan información. Reconocerlos ayuda a anticipar el desarrollo del texto.",
-    question: "Si un párrafo termina con 'sin embargo', ¿qué tipo de información debería esperarse a continuación?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, si un párrafo termina con 'sin embargo', ¿qué tipo de información debería esperarse a continuación?",
     options: [
       { id: "a", text: "Una idea que contradice o contrasta con lo planteado anteriormente." },
       { id: "b", text: "Una consecuencia lógica de lo expuesto previamente." },
@@ -4671,8 +4504,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "La conclusión final del texto completo." },
     ],
     correct: "a",
-    explanation:
-      "'Sin embargo' es un conector de contraste que introduce información que contradice, matiza u opone una idea alternativa a lo planteado anteriormente.",
+    explanation: "En la situacion descrita, 'Sin embargo' es un conector de contraste que introduce información que contradice, matiza u opone una idea alternativa a lo planteado anteriormente.",
     points: 5,
   },
   {
@@ -4680,7 +4512,7 @@ const questionsV2: Question[] = [
     category: "Niveles de Información",
     context:
       "Una investigadora estudia un artículo sobre políticas educativas en Finlandia y lo compara con un libro que leyó sobre el sistema educativo de Singapur, identificando similitudes en sus enfoques pedagógicos y diferencias en la inversión estatal, construyendo así un análisis comparativo enriquecido.",
-    question: "¿Qué nivel de procesamiento de información realiza la investigadora al comparar ambas fuentes?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué nivel de procesamiento de información realiza la investigadora al comparar ambas fuentes?",
     options: [
       { id: "a", text: "Información local, al identificar datos específicos en cada texto." },
       { id: "b", text: "Información global, al sintetizar cada sistema educativo por separado." },
@@ -4689,8 +4521,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "Información implícita, al deducir información no explícita." },
     ],
     correct: "c",
-    explanation:
-      "Al comparar y relacionar información de dos textos diferentes para construir un análisis enriquecido, la investigadora trabaja con información intertextual que vincula múltiples fuentes.",
+    explanation: "En la situacion descrita, al comparar y relacionar información de dos textos diferentes para construir un análisis enriquecido, la investigadora trabaja con información intertextual que vincula múltiples fuentes.",
     points: 5,
   },
   {
@@ -4698,7 +4529,7 @@ const questionsV2: Question[] = [
     category: "Estrategias de Respuesta",
     context:
       "Al enfrentar dos opciones aparentemente correctas, una estrategia efectiva es preguntarse: ¿cuál responde con mayor precisión?, ¿cuál está más completa?, ¿cuál usa el vocabulario del texto?, y ¿cuál evita generalizaciones excesivas o absolutas como 'siempre' o 'nunca'?",
-    question: "¿Qué característica suele hacer menos confiable una opción de respuesta?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué característica suele hacer menos confiable una opción de respuesta?",
     options: [
       { id: "a", text: "Que use vocabulario técnico del área evaluada." },
       { id: "b", text: "Que incluya términos absolutos como 'siempre', 'nunca' o 'todos'." },
@@ -4707,8 +4538,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "Que tenga una extensión similar a las otras opciones." },
     ],
     correct: "b",
-    explanation:
-      "Las opciones que contienen términos absolutos como 'siempre', 'nunca', 'todos' suelen ser menos confiables porque pocas afirmaciones son universalmente verdaderas sin excepciones.",
+    explanation: "En la situacion descrita, las opciones que contienen términos absolutos como 'siempre', 'nunca', 'todos' suelen ser menos confiables porque pocas afirmaciones son universalmente verdaderas sin excepciones.",
     points: 5,
   },
   {
@@ -4716,7 +4546,7 @@ const questionsV2: Question[] = [
     category: "Competencias de Comprensión",
     context:
       "Ante la disminución de ventas en una región, un gerente comercial analiza los reportes de mercado (interpretativa), identifica que el factor principal es el aumento de competidores locales (argumentativa), y diseña una estrategia de fidelización que combina descuentos progresivos, atención personalizada y mejoras en el servicio posventa (propositiva).",
-    question: "¿En qué momento el gerente demuestra competencia propositiva?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿En qué momento el gerente demuestra competencia propositiva?",
     options: [
       { id: "a", text: "Al analizar los reportes de mercado para entender la situación." },
       { id: "b", text: "Al identificar que el aumento de competidores es el factor principal." },
@@ -4725,8 +4555,7 @@ const questionsV2: Question[] = [
       { id: "e", text: "Al comparar los datos del trimestre actual con trimestres anteriores." },
     ],
     correct: "c",
-    explanation:
-      "La competencia propositiva se evidencia cuando el gerente diseña una estrategia creativa e integrada para solucionar el problema, no solo al analizar la situación o identificar causas.",
+    explanation: "En la situacion descrita, la competencia propositiva se evidencia cuando el gerente diseña una estrategia creativa e integrada para solucionar el problema, no solo al analizar la situación o identificar causas.",
     points: 5,
   },
   {
@@ -4734,7 +4563,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El libro es uno de los inventos más asombrosos de la humanidad, pues sirve de extensión a nuestro poder de recordar y de imaginar. Permite contener información para preservarla, ayuda a representar el mundo y hacerlo legible. Expande la capacidad de pensar y comunicarse. En la cultura digital actual, el libro mantiene su relevancia como herramienta indispensable.",
-    question: "¿Por qué el texto afirma que el libro es una extensión del poder humano?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Por qué el texto afirma que el libro es una extensión del poder humano?",
     options: [
       { id: "a", text: "Porque permite almacenar información fuera de la mente y expandir las capacidades cognitivas." },
       { id: "b", text: "Porque la escritura reemplazó completamente la tradición oral antigua." },
@@ -4742,8 +4571,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Porque elimina la necesidad de comunicación directa entre personas." },
     ],
     correct: "a",
-    explanation:
-      "El libro es una extensión del poder humano porque permite contener información externamente, preservarla y expandir las capacidades de pensar y comunicarse, no porque reemplace o elimine funciones humanas.",
+    explanation: "En la situacion descrita, el libro es una extensión del poder humano porque permite contener información externamente, preservarla y expandir las capacidades de pensar y comunicarse, no porque reemplace o elimine funciones humanas.",
     points: 5,
   },
   {
@@ -4751,7 +4579,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Sócrates afirmó que la escritura terminaría con la capacidad de recordar porque ya no habría necesidad de ejercitar la memoria ni someter los pensamientos a juicio propio. Sin embargo, la historia demostró que ambas tradiciones —oral y escrita— respondían a necesidades culturales diferentes en momentos distintos de la humanidad.",
-    question: "Según el texto, ¿cuál es la validez de la preocupación de Sócrates?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, según el texto, ¿cuál es la validez de la preocupación de Sócrates?",
     options: [
       { id: "a", text: "Tenía razón absoluta porque la escritura destruyó la capacidad memorística humana." },
       { id: "b", text: "Su preocupación era válida para su contexto, pero oralidad y escritura responden a necesidades culturales diferentes." },
@@ -4759,8 +4587,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Era correcta, pues hoy nadie ejercita la memoria gracias a los libros." },
     ],
     correct: "b",
-    explanation:
-      "El texto sugiere que la preocupación de Sócrates tenía sentido en su época, pero que ambas tradiciones (oral y escrita) respondían a necesidades culturales distintas en momentos diferentes.",
+    explanation: "En la situacion descrita, el texto sugiere que la preocupación de Sócrates tenía sentido en su época, pero que ambas tradiciones (oral y escrita) respondían a necesidades culturales distintas en momentos diferentes.",
     points: 5,
   },
   {
@@ -4768,7 +4595,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Los antiguos valoraban profundamente el ejercicio de la memoria y el juicio propio sobre los pensamientos. Para ellos, el acto de recordar era fundamental para el conocimiento. En contraste, la sociedad moderna valora la capacidad de almacenar y acceder a grandes cantidades de información mediante libros y tecnología digital.",
-    question: "¿Qué diferencia fundamental establece el texto entre antiguos y modernos?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, situación\n\nUn profesor de filosofía discute con sus estudiantes universitarios sobre cómo diferentes épocas han valorado el conocimiento. Menciona que los antiguos cultivaban la memoria como ejercicio fundamental, mientras que hoy usamos dispositivos digitales para almacenar información.\n\nPregunta\n\n¿Qué diferencia fundamental establece el texto entre antiguos y modernos?",
     options: [
       { id: "a", text: "Los antiguos no tenían acceso a información, mientras los modernos sí." },
       { id: "b", text: "Los antiguos valoraban el ejercicio mental de recordar, mientras los modernos valoran el almacenamiento externo de información." },
@@ -4776,8 +4603,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Los modernos han perdido completamente la capacidad de memorizar." },
     ],
     correct: "b",
-    explanation:
-      "La diferencia clave está en los valores: los antiguos privilegiaban el ejercicio de la memoria y el juicio propio, mientras los modernos valoran la capacidad de almacenar y acceder a información externamente.",
+    explanation: "En la situacion descrita, en la situación planteada por el profesor, la diferencia clave está en los valores: los antiguos privilegiaban el ejercicio de la memoria y el juicio propio, mientras los modernos valoran la capacidad de almacenar y acceder a información externamente mediante tecnología.",
     points: 5,
   },
   {
@@ -4785,7 +4611,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El libro permite representar el mundo y hacerlo legible. No solo preserva información, sino que ayuda a organizar el conocimiento, estructurar el pensamiento y comunicar ideas complejas a través del tiempo y el espacio. Es una tecnología que transforma cómo entendemos la realidad.",
-    question: "Según el texto, ¿cuál es la función más amplia del libro más allá de preservar información?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, situación\n\nUna bibliotecaria explica a un grupo de estudiantes de secundaria que los libros no solo sirven para guardar datos, sino que cumplen funciones mucho más profundas en la sociedad. Les pide que reflexionen sobre el verdadero impacto de la lectura en el pensamiento humano.\n\nPregunta\n\nSegún el texto, ¿cuál es la función más amplia del libro más allá de preservar información?",
     options: [
       { id: "a", text: "Simplemente guardar datos para el futuro." },
       { id: "b", text: "Reemplazar la necesidad de pensar críticamente." },
@@ -4793,8 +4619,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Eliminar la comunicación oral entre generaciones." },
     ],
     correct: "c",
-    explanation:
-      "El texto destaca que el libro tiene funciones más profundas: representa el mundo, lo hace legible, organiza conocimiento y estructura el pensamiento, no solo preserva datos.",
+    explanation: "En la situacion descrita, como explica la bibliotecaria en la situación, el texto destaca que el libro tiene funciones más profundas: representa el mundo, lo hace legible, organiza conocimiento y estructura el pensamiento, no solo preserva datos.",
     points: 5,
   },
   {
@@ -4802,7 +4627,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "La retórica cortés medieval establecía que el enamorado debía sufrir el rechazo de la mujer amada como parte del proceso amoroso. Este sufrimiento no era casual, sino estructurado según códigos específicos. El amor debía ser discreto, y la dama mantenía su distancia para probar la persistencia y virtud del pretendiente.",
-    question: "En la retórica cortés medieval, ¿qué función cumplía el rechazo de la dama?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, situación\n\nUn estudiante de literatura medieval analiza un poema trovadoresco donde el caballero sufre continuos rechazos de su amada. El profesor le explica que este patrón no era accidental, sino parte de un código cultural específico.\n\nPregunta\n\nEn la retórica cortés medieval, ¿qué función cumplía el rechazo de la dama?",
     options: [
       { id: "a", text: "Era una expresión de crueldad sin propósito." },
       { id: "b", text: "Servía para probar la persistencia y virtud del pretendiente según códigos establecidos." },
@@ -4810,8 +4635,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "No tenía significado particular en la cultura medieval." },
     ],
     correct: "b",
-    explanation:
-      "El rechazo tenía una función específica dentro del código cortés: probar la persistencia y virtud del pretendiente, siendo parte estructurada del proceso amoroso medieval.",
+    explanation: "En la situacion descrita, como el profesor explica al estudiante en la situación, el rechazo tenía una función específica dentro del código cortés: probar la persistencia y virtud del pretendiente, siendo parte estructurada del proceso amoroso medieval.",
     points: 5,
   },
   {
@@ -4819,7 +4643,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El obstáculo amoroso en la literatura medieval no era un impedimento accidental, sino un elemento estructural del relato. La imposibilidad del amor alimentaba la narrativa y permitía explorar temas de honor, virtud, sufrimiento y nobleza. Sin obstáculo, la historia perdía su tensión narrativa.",
-    question: "¿Por qué el obstáculo amoroso era estructural en la narrativa medieval?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, situación\n\nUn crítico literario prepara un ensayo sobre las convenciones narrativas medievales. Al analizar varias obras, nota que el amor siempre enfrenta impedimentos aparentemente inevitables y se pregunta si esto responde a una decisión artística deliberada.\n\nPregunta\n\n¿Por qué el obstáculo amoroso era estructural en la narrativa medieval?",
     options: [
       { id: "a", text: "Porque los escritores no sabían crear historias sin conflictos." },
       { id: "b", text: "Porque alimentaba la narrativa y permitía explorar temas de honor, virtud y nobleza." },
@@ -4827,8 +4651,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Porque era un requisito legal impuesto por la Iglesia." },
     ],
     correct: "b",
-    explanation:
-      "El obstáculo era estructural porque no era accidental sino intencional: alimentaba la narrativa y permitía explorar temas centrales como honor, virtud, sufrimiento y nobleza.",
+    explanation: "En la situacion descrita, como descubre el crítico en la situación, el obstáculo era estructural porque no era accidental sino intencional: alimentaba la narrativa y permitía explorar temas centrales como honor, virtud, sufrimiento y nobleza.",
     points: 5,
   },
   {
@@ -4836,7 +4659,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "En la poesía trovadoresca, el amor debía mantenerse secreto y discreto. La revelación pública del amor podía arruinar la reputación de la dama y del caballero. La discreción era tanto una virtud como una necesidad práctica, creando una tensión entre el deseo de expresar el amor y la obligación de ocultarlo.",
-    question: "¿Qué tensión caracterizaba el amor trovadoresco medieval?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, situación\n\nUna investigadora estudia cartas y poemas de trovadores provenzales. Nota que los autores expresaban pasión intensa pero al mismo tiempo insistían en guardar secreto absoluto sobre sus sentimientos. Le intriga esta aparente contradicción.\n\nPregunta\n\n¿Qué tensión caracterizaba el amor trovadoresco medieval?",
     options: [
       { id: "a", text: "Entre la riqueza del caballero y la pobreza de la dama." },
       { id: "b", text: "Entre el deseo de expresar el amor y la obligación social de ocultarlo." },
@@ -4844,8 +4667,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Entre las órdenes religiosas y la nobleza secular." },
     ],
     correct: "b",
-    explanation:
-      "La tensión clave era entre el impulso de expresar el amor y la necesidad social de mantenerlo secreto y discreto para proteger reputaciones.",
+    explanation: "En la situacion descrita, como observa la investigadora en la situación, la tensión clave era entre el impulso de expresar el amor y la necesidad social de mantenerlo secreto y discreto para proteger reputaciones.",
     points: 5,
   },
   {
@@ -4853,7 +4675,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El amor cortés medieval establecía una jerarquía donde la dama ocupaba una posición superior al pretendiente. El caballero se colocaba en posición de servicio, similar a un vasallo ante su señor. Esta inversión de roles sociales convencionales creaba una dinámica única de poder y sumisión voluntaria.",
-    question: "¿Qué característica distintiva tenía la jerarquía del amor cortés?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, situación\n\nUn historiador social analiza las relaciones de poder en la corte medieval. Le sorprende encontrar que en el contexto amoroso, los roles convencionales entre hombres y mujeres se invertían completamente.\n\nPregunta\n\n¿Qué característica distintiva tenía la jerarquía del amor cortés?",
     options: [
       { id: "a", text: "Mantenía exactamente las jerarquías sociales convencionales." },
       { id: "b", text: "Invertía los roles, colocando a la dama en posición superior y al caballero como servidor." },
@@ -4861,8 +4683,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Privilegiaba siempre al hombre sobre la mujer en todas las situaciones." },
     ],
     correct: "b",
-    explanation:
-      "Lo distintivo del amor cortés era la inversión de jerarquías: la dama ocupaba posición superior y el caballero se colocaba voluntariamente en posición de servicio, como vasallo.",
+    explanation: "En la situacion descrita, como descubre el historiador en la situación, lo distintivo del amor cortés era la inversión de jerarquías: la dama ocupaba posición superior y el caballero se colocaba voluntariamente en posición de servicio, como vasallo.",
     points: 5,
   },
   {
@@ -4870,7 +4691,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "El código del amor cortés requería que el sufrimiento del enamorado fuera refinado y estético. No bastaba sufrir; había que hacerlo con elegancia, expresándolo mediante poesía, música y gestos codificados. El sufrimiento se convertía en arte y prueba de nobleza espiritual.",
-    question: "Según el código cortés, ¿cómo debía manifestarse el sufrimiento amoroso?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, situación\n\nUn director de teatro prepara una obra ambientada en la Edad Media. Debe instruir a sus actores sobre cómo representar el sufrimiento de un caballero rechazado, respetando las convenciones de la época.\n\nPregunta\n\nSegún el código cortés, ¿cómo debía manifestarse el sufrimiento amoroso?",
     options: [
       { id: "a", text: "De manera vulgar y desesperada para demostrar sinceridad." },
       { id: "b", text: "Con refinamiento estético, expresándose mediante arte y gestos codificados." },
@@ -4878,8 +4699,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Solo mediante actos violentos contra rivales." },
     ],
     correct: "b",
-    explanation:
-      "El sufrimiento debía ser refinado y estético, expresándose mediante poesía, música y gestos codificados, convirtiéndose en arte y prueba de nobleza espiritual.",
+    explanation: "En la situacion descrita, el sufrimiento debía ser refinado y estético, expresándose mediante poesía, música y gestos codificados, convirtiéndose en arte y prueba de nobleza espiritual.",
     points: 5,
   },
   {
@@ -4887,7 +4707,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Gene Roddenberry no era científico ni ingeniero, pero sus visiones imaginativas sobre el futuro influyeron posteriormente en el desarrollo tecnológico real. Los comunicadores de Star Trek inspiraron los teléfonos celulares, y conceptos como las computadoras parlantes anticiparon asistentes virtuales modernos.",
-    question: "¿Qué relación establece el texto entre imaginación y desarrollo tecnológico?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué relación establece el texto entre imaginación y desarrollo tecnológico?",
     options: [
       { id: "a", text: "Solo los científicos pueden imaginar tecnología futura relevante." },
       { id: "b", text: "La imaginación creativa puede anticipar e inspirar desarrollos tecnológicos reales posteriores." },
@@ -4895,8 +4715,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Roddenberry robó ideas de científicos contemporáneos." },
     ],
     correct: "b",
-    explanation:
-      "El texto muestra que la imaginación creativa de Roddenberry, aunque no era científico, anticipó e inspiró desarrollos tecnológicos reales como celulares y asistentes virtuales.",
+    explanation: "En la situacion descrita, el texto muestra que la imaginación creativa de Roddenberry, aunque no era científico, anticipó e inspiró desarrollos tecnológicos reales como celulares y asistentes virtuales.",
     points: 5,
   },
   {
@@ -4904,7 +4723,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Star Trek comenzó como una serie de televisión con presupuesto limitado y audiencias modestas. Sin embargo, su visión optimista del futuro, donde la humanidad superaba conflictos mediante cooperación y conocimiento, resonó profundamente con el público y creó un fenómeno cultural duradero.",
-    question: "¿Qué factor explica mejor el éxito cultural duradero de Star Trek?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué factor explica mejor el éxito cultural duradero de Star Trek?",
     options: [
       { id: "a", text: "El enorme presupuesto inicial de producción." },
       { id: "b", text: "Su visión optimista del futuro basada en cooperación y conocimiento." },
@@ -4912,8 +4731,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "El apoyo inmediato de audiencias masivas desde el inicio." },
     ],
     correct: "b",
-    explanation:
-      "A pesar del presupuesto limitado y audiencias modestas iniciales, el éxito duradero se debió a su visión optimista del futuro fundamentada en cooperación y conocimiento.",
+    explanation: "En la situacion descrita, a pesar del presupuesto limitado y audiencias modestas iniciales, el éxito duradero se debió a su visión optimista del futuro fundamentada en cooperación y conocimiento.",
     points: 5,
   },
   {
@@ -4921,7 +4739,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Los dispositivos imaginados en Star Trek —comunicadores portátiles, tabletas táctiles, traductores universales— no existían en los años 60, pero presentaban soluciones a necesidades humanas reales. Décadas después, la tecnología real desarrolló equivalentes funcionales a muchos de estos conceptos.",
-    question: "¿Qué demuestra la materialización posterior de tecnologías imaginadas en Star Trek?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué demuestra la materialización posterior de tecnologías imaginadas en Star Trek?",
     options: [
       { id: "a", text: "Que Roddenberry tenía información privilegiada de laboratorios secretos." },
       { id: "b", text: "Que la ficción que identifica necesidades humanas reales puede anticipar soluciones tecnológicas." },
@@ -4929,8 +4747,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Que la ciencia ficción no tiene valor más allá del entretenimiento." },
     ],
     correct: "b",
-    explanation:
-      "La materialización posterior demuestra que la ficción bien fundamentada, al identificar necesidades humanas reales, puede anticipar direcciones del desarrollo tecnológico futuro.",
+    explanation: "En la situacion descrita, la materialización posterior demuestra que la ficción bien fundamentada, al identificar necesidades humanas reales, puede anticipar direcciones del desarrollo tecnológico futuro.",
     points: 5,
   },
   {
@@ -4938,7 +4755,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "La nave Enterprise de Star Trek representaba más que un vehículo espacial: simbolizaba la exploración, el descubrimiento, la diversidad cultural y la resolución de conflictos mediante el diálogo. Era una metáfora móvil de los valores que la serie promovía sobre cómo la humanidad debería enfrentar el futuro.",
-    question: "¿Cuál era la función simbólica más profunda de la nave Enterprise?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál era la función simbólica más profunda de la nave Enterprise?",
     options: [
       { id: "a", text: "Simplemente servir como escenario para aventuras espaciales." },
       { id: "b", text: "Representar una metáfora de valores sobre exploración, diversidad y resolución de conflictos." },
@@ -4946,8 +4763,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Mostrar tecnología impresionante sin mensaje particular." },
     ],
     correct: "b",
-    explanation:
-      "La Enterprise era más que escenario: simbolizaba valores como exploración, descubrimiento, diversidad y resolución de conflictos mediante diálogo, siendo metáfora de cómo enfrentar el futuro.",
+    explanation: "En la situacion descrita, la Enterprise era más que escenario: simbolizaba valores como exploración, descubrimiento, diversidad y resolución de conflictos mediante diálogo, siendo metáfora de cómo enfrentar el futuro.",
     points: 5,
   },
   {
@@ -4955,7 +4771,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "A pesar de ser cancelada después de tres temporadas por bajas audiencias, Star Trek renació como fenómeno cultural a través de repeticiones, convenciones de fans y eventual expansión a películas y series derivadas. Este patrón demuestra que el éxito inmediato no siempre predice el impacto cultural duradero.",
-    question: "¿Qué lección sobre el impacto cultural ilustra la historia de Star Trek?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué lección sobre el impacto cultural ilustra la historia de Star Trek?",
     options: [
       { id: "a", text: "El éxito inmediato siempre garantiza impacto cultural duradero." },
       { id: "b", text: "Las series canceladas nunca pueden recuperarse o tener influencia posterior." },
@@ -4963,8 +4779,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Solo las series con altas audiencias iniciales merecen reconocimiento." },
     ],
     correct: "c",
-    explanation:
-      "Star Trek demuestra que obras inicialmente modestas en audiencia pueden generar impacto cultural profundo y duradero a largo plazo, desafiando predicciones basadas solo en éxito inmediato.",
+    explanation: "En la situacion descrita, star Trek demuestra que obras inicialmente modestas en audiencia pueden generar impacto cultural profundo y duradero a largo plazo, desafiando predicciones basadas solo en éxito inmediato.",
     points: 5,
   },
   {
@@ -4972,7 +4787,7 @@ const questionsV2: Question[] = [
     category: "Comprensión Lectora",
     context:
       "Los creadores de tecnologías modernas como los teléfonos celulares han reconocido explícitamente la inspiración que tomaron de los comunicadores de Star Trek. Martin Cooper, inventor del primer celular portátil, citó directamente a la serie como influencia para conceptualizar dispositivos de comunicación móvil.",
-    question: "¿Qué evidencia concreta confirma la influencia de Star Trek en tecnología real?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué evidencia concreta confirma la influencia de Star Trek en tecnología real?",
     options: [
       { id: "a", text: "Solo especulaciones de fans sin confirmación de inventores." },
       { id: "b", text: "El reconocimiento explícito de inventores como Martin Cooper sobre la inspiración recibida de la serie." },
@@ -4980,15 +4795,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Similitudes casuales sin conexión histórica documentada." },
     ],
     correct: "b",
-    explanation:
-      "La influencia está concretamente documentada: inventores como Martin Cooper reconocieron explícitamente haber tomado inspiración de Star Trek para desarrollar tecnologías como el celular portátil.",
+    explanation: "En la situacion descrita, la influencia está concretamente documentada: inventores como Martin Cooper reconocieron explícitamente haber tomado inspiración de Star Trek para desarrollar tecnologías como el celular portátil.",
     points: 5,
   },
   // La lámpara maravillosa - William Ospina V2 (IDs 141-149)
   {
     id: 141,
     category: "Comprensión Lectora",
-    question: "Según el texto, los dos recursos fundamentales que tenemos para navegar la vida son:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, según el texto, los dos recursos fundamentales que tenemos para navegar la vida son:",
     options: [
       { id: "a", text: "El conocimiento y la razón" },
       { id: "b", text: "La experiencia y la imaginación" },
@@ -4996,14 +4810,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La memoria y la inteligencia" },
     ],
     correct: "b",
-    explanation:
-      "El texto establece claramente que 'para todo eso sólo tenemos dos recursos: la experiencia y la imaginación', siendo estos los medios fundamentales para conocer los dones y prevenir los peligros de la vida.",
+    explanation: "En la situacion descrita, el texto establece claramente que 'para todo eso sólo tenemos dos recursos: la experiencia y la imaginación', siendo estos los medios fundamentales para conocer los dones y prevenir los peligros de la vida.",
     points: 5,
   },
   {
     id: 142,
     category: "Comprensión Lectora",
-    question: "La expresión 'el paraíso de los libros' se refiere a:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la expresión 'el paraíso de los libros' se refiere a:",
     options: [
       { id: "a", text: "Una biblioteca perfecta" },
       { id: "b", text: "Un lugar imaginario donde se escriben libros" },
@@ -5011,14 +4824,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "El cielo de los escritores" },
     ],
     correct: "c",
-    explanation:
-      "El 'paraíso de los libros' es el espacio imaginativo donde 'está permitido todo aquello que la experiencia prohíbe', permitiendo vivir lo no vivido y escarmentar por cabeza ajena.",
+    explanation: "En la situacion descrita, el 'paraíso de los libros' es el espacio imaginativo donde 'está permitido todo aquello que la experiencia prohíbe', permitiendo vivir lo no vivido y escarmentar por cabeza ajena.",
     points: 5,
   },
   {
     id: 143,
     category: "Comprensión Lectora",
-    question: "¿A qué obras literarias alude el autor en el segundo párrafo?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿A qué obras literarias alude el autor en el segundo párrafo?",
     options: [
       { id: "a", text: "La Odisea, La Ilíada, Romeo y Julieta, Hamlet" },
       { id: "b", text: "Don Quijote, Moby Dick, La metamorfosis, Otelo" },
@@ -5026,14 +4838,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La Divina Comedia, El Paraíso Perdido" },
     ],
     correct: "b",
-    explanation:
-      "El texto alude a Don Quijote (hombre que por la lectura quiere ser héroe), Moby Dick (cacería de la ballena blanca), La metamorfosis (hombre que se convierte en escarabajo) y Otelo (hombre celoso que mata a su mujer).",
+    explanation: "En la situacion descrita, el texto alude a Don Quijote (hombre que por la lectura quiere ser héroe), Moby Dick (cacería de la ballena blanca), La metamorfosis (hombre que se convierte en escarabajo) y Otelo (hombre celoso que mata a su mujer).",
     points: 5,
   },
   {
     id: 144,
     category: "Comprensión Lectora",
-    question: "La referencia a Borges en el texto sirve para:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la referencia a Borges en el texto sirve para:",
     options: [
       { id: "a", text: "Criticar su obra literaria" },
       { id: "b", text: "Ilustrar cómo los libros son una legión de amigos inagotables" },
@@ -5041,14 +4852,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Explicar su teoría sobre la memoria" },
     ],
     correct: "b",
-    explanation:
-      "El autor cita a Borges para reforzar la idea de que 'la relación con los libros es... el hallazgo de una legión de amigos que puede ser inagotable', enfatizando la riqueza infinita de la lectura.",
+    explanation: "En la situacion descrita, el autor cita a Borges para reforzar la idea de que 'la relación con los libros es... el hallazgo de una legión de amigos que puede ser inagotable', enfatizando la riqueza infinita de la lectura.",
     points: 5,
   },
   {
     id: 145,
     category: "Comprensión Lectora",
-    question: "¿Qué relación establece el autor entre soledad, amistad y felicidad?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué relación establece el autor entre soledad, amistad y felicidad?",
     options: [
       { id: "a", text: "Son experiencias mutuamente excluyentes" },
       { id: "b", text: "Solo la amistad conduce a la felicidad" },
@@ -5056,14 +4866,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La soledad elimina la posibilidad de amistad" },
     ],
     correct: "c",
-    explanation:
-      "El texto afirma que estas tres experiencias inevitables de la vida 'están juntas' en nuestra relación con los libros, coexistiendo de manera única en el acto de leer.",
+    explanation: "En la situacion descrita, el texto afirma que estas tres experiencias inevitables de la vida 'están juntas' en nuestra relación con los libros, coexistiendo de manera única en el acto de leer.",
     points: 5,
   },
   {
     id: 146,
     category: "Comprensión Lectora",
-    question: "La función de 'vivir lo no vivido' y 'recordar memorias de otros' es:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la función de 'vivir lo no vivido' y 'recordar memorias de otros' es:",
     options: [
       { id: "a", text: "Confundir nuestra propia experiencia" },
       { id: "b", text: "Ampliar nuestra experiencia a través de la imaginación sin sufrir las consecuencias reales" },
@@ -5071,14 +4880,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Sustituir completamente la experiencia real" },
     ],
     correct: "b",
-    explanation:
-      "Los libros permiten ampliar nuestra experiencia vital 'escarmentando por cabeza ajena', aprendiendo de las experiencias de otros sin tener que vivirlas directamente con sus riesgos y consecuencias.",
+    explanation: "En la situacion descrita, los libros permiten ampliar nuestra experiencia vital 'escarmentando por cabeza ajena', aprendiendo de las experiencias de otros sin tener que vivirlas directamente con sus riesgos y consecuencias.",
     points: 5,
   },
   {
     id: 147,
     category: "Comprensión Lectora",
-    question: "El autor presenta la vida como:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el autor presenta la vida como:",
     options: [
       { id: "a", text: "Solo bendición" },
       { id: "b", text: "Solo tormento" },
@@ -5086,14 +4894,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Ni bendición ni tormento" },
     ],
     correct: "c",
-    explanation:
-      "El texto comienza afirmando que 'El cuerpo, la vida, el mundo, son continuamente bendición y tormento', reconociendo la dualidad inherente a la experiencia vital.",
+    explanation: "En la situacion descrita, el texto comienza afirmando que 'El cuerpo, la vida, el mundo, son continuamente bendición y tormento', reconociendo la dualidad inherente a la experiencia vital.",
     points: 5,
   },
   {
     id: 148,
     category: "Comprensión Lectora",
-    question: "¿Qué significa 'los libros nos convierten en el escenario donde ocurren hechos ilustres'?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué significa 'los libros nos convierten en el escenario donde ocurren hechos ilustres'?",
     options: [
       { id: "a", text: "Los libros nos hacen famosos" },
       { id: "b", text: "Somos espectadores pasivos de los libros" },
@@ -5101,14 +4908,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Los libros solo describen escenarios" },
     ],
     correct: "c",
-    explanation:
-      "La metáfora indica que al leer, nuestra mente se transforma en el espacio donde las historias cobran vida, convirtiéndonos en participantes activos del mundo imaginario del libro.",
+    explanation: "En la situacion descrita, la metáfora indica que al leer, nuestra mente se transforma en el espacio donde las historias cobran vida, convirtiéndonos en participantes activos del mundo imaginario del libro.",
     points: 5,
   },
   {
     id: 149,
     category: "Comprensión Lectora",
-    question: "El contacto con los libros se describe como 'mágico' porque:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el contacto con los libros se describe como 'mágico' porque:",
     options: [
       { id: "a", text: "Los libros contienen hechizos reales" },
       { id: "b", text: "Permite ver y vivir cosas que están más allá de las páginas físicas" },
@@ -5116,15 +4922,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Los escritores son magos" },
     ],
     correct: "b",
-    explanation:
-      "El autor describe como mágico el proceso por el cual 'gracias al libro vemos cosas que están guardadas más allá de sus páginas, vivimos las navegaciones, los conflictos, los crímenes', transformando símbolos en experiencias vividas.",
+    explanation: "En la situacion descrita, el autor describe como mágico el proceso por el cual 'gracias al libro vemos cosas que están guardadas más allá de sus páginas, vivimos las navegaciones, los conflictos, los crímenes', transformando símbolos en experiencias vividas.",
     points: 5,
   },
   // La insoportable levedad del ser - Milan Kundera V2 (IDs 150-163)
   {
     id: 150,
     category: "Comprensión Lectora",
-    question: "Según Nietzsche citado en el texto, la idea del eterno retorno implica que:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, según Nietzsche citado en el texto, la idea del eterno retorno implica que:",
     options: [
       { id: "a", text: "Solo los buenos eventos se repiten" },
       { id: "b", text: "Todo lo vivido se repetirá exactamente igual infinitas veces" },
@@ -5132,14 +4937,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Solo se repiten los errores" },
     ],
     correct: "b",
-    explanation:
-      "El texto presenta el eterno retorno como la idea de que 'alguna vez haya de repetirse todo tal como lo hemos vivido ya, y que incluso esa repetición haya de repetirse hasta el infinito'.",
+    explanation: "En la situacion descrita, el texto presenta el eterno retorno como la idea de que 'alguna vez haya de repetirse todo tal como lo hemos vivido ya, y que incluso esa repetición haya de repetirse hasta el infinito'.",
     points: 5,
   },
   {
     id: 151,
     category: "Comprensión Lectora",
-    question: "Una vida sin retorno, según el texto, es:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, una vida sin retorno, según el texto, es:",
     options: [
       { id: "a", text: "Más valiosa porque es única" },
       { id: "b", text: "Como una sombra, carece de peso y está muerta de antemano" },
@@ -5147,14 +4951,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La única forma posible de existencia" },
     ],
     correct: "b",
-    explanation:
-      "El texto afirma que 'una vida que desaparece de una vez para siempre, que no retorna, es como una sombra, carece de peso, está muerta de antemano', indicando su falta de peso moral.",
+    explanation: "En la situacion descrita, el texto afirma que 'una vida que desaparece de una vez para siempre, que no retorna, es como una sombra, carece de peso, está muerta de antemano', indicando su falta de peso moral.",
     points: 5,
   },
   {
     id: 152,
     category: "Comprensión Lectora",
-    question: "El ejemplo de la guerra entre Estados africanos en el siglo catorce sirve para ilustrar:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el ejemplo de la guerra entre Estados africanos en el siglo catorce sirve para ilustrar:",
     options: [
       { id: "a", text: "La importancia de la historia africana" },
       { id: "b", text: "Que eventos sin retorno no tienen peso significativo aunque sean horribles" },
@@ -5162,14 +4965,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La superioridad de unas civilizaciones sobre otras" },
     ],
     correct: "b",
-    explanation:
-      "El autor usa este ejemplo para mostrar cómo eventos terribles que 'no cambiaron en nada la faz de la tierra' pierden significado por su carácter único e irrepetible, ilustrando la levedad de lo que no retorna.",
+    explanation: "En la situacion descrita, el autor usa este ejemplo para mostrar cómo eventos terribles que 'no cambiaron en nada la faz de la tierra' pierden significado por su carácter único e irrepetible, ilustrando la levedad de lo que no retorna.",
     points: 5,
   },
   {
     id: 153,
     category: "Comprensión Lectora",
-    question: "¿Qué diferencia hace el eterno retorno en la percepción de eventos?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué diferencia hace el eterno retorno en la percepción de eventos?",
     options: [
       { id: "a", text: "No hace ninguna diferencia" },
       { id: "b", text: "Los convierte en un bloque que perdura y su estupidez será irreparable" },
@@ -5177,14 +4979,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Los transforma en eventos positivos" },
     ],
     correct: "b",
-    explanation:
-      "El texto explica que con el eterno retorno, los eventos 'se convierten en un bloque que sobresale y perdura, y su estupidez será irreparable', adquiriendo un peso moral permanente.",
+    explanation: "En la situacion descrita, el texto explica que con el eterno retorno, los eventos 'se convierten en un bloque que sobresale y perdura, y su estupidez será irreparable', adquiriendo un peso moral permanente.",
     points: 5,
   },
   {
     id: 154,
     category: "Comprensión Lectora",
-    question: "La actitud de la historiografía francesa hacia Robespierre es posible porque:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la actitud de la historiografía francesa hacia Robespierre es posible porque:",
     options: [
       { id: "a", text: "Robespierre era un héroe" },
       { id: "b", text: "Los eventos no volverán a ocurrir, convirtiéndose en meras palabras sin peso" },
@@ -5192,14 +4993,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "No hubo víctimas reales" },
     ],
     correct: "b",
-    explanation:
-      "El texto explica que la historiografía puede estar orgullosa porque 'habla de algo que ya no volverá a ocurrir, los años sangrientos se convierten en meras palabras... se vuelven más ligeros que una pluma'.",
+    explanation: "En la situacion descrita, el texto explica que la historiografía puede estar orgullosa porque 'habla de algo que ya no volverá a ocurrir, los años sangrientos se convierten en meras palabras... se vuelven más ligeros que una pluma'.",
     points: 5,
   },
   {
     id: 155,
     category: "Comprensión Lectora",
-    question: "La 'circunstancia atenuante' de la fugacidad significa que:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la 'circunstancia atenuante' de la fugacidad significa que:",
     options: [
       { id: "a", text: "Todo es perdonable porque no se repetirá" },
       { id: "b", text: "Los eventos fugaces son más importantes" },
@@ -5207,14 +5007,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Solo lo permanente tiene valor" },
     ],
     correct: "a",
-    explanation:
-      "El texto indica que 'esta circunstancia atenuante es la que nos impide pronunciar condena alguna' porque lo fugaz, al no repetirse, pierde peso moral y es más fácil de perdonar u olvidar.",
+    explanation: "En la situacion descrita, el texto indica que 'esta circunstancia atenuante es la que nos impide pronunciar condena alguna' porque lo fugaz, al no repetirse, pierde peso moral y es más fácil de perdonar u olvidar.",
     points: 5,
   },
   {
     id: 156,
     category: "Comprensión Lectora",
-    question: "¿Qué provocó en el autor ver fotografías de Hitler?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué provocó en el autor ver fotografías de Hitler?",
     options: [
       { id: "a", text: "Solo horror y rechazo" },
       { id: "b", text: "Emoción nostálgica por su infancia, superando el horror de las atrocidades" },
@@ -5222,14 +5021,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Deseo de venganza" },
     ],
     correct: "b",
-    explanation:
-      "El autor confiesa que las fotos de Hitler le emocionaron porque 'me habían recordado el tiempo de mi infancia', y se pregunta '¿qué era su muerte [de parientes] en comparación con... un tiempo pasado que no volverá?'",
+    explanation: "En la situacion descrita, el autor confiesa que las fotos de Hitler le emocionaron porque 'me habían recordado el tiempo de mi infancia', y se pregunta '¿qué era su muerte [de parientes] en comparación con... un tiempo pasado que no volverá?'",
     points: 5,
   },
   {
     id: 157,
     category: "Comprensión Lectora",
-    question: "La 'reconciliación con Hitler' que menciona el autor demuestra:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la 'reconciliación con Hitler' que menciona el autor demuestra:",
     options: [
       { id: "a", text: "Que Hitler no era tan malo" },
       { id: "b", text: "La profunda perversión moral de un mundo sin retorno" },
@@ -5237,14 +5035,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La superioridad de la nostalgia sobre la justicia" },
     ],
     correct: "b",
-    explanation:
-      "El autor concluye que esta reconciliación 'demuestra la profunda perversión moral que va unida a un mundo basado esencialmente en la inexistencia del retorno, porque... todo está perdonado de antemano'.",
+    explanation: "En la situacion descrita, el autor concluye que esta reconciliación 'demuestra la profunda perversión moral que va unida a un mundo basado esencialmente en la inexistencia del retorno, porque... todo está perdonado de antemano'.",
     points: 5,
   },
   {
     id: 158,
     category: "Comprensión Lectora",
-    question: "En un mundo sin retorno, según el autor:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, en un mundo sin retorno, según el autor:",
     options: [
       { id: "a", text: "Existe justicia verdadera" },
       { id: "b", text: "Todo está perdonado de antemano y cínicamente permitido" },
@@ -5252,14 +5049,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La moral es más fuerte" },
     ],
     correct: "b",
-    explanation:
-      "El texto concluye afirmando que en un mundo sin retorno 'todo está perdonado de antemano y, por tanto, todo cínicamente permitido', señalando el colapso de la responsabilidad moral.",
+    explanation: "En la situacion descrita, el texto concluye afirmando que en un mundo sin retorno 'todo está perdonado de antemano y, por tanto, todo cínicamente permitido', señalando el colapso de la responsabilidad moral.",
     points: 5,
   },
   {
     id: 159,
     category: "Comprensión Lectora",
-    question: "La metáfora del 'crepúsculo de la desaparición' sugiere:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la metáfora del 'crepúsculo de la desaparición' sugiere:",
     options: [
       { id: "a", text: "El fin del día" },
       { id: "b", text: "Que la transitoriedad de todo embellece incluso lo horrible con nostalgia" },
@@ -5267,14 +5063,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "El inicio de algo nuevo" },
     ],
     correct: "b",
-    explanation:
-      "Esta metáfora indica que el carácter pasajero de los eventos 'lo baña todo con la magia de la nostalgia', suavizando nuestra percepción incluso de atrocidades como la guillotina.",
+    explanation: "En la situacion descrita, esta metáfora indica que el carácter pasajero de los eventos 'lo baña todo con la magia de la nostalgia', suavizando nuestra percepción incluso de atrocidades como la guillotina.",
     points: 5,
   },
   {
     id: 160,
     category: "Comprensión Lectora",
-    question: "¿Por qué Nietzsche dejó 'perplejos' a los demás filósofos?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Por qué Nietzsche dejó 'perplejos' a los demás filósofos?",
     options: [
       { id: "a", text: "Por su estilo de escritura complejo" },
       { id: "b", text: "Por proponer la idea radical del eterno retorno de lo mismo" },
@@ -5282,14 +5077,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Por su filosofía del superhombre" },
     ],
     correct: "b",
-    explanation:
-      "El texto indica que los filósofos quedaron perplejos ante la idea del eterno retorno: '¡pensar que alguna vez haya de repetirse todo... hasta el infinito! ¿Qué quiere decir ese mito demencial?'",
+    explanation: "En la situacion descrita, el texto indica que los filósofos quedaron perplejos ante la idea del eterno retorno: '¡pensar que alguna vez haya de repetirse todo... hasta el infinito! ¿Qué quiere decir ese mito demencial?'",
     points: 5,
   },
   {
     id: 161,
     category: "Comprensión Lectora",
-    question: "El tono del autor en los párrafos personales (6-7) es:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el tono del autor en los párrafos personales (6-7) es:",
     options: [
       { id: "a", text: "Objetivo y distante" },
       { id: "b", text: "Confesional y reflexivo" },
@@ -5297,14 +5091,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Optimista y celebratorio" },
     ],
     correct: "b",
-    explanation:
-      "En los párrafos finales, el autor adopta un tono confesional ('me sorprendí a mí mismo') y reflexivo, compartiendo una experiencia personal perturbadora para ilustrar sus argumentos filosóficos.",
+    explanation: "En la situacion descrita, en los párrafos finales, el autor adopta un tono confesional ('me sorprendí a mí mismo') y reflexivo, compartiendo una experiencia personal perturbadora para ilustrar sus argumentos filosóficos.",
     points: 5,
   },
   {
     id: 162,
     category: "Comprensión Lectora",
-    question: "¿Qué rol cumple el cuestionamiento '¿Cómo es posible condenar algo fugaz?'",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué rol cumple el cuestionamiento '¿Cómo es posible condenar algo fugaz?'",
     options: [
       { id: "a", text: "Es una pregunta retórica que expone la dificultad moral del no-retorno" },
       { id: "b", text: "Busca una respuesta concreta del lector" },
@@ -5312,14 +5105,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Defiende la fugacidad como virtud" },
     ],
     correct: "a",
-    explanation:
-      "Esta pregunta retórica ilustra el dilema moral central: la imposibilidad de juzgar severamente lo que no se repetirá, revelando la 'perversión moral' de un mundo sin retorno.",
+    explanation: "En la situacion descrita, esta pregunta retórica ilustra el dilema moral central: la imposibilidad de juzgar severamente lo que no se repetirá, revelando la 'perversión moral' de un mundo sin retorno.",
     points: 5,
   },
   {
     id: 163,
     category: "Comprensión Lectora",
-    question: "La expresión 'más ligeros que una pluma' se refiere a:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la expresión 'más ligeros que una pluma' se refiere a:",
     options: [
       { id: "a", text: "El peso físico de los objetos históricos" },
       { id: "b", text: "La pérdida de gravedad moral de eventos que no se repetirán" },
@@ -5327,15 +5119,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "La ligereza del aire en Francia" },
     ],
     correct: "b",
-    explanation:
-      "La metáfora describe cómo los eventos históricos, al no repetirse, 'se vuelven más ligeros que una pluma, no dan miedo', perdiendo su peso y gravedad moral.",
+    explanation: "En la situacion descrita, la metáfora describe cómo los eventos históricos, al no repetirse, 'se vuelven más ligeros que una pluma, no dan miedo', perdiendo su peso y gravedad moral.",
     points: 5,
   },
   // La llama doble - Octavio Paz V2 (IDs 164-173)
   {
     id: 164,
     category: "Comprensión Lectora",
-    question: "Según Paz, el erotismo se define como:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, según Paz, el erotismo se define como:",
     options: [
       { id: "a", text: "Sexualidad animal sin transformación" },
       { id: "b", text: "Ceremonia y representación, sexualidad transfigurada" },
@@ -5343,14 +5134,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La negación de la sexualidad" },
     ],
     correct: "b",
-    explanation:
-      "El texto define claramente que 'el erotismo no es mera sexualidad animal: es ceremonia, representación. El erotismo es sexualidad transfigurada: metáfora'.",
+    explanation: "En la situacion descrita, el texto define claramente que 'el erotismo no es mera sexualidad animal: es ceremonia, representación. El erotismo es sexualidad transfigurada: metáfora'.",
     points: 5,
   },
   {
     id: 165,
     category: "Comprensión Lectora",
-    question: "La 'oposición complementaria' entre erotismo y poesía significa que:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la 'oposición complementaria' entre erotismo y poesía significa que:",
     options: [
       { id: "a", text: "Son completamente diferentes y no se relacionan" },
       { id: "b", text: "Se oponen pero no se complementan" },
@@ -5358,14 +5148,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Son exactamente lo mismo" },
     ],
     correct: "c",
-    explanation:
-      "El concepto de 'oposición complementaria' indica que aunque erotismo (poética corporal) y poesía (erótica verbal) parecen opuestos, en realidad funcionan de manera análoga y se complementan en su operación.",
+    explanation: "En la situacion descrita, el concepto de 'oposición complementaria' indica que aunque erotismo (poética corporal) y poesía (erótica verbal) parecen opuestos, en realidad funcionan de manera análoga y se complementan en su operación.",
     points: 5,
   },
   {
     id: 166,
     category: "Comprensión Lectora",
-    question: "El lenguaje es definido como:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el lenguaje es definido como:",
     options: [
       { id: "a", text: "Solo sonidos sin significado" },
       { id: "b", text: "Sonido que emite sentidos, trazo material que denota ideas incorpóreas" },
@@ -5373,14 +5162,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Una herramienta puramente racional" },
     ],
     correct: "b",
-    explanation:
-      "Paz caracteriza el lenguaje como 'sonido que emite sentidos, trazo material que denota ideas incorpóreas', resaltando su doble naturaleza material-inmaterial.",
+    explanation: "En la situacion descrita, paz caracteriza el lenguaje como 'sonido que emite sentidos, trazo material que denota ideas incorpóreas', resaltando su doble naturaleza material-inmaterial.",
     points: 5,
   },
   {
     id: 167,
     category: "Comprensión Lectora",
-    question: "¿Qué capacidad tiene el lenguaje según el texto?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué capacidad tiene el lenguaje según el texto?",
     options: [
       { id: "a", text: "Solo expresar ideas abstractas" },
       { id: "b", text: "Dar nombre a lo más fugitivo y evanescente: la sensación" },
@@ -5388,14 +5176,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Expresar solo emociones" },
     ],
     correct: "b",
-    explanation:
-      "El texto destaca que el lenguaje 'es capaz de dar nombre a lo más fugitivo y evanescente: la sensación', subrayando su poder de capturar lo inefable.",
+    explanation: "En la situacion descrita, el texto destaca que el lenguaje 'es capaz de dar nombre a lo más fugitivo y evanescente: la sensación', subrayando su poder de capturar lo inefable.",
     points: 5,
   },
   {
     id: 168,
     category: "Comprensión Lectora",
-    question: "La imaginación, según Paz, actúa como:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la imaginación, según Paz, actúa como:",
     options: [
       { id: "a", text: "Un obstáculo para la sexualidad" },
       { id: "b", text: "El agente que transfigura tanto el sexo como el lenguaje" },
@@ -5403,14 +5190,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Un elemento secundario sin importancia" },
     ],
     correct: "b",
-    explanation:
-      "El autor afirma que 'El agente que mueve lo mismo al acto erótico que al poético es la imaginación. Es la potencia que transfigura al sexo en ceremonia y rito, al lenguaje en ritmo y metáfora'.",
+    explanation: "En la situacion descrita, el autor afirma que 'El agente que mueve lo mismo al acto erótico que al poético es la imaginación. Es la potencia que transfigura al sexo en ceremonia y rito, al lenguaje en ritmo y metáfora'.",
     points: 5,
   },
   {
     id: 169,
     category: "Comprensión Lectora",
-    question: "La afirmación 'la imagen poética es abrazo de realidades opuestas' significa que:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la afirmación 'la imagen poética es abrazo de realidades opuestas' significa que:",
     options: [
       { id: "a", text: "La poesía solo une cosas similares" },
       { id: "b", text: "La metáfora une elementos contrarios creando algo nuevo" },
@@ -5418,14 +5204,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Las realidades opuestas no pueden coexistir" },
     ],
     correct: "b",
-    explanation:
-      "Esta afirmación expresa que la imagen poética fusiona elementos opuestos, así como la rima es 'cópula de sonidos', creando unidad de los contrarios.",
+    explanation: "En la situacion descrita, esta afirmación expresa que la imagen poética fusiona elementos opuestos, así como la rima es 'cópula de sonidos', creando unidad de los contrarios.",
     points: 5,
   },
   {
     id: 170,
     category: "Comprensión Lectora",
-    question: "El ejemplo 'púrpura nevada' de Góngora ilustra que:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el ejemplo 'púrpura nevada' de Góngora ilustra que:",
     options: [
       { id: "a", text: "Góngora describía la nieve" },
       { id: "b", text: "La metáfora crea una realidad nueva más allá de sus componentes" },
@@ -5433,14 +5218,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La poesía es simple descripción" },
     ],
     correct: "b",
-    explanation:
-      "Paz usa este ejemplo para mostrar cómo la metáfora 'inventa o descubre una realidad que, aunque hecha de ambas, no es sangre ni nieve', sino algo completamente nuevo.",
+    explanation: "En la situacion descrita, paz usa este ejemplo para mostrar cómo la metáfora 'inventa o descubre una realidad que, aunque hecha de ambas, no es sangre ni nieve', sino algo completamente nuevo.",
     points: 5,
   },
   {
     id: 171,
     category: "Comprensión Lectora",
-    question: "¿Qué hace la poesía con el lenguaje y el mundo?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué hace la poesía con el lenguaje y el mundo?",
     options: [
       { id: "a", text: "Los describe objetivamente" },
       { id: "b", text: "Los erotiza" },
@@ -5448,14 +5232,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Los ignora" },
     ],
     correct: "b",
-    explanation:
-      "El texto afirma que 'la poesía erotiza al lenguaje y al mundo porque ella misma, en su modo de operación, es ya erotismo', estableciendo su naturaleza transformadora.",
+    explanation: "En la situacion descrita, el texto afirma que 'la poesía erotiza al lenguaje y al mundo porque ella misma, en su modo de operación, es ya erotismo', estableciendo su naturaleza transformadora.",
     points: 5,
   },
   {
     id: 172,
     category: "Comprensión Lectora",
-    question: "La rima es descrita como:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la rima es descrita como:",
     options: [
       { id: "a", text: "Simple repetición de sonidos" },
       { id: "b", text: "Cópula de sonidos" },
@@ -5463,14 +5246,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Decoración del poema" },
     ],
     correct: "b",
-    explanation:
-      "Paz usa un lenguaje erótico para describir la rima como 'cópula de sonidos', estableciendo paralelismo entre la operación poética y la erótica.",
+    explanation: "En la situacion descrita, paz usa un lenguaje erótico para describir la rima como 'cópula de sonidos', estableciendo paralelismo entre la operación poética y la erótica.",
     points: 5,
   },
   {
     id: 173,
     category: "Comprensión Lectora",
-    question: "La frase 'el erotismo es una metáfora de la sexualidad animal' implica que:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la frase 'el erotismo es una metáfora de la sexualidad animal' implica que:",
     options: [
       { id: "a", text: "El erotismo es idéntico a la sexualidad animal" },
       { id: "b", text: "El erotismo transforma la sexualidad en algo diferente y más elevado" },
@@ -5478,15 +5260,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "La sexualidad humana es inferior" },
     ],
     correct: "b",
-    explanation:
-      "Al definir el erotismo como 'metáfora' de la sexualidad animal, Paz indica que el erotismo 'es algo diferente a la mera sexualidad', transformándola en algo cultural y simbólico.",
+    explanation: "En la situacion descrita, al definir el erotismo como 'metáfora' de la sexualidad animal, Paz indica que el erotismo 'es algo diferente a la mera sexualidad', transformándola en algo cultural y simbólico.",
     points: 5,
   },
   // Boca que busca la boca - Juan Manuel Roca V2 (IDs 174-178)
   {
     id: 174,
     category: "Comprensión Lectora",
-    question: "El erotismo, según Roca, implica:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el erotismo, según Roca, implica:",
     options: [
       { id: "a", text: "Dominación de una parte sobre otra" },
       { id: "b", text: "Transgresión con acuerdo mutuo para crear libertad" },
@@ -5494,14 +5275,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Violencia entre las partes" },
     ],
     correct: "b",
-    explanation:
-      "El texto afirma que 'El erotismo llama a la transgresión, con un acuerdo entre las partes para crear un espacio de libertad', enfatizando el consenso y la liberación.",
+    explanation: "En la situacion descrita, el texto afirma que 'El erotismo llama a la transgresión, con un acuerdo entre las partes para crear un espacio de libertad', enfatizando el consenso y la liberación.",
     points: 5,
   },
   {
     id: 175,
     category: "Comprensión Lectora",
-    question: "En el encuentro erótico descrito por Roca, no hay:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, en el encuentro erótico descrito por Roca, no hay:",
     options: [
       { id: "a", text: "Ornamentos rituales" },
       { id: "b", text: "Confesión de deseos" },
@@ -5509,14 +5289,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Plegarias" },
     ],
     correct: "c",
-    explanation:
-      "El texto establece claramente que en este espacio de libertad erótica 'no hay víctimas ni victimarios sino un despojo de potestades', subrayando la igualdad y el consenso.",
+    explanation: "En la situacion descrita, el texto establece claramente que en este espacio de libertad erótica 'no hay víctimas ni victimarios sino un despojo de potestades', subrayando la igualdad y el consenso.",
     points: 5,
   },
   {
     id: 176,
     category: "Comprensión Lectora",
-    question: "Los 'ornamentos rituales' del erotismo incluyen todas las siguientes metáforas religiosas, EXCEPTO:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, los 'ornamentos rituales' del erotismo incluyen todas las siguientes metáforas religiosas, EXCEPTO:",
     options: [
       { id: "a", text: "La boca es cáliz" },
       { id: "b", text: "El olor es incienso" },
@@ -5524,14 +5303,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "El cuerpo es sacrificio" },
     ],
     correct: "d",
-    explanation:
-      "El texto menciona la boca como cáliz, el olor como incienso, y las palabras como claves del Paraíso, pero no presenta el cuerpo como sacrificio, lo cual contradiría la idea de placer mutuo.",
+    explanation: "En la situacion descrita, el texto menciona la boca como cáliz, el olor como incienso, y las palabras como claves del Paraíso, pero no presenta el cuerpo como sacrificio, lo cual contradiría la idea de placer mutuo.",
     points: 5,
   },
   {
     id: 177,
     category: "Comprensión Lectora",
-    question: "La metáfora del 'pequeño jardín que conduce al Paraíso' sugiere:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la metáfora del 'pequeño jardín que conduce al Paraíso' sugiere:",
     options: [
       { id: "a", text: "Un jardín real" },
       { id: "b", text: "El espacio erótico como acceso a un estado de plenitud o éxtasis" },
@@ -5539,14 +5317,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Un parque público" },
     ],
     correct: "b",
-    explanation:
-      "Esta metáfora presenta el encuentro erótico como un camino hacia una experiencia trascendente, usando el lenguaje religioso del Paraíso para expresar el éxtasis erótico.",
+    explanation: "En la situacion descrita, esta metáfora presenta el encuentro erótico como un camino hacia una experiencia trascendente, usando el lenguaje religioso del Paraíso para expresar el éxtasis erótico.",
     points: 5,
   },
   {
     id: 178,
     category: "Comprensión Lectora",
-    question: "El uso del término cristiano 'confesión' para describir la expresión de deseos sugiere:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el uso del término cristiano 'confesión' para describir la expresión de deseos sugiere:",
     options: [
       { id: "a", text: "Que el erotismo es pecaminoso" },
       { id: "b", text: "La sacralización del encuentro erótico mediante lenguaje religioso" },
@@ -5554,15 +5331,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "El rechazo de la religión" },
     ],
     correct: "b",
-    explanation:
-      "Roca utiliza conscientemente terminología religiosa ('confesión', 'absueltos', 'cáliz', 'incienso', 'plegarias') para elevar el erotismo a una dimensión sagrada o ritual.",
+    explanation: "En la situacion descrita, roca utiliza conscientemente terminología religiosa ('confesión', 'absueltos', 'cáliz', 'incienso', 'plegarias') para elevar el erotismo a una dimensión sagrada o ritual.",
     points: 5,
   },
   // Delirio - Laura Restrepo V2 (IDs 179-188)
   {
     id: 179,
     category: "Comprensión Lectora",
-    question: "¿Cuánto tiempo duró el viaje de Aguilar?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuánto tiempo duró el viaje de Aguilar?",
     options: [
       { id: "a", text: "Una semana" },
       { id: "b", text: "Dos semanas" },
@@ -5570,14 +5346,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Un mes" },
     ],
     correct: "c",
-    explanation:
-      "El texto menciona explícitamente que fue 'un viaje corto, sólo cuatro días por cosas de trabajo'.",
+    explanation: "En la situacion descrita, el texto menciona explícitamente que fue 'un viaje corto, sólo cuatro días por cosas de trabajo'.",
     points: 5,
   },
   {
     id: 180,
     category: "Comprensión Lectora",
-    question: "¿Qué estaba haciendo Agustina cuando Aguilar se fue de viaje?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué estaba haciendo Agustina cuando Aguilar se fue de viaje?",
     options: [
       { id: "a", text: "Leyendo un libro" },
       { id: "b", text: "Pintando de verde las paredes del apartamento" },
@@ -5585,14 +5360,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Trabajando en su oficina" },
     ],
     correct: "b",
-    explanation:
-      "Aguilar recuerda que cuando se fue 'la dejó pintando de verde las paredes del apartamento', indicando que ella estaba realizando actividades normales.",
+    explanation: "En la situacion descrita, aguilar recuerda que cuando se fue 'la dejó pintando de verde las paredes del apartamento', indicando que ella estaba realizando actividades normales.",
     points: 5,
   },
   {
     id: 181,
     category: "Comprensión Lectora",
-    question: "¿Dónde encontró Aguilar a su esposa al regresar?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Dónde encontró Aguilar a su esposa al regresar?",
     options: [
       { id: "a", text: "En su apartamento" },
       { id: "b", text: "En casa de sus padres" },
@@ -5600,14 +5374,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "En un hospital" },
     ],
     correct: "c",
-    explanation:
-      "El texto indica que 'la encontré en un hotel, al norte de la ciudad, transformada en un ser aterrado y aterrador'.",
+    explanation: "En la situacion descrita, el texto indica que 'la encontré en un hotel, al norte de la ciudad, transformada en un ser aterrado y aterrador'.",
     points: 5,
   },
   {
     id: 182,
     category: "Comprensión Lectora",
-    question: "¿Cuánto tiempo lleva Aguilar buscando a Agustina (mentalmente)?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuánto tiempo lleva Aguilar buscando a Agustina (mentalmente)?",
     options: [
       { id: "a", text: "Cuatro días" },
       { id: "b", text: "Una semana" },
@@ -5615,14 +5388,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Un mes" },
     ],
     correct: "c",
-    explanation:
-      "Aguilar afirma: 'hace ya catorce días que la ando buscando y me va la vida en encontrarla', refiriéndose a su búsqueda de la Agustina que conocía dentro de su mente alterada.",
+    explanation: "En la situacion descrita, aguilar afirma: 'hace ya catorce días que la ando buscando y me va la vida en encontrarla', refiriéndose a su búsqueda de la Agustina que conocía dentro de su mente alterada.",
     points: 5,
   },
   {
     id: 183,
     category: "Comprensión Lectora",
-    question: "La actitud de Aguilar hacia las premoniciones de Agustina era:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la actitud de Aguilar hacia las premoniciones de Agustina era:",
     options: [
       { id: "a", text: "De total creencia y respeto" },
       { id: "b", text: "De incredulidad, siempre las pasaba por alto" },
@@ -5630,14 +5402,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "De indiferencia total" },
     ],
     correct: "b",
-    explanation:
-      "El texto indica que Aguilar 'como siempre, pasó por alto su pronóstico' y menciona su intento de 'hacerla entrar en razón', mostrando su escepticismo sistemático.",
+    explanation: "En la situacion descrita, el texto indica que Aguilar 'como siempre, pasó por alto su pronóstico' y menciona su intento de 'hacerla entrar en razón', mostrando su escepticismo sistemático.",
     points: 5,
   },
   {
     id: 184,
     category: "Comprensión Lectora",
-    question: "¿Cómo reacciona Agustina cuando Aguilar le pregunta qué pasó?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cómo reacciona Agustina cuando Aguilar le pregunta qué pasó?",
     options: [
       { id: "a", text: "Le explica todo con calma" },
       { id: "b", text: "Lo insulta" },
@@ -5645,14 +5416,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Permanece en silencio" },
     ],
     correct: "b",
-    explanation:
-      "Aguilar afirma: 'No he podido saber qué le sucedió durante mi ausencia porque si se lo pregunto me insulta', mostrando la hostilidad de su respuesta.",
+    explanation: "En la situacion descrita, aguilar afirma: 'No he podido saber qué le sucedió durante mi ausencia porque si se lo pregunto me insulta', mostrando la hostilidad de su respuesta.",
     points: 5,
   },
   {
     id: 185,
     category: "Comprensión Lectora",
-    question: "La metáfora 'Agustina habitara en un plano paralelo al real' significa que:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la metáfora 'Agustina habitara en un plano paralelo al real' significa que:",
     options: [
       { id: "a", text: "Agustina vive en otro país" },
       { id: "b", text: "Su realidad mental está separada pero cercana a la realidad compartida" },
@@ -5660,14 +5430,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Agustina vive en el pasado" },
     ],
     correct: "b",
-    explanation:
-      "Esta metáfora expresa que Agustina existe en una realidad mental propia 'cercana pero inabordable', accesible para ella pero inaccesible para Aguilar.",
+    explanation: "En la situacion descrita, esta metáfora expresa que Agustina existe en una realidad mental propia 'cercana pero inabordable', accesible para ella pero inaccesible para Aguilar.",
     points: 5,
   },
   {
     id: 186,
     category: "Comprensión Lectora",
-    question: "La comparación con 'una lengua extranjera que Aguilar vagamente reconoce pero que no logra comprender' se refiere a:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la comparación con 'una lengua extranjera que Aguilar vagamente reconoce pero que no logra comprender' se refiere a:",
     options: [
       { id: "a", text: "Que Agustina habla otro idioma" },
       { id: "b", text: "La comunicación incomprensible de Agustina en su estado mental alterado" },
@@ -5675,14 +5444,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Las diferencias culturales entre ellos" },
     ],
     correct: "b",
-    explanation:
-      "La metáfora expresa la incapacidad de Aguilar para entender a Agustina: sus palabras y comportamiento son familiares pero incomprensibles en su nuevo estado mental.",
+    explanation: "En la situacion descrita, la metáfora expresa la incapacidad de Aguilar para entender a Agustina: sus palabras y comportamiento son familiares pero incomprensibles en su nuevo estado mental.",
     points: 5,
   },
   {
     id: 187,
     category: "Comprensión Lectora",
-    question: "La triple comparación con el perro (famélico, malherido, vagabundo) progresa para mostrar:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la triple comparación con el perro (famélico, malherido, vagabundo) progresa para mostrar:",
     options: [
       { id: "a", text: "Que Agustina es violenta" },
       { id: "b", text: "El deterioro progresivo: de querer volver a casa a olvidar que tuvo una" },
@@ -5690,14 +5458,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Que Agustina necesita comida" },
     ],
     correct: "b",
-    explanation:
-      "Las tres imágenes muestran una progresión: primero un perro que quiere volver pero no puede, luego uno que ni siquiera recuerda haber tenido casa, ilustrando el empeoramiento del estado de Agustina.",
+    explanation: "En la situacion descrita, las tres imágenes muestran una progresión: primero un perro que quiere volver pero no puede, luego uno que ni siquiera recuerda haber tenido casa, ilustrando el empeoramiento del estado de Agustina.",
     points: 5,
   },
   {
     id: 188,
     category: "Comprensión Lectora",
-    question: "El narrador describe la situación como:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el narrador describe la situación como:",
     options: [
       { id: "a", text: "Fácil de resolver" },
       { id: "b", text: "Angustiosa a morir y jodidamente difícil" },
@@ -5705,15 +5472,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Divertida y ligera" },
     ],
     correct: "b",
-    explanation:
-      "Aguilar caracteriza explícitamente la situación como 'angustiosa a morir y jodidamente difícil', usando lenguaje coloquial para expresar su desesperación extrema.",
+    explanation: "En la situacion descrita, aguilar caracteriza explícitamente la situación como 'angustiosa a morir y jodidamente difícil', usando lenguaje coloquial para expresar su desesperación extrema.",
     points: 5,
   },
   // La loca de la casa - Rosa Montero V2 (IDs 189-198)
   {
     id: 189,
     category: "Comprensión Lectora",
-    question: "Las fantasías del escritor pueden ser:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, las fantasías del escritor pueden ser:",
     options: [
       { id: "a", text: "Solo perezosas" },
       { id: "b", text: "Solo agitadas" },
@@ -5721,14 +5487,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Ni perezosas ni agitadas" },
     ],
     correct: "c",
-    explanation:
-      "El texto caracteriza las fantasías como 'a veces perezosas como las lentas ensoñaciones de una siesta estival, a veces agitadas y enfebrecidas como el delirio de un loco'.",
+    explanation: "En la situacion descrita, el texto caracteriza las fantasías como 'a veces perezosas como las lentas ensoñaciones de una siesta estival, a veces agitadas y enfebrecidas como el delirio de un loco'.",
     points: 5,
   },
   {
     id: 190,
     category: "Comprensión Lectora",
-    question: "¿Cómo describe la autora el funcionamiento de la mente del novelista?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cómo describe la autora el funcionamiento de la mente del novelista?",
     options: [
       { id: "a", text: "Está completamente bajo control consciente" },
       { id: "b", text: "Marcha por sí sola, poseída por compulsión fabuladora" },
@@ -5736,14 +5501,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Solo funciona cuando escribe" },
     ],
     correct: "b",
-    explanation:
-      "La autora afirma que 'La cabeza del novelista marcha por sí sola; está poseída por una suerte de compulsión fabuladora', indicando su carácter automático e involuntario.",
+    explanation: "En la situacion descrita, la autora afirma que 'La cabeza del novelista marcha por sí sola; está poseída por una suerte de compulsión fabuladora', indicando su carácter automático e involuntario.",
     points: 5,
   },
   {
     id: 191,
     category: "Comprensión Lectora",
-    question: "El ejemplo de la noticia de Argelia sirve para ilustrar:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el ejemplo de la noticia de Argelia sirve para ilustrar:",
     options: [
       { id: "a", text: "La violencia en África" },
       { id: "b", text: "El aspecto negativo de la imaginación descontrolada" },
@@ -5751,14 +5515,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La indiferencia del novelista" },
     ],
     correct: "b",
-    explanation:
-      "Este ejemplo muestra el lado oscuro de la compulsión fabuladora: 'no puedes evitar que la maldita fantasía se te dispare, recreando... la horripilante escena hasta en sus detalles más insoportables'.",
+    explanation: "En la situacion descrita, este ejemplo muestra el lado oscuro de la compulsión fabuladora: 'no puedes evitar que la maldita fantasía se te dispare, recreando... la horripilante escena hasta en sus detalles más insoportables'.",
     points: 5,
   },
   {
     id: 192,
     category: "Comprensión Lectora",
-    question: "El ejemplo del puente de troncos demuestra que:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el ejemplo del puente de troncos demuestra que:",
     options: [
       { id: "a", text: "La autora tiene miedo a las alturas" },
       { id: "b", text: "Imaginar un accidente aumenta la probabilidad de que ocurra" },
@@ -5766,14 +5529,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La imaginación es siempre positiva" },
     ],
     correct: "b",
-    explanation:
-      "El texto explica que 'una vez imaginada la tontería con todos sus pormenores... resulta bastante difícil no cumplirla', sugiriendo que la visualización detallada puede facilitar su ocurrencia.",
+    explanation: "En la situacion descrita, el texto explica que 'una vez imaginada la tontería con todos sus pormenores... resulta bastante difícil no cumplirla', sugiriendo que la visualización detallada puede facilitar su ocurrencia.",
     points: 5,
   },
   {
     id: 193,
     category: "Comprensión Lectora",
-    question: "¿Qué implica la frase 'a lo mejor lees un día en el periódico'?",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿Qué implica la frase 'a lo mejor lees un día en el periódico'?",
     options: [
       { id: "a", text: "Es una situación única" },
       { id: "b", text: "Es un ejemplo hipotético que ilustra algo recurrente" },
@@ -5781,14 +5543,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Es una recomendación" },
     ],
     correct: "b",
-    explanation:
-      "La expresión 'a lo mejor' introduce un ejemplo hipotético representativo de lo que sucede regularmente con la imaginación del novelista ante estímulos externos.",
+    explanation: "En la situacion descrita, la expresión 'a lo mejor' introduce un ejemplo hipotético representativo de lo que sucede regularmente con la imaginación del novelista ante estímulos externos.",
     points: 5,
   },
   {
     id: 194,
     category: "Comprensión Lectora",
-    question: "Los detalles sensoriales que imagina (gritos, salpicaduras, olor, chasquido) demuestran:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, los detalles sensoriales que imagina (gritos, salpicaduras, olor, chasquido) demuestran:",
     options: [
       { id: "a", text: "Que la autora es violenta" },
       { id: "b", text: "La intensidad y especificidad involuntaria de la imaginación del novelista" },
@@ -5796,14 +5557,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Su falta de empatía" },
     ],
     correct: "b",
-    explanation:
-      "La acumulación de detalles sensoriales específicos ilustra cómo la imaginación del novelista funciona automática y vívidamente, 'recreando... hasta en sus detalles más insoportables'.",
+    explanation: "En la situacion descrita, la acumulación de detalles sensoriales específicos ilustra cómo la imaginación del novelista funciona automática y vívidamente, 'recreando... hasta en sus detalles más insoportables'.",
     points: 5,
   },
   {
     id: 195,
     category: "Comprensión Lectora",
-    question: "La referencia al 'descoloque espacial que produce toda caída' muestra:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la referencia al 'descoloque espacial que produce toda caída' muestra:",
     options: [
       { id: "a", text: "Conocimiento físico abstracto" },
       { id: "b", text: "Experiencia corporal vivida o imaginada con precisión" },
@@ -5811,14 +5571,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Teorías filosóficas sobre el espacio" },
     ],
     correct: "b",
-    explanation:
-      "Este detalle específico sobre la desorientación espacial revela conocimiento experiencial o imaginativo profundo del fenómeno de caer, característico de la mente fabuladora.",
+    explanation: "En la situacion descrita, este detalle específico sobre la desorientación espacial revela conocimiento experiencial o imaginativo profundo del fenómeno de caer, característico de la mente fabuladora.",
     points: 5,
   },
   {
     id: 196,
     category: "Comprensión Lectora",
-    question: "La 'enojosa tendencia a despanzurrarme' resulta de:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la 'enojosa tendencia a despanzurrarme' resulta de:",
     options: [
       { id: "a", text: "Falta de coordinación física" },
       { id: "b", text: "La profecía autocumplida de imaginar la caída detalladamente" },
@@ -5826,14 +5585,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La mala suerte" },
     ],
     correct: "b",
-    explanation:
-      "La autora establece una relación causal: después de imaginar la caída con todos sus detalles, 'resulta bastante difícil no cumplirla', convirtiéndose en profecía autocumplida.",
+    explanation: "En la situacion descrita, la autora establece una relación causal: después de imaginar la caída con todos sus detalles, 'resulta bastante difícil no cumplirla', convirtiéndose en profecía autocumplida.",
     points: 5,
   },
   {
     id: 197,
     category: "Comprensión Lectora",
-    question: "El adjetivo 'patosamente' en 'bracear en el aire patosamente' connota:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, el adjetivo 'patosamente' en 'bracear en el aire patosamente' connota:",
     options: [
       { id: "a", text: "Elegancia y gracia" },
       { id: "b", text: "Falta de control y torpeza, añadiendo humillación a la caída" },
@@ -5841,14 +5599,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Indiferencia ante la situación" },
     ],
     correct: "b",
-    explanation:
-      "'Patosamente' connota torpeza y falta de dignidad, amplificando la humillación ('oprobio') de la caída imaginada, lo que ilustra cómo la imaginación no se detiene en lo básico sino que añade detalles mortificantes.",
+    explanation: "En la situacion descrita, 'Patosamente' connota torpeza y falta de dignidad, amplificando la humillación ('oprobio') de la caída imaginada, lo que ilustra cómo la imaginación no se detiene en lo básico sino que añade detalles mortificantes.",
     points: 5,
   },
   {
     id: 198,
     category: "Comprensión Lectora",
-    question: "La estructura 'Por ejemplo... O bien...' sirve para:",
+    question: "Situacion\n\nUn profesional de la Secretaria de Educacion participa en un taller sobre comprension lectora para mejorar sus habilidades de analisis de textos tecnicos y documentos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, la estructura 'Por ejemplo... O bien...' sirve para:",
     options: [
       { id: "a", text: "Confundir al lector" },
       { id: "b", text: "Presentar dos ejemplos contrastantes de la compulsión fabuladora" },
@@ -5856,8 +5613,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Concluir el argumento" },
     ],
     correct: "b",
-    explanation:
-      "Esta estructura presenta dos ejemplos contrastantes: uno trágico (Argelia) y otro ridículo (el puente), ilustrando cómo la compulsión fabuladora opera en diferentes registros, siempre siendo simultáneamente don y castigo.",
+    explanation: "En la situacion descrita, esta estructura presenta dos ejemplos contrastantes: uno trágico (Argelia) y otro ridículo (el puente), ilustrando cómo la compulsión fabuladora opera en diferentes registros, siempre siendo simultáneamente don y castigo.",
     points: 5,
   },
   // UNIDAD 3: Construcción de textos y ortografía - VERSIÓN 2 (Preguntas diferentes 254-308)
@@ -5865,7 +5621,7 @@ const questionsV2: Question[] = [
   {
     id: 254,
     category: "Construcción de textos y ortografía",
-    question: "El fragmento de Rosa Montero corresponde a un texto:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, el fragmento de Rosa Montero corresponde a un texto:",
     readingId: "lectura-montero",
     options: [
       { id: "a", text: "Expositivo-informativo" },
@@ -5874,14 +5630,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Instructivo-prescriptivo" },
     ],
     correct: "b",
-    explanation:
-      "El texto es argumentativo-reflexivo porque desarrolla una reflexión sobre escribir, presentando una tesis y sustentándola con ejemplos que ilustran el don y castigo de la compulsión fabuladora.",
+    explanation: "En la situacion descrita, el texto es argumentativo-reflexivo porque desarrolla una reflexión sobre escribir, presentando una tesis y sustentándola con ejemplos que ilustran el don y castigo de la compulsión fabuladora.",
     points: 5,
   },
   {
     id: 255,
     category: "Construcción de textos y ortografía",
-    question: "La organización discursiva del texto de Montero sigue el esquema:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, la organización discursiva del texto de Montero sigue el esquema:",
     readingId: "lectura-montero",
     options: [
       { id: "a", text: "Problema-solución-evaluación" },
@@ -5890,14 +5645,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Cronológico-narrativo-reflexivo" },
     ],
     correct: "b",
-    explanation:
-      "El texto plantea una tesis inicial sobre la naturaleza de escribir, la desarrolla mediante ejemplos concretos (la noticia de Argelia, el puente), y cierra con una conclusión reflexiva sobre sus consecuencias personales.",
+    explanation: "En la situacion descrita, el texto plantea una tesis inicial sobre la naturaleza de escribir, la desarrolla mediante ejemplos concretos (la noticia de Argelia, el puente), y cierra con una conclusión reflexiva sobre sus consecuencias personales.",
     points: 5,
   },
   {
     id: 256,
     category: "Construcción de textos y ortografía",
-    question: "En la expresión 'perezosas como las lentas ensoñaciones de una siesta estival', la autora utiliza:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en la expresión 'perezosas como las lentas ensoñaciones de una siesta estival', la autora utiliza:",
     readingId: "lectura-montero",
     options: [
       { id: "a", text: "Una comparación implícita (metáfora)" },
@@ -5906,14 +5660,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Una atribución de cualidades humanas (personificación)" },
     ],
     correct: "b",
-    explanation:
-      "Es un símil o comparación explícita porque establece una relación de semejanza directa entre las fantasías y las ensoñaciones mediante el nexo comparativo 'como'.",
+    explanation: "En la situacion descrita, es un símil o comparación explícita porque establece una relación de semejanza directa entre las fantasías y las ensoñaciones mediante el nexo comparativo 'como'.",
     points: 5,
   },
   {
     id: 257,
     category: "Construcción de textos y ortografía",
-    question: "La oración que contiene la idea principal del fragmento es:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, la oración que contiene la idea principal del fragmento es:",
     readingId: "lectura-montero",
     options: [
       { id: "a", text: "La oración inicial que define el acto de escribir como habitar fantasías" },
@@ -5922,14 +5675,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La conclusión sobre la tendencia a caerse en los riachuelos" },
     ],
     correct: "a",
-    explanation:
-      "La idea principal se expresa en la primera oración del texto, que establece la tesis fundamental: escribir es estar habitado por fantasías. Todo lo demás funciona como desarrollo, ejemplificación o consecuencia de esta idea central.",
+    explanation: "En la situacion descrita, la idea principal se expresa en la primera oración del texto, que establece la tesis fundamental: escribir es estar habitado por fantasías. Todo lo demás funciona como desarrollo, ejemplificación o consecuencia de esta idea central.",
     points: 5,
   },
   {
     id: 258,
     category: "Construcción de textos y ortografía",
-    question: "El término 'compulsión fabuladora' hace referencia a:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, el término 'compulsión fabuladora' hace referencia a:",
     readingId: "lectura-montero",
     options: [
       { id: "a", text: "Un trastorno psicológico que afecta a los escritores" },
@@ -5938,14 +5690,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "El fenómeno involuntario de imaginar constantemente" },
     ],
     correct: "d",
-    explanation:
-      "La 'compulsión fabuladora' describe el fenómeno involuntario e incontrolable por el cual la mente del novelista genera constantemente imágenes y escenas narrativas, sin que pueda evitarlo.",
+    explanation: "En la situacion descrita, la 'compulsión fabuladora' describe el fenómeno involuntario e incontrolable por el cual la mente del novelista genera constantemente imágenes y escenas narrativas, sin que pueda evitarlo.",
     points: 5,
   },
   {
     id: 259,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál es el sinónimo de 'oprobio'?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál es el sinónimo de 'oprobio'?",
     readingId: "lectura-montero",
     options: [
       { id: "a", text: "Vergüenza" },
@@ -5954,14 +5705,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Indiferencia" },
     ],
     correct: "a",
-    explanation:
-      "Oprobio significa deshonra o vergüenza pública. En el contexto, se refiere a la humillación de caerse al río.",
+    explanation: "En la situacion descrita, oprobio significa deshonra o vergüenza pública. En el contexto, se refiere a la humillación de caerse al río.",
     points: 5,
   },
   {
     id: 260,
     category: "Construcción de textos y ortografía",
-    question: "El extranjerismo 'voilà' es un:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, el extranjerismo 'voilà' es un:",
     readingId: "lectura-montero",
     options: [
       { id: "a", text: "Anglicismo" },
@@ -5970,14 +5720,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Galicismo" },
     ],
     correct: "d",
-    explanation:
-      "Voilà es una expresión francesa que se usa para enfatizar algo que acaba de ser revelado o demostrado. Los extranjerismos del francés se llaman galicismos.",
+    explanation: "En la situacion descrita, voilà es una expresión francesa que se usa para enfatizar algo que acaba de ser revelado o demostrado. Los extranjerismos del francés se llaman galicismos.",
     points: 5,
   },
   {
     id: 261,
     category: "Construcción de textos y ortografía",
-    question: "La palabra 'chasquido' es un ejemplo de:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, la palabra 'chasquido' es un ejemplo de:",
     readingId: "lectura-montero",
     options: [
       { id: "a", text: "Metáfora" },
@@ -5986,14 +5735,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Sinécdoque" },
     ],
     correct: "b",
-    explanation:
-      "Chasquido es una onomatopeya, una palabra que imita el sonido que representa, en este caso el sonido de los huesos al quebrarse.",
+    explanation: "En la situacion descrita, chasquido es una onomatopeya, una palabra que imita el sonido que representa, en este caso el sonido de los huesos al quebrarse.",
     points: 5,
   },
   {
     id: 262,
     category: "Construcción de textos y ortografía",
-    question: "'A veces es un don y en otras ocasiones es un castigo' se refiere a:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, 'A veces es un don y en otras ocasiones es un castigo' se refiere a:",
     readingId: "lectura-montero",
     options: [
       { id: "a", text: "La forma en que la cabeza del novelista marcha por sí sola" },
@@ -6002,14 +5750,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La caída al río" },
     ],
     correct: "a",
-    explanation:
-      "Se refiere a la compulsión fabuladora que posee la cabeza del novelista, que puede ser un don (al crear historias) o un castigo (al imaginar escenas horribles o ridículas).",
+    explanation: "En la situacion descrita, se refiere a la compulsión fabuladora que posee la cabeza del novelista, que puede ser un don (al crear historias) o un castigo (al imaginar escenas horribles o ridículas).",
     points: 5,
   },
   {
     id: 263,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál opción NO es un ejemplo de cómo marcha la cabeza?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál opción NO es un ejemplo de cómo marcha la cabeza?",
     readingId: "lectura-montero",
     options: [
       { id: "a", text: "Recrear una noticia atroz sobre niños descuartizados" },
@@ -6018,15 +5765,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Ensoñaciones de una siesta estival" },
     ],
     correct: "c",
-    explanation:
-      "Esta opción es la afirmación general sobre la compulsión fabuladora, no un ejemplo concreto de cómo funciona. Los otros son ejemplos específicos.",
+    explanation: "En la situacion descrita, esta opción es la afirmación general sobre la compulsión fabuladora, no un ejemplo concreto de cómo funciona. Los otros son ejemplos específicos.",
     points: 5,
   },
   // Módulo 2: Poemas y gramática (Preguntas 209-223)
   {
     id: 264,
     category: "Construcción de textos y ortografía",
-    question: "Las palabras agudas del poema 'Ahora escribo pájaros' son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, las palabras agudas del poema 'Ahora escribo pájaros' son:",
     readingId: "poema-pajaros-cortazar",
     options: [
       { id: "a", text: "Ahora, venir, amor" },
@@ -6035,14 +5781,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Página, alambres, solamente" },
     ],
     correct: "b",
-    explanation:
-      "Las palabras agudas son aquellas cuya sílaba tónica es la última. Están, pan y ahí son agudas (llevan tilde las terminadas en n, s o vocal).",
+    explanation: "En la situacion descrita, las palabras agudas son aquellas cuya sílaba tónica es la última. Están, pan y ahí son agudas (llevan tilde las terminadas en n, s o vocal).",
     points: 5,
   },
   {
     id: 265,
     category: "Construcción de textos y ortografía",
-    question: "En el poema 'Ratoncito, pelusa...', ¿cuáles palabras NO son graves?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en el poema 'Ratoncito, pelusa...', ¿cuáles palabras NO son graves?",
     readingId: "poema-ratoncito-cortazar",
     options: [
       { id: "a", text: "Pelusa, barco, musgo" },
@@ -6051,14 +5796,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Zapallo, alguien, guardan" },
     ],
     correct: "c",
-    explanation:
-      "Definición y bandoneón son agudas, diáspora es esdrújula. Las palabras graves tienen la sílaba tónica en la penúltima posición.",
+    explanation: "En la situacion descrita, definición y bandoneón son agudas, diáspora es esdrújula. Las palabras graves tienen la sílaba tónica en la penúltima posición.",
     points: 5,
   },
   {
     id: 266,
     category: "Construcción de textos y ortografía",
-    question: "Las palabras esdrújulas del poema 'La lenta máquina del desamor' son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, las palabras esdrújulas del poema 'La lenta máquina del desamor' son:",
     readingId: "poema-desamor-cortazar",
     options: [
       { id: "a", text: "Desamor, reflujo, espejo" },
@@ -6067,14 +5811,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Engranajes, abandonan, cuerpos" },
     ],
     correct: "c",
-    explanation:
-      "Las palabras esdrújulas llevan la sílaba tónica en la antepenúltima posición y siempre se acentúan: má-qui-na, in-te-rro-gán-do-se, sá-ba-nas.",
+    explanation: "En la situacion descrita, las palabras esdrújulas llevan la sílaba tónica en la antepenúltima posición y siempre se acentúan: má-qui-na, in-te-rro-gán-do-se, sá-ba-nas.",
     points: 5,
   },
   {
     id: 267,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál palabra está escrita correctamente?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál palabra está escrita correctamente?",
     readingId: "ortografia-general",
     options: [
       { id: "a", text: "Óvalo" },
@@ -6083,14 +5826,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Guión" },
     ],
     correct: "a",
-    explanation:
-      "Óvalo es esdrújula y se acentúa correctamente. Pan y arado son graves sin tilde, y guion es monosílabo según las nuevas reglas ortográficas.",
+    explanation: "En la situacion descrita, óvalo es esdrújula y se acentúa correctamente. Pan y arado son graves sin tilde, y guion es monosílabo según las nuevas reglas ortográficas.",
     points: 5,
   },
   {
     id: 268,
     category: "Construcción de textos y ortografía",
-    question: "Complete: 'Miró hacia la ___ y me dijo: ___ tráigame la ___ para hacer un postre'",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, complete: 'Miró hacia la ___ y me dijo: ___ tráigame la ___ para hacer un postre'",
     readingId: "ortografia-general",
     options: [
       { id: "a", text: "Vaya, valla, baya" },
@@ -6099,14 +5841,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Valla, vaya, baya" },
     ],
     correct: "d",
-    explanation:
-      "Valla (cerca), vaya (del verbo ir), baya (fruto). La secuencia correcta responde al contexto de cada frase.",
+    explanation: "En la situacion descrita, valla (cerca), vaya (del verbo ir), baya (fruto). La secuencia correcta responde al contexto de cada frase.",
     points: 5,
   },
   {
     id: 269,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál lista NO contiene sustantivos abstractos?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál lista NO contiene sustantivos abstractos?",
     readingId: "ortografia-general",
     options: [
       { id: "a", text: "Amor, tristeza, belleza" },
@@ -6115,14 +5856,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Alegría, esperanza, bondad" },
     ],
     correct: "c",
-    explanation:
-      "Morada, silueta y riachuelo son sustantivos concretos (se pueden percibir por los sentidos). Los sustantivos abstractos son cualidades o conceptos no tangibles.",
+    explanation: "En la situacion descrita, morada, silueta y riachuelo son sustantivos concretos (se pueden percibir por los sentidos). Los sustantivos abstractos son cualidades o conceptos no tangibles.",
     points: 5,
   },
   {
     id: 270,
     category: "Construcción de textos y ortografía",
-    question: "En '¿Quién viene caminando esta mañana por la plaza? Es ella, él y algunos más', los pronombres personales son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en '¿Quién viene caminando esta mañana por la plaza? Es ella, él y algunos más', los pronombres personales son:",
     readingId: "ortografia-general",
     options: [
       { id: "a", text: "Ella, él, algunos" },
@@ -6131,14 +5871,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Quién, ella, él" },
     ],
     correct: "a",
-    explanation:
-      "Los pronombres personales son ella, él y algunos (que funciona como pronombre indefinido con función de sujeto). 'Quién' es pronombre interrogativo.",
+    explanation: "En la situacion descrita, los pronombres personales son ella, él y algunos (que funciona como pronombre indefinido con función de sujeto). 'Quién' es pronombre interrogativo.",
     points: 5,
   },
   {
     id: 271,
     category: "Construcción de textos y ortografía",
-    question: "En 'Su madre dijo que la verdad era suya, mía y vuestra', los pronombres posesivos son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'Su madre dijo que la verdad era suya, mía y vuestra', los pronombres posesivos son:",
     readingId: "ortografia-general",
     options: [
       { id: "a", text: "Su, suya, mía" },
@@ -6147,14 +5886,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Su, la, que" },
     ],
     correct: "c",
-    explanation:
-      "Los pronombres posesivos tónicos son suya, mía y vuestra. 'Su' es adjetivo posesivo átono que acompaña al sustantivo 'madre'.",
+    explanation: "En la situacion descrita, los pronombres posesivos tónicos son suya, mía y vuestra. 'Su' es adjetivo posesivo átono que acompaña al sustantivo 'madre'.",
     points: 5,
   },
   {
     id: 272,
     category: "Construcción de textos y ortografía",
-    question: "Las funciones de los adjetivos son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, las funciones de los adjetivos son:",
     readingId: "ortografia-general",
     options: [
       { id: "a", text: "Sustituir y modificar" },
@@ -6163,14 +5901,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Conectar y relacionar" },
     ],
     correct: "b",
-    explanation:
-      "Los adjetivos califican (atribuyen cualidades: casa grande) y determinan (especifican o delimitan: esta casa, dos casas).",
+    explanation: "En la situacion descrita, los adjetivos califican (atribuyen cualidades: casa grande) y determinan (especifican o delimitan: esta casa, dos casas).",
     points: 5,
   },
   {
     id: 273,
     category: "Construcción de textos y ortografía",
-    question: "En cuál oración 'este' funciona como adjetivo demostrativo:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en cuál oración 'este' funciona como adjetivo demostrativo:",
     readingId: "ortografia-general",
     options: [
       { id: "a", text: "Este es mi amigo" },
@@ -6179,14 +5916,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Este encantamiento pareciera durar una eternidad" },
     ],
     correct: "d",
-    explanation:
-      "En 'd' funciona como adjetivo demostrativo porque acompaña al sustantivo 'encantamiento'. En las otras opciones funciona como pronombre.",
+    explanation: "En la situacion descrita, en 'd' funciona como adjetivo demostrativo porque acompaña al sustantivo 'encantamiento'. En las otras opciones funciona como pronombre.",
     points: 5,
   },
   {
     id: 274,
     category: "Construcción de textos y ortografía",
-    question: "Las palabras que son verbos en el poema 'El mal del siglo' son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, las palabras que son verbos en el poema 'El mal del siglo' son:",
     readingId: "poema-mal-siglo-silva",
     options: [
       { id: "a", text: "Desaliento, cansancio, desprecio" },
@@ -6195,14 +5931,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Íntimo, absoluto, profundo" },
     ],
     correct: "c",
-    explanation:
-      "Aumenta, arraiga y nace son verbos en presente. Las opciones a y d son sustantivos y adjetivos respectivamente, y b son sustantivos.",
+    explanation: "En la situacion descrita, aumenta, arraiga y nace son verbos en presente. Las opciones a y d son sustantivos y adjetivos respectivamente, y b son sustantivos.",
     points: 5,
   },
   {
     id: 275,
     category: "Construcción de textos y ortografía",
-    question: "Los pronombres enclíticos en el poema 'El mal del siglo' están en:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, los pronombres enclíticos en el poema 'El mal del siglo' están en:",
     readingId: "poema-mal-siglo-silva",
     options: [
       { id: "a", text: "Báñese, cuídese" },
@@ -6211,14 +5946,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Torturas, análisis" },
     ],
     correct: "a",
-    explanation:
-      "Los pronombres enclíticos son aquellos que se unen al final del verbo formando una sola palabra: báñese (bañe + se), cuídese (cuide + se).",
+    explanation: "En la situacion descrita, los pronombres enclíticos son aquellos que se unen al final del verbo formando una sola palabra: báñese (bañe + se), cuídese (cuide + se).",
     points: 5,
   },
   {
     id: 276,
     category: "Construcción de textos y ortografía",
-    question: "Los deícticos personales en el poema 'Verdor' son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, los deícticos personales en el poema 'Verdor' son:",
     readingId: "poema-verdor-restrepo",
     options: [
       { id: "a", text: "Esta, aquí, allí" },
@@ -6227,14 +5961,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Casa, pisadas, gamos" },
     ],
     correct: "c",
-    explanation:
-      "Los deícticos personales señalan personas: alguien (indeterminado), nadie (negativo), él (tercera persona). Los deícticos de 'a' son espaciales y temporales.",
+    explanation: "En la situacion descrita, los deícticos personales señalan personas: alguien (indeterminado), nadie (negativo), él (tercera persona). Los deícticos de 'a' son espaciales y temporales.",
     points: 5,
   },
   {
     id: 277,
     category: "Construcción de textos y ortografía",
-    question: "Los deícticos espaciales en el poema 'Verdor' son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, los deícticos espaciales en el poema 'Verdor' son:",
     readingId: "poema-verdor-restrepo",
     options: [
       { id: "a", text: "Aquí, allí, cerca" },
@@ -6243,14 +5976,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Animal, casa, bosque" },
     ],
     correct: "a",
-    explanation:
-      "Los deícticos espaciales señalan lugares: aquí (proximidad al hablante), allí (lejanía), cerca (proximidad relativa). 'Mañana' es temporal, 'alguien' es personal.",
+    explanation: "En la situacion descrita, los deícticos espaciales señalan lugares: aquí (proximidad al hablante), allí (lejanía), cerca (proximidad relativa). 'Mañana' es temporal, 'alguien' es personal.",
     points: 5,
   },
   {
     id: 278,
     category: "Construcción de textos y ortografía",
-    question: "Los deícticos temporales del poema de Ángel González son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, los deícticos temporales del poema de Ángel González son:",
     readingId: "poema-futuro-gonzalez",
     options: [
       { id: "a", text: "Aquí, allí, cerca" },
@@ -6259,15 +5991,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Ayer, hoy, mañana" },
     ],
     correct: "d",
-    explanation:
-      "Los deícticos temporales señalan el tiempo: ayer (pasado), hoy (presente), mañana (futuro). Son los ejes temporales básicos de la deixis.",
+    explanation: "En la situacion descrita, los deícticos temporales señalan el tiempo: ayer (pasado), hoy (presente), mañana (futuro). Son los ejes temporales básicos de la deixis.",
     points: 5,
   },
   // Módulo 3: Estructura de oraciones (Preguntas 224-238)
   {
     id: 279,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál NO es una oración?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál NO es una oración?",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "El sol brilla intensamente" },
@@ -6276,14 +6007,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "¡Qué día tan hermoso!" },
     ],
     correct: "b",
-    explanation:
-      "Una oración debe tener al menos un verbo conjugado. 'El bello rinoceronte' es solo una frase nominal sin verbo.",
+    explanation: "En la situacion descrita, una oración debe tener al menos un verbo conjugado. 'El bello rinoceronte' es solo una frase nominal sin verbo.",
     points: 5,
   },
   {
     id: 280,
     category: "Construcción de textos y ortografía",
-    question: "En 'El portero de la empresa grande tuvo un conflicto ayer', el sujeto es:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'El portero de la empresa grande tuvo un conflicto ayer', el sujeto es:",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "El portero" },
@@ -6292,14 +6022,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Un conflicto" },
     ],
     correct: "c",
-    explanation:
-      "El sujeto completo es 'El portero de la empresa grande'. Incluye el núcleo (portero) y su modificador (de la empresa grande).",
+    explanation: "En la situacion descrita, el sujeto completo es 'El portero de la empresa grande'. Incluye el núcleo (portero) y su modificador (de la empresa grande).",
     points: 5,
   },
   {
     id: 281,
     category: "Construcción de textos y ortografía",
-    question: "En 'Viniste en aquel crucero', el sujeto es:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'Viniste en aquel crucero', el sujeto es:",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "Aquel crucero" },
@@ -6308,14 +6037,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "No tiene sujeto" },
     ],
     correct: "b",
-    explanation:
-      "El sujeto está implícito en la conjugación del verbo 'viniste' (segunda persona singular: tú). Es un sujeto tácito o elíptico.",
+    explanation: "En la situacion descrita, el sujeto está implícito en la conjugación del verbo 'viniste' (segunda persona singular: tú). Es un sujeto tácito o elíptico.",
     points: 5,
   },
   {
     id: 282,
     category: "Construcción de textos y ortografía",
-    question: "En 'Juan, Tomás y Julio, mis mejores amigos, fueron a viajar al extranjero', los núcleos del sujeto son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'Juan, Tomás y Julio, mis mejores amigos, fueron a viajar al extranjero', los núcleos del sujeto son:",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "Amigos" },
@@ -6324,14 +6052,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Juan y amigos" },
     ],
     correct: "c",
-    explanation:
-      "Es un sujeto compuesto con tres núcleos: Juan, Tomás y Julio. 'Mis mejores amigos' es una aposición explicativa.",
+    explanation: "En la situacion descrita, es un sujeto compuesto con tres núcleos: Juan, Tomás y Julio. 'Mis mejores amigos' es una aposición explicativa.",
     points: 5,
   },
   {
     id: 283,
     category: "Construcción de textos y ortografía",
-    question: "En 'La música alimenta y llena el espíritu', el predicado es:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'La música alimenta y llena el espíritu', el predicado es:",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "Alimenta y llena el espíritu" },
@@ -6340,14 +6067,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La música alimenta" },
     ],
     correct: "a",
-    explanation:
-      "El predicado es todo lo que se dice del sujeto: 'alimenta y llena el espíritu'. Incluye los verbos y el complemento directo.",
+    explanation: "En la situacion descrita, el predicado es todo lo que se dice del sujeto: 'alimenta y llena el espíritu'. Incluye los verbos y el complemento directo.",
     points: 5,
   },
   {
     id: 284,
     category: "Construcción de textos y ortografía",
-    question: "En 'Ellas están en la casa de Julián', el tipo de predicado es:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'Ellas están en la casa de Julián', el tipo de predicado es:",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "Predicado nominal" },
@@ -6356,14 +6082,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "No tiene predicado" },
     ],
     correct: "b",
-    explanation:
-      "Es predicado verbal porque el verbo principal 'estar' funciona aquí como verbo pleno indicando ubicación, no como copulativo.",
+    explanation: "En la situacion descrita, es predicado verbal porque el verbo principal 'estar' funciona aquí como verbo pleno indicando ubicación, no como copulativo.",
     points: 5,
   },
   {
     id: 285,
     category: "Construcción de textos y ortografía",
-    question: "En 'Los niños y las niñas jugaron y cantaron durante la jornada recreativa', los núcleos del predicado son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'Los niños y las niñas jugaron y cantaron durante la jornada recreativa', los núcleos del predicado son:",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "Jugaron" },
@@ -6372,14 +6097,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Niños y niñas" },
     ],
     correct: "b",
-    explanation:
-      "Es un predicado compuesto con dos núcleos verbales: jugaron y cantaron. Ambos verbos son acciones realizadas por el sujeto.",
+    explanation: "En la situacion descrita, es un predicado compuesto con dos núcleos verbales: jugaron y cantaron. Ambos verbos son acciones realizadas por el sujeto.",
     points: 5,
   },
   {
     id: 286,
     category: "Construcción de textos y ortografía",
-    question: "En 'El psicólogo entregó una remisión al psiquiatra', el CD y CI son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'El psicólogo entregó una remisión al psiquiatra', el CD y CI son:",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "CD: psicólogo, CI: psiquiatra" },
@@ -6388,14 +6112,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "CD: entregó, CI: psicólogo" },
     ],
     correct: "c",
-    explanation:
-      "El complemento directo responde a '¿qué entregó?' = una remisión. El complemento indirecto responde a '¿a quién?' = al psiquiatra.",
+    explanation: "En la situacion descrita, el complemento directo responde a '¿qué entregó?' = una remisión. El complemento indirecto responde a '¿a quién?' = al psiquiatra.",
     points: 5,
   },
   {
     id: 287,
     category: "Construcción de textos y ortografía",
-    question: "En 'Camila tuvo un accidente ayer en la mañana', el CD y CC son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'Camila tuvo un accidente ayer en la mañana', el CD y CC son:",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "CD: accidente, CC: ayer en la mañana" },
@@ -6404,14 +6127,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "CD: ayer, CC: mañana" },
     ],
     correct: "a",
-    explanation:
-      "El complemento directo es 'un accidente' (¿qué tuvo?). El complemento circunstancial de tiempo es 'ayer en la mañana' (¿cuándo?).",
+    explanation: "En la situacion descrita, el complemento directo es 'un accidente' (¿qué tuvo?). El complemento circunstancial de tiempo es 'ayer en la mañana' (¿cuándo?).",
     points: 5,
   },
   {
     id: 288,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál oración es desiderativa (expresa deseo)?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál oración es desiderativa (expresa deseo)?",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "¿Vendrás mañana?" },
@@ -6420,14 +6142,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Cierra la puerta" },
     ],
     correct: "b",
-    explanation:
-      "La oración desiderativa expresa un deseo o voluntad. 'No quiero estar...' expresa claramente un deseo. Las otras son interrogativa, exclamativa e imperativa.",
+    explanation: "En la situacion descrita, la oración desiderativa expresa un deseo o voluntad. 'No quiero estar...' expresa claramente un deseo. Las otras son interrogativa, exclamativa e imperativa.",
     points: 5,
   },
   {
     id: 289,
     category: "Construcción de textos y ortografía",
-    question: "En cuál oración 'la' NO es artículo:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en cuál oración 'la' NO es artículo:",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "La había llamado ayer" },
@@ -6436,14 +6157,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "La música es bella" },
     ],
     correct: "a",
-    explanation:
-      "En 'La había llamado ayer', 'la' es un pronombre de complemento directo (= a ella). En las otras opciones funciona como artículo determinado.",
+    explanation: "En la situacion descrita, en 'La había llamado ayer', 'la' es un pronombre de complemento directo (= a ella). En las otras opciones funciona como artículo determinado.",
     points: 5,
   },
   {
     id: 290,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál lista NO contiene sustantivos?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál lista NO contiene sustantivos?",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "Casa, árbol, perro" },
@@ -6452,14 +6172,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "María, Bogotá, Amazonas" },
     ],
     correct: "c",
-    explanation:
-      "Verde, feo e interesante son adjetivos calificativos. Las demás listas contienen sustantivos concretos (a), abstractos (b) y propios (d).",
+    explanation: "En la situacion descrita, verde, feo e interesante son adjetivos calificativos. Las demás listas contienen sustantivos concretos (a), abstractos (b) y propios (d).",
     points: 5,
   },
   {
     id: 291,
     category: "Construcción de textos y ortografía",
-    question: "Para nombrar una cualidad de un sustantivo se utiliza:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, para nombrar una cualidad de un sustantivo se utiliza:",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "Adjetivo" },
@@ -6468,14 +6187,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Preposición" },
     ],
     correct: "a",
-    explanation:
-      "El adjetivo es la categoría gramatical que expresa cualidades, propiedades o características de los sustantivos (ej: casa grande, día hermoso).",
+    explanation: "En la situacion descrita, el adjetivo es la categoría gramatical que expresa cualidades, propiedades o características de los sustantivos (ej: casa grande, día hermoso).",
     points: 5,
   },
   {
     id: 292,
     category: "Construcción de textos y ortografía",
-    question: "Las palabras que son adjetivos son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, las palabras que son adjetivos son:",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "Correr, saltar, nadar" },
@@ -6484,14 +6202,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Rápidamente, bien, mal" },
     ],
     correct: "c",
-    explanation:
-      "Ágil, atentos y rígidas son adjetivos calificativos que expresan cualidades. La opción 'a' son verbos, 'b' sustantivos y 'd' adverbios.",
+    explanation: "En la situacion descrita, ágil, atentos y rígidas son adjetivos calificativos que expresan cualidades. La opción 'a' son verbos, 'b' sustantivos y 'd' adverbios.",
     points: 5,
   },
   {
     id: 293,
     category: "Construcción de textos y ortografía",
-    question: "En 'Ella se comió la torta que dejó aquella que vino esta mañana. Su sabor era rico, pero le gustó más la que le daba su madre', los pronombres son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'Ella se comió la torta que dejó aquella que vino esta mañana. Su sabor era rico, pero le gustó más la que le daba su madre', los pronombres son:",
     readingId: "estructura-oraciones",
     options: [
       { id: "a", text: "Aquella, se, le" },
@@ -6500,15 +6217,14 @@ const questionsV2: Question[] = [
       { id: "d", text: "Que, su, era" },
     ],
     correct: "a",
-    explanation:
-      "Aquella (pronombre demostrativo), se (pronombre reflexivo), le (pronombre de complemento indirecto). 'Ella' es pronombre personal sujeto también, pero la opción más completa es 'a'.",
+    explanation: "En la situacion descrita, aquella (pronombre demostrativo), se (pronombre reflexivo), le (pronombre de complemento indirecto). 'Ella' es pronombre personal sujeto también, pero la opción más completa es 'a'.",
     points: 5,
   },
   // Módulo 4: Textos y ortografía (Preguntas 239-253)
   {
     id: 294,
     category: "Construcción de textos y ortografía",
-    question: "Los verbos en el poema 'Verdor' son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, los verbos en el poema 'Verdor' son:",
     readingId: "poema-verdor-restrepo",
     options: [
       { id: "a", text: "Pisadas, casa, mañana" },
@@ -6517,14 +6233,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Arrimaría, salta, está" },
     ],
     correct: "d",
-    explanation:
-      "Arrimaría (condicional), salta (presente) y está (presente) son verbos conjugados. Las otras opciones son sustantivos y adjetivos.",
+    explanation: "En la situacion descrita, arrimaría (condicional), salta (presente) y está (presente) son verbos conjugados. Las otras opciones son sustantivos y adjetivos.",
     points: 5,
   },
   {
     id: 295,
     category: "Construcción de textos y ortografía",
-    question: "Los adverbios en el poema 'Verdor' son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, los adverbios en el poema 'Verdor' son:",
     readingId: "poema-verdor-restrepo",
     options: [
       { id: "a", text: "Aquí, cerca, allí" },
@@ -6533,14 +6248,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Salvaje, fresco, violento" },
     ],
     correct: "a",
-    explanation:
-      "Aquí, cerca y allí son adverbios de lugar. Aunque 'mañana' puede ser adverbio de tiempo, en el poema funciona como sustantivo ('esta mañana').",
+    explanation: "En la situacion descrita, aquí, cerca y allí son adverbios de lugar. Aunque 'mañana' puede ser adverbio de tiempo, en el poema funciona como sustantivo ('esta mañana').",
     points: 5,
   },
   {
     id: 296,
     category: "Construcción de textos y ortografía",
-    question: "En el relato 'Zapato Zapata', 'clandestinidad urbana' está formada por:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en el relato 'Zapato Zapata', 'clandestinidad urbana' está formada por:",
     readingId: "relato-zapato-juliao",
     options: [
       { id: "a", text: "Verbo y adverbio" },
@@ -6549,14 +6263,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Dos sustantivos" },
     ],
     correct: "b",
-    explanation:
-      "Clandestinidad es un sustantivo abstracto y urbana es un adjetivo calificativo que lo modifica. Forman una construcción nominal.",
+    explanation: "En la situacion descrita, clandestinidad es un sustantivo abstracto y urbana es un adjetivo calificativo que lo modifica. Forman una construcción nominal.",
     points: 5,
   },
   {
     id: 297,
     category: "Construcción de textos y ortografía",
-    question: "En 'pidiendo a zapatos, chanclas, sandalias, zuecos, pantuflas, tenis y botas', la categoría gramatical predominante es:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'pidiendo a zapatos, chanclas, sandalias, zuecos, pantuflas, tenis y botas', la categoría gramatical predominante es:",
     readingId: "relato-zapato-juliao",
     options: [
       { id: "a", text: "Verbo" },
@@ -6565,14 +6278,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Sustantivo" },
     ],
     correct: "d",
-    explanation:
-      "Todos los elementos enumerados (zapatos, chanclas, sandalias, zuecos, pantuflas, tenis, botas) son sustantivos concretos que nombran tipos de calzado.",
+    explanation: "En la situacion descrita, todos los elementos enumerados (zapatos, chanclas, sandalias, zuecos, pantuflas, tenis, botas) son sustantivos concretos que nombran tipos de calzado.",
     points: 5,
   },
   {
     id: 298,
     category: "Construcción de textos y ortografía",
-    question: "En 'se viera forzada a poner los pies en la tierra', 'forzada' funciona como:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en 'se viera forzada a poner los pies en la tierra', 'forzada' funciona como:",
     readingId: "relato-zapato-juliao",
     options: [
       { id: "a", text: "Sustantivo" },
@@ -6581,14 +6293,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Adverbio de modo" },
     ],
     correct: "c",
-    explanation:
-      "En esta construcción pasiva refleja, 'forzada' funciona como adjetivo atributivo que complementa al verbo 'viera' (se viera forzada = estuviera forzada).",
+    explanation: "En la situacion descrita, en esta construcción pasiva refleja, 'forzada' funciona como adjetivo atributivo que complementa al verbo 'viera' (se viera forzada = estuviera forzada).",
     points: 5,
   },
   {
     id: 299,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál palabra tiene acento prosódico (no lleva tilde)?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál palabra tiene acento prosódico (no lleva tilde)?",
     readingId: "ortografia-acentuacion",
     options: [
       { id: "a", text: "Eléctrico" },
@@ -6597,14 +6308,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Estético" },
     ],
     correct: "c",
-    explanation:
-      "Conciso tiene acento prosódico en la penúltima sílaba (con-CI-so) pero no lleva tilde porque es palabra grave terminada en vocal. Las demás llevan tilde.",
+    explanation: "En la situacion descrita, conciso tiene acento prosódico en la penúltima sílaba (con-CI-so) pero no lleva tilde porque es palabra grave terminada en vocal. Las demás llevan tilde.",
     points: 5,
   },
   {
     id: 300,
     category: "Construcción de textos y ortografía",
-    question: "En cuál oración 'se' NO lleva tilde:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en cuál oración 'se' NO lleva tilde:",
     readingId: "ortografia-acentuacion",
     options: [
       { id: "a", text: "Yo sé que vendrás" },
@@ -6613,14 +6323,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Se dirigió a mí" },
     ],
     correct: "d",
-    explanation:
-      "'Se' en esta oración es pronombre reflexivo y no lleva tilde. Las otras opciones tienen palabras que sí llevan tilde diacrítica: sé (verbo), dé (verbo), sí (afirmación).",
+    explanation: "En la situacion descrita, 'Se' en esta oración es pronombre reflexivo y no lleva tilde. Las otras opciones tienen palabras que sí llevan tilde diacrítica: sé (verbo), dé (verbo), sí (afirmación).",
     points: 5,
   },
   {
     id: 301,
     category: "Construcción de textos y ortografía",
-    question: "Las palabras agudas del fragmento de 'Cien años de soledad' son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, las palabras agudas del fragmento de 'Cien años de soledad' son:",
     readingId: "cien-años-garcia-marquez",
     options: [
       { id: "a", text: "Después, coronel, llevó" },
@@ -6629,14 +6338,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Macondo, aldea, casas" },
     ],
     correct: "a",
-    explanation:
-      "Después, coronel y llevó son palabras agudas (acento en la última sílaba). Llevan tilde por terminar en 's', 'l' y vocal respectivamente.",
+    explanation: "En la situacion descrita, después, coronel y llevó son palabras agudas (acento en la última sílaba). Llevan tilde por terminar en 's', 'l' y vocal respectivamente.",
     points: 5,
   },
   {
     id: 302,
     category: "Construcción de textos y ortografía",
-    question: "En el relato 'Ya era tiempo', ¿cuál opción contiene palabras agudas?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, en el relato 'Ya era tiempo', ¿cuál opción contiene palabras agudas?",
     readingId: "relato-ya-era-tiempo-juliao",
     options: [
       { id: "a", text: "Nadie, relojería, aspiraciones" },
@@ -6645,14 +6353,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Andes, alarma, mañana" },
     ],
     correct: "b",
-    explanation:
-      "Llegar, más, aquel y reloj son agudas (acento en última sílaba). Las palabras agudas llevan tilde cuando terminan en n, s o vocal.",
+    explanation: "En la situacion descrita, llegar, más, aquel y reloj son agudas (acento en última sílaba). Las palabras agudas llevan tilde cuando terminan en n, s o vocal.",
     points: 5,
   },
   {
     id: 303,
     category: "Construcción de textos y ortografía",
-    question: "Las palabras esdrújulas del relato 'Entre lápices' son:",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, las palabras esdrújulas del relato 'Entre lápices' son:",
     readingId: "relato-entre-lapices-juliao",
     options: [
       { id: "a", text: "Exportación, conversaban" },
@@ -6661,14 +6368,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Latina, tierra, lejana" },
     ],
     correct: "c",
-    explanation:
-      "Fábrica y lápices son esdrújulas (acento en antepenúltima sílaba). Todas las palabras esdrújulas llevan tilde obligatoriamente.",
+    explanation: "En la situacion descrita, fábrica y lápices son esdrújulas (acento en antepenúltima sílaba). Todas las palabras esdrújulas llevan tilde obligatoriamente.",
     points: 5,
   },
   {
     id: 304,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál oración tiene uso incorrecto de la coma?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál oración tiene uso incorrecto de la coma?",
     readingId: "puntuacion-ortografia-final",
     options: [
       { id: "a", text: "María, la hermana de Juan, llegó temprano" },
@@ -6677,14 +6383,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Cuando llegues, avísame" },
     ],
     correct: "c",
-    explanation:
-      "Falta una coma después de 'madre' para delimitar correctamente la aposición: 'Mi madre, mujer amorosa, odia las injusticias'. Las aposiciones explicativas van entre comas.",
+    explanation: "En la situacion descrita, falta una coma después de 'madre' para delimitar correctamente la aposición: 'Mi madre, mujer amorosa, odia las injusticias'. Las aposiciones explicativas van entre comas.",
     points: 5,
   },
   {
     id: 305,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál oración usa correctamente el punto seguido?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál oración usa correctamente el punto seguido?",
     readingId: "puntuacion-ortografia-final",
     options: [
       { id: "a", text: "Recibí un correo. Era de mi mejor amiga" },
@@ -6693,14 +6398,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Recibí un correo; era de mi mejor amiga" },
     ],
     correct: "a",
-    explanation:
-      "El punto seguido separa correctamente dos oraciones independientes pero relacionadas temáticamente dentro del mismo párrafo.",
+    explanation: "En la situacion descrita, el punto seguido separa correctamente dos oraciones independientes pero relacionadas temáticamente dentro del mismo párrafo.",
     points: 5,
   },
   {
     id: 306,
     category: "Construcción de textos y ortografía",
-    question: "Complete: 'Ella no habla nunca del ___ de su tristeza. Calla ___ debe aprender sola. ¿___ habría de decir lo que piensa?'",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, complete: 'Ella no habla nunca del ___ de su tristeza. Calla ___ debe aprender sola. ¿___ habría de decir lo que piensa?'",
     readingId: "puntuacion-ortografia-final",
     options: [
       { id: "a", text: "Porque, porqué, por qué" },
@@ -6709,14 +6413,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Porque, por qué, porqué" },
     ],
     correct: "b",
-    explanation:
-      "Porqué (sustantivo = la causa), porque (conjunción causal), por qué (interrogativo). Secuencia: el porqué / calla porque / ¿por qué habría?",
+    explanation: "En la situacion descrita, porqué (sustantivo = la causa), porque (conjunción causal), por qué (interrogativo). Secuencia: el porqué / calla porque / ¿por qué habría?",
     points: 5,
   },
   {
     id: 307,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál palabra está escrita correctamente?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál palabra está escrita correctamente?",
     readingId: "puntuacion-ortografia-final",
     options: [
       { id: "a", text: "Inospitalario" },
@@ -6725,14 +6428,13 @@ const questionsV2: Question[] = [
       { id: "d", text: "Arbol" },
     ],
     correct: "c",
-    explanation:
-      "Inútil es correcta. Las incorrectas: Inhospitalario (no 'inospitalario'), Aprendizaje (sin tilde, es grave), Árbol (lleva tilde, es grave terminada en l).",
+    explanation: "En la situacion descrita, inútil es correcta. Las incorrectas: Inhospitalario (no 'inospitalario'), Aprendizaje (sin tilde, es grave), Árbol (lleva tilde, es grave terminada en l).",
     points: 5,
   },
   {
     id: 308,
     category: "Construcción de textos y ortografía",
-    question: "¿Cuál palabra está mal escrita?",
+    question: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia participa en una evaluacion donde debe analizar textos y responder preguntas basadas en comprension lectora.\n\nPregunta\n\nCon base en la situacion descrita, ¿Cuál palabra está mal escrita?",
     readingId: "puntuacion-ortografia-final",
     options: [
       { id: "a", text: "Exhuberante" },
@@ -6741,8 +6443,7 @@ const questionsV2: Question[] = [
       { id: "d", text: "Todas las anteriores" },
     ],
     correct: "d",
-    explanation:
-      "Todas están mal: Exuberante (sin h), Búho (no lleva tilde, es grave terminada en vocal), Hábito (con h y con tilde). La opción correcta es 'd'.",
+    explanation: "En la situacion descrita, todas están mal: Exuberante (sin h), Búho (no lleva tilde, es grave terminada en vocal), Hábito (con h y con tilde). La opción correcta es 'd'.",
     points: 5,
   },
 ]
@@ -6964,7 +6665,7 @@ export function RazonamientoTest() {
                           {question.points} pts
                         </span>
                       </div>
-                      <CardTitle className="text-lg font-semibold leading-relaxed text-balance">
+                      <CardTitle className="text-lg font-semibold leading-relaxed text-balance whitespace-pre-line">
                         {question.question}
                       </CardTitle>
                     </CardHeader>
@@ -7062,7 +6763,7 @@ export function RazonamientoTest() {
                       </p>
                     </div>
                   )}
-                  <CardTitle className="text-lg font-semibold leading-relaxed text-balance">
+                  <CardTitle className="text-lg font-semibold leading-relaxed text-balance whitespace-pre-line">
                     {question.question}
                   </CardTitle>
                 </CardHeader>

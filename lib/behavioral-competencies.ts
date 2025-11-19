@@ -33,7 +33,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "adaptacion-cambio-v2-1",
-        text: "Lectura: En la Secretaría de Movilidad se anunció una reestructuración que obliga a modificar procesos y roles. ¿Cuál es el rol principal del servidor público frente a los cambios organizacionales según el Decreto 815?",
+        text: "Situacion\n\nEn la Secretaria de Movilidad se anuncio una reestructuracion que obliga a modificar procesos y roles. Los funcionarios deben adaptarse rapidamente a las nuevas directrices mientras continuan prestando el servicio a la ciudadania.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual es el rol principal del servidor publico frente a los cambios organizacionales segun el Decreto 815?",
         options: [
           { value: "a", label: "Mantener las prácticas anteriores hasta recibir capacitación formal completa." },
           { value: "b", label: "Facilitar la transición apoyando activamente la implementación de nuevas formas de trabajo." },
@@ -49,7 +49,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "adaptacion-cambio-v2-2",
-        text: "Lectura: En la Secretaría de Movilidad se anunció una reestructuración que obliga a modificar procesos y roles. Cuando un equipo manifiesta resistencia ante un cambio institucional, el servidor debe:",
+        text: "Situacion\n\nEn la Secretaria de Movilidad se anuncio una reestructuracion que obliga a modificar procesos y roles. Varios miembros del equipo expresan abiertamente su inconformidad con los nuevos procedimientos y algunos se niegan a participar en las reuniones de transicion.\n\nPregunta\n\nCon base en la situacion descrita, cuando un equipo manifiesta resistencia ante un cambio institucional, el servidor debe:",
         options: [
           { value: "a", label: "Reportar inmediatamente la resistencia y solicitar medidas disciplinarias." },
           { value: "b", label: "Acompañar al equipo, escuchar sus inquietudes y promover una integración constructiva del cambio." },
@@ -65,7 +65,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "adaptacion-cambio-v2-3",
-        text: "Lectura: En la Secretaría de Movilidad se anunció una reestructuración que obliga a modificar procesos y roles. La respuesta flexible ante situaciones nuevas significa:",
+        text: "Situacion\n\nEn la Secretaria de Movilidad de la Gobernacion de Antioquia se anuncio una reestructuracion administrativa que obliga a modificar procesos operativos y redefinir roles. Los funcionarios deben ajustarse rapidamente a las nuevas directrices mientras mantienen la continuidad del servicio.\n\nPregunta\n\nCon base en la situacion descrita, ¿que significa tener una respuesta flexible ante situaciones nuevas?",
         options: [
           { value: "a", label: "Ajustar comportamientos y métodos de trabajo para alinearse con las nuevas condiciones institucionales." },
           { value: "b", label: "Esperar instrucciones detalladas antes de modificar cualquier procedimiento establecido." },
@@ -81,7 +81,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "adaptacion-cambio-v2-4",
-        text: "Lectura: En la Secretaría de Movilidad se anunció una reestructuración que obliga a modificar procesos y roles. ¿Qué caracteriza a un servidor que coopera activamente en la implementación de cambios?",
+        text: "Situacion\n\nEn la Secretaria de Movilidad de la Gobernacion de Antioquia se implementa una nueva estructura organizacional que modifica procesos y responsabilidades. Los funcionarios enfrentan el reto de adaptarse mientras mantienen la calidad del servicio publico.\n\nPregunta\n\nCon base en la situacion descrita, ¿que caracteriza a un servidor que coopera activamente en la implementacion de cambios?",
         options: [
           { value: "a", label: "Participa en reuniones informativas pero espera a que otros ejecuten las acciones." },
           { value: "b", label: "Integra nuevos objetivos en su trabajo diario y apoya a colegas en la transición." },
@@ -97,7 +97,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "adaptacion-cambio-v2-5",
-        text: "Lectura: En la Secretaría de Movilidad se anunció una reestructuración que obliga a modificar procesos y roles. Eres responsable de implementar un nuevo sistema de gestión. Algunos empleados se resisten al cambio y continúan utilizando el sistema antiguo. ¿Cómo manejarías esta resistencia al cambio?",
+        text: "Situacion\n\nEn la Secretaria de Movilidad de la Gobernacion de Antioquia se implementa un nuevo sistema de gestion documental. Como responsable del proceso, has notado que varios empleados se resisten al cambio y continuan utilizando el sistema antiguo, lo que afecta la integracion de la informacion.\n\nPregunta\n\nCon base en la situacion descrita, ¿como deberia manejar la resistencia al cambio?",
         options: [
           { value: "a", label: "Ignorar a los empleados que se resisten y seguir adelante con la implementación." },
           { value: "b", label: "Forzar a los empleados a usar el nuevo sistema bajo amenaza de sanciones." },
@@ -113,7 +113,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "adaptacion-cambio-v2-6-b",
-        text: "Lectura: En la Secretaría de Movilidad se anunció una reestructuración que obliga a modificar procesos y roles. Adaptación al cambio requiere:",
+        text: "Situacion\n\nEn la Secretaria de Movilidad de la Gobernacion de Antioquia se anuncio una profunda reestructuracion que modifica procesos, roles y objetivos estrategicos. Los funcionarios deben responder ante esta transformacion organizacional de manera constructiva.\n\nPregunta\n\nCon base en la situacion descrita, ¿que requiere la adaptacion al cambio segun el Decreto 815?",
         options: [
           { value: "a", label: "Rechazar nuevas metas" },
           { value: "b", label: "Aceptar y apoyar nuevas situaciones, procesos y objetivos institucionales" },
@@ -129,7 +129,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "adaptacion-cambio-v2-6-c",
-        text: "Lectura: En la Secretaría de Movilidad se anunció una reestructuración que obliga a modificar procesos y roles. Abandonar tareas ante dificultades no previstas refleja:",
+        text: "Situacion\n\nEn la Secretaria de Movilidad de la Gobernacion de Antioquia se esta implementando una reestructuracion compleja. Un funcionario encargado de liderar parte del proceso abandona sus tareas al encontrar dificultades tecnicas no previstas inicialmente.\n\nPregunta\n\nCon base en la situacion descrita, ¿que refleja abandonar tareas ante dificultades no previstas?",
         options: [
           { value: "a", label: "Resiliencia" },
           { value: "b", label: "Falta de perseverancia y adaptación al cambio" },
@@ -171,7 +171,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "aporte-tecnico-v2-1",
-        text: "Lectura: En la mesa técnica del proyecto regional, el equipo analiza incidentes que requieren criterio especializado. ¿Qué implica aportar conocimientos especializados según el Decreto 815?",
+        text: "Situacion\n\nEn la mesa tecnica del proyecto regional de infraestructura de la Gobernacion de Antioquia, el equipo multidisciplinario analiza incidentes tecnicos complejos que requieren criterio especializado para tomar decisiones sobre la continuidad de las obras.\n\nPregunta\n\nCon base en la situacion descrita, ¿que implica aportar conocimientos especializados segun el Decreto 815?",
         options: [
           { value: "a", label: "Compartir experiencia técnica para mejorar procesos y resolver situaciones problemáticas de manera proactiva." },
           { value: "b", label: "Limitar el conocimiento especializado a reportes escritos sin participar en soluciones prácticas." },
@@ -187,7 +187,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "aporte-tecnico-v2-2",
-        text: "Lectura: En la mesa técnica del proyecto regional, el equipo analiza incidentes que requieren criterio especializado. Anticipar problemas previsibles en el contexto profesional significa:",
+        text: "Situacion\n\nEn la mesa tecnica del proyecto regional de la Gobernacion de Antioquia, el equipo profesional debe evaluar incidentes complejos. Se espera que los especialistas utilicen su experiencia para prevenir problemas futuros en la ejecucion del proyecto.\n\nPregunta\n\nCon base en la situacion descrita, ¿que significa anticipar problemas previsibles en el contexto profesional?",
         options: [
           { value: "a", label: "Esperar a que los problemas se materialicen para documentarlos adecuadamente." },
           { value: "b", label: "Identificar riesgos potenciales con base en conocimiento técnico y proponer medidas preventivas." },
@@ -203,7 +203,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "aporte-tecnico-v2-3",
-        text: "Lectura: En la mesa técnica del proyecto regional, el equipo analiza incidentes que requieren criterio especializado. ¿Cómo se manifiesta la interdisciplinariedad en el aporte técnico-profesional?",
+        text: "Situacion\n\nEn la mesa tecnica del proyecto regional de la Gobernacion de Antioquia, profesionales de ingenieria, derecho, trabajo social y contaduria deben colaborar para analizar incidentes complejos que requieren una vision integral y especializada.\n\nPregunta\n\nCon base en la situacion descrita, ¿como se manifiesta la interdisciplinariedad en el aporte tecnico-profesional?",
         options: [
           { value: "a", label: "Manteniendo estrictamente los límites de la propia disciplina sin involucrarse en otras áreas." },
           { value: "b", label: "Reconociendo y aprovechando aportes de otras disciplinas para enriquecer soluciones integrales." },
@@ -219,7 +219,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "aporte-tecnico-v2-4",
-        text: "Lectura: En la mesa técnica del proyecto regional, el equipo analiza incidentes que requieren criterio especializado. La experiencia especializada debe aplicarse para:",
+        text: "Situacion\n\nEn la mesa tecnica del proyecto regional de la Gobernacion de Antioquia, los profesionales especializados cuentan con amplia experiencia en sus areas. Se espera que esta experiencia contribuya efectivamente a los objetivos institucionales.\n\nPregunta\n\nCon base en la situacion descrita, ¿para que debe aplicarse la experiencia especializada?",
         options: [
           { value: "a", label: "Resolver únicamente problemas técnicos específicos asignados por el supervisor." },
           { value: "b", label: "Contribuir a la generación de soluciones que beneficien procesos y objetivos institucionales." },
@@ -235,7 +235,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "aporte-tecnico-v2-5",
-        text: "Lectura: En la mesa técnica del proyecto regional, el equipo analiza incidentes que requieren criterio especializado. Al definir las competencias funcionales de un empleo, el Decreto 815 establece que deben contemplarse:",
+        text: "Situacion\n\nEn la mesa tecnica del proyecto regional de la Gobernacion de Antioquia, el equipo de gestion humana revisa la definicion de competencias funcionales para un nuevo cargo profesional especializado que requiere criterios claros de desempeno.\n\nPregunta\n\nCon base en la situacion descrita, al definir las competencias funcionales de un empleo, ¿que establece el Decreto 815 que debe contemplarse?",
         options: [
           { value: "a", label: "Los manuales de procesos de otras entidades para homologar responsabilidades." },
           { value: "b", label: "Criterios de desempeño, conocimientos básicos, contextos de aplicación y evidencias que demuestren las contribuciones." },
@@ -251,7 +251,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "aporte-tecnico-v2-6",
-        text: "Lectura: En la mesa técnica del proyecto regional, el equipo analiza incidentes que requieren criterio especializado. El nivel Profesional se caracteriza por:",
+        text: "Situacion\n\nEn la mesa tecnica del proyecto regional de la Gobernacion de Antioquia participan servidores publicos de nivel Profesional que deben resolver incidentes tecnicos complejos aplicando su formacion academica y experiencia especializada.\n\nPregunta\n\nCon base en la situacion descrita, ¿por que se caracteriza el nivel Profesional segun el Decreto 815?",
         options: [
           { value: "a", label: "Ejecutar procesos y procedimientos técnicos aplicando ciencia y tecnología" },
           { value: "b", label: "Administrar trámites básicos" },
@@ -293,7 +293,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "aprendizaje-continuo-v2-1",
-        text: "Lectura: El Centro de Formación reporta cambios normativos y convoca al personal a revisar sus planes de actualización. ¿Qué caracteriza el aprendizaje continuo según el Decreto 815?",
+        text: "Situacion\n\nEl Centro de Formacion de la Gobernacion de Antioquia reporta cambios normativos importantes en materia de contratacion publica y convoca al personal del area juridica y financiera a revisar sus planes de actualizacion profesional.\n\nPregunta\n\nCon base en la situacion descrita, ¿que caracteriza el aprendizaje continuo segun el Decreto 815?",
         options: [
           { value: "a", label: "Actualizar conocimientos solo cuando la entidad ofrezca capacitaciones obligatorias." },
           { value: "b", label: "Adquirir y desarrollar permanentemente conocimientos, habilidades y destrezas mediante fuentes confiables." },
@@ -309,7 +309,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "aprendizaje-continuo-v2-2",
-        text: "Lectura: El Centro de Formación reporta cambios normativos y convoca al personal a revisar sus planes de actualización. La aplicación práctica del conocimiento adquirido se evidencia cuando:",
+        text: "Situacion\n\nEl Centro de Formacion de la Gobernacion de Antioquia ofrecio una capacitacion sobre nuevas herramientas digitales para la gestion publica. Los funcionarios recibieron certificacion, pero ahora se evalua si realmente aplican lo aprendido en su trabajo diario.\n\nPregunta\n\nCon base en la situacion descrita, ¿cuando se evidencia la aplicacion practica del conocimiento adquirido?",
         options: [
           { value: "a", label: "Se archivan certificados de capacitación en la hoja de vida sin cambios en el desempeño." },
           { value: "b", label: "Se integran nuevos conocimientos en las actividades laborales para mejorar procesos y resultados." },
@@ -325,7 +325,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "aprendizaje-continuo-v2-3",
-        text: "Lectura: El Centro de Formación reporta cambios normativos y convoca al personal a revisar sus planes de actualización. ¿Qué papel juegan las fuentes confiables en el aprendizaje continuo?",
+        text: "Situacion\n\nEl Centro de Formacion de la Gobernacion de Antioquia enfatiza la importancia de utilizar fuentes verificadas y de calidad para la actualizacion profesional. Los funcionarios deben discernir entre informacion confiable y contenido no verificado.\n\nPregunta\n\nCon base en la situacion descrita, ¿que papel juegan las fuentes confiables en el aprendizaje continuo?",
         options: [
           { value: "a", label: "Son opcionales si se cuenta con experiencia laboral suficiente." },
           { value: "b", label: "Garantizan que la actualización se base en información verificada y de calidad para el ejercicio profesional." },
@@ -341,7 +341,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "aprendizaje-continuo-v2-4",
-        text: "Lectura: El Centro de Formación reporta cambios normativos y convoca al personal a revisar sus planes de actualización. Los espacios de capacitación incluyen:",
+        text: "Situacion\n\nEl Centro de Formacion de la Gobernacion de Antioquia promueve diversas modalidades de aprendizaje para el desarrollo profesional. Los funcionarios preguntan si solo cuentan las capacitaciones formales o si el autoaprendizaje tambien es valido.\n\nPregunta\n\nCon base en la situacion descrita, ¿que espacios de capacitacion incluye el aprendizaje continuo segun el Decreto 815?",
         options: [
           { value: "a", label: "Únicamente programas formales certificados por instituciones educativas acreditadas." },
           { value: "b", label: "Tanto capacitaciones formales como espacios informales de aprendizaje autodirigido." },
@@ -357,7 +357,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "aprendizaje-continuo-v2-5",
-        text: "Lectura: El Centro de Formación reporta cambios normativos y convoca al personal a revisar sus planes de actualización. ¿Cuáles son los componentes de las competencias laborales definidos en el Decreto 815?",
+        text: "Situacion\n\nEl Centro de Formacion de la Gobernacion de Antioquia realiza una sesion sobre el marco normativo de competencias laborales. Los asistentes necesitan comprender como se estructuran las competencias en el empleo publico.\n\nPregunta\n\nCon base en la situacion descrita, ¿cuales son los componentes de las competencias laborales definidos en el Decreto 815?",
         options: [
           { value: "a", label: "Requisitos de estudio y experiencia del empleo, competencias funcionales y competencias comportamentales." },
           { value: "b", label: "Únicamente los requisitos de formación y las certificaciones técnicas vigentes." },
@@ -373,7 +373,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "aprendizaje-continuo-v2-6",
-        text: "Lectura: El Centro de Formación reporta cambios normativos y convoca al personal a revisar sus planes de actualización. Aprendizaje continuo implica conductas como:",
+        text: "Situacion\n\nEl Centro de Formacion de la Gobernacion de Antioquia evalua las practicas de aprendizaje continuo de los funcionarios. Se requiere identificar las conductas que realmente demuestran compromiso con el desarrollo profesional permanente.\n\nPregunta\n\nCon base en la situacion descrita, ¿que conductas implica el aprendizaje continuo segun el Decreto 815?",
         options: [
           { value: "a", label: "Resistirse a los cambios" },
           { value: "b", label: "Mantener competencias actualizadas, gestionar fuentes de información confiables y compartir conocimientos" },
@@ -415,7 +415,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "compromiso-organizacion-v2-1",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Por qué el Código de Integridad se acompaña de un ejercicio comunicativo y pedagógico?",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se revisan los valores del Codigo de Integridad y se discute como aplicarlos para enfrentar dilemas eticos cotidianos en la prestacion de servicios publicos.\n\nPregunta\n\nCon base en la situacion descrita, ¿por que el Codigo de Integridad se acompana de un ejercicio comunicativo y pedagogico?",
         options: [
           { value: "a", label: "Para reemplazar el Código Disciplinario Único por un régimen de sanciones inmediatas." },
           {
@@ -434,7 +434,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-2",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. La decisión del DAFP de formular un código general y conciso busca principalmente:",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se analiza por que el DAFP decidio formular un codigo unico para todas las entidades publicas en lugar de permitir que cada una definiera sus propios valores.\n\nPregunta\n\nCon base en la situacion descrita, ¿que busca principalmente la decision del DAFP de formular un codigo general y conciso?",
         options: [
           { value: "a", label: "Permitir que cada entidad defina valores distintos sin lineamientos comunes." },
           { value: "b", label: "Garantizar universalidad y un lenguaje compartido para todos los servidores de la Rama Ejecutiva." },
@@ -450,7 +450,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-3",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Cuál comportamiento vulnera directamente el valor honestidad?",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se discuten casos practicos donde servidores publicos enfrentan dilemas eticos. Se analiza especificamente cuando un comportamiento vulnera el valor de la honestidad.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual comportamiento vulnera directamente el valor honestidad?",
         options: [
           {
             value: "a",
@@ -472,7 +472,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-4",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Durante una atención presencial, un ciudadano de zona rural recibe comentarios despectivos. Aplicar el valor respeto implica:",
+        text: "Situacion\n\nDurante la atencion presencial en una oficina de la Gobernacion de Antioquia, un ciudadano proveniente de zona rural recibe comentarios despectivos por parte de un funcionario. Otros servidores presencian la situacion y deben decidir como actuar.\n\nPregunta\n\nCon base en la situacion descrita, ¿que implica aplicar el valor respeto?",
         options: [
           { value: "a", label: "Continuar con el trámite priorizando usuarios que residen en la capital para ganar eficiencia." },
           {
@@ -491,7 +491,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-5",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Una familia llega a la entidad sin comprender los requisitos de un programa social. Actuar con compromiso significa:",
+        text: "Situacion\n\nUna familia campesina llega a una oficina de la Gobernacion de Antioquia solicitando informacion sobre un programa social, pero no comprenden los requisitos ni los pasos a seguir. El funcionario encargado debe decidir como atenderlos.\n\nPregunta\n\nCon base en la situacion descrita, ¿que significa actuar con compromiso?",
         options: [
           { value: "a", label: "Indicarles que consulten la información en internet y continuar con otras tareas." },
           {
@@ -510,7 +510,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-6",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Debes entregar un informe clave en poco tiempo y recibes nuevas solicitudes ciudadanas. Ser diligente implica:",
+        text: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia debe entregar un informe clave para el Gobernador en poco tiempo. Sin embargo, al mismo tiempo recibe nuevas solicitudes ciudadanas urgentes que requieren atencion inmediata.\n\nPregunta\n\nCon base en la situacion descrita, ¿que implica ser diligente?",
         options: [
           { value: "a", label: "Postergar el informe hasta que finalicen todas las solicitudes pendientes." },
           {
@@ -529,7 +529,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-7",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Frente a presiones de un conocido para priorizar su trámite, actuar con justicia implica:",
+        text: "Situacion\n\nUn servidor publico de la Gobernacion de Antioquia enfrenta presiones de un conocido cercano que solicita que su tramite sea priorizado sobre otros ciudadanos que esperan en fila. El funcionario debe decidir como actuar.\n\nPregunta\n\nCon base en la situacion descrita, ¿que implica actuar con justicia?",
         options: [
           { value: "a", label: "Aceptar la solicitud para fortalecer la relación personal y evitar conflictos." },
           { value: "b", label: "Suspender los trámites de otros usuarios hasta resolver la petición del conocido." },
@@ -548,7 +548,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-8",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Cuál es el objetivo del sistema de seguimiento y evaluación del Código de Integridad?",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se presenta el sistema de seguimiento y evaluacion del Codigo de Integridad. Los funcionarios preguntan cual es el proposito de este mecanismo de monitoreo.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual es el objetivo del sistema de seguimiento y evaluacion del Codigo de Integridad?",
         options: [
           { value: "a", label: "Otorgar premios económicos automáticos a los servidores destacados." },
           {
@@ -567,7 +567,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-9",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Cuál norma creó el Código de Integridad como instrumento técnico de la política de integridad?",
+        text: "Situacion\n\nDurante una capacitacion sobre marco normativo en la Gobernacion de Antioquia, se discute el origen del Codigo de Integridad como instrumento tecnico de la politica de integridad en el sector publico colombiano.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual norma creo el Codigo de Integridad como instrumento tecnico de la politica de integridad?",
         options: [
           { value: "a", label: "Decreto 1499 de 2017" },
           { value: "b", label: "Ley 2016 de 2020" },
@@ -583,7 +583,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-10",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. La adopción e implementación del Código de Integridad en todo el servicio público colombiano fue formalizada por:",
+        text: "Situacion\n\nDurante una sesion de formacion en la Gobernacion de Antioquia, se analiza el marco normativo que formalizo la adopcion obligatoria del Codigo de Integridad en todo el servicio publico colombiano.\n\nPregunta\n\nCon base en la situacion descrita, ¿que norma formalizo la adopcion e implementacion del Codigo de Integridad en todo el servicio publico colombiano?",
         options: [
           { value: "a", label: "Ley 2016 de 2020" },
           { value: "b", label: "Ley 1712 de 2014" },
@@ -599,7 +599,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-11",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Según la presentación, adoptar el Código de Integridad implica que las entidades deben:",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se analiza que acciones concretas deben realizar las entidades publicas para implementar efectivamente el Codigo de Integridad.\n\nPregunta\n\nCon base en la situacion descrita, ¿que deben hacer las entidades para adoptar el Codigo de Integridad?",
         options: [
           { value: "a", label: "Diseñar controles exclusivamente financieros" },
           { value: "b", label: "Adoptar el código, gestionar conflictos de interés y fortalecer la declaración de bienes y rentas" },
@@ -615,7 +615,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-12",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Cuántos participantes intervinieron en la construcción participativa del Código de Integridad?",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se destaca el caracter participativo de la construccion del Codigo de Integridad. Los asistentes preguntan cuantas personas intervinieron en su formulacion.\n\nPregunta\n\nCon base en la situacion descrita, ¿cuantos participantes intervinieron en la construccion participativa del Codigo de Integridad?",
         options: [
           { value: "a", label: "Cerca de 2.500" },
           { value: "b", label: "Cerca de 25.000" },
@@ -631,7 +631,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-13",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Cuántos valores adicionales puede incorporar cada entidad, además de los cinco centrales del Código?",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se discute si la entidad puede incorporar valores adicionales a los cinco centrales del Codigo de Integridad para reflejar su mision institucional especifica.\n\nPregunta\n\nCon base en la situacion descrita, ¿cuantos valores adicionales puede incorporar cada entidad, ademas de los cinco centrales del Codigo?",
         options: [
           { value: "a", label: "Ninguno" },
           { value: "b", label: "Uno" },
@@ -647,7 +647,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-14",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. La implementación del Código incluye, entre otros elementos:",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se revisan los elementos clave que deben considerarse para implementar efectivamente el Codigo de Integridad en la entidad.\n\nPregunta\n\nCon base en la situacion descrita, ¿que incluye la implementacion del Codigo entre otros elementos?",
         options: [
           { value: "a", label: "Capacitación obligatoria de inducción para cualquier cargo" },
           { value: "b", label: "Eliminación de la evaluación del desempeño" },
@@ -663,7 +663,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-15",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Además de capacitar, implementar el Código exige:",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se discute que ademas de la capacitacion, existen otros mecanismos fundamentales para garantizar la efectividad del Codigo de Integridad.\n\nPregunta\n\nCon base en la situacion descrita, ademas de capacitar, ¿que exige implementar el Codigo?",
         options: [
           { value: "a", label: "Evitar el seguimiento" },
           { value: "b", label: "Evaluar, hacer seguimiento y generar indicadores" },
@@ -679,7 +679,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-16",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. El valor Honestidad exige entre otras conductas que el servidor público:",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se analizan las conductas especificas que debe demostrar un servidor publico para actuar con honestidad segun el Codigo de Integridad.\n\nPregunta\n\nCon base en la situacion descrita, ¿que conductas exige el valor Honestidad entre otras?",
         options: [
           { value: "a", label: "Oculte errores" },
           { value: "b", label: "Diga la verdad incluso ante errores, busque orientación, facilite información pública y denuncie faltas" },
@@ -695,7 +695,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-17",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Dentro de lo que NO se hace bajo el valor Honestidad está:",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se discuten las conductas que son incompatibles con el valor de la honestidad y que ningun servidor publico debe realizar.\n\nPregunta\n\nCon base en la situacion descrita, ¿que NO se hace bajo el valor Honestidad?",
         options: [
           { value: "a", label: "Dar trato preferencial, aceptar incentivos indebidos o usar recursos públicos para fines personales" },
           { value: "b", label: "Documentar procesos" },
@@ -711,7 +711,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-18",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. El valor Compromiso promueve conductas como:",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se discuten las conductas especificas que promueve el valor Compromiso en la relacion del servidor publico con la ciudadania.\n\nPregunta\n\nCon base en la situacion descrita, ¿que conductas promueve el valor Compromiso?",
         options: [
           { value: "a", label: "Tratar el servicio como un favor personal" },
           { value: "b", label: "Ponerse en los zapatos de los usuarios, escuchar, orientar y prestar un servicio ágil y de calidad" },
@@ -727,7 +727,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-19",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Lo que NO corresponde al valor Compromiso es:",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se analizan las actitudes y conductas que contradicen el valor Compromiso y que deben evitarse en el servicio publico.\n\nPregunta\n\nCon base en la situacion descrita, ¿que NO corresponde al valor Compromiso?",
         options: [
           { value: "a", label: "Ignorar a los ciudadanos o minimizar el impacto del rol" },
           { value: "b", label: "Atender con disposición" },
@@ -743,7 +743,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-20",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Qué valor fue el más votado durante la construcción participativa del código?",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se presenta la historia de la construccion participativa del Codigo de Integridad, destacando cual valor recibio mayor respaldo de los participantes.\n\nPregunta\n\nCon base en la situacion descrita, ¿que valor fue el mas votado durante la construccion participativa del codigo?",
         options: [
           { value: "a", label: "Justicia" },
           { value: "b", label: "Honestidad" },
@@ -759,7 +759,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-21",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. La inclusión del Código de Integridad en los manuales de funciones busca principalmente:",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se explica por que el Codigo de Integridad debe incluirse en los manuales de funciones de todos los cargos.\n\nPregunta\n\nCon base en la situacion descrita, ¿que busca principalmente la inclusion del Codigo de Integridad en los manuales de funciones?",
         options: [
           { value: "a", label: "Generar trámites adicionales" },
           { value: "b", label: "Fortalecer la integridad en el servicio público incorporando los valores al desempeño diario" },
@@ -775,7 +775,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-22",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. De acuerdo con el Código de Integridad, firmar listas de asistencia en nombre de un compañero ausente es:",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se presenta un caso donde un funcionario firma la lista de asistencia en nombre de un companero ausente. Se analiza si esta conducta es compatible con el Codigo de Integridad.\n\nPregunta\n\nCon base en la situacion descrita, firmar listas de asistencia en nombre de un companero ausente es:",
         options: [
           { value: "a", label: "Una ayuda válida si se conoce al compañero" },
           { value: "b", label: "Una práctica que vulnera la honestidad y constituye falsificación documental" },
@@ -791,7 +791,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-23",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Decir la verdad aunque perjudique la imagen o los intereses personales refleja:",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se discute un caso donde un servidor debe elegir entre decir la verdad sobre un error que cometio o encubrirlo para proteger su imagen profesional.\n\nPregunta\n\nCon base en la situacion descrita, decir la verdad aunque perjudique la imagen o los intereses personales refleja:",
         options: [
           { value: "a", label: "Un comportamiento ingenuo que debe evitarse" },
           { value: "b", label: "La conducta esperada de honestidad y transparencia en el servicio público" },
@@ -807,7 +807,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-24",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Reportar irregularidades éticas o financieras que se presencian es considerado:",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, un funcionario presencia irregularidades eticas y financieras en su area. Se discute si debe reportarlas o si es responsabilidad exclusiva de otras instancias.\n\nPregunta\n\nCon base en la situacion descrita, reportar irregularidades eticas o financieras que se presencian es considerado:",
         options: [
           { value: "a", label: "Una actitud opcional que puede omitirse" },
           { value: "b", label: "Un deber ético que protege los recursos públicos y combate la corrupción" },
@@ -823,7 +823,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-25",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Limitarse a realizar únicamente las tareas mínimas para no exceder la jornada evidencia:",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se analiza el caso de un funcionario que realiza unicamente las tareas minimas requeridas, evitando cualquier actividad adicional para no exceder su jornada laboral.\n\nPregunta\n\nCon base en la situacion descrita, limitarse a realizar unicamente las tareas minimas para no exceder la jornada evidencia:",
         options: [
           { value: "a", label: "Un compromiso sólido con la organización" },
           { value: "b", label: "Una falta de compromiso y desapego con la misión institucional" },
@@ -839,7 +839,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-26",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. ¿Cómo define la presentación las competencias laborales en términos generales?",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se presenta el concepto de competencias laborales y su importancia para el desempeno efectivo en el sector publico.\n\nPregunta\n\nCon base en la situacion descrita, ¿como se definen las competencias laborales en terminos generales?",
         options: [
           { value: "a", label: "Como conocimientos aislados" },
           { value: "b", label: "Como características intrínsecas demostradas mediante conductas ligadas a un desempeño superior" },
@@ -855,7 +855,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-27",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. La definición de Spenser rescatada en la presentación indica que una competencia es:",
+        text: "Situacion\n\nDurante una capacitacion en la Gobernacion de Antioquia, se presenta la definicion academica de Spenser sobre competencias, la cual fundamenta el modelo de gestion por competencias en el sector publico colombiano.\n\nPregunta\n\nCon base en la situacion descrita, segun la definicion de Spenser, ¿que es una competencia?",
         options: [
           { value: "a", label: "Una característica opcional" },
           { value: "b", label: "Una característica fundamental causalmente relacionada con un desempeño efectivo o superior" },
@@ -871,7 +871,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-28",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. De acuerdo con el Decreto 815 de 2018, una competencia en el sector público es la capacidad de:",
+        text: "Situacion\n\nDurante una capacitacion sobre el Decreto 815 en la Gobernacion de Antioquia, se revisa como este decreto define el concepto de competencia para el sector publico colombiano.\n\nPregunta\n\nCon base en la situacion descrita, de acuerdo con el Decreto 815 de 2018, ¿que es una competencia en el sector publico?",
         options: [
           {
             value: "a",
@@ -890,7 +890,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-29",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. El Decreto 815 diferencia entre competencias funcionales y comportamentales para:",
+        text: "Situacion\n\nDurante una capacitacion sobre el Decreto 815 en la Gobernacion de Antioquia, se explica la distincion entre competencias funcionales y comportamentales en el modelo de gestion del empleo publico.\n\nPregunta\n\nCon base en la situacion descrita, ¿para que el Decreto 815 diferencia entre competencias funcionales y comportamentales?",
         options: [
           { value: "a", label: "Eliminar la gestión por competencias" },
           { value: "b", label: "Separar responsabilidades técnicas de conductuales" },
@@ -906,7 +906,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-30",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Las competencias comunes que todo servidor debe acreditar incluyen:",
+        text: "Situacion\n\nDurante una capacitacion sobre competencias en la Gobernacion de Antioquia, se revisan las competencias comportamentales comunes que deben acreditar todos los servidores publicos independientemente de su nivel jerarquico.\n\nPregunta\n\nCon base en la situacion descrita, ¿que competencias comunes debe acreditar todo servidor publico?",
         options: [
           {
             value: "a",
@@ -925,7 +925,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-31",
-        text: "Lectura: Durante una jornada de ética institucional se revisan los valores del Código de Integridad para enfrentar dilemas cotidianos. Compromiso con la organización se manifiesta cuando el servidor:",
+        text: "Situacion\n\nDurante una jornada de etica institucional en la Gobernacion de Antioquia, se analizan las conductas especificas que demuestran cuando un servidor tiene verdadero compromiso con su organizacion.\n\nPregunta\n\nCon base en la situacion descrita, ¿como se manifiesta el compromiso con la organizacion?",
         options: [
           {
             value: "a",
@@ -960,7 +960,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-33",
-        text: "Lectura: En la Presentación de Competencias Comportamentales se enfatiza el uso responsable de los recursos públicos. Un familiar te pide el portátil institucional “solo este fin de semana”. ¿Cómo procedes?",
+        text: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia recibe la solicitud de un familiar cercano que le pide prestado el portatil institucional solo por el fin de semana para realizar un trabajo personal. El funcionario debe decidir como actuar.\n\nPregunta\n\nCon base en la situacion descrita, ¿como debe proceder?",
         options: [
           { value: "a", label: "Lo presto si firma un vale" },
           { value: "b", label: "Me niego y explico que los bienes públicos se usan exclusivamente para fines oficiales" },
@@ -976,7 +976,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-34",
-        text: "Lectura: En la Presentación de Competencias Comportamentales se indica que la transparencia económica evita conflictos de interés. Inicias actividades de consultoría en tu tiempo libre. ¿Qué corresponde?",
+        text: "Situacion\n\nUn servidor publico de la Gobernacion de Antioquia decide iniciar actividades de consultoria independiente en su tiempo libre para generar ingresos adicionales. Debe decidir si debe informar a su entidad sobre estas actividades.\n\nPregunta\n\nCon base en la situacion descrita, ¿que corresponde hacer?",
         options: [
           { value: "a", label: "No informar si no supera un salario mínimo" },
           { value: "b", label: "Declarar todos los ingresos y actividades secundarias conforme a la ley" },
@@ -992,7 +992,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-35",
-        text: "Lectura: Durante un concurso público participará un amigo cercano. ¿Qué determina la Presentación de Competencias Comportamentales frente al trato preferencial?",
+        text: "Situacion\n\nDurante un concurso publico en la Gobernacion de Antioquia, un funcionario del area de seleccion se entera de que un amigo cercano es uno de los participantes. Debe decidir como actuar frente a esta situacion.\n\nPregunta\n\nCon base en la situacion descrita, ¿que determina la Presentacion de Competencias Comportamentales frente al trato preferencial?",
         options: [
           { value: "a", label: "Garantizar imparcialidad y evitar preferencias" },
           { value: "b", label: "Acelerar su trámite para equilibrar opciones" },
@@ -1008,7 +1008,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-36",
-        text: "Lectura: Un compañero usa apodos sobre rasgos físicos “en broma”. Según la Presentación de Competencias Comportamentales, ¿qué debes hacer?",
+        text: "Situacion\n\nEn una oficina de la Gobernacion de Antioquia, un companero de trabajo utiliza apodos relacionados con rasgos fisicos de otros funcionarios, justificandolo como bromas inofensivas. Otros servidores presencian esta situacion.\n\nPregunta\n\nCon base en la situacion descrita, segun la Presentacion de Competencias Comportamentales, ¿que debe hacerse?",
         options: [
           { value: "a", label: "Ignorarlo porque no es grave" },
           { value: "b", label: "Reír para evitar tensiones" },
@@ -1024,7 +1024,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-37",
-        text: "Lectura: El equipo aplica “ley del hielo” a un compañero por desacuerdos. ¿Qué plantea la Presentación de Competencias Comportamentales?",
+        text: "Situacion\n\nEn un equipo de trabajo de la Gobernacion de Antioquia, varios companeros aplican la ley del hielo a un colega por desacuerdos profesionales previos, excluyendolo deliberadamente de conversaciones y actividades laborales.\n\nPregunta\n\nCon base en la situacion descrita, ¿que plantea la Presentacion de Competencias Comportamentales?",
         options: [
           { value: "a", label: "Sumarse para no quedar mal" },
           { value: "b", label: "Justificarlo como parte del clima laboral" },
@@ -1040,7 +1040,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-38",
-        text: "Lectura: Un contratista presiona para flexibilizar un control clave. ¿Qué conducta protege el interés público?",
+        text: "Situacion\n\nDurante la supervision de un contrato en la Gobernacion de Antioquia, un contratista presiona al supervisor para flexibilizar un control tecnico clave, argumentando urgencia en la entrega del proyecto.\n\nPregunta\n\nCon base en la situacion descrita, ¿que conducta protege el interes publico?",
         options: [
           { value: "a", label: "Ceder por la urgencia del proyecto" },
           { value: "b", label: "Mantener el estándar, informar y escalar si es necesario" },
@@ -1056,7 +1056,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-39",
-        text: "Lectura: Tu área compite con otra y te solicitan datos críticos. ¿Qué indica la Presentación de Competencias Comportamentales?",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, dos areas tienen cierta rivalidad interna. Un area solicita datos criticos a la otra para cumplir con un entregable institucional importante. El responsable debe decidir si comparte la informacion.\n\nPregunta\n\nCon base en la situacion descrita, ¿que indica la Presentacion de Competencias Comportamentales?",
         options: [
           { value: "a", label: "Compartir información veraz y oportuna para cumplir la misión institucional" },
           { value: "b", label: "Retrasar el envío para tener ventaja" },
@@ -1072,7 +1072,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-40",
-        text: "Lectura: El plazo de un proyecto está cerca, pero para cumplirlo deberías omitir una verificación esencial. ¿Qué resalta la Presentación?",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, un proyecto tiene su plazo de entrega muy proximo. Para cumplir con la fecha, el responsable tendria que omitir una verificacion tecnica esencial. Debe decidir que hacer.\n\nPregunta\n\nCon base en la situacion descrita, ¿que resalta la Presentacion?",
         options: [
           { value: "a", label: "Reprogramar con justificación y asegurar la calidad mínima exigida" },
           { value: "b", label: "Entregar a tiempo sin validar" },
@@ -1088,7 +1088,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-41",
-        text: "Lectura: Saltarse un protocolo “menor” aceleraría la entrega a un ciudadano. ¿Qué recomienda la Presentación?",
+        text: "Situacion\n\nEn una oficina de atencion al ciudadano de la Gobernacion de Antioquia, un funcionario considera saltarse un protocolo que considera menor para acelerar la entrega de un tramite a un ciudadano que espera.\n\nPregunta\n\nCon base en la situacion descrita, ¿que recomienda la Presentacion?",
         options: [
           { value: "a", label: "Cumplir el procedimiento y, si es ineficiente, gestionar su mejora formalmente" },
           { value: "b", label: "Ignorarlo una vez por agilidad" },
@@ -1104,7 +1104,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-42",
-        text: "Lectura: Un usuario molesto eleva la voz. ¿Qué respuesta evidencia empatía y orientación al ciudadano según la Presentación?",
+        text: "Situacion\n\nEn una oficina de atencion al ciudadano de la Gobernacion de Antioquia, un usuario molesto por un retraso en su tramite eleva la voz y expresa su frustracion. El funcionario debe decidir como responder.\n\nPregunta\n\nCon base en la situacion descrita, ¿que respuesta evidencia empatia y orientacion al ciudadano segun la Presentacion?",
         options: [
           { value: "a", label: "Escuchar con calma, validar su emoción y reconducir con información clara" },
           { value: "b", label: "Ignorar su enojo para mantener la objetividad" },
@@ -1120,7 +1120,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-43",
-        text: "Lectura: Ya respondiste formalmente una PQRSD. ¿La labor terminó?",
+        text: "Situacion\n\nUn funcionario de la Gobernacion de Antioquia respondio formalmente una PQRSD de un ciudadano dentro de los terminos legales. Se pregunta si su labor con ese caso ya termino o si debe hacer algo mas.\n\nPregunta\n\nCon base en la situacion descrita, ¿la labor termino?",
         options: [
           { value: "a", label: "Sí, lo demás corresponde al usuario" },
           { value: "b", label: "Sí, salvo que se queje de nuevo" },
@@ -1136,7 +1136,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-44",
-        text: "Lectura: Cumplir normas “solo por miedo a la sanción” es suficiente?",
+        text: "Situacion\n\nEn una reunion de reflexion etica en la Gobernacion de Antioquia, un funcionario afirma que el cumple las normas unicamente por miedo a recibir sanciones disciplinarias. Se debate si esta actitud es suficiente.\n\nPregunta\n\nCon base en la situacion descrita, ¿cumplir normas solo por miedo a la sancion es suficiente?",
         options: [
           { value: "a", label: "Sí, evita problemas" },
           { value: "b", label: "Es útil bajo presión" },
@@ -1152,7 +1152,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-45",
-        text: "Lectura: Un error del equipo afecta un entregable clave. ¿Qué actitud evidencia corresponsabilidad?",
+        text: "Situacion\n\nEn un equipo de trabajo de la Gobernacion de Antioquia, un error cometido por algunos miembros afecta un entregable clave del area. Los demas integrantes deben decidir como actuar frente a esta situacion.\n\nPregunta\n\nCon base en la situacion descrita, ¿que actitud evidencia corresponsabilidad?",
         options: [
           { value: "a", label: "Desligarse porque no fue tu acción" },
           { value: "b", label: "Señalar al responsable en público" },
@@ -1168,7 +1168,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-46",
-        text: "Lectura: Dos compañeros discuten y el conflicto afecta el trabajo. ¿Qué señala la Presentación?",
+        text: "Situacion\n\nEn una dependencia de la Gobernacion de Antioquia, dos companeros de trabajo tienen una discusion permanente que afecta el ambiente laboral y la ejecucion de las tareas del equipo.\n\nPregunta\n\nCon base en la situacion descrita, ¿que senala la Presentacion?",
         options: [
           { value: "a", label: "Buscar mediación o apoyo institucional para resolver y proteger la tarea" },
           { value: "b", label: "Apartarse para no verse involucrado" },
@@ -1184,7 +1184,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-47",
-        text: "Lectura: Se afirma que la diversidad de opiniones “ralentiza” la gestión. ¿Qué responde la Presentación?",
+        text: "Situacion\n\nEn una reunion en la Gobernacion de Antioquia, un directivo afirma que la diversidad de opiniones en el equipo ralentiza la gestion y que seria mas eficiente si todos pensaran igual.\n\nPregunta\n\nCon base en la situacion descrita, ¿que responde la Presentacion?",
         options: [
           { value: "a", label: "Es cierto, mejor pensar igual" },
           { value: "b", label: "Depende del líder" },
@@ -1200,7 +1200,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-48",
-        text: "Lectura: Rechazar directrices nuevas hasta recibir “orden explícita” aparenta prudencia. ¿Qué indica la Presentación?",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, un funcionario rechaza acatar nuevas directrices institucionales hasta recibir una orden explicita por escrito, argumentando que esta siendo prudente.\n\nPregunta\n\nCon base en la situacion descrita, ¿que indica la Presentacion?",
         options: [
           { value: "a", label: "Es correcto para evitar errores" },
           { value: "b", label: "Es inadecuado: se deben canalizar las dudas sin obstruir la implementación" },
@@ -1216,7 +1216,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-49",
-        text: "Lectura: Te solicitan un informe técnico. ¿Qué exige el aporte técnico-profesional?",
+        text: "Situacion\n\nUn profesional de la Gobernacion de Antioquia recibe la solicitud de elaborar un informe tecnico sobre un tema especializado. Debe decidir que tipo de contenido incluir en el informe.\n\nPregunta\n\nCon base en la situacion descrita, ¿que exige el aporte tecnico-profesional?",
         options: [
           { value: "a", label: "Entregar datos acompañados de análisis, contexto y recomendaciones" },
           { value: "b", label: "Enviar únicamente los datos" },
@@ -1232,7 +1232,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-50",
-        text: "Lectura: Detectas inviabilidad técnica durante la ejecución. ¿Qué señala la Presentación sobre instrumentar decisiones?",
+        text: "Situacion\n\nDurante la ejecucion de un proyecto en la Gobernacion de Antioquia, un profesional detecta inviabilidad tecnica que impide continuar segun lo planeado. Debe decidir como proceder.\n\nPregunta\n\nCon base en la situacion descrita, ¿que senala la Presentacion sobre instrumentar decisiones?",
         options: [
           { value: "a", label: "Continuar y reportar después" },
           { value: "b", label: "Detener definitivamente el proyecto" },
@@ -1248,7 +1248,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-51",
-        text: "Lectura: Auditoría solicita la trazabilidad de un expediente. ¿Qué conducta respalda la Presentación?",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, la Oficina de Control Interno solicita a un funcionario la trazabilidad completa de un expediente contractual para realizar una auditoria. El funcionario debe responder a la solicitud.\n\nPregunta\n\nCon base en la situacion descrita, ¿que conducta respalda la Presentacion?",
         options: [
           { value: "a", label: "Buscar correos sueltos y entregarlos como evidencia" },
           { value: "b", label: "Mantener registros organizados y actualizados para entregar la trazabilidad completa" },
@@ -1264,7 +1264,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "compromiso-organizacion-v2-52",
-        text: "Lectura: Se cae el sistema del trámite y los usuarios esperan atención. ¿Cuál es la ruta de contingencia adecuada?",
+        text: "Situacion\n\nEn una oficina de atencion al ciudadano de la Gobernacion de Antioquia, el sistema informatico para tramites se cae repentinamente mientras varios usuarios esperan ser atendidos. El personal debe decidir como proceder.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual es la ruta de contingencia adecuada?",
         options: [
           { value: "a", label: "Esperar a que vuelva el sistema" },
           { value: "b", label: "Avisar que no se puede y cerrar el proceso" },
@@ -1290,7 +1290,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "comunicacion-efectiva-v2-1",
-        text: "Lectura: En una audiencia pública, la entidad debe comunicar decisiones sensibles a distintos grupos de interés. ¿Qué caracteriza la comunicación efectiva según el Decreto 815?",
+        text: "Situacion\n\nEn una audiencia publica, la Gobernacion de Antioquia debe comunicar decisiones sensibles sobre un proyecto de infraestructura a distintos grupos de interes: comunidades rurales, empresarios, organizaciones ambientales y lideres locales.\n\nPregunta\n\nCon base en la situacion descrita, ¿que caracteriza la comunicacion efectiva segun el Decreto 815?",
         options: [
           { value: "a", label: "Transmitir información técnica detallada sin considerar el nivel de comprensión del interlocutor." },
           { value: "b", label: "Intercambiar información clara y precisa, escuchando activamente y adaptando el mensaje al interlocutor." },
@@ -1306,7 +1306,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "comunicacion-efectiva-v2-2",
-        text: "Lectura: En una audiencia pública, la entidad debe comunicar decisiones sensibles a distintos grupos de interés. La escucha activa en el contexto laboral implica:",
+        text: "Situacion\n\nEn una audiencia publica de la Gobernacion de Antioquia, representantes de diferentes comunidades expresan sus preocupaciones sobre un proyecto. Los funcionarios deben demostrar escucha activa durante estas intervenciones.\n\nPregunta\n\nCon base en la situacion descrita, ¿que implica la escucha activa en el contexto laboral?",
         options: [
           { value: "a", label: "Esperar el turno para hablar mientras el otro termina de expresarse." },
           { value: "b", label: "Prestar atención genuina, comprender el mensaje y verificar la comprensión antes de responder." },
@@ -1322,7 +1322,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "comunicacion-efectiva-v2-3",
-        text: "Lectura: En una audiencia pública, la entidad debe comunicar decisiones sensibles a distintos grupos de interés. Adaptar el mensaje según el interlocutor significa:",
+        text: "Situacion\n\nEn una audiencia publica de la Gobernacion de Antioquia, los funcionarios deben explicar una decision tecnica compleja a diferentes grupos: comunidades rurales con bajo nivel educativo, empresarios especializados y organizaciones con experticia tecnica.\n\nPregunta\n\nCon base en la situacion descrita, ¿que significa adaptar el mensaje segun el interlocutor?",
         options: [
           { value: "a", label: "Mantener un único estilo de comunicación formal para todos los contextos laborales." },
           { value: "b", label: "Ajustar lenguaje, tono y nivel de detalle según el conocimiento y necesidades del receptor." },
@@ -1364,7 +1364,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "gestion-procedimientos-v2-1",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. ¿Qué implica la gestión de procedimientos según el Decreto 815?",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia detecto inconsistencias en los procedimientos documentales y debe redisenar la cadena de tramites para mejorar la eficiencia y cumplimiento normativo.\n\nPregunta\n\nCon base en la situacion descrita, ¿que implica la gestion de procedimientos segun el Decreto 815?",
         options: [
           { value: "a", label: "Ejecutar procesos tal como están documentados sin cuestionarlos ni proponer cambios." },
           { value: "b", label: "Ejecutar procedimientos con eficacia, identificar mejoras y garantizar cumplimiento de lineamientos." },
@@ -1380,7 +1380,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-2",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Identificar oportunidades de mejora en los procesos implica:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia identifico que ciertos procesos generan retrasos y errores frecuentes. Se espera que los funcionarios propongan mejoras para optimizar los resultados.\n\nPregunta\n\nCon base en la situacion descrita, ¿que implica identificar oportunidades de mejora en los procesos?",
         options: [
           { value: "a", label: "Esperar a que problemas recurrentes generen quejas formales antes de proponer cambios." },
           { value: "b", label: "Analizar críticamente procedimientos actuales y proponer ajustes que optimicen resultados." },
@@ -1396,7 +1396,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-3",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El cumplimiento de lineamientos vigentes significa:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El cumplimiento de lineamientos vigentes significa:",
         options: [
           { value: "a", label: "Aplicar normas y procedimientos institucionales con rigor, garantizando legalidad y transparencia." },
           { value: "b", label: "Seguir procedimientos cuando sean cómodos y adaptarlos cuando dificulten el trabajo diario." },
@@ -1412,7 +1412,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-4",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. ¿Cómo contribuye la gestión de procedimientos a la calidad del servicio?",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. ¿Cómo contribuye la gestión de procedimientos a la calidad del servicio?",
         options: [
           { value: "a", label: "Permite que cada servidor personalice procesos según su experiencia individual." },
           { value: "b", label: "Garantiza estandarización, eficiencia y cumplimiento normativo en la prestación del servicio." },
@@ -1428,7 +1428,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-5",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Después de la expedición del Decreto 815, ¿cuál es el plazo para que las entidades del orden nacional adecuen sus manuales de funciones y competencias?",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Después de la expedición del Decreto 815, ¿cuál es el plazo para que las entidades del orden nacional adecuen sus manuales de funciones y competencias?",
         options: [
           { value: "a", label: "Tres meses para todas las entidades públicas." },
           { value: "b", label: "Seis meses para el orden nacional y un año para el orden territorial." },
@@ -1444,7 +1444,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-6",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Para apoyar a las entidades territoriales en la actualización de sus manuales, el Decreto 815 dispone que:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Para apoyar a las entidades territoriales en la actualización de sus manuales, el Decreto 815 dispone que:",
         options: [
           { value: "a", label: "Cada entidad territorial gestione autónomamente la adecuación sin acompañamiento." },
           { value: "b", label: "La Función Pública establezca lineamientos para un programa de asistencia ejecutado por la ESAP." },
@@ -1460,7 +1460,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-7",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Cuando las necesidades del servicio lo requieran, ¿quién puede actualizar mediante acto motivado las competencias del artículo 2.2.4.8?",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Cuando las necesidades del servicio lo requieran, ¿quién puede actualizar mediante acto motivado las competencias del artículo 2.2.4.8?",
         options: [
           { value: "a", label: "Las entidades territoriales, previa autorización de sus concejos." },
           { value: "b", label: "El Departamento Administrativo de la Función Pública." },
@@ -1476,7 +1476,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-8",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Según el artículo 2.2.4.9, ¿qué acción tomará la Función Pública respecto a las áreas o procesos transversales?",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Según el artículo 2.2.4.9, ¿qué acción tomará la Función Pública respecto a las áreas o procesos transversales?",
         options: [
           { value: "a", label: "Autorizar a cada entidad para que diseñe libremente sus competencias funcionales transversales." },
           { value: "b", label: "Adoptar un catálogo de normas de competencias funcionales aplicable a las áreas o procesos transversales de las entidades públicas." },
@@ -1492,7 +1492,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-9",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Al diseñar un concurso de mérito conforme al Decreto 1083 de 2015, la entidad debe garantizar que:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Al diseñar un concurso de mérito conforme al Decreto 1083 de 2015, la entidad debe garantizar que:",
         options: [
           { value: "a", label: "Se aplique únicamente una entrevista, siempre que esté soportada en competencias." },
           { value: "b", label: "Se utilicen al menos dos pruebas, una de ellas escrita o de ejecución, para valorar capacidad, idoneidad y potencialidad." },
@@ -1508,7 +1508,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-10",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Cuando la convocatoria incluye la prueba de polígrafo, esta se aplica para:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Cuando la convocatoria incluye la prueba de polígrafo, esta se aplica para:",
         options: [
           { value: "a", label: "Medir conocimientos específicos del cargo." },
           { value: "b", label: "Verificar la confiabilidad del aspirante mediante preguntas que generan reacciones fisiológicas asociadas a su experiencia previa." },
@@ -1524,7 +1524,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-11",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El Decreto 1083 define el examen como un mecanismo que:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El Decreto 1083 define el examen como un mecanismo que:",
         options: [
           { value: "a", label: "Consiste en un banco de preguntas de selección múltiple dispuesto en el decreto para todos los cargos." },
           { value: "b", label: "Mide la competencia del candidato a través de medios escritos, orales, prácticos u observación de comportamientos." },
@@ -1540,7 +1540,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-12",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Un participante pregunta si el decreto incluye ejemplos de cuestionarios para estudiar. ¿Cuál debería ser la respuesta correcta?",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Un participante pregunta si el decreto incluye ejemplos de cuestionarios para estudiar. ¿Cuál debería ser la respuesta correcta?",
         options: [
           { value: "a", label: "Sí, porque el decreto anexa preguntas de selección múltiple para cada empleo." },
           { value: "b", label: "No, el decreto solo menciona preguntas al describir la prueba de polígrafo como instrumento de confiabilidad." },
@@ -1556,7 +1556,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-13",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. En la planeación de un concurso, el comité propone que la entrevista pese el 25 % del puntaje total. ¿Qué indica el decreto?",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. En la planeación de un concurso, el comité propone que la entrevista pese el 25 % del puntaje total. ¿Qué indica el decreto?",
         options: [
           { value: "a", label: "La propuesta es válida si así lo aprueba el jefe de talento humano." },
           { value: "b", label: "Debe ajustarse, porque la entrevista no puede superar el 15 % de la calificación total." },
@@ -1572,7 +1572,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-14",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Si un aspirante no está conforme con el resultado de una prueba, el Decreto 1083 señala que debe presentar su reclamación ante:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Si un aspirante no está conforme con el resultado de una prueba, el Decreto 1083 señala que debe presentar su reclamación ante:",
         options: [
           { value: "a", label: "La Comisión Nacional del Servicio Civil, siguiendo el procedimiento establecido." },
           { value: "b", label: "La Procuraduría General, para que ejerza control disciplinario inmediato." },
@@ -1588,7 +1588,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-15",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El valor Justicia se asocia a conductas como:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El valor Justicia se asocia a conductas como:",
         options: [
           { value: "a", label: "Discriminar según preferencias personales" },
           { value: "b", label: "Decidir con base en hechos, respetar derechos y actuar con imparcialidad" },
@@ -1604,7 +1604,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-16",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Lo que NO corresponde al valor Justicia es:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Lo que NO corresponde al valor Justicia es:",
         options: [
           { value: "a", label: "Tomar decisiones con objetividad" },
           { value: "b", label: "Actuar con base en caprichos, amiguismos o intereses particulares" },
@@ -1620,7 +1620,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-17",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El valor Diligencia implica que el servidor público:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El valor Diligencia implica que el servidor público:",
         options: [
           { value: "a", label: "Procrastine tareas importantes" },
           { value: "b", label: "Cumpla con prontitud, oportunidad y calidad, usando responsablemente los recursos del Estado" },
@@ -1636,7 +1636,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-18",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Dentro de lo que NO se hace según el valor Diligencia está:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Dentro de lo que NO se hace según el valor Diligencia está:",
         options: [
           { value: "a", label: "Trabajar con atención" },
           { value: "b", label: "Postergar actividades sin justificación, incumplir plazos o descuidar los recursos públicos" },
@@ -1652,7 +1652,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-19",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El nivel Directivo del Decreto 815 se caracteriza por:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El nivel Directivo del Decreto 815 se caracteriza por:",
         options: [
           { value: "a", label: "Ejecutar tareas operativas" },
           { value: "b", label: "Formular y dirigir la ejecución de planes y programas, supervisando su cumplimiento" },
@@ -1668,7 +1668,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-20",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Una competencia del nivel Directivo es:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Una competencia del nivel Directivo es:",
         options: [
           { value: "a", label: "Planeación" },
           { value: "b", label: "Transcripción" },
@@ -1684,7 +1684,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-21",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El nivel Asesor se caracteriza por:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El nivel Asesor se caracteriza por:",
         options: [
           { value: "a", label: "Ejecutar tareas rutinarias" },
           { value: "b", label: "Asistir, aconsejar y asesorar directamente a las directivas mediante análisis técnico y conocimiento especializado" },
@@ -1700,7 +1700,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-22",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Una competencia del nivel Asesor es:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Una competencia del nivel Asesor es:",
         options: [
           { value: "a", label: "Experticia profesional" },
           { value: "b", label: "Ingreso de datos" },
@@ -1716,7 +1716,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-23",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El nivel Técnico se caracteriza por:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El nivel Técnico se caracteriza por:",
         options: [
           { value: "a", label: "Formular políticas" },
           { value: "b", label: "Aplicar conocimientos técnicos en procesos y procedimientos administrativos u operativos" },
@@ -1732,7 +1732,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-24",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Una competencia del nivel Técnico es:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Una competencia del nivel Técnico es:",
         options: [
           { value: "a", label: "Instrumentación de decisiones" },
           { value: "b", label: "Gerencia de equipos" },
@@ -1748,7 +1748,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-25",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El nivel Asistencial se caracteriza por:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. El nivel Asistencial se caracteriza por:",
         options: [
           { value: "a", label: "Dirigir departamentos" },
           { value: "b", label: "Apoyar, complementar y ejecutar labores propias de los niveles superiores" },
@@ -1764,7 +1764,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-26",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Cumplir una tarea fuera del plazo establecido sin justificación ni comunicación oportuna contradice:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Cumplir una tarea fuera del plazo establecido sin justificación ni comunicación oportuna contradice:",
         options: [
           { value: "a", label: "El valor Respeto" },
           { value: "b", label: "El valor Diligencia y el Compromiso con la organización" },
@@ -1780,7 +1780,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-27",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Asignar proyectos estratégicos según afinidades personales y no por méritos técnicos contradice:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Asignar proyectos estratégicos según afinidades personales y no por méritos técnicos contradice:",
         options: [
           { value: "a", label: "El valor Respeto" },
           { value: "b", label: "El valor Justicia" },
@@ -1796,7 +1796,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "gestion-procedimientos-v2-28",
-        text: "Lectura: La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Denegar el acceso a información pública solicitada legalmente para evitar rendición de cuentas vulnera:",
+        text: "Situacion\n\nLa Subdireccion Administrativa de la Gobernacion de Antioquia trabaja en la optimizacion de procedimientos institucionales. Los funcionarios deben comprender y aplicar correctamente los lineamientos del Decreto 815 y normativa relacionada.\n\nPregunta\n\nCon base en la situacion descrita, La Subdirección Administrativa detectó inconsistencias en los procedimientos y debe rediseñar la cadena de trámites. Denegar el acceso a información pública solicitada legalmente para evitar rendición de cuentas vulnera:",
         options: [
           { value: "a", label: "El valor Diligencia" },
           { value: "b", label: "Los valores de Honestidad y Justicia, además del derecho de acceso a la información" },
@@ -1838,7 +1838,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "instrumentacion-decisiones-v2-1",
-        text: "Lectura: El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. ¿Qué significa instrumentar decisiones según el Decreto 815?",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. ¿Qué significa instrumentar decisiones según el Decreto 815?",
         options: [
           { value: "a", label: "Comunicar decisiones a los equipos de trabajo sin involucrarse en su implementación práctica." },
           { value: "b", label: "Implementar efectivamente decisiones institucionales con criterios de eficacia, eficiencia y transparencia." },
@@ -1854,7 +1854,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "instrumentacion-decisiones-v2-2",
-        text: "Lectura: El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. La eficacia en la implementación de decisiones se evidencia cuando:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. La eficacia en la implementación de decisiones se evidencia cuando:",
         options: [
           { value: "a", label: "Se completan actividades planificadas independientemente de si se logran los objetivos esperados." },
           { value: "b", label: "Se alcanzan los objetivos y resultados esperados de la decisión implementada." },
@@ -1870,7 +1870,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "instrumentacion-decisiones-v2-3",
-        text: "Lectura: El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. La eficiencia en la instrumentación implica:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. La eficiencia en la instrumentación implica:",
         options: [
           { value: "a", label: "Lograr resultados óptimos con el mejor uso posible de recursos disponibles (tiempo, personal, presupuesto)." },
           { value: "b", label: "Cumplir plazos establecidos incluso si requiere inversión adicional no presupuestada." },
@@ -1886,7 +1886,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "instrumentacion-decisiones-v2-4",
-        text: "Lectura: El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. La transparencia en la implementación de decisiones requiere:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. La transparencia en la implementación de decisiones requiere:",
         options: [
           { value: "a", label: "Mantener confidencialidad absoluta del proceso de implementación hasta obtener resultados finales." },
           { value: "b", label: "Comunicar claramente el proceso, garantizar trazabilidad y permitir rendición de cuentas sobre las acciones realizadas." },
@@ -1902,7 +1902,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "instrumentacion-decisiones-v2-5",
-        text: "Lectura: El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. En el nivel directivo, la competencia de toma de decisiones implica:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, El comité directivo pidió traducir lineamientos estratégicos en decisiones operativas para un proyecto prioritario. En el nivel directivo, la competencia de toma de decisiones implica:",
         options: [
           { value: "a", label: "Delegar decisiones complejas para evitar asumir riesgos institucionales." },
           { value: "b", label: "Analizar alternativas, consultar al equipo, decidir en escenarios complejos y asumir la responsabilidad por los resultados." },
@@ -1944,7 +1944,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "orientacion-resultado-v2-1",
-        text: "Lectura: Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. ¿Qué caracteriza la orientación a resultados según el Decreto 815?",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. ¿Qué caracteriza la orientación a resultados según el Decreto 815?",
         options: [
           { value: "a", label: "Enfocarse en completar actividades asignadas sin necesidad de medir su impacto." },
           { value: "b", label: "Cumplir objetivos con calidad, eficacia y persistencia, monitoreando avances mediante indicadores." },
@@ -1960,7 +1960,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-resultado-v2-2",
-        text: "Lectura: Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. El uso de indicadores para medir avances sirve para:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. El uso de indicadores para medir avances sirve para:",
         options: [
           { value: "a", label: "Justificar retrasos o incumplimientos mediante datos objetivos documentados." },
           { value: "b", label: "Monitorear progreso, identificar desviaciones y tomar decisiones para garantizar el logro de objetivos." },
@@ -1976,7 +1976,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-resultado-v2-3",
-        text: "Lectura: Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. La persistencia en el cumplimiento de objetivos significa:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. La persistencia en el cumplimiento de objetivos significa:",
         options: [
           { value: "a", label: "Mantener el mismo enfoque de trabajo independientemente de obstáculos o resultados parciales." },
           { value: "b", label: "Superar obstáculos y mantener esfuerzo sostenido hasta lograr los objetivos establecidos, ajustando estrategias según sea necesario." },
@@ -1992,7 +1992,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-resultado-v2-4",
-        text: "Lectura: Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. La calidad en los resultados se garantiza cuando:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. La calidad en los resultados se garantiza cuando:",
         options: [
           { value: "a", label: "Se cumplen plazos establecidos independientemente del nivel de calidad alcanzado." },
           { value: "b", label: "Los resultados satisfacen estándares esperados, cumplen requisitos y generan valor institucional." },
@@ -2008,7 +2008,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-resultado-v2-5",
-        text: "Lectura: Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. Dentro de las competencias del nivel directivo, la planeación definida por el Decreto 815 implica:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, Una gerencia territorial debe cumplir metas del plan sectorial en un contexto de recursos limitados. Dentro de las competencias del nivel directivo, la planeación definida por el Decreto 815 implica:",
         options: [
           { value: "a", label: "Definir actividades generales sin asignar responsables ni recursos para mantener flexibilidad." },
           { value: "b", label: "Establecer metas y prioridades institucionales, asignar responsables, plazos y recursos, y hacer seguimiento permanente orientado a usuarios y ciudadanos." },
@@ -2050,7 +2050,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "orientacion-usuario-v2-1",
-        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. ¿Qué implica la orientación al usuario según el Decreto 815?",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. ¿Qué implica la orientación al usuario según el Decreto 815?",
         options: [
           { value: "a", label: "Aplicar procedimientos estándar a todos los usuarios sin considerar necesidades particulares." },
           { value: "b", label: "Identificar necesidades, brindar atención oportuna y veraz, y garantizar satisfacción del usuario." },
@@ -2066,7 +2066,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-usuario-v2-2",
-        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. La atención inclusiva a ciudadanos significa:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. La atención inclusiva a ciudadanos significa:",
         options: [
           { value: "a", label: "Atender únicamente a quienes cumplan estrictamente todos los requisitos documentales exigidos." },
           { value: "b", label: "Reconocer diversidad de usuarios, adaptar la atención a necesidades especiales y garantizar acceso equitativo." },
@@ -2082,7 +2082,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-usuario-v2-3",
-        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. La oportunidad en la atención al ciudadano se refiere a:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. La oportunidad en la atención al ciudadano se refiere a:",
         options: [
           { value: "a", label: "Atender solicitudes exclusivamente dentro de los términos legales máximos establecidos." },
           { value: "b", label: "Responder a necesidades del ciudadano en el momento adecuado, con agilidad y sin dilaciones innecesarias." },
@@ -2098,7 +2098,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-usuario-v2-4",
-        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. La veracidad en la información brindada al ciudadano requiere:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. La veracidad en la información brindada al ciudadano requiere:",
         options: [
           { value: "a", label: "Proporcionar información completa, precisa y verificada, evitando datos erróneos o engañosos." },
           { value: "b", label: "Comunicar solo información positiva para mantener satisfacción del ciudadano con la entidad." },
@@ -2114,7 +2114,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-usuario-v2-5",
-        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. Un funcionario de atención al público recibe a un ciudadano muy molesto porque su trámite ha sido rechazado varias veces y exige hablar con un superior. ¿Qué debería hacer el funcionario según los principios de orientación al usuario?",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. Un funcionario de atención al público recibe a un ciudadano muy molesto porque su trámite ha sido rechazado varias veces y exige hablar con un superior. ¿Qué debería hacer el funcionario según los principios de orientación al usuario?",
         options: [
           { value: "a", label: "Ignorar al ciudadano y continuar con su trabajo." },
           { value: "b", label: "Llamar inmediatamente a un superior para que se encargue de la situación." },
@@ -2130,7 +2130,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-usuario-v2-6",
-        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. El valor Respeto implica como conducta positiva que el servidor público:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. El valor Respeto implica como conducta positiva que el servidor público:",
         options: [
           { value: "a", label: "Priorice a quienes tienen mayor influencia" },
           { value: "b", label: "Atiendan con amabilidad y equidad, abiertos al diálogo aun ante opiniones diferentes" },
@@ -2146,7 +2146,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-usuario-v2-7",
-        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. Lo que NO debe hacerse según el valor Respeto es:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. Lo que NO debe hacerse según el valor Respeto es:",
         options: [
           { value: "a", label: "Considerar opiniones distintas" },
           { value: "b", label: "Actuar de forma discriminatoria, grosera o basar decisiones en prejuicios" },
@@ -2162,7 +2162,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-usuario-v2-8",
-        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. ¿Qué comportamiento concreto se asocia al valor Respeto según la guía?",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. ¿Qué comportamiento concreto se asocia al valor Respeto según la guía?",
         options: [
           { value: "a", label: "Tratar dignamente y escuchar incluso opiniones distintas" },
           { value: "b", label: "Evitar responder preguntas del ciudadano" },
@@ -2178,7 +2178,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-usuario-v2-9",
-        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. Adaptar la comunicación para que personas con discapacidad comprendan los mensajes es:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. Adaptar la comunicación para que personas con discapacidad comprendan los mensajes es:",
         options: [
           { value: "a", label: "Un esfuerzo opcional" },
           { value: "b", label: "Una obligación de accesibilidad y trato digno coherente con el valor Respeto" },
@@ -2194,7 +2194,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "orientacion-usuario-v2-10",
-        text: "Lectura: En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. Hacer comentarios sexistas o discriminatorios, aunque sea en privado, según el código:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, En el centro de atención ciudadana se reciben quejas sobre tiempos de respuesta y calidad del servicio. Hacer comentarios sexistas o discriminatorios, aunque sea en privado, según el código:",
         options: [
           { value: "a", label: "Es aceptable porque no se hace en público" },
           { value: "b", label: "Normaliza la discriminación y contradice el valor Respeto" },
@@ -2236,7 +2236,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
     questions: [
       {
         id: "trabajo-equipo-v2-1",
-        text: "Lectura: Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. ¿Qué caracteriza el trabajo en equipo según el Decreto 815?",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. ¿Qué caracteriza el trabajo en equipo según el Decreto 815?",
         options: [
           { value: "a", label: "Completar tareas individuales coordinando únicamente los aspectos mínimos necesarios con otros." },
           { value: "b", label: "Colaborar con otros para lograr objetivos comunes, respetando diversidad y asumiendo responsabilidad compartida." },
@@ -2252,7 +2252,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "trabajo-equipo-v2-2",
-        text: "Lectura: Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. El respeto por la diversidad en el equipo significa:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. El respeto por la diversidad en el equipo significa:",
         options: [
           { value: "a", label: "Tolerar pasivamente perspectivas diferentes sin necesidad de integrarlas en las decisiones." },
           { value: "b", label: "Valorar y aprovechar perspectivas, experiencias y habilidades diversas para enriquecer soluciones." },
@@ -2268,7 +2268,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "trabajo-equipo-v2-3",
-        text: "Lectura: Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. La responsabilidad compartida en el trabajo en equipo implica:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. La responsabilidad compartida en el trabajo en equipo implica:",
         options: [
           { value: "a", label: "Distribuir claramente responsabilidades individuales para facilitar la rendición de cuentas personal." },
           { value: "b", label: "Asumir colectivamente tanto los éxitos como los fracasos del equipo, apoyándose mutuamente." },
@@ -2284,7 +2284,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "trabajo-equipo-v2-4",
-        text: "Lectura: Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. ¿Cómo contribuye el trabajo en equipo al logro de objetivos institucionales?",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. ¿Cómo contribuye el trabajo en equipo al logro de objetivos institucionales?",
         options: [
           { value: "a", label: "Permite distribuir tareas reduciendo la carga de trabajo individual de cada servidor." },
           { value: "b", label: "Integra conocimientos, habilidades y perspectivas diversas para generar soluciones más completas y efectivas." },
@@ -2300,7 +2300,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "trabajo-equipo-v2-5",
-        text: "Lectura: Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. Estás a cargo de un proyecto con plazo ajustado. Un miembro clave del equipo solicita una semana de licencia por motivos personales. ¿Qué harías en esta situación demostrando trabajo en equipo?",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. Estás a cargo de un proyecto con plazo ajustado. Un miembro clave del equipo solicita una semana de licencia por motivos personales. ¿Qué harías en esta situación demostrando trabajo en equipo?",
         options: [
           { value: "a", label: "Negar la solicitud de licencia y exigir que el miembro se quede para cumplir con el plazo." },
           { value: "b", label: "Aceptar la solicitud de licencia sin ajustar el plan del proyecto." },
@@ -2316,7 +2316,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "trabajo-equipo-v2-6",
-        text: "Lectura: Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. En el nivel directivo, la competencia de gerenciar equipos descrita en el Decreto 815 se evidencia cuando el líder:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. En el nivel directivo, la competencia de gerenciar equipos descrita en el Decreto 815 se evidencia cuando el líder:",
         options: [
           { value: "a", label: "Concentra todas las decisiones y funciones críticas para mantener un control total del equipo." },
           { value: "b", label: "Forma equipos comprometidos, delega según competencias e intereses y brinda apoyo ante situaciones adversas." },
@@ -2332,7 +2332,7 @@ export const behavioralSubjects: BehavioralSubject[] = [
       },
       {
         id: "trabajo-equipo-v2-7",
-        text: "Lectura: Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. Aceptar críticas sobre el trabajo sin tomarlas como ataques personales demuestra:",
+        text: "Situacion\n\nEn la Gobernacion de Antioquia, los funcionarios enfrentan situaciones que requieren aplicar correctamente las competencias comportamentales establecidas en el Decreto 815.\n\nPregunta\n\nCon base en la situacion descrita, Un equipo interinstitucional integra perfiles diversos para sacar adelante un proyecto de impacto social. Aceptar críticas sobre el trabajo sin tomarlas como ataques personales demuestra:",
         options: [
           { value: "a", label: "Debilidad profesional" },
           { value: "b", label: "Apertura al diálogo, madurez emocional y compromiso con la mejora" },

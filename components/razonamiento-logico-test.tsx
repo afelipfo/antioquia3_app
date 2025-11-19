@@ -21,7 +21,7 @@ interface Question {
   topic: string
 }
 
-const questions: Question[] = [
+export const razonamientoLogicoQuestions: Question[] = [
   {
     id: 1,
     question: "Situacion\n\nDurante una capacitacion sobre logica formal, un funcionario de la Gobernacion debe analizar el siguiente silogismo: 'Todos los mamiferos son animales. El perro es mamifero'. El capacitador le pide identificar la conclusion valida.\n\nPregunta\n\nCon base en el silogismo presentado, ¿que conclusion deductiva es valida?",

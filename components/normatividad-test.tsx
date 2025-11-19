@@ -21,7 +21,7 @@ interface Question {
   topic: string
 }
 
-const questionsV1: Question[] = [
+export const normatividadQuestions: Question[] = [
   {
     id: 1,
     question: "Situacion\n\nEn la Alcaldia Municipal de Rionegro, el equipo juridico revisa las normas que rigen las entidades territoriales antes de expedir nuevos actos administrativos. Un pasante pregunta por la definicion del derecho administrativo segun la doctrina colombiana.\n\nPregunta\n\nCon base en la situacion descrita, segun Libardo Rodriguez, el derecho administrativo es:",

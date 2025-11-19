@@ -21,7 +21,7 @@ interface Question {
   topic: string
 }
 
-const questionsV1: Question[] = [
+export const contratacionQuestions: Question[] = [
   {
     id: 1,
     question: "Situacion\n\nLa Alcaldia de Medellin ha iniciado el proceso de licitacion para la modernizacion de la red vial del centro de la ciudad. El jefe de contratacion necesita asegurarse de cumplir con toda la normativa vigente para evitar nulidades o sanciones.\n\nPregunta\n\nCon base en la situacion descrita, ¿cuales son las principales leyes que la entidad debe consultar para regir la contratacion estatal en Colombia?",

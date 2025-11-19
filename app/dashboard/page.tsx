@@ -4,7 +4,7 @@ import Link from "next/link"
 import { useState } from "react"
 import { DashboardHeader } from "@/components/dashboard-header"
 import { TestCategoryCard } from "@/components/test-category-card"
-import { FileText, Users, Brain, Clock, Sparkles, Target, BookOpen, ChevronDown, ChevronUp } from "lucide-react"
+import { FileText, Users, Brain, Clock, Sparkles, Target, BookOpen, ChevronDown, ChevronUp, Rocket } from "lucide-react"
 
 const testCategories = [
   {
@@ -80,6 +80,13 @@ export default function DashboardPage() {
                     {category.title}
                   </Link>
                 ))}
+                <Link
+                  href="/simulacro"
+                  className="rounded-full border border-white/20 bg-gradient-to-r from-rose-500 to-pink-600 px-4 py-1.5 text-sm font-medium text-white/90 shadow-sm shadow-black/10 transition-all duration-300 hover:-translate-y-[1px] hover:text-white hover:shadow-lg hover:shadow-black/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-background flex items-center gap-1.5"
+                >
+                  <Rocket className="h-3.5 w-3.5" />
+                  Simulacro 2025
+                </Link>
               </div>
             </div>
 

@@ -21,7 +21,7 @@ interface Question {
   topic: string
 }
 
-const questionsV1: Question[] = [
+export const procesoDisciplinarioQuestions: Question[] = [
   {
     id: 1,
     question: "Situacion\n\nLa Oficina de Control Interno Disciplinario de la Gobernacion de Antioquia inicia una investigacion contra un funcionario de la Secretaria de Hacienda por presuntas irregularidades en la contratacion. El equipo juridico debe determinar cual normativa aplicar para orientar correctamente el tramite disciplinario.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual conjunto normativo constituye la base principal del proceso disciplinario colombiano?",

@@ -7,6 +7,39 @@ import { Progress } from "@/components/ui/progress"
 import { ArrowLeft, Clock, CheckCircle2, XCircle, AlertCircle } from "lucide-react"
 import Link from "next/link"
 
+// Importar todas las preguntas de cada componente
+import { razonamientoLogicoQuestions } from "./razonamiento-logico-test"
+import { participacionCiudadanaQuestions } from "./participacion-ciudadana-test"
+import { obrasPublicasQuestions } from "./obras-publicas-test"
+import { formulacionMgaQuestions } from "./formulacion-mga-test"
+import { bloqueConstitucionalidadQuestions } from "./bloque-constitucionalidad-test"
+import { mipgQuestions } from "./mipg-test"
+import { servicioUsuarioQuestions } from "./servicio-usuario-test"
+import { procesoDisciplinarioQuestions } from "./proceso-disciplinario-test"
+import { infraestructuraQuestions } from "./infraestructura-test"
+import { gestionProyectosQuestions } from "./gestion-proyectos-test"
+import { planesMejoramientoQuestions } from "./planes-mejoramiento-test"
+import { formulacionQuestions } from "./formulacion-test"
+import { pqrsdQuestions } from "./pqrsd-test"
+import { normatividadQuestions } from "./normatividad-test"
+import { contratacionQuestions } from "./contratacion-test"
+import { gestionPresupuestalQuestions } from "./gestion-presupuestal-test"
+import { juicioSituacionalQuestions } from "./juicio-situacional-test"
+import { razonamientoQuestionsV1, RazonamientoQuestion } from "./razonamiento-test"
+
+// Función para convertir preguntas de razonamiento al formato estándar
+const convertRazonamientoQuestions = (questions: RazonamientoQuestion[]) => {
+  return questions.map(q => ({
+    id: q.id,
+    question: q.context ? `${q.context}\n\n${q.question}` : q.question,
+    options: q.options.map(opt => opt.text),
+    correctAnswer: q.options.findIndex(opt => opt.id === q.correct),
+    points: q.points,
+    explanation: q.explanation,
+    topic: q.category
+  }))
+}
+
 interface Question {
   id: string
   question: string
@@ -37,26 +70,26 @@ const getRandomQuestions = (questions: any[], count: number, componentName: stri
 const getAllQuestions = (): Question[] => {
   const allQuestions: Question[] = []
 
-  // Lista de componentes y sus preguntas
+  // Lista de componentes y sus preguntas reales
   const components = [
-    { name: "Razonamiento Lógico", questions: Array(24).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Razonamiento" })) },
-    { name: "Participación Ciudadana", questions: Array(28).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Participación" })) },
-    { name: "Obras Públicas", questions: Array(30).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Obras" })) },
-    { name: "Formulación MGA", questions: Array(30).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "MGA" })) },
-    { name: "Constitucionalidad", questions: Array(38).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Constitucional" })) },
-    { name: "MIPG", questions: Array(40).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "MIPG" })) },
-    { name: "Servicio Usuario", questions: Array(40).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Servicio" })) },
-    { name: "Proceso Disciplinario", questions: Array(40).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Disciplinario" })) },
-    { name: "Infraestructura", questions: Array(50).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Infraestructura" })) },
-    { name: "Gestión Proyectos", questions: Array(50).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Gestión" })) },
-    { name: "Planes Mejoramiento", questions: Array(50).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Planes" })) },
-    { name: "Formulación", questions: Array(50).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Formulación" })) },
-    { name: "PQRSD", questions: Array(50).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "PQRSD" })) },
-    { name: "Normatividad", questions: Array(56).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Normatividad" })) },
-    { name: "Contratación", questions: Array(60).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Contratación" })) },
-    { name: "Gestión Presupuestal", questions: Array(62).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Presupuestal" })) },
-    { name: "Juicio Situacional", questions: Array(55).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Juicio" })) },
-    { name: "Razonamiento", questions: Array(100).fill(null).map((_, i) => ({ question: `Pregunta ${i+1}`, options: ["A", "B", "C", "D"], correctAnswer: 0, points: 5, explanation: "Explicación", topic: "Razonamiento" })) },
+    { name: "Razonamiento Lógico", questions: razonamientoLogicoQuestions },
+    { name: "Participación Ciudadana", questions: participacionCiudadanaQuestions },
+    { name: "Obras Públicas", questions: obrasPublicasQuestions },
+    { name: "Formulación MGA", questions: formulacionMgaQuestions },
+    { name: "Bloque Constitucionalidad", questions: bloqueConstitucionalidadQuestions },
+    { name: "MIPG", questions: mipgQuestions },
+    { name: "Servicio Usuario", questions: servicioUsuarioQuestions },
+    { name: "Proceso Disciplinario", questions: procesoDisciplinarioQuestions },
+    { name: "Infraestructura", questions: infraestructuraQuestions },
+    { name: "Gestión Proyectos", questions: gestionProyectosQuestions },
+    { name: "Planes Mejoramiento", questions: planesMejoramientoQuestions },
+    { name: "Formulación", questions: formulacionQuestions },
+    { name: "PQRSD", questions: pqrsdQuestions },
+    { name: "Normatividad", questions: normatividadQuestions },
+    { name: "Contratación", questions: contratacionQuestions },
+    { name: "Gestión Presupuestal", questions: gestionPresupuestalQuestions },
+    { name: "Juicio Situacional", questions: juicioSituacionalQuestions },
+    { name: "Razonamiento", questions: convertRazonamientoQuestions(razonamientoQuestionsV1) },
   ]
 
   components.forEach(component => {

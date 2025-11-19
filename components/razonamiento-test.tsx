@@ -9,7 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { useTestTimer } from "@/hooks/use-test-timer"
 import { TestTimer } from "@/components/test-timer"
 
-type Question = {
+export type RazonamientoQuestion = {
   id: number
   category: string
   question: string
@@ -344,7 +344,7 @@ Pero esos juegos de la experiencia se ahondan en los juegos de la imaginación, 
   },
 ]
 
-const questionsV1: Question[] = [
+export const razonamientoQuestionsV1: RazonamientoQuestion[] = [
   // Oraciones temáticas
   {
     id: 1,
@@ -3342,7 +3342,7 @@ const questionsV1: Question[] = [
   },
 ]
 
-const questionsV2: Question[] = [
+export const razonamientoQuestionsV2: RazonamientoQuestion[] = [
   // Oraciones temáticas V2
   {
     id: 21,
@@ -6454,7 +6454,7 @@ export function RazonamientoTest() {
   const [showResults, setShowResults] = useState(false)
   const [showFeedback, setShowFeedback] = useState(false)
 
-  const questions = selectedVersion === "v1" ? questionsV1 : questionsV2
+  const questions = selectedVersion === "v1" ? razonamientoQuestionsV1 : razonamientoQuestionsV2
   const readings = selectedVersion === "v1" ? readingsV1 : readingsV2
 
   const totalScore = useMemo(() => questions.reduce((sum, q) => sum + q.points, 0), [questions])
@@ -6589,10 +6589,10 @@ export function RazonamientoTest() {
           <Tabs value={selectedVersion} onValueChange={handleVersionChange} className="w-full">
             <TabsList className="grid w-full grid-cols-2">
               <TabsTrigger value="v1" disabled={showResults}>
-                Versión 1 ({questionsV1.length} preguntas)
+                Versión 1 ({razonamientoQuestionsV1.length} preguntas)
               </TabsTrigger>
               <TabsTrigger value="v2" disabled={showResults}>
-                Versión 2 ({questionsV2.length} preguntas)
+                Versión 2 ({razonamientoQuestionsV2.length} preguntas)
               </TabsTrigger>
             </TabsList>
           </Tabs>

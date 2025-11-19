@@ -8,6 +8,15 @@ import { FileText, Users, Brain, Clock, Sparkles, Target, BookOpen, ChevronDown,
 
 const testCategories = [
   {
+    id: "complete",
+    title: "Prueba Completa",
+    description: "Evaluación integral con 15 preguntas de cada componente (270 preguntas totales)",
+    icon: Target,
+    subjectsCount: 18,
+    color: "from-amber-500 to-orange-600",
+    href: "/tests/complete",
+  },
+  {
     id: "general",
     title: "Prueba General",
     description: "Evaluación de conocimientos generales en gestión pública territorial",

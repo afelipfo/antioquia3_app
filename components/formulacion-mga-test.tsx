@@ -337,8 +337,8 @@ export const formulacionMgaQuestions: Question[] = [
 
 export function FormulacionMgaTest() {
   const [answers, setAnswers] = useState<Record<number, number>>({})
+  const [answeredQuestions, setAnsweredQuestions] = useState<Set<number>>(new Set())
   const [showResults, setShowResults] = useState(false)
-  const [showFeedback, setShowFeedback] = useState(false)
 
   const timer = useTestTimer({
     totalQuestions: questions.length,
@@ -348,8 +348,9 @@ export function FormulacionMgaTest() {
   })
 
   const handleAnswerChange = (questionId: number, optionIndex: number) => {
-    if (showResults) return
+    if (answeredQuestions.has(questionId)) return
     setAnswers((prev) => ({ ...prev, [questionId]: optionIndex }))
+    setAnsweredQuestions((prev) => new Set(prev).add(questionId))
   }
 
   const handleSubmit = () => {
@@ -359,8 +360,8 @@ export function FormulacionMgaTest() {
 
   const handleReset = () => {
     setAnswers({})
+    setAnsweredQuestions(new Set())
     setShowResults(false)
-    setShowFeedback(false)
     timer.resetTimer()
   }
 
@@ -435,14 +436,14 @@ export function FormulacionMgaTest() {
 
       {questions.map((question, index) => {
         const selected = answers[question.id]
-        const showState = showResults && showFeedback
+        const isAnswered = answeredQuestions.has(question.id)
         const isCorrect = selected === question.correctAnswer
 
         return (
           <Card
             key={question.id}
             className={`border transition-colors ${
-              showState ? (isCorrect ? "border-green-500 bg-green-50" : "border-red-400 bg-red-50") : "border-border"
+              isAnswered ? (isCorrect ? "border-green-500 bg-green-50" : "border-red-400 bg-red-50") : "border-border"
             }`}
           >
             <CardHeader>
@@ -450,7 +451,7 @@ export function FormulacionMgaTest() {
                 <span>
                   Pregunta {index + 1} · {question.points} pts
                 </span>
-                {showResults && selected !== undefined && (
+                {isAnswered && selected !== undefined && (
                   selected === question.correctAnswer ? (
                     <CheckCircle2 className="h-5 w-5 text-green-500" />
                   ) : (
@@ -465,13 +466,13 @@ export function FormulacionMgaTest() {
               <RadioGroup
                 value={selected?.toString()}
                 onValueChange={(value) => handleAnswerChange(question.id, Number(value))}
-                disabled={showResults}
+                disabled={isAnswered}
               >
                 {question.options.map((option, optionIndex) => (
                   <div
                     key={optionIndex}
                     className={`flex items-start gap-3 rounded-lg border p-3 text-sm leading-relaxed transition ${
-                      showResults
+                      isAnswered
                         ? optionIndex === question.correctAnswer
                           ? "border-green-500 bg-green-50"
                           : selected === optionIndex
@@ -488,7 +489,7 @@ export function FormulacionMgaTest() {
                 ))}
               </RadioGroup>
 
-              {showResults && showFeedback && (
+              {isAnswered && (
                 <Alert className={isCorrect ? "border-green-500 bg-green-50" : "border-orange-400 bg-orange-50"}>
                   <AlertTitle>{isCorrect ? "¡Correcto!" : "Respuesta incorrecta"}</AlertTitle>
                   <AlertDescription>{question.explanation}</AlertDescription>
@@ -502,17 +503,12 @@ export function FormulacionMgaTest() {
       <div className="flex flex-wrap gap-4">
         {!showResults ? (
           <Button onClick={handleSubmit} disabled={Object.keys(answers).length !== questions.length} className="min-w-[200px]">
-            Enviar respuestas
+            Finalizar y ver resultados
           </Button>
         ) : (
-          <>
-            <Button onClick={() => setShowFeedback((prev) => !prev)} variant="outline" className="min-w-[200px]">
-              {showFeedback ? "Ocultar retroalimentacion" : "Mostrar retroalimentacion"}
-            </Button>
-            <Button onClick={handleReset} variant="secondary" className="min-w-[200px]">
-              Reiniciar prueba
-            </Button>
-          </>
+          <Button onClick={handleReset} variant="secondary" className="min-w-[200px]">
+            Reiniciar prueba
+          </Button>
         )}
       </div>
 

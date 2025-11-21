@@ -590,6 +590,7 @@ const questionsV2: Question[] = [
 export function ProcesoDisciplinarioTest() {
   const [selectedVersion, setSelectedVersion] = useState<"v1" | "v2">("v1")
   const [answers, setAnswers] = useState<Record<number, number>>({})
+  const [answeredQuestions, setAnsweredQuestions] = useState<Set<number>>(new Set())
   const [showResults, setShowResults] = useState(false)
   const [showFeedback, setShowFeedback] = useState(false)
 
@@ -610,16 +611,19 @@ export function ProcesoDisciplinarioTest() {
   const handleVersionChange = (value: string) => {
     setSelectedVersion(value as "v1" | "v2")
     setAnswers({})
+    setAnsweredQuestions(new Set())
     setShowResults(false)
     setShowFeedback(false)
     timer.resetTimer()
   }
 
   const handleAnswerChange = (questionId: number, answerIndex: number) => {
+    if (answeredQuestions.has(questionId)) return
     setAnswers((prev) => ({
       ...prev,
       [questionId]: answerIndex
     }))
+    setAnsweredQuestions((prev) => new Set(prev).add(questionId))
   }
 
   const calculateScore = () => {
@@ -640,6 +644,7 @@ export function ProcesoDisciplinarioTest() {
 
   const handleReset = () => {
     setAnswers({})
+    setAnsweredQuestions(new Set())
     setShowResults(false)
     setShowFeedback(false)
     timer.resetTimer()

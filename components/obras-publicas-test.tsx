@@ -463,6 +463,7 @@ const questionsV2: Question[] = [
 
 export function ObrasPublicasTest() {
   const [answers, setAnswers] = useState<Record<number, number>>({})
+  const [answeredQuestions, setAnsweredQuestions] = useState<Set<number>>(new Set())
   const [showResults, setShowResults] = useState(false)
   const [showFeedback, setShowFeedback] = useState(false)
   const [activeTab, setActiveTab] = useState("v1")
@@ -482,7 +483,9 @@ export function ObrasPublicasTest() {
   })
 
   const handleAnswerChange = (questionId: number, answerIndex: number) => {
+    if (answeredQuestions.has(questionId)) return
     setAnswers({ ...answers, [questionId]: answerIndex })
+    setAnsweredQuestions((prev) => new Set(prev).add(questionId))
   }
 
   const calculateScore = () => {
@@ -501,6 +504,7 @@ export function ObrasPublicasTest() {
 
   const handleReset = () => {
     setAnswers({})
+    setAnsweredQuestions(new Set())
     setShowResults(false)
     setShowFeedback(false)
     timer.resetTimer()
@@ -538,119 +542,125 @@ export function ObrasPublicasTest() {
         </TabsList>
 
         <TabsContent value="v1" className="space-y-6 mt-6">
-          {questionsV1.map((q) => (
-            <Card key={q.id} className="border-orange-200">
-              <CardHeader>
-                <CardTitle className="text-lg flex items-start justify-between">
-                  <span className="flex-1">
-                    {q.id}. {q.question}
-                  </span>
-                  <span className="text-sm font-normal text-muted-foreground ml-2">
-                    ({q.points} puntos)
-                  </span>
-                </CardTitle>
-                <CardDescription className="text-xs italic">{q.topic}</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <RadioGroup
-                  value={answers[q.id]?.toString()}
-                  onValueChange={(value) => handleAnswerChange(q.id, parseInt(value))}
-                  disabled={showResults}
-                >
-                  {q.options.map((option, index) => (
-                    <div key={index} className="flex items-start space-x-2">
-                      <RadioGroupItem value={index.toString()} id={`q${q.id}-${index}`} />
-                      <Label
-                        htmlFor={`q${q.id}-${index}`}
-                        className={`flex-1 cursor-pointer ${
-                          showResults
-                            ? index === q.correctAnswer
-                              ? "text-green-700 font-semibold"
-                              : answers[q.id] === index
-                              ? "text-red-700 line-through"
+          {questionsV1.map((q) => {
+            const isAnswered = answeredQuestions.has(q.id)
+            return (
+              <Card key={q.id} className="border-orange-200">
+                <CardHeader>
+                  <CardTitle className="text-lg flex items-start justify-between">
+                    <span className="flex-1">
+                      {q.id}. {q.question}
+                    </span>
+                    <span className="text-sm font-normal text-muted-foreground ml-2">
+                      ({q.points} puntos)
+                    </span>
+                  </CardTitle>
+                  <CardDescription className="text-xs italic">{q.topic}</CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <RadioGroup
+                    value={answers[q.id]?.toString()}
+                    onValueChange={(value) => handleAnswerChange(q.id, parseInt(value))}
+                    disabled={isAnswered}
+                  >
+                    {q.options.map((option, index) => (
+                      <div key={index} className="flex items-start space-x-2">
+                        <RadioGroupItem value={index.toString()} id={`q${q.id}-${index}`} />
+                        <Label
+                          htmlFor={`q${q.id}-${index}`}
+                          className={`flex-1 cursor-pointer ${
+                            isAnswered
+                              ? index === q.correctAnswer
+                                ? "text-green-700 font-semibold"
+                                : answers[q.id] === index
+                                ? "text-red-700 line-through"
+                                : ""
                               : ""
-                            : ""
-                        }`}
-                      >
-                        {option}
-                        {showResults && index === q.correctAnswer && (
-                          <CheckCircle2 className="inline ml-2 h-4 w-4 text-green-600" />
-                        )}
-                        {showResults && answers[q.id] === index && index !== q.correctAnswer && (
-                          <XCircle className="inline ml-2 h-4 w-4 text-red-600" />
-                        )}
-                      </Label>
-                    </div>
-                  ))}
-                </RadioGroup>
-                {showFeedback && (
-                  <Alert className="bg-blue-50 border-blue-200">
-                    <AlertDescription className="text-sm">
-                      <strong>Explicacion:</strong> {q.explanation}
-                    </AlertDescription>
-                  </Alert>
-                )}
-              </CardContent>
-            </Card>
-          ))}
+                          }`}
+                        >
+                          {option}
+                          {isAnswered && index === q.correctAnswer && (
+                            <CheckCircle2 className="inline ml-2 h-4 w-4 text-green-600" />
+                          )}
+                          {isAnswered && answers[q.id] === index && index !== q.correctAnswer && (
+                            <XCircle className="inline ml-2 h-4 w-4 text-red-600" />
+                          )}
+                        </Label>
+                      </div>
+                    ))}
+                  </RadioGroup>
+                  {isAnswered && (
+                    <Alert className="bg-blue-50 border-blue-200">
+                      <AlertDescription className="text-sm">
+                        <strong>Explicacion:</strong> {q.explanation}
+                      </AlertDescription>
+                    </Alert>
+                  )}
+                </CardContent>
+              </Card>
+            )
+          })}
         </TabsContent>
 
         <TabsContent value="v2" className="space-y-6 mt-6">
-          {questionsV2.map((q) => (
-            <Card key={q.id} className="border-orange-200">
-              <CardHeader>
-                <CardTitle className="text-lg flex items-start justify-between">
-                  <span className="flex-1">
-                    {q.id}. {q.question}
-                  </span>
-                  <span className="text-sm font-normal text-muted-foreground ml-2">
-                    ({q.points} puntos)
-                  </span>
-                </CardTitle>
-                <CardDescription className="text-xs italic">{q.topic}</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <RadioGroup
-                  value={answers[q.id]?.toString()}
-                  onValueChange={(value) => handleAnswerChange(q.id, parseInt(value))}
-                  disabled={showResults}
-                >
-                  {q.options.map((option, index) => (
-                    <div key={index} className="flex items-start space-x-2">
-                      <RadioGroupItem value={index.toString()} id={`q${q.id}-${index}`} />
-                      <Label
-                        htmlFor={`q${q.id}-${index}`}
-                        className={`flex-1 cursor-pointer ${
-                          showResults
-                            ? index === q.correctAnswer
-                              ? "text-green-700 font-semibold"
-                              : answers[q.id] === index
-                              ? "text-red-700 line-through"
+          {questionsV2.map((q) => {
+            const isAnswered = answeredQuestions.has(q.id)
+            return (
+              <Card key={q.id} className="border-orange-200">
+                <CardHeader>
+                  <CardTitle className="text-lg flex items-start justify-between">
+                    <span className="flex-1">
+                      {q.id}. {q.question}
+                    </span>
+                    <span className="text-sm font-normal text-muted-foreground ml-2">
+                      ({q.points} puntos)
+                    </span>
+                  </CardTitle>
+                  <CardDescription className="text-xs italic">{q.topic}</CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <RadioGroup
+                    value={answers[q.id]?.toString()}
+                    onValueChange={(value) => handleAnswerChange(q.id, parseInt(value))}
+                    disabled={isAnswered}
+                  >
+                    {q.options.map((option, index) => (
+                      <div key={index} className="flex items-start space-x-2">
+                        <RadioGroupItem value={index.toString()} id={`q${q.id}-${index}`} />
+                        <Label
+                          htmlFor={`q${q.id}-${index}`}
+                          className={`flex-1 cursor-pointer ${
+                            isAnswered
+                              ? index === q.correctAnswer
+                                ? "text-green-700 font-semibold"
+                                : answers[q.id] === index
+                                ? "text-red-700 line-through"
+                                : ""
                               : ""
-                            : ""
-                        }`}
-                      >
-                        {option}
-                        {showResults && index === q.correctAnswer && (
-                          <CheckCircle2 className="inline ml-2 h-4 w-4 text-green-600" />
-                        )}
-                        {showResults && answers[q.id] === index && index !== q.correctAnswer && (
-                          <XCircle className="inline ml-2 h-4 w-4 text-red-600" />
-                        )}
-                      </Label>
-                    </div>
-                  ))}
-                </RadioGroup>
-                {showFeedback && (
-                  <Alert className="bg-blue-50 border-blue-200">
-                    <AlertDescription className="text-sm">
-                      <strong>Explicacion:</strong> {q.explanation}
-                    </AlertDescription>
-                  </Alert>
-                )}
-              </CardContent>
-            </Card>
-          ))}
+                          }`}
+                        >
+                          {option}
+                          {isAnswered && index === q.correctAnswer && (
+                            <CheckCircle2 className="inline ml-2 h-4 w-4 text-green-600" />
+                          )}
+                          {isAnswered && answers[q.id] === index && index !== q.correctAnswer && (
+                            <XCircle className="inline ml-2 h-4 w-4 text-red-600" />
+                          )}
+                        </Label>
+                      </div>
+                    ))}
+                  </RadioGroup>
+                  {isAnswered && (
+                    <Alert className="bg-blue-50 border-blue-200">
+                      <AlertDescription className="text-sm">
+                        <strong>Explicacion:</strong> {q.explanation}
+                      </AlertDescription>
+                    </Alert>
+                  )}
+                </CardContent>
+              </Card>
+            )
+          })}
         </TabsContent>
       </Tabs>
 

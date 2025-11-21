@@ -103,6 +103,7 @@ export function PruebaCompletaTest() {
   const [questions] = useState<Question[]>(() => getAllQuestions())
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>(Array(questions.length).fill(null))
+  const [answeredQuestions, setAnsweredQuestions] = useState<Set<number>>(new Set())
   const [showResults, setShowResults] = useState(false)
   const [timeLeft, setTimeLeft] = useState(405 * 60) // 405 minutos en segundos
 
@@ -124,9 +125,15 @@ export function PruebaCompletaTest() {
   }, [showResults])
 
   const handleAnswer = (answerIndex: number) => {
+    // No permitir cambiar la respuesta si ya fue respondida
+    if (answeredQuestions.has(currentQuestion)) return
+
     const newAnswers = [...selectedAnswers]
     newAnswers[currentQuestion] = answerIndex
     setSelectedAnswers(newAnswers)
+
+    // Marcar esta pregunta como respondida
+    setAnsweredQuestions(prev => new Set(prev).add(currentQuestion))
   }
 
   const handleSubmit = () => {
@@ -310,20 +317,75 @@ export function PruebaCompletaTest() {
           </div>
 
           <div className="space-y-3">
-            {currentQ.options.map((option, idx) => (
-              <button
-                key={idx}
-                onClick={() => handleAnswer(idx)}
-                className={`w-full rounded-lg border-2 p-4 text-left transition-all ${
-                  selectedAnswers[currentQuestion] === idx
-                    ? "border-primary bg-primary/10"
-                    : "border-gray-200 hover:border-primary/50 hover:bg-gray-50"
-                }`}
-              >
-                <p>{option}</p>
-              </button>
-            ))}
+            {currentQ.options.map((option, idx) => {
+              const isSelected = selectedAnswers[currentQuestion] === idx
+              const isCorrect = idx === currentQ.correctAnswer
+              const isAnswered = answeredQuestions.has(currentQuestion)
+
+              return (
+                <button
+                  key={idx}
+                  onClick={() => handleAnswer(idx)}
+                  disabled={isAnswered}
+                  className={`w-full rounded-lg border-2 p-4 text-left transition-all ${
+                    isAnswered
+                      ? isCorrect
+                        ? "border-green-500 bg-green-50"
+                        : isSelected
+                        ? "border-red-500 bg-red-50"
+                        : "border-gray-200 bg-gray-50"
+                      : isSelected
+                      ? "border-primary bg-primary/10"
+                      : "border-gray-200 hover:border-primary/50 hover:bg-gray-50"
+                  } ${isAnswered ? "cursor-not-allowed" : "cursor-pointer"}`}
+                >
+                  <div className="flex items-center justify-between">
+                    <p>{option}</p>
+                    {isAnswered && isCorrect && (
+                      <CheckCircle2 className="h-5 w-5 text-green-600 flex-shrink-0 ml-2" />
+                    )}
+                    {isAnswered && isSelected && !isCorrect && (
+                      <XCircle className="h-5 w-5 text-red-600 flex-shrink-0 ml-2" />
+                    )}
+                  </div>
+                </button>
+              )
+            })}
           </div>
+
+          {answeredQuestions.has(currentQuestion) && (
+            <div className={`rounded-lg border-2 p-4 ${
+              selectedAnswers[currentQuestion] === currentQ.correctAnswer
+                ? "border-green-500 bg-green-50"
+                : "border-blue-500 bg-blue-50"
+            }`}>
+              <div className="flex items-start gap-3">
+                {selectedAnswers[currentQuestion] === currentQ.correctAnswer ? (
+                  <CheckCircle2 className="h-6 w-6 text-green-600 flex-shrink-0 mt-1" />
+                ) : (
+                  <AlertCircle className="h-6 w-6 text-blue-600 flex-shrink-0 mt-1" />
+                )}
+                <div className="flex-1">
+                  <p className={`font-bold mb-2 ${
+                    selectedAnswers[currentQuestion] === currentQ.correctAnswer
+                      ? "text-green-900"
+                      : "text-blue-900"
+                  }`}>
+                    {selectedAnswers[currentQuestion] === currentQ.correctAnswer
+                      ? "¡Respuesta correcta!"
+                      : "Respuesta incorrecta"}
+                  </p>
+                  <p className={`text-sm whitespace-pre-line ${
+                    selectedAnswers[currentQuestion] === currentQ.correctAnswer
+                      ? "text-green-900"
+                      : "text-blue-900"
+                  }`}>
+                    <strong>Explicación:</strong> {currentQ.explanation}
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
 
           <div className="flex gap-4">
             <Button
@@ -336,14 +398,14 @@ export function PruebaCompletaTest() {
             </Button>
 
             {currentQuestion === questions.length - 1 ? (
-              <Button onClick={handleSubmit} className="flex-1" disabled={selectedAnswers[currentQuestion] === null}>
+              <Button onClick={handleSubmit} className="flex-1" disabled={!answeredQuestions.has(currentQuestion)}>
                 Finalizar Prueba
               </Button>
             ) : (
               <Button
                 onClick={() => setCurrentQuestion(currentQuestion + 1)}
                 className="flex-1"
-                disabled={selectedAnswers[currentQuestion] === null}
+                disabled={!answeredQuestions.has(currentQuestion)}
               >
                 Siguiente
               </Button>

@@ -829,7 +829,7 @@ export function JuicioSituacionalTest() {
   }
 
   const handleAnswerChange = (questionId: number, answerId: string) => {
-    if (showResults) return
+    if (answeredQuestions.has(questionId)) return
     setAnswers((prev) => ({ ...prev, [questionId]: answerId }))
   }
 

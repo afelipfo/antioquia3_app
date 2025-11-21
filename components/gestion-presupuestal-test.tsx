@@ -984,7 +984,7 @@ export function GestionPresupuestalTest() {
   })
 
   const handleAnswerChange = (questionId: number, optionIndex: number) => {
-    if (showResults) return
+    if (answeredQuestions.has(questionId)) return
     setAnswers((prev) => ({ ...prev, [questionId]: optionIndex }))
   }
 

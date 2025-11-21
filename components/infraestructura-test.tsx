@@ -740,6 +740,7 @@ export function InfraestructuraTest() {
   const [showResults, setShowResults] = useState(false)
   const [showFeedback, setShowFeedback] = useState(false)
   const [activeTab, setActiveTab] = useState("v1")
+  const [answeredQuestions, setAnsweredQuestions] = useState<Set<number>>(new Set())
 
   const currentQuestions = activeTab === "v1" ? questionsV1 : questionsV2
 
@@ -756,8 +757,9 @@ export function InfraestructuraTest() {
   })
 
   const handleAnswerChange = (questionId: number, answerIndex: number) => {
+    if (answeredQuestions.has(questionId)) return
     setAnswers({ ...answers, [questionId]: answerIndex })
-    setShowFeedback(false)
+    setAnsweredQuestions((prev) => new Set(prev).add(questionId))
   }
 
   const calculateScore = () => {
@@ -776,6 +778,7 @@ export function InfraestructuraTest() {
     setAnswers({})
     setShowResults(false)
     setShowFeedback(false)
+    setAnsweredQuestions(new Set())
     timer.resetTimer()
   }
 
@@ -856,84 +859,87 @@ export function InfraestructuraTest() {
         )}
 
         <div className="space-y-6">
-          {currentQuestions.map((question, index) => (
-            <Card
-              key={question.id}
-              className={
-                showFeedback && answers[question.id] !== undefined
-                  ? answers[question.id] === question.correctAnswer
-                    ? "border-green-500"
-                    : "border-red-500"
-                  : ""
-              }
-            >
-              <CardHeader>
-                <CardTitle className="flex items-center gap-3 text-base">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-primary/10 text-primary font-bold flex-shrink-0">
-                    {index + 1}
-                  </span>
-                  <span className="flex-1">Pregunta {index + 1}</span>
-                  {showFeedback && answers[question.id] !== undefined && (
-                    answers[question.id] === question.correctAnswer ? (
-                      <CheckCircle2 className="h-5 w-5 text-green-600 flex-shrink-0" />
-                    ) : (
-                      <XCircle className="h-5 w-5 text-red-600 flex-shrink-0" />
-                    )
-                  )}
-                </CardTitle>
-                <CardDescription className="text-sm text-muted-foreground">
-                  Tema: {question.topic}
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <p className="font-medium leading-relaxed whitespace-pre-line">{question.question}</p>
+          {currentQuestions.map((question, index) => {
+            const isAnswered = answeredQuestions.has(question.id)
+            return (
+              <Card
+                key={question.id}
+                className={
+                  isAnswered && answers[question.id] !== undefined
+                    ? answers[question.id] === question.correctAnswer
+                      ? "border-green-500"
+                      : "border-red-500"
+                    : ""
+                }
+              >
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-3 text-base">
+                    <span className="flex items-center justify-center w-8 h-8 rounded-full bg-primary/10 text-primary font-bold flex-shrink-0">
+                      {index + 1}
+                    </span>
+                    <span className="flex-1">Pregunta {index + 1}</span>
+                    {isAnswered && answers[question.id] !== undefined && (
+                      answers[question.id] === question.correctAnswer ? (
+                        <CheckCircle2 className="h-5 w-5 text-green-600 flex-shrink-0" />
+                      ) : (
+                        <XCircle className="h-5 w-5 text-red-600 flex-shrink-0" />
+                      )
+                    )}
+                  </CardTitle>
+                  <CardDescription className="text-sm text-muted-foreground">
+                    Tema: {question.topic}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <p className="font-medium leading-relaxed whitespace-pre-line">{question.question}</p>
 
-                <RadioGroup
-                  value={answers[question.id]?.toString()}
-                  onValueChange={(value) => handleAnswerChange(question.id, parseInt(value))}
-                  disabled={showResults}
-                >
-                  {question.options.map((option, optionIndex) => (
-                    <div
-                      key={optionIndex}
-                      className={`flex items-start space-x-3 p-3 rounded-lg border transition-colors ${
-                        showFeedback && answers[question.id] !== undefined
-                          ? optionIndex === question.correctAnswer
-                            ? "border-green-500 bg-green-50"
-                            : answers[question.id] === optionIndex
-                            ? "border-red-500 bg-red-50"
-                            : "border-border"
-                          : "border-border hover:bg-muted/50"
-                      }`}
-                    >
-                      <RadioGroupItem
-                        value={optionIndex.toString()}
-                        id={`q${question.id}-opt${optionIndex}`}
-                        className="mt-0.5"
-                      />
-                      <Label
-                        htmlFor={`q${question.id}-opt${optionIndex}`}
-                        className="flex-1 cursor-pointer leading-relaxed"
+                  <RadioGroup
+                    value={answers[question.id]?.toString()}
+                    onValueChange={(value) => handleAnswerChange(question.id, parseInt(value))}
+                    disabled={isAnswered}
+                  >
+                    {question.options.map((option, optionIndex) => (
+                      <div
+                        key={optionIndex}
+                        className={`flex items-start space-x-3 p-3 rounded-lg border transition-colors ${
+                          isAnswered && answers[question.id] !== undefined
+                            ? optionIndex === question.correctAnswer
+                              ? "border-green-500 bg-green-50"
+                              : answers[question.id] === optionIndex
+                              ? "border-red-500 bg-red-50"
+                              : "border-border"
+                            : "border-border hover:bg-muted/50"
+                        }`}
                       >
-                        {option}
-                      </Label>
-                    </div>
-                  ))}
-                </RadioGroup>
+                        <RadioGroupItem
+                          value={optionIndex.toString()}
+                          id={`q${question.id}-opt${optionIndex}`}
+                          className="mt-0.5"
+                        />
+                        <Label
+                          htmlFor={`q${question.id}-opt${optionIndex}`}
+                          className="flex-1 cursor-pointer leading-relaxed"
+                        >
+                          {option}
+                        </Label>
+                      </div>
+                    ))}
+                  </RadioGroup>
 
-                {showFeedback && answers[question.id] !== undefined && (
-                  <Alert className={answers[question.id] === question.correctAnswer ? "border-green-500 bg-green-50" : "border-orange-500 bg-orange-50"}>
-                    <AlertTitle className="font-semibold">
-                      {answers[question.id] === question.correctAnswer ? "Correcto!" : "Incorrecto"}
-                    </AlertTitle>
-                    <AlertDescription className="text-sm mt-2 leading-relaxed">
-                      {question.explanation}
-                    </AlertDescription>
-                  </Alert>
-                )}
-              </CardContent>
-            </Card>
-          ))}
+                  {isAnswered && (
+                    <Alert className={answers[question.id] === question.correctAnswer ? "border-green-500 bg-green-50" : "border-orange-500 bg-orange-50"}>
+                      <AlertTitle className="font-semibold">
+                        {answers[question.id] === question.correctAnswer ? "Correcto!" : "Incorrecto"}
+                      </AlertTitle>
+                      <AlertDescription className="text-sm mt-2 leading-relaxed">
+                        {question.explanation}
+                      </AlertDescription>
+                    </Alert>
+                  )}
+                </CardContent>
+              </Card>
+            )
+          })}
         </div>
 
         {!showResults && (
@@ -945,7 +951,7 @@ export function InfraestructuraTest() {
               className="min-w-[200px]"
             >
               {Object.keys(answers).length === currentQuestions.length
-                ? "Ver Resultados"
+                ? "Finalizar y ver resultados"
                 : `Responde todas las preguntas (${Object.keys(answers).length}/${currentQuestions.length})`}
             </Button>
           </div>

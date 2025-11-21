@@ -590,6 +590,7 @@ const questionsV2: Question[] = [
 export function MipgTest() {
   const [selectedVersion, setSelectedVersion] = useState<"v1" | "v2">("v1")
   const [answers, setAnswers] = useState<Record<number, number>>({})
+  const [answeredQuestions, setAnsweredQuestions] = useState<Set<number>>(new Set())
   const [showResults, setShowResults] = useState(false)
   const [showFeedback, setShowFeedback] = useState(false)
 
@@ -610,16 +611,19 @@ export function MipgTest() {
   const handleVersionChange = (value: string) => {
     setSelectedVersion(value as "v1" | "v2")
     setAnswers({})
+    setAnsweredQuestions(new Set())
     setShowResults(false)
     setShowFeedback(false)
     timer.resetTimer()
   }
 
   const handleAnswerChange = (questionId: number, answerIndex: number) => {
+    if (answeredQuestions.has(questionId)) return
     setAnswers((prev) => ({
       ...prev,
       [questionId]: answerIndex
     }))
+    setAnsweredQuestions((prev) => new Set(prev).add(questionId))
   }
 
   const calculateScore = () => {
@@ -640,6 +644,7 @@ export function MipgTest() {
 
   const handleReset = () => {
     setAnswers({})
+    setAnsweredQuestions(new Set())
     setShowResults(false)
     setShowFeedback(false)
     timer.resetTimer()
@@ -707,94 +712,97 @@ export function MipgTest() {
         </Alert>
       )}
 
-      {questions.map((question, index) => (
-        <Card
-          key={question.id}
-          className={`border ${
-            showFeedback && answers[question.id] !== undefined
-              ? answers[question.id] === question.correctAnswer
-                ? "border-green-500 bg-green-50/50"
-                : "border-red-500 bg-red-50/50"
-              : "border-border"
-          }`}
-        >
-          <CardHeader>
-            <CardTitle className="flex items-start justify-between gap-4 text-lg">
-              <span>
-                Pregunta {index + 1} ({question.points} puntos)
-              </span>
-              {showFeedback && answers[question.id] !== undefined && (
-                answers[question.id] === question.correctAnswer ? (
-                  <CheckCircle2 className="h-5 w-5 flex-shrink-0 text-green-600" />
-                ) : (
-                  <XCircle className="h-5 w-5 flex-shrink-0 text-red-600" />
-                )
-              )}
-            </CardTitle>
-            <CardDescription className="text-sm text-muted-foreground">Tema: {question.topic}</CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <p className="font-medium leading-relaxed whitespace-pre-line">{question.question}</p>
+      {questions.map((question, index) => {
+        const isAnswered = answeredQuestions.has(question.id)
+        return (
+          <Card
+            key={question.id}
+            className={`border ${
+              isAnswered && answers[question.id] !== undefined
+                ? answers[question.id] === question.correctAnswer
+                  ? "border-green-500 bg-green-50/50"
+                  : "border-red-500 bg-red-50/50"
+                : "border-border"
+            }`}
+          >
+            <CardHeader>
+              <CardTitle className="flex items-start justify-between gap-4 text-lg">
+                <span>
+                  Pregunta {index + 1} ({question.points} puntos)
+                </span>
+                {isAnswered && answers[question.id] !== undefined && (
+                  answers[question.id] === question.correctAnswer ? (
+                    <CheckCircle2 className="h-5 w-5 flex-shrink-0 text-green-600" />
+                  ) : (
+                    <XCircle className="h-5 w-5 flex-shrink-0 text-red-600" />
+                  )
+                )}
+              </CardTitle>
+              <CardDescription className="text-sm text-muted-foreground">Tema: {question.topic}</CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <p className="font-medium leading-relaxed whitespace-pre-line">{question.question}</p>
 
-            <RadioGroup
-              value={answers[question.id]?.toString()}
-              onValueChange={(value) => handleAnswerChange(question.id, parseInt(value))}
-              disabled={showResults}
-            >
-              {question.options.map((option, optionIndex) => (
-                <div
-                  key={optionIndex}
-                  className={`flex items-start space-x-3 rounded-lg border p-3 transition-colors ${
-                    showFeedback && answers[question.id] !== undefined
-                      ? optionIndex === question.correctAnswer
-                        ? "border-green-500 bg-green-50"
-                        : answers[question.id] === optionIndex
-                        ? "border-red-500 bg-red-50"
-                        : "border-border"
-                      : "border-border hover:bg-muted/50"
-                  }`}
-                >
-                  <RadioGroupItem
-                    value={optionIndex.toString()}
-                    id={`mipg-q${question.id}-opt${optionIndex}`}
-                    className="mt-0.5"
-                  />
-                  <Label
-                    htmlFor={`mipg-q${question.id}-opt${optionIndex}`}
-                    className="flex-1 cursor-pointer leading-relaxed"
-                  >
-                    {option}
-                  </Label>
-                </div>
-              ))}
-            </RadioGroup>
-
-            {showFeedback && answers[question.id] !== undefined && (
-              <Alert
-                className={
-                  answers[question.id] === question.correctAnswer
-                    ? "border-green-500 bg-green-50"
-                    : "border-orange-500 bg-orange-50"
-                }
+              <RadioGroup
+                value={answers[question.id]?.toString()}
+                onValueChange={(value) => handleAnswerChange(question.id, parseInt(value))}
+                disabled={isAnswered}
               >
-                <AlertTitle className="font-semibold">
-                  {answers[question.id] === question.correctAnswer ? "¡Correcto!" : "Respuesta incorrecta"}
-                </AlertTitle>
-                <AlertDescription className="mt-2 space-y-2">
-                  <p>
-                    <strong>Explicacion:</strong> {question.explanation}
-                  </p>
-                  {answers[question.id] !== question.correctAnswer && (
-                    <p className="text-sm">
-                      <strong>Debes revisar:</strong> {question.topic}
+                {question.options.map((option, optionIndex) => (
+                  <div
+                    key={optionIndex}
+                    className={`flex items-start space-x-3 rounded-lg border p-3 transition-colors ${
+                      isAnswered && answers[question.id] !== undefined
+                        ? optionIndex === question.correctAnswer
+                          ? "border-green-500 bg-green-50"
+                          : answers[question.id] === optionIndex
+                          ? "border-red-500 bg-red-50"
+                          : "border-border"
+                        : "border-border hover:bg-muted/50"
+                    }`}
+                  >
+                    <RadioGroupItem
+                      value={optionIndex.toString()}
+                      id={`mipg-q${question.id}-opt${optionIndex}`}
+                      className="mt-0.5"
+                    />
+                    <Label
+                      htmlFor={`mipg-q${question.id}-opt${optionIndex}`}
+                      className="flex-1 cursor-pointer leading-relaxed"
+                    >
+                      {option}
+                    </Label>
+                  </div>
+                ))}
+              </RadioGroup>
+
+              {isAnswered && answers[question.id] !== undefined && (
+                <Alert
+                  className={
+                    answers[question.id] === question.correctAnswer
+                      ? "border-green-500 bg-green-50"
+                      : "border-orange-500 bg-orange-50"
+                  }
+                >
+                  <AlertTitle className="font-semibold">
+                    {answers[question.id] === question.correctAnswer ? "¡Correcto!" : "Respuesta incorrecta"}
+                  </AlertTitle>
+                  <AlertDescription className="mt-2 space-y-2">
+                    <p>
+                      <strong>Explicacion:</strong> {question.explanation}
                     </p>
-                  )}
-                </AlertDescription>
-              </Alert>
-            )}
-          </CardContent>
-        </Card>
-      ))}
+                    {answers[question.id] !== question.correctAnswer && (
+                      <p className="text-sm">
+                        <strong>Debes revisar:</strong> {question.topic}
+                      </p>
+                    )}
+                  </AlertDescription>
+                </Alert>
+              )}
+            </CardContent>
+          </Card>
+        )
+      })}
 
       <div className="flex flex-wrap gap-4">
         {!showResults ? (
@@ -804,22 +812,12 @@ export function MipgTest() {
             disabled={Object.keys(answers).length !== questions.length}
             className="min-w-[200px]"
           >
-            Enviar Respuestas
+            Finalizar y ver resultados
           </Button>
         ) : (
-          <>
-            <Button
-              onClick={() => setShowFeedback(!showFeedback)}
-              variant="outline"
-              size="lg"
-              className="min-w-[200px]"
-            >
-              {showFeedback ? "Ocultar" : "Mostrar"} Retroalimentacion
-            </Button>
-            <Button onClick={handleReset} variant="secondary" size="lg" className="min-w-[200px]">
-              Reiniciar Prueba
-            </Button>
-          </>
+          <Button onClick={handleReset} variant="secondary" size="lg" className="min-w-[200px]">
+            Reiniciar Prueba
+          </Button>
         )}
       </div>
     </div>

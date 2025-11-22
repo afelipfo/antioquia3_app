@@ -6451,6 +6451,7 @@ export const razonamientoQuestionsV2: RazonamientoQuestion[] = [
 export function RazonamientoTest() {
   const [selectedVersion, setSelectedVersion] = useState<"v1" | "v2">("v1")
   const [answers, setAnswers] = useState<Record<number, string>>({})
+  const [answeredQuestions, setAnsweredQuestions] = useState<Set<number>>(new Set())
   const [showResults, setShowResults] = useState(false)
   const [showFeedback, setShowFeedback] = useState(false)
 
@@ -6485,6 +6486,7 @@ export function RazonamientoTest() {
   const handleVersionChange = (value: string) => {
     setSelectedVersion(value as "v1" | "v2")
     setAnswers({})
+    setAnsweredQuestions(new Set())
     setShowResults(false)
     setShowFeedback(false)
   }
@@ -6492,6 +6494,7 @@ export function RazonamientoTest() {
   const handleAnswerChange = (questionId: number, answerId: string) => {
     if (answeredQuestions.has(questionId)) return
     setAnswers((prev) => ({ ...prev, [questionId]: answerId }))
+    setAnsweredQuestions((prev) => new Set(prev).add(questionId))
   }
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -6504,6 +6507,7 @@ export function RazonamientoTest() {
 
   const handleReset = () => {
     setAnswers({})
+    setAnsweredQuestions(new Set())
     setShowResults(false)
     setShowFeedback(false)
     timer.resetTimer()

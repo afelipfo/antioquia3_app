@@ -931,14 +931,14 @@ export function JuicioSituacionalTest() {
       <div className="space-y-6">
         {questions.map((question, index) => {
           const selectedAnswer = answers[question.id]
-          const isCorrect = showResults && selectedAnswer === question.correct
-          const showState = showResults && showFeedback
+          const isAnswered = answeredQuestions.has(question.id)
+          const isCorrect = isAnswered && selectedAnswer === question.correct
 
           return (
             <Card
               key={question.id}
               className={`border transition-colors ${
-                showState
+                isAnswered
                   ? isCorrect
                     ? "border-emerald-400/70 bg-emerald-50/70"
                     : selectedAnswer
@@ -962,8 +962,8 @@ export function JuicioSituacionalTest() {
                 {question.options.map((option) => {
                   const isSelected = selectedAnswer === option.id
                   const isOptionCorrect = question.correct === option.id
-                  const showCorrect = showState && isOptionCorrect
-                  const showIncorrect = showState && isSelected && !isOptionCorrect
+                  const showCorrect = isAnswered && isOptionCorrect
+                  const showIncorrect = isAnswered && isSelected && !isOptionCorrect
 
                   return (
                     <label
@@ -972,7 +972,7 @@ export function JuicioSituacionalTest() {
                         isSelected
                           ? "border-primary/60 bg-primary/10 text-primary"
                           : "border-white/40 bg-white/70 hover:border-primary/40 hover:bg-primary/5"
-                      } ${showResults ? "pointer-events-none opacity-90" : ""}`}
+                      } ${isAnswered ? "pointer-events-none opacity-90" : ""}`}
                     >
                       <span className="flex-1 text-left leading-relaxed">{option.text}</span>
                       <input
@@ -981,7 +981,7 @@ export function JuicioSituacionalTest() {
                         value={option.id}
                         checked={isSelected}
                         onChange={() => handleAnswerChange(question.id, option.id)}
-                        disabled={showResults}
+                        disabled={isAnswered}
                         className="hidden"
                       />
                       {showCorrect && <CheckCircle2 className="h-5 w-5 text-emerald-500" aria-hidden="true" />}
@@ -990,7 +990,7 @@ export function JuicioSituacionalTest() {
                   )
                 })}
 
-                {showState && (
+                {isAnswered && (
                   <div className="rounded-2xl border border-white/40 bg-white/70 px-4 py-3 text-sm text-muted-foreground">
                     <p className="flex items-center gap-2 text-foreground">
                       <Info className="h-4 w-4 text-primary" />

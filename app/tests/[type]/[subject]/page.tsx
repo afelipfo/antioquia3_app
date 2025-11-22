@@ -27,14 +27,14 @@ import { BehavioralQuiz } from "@/components/behavioral-quiz"
 import { behavioralSubjects } from "@/lib/behavioral-competencies"
 
 interface TestPageProps {
-  params: Promise<{
+  params: {
     type: string
     subject: string
-  }>
+  }
 }
 
-export default async function TestPage({ params }: TestPageProps) {
-  const { type, subject } = await params
+export default function TestPage({ params }: TestPageProps) {
+  const { type, subject } = params
 
   if (!type || !subject) {
     notFound()

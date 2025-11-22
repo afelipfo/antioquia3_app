@@ -1052,14 +1052,14 @@ export function GestionPresupuestalTest() {
 
       {questions.map((question, index) => {
         const selected = answers[question.id]
+        const isAnswered = answeredQuestions.has(question.id)
         const isCorrect = selected === question.correctAnswer
-        const showState = showResults && showFeedback
 
         return (
           <Card
             key={question.id}
             className={`border transition-colors ${
-              showState ? (isCorrect ? "border-green-500 bg-green-50/60" : "border-red-400 bg-red-50/60") : "border-border"
+              isAnswered ? (isCorrect ? "border-green-500 bg-green-50/60" : "border-red-400 bg-red-50/60") : "border-border"
             }`}
           >
             <CardHeader>
@@ -1067,7 +1067,7 @@ export function GestionPresupuestalTest() {
                 <span>
                   Pregunta {index + 1} · {question.points} puntos
                 </span>
-                {showResults && selected !== undefined && (
+                {isAnswered && selected !== undefined && (
                   selected === question.correctAnswer ? (
                     <CheckCircle2 className="h-5 w-5 text-green-500" />
                   ) : (
@@ -1082,13 +1082,13 @@ export function GestionPresupuestalTest() {
               <RadioGroup
                 value={selected?.toString()}
                 onValueChange={(value) => handleAnswerChange(question.id, Number(value))}
-                disabled={showResults}
+                disabled={isAnswered}
               >
                 {question.options.map((option, optionIndex) => (
                   <div
                     key={optionIndex}
                     className={`flex items-start gap-3 rounded-lg border p-3 text-sm leading-relaxed transition ${
-                      showResults
+                      isAnswered
                         ? optionIndex === question.correctAnswer
                           ? "border-green-500 bg-green-50"
                           : selected === optionIndex
@@ -1105,7 +1105,7 @@ export function GestionPresupuestalTest() {
                 ))}
               </RadioGroup>
 
-              {showResults && showFeedback && (
+              {isAnswered && (
                 <Alert className={isCorrect ? "border-green-500 bg-green-50" : "border-orange-400 bg-orange-50"}>
                   <AlertTitle>{isCorrect ? "¡Correcto!" : "Respuesta incorrecta"}</AlertTitle>
                   <AlertDescription className="mt-2 space-y-1 text-sm">

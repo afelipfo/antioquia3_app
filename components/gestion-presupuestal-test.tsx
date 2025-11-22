@@ -988,6 +988,7 @@ export function GestionPresupuestalTest() {
   const handleAnswerChange = (questionId: number, optionIndex: number) => {
     if (answeredQuestions.has(questionId)) return
     setAnswers((prev) => ({ ...prev, [questionId]: optionIndex }))
+    setAnsweredQuestions((prev) => new Set(prev).add(questionId))
   }
 
   const handleSubmit = () => {
@@ -997,10 +998,7 @@ export function GestionPresupuestalTest() {
 
   const handleReset = () => {
     setAnswers({})
-    setShowResults(false)
-    setShowFeedback(false)
-    timer.resetTimer()
-  }
+    setAnsweredQuestions(new Set())
 
   const score = questions.reduce(
     (acc, question) => {

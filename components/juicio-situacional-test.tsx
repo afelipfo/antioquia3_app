@@ -801,6 +801,7 @@ const questionsV2: Question[] = [
 export function JuicioSituacionalTest() {
   const [selectedVersion, setSelectedVersion] = useState<"v1" | "v2">("v1")
   const [answers, setAnswers] = useState<Record<number, string>>({})
+  const [answeredQuestions, setAnsweredQuestions] = useState<Set<number>>(new Set())
   const [showResults, setShowResults] = useState(false)
   const [showFeedback, setShowFeedback] = useState(false)
 
@@ -823,6 +824,7 @@ export function JuicioSituacionalTest() {
   const handleVersionChange = (value: string) => {
     setSelectedVersion(value as "v1" | "v2")
     setAnswers({})
+    setAnsweredQuestions(new Set())
     setShowResults(false)
     setShowFeedback(false)
     timer.resetTimer()
@@ -831,6 +833,7 @@ export function JuicioSituacionalTest() {
   const handleAnswerChange = (questionId: number, answerId: string) => {
     if (answeredQuestions.has(questionId)) return
     setAnswers((prev) => ({ ...prev, [questionId]: answerId }))
+    setAnsweredQuestions((prev) => new Set(prev).add(questionId))
   }
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -841,6 +844,7 @@ export function JuicioSituacionalTest() {
 
   const handleReset = () => {
     setAnswers({})
+    setAnsweredQuestions(new Set())
     setShowResults(false)
     setShowFeedback(false)
     timer.resetTimer()

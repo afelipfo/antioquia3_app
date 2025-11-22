@@ -336,6 +336,8 @@ export function RazonamientoLogicoTest() {
   const [showResults, setShowResults] = useState(false)
   const [showFeedback, setShowFeedback] = useState(false)
 
+  const questions = razonamientoLogicoQuestions
+
   const timer = useTestTimer({
     totalQuestions: questions.length,
     timePerQuestion: 120,

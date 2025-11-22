@@ -17,6 +17,7 @@ type BehavioralQuizProps = {
 export function BehavioralQuiz({ subject }: BehavioralQuizProps) {
   const [selectedVersion, setSelectedVersion] = useState<"v1" | "v2">("v1")
   const [answers, setAnswers] = useState<Record<string, string>>({})
+  const [answeredQuestions, setAnsweredQuestions] = useState<Set<string>>(new Set())
   const [submitted, setSubmitted] = useState(false)
   const [score, setScore] = useState(0)
   const [showFeedback, setShowFeedback] = useState(false)
@@ -60,6 +61,7 @@ export function BehavioralQuiz({ subject }: BehavioralQuizProps) {
     setSelectedVersion(value as "v1" | "v2")
     // Reiniciar estado cuando se cambia de versión
     setAnswers({})
+    setAnsweredQuestions(new Set())
     setSubmitted(false)
     setScore(0)
     setShowFeedback(false)
@@ -67,11 +69,12 @@ export function BehavioralQuiz({ subject }: BehavioralQuizProps) {
   }
 
   const handleChange = (questionId: string, optionValue: string) => {
-    if (submitted) return
+    if (answeredQuestions.has(questionId)) return
     setAnswers((prev) => ({
       ...prev,
       [questionId]: optionValue,
     }))
+    setAnsweredQuestions((prev) => new Set(prev).add(questionId))
   }
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
@@ -81,6 +84,7 @@ export function BehavioralQuiz({ subject }: BehavioralQuizProps) {
 
   const resetQuiz = () => {
     setAnswers({})
+    setAnsweredQuestions(new Set())
     setSubmitted(false)
     setScore(0)
     setShowFeedback(false)
@@ -160,14 +164,14 @@ export function BehavioralQuiz({ subject }: BehavioralQuizProps) {
       <div className="space-y-6">
         {currentSubject.questions.map((question, index) => {
           const selected = answers[question.id]
-          const isCorrect = submitted && selected === question.correctOption
-          const showState = submitted && showFeedback
+          const isAnswered = answeredQuestions.has(question.id)
+          const isCorrect = isAnswered && selected === question.correctOption
 
           return (
             <Card
               key={question.id}
               className={`border transition-colors ${
-                showState
+                isAnswered
                   ? isCorrect
                     ? "border-emerald-400/70 bg-emerald-50/70"
                     : selected
@@ -192,8 +196,8 @@ export function BehavioralQuiz({ subject }: BehavioralQuizProps) {
                 {question.options.map((option) => {
                   const isSelected = selected === option.value
                   const isOptionCorrect = question.correctOption === option.value
-                  const showCorrect = showState && isOptionCorrect
-                  const showIncorrect = showState && isSelected && !isOptionCorrect
+                  const showCorrect = isAnswered && isOptionCorrect
+                  const showIncorrect = isAnswered && isSelected && !isOptionCorrect
 
                   return (
                     <label
@@ -202,7 +206,7 @@ export function BehavioralQuiz({ subject }: BehavioralQuizProps) {
                         isSelected
                           ? "border-primary/60 bg-primary/10 text-primary"
                           : "border-white/40 bg-white/70 hover:border-primary/40 hover:bg-primary/5"
-                      } ${submitted ? "pointer-events-none opacity-90" : ""}`}
+                      } ${isAnswered ? "pointer-events-none opacity-90" : ""}`}
                     >
                       <span className="flex-1 text-left leading-relaxed">{option.label}</span>
                       <input
@@ -211,7 +215,7 @@ export function BehavioralQuiz({ subject }: BehavioralQuizProps) {
                         value={option.value}
                         checked={isSelected}
                         onChange={() => handleChange(question.id, option.value)}
-                        disabled={submitted}
+                        disabled={isAnswered}
                         className="hidden"
                       />
                       {showCorrect && <CheckCircle2 className="h-5 w-5 text-emerald-500" aria-hidden="true" />}
@@ -220,7 +224,7 @@ export function BehavioralQuiz({ subject }: BehavioralQuizProps) {
                   )
                 })}
 
-                {showState && (
+                {isAnswered && (
                   <div className="rounded-2xl border border-white/40 bg-white/70 px-4 py-3 text-sm text-muted-foreground">
                     <p className="flex items-center gap-2 text-foreground">
                       <Info className="h-4 w-4 text-primary" />

@@ -21,7 +21,7 @@ interface Question {
   topic: string
 }
 
-export const mipgQuestions: Question[] = [
+export const questionsV1: Question[] = [
   {
     id: 1,
     question: "Situacion\n\nLa Gobernacion de Antioquia esta revisando su marco de gestion institucional para mejorar el cumplimiento de metas y la respuesta al ciudadano. El equipo directivo necesita clarificar cual es la finalidad principal del modelo que deben implementar.\n\nPregunta\n\nSegun la situacion descrita, ¿cual es el proposito central del Modelo Integrado de Planeacion y Gestion (MIPG)?",

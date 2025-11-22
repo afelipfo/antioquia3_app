@@ -21,7 +21,7 @@ interface Question {
   topic: string
 }
 
-export const gestionProyectosQuestions: Question[] = [
+export const questionsV1: Question[] = [
   // Ejecucion de proyectos
   {
     id: 1,

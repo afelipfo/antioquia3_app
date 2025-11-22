@@ -340,6 +340,8 @@ export function FormulacionMgaTest() {
   const [answeredQuestions, setAnsweredQuestions] = useState<Set<number>>(new Set())
   const [showResults, setShowResults] = useState(false)
 
+  const questions = formulacionMgaQuestions
+
   const timer = useTestTimer({
     totalQuestions: questions.length,
     timePerQuestion: 120,

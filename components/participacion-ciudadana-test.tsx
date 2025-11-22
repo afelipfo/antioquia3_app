@@ -340,6 +340,8 @@ export function ParticipacionCiudadanaTest() {
   const [showResults, setShowResults] = useState(false)
   const [showFeedback, setShowFeedback] = useState(false)
 
+  const questions = participacionCiudadanaQuestions
+
   const timer = useTestTimer({
     totalQuestions: questions.length,
     timePerQuestion: 120,

@@ -614,6 +614,8 @@ export function BloqueConstitucionalidadTest() {
   const [showResults, setShowResults] = useState(false)
   const [showFeedback, setShowFeedback] = useState(false)
 
+  const questions = bloqueConstitucionalidadQuestions
+
   const timer = useTestTimer({
     totalQuestions: questions.length,
     timePerQuestion: 120,

@@ -21,7 +21,7 @@ interface Question {
   topic: string
 }
 
-export const planesMejoramientoQuestions: Question[] = [
+export const questionsV1: Question[] = [
   // CONTROL INTERNO (8 preguntas)
   {
     id: 1,

@@ -976,6 +976,8 @@ export function GestionPresupuestalTest() {
   const [showResults, setShowResults] = useState(false)
   const [showFeedback, setShowFeedback] = useState(false)
 
+  const questions = gestionPresupuestalQuestions
+
   const timer = useTestTimer({
     totalQuestions: questions.length,
     timePerQuestion: 120,

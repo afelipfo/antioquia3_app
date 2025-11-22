@@ -21,7 +21,7 @@ interface Question {
   topic: string
 }
 
-export const pqrsdQuestions: Question[] = [
+export const questionsV1: Question[] = [
   // DERECHO DE PETICIÓN (8 preguntas)
   {
     id: 1,

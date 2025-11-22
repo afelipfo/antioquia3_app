@@ -19,7 +19,7 @@ type Question = {
   points: number
 }
 
-export const juicioSituacionalQuestions: Question[] = [
+export const questionsV1: Question[] = [
   // Pregunta 1
   {
     id: 1,

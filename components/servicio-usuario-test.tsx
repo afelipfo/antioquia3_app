@@ -21,7 +21,7 @@ interface Question {
   topic: string
 }
 
-export const servicioUsuarioQuestions: Question[] = [
+export const questionsV1: Question[] = [
   {
     id: 1,
     question: "Situacion\n\nEl Centro Integrado de Atencion de la Gobernacion de Antioquia organiza una jornada de capacitacion para servidores publicos sobre protocolos de atencion. El coordinador presenta el material basado en la NTC 6047 y explica que el proposito es mejorar la experiencia ciudadana.\n\nPregunta\n\nCon base en la situacion descrita, ¿cual es el objetivo central de la presentacion 'Protocolos de Atencion al Ciudadano y aplicacion de la NTC 6047'?",
